@@ -1,0 +1,301 @@
+.t4s-product__social.t4s__addthis .at-resp-share-element .at-share-btn {
+	padding: 0 !important;
+	width: inherit;
+	height: inherit;
+	margin: 0 var(--social-mgr) var(--social-mgb) 0 !important;
+	color: var(--text-color) !important;
+}
+.t4s-product__social.t4s__addthis .at-resp-share-element .at-share-btn:hover,
+.t4s-product__social.t4s__addthis .at-resp-share-element .at-share-btn:focus {
+	color: #222;
+}
+.t4s-product__social.t4s__addthis.t4s-setts-color-true .at-resp-share-element .at-share-btn {
+	color: var(--cl) !important;
+	background-color: transparent !important;
+    border-color: transparent !important;
+}
+.t4s-product__social.t4s__addthis .at-resp-share-element .at-share-btn .at-icon-wrapper {
+	width: 100% !important;
+	height: 100% !important;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --facebook-cl: rgb(59, 89, 152);
+    --twitter-cl: rgb(29, 161, 242);
+    --instagram-cl: rgb(224, 53, 102);
+    --dribbble-cl: rgb(234, 76, 137);
+    --linkedin-cl: rgb(0, 119, 181);
+    --pinterest-cl: rgb(203, 32, 39);
+    --pinterest_share-cl: rgb(203, 32, 39);
+    --tumblr-cl: rgb(55, 69, 92);
+    --snapchat-cl: rgb(255, 221, 0);
+    --youtube-cl: rgb(205, 32, 31);
+    --vimeo-cl: rgb(26, 183, 234);
+    --behance-cl: rgb(23, 106, 255);
+    --soundcloud-cl: rgb(255, 119, 0);
+    --tiktok-cl: #FE2C55;
+    --email-cl: rgb(219, 68, 55);
+    --telegram-cl: rgb(0, 136, 204);
+    --messenger-cl: rgb(130,205,242);
+}
+.t4s-socials.t4s__addthis a {
+	text-align: center;
+}
+.t4s-socials.t4s__addthis a:last-child {
+	margin-right: 0;
+}
+.t4s-socials.t4s__addthis a {
+	vertical-align: top;
+    transition: all 0.5s ease;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+	overflow: hidden;
+	color: var(--text-color);
+	background-color: transparent;
+    border-color: var(--text-color);
+    border-radius: var(--bd-radius)
+}
+.t4s-socials.t4s-setts-color-true a {
+	color: var(--cl);
+	background-color: var(--bg-cl);
+    border-color: var(--cl);
+}
+.t4s-socials.t4s__addthis a:hover {
+	transform: translateY(-5px);
+	background-color: transparent;
+}
+.t4s-socials.t4s__addthis a svg {
+	fill: currentColor !important;
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+}
+.t4s-socials.t4s__addthis a svg {
+	height: 24px !important;
+	width: 24px !important;
+}
+.t4s-socials.t4s-socials-style-1 a {
+	width: auto;
+	height: auto;
+	background-color: transparent !important; 
+}
+.t4s-socials-size-small.t4s-socials-style-1 a {
+	min-height: 24px !important;
+}
+.t4s-socials-size-medium.t4s-socials-style-1 a {
+	min-height: 30px !important;
+}
+.t4s-socials-size-large.t4s-socials-style-1 a {
+	min-height: 35px !important;
+}
+.t4s-socials-style-1 a:hover {
+	background-color: transparent;
+}
+.t4s-product__social.t4s__addthis.t4s-socials-style-1 .at-resp-share-element .at-share-btn:focus, 
+.t4s-product__social.t4s__addthis.t4s-socials-style-1 .at-resp-share-element .at-share-btn:hover {
+	background-color: transparent !important;
+}
+.t4s-socials.t4s-socials-style-1 a.at-svc-facebook:hover {color: var(--facebook-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-twitter:hover {color: var(--twitter-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-instagram:hover {color: var(--instagram-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-dribbble:hover {color: var(--dribbble-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-linkedin:hover {color: var(--linkedin-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-pinterest:hover {color: var(--pinterest-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-pinterest_share:hover {color: var(--pinterest_share-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-tumblr:hover {color: var(--tumblr-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-snapchat:hover {color: var(--snapchat-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-youtube:hover {color: var(--youtube-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-vimeo:hover {color: var(--vimeo-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-behance:hover {color: var(--behance-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-soundcloud:hover {color: var(--soundcloud-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-tiktok:hover {color: var(--tiktok-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-email:hover {color: var(--email-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-telegram:hover {color: var(--telegram-cl) !important;}
+.t4s-socials.t4s-socials-style-1 a.at-svc-messenger:hover {color: var(--messenger-cl) !important;}
+
+.t4s-product__social.t4s__addthis.t4s-setts-color-true .at-resp-share-element .at-share-btn:focus, 
+.t4s-product__social.t4s__addthis.t4s-setts-color-true .at-resp-share-element .at-share-btn:hover {
+	color: var(--bg-cl) !important;
+}
+.t4s-socials-style-2 a {
+	color: var(--t4s-light-color);
+	background-color: var(--text-color);
+}
+.t4s-product__social.t4s__addthis.t4s-socials-style-2 .at-resp-share-element .at-share-btn {
+	color: var(--t4s-light-color) !important;
+	background-color: var(--text-color) !important;
+}
+
+.t4s-socials.t4s-socials-style-2 a.at-svc-facebook:hover {background-color: var(--facebook-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-twitter:hover {background-color: var(--twitter-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-instagram:hover {background: linear-gradient(#8a3ab9,#e95950,#fccc63) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-dribbble:hover {background-color: var(--dribbble-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-linkedin:hover {background-color: var(--linkedin-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-pinterest:hover {background-color: var(--pinterest-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-pinterest_share:hover {background-color: var(--pinterest_share-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-tumblr:hover {background-color: var(--tumblr-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-snapchat:hover {background-color: var(--snapchat-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-youtube:hover {background-color: var(--youtube-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-vimeo:hover {background-color: var(--vimeo-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-behance:hover {background-color: var(--behance-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-soundcloud:hover {background-color: var(--soundcloud-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-tiktok:hover {background: linear-gradient(#25F4EE,#000000,#FE2C55) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-email:hover {background: linear-gradient(rgb(219, 68, 55),#EFA134,#E4D81B,#2DBF19) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-telegram:hover {background-color: var(--telegram-cl) !important;}
+.t4s-socials.t4s-socials-style-2 a.at-svc-messenger:hover {background-color: var(--messenger-cl) !important;}
+
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-2 .at-resp-share-element .at-share-btn {
+	color: var(--t4s-light-color) !important;
+	background-color: var(--cl) !important;
+}
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-2 .at-resp-share-element .at-share-btn:focus, 
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-2 .at-resp-share-element .at-share-btn:hover {
+	color: var(--t4s-light-color) !important;
+	background-color: var(--bg-cl) !important;
+	background: var(--bg-cl) !important;
+}
+.t4s-product__social.t4s__addthis.t4s-socials-style-3 .at-resp-share-element .at-share-btn {
+	border: solid 2px var(--text-color);
+	color: var(--text-color);
+	background-color: transparent !important;
+	background: transparent !important;
+}
+
+.t4s-socials.t4s-socials-style-3 a.at-svc-facebook:hover {color: var(--facebook-cl) !important;border-color: var(--facebook-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-twitter:hover {color: var(--twitter-cl) !important;border-color: var(--twitter-cl);}
+.t4s-socials.t4s-socials-style-3 a.at-svc-instagram:hover {color: var(--instagram-cl) !important;border-color: var(--instagram-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-dribbble:hover {color: var(--dribbble-cl) !important;border-color: var(--dribbble-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-linkedin:hover {color: var(--linkedin-cl) !important;border-color: var(--linkedin-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-pinterest:hover {color: var(--pinterest-cl) !important;border-color: var(--pinterest-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-pinterest_share:hover {color: var(--pinterest_share-cl) !important;border-color: var(--pinterest_share-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-tumblr:hover {color: var(--tumblr-cl) !important;border-color: var(--tumblr-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-snapchat:hover {color: var(--snapchat-cl) !important;border-color: var(--snapchat-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-youtube:hover {color: var(--youtube-cl) !important;border-color: var(--youtube-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-vimeo:hover {color: var(--vimeo-cl) !important;border-color: var(--vimeo-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-behance:hover {color: var(--behance-cl) !important;border-color: var(--behance-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-soundcloud:hover {color: var(--soundcloud-cl) !important;border-color: var(--soundcloud-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-tiktok:hover {color: var(--tiktok-cl) !important;border-color: var(--tiktok-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-email:hover {color: var(--email-cl) !important;border-color: var(--email-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-telegram:hover {color: var(--telegram-cl) !important;border-color: var(--telegram-cl) !important;}
+.t4s-socials.t4s-socials-style-3 a.at-svc-messenger:hover {color: var(--messenger-cl) !important;border-color: var(--messenger-cl) !important;}
+
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-3 .at-resp-share-element .at-share-btn {
+	color: var(--cl)!important;
+	border: solid 2px var(--cl) !important;
+}
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-3 .at-resp-share-element .at-share-btn:focus, 
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-3 .at-resp-share-element .at-share-btn:hover {
+	color: var(--bg-cl)!important;
+	border: solid 2px var(--bg-cl) !important;
+}
+
+.t4s-product__social.t4s__addthis.t4s-socials-style-4 .at-resp-share-element .at-share-btn {
+	border:solid 2px;
+	color: var(--t4s-light-color) !important;
+	border-color: var(--border-color) !important;
+	background-color: var(--text-color) !important;
+}
+.t4s-socials.t4s-socials-style-4 a:hover {
+	color: var(--t4s-light-color);
+}
+.t4s-socials.t4s-socials-style-4 a.at-svc-facebook:hover {border-color: var(--facebook-cl) !important;background-color: var(--facebook-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-twitter:hover {border-color: var(--twitter-cl) !important;background-color: var(--twitter-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-instagram:hover {border-color: var(--instagram-cl) !important;background: linear-gradient(#8a3ab9,#e95950,#fccc63) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-dribbble:hover {border-color: var(--dribbble-cl) !important;background-color: var(--dribbble-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-linkedin:hover {border-color: var(--linkedin-cl) !important;background-color: var(--linkedin-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-pinterest:hover {border-color: var(--pinterest-cl) !important;background-color: var(--pinterest-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-pinterest_share:hover {border-color: var(--pinterest_share-cl) !important;background-color: var(--pinterest_share-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-tumblr:hover {border-color: var(--tumblr-cl) !important;background-color: var(--tumblr-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-snapchat:hover {border-color: var(--snapchat-cl) !important;background-color: var(--snapchat-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-youtube:hover {border-color: var(--youtube-cl) !important;background-color: var(--youtube-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-vimeo:hover {border-color: var(--vimeo-cl) !important;background-color: var(--vimeo-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-behance:hover {border-color: var(--behance-cl) !important;background-color: var(--behance-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-soundcloud:hover {border-color: var(--soundcloud-cl) !important;background-color: var(--soundcloud-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-tiktok:hover {border-color: var(--tiktok-cl) !important;background: linear-gradient(#25F4EE,#000000,#FE2C55) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-email:hover {border-color: var(--email-cl) !important;background: linear-gradient(rgb(219, 68, 55),#EFA134,#E4D81B,#2DBF19) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-telegram:hover {border-color: var(--telegram-cl) !important;background-color: var(--telegram-cl) !important;}
+.t4s-socials.t4s-socials-style-4 a.at-svc-messenger:hover {border-color: var(--messenger-cl) !important;background-color: var(--messenger-cl) !important;}
+
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-4 .at-resp-share-element .at-share-btn {
+	background-color: var(--cl) !important;
+	border-color: var(--bg-cl) !important;
+	color: var(--t4s-light-color) !important;
+}
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-4 .at-resp-share-element .at-share-btn:focus, 
+.t4s-product__social.t4s__addthis.t4s-setts-color-true.t4s-socials-style-4 .at-resp-share-element .at-share-btn:hover {
+	background-color: var(--bg-cl) !important;
+	border-color: var(--bg-cl) !important;
+	color: var(--t4s-light-color) !important;
+}
+
+.t4s-socials:not(.t4s-socials-style-1) a {
+	width: 36px !important; !important;
+	height: 36px !important;
+}
+.t4s-socials-size-medium:not(.t4s-socials-style-1) a {
+	width: 50px !important;
+	height: 50px !important;
+	line-height: 50px !important;
+}
+
+.t4s-socials-size-extra_small a svg {
+	height: 28px !important;
+	width: 28px !important;
+}
+
+.t4s-socials-size-medium a svg {
+	height: 30px !important;
+	width: 30px !important;
+}
+
+.t4s-socials-size-large:not(.t4s-socials-style-1) a {
+	width: 60px !important;
+	height: 60px !important;
+	line-height: 60px !important;
+}
+.t4s-socials-size-large a svg {
+	height: 35px !important;
+	width: 35px !important;
+}
+.t4s-text-start .t4s-socials.t4s__addthis {
+	justify-content: flex-start;
+}
+.t4s-text-center .t4s-socials.t4s__addthis {
+	justify-content: center;
+}
+.t4s-text-end .t4s-socials.t4s__addthis {
+	justify-content: flex-end;
+}
+@media(min-width: 1025px) {
+	.t4s-text-lg-start .t4s-socials.t4s__addthis {
+		justify-content: flex-start;
+	}
+	.t4s-text-lg-center .t4s-socials.t4s__addthis {
+		justify-content: center;
+	}
+	.t4s-text-lg-end .t4s-socials.t4s__addthis {
+		justify-content: flex-end;
+	}
+}
+@media(min-width: 768px) {
+	.t4s-text-md-start .t4s-socials.t4s__addthis {
+		justify-content: flex-start;
+	}
+	.t4s-text-md-center .t4s-socials.t4s__addthis {
+		justify-content: center;
+	}
+	.t4s-text-md-end .t4s-socials.t4s__addthis {
+		justify-content: flex-end;
+	}
+}
+@media(max-width: 767px) {
+	.t4s-product__social.t4s__addthis .at-resp-share-element .at-share-btn {
+		margin: 0 var(--social-mgr-mb) var(--social-mgb-mb) 0 !important;
+	}
+}
+
