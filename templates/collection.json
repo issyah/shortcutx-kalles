@@ -115,18 +115,104 @@
         "pd_mb": ""
       }
     },
+    "c6e6c660-3127-418d-81a9-5fe2e6189b10": {
+      "type": "image_text",
+      "disabled": true,
+      "blocks": {
+        "template--16756803141872__c6e6c660-3127-418d-81a9-5fe2e6189b10-1685867812e799f40f-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "{{ collection.title }}",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "template--16756803141872__c6e6c660-3127-418d-81a9-5fe2e6189b10-1685867812e799f40f-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "{{ collection.image }}",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16756803141872__c6e6c660-3127-418d-81a9-5fe2e6189b10-1685867812e799f40f-1",
+        "template--16756803141872__c6e6c660-3127-418d-81a9-5fe2e6189b10-1685867812e799f40f-0"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "heading_template": {
       "type": "heading-template",
       "blocks": {
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
           "settings": {
-            "heading": "Page Heading",
+            "heading": "{{ collection.title }}",
             "fontf": "inherit",
             "text_cl": "#ffffff",
-            "text_fs": 20,
+            "text_fs": 38,
             "text_lh": 0,
-            "text_fw": 400,
+            "text_fw": 600,
             "text_ls": 0,
             "font_italic": false,
             "font_uppercase": false,
@@ -141,6 +227,7 @@
         },
         "e9f249a0-0a0f-4baf-9664-73babbd7bbe7": {
           "type": "4",
+          "disabled": true,
           "settings": {
             "design_des": "show_all",
             "length": 60,
@@ -162,24 +249,34 @@
             "text_ls_mb": 0,
             "text_mgb_mobile": 10
           }
+        },
+        "bfc82e9a-ffbe-43c5-b411-3308e04c68d9": {
+          "type": "3",
+          "disabled": true,
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
         }
       },
       "block_order": [
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9",
-        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7"
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7",
+        "bfc82e9a-ffbe-43c5-b411-3308e04c68d9"
       ],
       "settings": {
-        "use_specify_image": false,
+        "image": "shopify:\/\/shop_images\/Shortcutx_2023--08.jpg",
+        "use_specify_image": true,
         "parallax": true,
-        "color": "#000000",
-        "overlay": 54,
+        "color": "#bf1932",
+        "overlay": 20,
         "padding": 100,
         "paddingmb": 50,
         "mg_b": 0,
         "mg_bmb": 0,
         "content_align": "t4s-text-center",
-        "bg_pos": "left center",
-        "bg_repeat": "inherit",
+        "bg_pos": "right center",
+        "bg_repeat": "no-repeat",
         "bg_size": "cover",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
@@ -321,6 +418,7 @@
   },
   "order": [
     "top",
+    "c6e6c660-3127-418d-81a9-5fe2e6189b10",
     "heading_template",
     "main",
     "sidebar"
