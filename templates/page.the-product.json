@@ -1,0 +1,383 @@
+{
+  "sections": {
+    "26a20a56-981e-4161-8d4d-0c9ba9c78e53": {
+      "type": "top_heading",
+      "blocks": {
+        "template--16758164488432__26a20a56-981e-4161-8d4d-0c9ba9c78e53-16858943373c3047b6-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "The Product"
+          }
+        }
+      },
+      "block_order": [
+        "template--16758164488432__26a20a56-981e-4161-8d4d-0c9ba9c78e53-16858943373c3047b6-0"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "heading": {
+      "type": "heading-template",
+      "disabled": true,
+      "blocks": {
+        "4ccb8a07-ced7-4518-b278-9951b8bd6157": {
+          "type": "1",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "4ccb8a07-ced7-4518-b278-9951b8bd6157"
+      ],
+      "settings": {
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        },
+        "1c33f173-cd0f-492c-9026-fd337df8a1a4": {
+          "type": "shipping",
+          "settings": {
+            "title": "Shipping & Delivery",
+            "shipping_1": "las la-truck,FREE SHIPPING,Free shipping for all US order",
+            "shipping_2": "las la-headset,SUPPORT 24\/7,We support 24 hours a day",
+            "shipping_3": "las la-exchange-alt,30 DAYS RETURN,You have 30 days to return",
+            "shipping_4": "",
+            "shipping_5": "",
+            "shipping_6": ""
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08",
+        "1c33f173-cd0f-492c-9026-fd337df8a1a4"
+      ],
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        ".las.la-check-circle {font-size: 24px; color: green;}",
+        "img {display: block; margin-bottom: 20px;}"
+      ],
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "0d810c31-39db-4122-8259-487f7fce1f78": {
+      "type": "banner",
+      "blocks": {
+        "template--16758164488432__0d810c31-39db-4122-8259-487f7fce1f78-168595353694b1e1b9-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 200,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/IMG_2133_1.jpg",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "12",
+            "col_tb": "6",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "fullwidth",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 26,
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "template--16758164488432__0d810c31-39db-4122-8259-487f7fce1f78-168595353694b1e1b9-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Subscribe and save",
+            "remove_br_tag": false,
+            "tag": "h3",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 43,
+            "text_lh": 24,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 24,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "template--16758164488432__0d810c31-39db-4122-8259-487f7fce1f78-168595353694b1e1b9-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Enjoy additional savings when you subscribe to our plan",
+            "remove_br_tag": false,
+            "tag": "div",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--16758164488432__0d810c31-39db-4122-8259-487f7fce1f78-168595353694b1e1b9-0",
+        "template--16758164488432__0d810c31-39db-4122-8259-487f7fce1f78-168595353694b1e1b9-1",
+        "template--16758164488432__0d810c31-39db-4122-8259-487f7fce1f78-168595353694b1e1b9-2"
+      ],
+      "settings": {
+        "image_ratio": "ratio_cuspx",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "a76bdd6e-fe90-427b-8240-41a92fcaff71": {
+      "type": "pricing-tables",
+      "blocks": {
+        "template--16758164488432__a76bdd6e-fe90-427b-8240-41a92fcaff71-168595265932c61a28-0": {
+          "type": "package",
+          "settings": {
+            "highlights_item": false,
+            "heading": "One time payment",
+            "package_label": "",
+            "package_label_bg": "#FF0000",
+            "price": 2400,
+            "des": "\/ one time payment",
+            "txt": "1 box of Fat Burner Apple Cider Fruit Juice",
+            "button_text": "Buy now",
+            "button_link": "shopify:\/\/products\/fat-burner-apple-cider-fruit-juice",
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "item_cl": "#222"
+          }
+        },
+        "template--16758164488432__a76bdd6e-fe90-427b-8240-41a92fcaff71-168595265932c61a28-1": {
+          "type": "package",
+          "settings": {
+            "highlights_item": false,
+            "heading": "Subscribe for 3 month",
+            "package_label": "Hot",
+            "package_label_bg": "#222",
+            "price": 2004,
+            "des": "\/ per month",
+            "txt": "1 Box of Fat burner Apple cider Fruit juice delivered every month automatically!\nSave 15% off!",
+            "button_text": "Subscribe now",
+            "button_link": "shopify:\/\/products\/fat-burner-apple-cider-fruit-juice",
+            "button_style": "default",
+            "btns_size": "extra-large",
+            "btns_cl": "primary",
+            "button_effect": "default",
+            "item_cl": "#bf1932"
+          }
+        }
+      },
+      "block_order": [
+        "template--16758164488432__a76bdd6e-fe90-427b-8240-41a92fcaff71-168595265932c61a28-0",
+        "template--16758164488432__a76bdd6e-fe90-427b-8240-41a92fcaff71-168595265932c61a28-1"
+      ],
+      "custom_css": [
+        ".t4s-subtitle {font-family: var(--font-family-2); margin-top: 15px;}",
+        ".t4s-price-tables-price {font-family: var(--font-family-1) !important;}",
+        ".t4s-btn {padding: var(--padding-btn); min-height: var(--btn-height);}"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "package_des": "1",
+        "content_align": "center",
+        "target_link": "_blank",
+        "col_dk": "2",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "dfa3f935-c778-4d9b-8fba-80c68d58181e": {
+          "type": "tab_item",
+          "settings": {
+            "tab": "General",
+            "icon": "la-question-circle",
+            "content": "<h5><strong>Is Shortcutx safe for breastfeeding mummies?<\/strong><\/h5><p>Yes. Shortcutx is safe to be consumed by nursing mothers.<\/p><h5><strong>Is Shortcutx suitable for pregnant mummies?<\/strong><\/h5><p>No. We do not advise pregnant mothers to consume Shortcutx.<\/p><h5><strong>Is Shortcutx suitable for those trying to conceive?<\/strong><\/h5><p>Yes. It is absolutely safe to consume for those who are trying to conceive. <\/p><h5><strong>Is Shortcutx safe for diabetic or high blood pressure patients?<\/strong><\/h5><p>Yes it is safe as there is no sugar added.<\/p><h5><strong>Can we consume more than 1 sachet of Shortcutx in a day?<\/strong><\/h5><p>You may consume up to 2 sachets a day. If you are consuming other supplements,<\/p><h5><strong>Are there any diet restrictions that I have to follow?<\/strong><\/h5><p>You can still eat whatever you want, but for best results, we recommend to skip or cut down on carbohydrates and fast food. It is also advisable to drink plenty of plain water.<\/p><h5><strong>Are there any side effects for Shortcutx?<\/strong><\/h5><p>There are no known side effects when consuming Shortcutx. Our products does NOT contain any banned or harmful substances as listed by the health authorities.<\/p><h5><strong>Will I gain any weight if I stop consuming Shortcutx?<\/strong><\/h5><p>It is highly unlikely that your weight will rebound when you stop consuming Shortcutx. Rest assured that many of our consumers have managed to lead a better quality of life even after they stop consuming Shortcutx.<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "3da33074-e481-4bee-83b6-c26e5246220d": {
+          "type": "tab_item",
+          "settings": {
+            "tab": "Apple Cider Vinegar",
+            "icon": "la-apple-alt",
+            "content": "<h5><strong>What are the ingredients in ACV? <\/strong><\/h5><p>Apple Cider Vinegar extract, RO water, Apple Powder, Kiwi Powder, Raspberry Extract, Nutgrass Extract, Green Tea Extract, Pumpkin Seed Extract, Guarana Extract, Barley Extract, L-Carnitine, Wheat Fiber, Inulin.<\/p><h5><strong>How does the ACV taste? <\/strong><\/h5><p>Our ACV juice is made with Himalayan apples, which makes the juice naturally sweet. There is no bitter taste. <\/p><h5><strong>When do I consume this? <\/strong><\/h5><p>It is best to consume the ACV in the mornings on an empty stomach. This is so that it allows your body to absorb all the goodness and nutritions from the juice best! <\/p><h5><strong>Can I consume the ACV while menstruating\/on period? <\/strong><\/h5><p>It is best to pause consuming ACV for the length of your period, and resume once your period finished. This is to let your body naturally cycle itself. <\/p><h5><strong>Can males consume ACV? <\/strong><\/h5><p>Yes! All our products are for both! <\/p>"
+          }
+        },
+        "d87fd24f-774c-4b88-ab58-d40615f6b3b8": {
+          "type": "tab_item",
+          "settings": {
+            "tab": "Slimming Drinks",
+            "icon": "la-mug-hot",
+            "content": "<h5><strong>How many calories is the slimming drink?<\/strong><\/h5><p>Our Slimming Caramel Coffee is 76 calories, and our Slimming Teh Tarik is 86 calories per sachet. <\/p><h5><strong>Does this contain caffeine? <\/strong><\/h5><p>Yes, there is caffeine in the ingredients. <\/p><h5><strong>Can I drink this with other supplements? <\/strong><\/h5><p>Yes you can. Most people pair this drink with our Apple Cider Vinegar Fat Burner Juice. <\/p><h5><strong>When should I consume this drink? <\/strong><\/h5><p>You can drink this any time of the day. Best would be to replace this with your usual coffee\/tea or when you feel like snacking. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "dfa3f935-c778-4d9b-8fba-80c68d58181e",
+        "3da33074-e481-4bee-83b6-c26e5246220d",
+        "d87fd24f-774c-4b88-ab58-d40615f6b3b8"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "26a20a56-981e-4161-8d4d-0c9ba9c78e53",
+    "heading",
+    "sidebar-page",
+    "main",
+    "0d810c31-39db-4122-8259-487f7fce1f78",
+    "a76bdd6e-fe90-427b-8240-41a92fcaff71",
+    "faq"
+  ]
+}

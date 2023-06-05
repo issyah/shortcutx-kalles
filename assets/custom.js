@@ -10,4 +10,28 @@ jQuery_T4NT(document).ready(function($) {
 	     // $('[data-variant-toggle="'+evt.currentVariant.id+'"]').show(0);
 	   });
 
+
+		 faqTabs();
+
+
+
 });
+
+
+// FAQ tabs section 
+function faqTabs(){
+	$('.nav-tabs > .nav-item').on('click' ,function(evt){
+
+		var $navItems = $('.nav-tabs > .nav-item');
+		var $tabItems = $('.faq-section-container .tab');
+		// selected tab 
+		var tabId = $(this).data('ref');
+		$navItems.removeClass('active');
+		$(this).addClass('active');
+
+		// select the tab items 
+		$tabItems.removeClass('active');
+		$(`#${tabId}`).addClass('active');
+	})
+}
+

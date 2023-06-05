@@ -1,0 +1,30 @@
+/* 
+  Main FAQ CSS.
+  Created by Issyah Ismail
+*/
+.nav-tabs {
+  width:100%;
+}
+.nav-tabs.vertical > .nav-item {
+  padding: 15px;
+  background: #f4f4f4;
+  margin-bottom:24px;
+  cursor: pointer;
+}
+.nav-tabs.vertical > .nav-item.active{ 
+  background-color: #ddd;
+  color: #444;
+}
+
+.faq-section-container .tab { 
+  display:none;
+}
+
+.faq-section-container .tab.active{
+  display: block;
+}
+
+.nav-item i.las {
+  font-size: 36px;
+  color: var(--accent-color);
+}

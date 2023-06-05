@@ -1,0 +1,98 @@
+{% comment %}
+  Custom FAQ section for shortctux
+  Created By Issyah Ismail
+{% endcomment %}
+{{ 'faq.css' | asset_url | stylesheet_tag }}
+<div class="t4s-container" id="{{ section.id }}">
+  <h3 class="t4s-section-title t4s-title t4s-text-center" style="margin-bottom:24px">FAQs</h3>
+  {% comment %} Tabs {% endcomment %}
+  {{ section.settings.heading }}
+  <div class="faq-section-container t4s-row" id="faq">
+    <div class="t4s-col-item t4s-col-md-3 t4s-d-none t4s-d-md-flex">
+      <ul class="nav-tabs vertical">
+        {% if section.blocks != 'blank' %}
+          {% for block in section.blocks %}
+            {%- liquid
+              assign id = block.settings.tab | downcase | split: ' ' | join: '-'
+            -%}
+            <li class="nav-item t4s-text-center {% if forloop.first %} active {% endif %}" data-ref="{{ id }}">
+              <div>
+                {% if block.settings.icon != 'none' %}
+                  <div>
+                    <i class="las {{ block.settings.icon }}"></i>
+                  </div>
+                {% endif %}
+                {{ block.settings.tab }}
+              </div>
+            </li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+    <div class="t4s-col-item t4s-col-md-9">
+      {% if section.blocks != 'blank' %}
+        {% for block in section.blocks %}
+          {%- liquid 
+            assign id = block.settings.tab | downcase | split: " " | join: '-' 
+          -%}
+            <div id="{{ id }}" class="tab {% if forloop.first%} active {% endif %}">
+              <h3 style='margin-bottom:15px;'>{{ block.settings.tab }}</h3>
+              <div>{{ block.settings.content }}</div>
+            </div>
+
+        {% endfor %}
+      {% endif %}
+    </div>
+    {% comment %}
+      <div class="t4s-col-item t4s-col-md-9">
+        <div id="general" class="tab active">
+          <h4>General</h4>
+          {{ section.settings.page1.content }}
+        </div>
+        <div id="apple-cider-vinegar" class="tab">
+          <h4>Apple Cider Vinegar</h4>
+          {{ section.settings.page2.content }}
+        </div>
+        <div id="slimming-drink" class="tab">
+          <h4>Slimming Teh Tarik / Slimming Caramel Macchiato</h4>
+          {{ section.settings.page3.content }}
+        </div>
+      </div>
+    {% endcomment %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Faq section",
+  "tag": "section",
+  "class": "t4s-section t4s-section-main",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "tab_item",
+      "name": "Tab item",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Tab name",
+          "id": "tab",
+          "default": "Tab name"
+        },
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Tab icon",
+          "default": "none"
+        },
+        {
+          "type" : "richtext",
+          "id" : "content",
+          "label" : "FAQ content",
+          "default" : "<p>Write the Faq section here</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
