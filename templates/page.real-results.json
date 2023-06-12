@@ -1,0 +1,1287 @@
+{
+  "sections": {
+    "079d0e6e-6fad-468e-965e-fdc86816f712": {
+      "type": "top_heading",
+      "blocks": {
+        "template--16760214683888__079d0e6e-6fad-468e-965e-fdc86816f712-168621224990c35829-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Real people, Real Results"
+          }
+        },
+        "template--16760214683888__079d0e6e-6fad-468e-965e-fdc86816f712-168621224990c35829-1": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Best theme shopify"
+          }
+        }
+      },
+      "block_order": [
+        "template--16760214683888__079d0e6e-6fad-468e-965e-fdc86816f712-168621224990c35829-0",
+        "template--16760214683888__079d0e6e-6fad-468e-965e-fdc86816f712-168621224990c35829-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "real-results-filter": {
+      "type": "real-results-filter",
+      "blocks": {
+        "15b1b00d-75b9-493f-90a5-2cb33a7dbab8": {
+          "type": "product-filter",
+          "settings": {
+            "title": "Apple Cider Fat Burner Juice",
+            "product": "fat-burner-apple-cider-fruit-juice"
+          }
+        },
+        "9051df89-c4ff-488d-a9eb-f763510c1844": {
+          "type": "product-filter",
+          "settings": {
+            "title": "Slimming Coffee",
+            "product": "shortcutx-slimming-coffee-caramel-machiatto"
+          }
+        },
+        "d24d42bc-df5e-4bf7-bc2a-4b738d550d1e": {
+          "type": "product-filter",
+          "settings": {
+            "title": "Slimming Tea",
+            "product": "shortcutx-teh-tarik-slimming-tea"
+          }
+        },
+        "046dae54-58a5-4acb-b83d-faecfe7cba38": {
+          "type": "product-filter",
+          "settings": {
+            "title": "Flat Tummy Shakes",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake"
+          }
+        },
+        "e6f031d2-7197-42f7-8be9-a312e4f70721": {
+          "type": "product-filter",
+          "settings": {
+            "title": "30 Day Weight Loss Kit",
+            "product": "shortcutx-30-day-weight-loss-kit"
+          }
+        }
+      },
+      "block_order": [
+        "15b1b00d-75b9-493f-90a5-2cb33a7dbab8",
+        "9051df89-c4ff-488d-a9eb-f763510c1844",
+        "d24d42bc-df5e-4bf7-bc2a-4b738d550d1e",
+        "046dae54-58a5-4acb-b83d-faecfe7cba38",
+        "e6f031d2-7197-42f7-8be9-a312e4f70721"
+      ],
+      "settings": {
+      }
+    },
+    "real-results": {
+      "type": "real-results",
+      "blocks": {
+        "template--16756803535088__4565a3dc-e156-402f-81ad-a4e3cff60db8-168585432447ba777e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/rev4_350px.png",
+            "title": "Ika",
+            "text": "<p>From size 36 I probably to size 32 now! Can't even fit into my jeans now!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "template--16756803535088__4565a3dc-e156-402f-81ad-a4e3cff60db8-168585432447ba777e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/rev5_350px-01.png",
+            "title": "Liza",
+            "text": "<p>I've been consuming it consistently for the last two months and I've dropped two sizes. I really feel great about my body and I'm glad it works for me!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "58bb3bbb-317b-43c8-862d-cc19bb3c43e0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/rev2_350px-03.jpg",
+            "title": "Sue",
+            "text": "<p>From 73kg to 64kg currently, Shortcutx has been awesome! I lost a few kg every week, without much dieting or exercising. I just control my portions and try to eat clean + Shortcutx every morning. It really works!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "886e79d5-4d50-4b94-9fe0-4cc94eefd566": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/review1-01.png",
+            "title": "Hadihaz",
+            "text": "<p>I wanted to feel better about myself so I tried this juice. Shortcutx really helped me to feel less bloated which I’ve always had a problem with. It also tastes great!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "931718a9-3fa2-46a1-9b0a-a9279a6e85c3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/rev2_350px.png",
+            "title": "Chen",
+            "text": "<p>Took Shortcutx for 4 months and I lost 16kg. FYI, I didn't exercise at all due to injuries 😅<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "20c277d2-4d0c-47ea-bfec-06aac45826e0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/rev3_350px.png",
+            "title": "Wanijo",
+            "text": "<p>I took Shortcutx for 12 days straight and I lost weight from 58kg to 55.3kg now!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "d0e552f8-1621-4235-b653-f8c140b15a51": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/rev5_350px-02.png",
+            "title": "Zili",
+            "text": "<p>I can't emphasize how much Shortcutx helped me in my weight loss journey. It's super easy to drink, one sachet every morning couple with a few light exercises every week and I lost over 20kg!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "fc1f5186-2399-40d9-b41e-8cfdbaa357d0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Elizabeth Aziz",
+            "text": "<p>Tbh, this product works on me compared to other products that I took. In a month, I lost 4kg & appetite decreased especially dessert although in between I needed dessert but under control. It can last 8-10 hrs of not having foods. When am drinking the apple cider fruit juice, I almost went to the toilet flush out abt 3-5 times a day. I had a problem with digestion & this product really suits me. Shakers & teh tarik really nice  the shakers I made it as iced blend <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "2792523e-b0fb-4570-924d-4a2b4e26dcc8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "noris7804",
+            "text": "<p>The product is good and i managed to kill off 1.5kg with 1 box. Will definitely reorder again.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "5566a1f1-cc9e-4a78-9ab2-b2d75b20f229": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Jennifer Chong",
+            "text": "<p>Made me pass soft stool. It doesnt make my tummy rumble like some other detox drinks. No cramp pains before passing motion too. I really like this. Will order again.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "2fb00ea5-e65b-410b-8710-e14b0235988c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "syafrhman",
+            "text": "<p>I love how this taste it super good and really help to curb my appetite. I do really see my tummy flatten abit and rcv compliments tht i look less chubbier<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "9b1f9566-7da9-4932-bdc5-0f3377d63156": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "tyavyshv",
+            "text": "<p>Tried this apple cider fat burner together with the slimming teh tarik, it help me so much. Lost 6kg in 2 weeks BUTTT it doesn't help much if u r not controlling your sugar n carbs intake. Tbh i still eat my lunch(not healthy) but i avoid sugary drinks and eat more veggies and fruits. Dinner usually im not hungry but don't starve urself. I drink some healthy shake to replace my meal or salad. Make sure drink alot of plain water and don't skip breakfast. 👍🏽<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "56d53479-1b51-4814-9da7-63c21bf7feac": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "JennyL",
+            "text": "<p>2nd purchase and it works. I managed to loose 1.8kg in 14 days with a little food control. Will definitely recommend to friends.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "be5e6f9b-c731-4bb1-8391-0d8b5e788f8c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Qistinabalqis",
+            "text": "<p>this is my first purchase, i have dropped 2KG within the two weeks. it doesn’t have a laxative effect like other weight loss supplements\/products.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "cf4d18dd-b42d-4717-8b28-f338a8739321": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "atymeoww",
+            "text": "<p>Nari minum shake 3\/4 dulu tinggalkan 1\/4 last to drink.. i ate abt 4 pcs nuggets.. bubur like 5 sudu.. Air putih 800ml.. by then im feeling full, suprisingly!!!! 😂 last kopek is my 1\/4 shakes tu... last was my grapes to end my sahur! by e time, im already like damn full.. padahal tak makan nasi or mee pun, just merely dat... I AM SO AMAZED w this shake!!! I will see in abt a week tgk mcm mana, i will def buy more 😃😃😃🙏🙏 <\/p><p>** UPDATE : 1st Apr 2023..Weight 110kg.. 😄😱 **<\/p><p>Day 1 today, 30 Mar 2023... <\/p><p>Height 1.63 metre... Weight is 113kg… <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "46cf0767-055a-410f-8041-1fb505c5c30e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "sharizanshadrinashakeel",
+            "text": "<p>seeing very good reviews so decided to try. so yeah! this was the difference!!! so happy that i order for 2wks supply again. hopefully to see more wts dwn😁 took this in de mrg follow by meal replacement at night. no exercise only send kid go school via walking. the taste is SUPER NICE!! trying cheesecake next.. order yst, today received!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "558b9df8-13f4-4fc7-8f98-d26ea764fa7a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "3rdg5",
+            "text": "<p>Started with the fat burner in the morning, ate lunch then took this meal replacement drink before the evening workout. Feeling great so far! My energy is up, my focus is clear and I didn't feel hungry during the morning and evening! Will see how things go in a week then I'll highly likely order more for my gf and I. Thanks seller, highly recommended 🥳🙏🏽🙏🏽<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "74d3bf56-b3e5-44db-ad3f-adeb95343d37": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "yatzsg",
+            "text": "<p>First time buying n trying out and I AM SO AMAZED! It is so delicious plus it helps to keep me full throughout the day 😁<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "3a9e3c1d-ef76-4859-813b-7bad1db13f57": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "syafznl",
+            "text": "<p>Repeat purchase. Initially was very skeptical about this working, but after I tried out the first week (paired with the apple cider fat burner) and saw that I lost 1.5 kg, I had to buy it again! It’s really tasty (paired it with oatmilk since I don’t have almond milk) and does suppress my hunger. I honestly always look forward to having it for lunch\/dinner! Highly recommend!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "c5323461-9a85-4804-9dd8-0161f8860cec": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "areyouugee",
+            "text": "<p>Here’s my 2nd order, monthly. It Curbs my appetite & craves. Strawberry shake gotta be my favourite. I used UFC almond milk, its quite tasteless not until i mix with the strawberry powder into a shake, it taste awesomely good. Amazing. This shake work wonders. Do try if you haven’t!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "54acbcc0-c744-48c0-8cb7-1d7409be1bb8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Yak C",
+            "text": "<p>Love both flavours. I dont feel hungry at all for the whole day while fasting. It works for me<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "d4360688-d30e-4ce7-9e73-a5751ba33c57": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "osnptzly",
+            "text": "<p>The taste of this meal replacement product is amazing, with a perfect balance of sweetness and flavor that doesn't leave any unpleasant aftertaste. The texture is also excellent, smooth and creamy without being too thick or gritty (like TruShakes). It's a delicious and convenient option to help me stay on track with my calorie deficit goals. Highly recommended!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "2efb5eb5-bc2e-4fb2-b3ca-d223046e2c29": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Saifuddeen A",
+            "text": "<p>Tastes mildly sweet, curbs my appetite for very long and it is truly to its description. Highly recommend<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "11a0fd6e-7b7d-44cd-9700-6a6168a68aad": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "feeyonces",
+            "text": "<p>Bought the pack along with the apple cider. The shake really suppresses my appetite eventho I hate meal replacements bc i prefer to munch than lunch in a cup. But I did lose weight so it works well i guess! Many have said i look like I lost weight<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-30-day-weight-loss-kit",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "dc1b2c1e-3db1-426a-a23e-b8b587ed9583": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "elsaryna",
+            "text": "<p>Been drinking it for the past 6 days! Very nice flavour!!! I drank with milk, 2hrs after lunch. Makes me skip dinner all together! Cant wait to see more results! Will go toilet once a day for sure!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-30-day-weight-loss-kit",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "411a32ab-c19c-49eb-a624-8d11980bcd36": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "slayernovia",
+            "text": "<p>Cookie butter shake taste good! Love this and the strawberry cheesecake. Definitely nice for a meal replacement. Have yet to try the detox and night.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-30-day-weight-loss-kit",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "a6807c42-0da8-4325-aa13-4a17d4af36e0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Linda F",
+            "text": "<p>Been consuming shortcutx for more than 3-months and I really have faith in them coz I see the results in me!! From size XL and now I’m in size M!! Thank you shortcutx!! I will continue supporting shortcutx!! Keep coming up with new flavours! #don’tstopbelieving <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-30-day-weight-loss-kit",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "baa9cb1b-86a6-4364-891e-b37ccdfd698b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Claire L",
+            "text": "<p>Love the taste of the product. I feel lighter, less bloated and not hungry after consuming it. Thanks for coming up with such an amazing product for your consumers! :)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-30-day-weight-loss-kit",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "f517e35a-633b-41dc-a26c-bc9d35d1169c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "imahseyy",
+            "text": "<p>Purchased so many times. Nv regret one single bit. Lost weight from 67kg to 59kg. This stuff is really something😍<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "bc81483a-8187-4ad8-bc4a-0386f08adb6c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "bloodredsword",
+            "text": "<p>Second purchase. Lost 3 kg in a week with diet and exercise. Hope it can help em reach my ideal weight in a couple of months<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "d03d8748-cb20-42dd-9636-a6c4df6d85b5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "funky_hardyz",
+            "text": "<p>Fast delivery - Ordered during 11.11 sales and was delivered today 12.11 - 1 day only. Tried this before for 1 month then go on to Neelofa Drinktox for another 1 month, but I'm going back to this cause I can see changes from drinking ShortCutx compare to Neelofa Drinktox. You'll have a regular customer now. Thanks for the fast service and great product. 😊👍🏼<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "fc8af742-0f8d-490a-af41-9508c69ff573": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "therolemodel",
+            "text": "<p>bought for wife. helps her to reduce her appetite. wife happy<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "b724434f-4097-41c9-8064-ad0a2ca6baf3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "soffiaghazali",
+            "text": "<p>I've tried it for a week. Rly tastes like the tarik. Helps to curb appetite and kinda detoxing also<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "44dde006-974d-4da8-be2c-6135becbf388": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Aliyahkml",
+            "text": "<p>really like the taste and the detox works for me. Tastes better if drank hot and the effect is stronger.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "adfb2f47-d5b1-44f4-b8c5-9e022bb2dea5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Angelabellk",
+            "text": "<p>This taste great ! Like teh tarik just less sugar but still can taste the sweetness . Really help w my digestion i dont felt constipation while consuming this <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "d694a9fa-b07c-4ad3-bc87-3e82916925dc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "TataUjoom",
+            "text": "<p>My 2nd purchase of the tea. It controls my appetite well and i sweat alot more than usual. Loving the surge of energy and id dosent makes you have diarrhoea <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "1ece2f2a-7246-442d-afe8-36b605715085": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "giamz",
+            "text": "<p>Drank the 1st time today. Able to suppress my hunger, don't feel hungry for abt 4h+. Had lunch but cant finish my usual serving.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "b05c1609-d10f-44c0-9374-b2daac7bc473": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Oroielam",
+            "text": "<p>Taste as similar to usual teh tarik - inches lost from 3rd day onwards<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "67cb75ef-4ce2-4090-bc9d-a0e961caa556": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "sheilarhmn",
+            "text": "<p>I am already 6 days into this product. Seems to be doing its work, it has managed to curb my appetite tremendously. Started to feel full fast and had lesser urge to snack\/eat. P\/s It makes you poop, LOADS. Hahahahahah. But it’s NOT the urgent poop where you’ll end up pooping yourself, so it’s still good. And for someone that has bowel problems, this would definitely help.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "5bed0c4b-9d5c-45be-b38c-7434c2896b24": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "soffiaghazali",
+            "text": "<p>I like these 2 products. Will take the fat burner first thing in the morning and the teh tarik later in the morning. Both products taste good too.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "caa5af99-a72d-4b97-946c-a311fab97cc5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "ilykeunicorns",
+            "text": "<p>Definitely did not regret getting the teh tarik, it taste really good!! Highly recommended it.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "4b0392b1-5fcd-4207-81f4-f0cf1345a0b0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "erwinothman",
+            "text": "<p>works quite fast for those who want to have some help in cutting some weight.  Tastes amazing when taken cold.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "ea66e32c-6f2c-4801-81bd-cba65d34586c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "elainetanneo",
+            "text": "<p>Very good combination , started using these from oct , I did lose 2 kg even though I’ve been pigging out during the festive seasons<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "e42bd2d0-997a-4f77-92b2-17fedd045ae8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "namekusri",
+            "text": "<p>Frankly, when i drink the meal replacement at 9am, i dont fell hungry till 3pm.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "9cdd4d84-b9ee-4ca4-8aa7-b4d0b58d5561": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "hennaresque",
+            "text": "<p>Being diabetic, i am particular on 3 in 1 beverages. N yes, no sugar spike. I love it when i dun have the urge to snack n i feel energetic the whole day.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "990c73b8-5324-4f4a-807a-2f1893eb9bf3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "mei_hui79",
+            "text": "<p>Tried for the first time, Teh Tarik taste nice, thick and aromatic. Feels the sweat coming out immediately after drinking 1 cup. Helps to curb appetite, cannot eat as much as usual.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "492dfe22-6ab5-4b57-b4d9-9bacb1ce12ec": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "nrshka13",
+            "text": "<p>Very good with curbing my appetite! Will buy more next time and taste good as well!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "34f831f3-653b-43eb-8690-ec6b6730579c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "fatimahsalim",
+            "text": "<p>Getting this as a habit. I love the detox. Helps me with my constipation.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "e2ef1104-9185-4b49-a93a-e3d962cbc7e4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "nurashakirinhisam",
+            "text": "<p>Consumed by husband & MIL. So far they say it works for them<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "f229e8c7-d918-4317-85ae-5bcb7e1b47ad": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "joe_nilamegan",
+            "text": "<p>Now I’m consuming shortcutx fat burner and teh tarikf or the past 2 months after delivering my second baby. So far kost 6kg.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756803535088__4565a3dc-e156-402f-81ad-a4e3cff60db8-168585432447ba777e-0",
+        "template--16756803535088__4565a3dc-e156-402f-81ad-a4e3cff60db8-168585432447ba777e-1",
+        "58bb3bbb-317b-43c8-862d-cc19bb3c43e0",
+        "886e79d5-4d50-4b94-9fe0-4cc94eefd566",
+        "931718a9-3fa2-46a1-9b0a-a9279a6e85c3",
+        "20c277d2-4d0c-47ea-bfec-06aac45826e0",
+        "d0e552f8-1621-4235-b653-f8c140b15a51",
+        "fc1f5186-2399-40d9-b41e-8cfdbaa357d0",
+        "2792523e-b0fb-4570-924d-4a2b4e26dcc8",
+        "5566a1f1-cc9e-4a78-9ab2-b2d75b20f229",
+        "2fb00ea5-e65b-410b-8710-e14b0235988c",
+        "9b1f9566-7da9-4932-bdc5-0f3377d63156",
+        "56d53479-1b51-4814-9da7-63c21bf7feac",
+        "be5e6f9b-c731-4bb1-8391-0d8b5e788f8c",
+        "cf4d18dd-b42d-4717-8b28-f338a8739321",
+        "46cf0767-055a-410f-8041-1fb505c5c30e",
+        "558b9df8-13f4-4fc7-8f98-d26ea764fa7a",
+        "74d3bf56-b3e5-44db-ad3f-adeb95343d37",
+        "3a9e3c1d-ef76-4859-813b-7bad1db13f57",
+        "c5323461-9a85-4804-9dd8-0161f8860cec",
+        "54acbcc0-c744-48c0-8cb7-1d7409be1bb8",
+        "d4360688-d30e-4ce7-9e73-a5751ba33c57",
+        "2efb5eb5-bc2e-4fb2-b3ca-d223046e2c29",
+        "11a0fd6e-7b7d-44cd-9700-6a6168a68aad",
+        "dc1b2c1e-3db1-426a-a23e-b8b587ed9583",
+        "411a32ab-c19c-49eb-a624-8d11980bcd36",
+        "a6807c42-0da8-4325-aa13-4a17d4af36e0",
+        "baa9cb1b-86a6-4364-891e-b37ccdfd698b",
+        "f517e35a-633b-41dc-a26c-bc9d35d1169c",
+        "bc81483a-8187-4ad8-bc4a-0386f08adb6c",
+        "d03d8748-cb20-42dd-9636-a6c4df6d85b5",
+        "fc8af742-0f8d-490a-af41-9508c69ff573",
+        "b724434f-4097-41c9-8064-ad0a2ca6baf3",
+        "44dde006-974d-4da8-be2c-6135becbf388",
+        "adfb2f47-d5b1-44f4-b8c5-9e022bb2dea5",
+        "d694a9fa-b07c-4ad3-bc87-3e82916925dc",
+        "1ece2f2a-7246-442d-afe8-36b605715085",
+        "b05c1609-d10f-44c0-9374-b2daac7bc473",
+        "67cb75ef-4ce2-4090-bc9d-a0e961caa556",
+        "5bed0c4b-9d5c-45be-b38c-7434c2896b24",
+        "caa5af99-a72d-4b97-946c-a311fab97cc5",
+        "4b0392b1-5fcd-4207-81f4-f0cf1345a0b0",
+        "ea66e32c-6f2c-4801-81bd-cba65d34586c",
+        "e42bd2d0-997a-4f77-92b2-17fedd045ae8",
+        "9cdd4d84-b9ee-4ca4-8aa7-b4d0b58d5561",
+        "990c73b8-5324-4f4a-807a-2f1893eb9bf3",
+        "492dfe22-6ab5-4b57-b4d9-9bacb1ce12ec",
+        "34f831f3-653b-43eb-8690-ec6b6730579c",
+        "e2ef1104-9185-4b49-a93a-e3d962cbc7e4",
+        "f229e8c7-d918-4317-85ae-5bcb7e1b47ad"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 96,
+        "text_align": "start",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "zoom",
+        "b_effect": "dark-overlay",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "large",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,96px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "real-results-2": {
+      "type": "real-results",
+      "blocks": {
+        "917bbdbe-c1c9-44a3-be30-e6a066f2631c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "syafrhman",
+            "text": "<p>Bow to the best slimming coffee ever ! It taste great really like caramel macchiato. Felt like im having starbucks every morning . It help w my morning feeling energetic n full too . I dont feel constipation ! Will definitely get more of this .  To all coffee lovers pls try this up ! <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-slimming-coffee-caramel-machiatto",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "917bbdbe-c1c9-44a3-be30-e6a066f2631c"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 96,
+        "text_align": "start",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "zoom",
+        "b_effect": "dark-overlay",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "large",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,96px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "heading": {
+      "type": "heading-template",
+      "disabled": true,
+      "blocks": {
+        "4ccb8a07-ced7-4518-b278-9951b8bd6157": {
+          "type": "1",
+          "settings": {
+            "heading": "",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "4ccb8a07-ced7-4518-b278-9951b8bd6157"
+      ],
+      "settings": {
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    }
+  },
+  "order": [
+    "079d0e6e-6fad-468e-965e-fdc86816f712",
+    "real-results-filter",
+    "real-results",
+    "real-results-2",
+    "heading",
+    "main",
+    "sidebar-page"
+  ]
+}

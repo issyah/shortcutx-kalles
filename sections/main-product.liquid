@@ -245,6 +245,29 @@ endif -%}
 {{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
 {{ 'main-product.css' | asset_url | stylesheet_tag }}
 
+{% style %}
+  .metafield-benefit-list{
+  padding-left:0;
+  list-style-type: none !important;
+}
+.metafield-benefit-list > li {
+  position:relative;
+  padding-left:20px;
+}
+.metafield-benefit-list > li:before {
+  background-image: url({{ 'Tick.svg' | asset_url }});
+  left: -5px;
+  position:absolute;
+  top: 10px;
+  width: 20px;
+  height: 18px;
+  content: "";
+  background-repeat: no-repeat;
+  top: 5px;
+}
+{% endstyle %}
+
+
 <div class="t4s-container t4s-main-product__content is--layout_{{se_stts.pr_layout}} t4s-product-media__{{media_layout}} t4s-product-thumb-size__{{se_stts.thumb_lr_size}}">
   <div class="t4s-row">
     <div class="t4s-col-item t4s-col-12 t4s-main-area">

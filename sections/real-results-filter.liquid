@@ -1,0 +1,106 @@
+{% comment %}
+  main real result filter for /pages/real-results
+  Created by: Issyah ismail
+{% endcomment %}
+
+{% style %}
+  .real-result-filters {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    overflow-x:auto;
+    margin-bottom:20px;
+    padding-left:0;
+  }
+
+  .real-result-filters li.filter-item {
+    padding:8px 16px;
+    border: 1px solid var(--border-sw-color);
+    white-space: nowrap;
+    cursor:pointer;
+  }
+
+  .real-result-filters li.filter-item.selected{
+    transition: all 250ms ease-in-out;
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--button-color);
+  }
+  
+
+
+{% endstyle %}
+<div class="t4s-container">
+  <div class="t4s-section-inner {{ t4s_se_class }}" id="{{ section.id }}">
+    {% if section.blocks != blank %}
+      <ul class="real-result-filters">
+        <li class='filter-item selected' data-type="all">All</li>
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when "product-filter" %}
+              <li class="filter-item" data-type="product" data-product-id="{{ block.settings.product.id }}">
+                {% if block.settings.title != blank %}
+                  {{ block.settings.title }}
+                {% else %}
+                    {{ block.settings.product.title }}
+                {% endif %}
+              </li>
+            {% when "collection-filter" %}
+              <li class='filter-item' data-type="collection" data-collection-id="{{ block.settings.collection.id }}">
+                {% if block.settings.title != blank %}
+                  {{ block.settings.title }}
+                {% else %}
+                    {{ block.settings.collection.title }}
+                {% endif %}
+              </li>
+          {% endcase %}
+        {% endfor %} 
+      <ul>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Real results filter",
+  "tag": "section",
+  "class": "t4s-section t4s-section-all",
+  "settings": [],
+  "blocks": [
+    {
+      "type" : "product-filter",
+      "name" : "Product filter",
+      "settings" : [
+        {
+          "type" : "text",
+          "id" : "title",
+          "label" : "Label name",
+          "info" : "Leave empty if you want to use the default product / collection name"
+        },
+        {
+          "type" : "product",
+          "id" : "product",
+          "label" : "Select product for filter"
+        }
+      ]
+    },
+    {
+      "type" : "collection-filter",
+      "name" : "Collection filter",
+      "settings" : [
+        {
+          "type" : "text",
+          "id" : "title",
+          "label" : "Label name",
+          "info" : "Leave empty if you want to use the default product / collection name"
+        },
+        {
+          "type" : "collection",
+          "id" : "collection",
+          "label" : "Select collection for filter"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

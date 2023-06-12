@@ -19,7 +19,7 @@
             "fnt_df_pr": "1",
             "size_pr": 16,
             "fw_pr": 600,
-            "lh_pr": 0,
+            "lh_pr": 21,
             "ls_pr": 0,
             "pr_title_color": "#222222"
           }
@@ -32,7 +32,7 @@
             "tax_ship": false,
             "rating": true,
             "review_liquid": "",
-            "size_price_pr": 22,
+            "size_price_pr": 32,
             "fw_price_pr": 400,
             "price_color": "#696969",
             "price_sale_color": "#ec0101"
@@ -40,6 +40,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "des": "2",
             "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.<\/p>",
@@ -58,20 +59,20 @@
             "show_qty": true,
             "enable_wishlist": true,
             "enable_compare": true,
-            "btn_atc_full": false,
-            "pr_btn_round": 40,
-            "ani": "t4s-ani-shake",
+            "btn_atc_full": true,
+            "pr_btn_round": 0,
+            "ani": "none",
             "time": 6,
-            "btn_txt": "3",
+            "btn_txt": "0",
             "btn_icon": false,
             "button_style": "default",
             "button_color": "primary",
             "button_effect": "sweep-to-top",
             "wishlist_color": "#222222",
-            "wishlist_color_hover": "#56cfe1",
+            "wishlist_color_hover": "#bf1932",
             "wishlist_color_active": "#e81e1e",
             "compare_color": "#222222",
-            "compare_color_hover": "#56cfe1",
+            "compare_color_hover": "#bf1932",
             "compare_color_active": "#222222",
             "show_dynamic_checkout": false,
             "btn_txt2": "3",
@@ -89,6 +90,7 @@
         },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
           "type": "img",
+          "disabled": true,
           "settings": {
             "al": "start",
             "mess": "",
@@ -113,6 +115,41 @@
             "phone": true
           }
         },
+        "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
+          "type": "tab_des",
+          "settings": {
+            "title": "Description"
+          }
+        },
+        "56e67368-7424-4d73-8f14-dacdda4c59be": {
+          "type": "tab_rivui",
+          "disabled": true,
+          "settings": {
+            "title": "Benefits",
+            "review_liquid": ""
+          }
+        },
+        "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Ingredients",
+            "content": "<p>{{ product.metafields.custom.ingredients.value  }}<\/p>",
+            "page": ""
+          }
+        },
+        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Benefits",
+            "content": "<p>{{ product.metafields.custom.benefits.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
+          "type": "store_pickup",
+          "settings": {
+          }
+        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -122,40 +159,14 @@
             "show_sku": true,
             "show_barcode": false,
             "show_available": true,
-            "show_category": true,
+            "show_category": false,
             "show_tags": true
-          }
-        },
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
-          "type": "tab_des",
-          "settings": {
-            "title": "Description"
           }
         },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
           "settings": {
             "title": "Additional Information"
-          }
-        },
-        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c": {
-          "type": "tab_html",
-          "settings": {
-            "title": "Custom tab",
-            "content": "",
-            "page": "wash-care"
-          }
-        },
-        "56e67368-7424-4d73-8f14-dacdda4c59be": {
-          "type": "tab_rivui",
-          "settings": {
-            "title": "Reviews",
-            "review_liquid": ""
-          }
-        },
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
-          "type": "store_pickup",
-          "settings": {
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
@@ -168,7 +179,7 @@
             "bd_radius": 0,
             "use_color_set": true,
             "icon_cl": "#222222",
-            "bg_cl": "#00badb",
+            "bg_cl": "#bf1932",
             "space_h_item": "20",
             "space_v_item": "5",
             "space_h_item_mb": "10",
@@ -183,18 +194,22 @@
         "form",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
-        "meta",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
+        "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
+        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
+        "meta",
+        "e36839f5-0847-44e2-97d3-2885597bd1ff",
         "94011ade-ec25-4d68-b37a-70660ede49dd"
+      ],
+      "custom_css": [
+        "hr{max-width:100%}"
       ],
       "settings": {
         "pr_layout": "default",
         "enable_sticky_info": true,
-        "media_layout": "thumbnails_left",
+        "media_layout": "thumbnails_bottom",
         "media_size": "medium",
         "thumb_lr_size": "medium",
         "image_ratio": "ratioadapt",
@@ -221,9 +236,9 @@
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
-        "tabs_design": "tab",
+        "tabs_design": "accordion",
         "tabs_design_mb": "accordion",
-        "tabs_position": "external",
+        "tabs_position": "inner",
         "enable_first_tab": false,
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",

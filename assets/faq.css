@@ -28,3 +28,17 @@
   font-size: 36px;
   color: var(--accent-color);
 }
+
+
+@media (max-width: 748px){
+  .nav-tabs.vertical  {
+    display: flex;
+    gap: 10px;
+    flex-wrap:nowrap;
+    overflow-x: auto;
+  }  
+  .nav-tabs.vertical > .nav-item {
+    display: flex;
+    flex: 1 0 auto;
+  }
+}
