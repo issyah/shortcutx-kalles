@@ -1,0 +1,220 @@
+<style>
+   .card{
+     padding: 15px;
+     border: 1px solid var(--border-color);
+   }
+   .calorie-icon{
+     width:25px;
+     {% comment %} width: auto; {% endcomment %}
+     {% comment %} height:25px; {% endcomment %}
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+   }
+
+   #calorie-calculator-container .btn-outline-primary{
+     background: white;
+     border-color: var(--accent-color);
+     color: rgba(var(--color-base-accent-1),1);
+   }
+   #calorie-calculator-container .btn-outline-primary {
+      padding:8px;
+      border: 1px solid var(--accent-color);
+      cursor:pointer;
+    }
+   #calorie-calculator-container .btn-check:checked + .btn-outline-primary{
+     background: #f6d2d2;
+     color: rgba(var(--color-base-accent-1),1);
+   }
+
+   #calorie-calculator-container hr {
+     margin: 1rem 0;
+   }
+   .mb-3{
+     margin-bottom: 20px;
+   }
+   .btn-group{
+     position:relative;
+     display: inline-flex;
+     vertical-align: middle;
+     margin-bottom: 20px;
+   }
+   .btn-group > .btn {
+     position: relative;
+     flex: 1 1 auto;
+     padding: 10px;
+     border: 1px solid var(--border-color);
+     cursor: pointer;
+     text-align:center;
+   }
+  .btn-check{
+   position:absolute;
+   clip: rect(0,0,0,0);
+   pointer-events: none;
+   }
+   .hidden{
+     display: none;
+   }
+   .form-control{
+    display: block;
+    width:100%;
+  }
+  .form-label{
+    display:inline-block;
+    margin-bottom:10px;
+  }
+</style>
+<div id="calorie-calculator-container" style="margin-bottom:20px;">
+  <div class="t4s-container">
+    <div class="t4s-row t4s-gx-15 t4s-gx-30 t4s-align-items-center t4s-justify-content-center">
+      <div class="t4s-col-12 t4s-col-md-8">
+        <h2 data-aos="fade-up" data-aos-duration="500">
+          {{ section.settings.heading }}
+        </h2>
+        <p class="display-6" data-aos="fade-up" data-duration="500">
+          {{ section.settings.description }}
+        </p>
+      </div>
+      <div class="t4s-col-12 t4s-col-md-8 ">
+        <div class="card border-0 shadow-lg">
+          <div class="card-body calorie-form-section py-4 px-4">
+            <h3 class="card-title">Tell us more about yourself</h3>
+            <form onsubmit="clickCalculateCalorie(event)">
+              <div class="mb-3">
+                <label class="form-label">Gender</label>
+                <div class="t4s-d-grid gap-2">
+                  <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="gender" id="gender_female" checked value="female">
+                    <label class="btn btn-outline-primary pt-3" for="gender_female">
+                      <div class="calorie-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 320 512">
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48zM88 384H70.2C59.28 384 51.57 373.3 55.02 362.9L93.28 248.1L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L58.18 182.3C78.43 148.6 114.9 128 154.2 128H165.8C205.1 128 241.6 148.6 261.8 182.3L315.4 271.5C324.5 286.7 319.6 306.3 304.5 315.4C289.3 324.5 269.7 319.6 260.6 304.5L226.7 248.1L264.1 362.9C268.4 373.3 260.7 384 249.8 384H232V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V384H152V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480L88 384z"/>
+                        </svg>
+                      </div>
+                      Female
+                    </label>
+                    <input type="radio" class="btn-check" name="gender" id="gender_male" value="male">
+                    <label class="btn btn-outline-primary pt-3" for="gender_male">
+                      <div class="calorie-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 320 512">
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L315.4 271.5C324.5 286.7 319.6 306.3 304.5 315.4C289.3 324.5 269.7 319.6 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352z"/>
+                        </svg>
+                      </div>
+                      Male
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Age</label>
+                <input class="form-control form-control-lg" name="age" required>
+                <div class="text-muted">Enter age between 15-80</div>
+              </div>
+              <div class="row">
+                <div class="col mb-3">
+                  <label class="form-label">Weight (kg)</label>
+                  <input class="form-control form-control-lg" name="weight" required>
+                </div>
+                <div class="col mb-3">
+                  <label class="form-label">Height (cm)</label>
+                  <input class="form-control form-control-lg" name="height" required>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Select your daily activity level:</label>
+                <div class="gap-2">
+                  {% comment %}
+                    <input type="radio" class="btn-check" name="activity" id="activity_sedentary" checked value="sedentary"/>
+                    <label class="btn btn-lg btn-outline-primary mb-2" for="activity_sedentary">Sedentary</label>
+                  {% endcomment %}
+                  <input type="radio" class="btn-check" name="activity" id="activity_light" value="light" checked>
+                  <label class="btn btn-lg btn-outline-primary mb-2" for="activity_light">Lightly Active</label>
+                  <input type="radio" class="btn-check" name="activity" id="activity_moderate" value="moderate">
+                  <label class="btn btn-lg btn-outline-primary mb-2" for="activity_moderate">Moderate</label>
+                  <input type="radio" class="btn-check" name="activity" id="activity_active" value="active">
+                  <label class="btn btn-lg btn-outline-primary mb-2" for="activity_active">Very Active</label>
+                  {% comment %}
+                    <input type="radio" class="btn-check" name="activity" id="activity_extreme" value="extreme"/>
+                    <label class="btn btn-lg btn-outline-primary mb-2" for="activity_extreme">Extremely Active</label>
+                  {% endcomment %}
+                </div>
+              </div>
+              <button type="submit" class="t4s-btn t4s-btn-base t4s-btn-style-outline t4s-btn-size-large t4s-btn-color-primary t4s-btn-effect-fade t4s-btn-loading__svg t4s-w-100">
+                <span class="t4s-btn-atc_text">Calculate</span>
+                <div class="t4s-loading__spinner t4s-dn">
+                  <svg
+                    width="16"
+                    height="16"
+                    aria-hidden="true"
+                    focusable="false"
+                    role="presentation"
+                    class="t4s-svg__spinner"
+                    viewBox="0 0 66 66"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle class="t4s-path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                  </svg>
+                </div>
+              </button>
+            </form>
+          </div>
+          <div class="card-body calorie-result-section py-4 px-4 hidden">
+            <h3 style="margin-bottom:20px;">
+              This is the number of calories you should eat daily to reach your desired weight in the set time frame.
+            </h3>
+            {% comment %} <h2 class="text-center" id="calorie-result-value"></h2> {% endcomment %}
+            <div class="t4s-d-flex t4s-align-items-center t4s-justify-content-between mt-5">
+              <h4>To maintain weight</h4>
+              <div>
+                <h1 class="h1" id="calorie-result-value">1234</h1><span class="text-muted"> calories/day</span>
+              </div>
+            </div>
+            <div class="t4s-d-flex t4s-align-items-center t4s-justify-content-between mt-3 mb-4">
+              <h4>To lose weight</h4>
+              <div>
+                <h1 class="h1" id="calorie-lose-value">1234</h1><span class="text-muted"> calories/day</span>
+              </div>
+            </div>
+            <button class="t4s-btn t4s-btn-base t4s-btn-style-outline t4s-btn-size-large t4s-btn-color-primary t4s-btn-effect-fade t4s-btn-loading__svg t4s-w-100" onclick="resetCalculator()">Re-calculate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{{ 'calorie-calculator.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "shortcutX Calculator",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description 1"
+    },
+    {
+      "type": "text",
+      "id": "description_2",
+      "label": "Description 2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ShortcutX calculator",
+      "settings": {
+        "heading": "This is a heading",
+        "description": "This is a description",
+        "description_2": "This is a second description"
+      }
+    }
+  ]
+}
+{% endschema %}
