@@ -185,6 +185,14 @@
             "space_h_item_mb": "10",
             "space_v_item_mb": "2"
           }
+        },
+        "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80": {
+          "type": "tab_html",
+          "settings": {
+            "title": "How to Consume",
+            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -201,10 +209,11 @@
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "94011ade-ec25-4d68-b37a-70660ede49dd"
+        "94011ade-ec25-4d68-b37a-70660ede49dd",
+        "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
       "custom_css": [
-        "hr{max-width:100%}"
+
       ],
       "settings": {
         "pr_layout": "default",
@@ -252,6 +261,71 @@
         "enable_select": true,
         "ani": "none",
         "time": 6
+      }
+    },
+    "d04c193c-455c-49d1-8052-6b476007dc5c": {
+      "type": "pair-it-with",
+      "settings": {
+        "heading_align": "t4s-text-center",
+        "top_heading": "Pair it with",
+        "product_list": "{{ product.metafields.custom.pair_it_with.value }}",
+        "cd_txt": "",
+        "date": "",
+        "cl_text": "#ffffff",
+        "bg_cdt": "#e4573d",
+        "tophead_mb": 30,
+        "section_layout": "1",
+        "layout_border": true,
+        "box_border_r": 5,
+        "box_border_cl": "#bf1932",
+        "product_des": "4",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "pr_limit": 8,
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "show_stock_bar": false,
+        "txt_sold": "Sold:",
+        "txt_avai": "Available:",
+        "cl_stock_1": "#4e97fd",
+        "cl_stock_2": "#77ccfd",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "sidebar": {
@@ -454,6 +528,7 @@
   "order": [
     "breadcrumb",
     "main",
+    "d04c193c-455c-49d1-8052-6b476007dc5c",
     "sidebar",
     "product-recommendations",
     "recently-viewed-products"
