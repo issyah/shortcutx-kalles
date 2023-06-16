@@ -368,13 +368,22 @@
             "icon": "",
             "content": "<p><strong>How to consume Flat Tummy Shakes? <\/strong><\/p><p>Flat Tummy Shakes should be consumed as a meal replacement, to replace one of your meals daily. Simply mix the sachet’s powder in our Shortcutx Shaker Bottle and pour 400ml of water or milk. If you choose milk, we recommend using a low fat milk. Once you drop in the blender ball, cap the bottle tightly and shake well.<\/p><p><strong>Can breastfeeding moms consume this? <\/strong><\/p><p>Yes! All our products are breastfeeding friendly. <\/p><p><strong>Can pregnant moms consume Flat Tummy Shakes? <\/strong><\/p><p>Yes, our Flat Tummy Shakes can be consumed when pregnant. <\/p><p><strong>Do Flat Tummy Shakes contain nuts? <\/strong><\/p><p>Our Flat Tummy Shakes contain traces of nuts. <\/p>"
           }
+        },
+        "4242f8e6-54ec-456a-b560-301ad9dc93f4": {
+          "type": "tab_item",
+          "settings": {
+            "tab": "30 Day Weight Loss Pack",
+            "icon": "none",
+            "content": "<p><strong>What’s inside the 30 Day Weight Loss Pack?<\/strong><\/p><p>The 30 Day Weight Loss Pack contains 14 Cookie Butter Crunch sachets, 7 Night Fat Burners, and 8 Detox Juice. <\/p><p><strong>How to consume a 30 Day Weight Loss Pack? <\/strong><\/p><p>The weight loss pack comes with its own schedule in the box. <\/p><p>Week 1: Flat Tummy Shakes - consume this as a meal replacement. <\/p><p>Week 2: Night Fat Burner - this should be taken 30 minutes to 1 hour before bed. <\/p><p>Week 3: Flat Tummy Shakes - consume this as a meal replacement. <\/p><p>Week 4: Detox Juice - drink this in the morning on an empty stomach. <\/p><p><strong>Can I buy the sachet separately? <\/strong><\/p><p>No, we do not sell the different items in the pack as loose pieces. <\/p>"
+          }
         }
       },
       "block_order": [
         "dfa3f935-c778-4d9b-8fba-80c68d58181e",
         "3da33074-e481-4bee-83b6-c26e5246220d",
         "d87fd24f-774c-4b88-ab58-d40615f6b3b8",
-        "ebef7a46-c40d-43fa-ac97-0fe73c07b6f4"
+        "ebef7a46-c40d-43fa-ac97-0fe73c07b6f4",
+        "4242f8e6-54ec-456a-b560-301ad9dc93f4"
       ],
       "settings": {
       }
