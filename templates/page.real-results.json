@@ -977,24 +977,6 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
-        },
-        "f229e8c7-d918-4317-85ae-5bcb7e1b47ad": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "joe_nilamegan",
-            "text": "<p>Now I’m consuming shortcutx fat burner and teh tarikf or the past 2 months after delivering my second baby. So far kost 6kg.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "shortcutx-teh-tarik-slimming-tea",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
         }
       },
       "block_order": [
@@ -1046,8 +1028,7 @@
         "990c73b8-5324-4f4a-807a-2f1893eb9bf3",
         "492dfe22-6ab5-4b57-b4d9-9bacb1ce12ec",
         "34f831f3-653b-43eb-8690-ec6b6730579c",
-        "e2ef1104-9185-4b49-a93a-e3d962cbc7e4",
-        "f229e8c7-d918-4317-85ae-5bcb7e1b47ad"
+        "e2ef1104-9185-4b49-a93a-e3d962cbc7e4"
       ],
       "custom_css": [
 
@@ -1276,11 +1257,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": " joe_nilamegan",
+            "text": "<p>Now I’m consuming shortcutx fat burner and teh tarikf or the past 2 months after delivering my second baby. So far kost 6kg.<\/p>",
             "button_label": "",
             "button_link": "",
-            "product": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
             "collection": "",
             "open_link": "_blank",
             "btn_icon": false,
