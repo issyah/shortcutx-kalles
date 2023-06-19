@@ -796,7 +796,7 @@
             "type": "drop",
             "settings": {
               "title": "Shop",
-              "url": "shopify:\/\/collections",
+              "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
               "menu": "shop-dropdown",
               "icon": "",
