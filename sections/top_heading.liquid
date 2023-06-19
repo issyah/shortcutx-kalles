@@ -20,7 +20,9 @@
         render 'se_cus_css',code_cus_css:se_stts.code_cus_css,t4s_se_class:t4s_se_class
     endif 
 -%}
-<div class="t4s-section-inner {{t4s_se_class}} t4s_nt_se_{{sid}} {{stt_layout}}{% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2"{% endif %} {% render 'section_style',se_stts:se_stts -%} >
+<div {% if se_stts.anchor_id != blank %}
+    id="{{ se_stts.anchor_id }}"
+{% endif %} class="t4s-section-inner {{t4s_se_class}} t4s_nt_se_{{sid}} {{stt_layout}}{% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2"{% endif %} {% render 'section_style',se_stts:se_stts -%} >
     {{-html_layout[0]-}}
     {%- if stt_layout == 't4s-se-container' -%}
     <div class="t4s-container-inner{% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2"{% endif %}>{% endif -%}
@@ -80,6 +82,11 @@
         {
             "type": "header",
             "content": "1.General options"
+        },
+        {
+            "type" : "text",
+            "id" : "anchor_id",
+            "label" : "Anchor id"
         },
         {
             "type": "select",
