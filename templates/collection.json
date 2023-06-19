@@ -100,14 +100,14 @@
           "type": "cat",
           "settings": {
             "collection": "meal-replacement",
-            "icon": "las la-drumstick-bite"
+            "icon": "las la-cookie-bite"
           }
         },
         "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
           "type": "cat",
           "settings": {
             "collection": "frontpage",
-            "icon": "las la-ruler-horizontal"
+            "icon": "las la-burn"
           }
         },
         "9a953769-57c2-417a-b665-db34392c8d1c": {
