@@ -1271,6 +1271,24 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "508f58ac-22dc-4519-a943-aae00bccd105": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
@@ -1282,7 +1300,8 @@
         "cb19888c-7920-4431-a8bc-b843f0ce8688",
         "b55186e4-efc0-4dd8-a5bb-13715d9882d4",
         "f5d5c5fc-2571-4918-924e-e0cdb3913bf2",
-        "f97c9e36-16f7-439a-a169-8ac8180897d4"
+        "f97c9e36-16f7-439a-a169-8ac8180897d4",
+        "508f58ac-22dc-4519-a943-aae00bccd105"
       ],
       "settings": {
         "design_heading": "1",
