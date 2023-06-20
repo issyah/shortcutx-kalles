@@ -215,10 +215,10 @@
         "enable_border": true,
         "enable_shadow": true,
         "cl_border": "#f6f6f8",
-        "cl_head": "#222",
-        "cl_icon": "#222",
+        "cl_head": "#222222",
+        "cl_icon": "#222222",
         "cl_des": "#878787",
-        "cl_box": "#fff",
+        "cl_box": "#ffffff",
         "cl_box_hover": "#f5f5f5",
         "cl_content_hover": "#222222",
         "layout": "t4s-container-wrap",
@@ -342,10 +342,10 @@
         "enable_border": true,
         "enable_shadow": true,
         "cl_border": "#f6f6f8",
-        "cl_head": "#222",
-        "cl_icon": "#222",
+        "cl_head": "#222222",
+        "cl_icon": "#222222",
         "cl_des": "#878787",
-        "cl_box": "#fff",
+        "cl_box": "#ffffff",
         "cl_box_hover": "#f5f5f5",
         "cl_content_hover": "#222222",
         "layout": "t4s-container-wrap",
@@ -706,6 +706,79 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "1405a9f9-bf7f-45ab-ad9b-dd322091982b": {
+      "type": "top_heading",
+      "blocks": {
+        "template--16765884858608__1405a9f9-bf7f-45ab-ad9b-dd322091982b-16872344884336a913-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Want to become a reseller?"
+          }
+        }
+      },
+      "block_order": [
+        "template--16765884858608__1405a9f9-bf7f-45ab-ad9b-dd322091982b-16872344884336a913-0"
+      ],
+      "settings": {
+        "anchor_id": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "0b41c2f5-bf33-4403-9999-74dad70c5eff": {
+      "type": "contact-form",
+      "blocks": {
+        "template--16765884858608__0b41c2f5-bf33-4403-9999-74dad70c5eff-1687236789cb7ef4f7-0": {
+          "type": "bl_form",
+          "settings": {
+            "heading": "Drop us a message and we'll get back to you!",
+            "enable_phone": true,
+            "enable_full_btn": true,
+            "button_style": "default",
+            "btn_size": "extra-large",
+            "btn_cl": "primary"
+          }
+        },
+        "template--16765884858608__0b41c2f5-bf33-4403-9999-74dad70c5eff-1687236789cb7ef4f7-1": {
+          "type": "bl_info",
+          "disabled": true,
+          "settings": {
+            "heading": "CONTACT INFORMATION",
+            "text": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p><p><i class=\"las la-home fs__16\"><\/i> 184 Main Rd E, St Albans Victoria 3021, Australia<\/p><p><i class=\"las la-phone fs__16\"><\/i> 1800-123-222 \/ 1900-1570-230<\/p><p><i class=\"las la-envelope fs__16\"><\/i> contact@company.com<\/p><i class=\"las la-clock fs__16\"><\/i> Everyday 9:00-17:00"
+          }
+        }
+      },
+      "block_order": [
+        "template--16765884858608__0b41c2f5-bf33-4403-9999-74dad70c5eff-1687236789cb7ef4f7-0",
+        "template--16765884858608__0b41c2f5-bf33-4403-9999-74dad70c5eff-1687236789cb7ef4f7-1"
+      ],
+      "settings": {
+        "enable_map": false,
+        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -717,6 +790,8 @@
     "a603ec3d-d3d1-4d61-a6de-0946beec1201",
     "d7407385-b5eb-4d73-91c0-cce10000b936",
     "21ce271f-56bf-426a-8b59-51e89b2c6b66",
-    "b081c78e-9b7f-48bc-9efa-c5a24136b062"
+    "b081c78e-9b7f-48bc-9efa-c5a24136b062",
+    "1405a9f9-bf7f-45ab-ad9b-dd322091982b",
+    "0b41c2f5-bf33-4403-9999-74dad70c5eff"
   ]
 }
