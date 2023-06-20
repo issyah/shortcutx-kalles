@@ -7,9 +7,9 @@
           "type": "1",
           "settings": {
             "heading": "",
-            "fontf": "inherit",
-            "text_cl": "#fff",
-            "text_fs": 20,
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 42,
             "text_lh": 0,
             "text_fw": 400,
             "text_ls": 0,
@@ -29,10 +29,11 @@
         "4ccb8a07-ced7-4518-b278-9951b8bd6157"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1412.jpg",
         "use_specify_image": true,
         "parallax": false,
         "color": "#000000",
-        "overlay": 54,
+        "overlay": 29,
         "padding": 50,
         "paddingmb": 50,
         "mg_b": 50,
@@ -84,11 +85,638 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "c1fb0835-6a38-4172-be35-636c3de5a8b3": {
+      "type": "top_heading",
+      "blocks": {
+        "template--16765884858608__c1fb0835-6a38-4172-be35-636c3de5a8b3-16872344884336a913-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Official Stores"
+          }
+        }
+      },
+      "block_order": [
+        "template--16765884858608__c1fb0835-6a38-4172-be35-636c3de5a8b3-16872344884336a913-0"
+      ],
+      "settings": {
+        "anchor_id": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e4666f00-5478-4c93-ad59-09e91b4dc395": {
+      "type": "iconbox",
+      "blocks": {
+        "template--16765884858608__e4666f00-5478-4c93-ad59-09e91b4dc395-16872349365e20c612-0": {
+          "type": "item",
+          "settings": {
+            "link": "https:\/\/shopee.sg\/shortcutx",
+            "open_link": "_blank",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/Shopee_logo.svg",
+            "icon_image_width": 50,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Shopee Singapore"
+          }
+        },
+        "674adfcd-2de5-4787-a896-4dca350ec86f": {
+          "type": "item",
+          "settings": {
+            "link": "https:\/\/shopee.com.my\/shortcutx.hq",
+            "open_link": "_blank",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/Shopee_logo.svg",
+            "icon_image_width": 50,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Shopee Malaysia"
+          }
+        },
+        "7af7dcc7-be3b-43cb-80e9-e65c1889221e": {
+          "type": "item",
+          "settings": {
+            "link": "https:\/\/www.lazada.sg\/shop\/shortcutxofficial",
+            "open_link": "_blank",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/Lazada-Symbol.png",
+            "icon_image_width": 130,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Lazada Singapore"
+          }
+        }
+      },
+      "block_order": [
+        "template--16765884858608__e4666f00-5478-4c93-ad59-09e91b4dc395-16872349365e20c612-0",
+        "674adfcd-2de5-4787-a896-4dca350ec86f",
+        "7af7dcc7-be3b-43cb-80e9-e65c1889221e"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "source": "get_image",
+        "pd_content": "20px,20px,20px,20px",
+        "layout_des": "1",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "enable_border": true,
+        "enable_shadow": true,
+        "cl_border": "#f6f6f8",
+        "cl_head": "#222",
+        "cl_icon": "#222",
+        "cl_des": "#878787",
+        "cl_box": "#fff",
+        "cl_box_hover": "#f5f5f5",
+        "cl_content_hover": "#222222",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,96px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": ".t4s-iconbox-icon{\n  margin-right:0\n}"
+      }
+    },
+    "a603ec3d-d3d1-4d61-a6de-0946beec1201": {
+      "type": "top_heading",
+      "blocks": {
+        "93ddf7fd-a9cb-4531-bbd6-ffb025b52079": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Authorised Stores"
+          }
+        }
+      },
+      "block_order": [
+        "93ddf7fd-a9cb-4531-bbd6-ffb025b52079"
+      ],
+      "settings": {
+        "anchor_id": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "d7407385-b5eb-4d73-91c0-cce10000b936": {
+      "type": "iconbox",
+      "blocks": {
+        "c6455515-415e-4645-964f-6e7a7fee3c07": {
+          "type": "item",
+          "settings": {
+            "link": "https:\/\/shop.barakah.sg\/search?type=product&q=shortcutx",
+            "open_link": "_blank",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/Barakah_Logo_Vector_1.webp",
+            "icon_image_width": 300,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Al Barakah"
+          }
+        },
+        "7ce6d104-b878-4a99-b13b-2c1a31638101": {
+          "type": "item",
+          "settings": {
+            "link": "https:\/\/tokowarisan.sg\/",
+            "open_link": "_blank",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/Thick-Toko-Warisan-Trading-Logo_FC-large.png",
+            "icon_image_width": 150,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Shopee Malaysia"
+          }
+        }
+      },
+      "block_order": [
+        "c6455515-415e-4645-964f-6e7a7fee3c07",
+        "7ce6d104-b878-4a99-b13b-2c1a31638101"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "source": "get_image",
+        "pd_content": "20px,20px,20px,20px",
+        "layout_des": "1",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "enable_border": true,
+        "enable_shadow": true,
+        "cl_border": "#f6f6f8",
+        "cl_head": "#222",
+        "cl_icon": "#222",
+        "cl_des": "#878787",
+        "cl_box": "#fff",
+        "cl_box_hover": "#f5f5f5",
+        "cl_content_hover": "#222222",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,96px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": ".t4s-iconbox-icon{\n  margin-right:0\n}"
+      }
+    },
+    "21ce271f-56bf-426a-8b59-51e89b2c6b66": {
+      "type": "top_heading",
+      "blocks": {
+        "52955a3d-b811-44af-81d3-6e63eb24efa2": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Authorised E-Resellers"
+          }
+        }
+      },
+      "block_order": [
+        "52955a3d-b811-44af-81d3-6e63eb24efa2"
+      ],
+      "settings": {
+        "anchor_id": "authorised-e-seller",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "b081c78e-9b7f-48bc-9efa-c5a24136b062": {
+      "type": "feature_columns",
+      "blocks": {
+        "template--16765884858608__b081c78e-9b7f-48bc-9efa-c5a24136b062-1687236110c96f6fa6-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Afyana.co",
+            "text": "<p><a href=\"https:\/\/take.app\/afyana\" title=\"https:\/\/take.app\/afyana\">https:\/\/take.app\/afyana<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "3e481c67-e580-4b06-83f1-af5b779a99c8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "BabyGarageSG",
+            "text": "<p><a href=\"http:\/\/www.BabyGarageSG.com\" title=\"http:\/\/www.BabyGarageSG.com\">http:\/\/www.BabyGarageSG.com<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "1315c2ca-fbb8-45fe-8afe-72fa26bcfa76": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Beautyfyxed",
+            "text": "<p><a href=\"https:\/\/www.beautyfyxed.com\" title=\"https:\/\/www.beautyfyxed.com\">www.beautyfyxed.com<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "ce864a28-0512-470a-a0fe-1ac45aa0a4f0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "DianAbdul",
+            "text": "<p><a href=\"https:\/\/shopee.sg\/dianabdul\" title=\"https:\/\/shopee.sg\/dianabdul\">https:\/\/shopee.sg\/dianabdul<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "a90e52a3-f654-4932-91e8-bbc3ed309da1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Emma_clozet",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/emma_clozet\/?hl=en\" title=\"https:\/\/www.instagram.com\/emma_clozet\/?hl=en\">https:\/\/www.instagram.com\/emma_clozet\/?hl=en<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "8c90c8b0-6fcc-4633-8e39-590004e6b0f3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Euphorika",
+            "text": "<p><a href=\"https:\/\/www.euphorika.com.sg\" title=\"https:\/\/www.euphorika.com.sg\">www.euphorika.com.sg<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "62e8c1a9-8dca-4efc-9265-6590d52f8929": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "FilaAllyshaBeauty",
+            "text": "<p><a href=\"https:\/\/linktr.ee\/FilaAllyshaBeauty\" title=\"https:\/\/linktr.ee\/FilaAllyshaBeauty\">https:\/\/linktr.ee\/FilaAllyshaBeauty<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "869bc6e1-769e-462c-a867-5937ea238608": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Jairoyalneeds",
+            "text": "<p><a href=\"https:\/\/instagram.com\/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==\" title=\"https:\/\/instagram.com\/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==\">https:\/\/instagram.com\/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "2b54318b-037b-47e5-9741-3c2a0926b40f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Kiddyglow",
+            "text": "<p><a href=\"https:\/\/kiddyglow.com\/\" title=\"https:\/\/kiddyglow.com\/\">https:\/\/kiddyglow.com\/<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "89c2bf15-b4d1-488c-be27-522588a8ed7b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Nabma_s",
+            "text": "<p><a href=\"https:\/\/instagram.com\/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==\" title=\"https:\/\/instagram.com\/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==\">https:\/\/instagram.com\/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "1673f455-327e-48a9-ba37-a5a3460ef65b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Natalie La Bella",
+            "text": "<p><a href=\"http:\/\/www.natalielabella.co\" title=\"http:\/\/www.natalielabella.co\">http:\/\/www.natalielabella.co<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "028dc961-d73e-4619-b1f5-dee68e29a8e0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Noorhaida1986",
+            "text": "<p><a href=\"https:\/\/shopee.sg\/noorhaida1986\" title=\"https:\/\/shopee.sg\/noorhaida1986\">https:\/\/shopee.sg\/noorhaida1986<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "cc7a372f-7b38-4536-84b2-30f682dcda79": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Oh.gorgeouss",
+            "text": "<p><a href=\"https:\/\/instagram.com\/oh.gorgeouss?igshid=YmMyMTA2M2Y=\" title=\"https:\/\/instagram.com\/oh.gorgeouss?igshid=YmMyMTA2M2Y=\">https:\/\/instagram.com\/oh.gorgeouss?igshid=YmMyMTA2M2Y=<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "63fe2193-d734-4540-8bb0-53cc6face9e2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Tiarakinz",
+            "text": "<p><a href=\"https:\/\/instagram.com\/shortcutx.singapore?igshid=MzRlODBiNWFlZA==\" title=\"https:\/\/instagram.com\/shortcutx.singapore?igshid=MzRlODBiNWFlZA==\">https:\/\/instagram.com\/shortcutx.singapore?igshid=MzRlODBiNWFlZA==<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "93996b46-9987-4bcd-b36a-db2d84a45651": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "thefsquared",
+            "text": "<p><a href=\"https:\/\/shopee.sg\/thefsquared\" title=\"https:\/\/shopee.sg\/thefsquared\">https:\/\/shopee.sg\/thefsquared<\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "template--16765884858608__b081c78e-9b7f-48bc-9efa-c5a24136b062-1687236110c96f6fa6-0",
+        "3e481c67-e580-4b06-83f1-af5b779a99c8",
+        "1315c2ca-fbb8-45fe-8afe-72fa26bcfa76",
+        "ce864a28-0512-470a-a0fe-1ac45aa0a4f0",
+        "a90e52a3-f654-4932-91e8-bbc3ed309da1",
+        "8c90c8b0-6fcc-4633-8e39-590004e6b0f3",
+        "62e8c1a9-8dca-4efc-9265-6590d52f8929",
+        "869bc6e1-769e-462c-a867-5937ea238608",
+        "2b54318b-037b-47e5-9741-3c2a0926b40f",
+        "89c2bf15-b4d1-488c-be27-522588a8ed7b",
+        "1673f455-327e-48a9-ba37-a5a3460ef65b",
+        "028dc961-d73e-4619-b1f5-dee68e29a8e0",
+        "cc7a372f-7b38-4536-84b2-30f682dcda79",
+        "63fe2193-d734-4540-8bb0-53cc6face9e2",
+        "93996b46-9987-4bcd-b36a-db2d84a45651"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "text_align": "center",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratio16_9",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "none",
+        "b_effect": "none",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "c1fb0835-6a38-4172-be35-636c3de5a8b3",
+    "e4666f00-5478-4c93-ad59-09e91b4dc395",
+    "a603ec3d-d3d1-4d61-a6de-0946beec1201",
+    "d7407385-b5eb-4d73-91c0-cce10000b936",
+    "21ce271f-56bf-426a-8b59-51e89b2c6b66",
+    "b081c78e-9b7f-48bc-9efa-c5a24136b062"
   ]
 }
