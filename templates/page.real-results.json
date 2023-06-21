@@ -1569,7 +1569,8 @@
         "13f75733-4e2a-45de-97c8-9f409ec64883": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.26.16_PM.png",
             "title": "Yak C",
             "text": "<p>Love both flavours. I dont feel hungry at all for the whole day while fasting. It works for me<\/p>",
             "button_label": "",
@@ -1587,7 +1588,8 @@
         "a77a2453-7b7a-4f9e-98bf-6938ea021b76": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.25.21_PM.png",
             "title": "osnptzly",
             "text": "<p>The taste of this meal replacement product is amazing, with a perfect balance of sweetness and flavor that doesn't leave any unpleasant aftertaste. The texture is also excellent, smooth and creamy without being too thick or gritty (like TruShakes). It's a delicious and convenient option to help me stay on track with my calorie deficit goals. Highly recommended!<\/p>",
             "button_label": "",
@@ -1605,7 +1607,8 @@
         "580b53e0-85a8-4bc8-9356-66555c7f8c5e": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.27.22_PM.png",
             "title": "Saifuddeen A",
             "text": "<p>Tastes mildly sweet, curbs my appetite for very long and it is truly to its description. Highly recommend<\/p>",
             "button_label": "",
@@ -1693,7 +1696,8 @@
         "b171a80f-6e47-4dbb-b900-b0aa016ec2cb": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.23.32_PM.png",
             "title": "Lalminah",
             "text": "<p>I’m on my day 8 with your Flat tummy. So far I don’t feel bloated at all and i feel really really light. Lost some inches too & it tastes s yummy !!<\/p>",
             "button_label": "",
@@ -1711,7 +1715,8 @@
         "bb2e4222-4162-4fa1-8059-c2874edc91cf": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.23.23_PM.png",
             "title": "lyn_putera",
             "text": "<p>I bought twice from the same shop and its working !!! I manage to control my food and the last time i check my weight was 75kg i not sure about now but i feel a little light<\/p>",
             "button_label": "",
@@ -1729,7 +1734,8 @@
         "f867ef71-b294-4779-827e-d9f47d8b0302": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.17.54_PM.png",
             "title": "sultanahli",
             "text": "<p>Tried one pack and works well with the tea tarik for sahur. didnt really feel hungry. lost weight and feels lighter also. love the choc taste.<\/p>",
             "button_label": "",
@@ -1743,12 +1749,72 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "ce5ffc16-6009-44f2-bff2-4112d30fa493": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.23.32_PM.png",
+            "title": "msyfthn",
+            "text": "<p>Works well for me. Was already trying to lose weight before taking the product but was having a hard time to lose the last kg (I have hit a certain weight for work purpose). Took this for a few days and managed to hit my target weight. <br\/>More bowel movements a day as compared to before. <br\/>Taste is great as well. Not too sweet or bland.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-chocolate-brownie",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "42086d9a-2984-45c4-9f2b-dc2ec504a99e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.31.49_PM.png",
+            "title": "love4breakfast",
+            "text": "<p>Love both flavours. I dont feel hungry at all for the whole day while fasting. It works for me🫰🏻<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "a30fed47-7341-44bf-8281-e2cd1b01a6ed": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.34.16_PM.png",
+            "title": "nuraneeshaah",
+            "text": "<p>THE FLAVOUR IS SO NICE UGHHHH<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
         "b171a80f-6e47-4dbb-b900-b0aa016ec2cb",
         "bb2e4222-4162-4fa1-8059-c2874edc91cf",
-        "f867ef71-b294-4779-827e-d9f47d8b0302"
+        "f867ef71-b294-4779-827e-d9f47d8b0302",
+        "ce5ffc16-6009-44f2-bff2-4112d30fa493",
+        "42086d9a-2984-45c4-9f2b-dc2ec504a99e",
+        "a30fed47-7341-44bf-8281-e2cd1b01a6ed"
       ],
       "settings": {
         "design_heading": "1",
@@ -1808,10 +1874,30 @@
     "c73ff5fa-c0ee-4cb4-b954-9c24bca2dcf4": {
       "type": "real-results",
       "blocks": {
+        "8fe4e128-c928-4ff3-af46-becaeabd38c3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.17.20_PM_b3bc9b1d-0531-405d-831c-d9f14f929482.png",
+            "title": "Linda F",
+            "text": "<p>Been consuming shortcutx for more than 3-months and I really have faith in them coz I see the results in me!! From size XL and now I’m in size M!! Thank you shortcutx!! I will continue supporting shortcutx!! Keep coming up with new flavours! #don’tstopbelieving <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-30-day-weight-loss-kit",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
         "e87198ca-fa22-4ce3-a76f-8da2a45b7a81": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.35.34_PM.png",
             "title": "feeyonces",
             "text": "<p>Bought the pack along with the apple cider. The shake really suppresses my appetite eventho I hate meal replacements bc i prefer to munch than lunch in a cup. But I did lose weight so it works well i guess! Many have said i look like I lost weight<\/p>",
             "button_label": "",
@@ -1829,7 +1915,8 @@
         "edf7d4ff-ecab-4c5a-b2f7-0f9fac1da638": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.38.59_PM.png",
             "title": "elsaryna",
             "text": "<p>Been drinking it for the past 6 days! Very nice flavour!!! I drank with milk, 2hrs after lunch. Makes me skip dinner all together! Cant wait to see more results! Will go toilet once a day for sure!<\/p>",
             "button_label": "",
@@ -1847,27 +1934,10 @@
         "5888d64a-02c0-450e-8da5-5884a7582980": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.36.08_PM.png",
             "title": "slayernovia",
             "text": "<p>Cookie butter shake taste good! Love this and the strawberry cheesecake. Definitely nice for a meal replacement. Have yet to try the detox and night.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "shortcutx-30-day-weight-loss-kit",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
-        "8fe4e128-c928-4ff3-af46-becaeabd38c3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "Linda F",
-            "text": "<p>Been consuming shortcutx for more than 3-months and I really have faith in them coz I see the results in me!! From size XL and now I’m in size M!! Thank you shortcutx!! I will continue supporting shortcutx!! Keep coming up with new flavours! #don’tstopbelieving <\/p>",
             "button_label": "",
             "button_link": "",
             "product": "shortcutx-30-day-weight-loss-kit",
@@ -1883,7 +1953,8 @@
         "19dee721-b5e3-476f-ba5f-49d9fc761aa7": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.38.07_PM.png",
             "title": "Claire L",
             "text": "<p>Love the taste of the product. I feel lighter, less bloated and not hungry after consuming it. Thanks for coming up with such an amazing product for your consumers! :)<\/p>",
             "button_label": "",
@@ -1897,14 +1968,33 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "2e1f74bd-125d-4eb8-bcc3-3857d3e6f659": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "feeyonces",
+            "text": "<p>Bought the pack along with the apple cider. The shake really suppresses my appetite eventho I hate meal replacements bc i prefer to munch than lunch in a cup. But I did lose weight so it works well i guess! Many have said i look like I lost weight 🤣<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
+        "8fe4e128-c928-4ff3-af46-becaeabd38c3",
         "e87198ca-fa22-4ce3-a76f-8da2a45b7a81",
         "edf7d4ff-ecab-4c5a-b2f7-0f9fac1da638",
         "5888d64a-02c0-450e-8da5-5884a7582980",
-        "8fe4e128-c928-4ff3-af46-becaeabd38c3",
-        "19dee721-b5e3-476f-ba5f-49d9fc761aa7"
+        "19dee721-b5e3-476f-ba5f-49d9fc761aa7",
+        "2e1f74bd-125d-4eb8-bcc3-3857d3e6f659"
       ],
       "settings": {
         "design_heading": "1",
