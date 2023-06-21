@@ -1290,6 +1290,63 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "7501fe96-ade3-41e7-91f0-b17256c39070": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.40.31_AM.png",
+            "title": "sabrinamanso",
+            "text": "<p>ive loss 1kg on my 2nd day of consuming teh tarik. it give alot of energy during the day and must drink alot of plain water. So far this product goes well for me and very tasty just like teh mamak.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "79b35747-e451-4029-a373-1def11f58725": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.41.46_AM.png",
+            "title": "rida8827",
+            "text": "<p>I’m am really excited to try the new slimming tea. The apple cider does help to curb appetite so with the help of the teh tarik slimming tea, I hope it will help me more in achieving my weight loss goals.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "5a0330ff-1a28-4942-8265-49f4ffaa4efe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.44.10_AM.png",
+            "title": "donnashahrenna",
+            "text": "<p>Bought for 2nd time , yes it curb your appetite well and not feel hungry all the time<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
@@ -1313,7 +1370,10 @@
         "41ef1e95-cf62-458a-ad5f-e46a4e23d9d5",
         "b31d7fe0-e811-4ae0-aa35-9463b54ae738",
         "d42bfe9a-c44a-475d-8bb3-76ac1f91ea08",
-        "1e6a7d7c-df4c-43c4-896b-26367c39ab3c"
+        "1e6a7d7c-df4c-43c4-896b-26367c39ab3c",
+        "7501fe96-ade3-41e7-91f0-b17256c39070",
+        "79b35747-e451-4029-a373-1def11f58725",
+        "5a0330ff-1a28-4942-8265-49f4ffaa4efe"
       ],
       "settings": {
         "design_heading": "1",
