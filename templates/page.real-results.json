@@ -269,6 +269,25 @@
             "button_effect": "fade"
           }
         },
+        "3a2aaa04-f068-47a0-bb17-5a3eaff2f24b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/ELPjmzhBn_mid.jpg",
+            "title": "Julea A.",
+            "text": "<p>Today is my 4th day of consuming shortcutz fatburn. So far it helps with detoxing, gives energy during my run. I sweat more too!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
         "2792523e-b0fb-4570-924d-4a2b4e26dcc8": {
           "type": "text_block",
           "settings": {
@@ -534,6 +553,7 @@
         "d0e552f8-1621-4235-b653-f8c140b15a51",
         "01f5d8ba-74b0-454a-81aa-a4fcd467ad73",
         "3228ae77-d75f-4f9f-9aa5-1b164ba47ce9",
+        "3a2aaa04-f068-47a0-bb17-5a3eaff2f24b",
         "2792523e-b0fb-4570-924d-4a2b4e26dcc8",
         "c7cb952e-0d3f-4eb6-a443-9cfafbe2c51d",
         "5566a1f1-cc9e-4a78-9ab2-b2d75b20f229",
@@ -671,6 +691,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.20.51_AM.png",
             "title": "norellynawatihamdan",
             "text": "<p>I have been drinking the Shortcutx Teh and Apple cider tgt. Now trying the Caramel Machiato and Im excited. I started in mid Dec 22 @ 89kg & by Jan 23, my weight is @ 83kg. Just the apple cider when i wake up and the tea\/coffee for brekkie everyday consistently.<\/p>",
             "button_label": "",
@@ -689,8 +710,28 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/sg-11134103-23020-32paheir42mv62.jpg",
             "title": "laydeegerl",
             "text": "<p>Repeating orders. Love the taste and it did make me lose a few inches without exercising. Will reorder again<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-slimming-coffee-caramel-machiatto",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "f97c9e36-16f7-439a-a169-8ac8180897d4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.26.25_AM.png",
+            "title": "AIsalikah",
+            "text": "<p>I like the taste and it is a combi with the apple cider vinegar and i managed to lose some weight.<\/p>",
             "button_label": "",
             "button_link": "",
             "product": "shortcutx-slimming-coffee-caramel-machiatto",
@@ -792,24 +833,6 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
-        },
-        "f97c9e36-16f7-439a-a169-8ac8180897d4": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "AIsalikah",
-            "text": "<p>I like the taste and it is a combi with the apple cider vinegar and i managed to lose some weight.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "shortcutx-slimming-coffee-caramel-machiatto",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
         }
       },
       "block_order": [
@@ -818,12 +841,12 @@
         "02193f70-bbf5-436f-bd93-12c63510d3e3",
         "f55880b6-1373-4233-a604-6475d28bd9fa",
         "37a5edcf-0b99-408f-8359-b87d3347a8f3",
+        "f97c9e36-16f7-439a-a169-8ac8180897d4",
         "cb2223f4-40fa-4456-85da-9b0a4770221e",
         "3fc99368-afd3-4840-9955-c2534fc4a9d1",
         "cb19888c-7920-4431-a8bc-b843f0ce8688",
         "b55186e4-efc0-4dd8-a5bb-13715d9882d4",
-        "f5d5c5fc-2571-4918-924e-e0cdb3913bf2",
-        "f97c9e36-16f7-439a-a169-8ac8180897d4"
+        "f5d5c5fc-2571-4918-924e-e0cdb3913bf2"
       ],
       "settings": {
         "design_heading": "1",
@@ -902,10 +925,30 @@
             "button_effect": "fade"
           }
         },
+        "5ef90ffe-7f03-4ac7-aacf-97eef11049ad": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/sg-11134103-7qvd0-lggfa4nlbow3cd.jpg",
+            "title": "elainetanneo",
+            "text": "<p>Very good combination , started using these from oct , I did lose 2 kg even though I’ve been pigging out during the festive seasons<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
         "4bc64276-4797-4244-8d3c-f328d59a30a0": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.29.24_AM.png",
             "title": "soffiaghazali",
             "text": "<p>I've tried it for a week. Rly tastes like the tarik. Helps to curb appetite and kinda detoxing also<\/p>",
             "button_label": "",
@@ -923,9 +966,48 @@
         "d643c641-f44d-4739-9fab-46efa345bfce": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.31.15_AM.png",
             "title": "Aliyahkml",
             "text": "<p>really like the taste and the detox works for me. Tastes better if drank hot and the effect is stronger.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "e1cbebde-5cba-479c-a833-b40927fee0bb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.27.40_AM.png",
+            "title": "giamz",
+            "text": "<p>Drank the 1st time today. Able to suppress my hunger, don't feel hungry for abt 4h+. Had lunch but cant finish my usual serving.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "4ab3bb3d-ed18-41d0-af95-47c2523853e8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.35.46_AM.png",
+            "title": "yana_zln25",
+            "text": "<p>Tried this. It suits me together with fat burner apple cider. Hopefully more results coming in.. effect for curbing appetite really is strong game😧😧. Fast delivery within 2days I got it. Thank you<\/p>",
             "button_label": "",
             "button_link": "",
             "product": "shortcutx-teh-tarik-slimming-tea",
@@ -962,24 +1044,6 @@
             "enable_image": false,
             "title": "TataUjoom",
             "text": "<p>My 2nd purchase of the tea. It controls my appetite well and i sweat alot more than usual. Loving the surge of energy and id dosent makes you have diarrhoea <\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "shortcutx-teh-tarik-slimming-tea",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
-        "e1cbebde-5cba-479c-a833-b40927fee0bb": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "giamz",
-            "text": "<p>Drank the 1st time today. Able to suppress my hunger, don't feel hungry for abt 4h+. Had lunch but cant finish my usual serving.<\/p>",
             "button_label": "",
             "button_link": "",
             "product": "shortcutx-teh-tarik-slimming-tea",
@@ -1070,24 +1134,6 @@
             "enable_image": false,
             "title": "erwinothman",
             "text": "<p>works quite fast for those who want to have some help in cutting some weight.  Tastes amazing when taken cold.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "shortcutx-teh-tarik-slimming-tea",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
-        "5ef90ffe-7f03-4ac7-aacf-97eef11049ad": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "elainetanneo",
-            "text": "<p>Very good combination , started using these from oct , I did lose 2 kg even though I’ve been pigging out during the festive seasons<\/p>",
             "button_label": "",
             "button_link": "",
             "product": "shortcutx-teh-tarik-slimming-tea",
@@ -1225,28 +1271,49 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "1e6a7d7c-df4c-43c4-896b-26367c39ab3c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.37.29_AM.png",
+            "title": "Add a title or tagline",
+            "text": "<p>surprised at how the product works on me! tried the teh tarik and fat burner for few days already and managed to lose and curb my apetite.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-teh-tarik-slimming-tea",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
         "4c07c886-4ef6-475e-80e9-a681e7032f6e",
+        "5ef90ffe-7f03-4ac7-aacf-97eef11049ad",
         "4bc64276-4797-4244-8d3c-f328d59a30a0",
         "d643c641-f44d-4739-9fab-46efa345bfce",
+        "e1cbebde-5cba-479c-a833-b40927fee0bb",
+        "4ab3bb3d-ed18-41d0-af95-47c2523853e8",
         "600d5270-92fe-4a59-99e4-a324b7f9809c",
         "f7430c27-0c3d-4818-b17d-fb79189454c6",
-        "e1cbebde-5cba-479c-a833-b40927fee0bb",
         "8266b272-c438-4e24-ba52-5126a792a3ca",
         "993dfced-5170-460f-b333-e8c0797d6ead",
         "6b85f18d-be49-4e7b-b06d-eee8ad05680c",
         "fe2ddcde-d854-436d-9f28-be88abd1c58d",
         "8a62663c-3634-4a90-b32b-0016f7714ec5",
-        "5ef90ffe-7f03-4ac7-aacf-97eef11049ad",
         "f3a1b881-a985-4489-a223-9eaea9b12a0e",
         "5439ea29-9d76-4b7e-9543-36dfb150ffc8",
         "9f69a5bb-84db-4c6e-8507-06ee8927acf2",
         "0a5137d8-fd39-444e-a63c-87fab484f521",
         "41ef1e95-cf62-458a-ad5f-e46a4e23d9d5",
         "b31d7fe0-e811-4ae0-aa35-9463b54ae738",
-        "d42bfe9a-c44a-475d-8bb3-76ac1f91ea08"
+        "d42bfe9a-c44a-475d-8bb3-76ac1f91ea08",
+        "1e6a7d7c-df4c-43c4-896b-26367c39ab3c"
       ],
       "settings": {
         "design_heading": "1",
