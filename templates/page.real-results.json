@@ -326,6 +326,25 @@
             "button_effect": "fade"
           }
         },
+        "4abf938e-76c5-4647-a28c-bd9693430c90": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.50.32_AM.png",
+            "title": "gunavathi87",
+            "text": "<p>Loved the product alot. Controls my hunger. Can see alot of difference on me. I don't drink teh tarik. But this is legit. Simply tastes awesome. My second purchase from them. Will order more in future. Tq.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
         "5566a1f1-cc9e-4a78-9ab2-b2d75b20f229": {
           "type": "text_block",
           "settings": {
@@ -541,25 +560,6 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
-        },
-        "4abf938e-76c5-4647-a28c-bd9693430c90": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.50.32_AM.png",
-            "title": "gunavathi87",
-            "text": "<p>Loved the product alot. Controls my hunger. Can see alot of difference on me. I don't drink teh tarik. But this is legit. Simply tastes awesome. My second purchase from them. Will order more in future. Tq.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "fat-burner-apple-cider-fruit-juice",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
         }
       },
       "block_order": [
@@ -575,6 +575,7 @@
         "3a2aaa04-f068-47a0-bb17-5a3eaff2f24b",
         "2792523e-b0fb-4570-924d-4a2b4e26dcc8",
         "c7cb952e-0d3f-4eb6-a443-9cfafbe2c51d",
+        "4abf938e-76c5-4647-a28c-bd9693430c90",
         "5566a1f1-cc9e-4a78-9ab2-b2d75b20f229",
         "fc1f5186-2399-40d9-b41e-8cfdbaa357d0",
         "2fb00ea5-e65b-410b-8710-e14b0235988c",
@@ -586,8 +587,7 @@
         "d03d8748-cb20-42dd-9636-a6c4df6d85b5",
         "fc8af742-0f8d-490a-af41-9508c69ff573",
         "9d0aade0-5b98-461d-97b8-f586e584a476",
-        "a1a33d82-6423-48e6-9abb-eba43a19a526",
-        "4abf938e-76c5-4647-a28c-bd9693430c90"
+        "a1a33d82-6423-48e6-9abb-eba43a19a526"
       ],
       "custom_css": [
 
@@ -1025,7 +1025,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.35.46_AM.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.54.20_AM.png",
             "title": "yana_zln25",
             "text": "<p>Tried this. It suits me together with fat burner apple cider. Hopefully more results coming in.. effect for curbing appetite really is strong game😧😧. Fast delivery within 2days I got it. Thank you<\/p>",
             "button_label": "",
@@ -1043,7 +1043,8 @@
         "600d5270-92fe-4a59-99e4-a324b7f9809c": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.05.58_PM.png",
             "title": "Angelabellk",
             "text": "<p>This taste great ! Like teh tarik just less sugar but still can taste the sweetness . Really help w my digestion i dont felt constipation while consuming this <\/p>",
             "button_label": "",
@@ -1061,7 +1062,8 @@
         "f7430c27-0c3d-4818-b17d-fb79189454c6": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.55.55_AM.png",
             "title": "TataUjoom",
             "text": "<p>My 2nd purchase of the tea. It controls my appetite well and i sweat alot more than usual. Loving the surge of energy and id dosent makes you have diarrhoea <\/p>",
             "button_label": "",
@@ -1079,7 +1081,8 @@
         "8266b272-c438-4e24-ba52-5126a792a3ca": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.35.46_AM.png",
             "title": "Oroielam",
             "text": "<p>Taste as similar to usual teh tarik - inches lost from 3rd day onwards<\/p>",
             "button_label": "",
@@ -1097,7 +1100,8 @@
         "993dfced-5170-460f-b333-e8c0797d6ead": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.03.12_PM.png",
             "title": "sheilarhmn",
             "text": "<p>I am already 6 days into this product. Seems to be doing its work, it has managed to curb my appetite tremendously. Started to feel full fast and had lesser urge to snack\/eat. P\/s It makes you poop, LOADS. Hahahahahah. But it’s NOT the urgent poop where you’ll end up pooping yourself, so it’s still good. And for someone that has bowel problems, this would definitely help.<\/p>",
             "button_label": "",
@@ -1115,7 +1119,8 @@
         "6b85f18d-be49-4e7b-b06d-eee8ad05680c": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.51.41_AM.png",
             "title": "soffiaghazali",
             "text": "<p>I like these 2 products. Will take the fat burner first thing in the morning and the teh tarik later in the morning. Both products taste good too.<\/p>",
             "button_label": "",
@@ -1133,7 +1138,8 @@
         "fe2ddcde-d854-436d-9f28-be88abd1c58d": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.01.51_PM.png",
             "title": "ilykeunicorns",
             "text": "<p>Definitely did not regret getting the teh tarik, it taste really good!! Highly recommended it.<\/p>",
             "button_label": "",
@@ -1151,7 +1157,8 @@
         "8a62663c-3634-4a90-b32b-0016f7714ec5": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.07.37_PM.png",
             "title": "erwinothman",
             "text": "<p>works quite fast for those who want to have some help in cutting some weight.  Tastes amazing when taken cold.<\/p>",
             "button_label": "",
@@ -1169,7 +1176,8 @@
         "f3a1b881-a985-4489-a223-9eaea9b12a0e": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.06.52_PM.png",
             "title": "namekusri",
             "text": "<p>Frankly, when i drink the meal replacement at 9am, i dont fell hungry till 3pm.<\/p>",
             "button_label": "",
@@ -1188,62 +1196,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.07.28_PM.png",
             "title": "hennaresque",
             "text": "<p>Being diabetic, i am particular on 3 in 1 beverages. N yes, no sugar spike. I love it when i dun have the urge to snack n i feel energetic the whole day.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "shortcutx-teh-tarik-slimming-tea",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
-        "9f69a5bb-84db-4c6e-8507-06ee8927acf2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "mei_hui79",
-            "text": "<p>Tried for the first time, Teh Tarik taste nice, thick and aromatic. Feels the sweat coming out immediately after drinking 1 cup. Helps to curb appetite, cannot eat as much as usual.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "shortcutx-teh-tarik-slimming-tea",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
-        "0a5137d8-fd39-444e-a63c-87fab484f521": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "nrshka13",
-            "text": "<p>Very good with curbing my appetite! Will buy more next time and taste good as well!<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "shortcutx-teh-tarik-slimming-tea",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
-        "41ef1e95-cf62-458a-ad5f-e46a4e23d9d5": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "fatimahsalim",
-            "text": "<p>Getting this as a habit. I love the detox. Helps me with my constipation.<\/p>",
             "button_label": "",
             "button_link": "",
             "product": "shortcutx-teh-tarik-slimming-tea",
@@ -1278,7 +1233,8 @@
         "d42bfe9a-c44a-475d-8bb3-76ac1f91ea08": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.53.46_AM.png",
             "title": " joe_nilamegan",
             "text": "<p>Now I’m consuming shortcutx fat burner and teh tarikf or the past 2 months after delivering my second baby. So far kost 6kg.<\/p>",
             "button_label": "",
@@ -1387,6 +1343,25 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "c2b28d6b-95f2-45b5-a3a4-5b2ab6957c14": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.52.37_AM.png",
+            "title": "happilymarried83",
+            "text": "<p>You guys should try! These products legit. I lost inches n curb my appetite. No diarrhoea.. no bloating.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
@@ -1405,16 +1380,14 @@
         "8a62663c-3634-4a90-b32b-0016f7714ec5",
         "f3a1b881-a985-4489-a223-9eaea9b12a0e",
         "5439ea29-9d76-4b7e-9543-36dfb150ffc8",
-        "9f69a5bb-84db-4c6e-8507-06ee8927acf2",
-        "0a5137d8-fd39-444e-a63c-87fab484f521",
-        "41ef1e95-cf62-458a-ad5f-e46a4e23d9d5",
         "b31d7fe0-e811-4ae0-aa35-9463b54ae738",
         "d42bfe9a-c44a-475d-8bb3-76ac1f91ea08",
         "1e6a7d7c-df4c-43c4-896b-26367c39ab3c",
         "7501fe96-ade3-41e7-91f0-b17256c39070",
         "79b35747-e451-4029-a373-1def11f58725",
         "5a0330ff-1a28-4942-8265-49f4ffaa4efe",
-        "7de664e6-faf3-4ea8-b51d-2b999895b308"
+        "7de664e6-faf3-4ea8-b51d-2b999895b308",
+        "c2b28d6b-95f2-45b5-a3a4-5b2ab6957c14"
       ],
       "settings": {
         "design_heading": "1",
