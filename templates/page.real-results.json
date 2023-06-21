@@ -541,6 +541,25 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "4abf938e-76c5-4647-a28c-bd9693430c90": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.50.32_AM.png",
+            "title": "gunavathi87",
+            "text": "<p>Loved the product alot. Controls my hunger. Can see alot of difference on me. I don't drink teh tarik. But this is legit. Simply tastes awesome. My second purchase from them. Will order more in future. Tq.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
@@ -567,7 +586,8 @@
         "d03d8748-cb20-42dd-9636-a6c4df6d85b5",
         "fc8af742-0f8d-490a-af41-9508c69ff573",
         "9d0aade0-5b98-461d-97b8-f586e584a476",
-        "a1a33d82-6423-48e6-9abb-eba43a19a526"
+        "a1a33d82-6423-48e6-9abb-eba43a19a526",
+        "4abf938e-76c5-4647-a28c-bd9693430c90"
       ],
       "custom_css": [
 
@@ -1239,7 +1259,8 @@
         "b31d7fe0-e811-4ae0-aa35-9463b54ae738": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.45.26_AM.png",
             "title": "nurashakirinhisam",
             "text": "<p>Consumed by husband & MIL. So far they say it works for them<\/p>",
             "button_label": "",
@@ -1347,6 +1368,25 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "7de664e6-faf3-4ea8-b51d-2b999895b308": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.46.50_AM.png",
+            "title": "nanasalina8485",
+            "text": "<p>Countless time purchasing from seller,as always stocking up my detox! This time trying out the teh tarik slimming tea.No kidding guys in a day i will keep going to toilet like 4 times! All the stubborn fats out from my body! In a week u can lost 2-4kg! Many more to go!Gdluck!🥰🥰🥰<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
@@ -1373,7 +1413,8 @@
         "1e6a7d7c-df4c-43c4-896b-26367c39ab3c",
         "7501fe96-ade3-41e7-91f0-b17256c39070",
         "79b35747-e451-4029-a373-1def11f58725",
-        "5a0330ff-1a28-4942-8265-49f4ffaa4efe"
+        "5a0330ff-1a28-4942-8265-49f4ffaa4efe",
+        "7de664e6-faf3-4ea8-b51d-2b999895b308"
       ],
       "settings": {
         "design_heading": "1",
