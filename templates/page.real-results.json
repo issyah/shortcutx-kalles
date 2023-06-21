@@ -231,6 +231,25 @@
             "button_effect": "fade"
           }
         },
+        "01f5d8ba-74b0-454a-81aa-a4fcd467ad73": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/sg-11134103-7qvf3-lhppu6j89q62aa.jpg",
+            "title": "syafznl",
+            "text": "<p>Received within 2 days, well packed. Exactly as per listing. Repeat purchase. Initially was very skeptical about this working, but after I tried out the first week (paired with the flat tummy shakes) and saw that I lost 1.5 kg, I had to buy it again! It does help to detox without upsetting your stomach, and tastes yummy (especially chilled)! If you think the cider vinegar taste would be strong, it really isn’t. Highly recommend!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
         "fc1f5186-2399-40d9-b41e-8cfdbaa357d0": {
           "type": "text_block",
           "settings": {
@@ -438,6 +457,7 @@
         "931718a9-3fa2-46a1-9b0a-a9279a6e85c3",
         "20c277d2-4d0c-47ea-bfec-06aac45826e0",
         "d0e552f8-1621-4235-b653-f8c140b15a51",
+        "01f5d8ba-74b0-454a-81aa-a4fcd467ad73",
         "fc1f5186-2399-40d9-b41e-8cfdbaa357d0",
         "2792523e-b0fb-4570-924d-4a2b4e26dcc8",
         "5566a1f1-cc9e-4a78-9ab2-b2d75b20f229",
