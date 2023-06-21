@@ -65,8 +65,15 @@
         "046dae54-58a5-4acb-b83d-faecfe7cba38": {
           "type": "product-filter",
           "settings": {
-            "title": "Flat Tummy Shakes",
+            "title": "Strawberry Cheesecake Flat Tummy Shakes",
             "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake"
+          }
+        },
+        "a800d1c9-67b4-45c4-bab1-f1c94f5c46ca": {
+          "type": "product-filter",
+          "settings": {
+            "title": "Chocolate Brownie Flat Tummy Shakes",
+            "product": "shortcutx-flat-tummy-shakes-chocolate-brownie"
           }
         },
         "e6f031d2-7197-42f7-8be9-a312e4f70721": {
@@ -82,6 +89,7 @@
         "9051df89-c4ff-488d-a9eb-f763510c1844",
         "d24d42bc-df5e-4bf7-bc2a-4b738d550d1e",
         "046dae54-58a5-4acb-b83d-faecfe7cba38",
+        "a800d1c9-67b4-45c4-bab1-f1c94f5c46ca",
         "e6f031d2-7197-42f7-8be9-a312e4f70721"
       ],
       "settings": {
@@ -676,6 +684,124 @@
         "13f75733-4e2a-45de-97c8-9f409ec64883",
         "a77a2453-7b7a-4f9e-98bf-6938ea021b76",
         "580b53e0-85a8-4bc8-9356-66555c7f8c5e"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 96,
+        "text_align": "start",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "zoom",
+        "b_effect": "dark-overlay",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "large",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,96px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "87a1a42f-374d-49c2-a8a5-d2bb64c21d56": {
+      "type": "real-results",
+      "blocks": {
+        "b171a80f-6e47-4dbb-b900-b0aa016ec2cb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Lalminah",
+            "text": "<p>I’m on my day 8 with your Flat tummy. So far I don’t feel bloated at all and i feel really really light. Lost some inches too & it tastes s yummy !!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-chocolate-brownie",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "bb2e4222-4162-4fa1-8059-c2874edc91cf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "lyn_putera",
+            "text": "<p>I bought twice from the same shop and its working !!! I manage to control my food and the last time i check my weight was 75kg i not sure about now but i feel a little light<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-chocolate-brownie",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "f867ef71-b294-4779-827e-d9f47d8b0302": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "sultanahli",
+            "text": "<p>Tried one pack and works well with the tea tarik for sahur. didnt really feel hungry. lost weight and feels lighter also. love the choc taste.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "shortcutx-flat-tummy-shakes-chocolate-brownie",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "b171a80f-6e47-4dbb-b900-b0aa016ec2cb",
+        "bb2e4222-4162-4fa1-8059-c2874edc91cf",
+        "f867ef71-b294-4779-827e-d9f47d8b0302"
       ],
       "settings": {
         "design_heading": "1",
@@ -1616,6 +1742,7 @@
     "real-results-filter",
     "real-results",
     "ecbdac7d-503d-4568-9ec1-71e537f5a3b3",
+    "87a1a42f-374d-49c2-a8a5-d2bb64c21d56",
     "c73ff5fa-c0ee-4cb4-b954-9c24bca2dcf4",
     "2c2e0f1c-4340-408b-bbe5-fe77a4344fbc",
     "real-results-2",
