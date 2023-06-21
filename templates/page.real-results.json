@@ -269,28 +269,11 @@
             "button_effect": "fade"
           }
         },
-        "fc1f5186-2399-40d9-b41e-8cfdbaa357d0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "Elizabeth Aziz",
-            "text": "<p>Tbh, this product works on me compared to other products that I took. In a month, I lost 4kg & appetite decreased especially dessert although in between I needed dessert but under control. It can last 8-10 hrs of not having foods. When am drinking the apple cider fruit juice, I almost went to the toilet flush out abt 3-5 times a day. I had a problem with digestion & this product really suits me. Shakers & teh tarik really nice  the shakers I made it as iced blend <\/p>",
-            "button_label": "",
-            "button_link": "",
-            "product": "fat-burner-apple-cider-fruit-juice",
-            "collection": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
         "2792523e-b0fb-4570-924d-4a2b4e26dcc8": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.03.53_AM.png",
             "title": "noris7804",
             "text": "<p>The product is good and i managed to kill off 1.5kg with 1 box. Will definitely reorder again.<\/p>",
             "button_label": "",
@@ -311,6 +294,24 @@
             "enable_image": false,
             "title": "Jennifer Chong",
             "text": "<p>Made me pass soft stool. It doesnt make my tummy rumble like some other detox drinks. No cramp pains before passing motion too. I really like this. Will order again.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "fc1f5186-2399-40d9-b41e-8cfdbaa357d0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Elizabeth Aziz",
+            "text": "<p>Tbh, this product works on me compared to other products that I took. In a month, I lost 4kg & appetite decreased especially dessert although in between I needed dessert but under control. It can last 8-10 hrs of not having foods. When am drinking the apple cider fruit juice, I almost went to the toilet flush out abt 3-5 times a day. I had a problem with digestion & this product really suits me. Shakers & teh tarik really nice  the shakers I made it as iced blend <\/p>",
             "button_label": "",
             "button_link": "",
             "product": "fat-burner-apple-cider-fruit-juice",
@@ -497,9 +498,9 @@
         "d0e552f8-1621-4235-b653-f8c140b15a51",
         "01f5d8ba-74b0-454a-81aa-a4fcd467ad73",
         "3228ae77-d75f-4f9f-9aa5-1b164ba47ce9",
-        "fc1f5186-2399-40d9-b41e-8cfdbaa357d0",
         "2792523e-b0fb-4570-924d-4a2b4e26dcc8",
         "5566a1f1-cc9e-4a78-9ab2-b2d75b20f229",
+        "fc1f5186-2399-40d9-b41e-8cfdbaa357d0",
         "2fb00ea5-e65b-410b-8710-e14b0235988c",
         "9b1f9566-7da9-4932-bdc5-0f3377d63156",
         "56d53479-1b51-4814-9da7-63c21bf7feac",
