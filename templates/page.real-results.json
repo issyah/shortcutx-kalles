@@ -486,6 +486,24 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "9d0aade0-5b98-461d-97b8-f586e584a476": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "i*****y",
+            "text": "<p>Purchased so many times. Nv regret one single bit. Lost weight from 67kg to 59kg. This stuff is really something 😍<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
@@ -509,7 +527,8 @@
         "bc81483a-8187-4ad8-bc4a-0386f08adb6c",
         "d03d8748-cb20-42dd-9636-a6c4df6d85b5",
         "fc8af742-0f8d-490a-af41-9508c69ff573",
-        "c7cb952e-0d3f-4eb6-a443-9cfafbe2c51d"
+        "c7cb952e-0d3f-4eb6-a443-9cfafbe2c51d",
+        "9d0aade0-5b98-461d-97b8-f586e584a476"
       ],
       "custom_css": [
 
@@ -582,6 +601,25 @@
             "button_label": "",
             "button_link": "",
             "product": "shortcutx-slimming-coffee-caramel-machiatto",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "9e7cf0d9-7692-4c4d-90db-d6b175774388": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.05.12_AM.png",
+            "title": "ariel.ayu02",
+            "text": "<p>Have seen difference with weight. Love the taste. Will keep ordering<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
             "collection": "",
             "open_link": "_blank",
             "btn_icon": false,
@@ -738,6 +776,7 @@
       },
       "block_order": [
         "917bbdbe-c1c9-44a3-be30-e6a066f2631c",
+        "9e7cf0d9-7692-4c4d-90db-d6b175774388",
         "f55880b6-1373-4233-a604-6475d28bd9fa",
         "37a5edcf-0b99-408f-8359-b87d3347a8f3",
         "cb2223f4-40fa-4456-85da-9b0a4770221e",
