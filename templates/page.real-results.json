@@ -466,6 +466,25 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "c7cb952e-0d3f-4eb6-a443-9cfafbe2c51d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_11.02.04_AM.png",
+            "title": "n*****5",
+            "text": "<p>My 2nd order for this product so far have shed 1kg-1.5kg for 7 days consume. Trying it for another 7 days and see if i could loose more. Delivery was fast and nicely pack. Thank you.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "fat-burner-apple-cider-fruit-juice",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
@@ -488,7 +507,8 @@
         "f517e35a-633b-41dc-a26c-bc9d35d1169c",
         "bc81483a-8187-4ad8-bc4a-0386f08adb6c",
         "d03d8748-cb20-42dd-9636-a6c4df6d85b5",
-        "fc8af742-0f8d-490a-af41-9508c69ff573"
+        "fc8af742-0f8d-490a-af41-9508c69ff573",
+        "c7cb952e-0d3f-4eb6-a443-9cfafbe2c51d"
       ],
       "custom_css": [
 
