@@ -250,6 +250,25 @@
             "button_effect": "fade"
           }
         },
+        "3228ae77-d75f-4f9f-9aa5-1b164ba47ce9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_10.59.55_AM.png",
+            "title": "judylim3012",
+            "text": "<p>2nd purchase and it works. I managed to loose 1.8kg in 14 days with a little food control. Will definitely recommend to friends. Thank you seller<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
         "fc1f5186-2399-40d9-b41e-8cfdbaa357d0": {
           "type": "text_block",
           "settings": {
@@ -458,6 +477,7 @@
         "20c277d2-4d0c-47ea-bfec-06aac45826e0",
         "d0e552f8-1621-4235-b653-f8c140b15a51",
         "01f5d8ba-74b0-454a-81aa-a4fcd467ad73",
+        "3228ae77-d75f-4f9f-9aa5-1b164ba47ce9",
         "fc1f5186-2399-40d9-b41e-8cfdbaa357d0",
         "2792523e-b0fb-4570-924d-4a2b4e26dcc8",
         "5566a1f1-cc9e-4a78-9ab2-b2d75b20f229",
