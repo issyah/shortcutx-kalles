@@ -744,6 +744,25 @@
     "2c2e0f1c-4340-408b-bbe5-fe77a4344fbc": {
       "type": "real-results",
       "blocks": {
+        "4c07c886-4ef6-475e-80e9-a681e7032f6e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Website_BEFORE_AFTER_Template_1.png",
+            "title": "Tarsh",
+            "text": "<p>Consuming shortcutx for the past 3 months and have lost 6kgs so far, no meal plan or gym at the moment<br\/>Only consumed shortcutx fat burner and tea - such a deadly combo. And I 'm so glad this product is in the market . With its super ingredients, natural detox process and the way it curbs my appetite! Just a WOW<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
         "4bc64276-4797-4244-8d3c-f328d59a30a0": {
           "type": "text_block",
           "settings": {
@@ -1070,6 +1089,7 @@
         }
       },
       "block_order": [
+        "4c07c886-4ef6-475e-80e9-a681e7032f6e",
         "4bc64276-4797-4244-8d3c-f328d59a30a0",
         "d643c641-f44d-4739-9fab-46efa345bfce",
         "600d5270-92fe-4a59-99e4-a324b7f9809c",
