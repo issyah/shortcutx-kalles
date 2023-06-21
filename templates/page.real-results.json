@@ -1973,11 +1973,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-21_at_12.41.56_PM.png",
             "title": "feeyonces",
             "text": "<p>Bought the pack along with the apple cider. The shake really suppresses my appetite eventho I hate meal replacements bc i prefer to munch than lunch in a cup. But I did lose weight so it works well i guess! Many have said i look like I lost weight 🤣<\/p>",
             "button_label": "",
             "button_link": "",
-            "product": "",
+            "product": "shortcutx-30-day-weight-loss-kit",
             "collection": "",
             "open_link": "_blank",
             "btn_icon": false,
