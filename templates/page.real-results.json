@@ -514,7 +514,8 @@
         "917bbdbe-c1c9-44a3-be30-e6a066f2631c": {
           "type": "text_block",
           "settings": {
-            "enable_image": false,
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-06-21_at_10.20.21_AM.jpg",
             "title": "syafrhman",
             "text": "<p>Bow to the best slimming coffee ever ! It taste great really like caramel macchiato. Felt like im having starbucks every morning . It help w my morning feeling energetic n full too . I dont feel constipation ! Will definitely get more of this .  To all coffee lovers pls try this up ! <\/p>",
             "button_label": "",
