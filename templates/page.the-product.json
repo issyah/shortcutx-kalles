@@ -14,6 +14,7 @@
         "template--16758164488432__26a20a56-981e-4161-8d4d-0c9ba9c78e53-16858943373c3047b6-0"
       ],
       "settings": {
+        "anchor_id": "",
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "layout": "t4s-container-wrap",
@@ -365,7 +366,7 @@
           "type": "tab_item",
           "settings": {
             "tab": "Flat Tummy Shakes",
-            "icon": "",
+            "icon": "las la-cookie-bite",
             "content": "<h5><strong>How to consume Flat Tummy Shakes? <\/strong><\/h5><p>Flat Tummy Shakes should be consumed as a meal replacement, to replace one of your meals daily. Simply mix the sachet’s powder in our Shortcutx Shaker Bottle and pour 400ml of water or milk. If you choose milk, we recommend using a low fat milk. Once you drop in the blender ball, cap the bottle tightly and shake well.<\/p><h5><strong>Can breastfeeding moms consume this? <\/strong><\/h5><p>Yes! All our products are breastfeeding friendly. <\/p><h5><strong>Can pregnant moms consume Flat Tummy Shakes? <\/strong><\/h5><p>Yes, our Flat Tummy Shakes can be consumed when pregnant. <\/p><h5><strong>Do Flat Tummy Shakes contain nuts? <\/strong><\/h5><p>Our Flat Tummy Shakes contain traces of nuts. <\/p>"
           }
         },
@@ -373,7 +374,7 @@
           "type": "tab_item",
           "settings": {
             "tab": "30 Day Weight Loss Pack",
-            "icon": "none",
+            "icon": "las la-box",
             "content": "<h5><strong>What’s inside the 30 Day Weight Loss Pack?<\/strong><\/h5><p>The 30 Day Weight Loss Pack contains 14 Cookie Butter Crunch sachets, 7 Night Fat Burners, and 8 Detox Juice. <\/p><h5><strong>How to consume a 30 Day Weight Loss Pack? <\/strong><\/h5><p>The weight loss pack comes with its own schedule in the box. <\/p><p>Week 1: Flat Tummy Shakes - consume this as a meal replacement. <\/p><p>Week 2: Night Fat Burner - this should be taken 30 minutes to 1 hour before bed. <\/p><p>Week 3: Flat Tummy Shakes - consume this as a meal replacement. <\/p><p>Week 4: Detox Juice - drink this in the morning on an empty stomach. <\/p><h5><strong>Can I buy the sachet separately? <\/strong><\/h5><p>No, we do not sell the different items in the pack as loose pieces. <\/p>"
           }
         }
