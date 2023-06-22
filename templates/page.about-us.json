@@ -792,7 +792,7 @@
     },
     "1652060940154cd301": {
       "type": "our_team",
-      "disabled" : true,
+      "disabled": true,
       "blocks": {
         "165206094067bbb516-0": {
           "type": "member",
