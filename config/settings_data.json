@@ -2864,7 +2864,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "decbbfc3-9244-4e44-a730-6167ce3aafe7": {
+        "type": "shopify:\/\/apps\/instagram-feed-story-tiktok\/blocks\/social-widget\/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "platform_customizations": {
     "custom_css": [
