@@ -25,7 +25,7 @@
         "selectors": {
             "payment_button_selectors": "form[action$='/cart/add'] .shopify-payment-button",
             "subscriptionLinkSelector": "",
-            "atcButtonPlacement": "AFTER",
+            "atcButtonPlacement": "FIRST_CHILD",
             "subscriptionLinkPlacement": "BEFORE",
             "cartRowSelector": "",
             "cartLineItemSelector": "",
