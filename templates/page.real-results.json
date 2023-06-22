@@ -662,6 +662,25 @@
     "real-results-2": {
       "type": "real-results",
       "blocks": {
+        "02522074-c6cb-4c84-89c2-8ec1294fd566": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Website_BEFORE_AFTER_Template_2.png",
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "product": "",
+            "collection": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
         "917bbdbe-c1c9-44a3-be30-e6a066f2631c": {
           "type": "text_block",
           "settings": {
@@ -873,6 +892,7 @@
         }
       },
       "block_order": [
+        "02522074-c6cb-4c84-89c2-8ec1294fd566",
         "917bbdbe-c1c9-44a3-be30-e6a066f2631c",
         "9e7cf0d9-7692-4c4d-90db-d6b175774388",
         "02193f70-bbf5-436f-bd93-12c63510d3e3",
