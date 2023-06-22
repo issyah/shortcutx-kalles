@@ -37,7 +37,7 @@
         },
         "enableCartWidgetFeature": "false",
         "useUrlWithCustomerId": "true",
-        "atcButtonSelector": ".t4s-product-form__submit, .single_add_to_cart_button.js_frm_cart",
+        "atcButtonSelector": ".appstle-container",
         "moneyFormat": "{% raw %}${{amount}}{% endraw %}",
         "oneTimePurchaseText": "One Time Purchase",
         "shop": "shortcutx.myshopify.com",
