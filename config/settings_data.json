@@ -50,6 +50,7 @@
     "enable_his": true,
     "variant_remove": "2",
     "share_source": "1",
+    "enable_shipbar": true,
     "gift_wrap_pr": "gift-wrap",
     "filter_type_search": true,
     "show_search_suggest": true,
@@ -1838,6 +1839,7 @@
           },
           "mini_cart-2": {
             "type": "agree",
+            "disabled": true,
             "settings": {
             }
           },
@@ -2885,7 +2887,7 @@
       ":root {--shopify-editor-section-pr_item_config-setting-pr_title_color_hover: BF1932;}",
       "body,html,p {font-size: 16px;}",
       ".t4s-product.t4s-pr-list,.is--listview .t4s-product {--pr-quickview-color: #bf1932; --pr-addtocart-color: #bf1932;}",
-      "@media (max-width: 768px) {#dummy-chat-button-iframe {right: 0px !important; bottom: 70px !important; } iframe#shopifyChat{bottom: 59px !important; } #t4s-backToTop {display: none; }}",
+      "@media (max-width: 768px) {#dummy-chat-button-iframe {right: 0px !important; bottom: 70px !important; } iframe#shopifyChat {bottom: 59px !important; } #t4s-backToTop {display: none; }}",
       "@media (min-width: 768px) {.t4s-title {font-size: 40px; } .loox-float-toggler-container .loox-float-toggler {background-color: #444 !important; border-radius: 40px !important; padding: 24px; } .loox-float-toggler-container {right: initial; left: 24px; transform: none; bottom: 24px; top: initial; width: auto; }}"
     ]
   }
