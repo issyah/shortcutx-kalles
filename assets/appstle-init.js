@@ -189,7 +189,7 @@
             "customCSS": "",
             "elementCSS": "[]",
             "customerPortalCss": "",
-            "priceSelector": "body > div.t4s-sticky-atc.sticky_layout_mb--minimal.t4s-pf.t4s-b-0.t4s-l-0.t4s-r-0.t4s-op-0.t4s-pe-none.is--shown > div.t4s-sticky-atc__product > div.t4s-sticky-atc__infos > div.t4s-sticky-atc__price > ins",
+            "priceSelector": "div.t4s-product__price-review > div, div.t4s-sticky-atc__infos > div.t4s-sticky-atc__price",
             "landingPagePriceSelector": "",
             "quickViewClickSelector": "",
             "badgeTop": "",
