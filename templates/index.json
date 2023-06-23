@@ -398,7 +398,7 @@
             "text_lh": 46,
             "text_fw": 600,
             "text_ls": 0,
-            "text_mgb": 50,
+            "text_mgb": 15,
             "font_italic": false,
             "text_shadow": false,
             "hidden_mobile": false,
@@ -412,7 +412,7 @@
         "b20f1a22-b5de-45a5-9463-906ecf648f66": {
           "type": "custom_text",
           "settings": {
-            "text": "<br> Subscribe and save up to 10%. <br>",
+            "text": "Subscribe and save up to 10%. <br>",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "2",
