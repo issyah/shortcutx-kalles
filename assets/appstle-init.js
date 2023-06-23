@@ -189,7 +189,7 @@
             "customCSS": "",
             "elementCSS": "[]",
             "customerPortalCss": "",
-            "priceSelector": "div.t4s-product__price-review > div > ins",
+            "priceSelector": "",
             "landingPagePriceSelector": "",
             "quickViewClickSelector": "",
             "badgeTop": "",
