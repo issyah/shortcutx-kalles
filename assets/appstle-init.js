@@ -4,7 +4,7 @@
       appstleLoadScript = function (src, callback) {
         var script = document.createElement("script");
         script.charset = "utf-8";
-            script.async = true;
+            script.defer = true;
         script.src = src;
         script.onload = script.onreadystatechange = function () {
           if (!script.readyState || /loaded|complete/.test(script.readyState)) {
@@ -13,7 +13,7 @@
             callback && callback();
           }
         };
-            document.getElementsByTagName("head")[0].appendChild(script)
+            document.getElementsByTagName("body")[0].appendChild(script)
       };
 
 
@@ -189,7 +189,7 @@
             "customCSS": "",
             "elementCSS": "[]",
             "customerPortalCss": "",
-            "priceSelector": "div.t4s-product__price-review > div, div.t4s-sticky-atc__infos > div.t4s-sticky-atc__price",
+            "priceSelector": "div.t4s-sticky-atc__infos > div.t4s-sticky-atc__price",
             "landingPagePriceSelector": "",
             "quickViewClickSelector": "",
             "badgeTop": "",
