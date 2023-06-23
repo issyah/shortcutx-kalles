@@ -189,7 +189,7 @@
             "customCSS": "",
             "elementCSS": "[]",
             "customerPortalCss": "",
-            "priceSelector": "",
+            "priceSelector": "div.t4s-sticky-atc__product > div.t4s-sticky-atc__infos > div.t4s-sticky-atc__price > ins",
             "landingPagePriceSelector": "",
             "quickViewClickSelector": "",
             "badgeTop": "",
