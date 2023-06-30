@@ -211,7 +211,7 @@
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Website_Banner_1.png",
+            "image": "shopify:\/\/shop_images\/Website_Banner_3.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -1474,6 +1474,7 @@
           "disabled": true,
           "settings": {
             "icon_themes": "door-lock",
+            "image_icon": "shopify:\/\/shop_images\/halal-malaysia-logo-83E58494C7-seeklogo.com.png",
             "icon": "las la-lock",
             "title": "100% PAYMENT SECURE",
             "text": "<p>We ensure secure payment with PEV<\/p>",
