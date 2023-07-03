@@ -737,6 +737,13 @@
             "url": ""
           }
         },
+        "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-2": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The-Independent-News-Media-1024-300x64-1.png",
+            "url": ""
+          }
+        },
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-1": {
           "type": "logo_item",
           "settings": {
@@ -744,18 +751,27 @@
             "url": ""
           }
         },
-        "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-2": {
+        "ff876523-9092-4211-99f8-b1f5edb4aa5a": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The-Independent-News-Media-1024-300x64-1.png",
+            "image": "shopify:\/\/shop_images\/2020-07-Tropika-Magazine-logo-250px.png",
+            "url": ""
+          }
+        },
+        "7a219b36-022b-4a68-9f24-a3bf39a9d53f": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bestprices.sg-logo.png",
             "url": ""
           }
         }
       },
       "block_order": [
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-0",
+        "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-2",
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-1",
-        "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-2"
+        "ff876523-9092-4211-99f8-b1f5edb4aa5a",
+        "7a219b36-022b-4a68-9f24-a3bf39a9d53f"
       ],
       "custom_css": [
         "div[data-goto] {justify-content: center;}",
