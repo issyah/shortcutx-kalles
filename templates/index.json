@@ -2750,7 +2750,7 @@
             "subheading": "<p>Keep updated on our promotions, launches, and reviews! <\/p>",
             "button_text": "",
             "button_link": "",
-            "layout": "grid",
+            "layout": "sliding_carousel",
             "image_size": "medium",
             "add_spacing": true,
             "rows_count": 2,
