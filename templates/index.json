@@ -2642,6 +2642,7 @@
     },
     "72c030a2-8b52-4beb-8b57-fb421bcedb27": {
       "type": "instagram_feed",
+      "disabled": true,
       "blocks": {
         "6c989167-ad39-474c-b10e-d1bc547a1d59": {
           "type": "1",
@@ -2738,6 +2739,40 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "1689065658ece8d2cb": {
+      "type": "apps",
+      "blocks": {
+        "b5290e87-3fcc-42c1-90c1-c97834c2ed19": {
+          "type": "shopify:\/\/apps\/maestrooo-section-feed\/blocks\/app-block\/43cd482b-515a-4e82-b170-05d391763cd2",
+          "settings": {
+            "title": "Follow us on @shortcutx.co",
+            "subheading": "<p>Keep updated on our promotions, launches, and reviews! <\/p>",
+            "button_text": "",
+            "button_link": "",
+            "layout": "collage",
+            "image_size": "medium",
+            "add_spacing": true,
+            "rows_count": 2,
+            "show_author": false,
+            "show_caption": true,
+            "show_date": true,
+            "click_action": "open_instagram",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "button_background": "#000000",
+            "button_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_text_color": "#ffffff",
+            "overlay_opacity": 65
+          }
+        }
+      },
+      "block_order": [
+        "b5290e87-3fcc-42c1-90c1-c97834c2ed19"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -2764,6 +2799,7 @@
     "e88215f3-26cc-4f02-98c5-d290e5aee8ab",
     "51d99fc7-af1a-4a98-b13e-90422bb3393d",
     "1646035317ea8b6928",
-    "72c030a2-8b52-4beb-8b57-fb421bcedb27"
+    "72c030a2-8b52-4beb-8b57-fb421bcedb27",
+    "1689065658ece8d2cb"
   ]
 }
