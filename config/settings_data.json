@@ -1933,8 +1933,8 @@
             "type": "description",
             "settings": {
               "des": "2",
-              "text": "<p>Start your weight loss journey today!<\/p>",
-              "length": 31
+              "text": "",
+              "length": 25
             }
           },
           "main-qv-3": {
@@ -2031,7 +2031,7 @@
           "main-qv-6"
         ],
         "settings": {
-          "demo_pr": "bundle-of-2-caramel-machiatto-slimming-coffee-fat-burner-apple-cider-fruit-juice",
+          "demo_pr": "bundle-of-4-lychee-lemon-fat-burner-teh-tarik-slimming-tea",
           "image_ratio": "ratioadapt",
           "image_size": "cover",
           "image_position": "8",
