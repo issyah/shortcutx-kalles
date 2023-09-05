@@ -62,6 +62,8 @@
     "notify_currency": true,
     "hover_currency": false,
     "bootstrap_css": false,
+    "custom_css_t4s": true,
+    "global_css": "<script type=\"text\/javascript\">\n  window.__miu_cid = \"88e184d9-3a2a-4c22-97bb-3bac20b04595\";\n  (function() {\n    const script = document.createElement('script');\n    script.type = 'text\/javascript';\n    script.async = true;\n    script.src = 'https:\/\/app.miu.ai\/assets\/script.js';\n    script.id = '__miu';\n    document.getElementsByTagName('body')[0].appendChild(script);\n  })();\n<\/script>",
     "t4s_custom_js": true,
     "share_twitter": false,
     "share_pinterest": false,
