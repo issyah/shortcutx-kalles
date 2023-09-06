@@ -32,7 +32,6 @@
     },
     "heading": {
       "type": "heading-template",
-      "disabled": true,
       "blocks": {
         "4ccb8a07-ced7-4518-b278-9951b8bd6157": {
           "type": "1",
@@ -60,6 +59,7 @@
       "block_order": [
         "4ccb8a07-ced7-4518-b278-9951b8bd6157"
       ],
+      "disabled": true,
       "settings": {
         "use_specify_image": true,
         "parallax": false,
@@ -79,7 +79,6 @@
     },
     "sidebar-page": {
       "type": "sidebar-page",
-      "disabled": true,
       "blocks": {
         "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
           "type": "blog_cate",
@@ -106,6 +105,7 @@
         "f69681ed-b75e-42de-be58-fdf73b3b7e08",
         "1c33f173-cd0f-492c-9026-fd337df8a1a4"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,
@@ -343,7 +343,7 @@
           "settings": {
             "tab": "General",
             "icon": "la-question-circle",
-            "content": "<h5><strong>Is Shortcutx Halal? <\/strong><\/h5><p>Yes. Shortcutx is halal certified. <\/p><h5><strong>Is Shortcutx safe for breastfeeding mummies?<\/strong><\/h5><p>Yes. Shortcutx is safe to be consumed by nursing mothers.<\/p><h5><strong>Is Shortcutx suitable for pregnant mummies?<\/strong><\/h5><p>No. We do not advise pregnant mothers to consume Shortcutx.<\/p><h5><strong>Is Shortcutx suitable for those trying to conceive?<\/strong><\/h5><p>Yes. It is absolutely safe to consume for those who are trying to conceive. <\/p><h5><strong>Is Shortcutx safe for diabetic or high blood pressure patients?<\/strong><\/h5><p>Yes it is safe as there is no sugar added.<\/p><h5><strong>Can we consume more than 1 sachet of Shortcutx in a day?<\/strong><\/h5><p>You may consume up to 2 sachets a day. If you are consuming other supplements,<\/p><h5><strong>Are there any diet restrictions that I have to follow?<\/strong><\/h5><p>You can still eat whatever you want, but for best results, we recommend to skip or cut down on carbohydrates and fast food. It is also advisable to drink plenty of plain water.<\/p><h5><strong>Are there any side effects for Shortcutx?<\/strong><\/h5><p>There are no known side effects when consuming Shortcutx. Our products does NOT contain any banned or harmful substances as listed by the health authorities.<\/p><h5><strong>Will I gain any weight if I stop consuming Shortcutx?<\/strong><\/h5><p>It is highly unlikely that your weight will rebound when you stop consuming Shortcutx. Rest assured that many of our consumers have managed to lead a better quality of life even after they stop consuming Shortcutx.<\/p><p><\/p><p><\/p>"
+            "content": "<h5><strong>Is Shortcutx Halal? <\/strong><\/h5><p>Yes. Shortcutx is halal certified. <\/p><h5><strong>Is Shortcutx safe for breastfeeding mummies?<\/strong><\/h5><p>Yes. Shortcutx is safe to be consumed by nursing mothers.<\/p><h5><strong>Is Shortcutx suitable for pregnant mummies?<\/strong><\/h5><p>No. We do not advise pregnant mothers to consume Shortcutx.<\/p><h5><strong>Is Shortcutx suitable for those trying to conceive?<\/strong><\/h5><p>Yes. It is absolutely safe to consume for those who are trying to conceive. <\/p><h5><strong>Is Shortcutx safe for diabetic or high blood pressure patients?<\/strong><\/h5><p>Yes it is safe as there is no sugar added.<\/p><h5><strong>Can we consume more than 1 sachet of Shortcutx in a day?<\/strong><\/h5><p>You may consume up to 2 sachets a day. If you are consuming other supplements, you should take them at least 2 hours apart. <\/p><h5><strong>Are there any diet restrictions that I have to follow?<\/strong><\/h5><p>You can still eat whatever you want, but for best results, we recommend to skip or cut down on carbohydrates and fast food. It is also advisable to drink plenty of plain water.<\/p><h5><strong>Are there any side effects for Shortcutx?<\/strong><\/h5><p>There are no known side effects when consuming Shortcutx. Our products does NOT contain any banned or harmful substances as listed by the health authorities.<\/p><h5><strong>Will I gain any weight if I stop consuming Shortcutx?<\/strong><\/h5><p>It is highly unlikely that your weight will rebound when you stop consuming Shortcutx. Rest assured that many of our consumers have managed to lead a better quality of life even after they stop consuming Shortcutx.<\/p><p><\/p><p><\/p>"
           }
         },
         "3da33074-e481-4bee-83b6-c26e5246220d": {
