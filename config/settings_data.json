@@ -748,26 +748,8 @@
               "r_s_v_item": "30"
             }
           },
-          "34f9e7f0-2690-4c8a-bc5c-316563ac354a": {
-            "type": "drop",
-            "settings": {
-              "title": "Home",
-              "url": "",
-              "open_link": "_self",
-              "menu": "home-dropdown",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": false,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
           "120b4e2d-ed97-46f2-a06c-e7980a3a59b6": {
             "type": "drop",
-            "disabled": true,
             "settings": {
               "title": "Home",
               "url": "",
@@ -852,7 +834,6 @@
           "334013b4-82f3-4046-8371-eaf3c3340153",
           "556a85dc-041d-4d44-8c22-263ed70a8b48",
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
-          "34f9e7f0-2690-4c8a-bc5c-316563ac354a",
           "120b4e2d-ed97-46f2-a06c-e7980a3a59b6",
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab",
