@@ -41,11 +41,14 @@ bk_stts.lazy_mn and admin_sp == false
 	         <a class="t4s-lh-1 t4s-d-flex t4s-align-items-center t4s-pr" href="{{bk_link}}" target="{{bk_stts.open_link}}"{% if bk_stts.cus_cl %} style="color:{{bk_stts.cl}}"{% endif %}>{%- render 'title_menu',bk_stts:bk_stts,showArrow:showArrow -%}</a>
 	         {%- if linklists[bk_stts.menu].links.size > 0 -%}
 	         <div id="content_{{blockID}}" class="t4s-sub-menu t4s-pa t4s-op-0 t4s-pe-none">
-	            {%- if admin_sp == false -%}
+               {% comment %} 
+   	            {%- if admin_sp == false -%}
 	               <div class="t4s-lazy_menu" data-handle="{{bk_stts.menu}}"><div class="t4s-loading--bg"></div></div>
 	            {%- else -%}
 	               <div class="t4s-lazy_menu">{%- render 'menu_dropdown',handle_menu:bk_stts.menu -%}</div>
-	            {%- endif -%}
+	            {%- endif -%}            
+               {% endcomment %}
+
 	         </div>
 	        {%- endif -%}
 	      </li>
