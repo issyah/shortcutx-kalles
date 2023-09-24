@@ -62,7 +62,7 @@
     "notify_currency": true,
     "hover_currency": false,
     "bootstrap_css": false,
-    "custom_css_t4s": true,
+    "custom_css_t4s": false,
     "global_css": "<script type=\"text\/javascript\">\n  window.__miu_cid = \"88e184d9-3a2a-4c22-97bb-3bac20b04595\";\n  (function() {\n    const script = document.createElement('script');\n    script.type = 'text\/javascript';\n    script.async = true;\n    script.src = 'https:\/\/app.miu.ai\/assets\/script.js';\n    script.id = '__miu';\n    document.getElementsByTagName('body')[0].appendChild(script);\n  })();\n<\/script>",
     "t4s_custom_js": true,
     "share_twitter": false,
@@ -628,27 +628,6 @@
               "r_s_v_item": "30"
             }
           },
-          "3944a4f5-3618-4f4b-9d13-238ddb1b72f2": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "Product",
-              "url": "shopify:\/\/collections\/all",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1100,
-              "id": 3,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
             "type": "mega",
             "disabled": true,
@@ -782,11 +761,27 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "fa0776d5-f176-4dc8-90c5-0d7b8459522c": {
+            "type": "drop",
+            "settings": {
+              "title": "Home",
+              "url": "",
+              "open_link": "_self",
+              "menu": "home-dropdown",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": false,
+              "pos_sub": "bottom-start",
+              "pos": "left"
+            }
           }
         },
         "block_order": [
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53",
-          "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
           "334013b4-82f3-4046-8371-eaf3c3340153",
           "556a85dc-041d-4d44-8c22-263ed70a8b48",
@@ -794,7 +789,8 @@
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab",
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
-          "1c183604-aba8-4307-947b-2ed4f4d0b0ff"
+          "1c183604-aba8-4307-947b-2ed4f4d0b0ff",
+          "fa0776d5-f176-4dc8-90c5-0d7b8459522c"
         ],
         "settings": {
           "layout": "logo_left",
