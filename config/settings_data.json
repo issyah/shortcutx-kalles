@@ -607,27 +607,6 @@
       "header-inline": {
         "type": "header-inline",
         "blocks": {
-          "9883384a-d19a-4abe-9a94-388d91fce9b6": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "Home",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com\/",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom-start",
-              "wid": "cus",
-              "cus_wid": 1050,
-              "id": 1,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53": {
             "type": "mega",
             "disabled": true,
@@ -727,27 +706,6 @@
               "pos": "left"
             }
           },
-          "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "Blog",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com\/blogs\/fashion?preview_theme_id=",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 950,
-              "id": 5,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
           "120b4e2d-ed97-46f2-a06c-e7980a3a59b6": {
             "type": "drop",
             "settings": {
@@ -814,6 +772,7 @@
           },
           "1c183604-aba8-4307-947b-2ed4f4d0b0ff": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Calorie Calculator",
               "url": "shopify:\/\/pages\/calorie-calculator",
@@ -827,13 +786,11 @@
           }
         },
         "block_order": [
-          "9883384a-d19a-4abe-9a94-388d91fce9b6",
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
           "334013b4-82f3-4046-8371-eaf3c3340153",
           "556a85dc-041d-4d44-8c22-263ed70a8b48",
-          "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "120b4e2d-ed97-46f2-a06c-e7980a3a59b6",
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab",
