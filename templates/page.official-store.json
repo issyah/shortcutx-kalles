@@ -62,7 +62,6 @@
     },
     "sidebar-page": {
       "type": "sidebar-page",
-      "disabled": true,
       "blocks": {
         "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
           "type": "blog_cate",
@@ -76,6 +75,7 @@
       "block_order": [
         "f69681ed-b75e-42de-be58-fdf73b3b7e08"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,
@@ -374,6 +374,7 @@
       "block_order": [
         "52955a3d-b811-44af-81d3-6e63eb24efa2"
       ],
+      "disabled": true,
       "settings": {
         "anchor_id": "authorised-e-seller",
         "design_heading": "1",
@@ -652,6 +653,7 @@
         "63fe2193-d734-4540-8bb0-53cc6face9e2",
         "93996b46-9987-4bcd-b36a-db2d84a45651"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
