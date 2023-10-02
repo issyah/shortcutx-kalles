@@ -72,7 +72,6 @@
     },
     "09f268f6-775b-4f44-ab3a-2fb9abf6202a": {
       "type": "lookbook-slider",
-      "disabled": true,
       "blocks": {
         "template--16756803535088__09f268f6-775b-4f44-ab3a-2fb9abf6202a-168587486702a3fbb0-0": {
           "type": "img",
@@ -175,6 +174,7 @@
         "cb7e8068-420c-4c71-82b3-1ebb515ae351",
         "b9762404-5f0c-4e3e-a8f2-89b6f9fc4d3f"
       ],
+      "disabled": true,
       "settings": {
         "eff": "slide",
         "loop": true,
@@ -734,7 +734,7 @@
           "type": "logo_item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vulcan_pot.png",
-            "url": ""
+            "url": "https:\/\/vulcanpost.com\/824307\/naezily-founder-serial-entrepreneur-five-businesses\/"
           }
         },
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-2": {
@@ -758,11 +758,18 @@
             "url": ""
           }
         },
+        "b6d933f2-558c-4096-8696-5926c76ebeaa": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo.png",
+            "url": ""
+          }
+        },
         "7a219b36-022b-4a68-9f24-a3bf39a9d53f": {
           "type": "logo_item",
           "settings": {
             "image": "shopify:\/\/shop_images\/bestprices.sg-logo.png",
-            "url": ""
+            "url": "https:\/\/bestprices.sg\/best-fat-burner-supplement-singapore\/"
           }
         }
       },
@@ -771,6 +778,7 @@
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-2",
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-1",
         "ff876523-9092-4211-99f8-b1f5edb4aa5a",
+        "b6d933f2-558c-4096-8696-5926c76ebeaa",
         "7a219b36-022b-4a68-9f24-a3bf39a9d53f"
       ],
       "custom_css": [
@@ -826,7 +834,6 @@
     },
     "164603504020ce33da": {
       "type": "collections-list-manual",
-      "disabled": true,
       "blocks": {
         "1646035040fee424aa-0": {
           "type": "collection_item",
@@ -867,6 +874,7 @@
         "1646035040fee424aa-2",
         "fb81d2b5-38b4-4322-93fc-cd722f8758f3"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
@@ -906,7 +914,6 @@
     },
     "16460362229768af39": {
       "type": "banner",
-      "disabled": true,
       "blocks": {
         "164603622209bd8d44-0": {
           "type": "b_item",
@@ -1095,6 +1102,7 @@
         "164603622209bd8d44-4",
         "164603622209bd8d44-5"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "ratioadapt",
         "image_size": "cover",
@@ -1555,7 +1563,6 @@
     },
     "365ac68a-f135-4a2b-95ef-303495351a35": {
       "type": "banner",
-      "disabled": true,
       "blocks": {
         "template--16756803535088__365ac68a-f135-4a2b-95ef-303495351a35-168585347436bdd2a3-0": {
           "type": "b_item",
@@ -1661,6 +1668,7 @@
         "template--16756803535088__365ac68a-f135-4a2b-95ef-303495351a35-168585347436bdd2a3-5",
         "1cd36917-e9ac-4364-a217-8c382805f7d7"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "ratio_cuspx",
         "image_size": "cover",
@@ -1684,7 +1692,6 @@
     },
     "e138c48f-0064-4181-accb-34576678c058": {
       "type": "feature_columns",
-      "disabled": true,
       "blocks": {
         "template--16756803535088__e138c48f-0064-4181-accb-34576678c058-168585432447ba777e-0": {
           "type": "text_block",
@@ -1761,6 +1768,7 @@
         "template--16756803535088__e138c48f-0064-4181-accb-34576678c058-168585432447ba777e-2",
         "b37324ea-bd5e-48fc-9850-cd3d6164b7be"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -2403,7 +2411,6 @@
     },
     "e88215f3-26cc-4f02-98c5-d290e5aee8ab": {
       "type": "image_text",
-      "disabled": true,
       "blocks": {
         "template--16756803535088__e88215f3-26cc-4f02-98c5-d290e5aee8ab-16859828671ef39516-0": {
           "type": "bl_image",
@@ -2463,6 +2470,7 @@
         "template--16756803535088__e88215f3-26cc-4f02-98c5-d290e5aee8ab-16859828671ef39516-0",
         "template--16756803535088__e88215f3-26cc-4f02-98c5-d290e5aee8ab-16859828671ef39516-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".t4s-image-text {justify-content: center;}",
         ".t4s-image-text {padding: 50px 16px; border: 1px solid #ddd;}",
@@ -2642,7 +2650,6 @@
     },
     "72c030a2-8b52-4beb-8b57-fb421bcedb27": {
       "type": "instagram_feed",
-      "disabled": true,
       "blocks": {
         "6c989167-ad39-474c-b10e-d1bc547a1d59": {
           "type": "1",
@@ -2699,6 +2706,7 @@
         "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-3",
         "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-5"
       ],
+      "disabled": true,
       "settings": {
         "layout_des": "2",
         "image_ratio": "ratio1_1",
