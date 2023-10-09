@@ -1388,7 +1388,7 @@
 
       ],
       "settings": {
-        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner<\/span><span>    See results after 7 Days<\/span>\n<span>#1 Bestselling on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner<\/span><span>    Fast and effective results<\/span>\n<span>#1 Bestselling on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner<\/span><span>    See results after 7 Days<\/span>\n<\/marquee>",
+        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    See results after 7 Days<\/span>\n<span>#1 Bestselling Health Supplement on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    Fast and effective results<\/span>\n<span>#1 Bestselling Health Supplement on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    See results after 7 Days<\/span>\n<\/marquee>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -1480,7 +1480,7 @@
             "icon_themes": "help",
             "icon": "las la-apple-alt",
             "title": "Quality Ingredients",
-            "text": "<p>Experience the epitome of quality ingredients with our exceptional product. We meticulously source and select only the finest, premium-grade components from around the world.<\/p>",
+            "text": "<p>Experience the epitome of quality ingredients with our exceptional products. We meticulously source and select only the finest, premium-grade components from around the world.<\/p>",
             "html": ""
           }
         },
@@ -1490,7 +1490,7 @@
             "icon_themes": "refesh",
             "icon": "lar la-heart",
             "title": "Convenient",
-            "text": "<p>Shortcutx's products offers unparalleled convenience, allowing you to effortlessly incorporate it into your daily regimen. <\/p>",
+            "text": "<p>Our products offer unparalleled convenience, allowing you to effortlessly incorporate it into your daily regimen for all your weight loss goals.<\/p>",
             "html": ""
           }
         },
