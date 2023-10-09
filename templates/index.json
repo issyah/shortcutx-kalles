@@ -3,11 +3,11 @@
     "top": {
       "type": "top-collections",
       "blocks": {
-        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f": {
+        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
           "type": "cat",
           "settings": {
-            "collection": "slimming-tea-coffee",
-            "icon": "las la-coffee"
+            "collection": "frontpage",
+            "icon": "las la-burn"
           }
         },
         "2502644f-656b-4289-9245-a75187bd0170": {
@@ -17,11 +17,11 @@
             "icon": "las la-cookie-bite"
           }
         },
-        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
+        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f": {
           "type": "cat",
           "settings": {
-            "collection": "frontpage",
-            "icon": "las la-burn"
+            "collection": "slimming-tea-coffee",
+            "icon": "las la-coffee"
           }
         },
         "9a953769-57c2-417a-b665-db34392c8d1c": {
@@ -33,9 +33,9 @@
         }
       },
       "block_order": [
-        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
-        "2502644f-656b-4289-9245-a75187bd0170",
         "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22",
+        "2502644f-656b-4289-9245-a75187bd0170",
+        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
         "9a953769-57c2-417a-b665-db34392c8d1c"
       ],
       "custom_css": [
@@ -251,7 +251,7 @@
         "398a6708-b6bd-4825-b484-80b4453cf210": {
           "type": "custom_text",
           "settings": {
-            "text": "Lemon Lychee Fat Burner Juice <br> New Flavour, Same effect",
+            "text": "NEW: Lychee Lemon <br>\nFat Burner + Detox Juice",
             "remove_br_tag": true,
             "tag": "h2",
             "fontf": "1",
@@ -274,7 +274,7 @@
         "e97dafb5-1bb1-472c-8e3a-bbfdd7f8059c": {
           "type": "custom_text",
           "settings": {
-            "text": "Our lychee lemon fat burner contains a new detox element.  <br> Rid your body of all your toxins and start burning fat <br>in just 7 days!",
+            "text": "Our newest addition comes in a new flavour, <br> with added ingredients to help you lose weight effectively!\n<br> Try it today!",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "2",
@@ -359,7 +359,7 @@
         "59b60a8d-4f49-40dd-9a49-dc74c6a6e750": {
           "type": "custom_text",
           "settings": {
-            "text": "Indulge in our Chocolate Brownie meal replacement <br> shakes and replace one or two meals a day <br> with our shakes to get a flat tummy result  <br>in just 7 days!",
+            "text": "Indulge in our Chocolate Brownie Meal Replacement Shakes. <br> Replace one or two meals a day <br> with our shakes to see a flatter tummy <br>in just 7 days!",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "2",
