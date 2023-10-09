@@ -591,7 +591,7 @@
         "ce546539-ff4c-4ae1-b40c-7149316c9983": {
           "type": "custom_text",
           "settings": {
-            "text": "Would you Teh (take) it?",
+            "text": "Coffee, Tea or me?",
             "remove_br_tag": true,
             "tag": "h2",
             "fontf": "1",
@@ -614,7 +614,7 @@
         "b396d551-bab2-4a1f-9739-936985f9e902": {
           "type": "custom_text",
           "settings": {
-            "text": "This slimming tea curbs your appetite x3 stronger than Shortcutx, <br> it contains 0% sugar, its tasty and the ingredients are packed <br> with fat burning ingredients as well. Are you ready?",
+            "text": "Our Slimming Tea is formulated to help you curb your appetite better,<br> in the familiar taste of pulled milk tea or Teh Tarik. <br> It contains 0% sugar and packed with <br>fat burning ingredients as well. Are you ready?",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "2",
