@@ -2815,6 +2815,18 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11656770355074664061": {
+        "type": "shopify:\/\/apps\/pasilobus-google-analytics-4\/blocks\/ga4\/a193266a-8f65-4da8-bcba-d9df8d371e21",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
