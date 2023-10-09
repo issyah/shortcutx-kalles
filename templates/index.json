@@ -2522,7 +2522,7 @@
             "icon_themes": "car",
             "icon": "las la-smile",
             "heading": "",
-            "number": 643549,
+            "number": 443549,
             "unit": "",
             "des": "SATISFIED CUSTOMERS",
             "content_align": "center"
@@ -2755,7 +2755,7 @@
           "type": "shopify:\/\/apps\/maestrooo-section-feed\/blocks\/app-block\/43cd482b-515a-4e82-b170-05d391763cd2",
           "settings": {
             "title": "Follow us on @shortcutx.co",
-            "subheading": "<p>Keep updated on our promotions, launches, and reviews! <\/p>",
+            "subheading": "<p>Stay updated on our promotions, launches, and reviews! <\/p>",
             "button_text": "",
             "button_link": "",
             "layout": "sliding_carousel",
