@@ -2510,7 +2510,7 @@
             "icon_themes": "car",
             "icon": "las la-boxes",
             "heading": "",
-            "number": 1704045,
+            "number": 0,
             "unit": "",
             "des": "BOXES SOLD",
             "content_align": "center"
@@ -2522,7 +2522,7 @@
             "icon_themes": "car",
             "icon": "las la-smile",
             "heading": "",
-            "number": 147468,
+            "number": 0,
             "unit": "",
             "des": "SATISFIED CUSTOMERS",
             "content_align": "center"
