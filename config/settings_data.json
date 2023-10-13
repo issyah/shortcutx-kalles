@@ -559,7 +559,7 @@
           "cc5767f7-25de-4e7e-a4a4-26d8064b4032": {
             "type": "html",
             "settings": {
-              "html": "<span><b style=\"color: #bf1932\">INTERNATIONAL ORDERS:<\/b><\/span> Shipping rates from as low as $18",
+              "html": "<span><b style=\"color: #bf1932\">INTL ORDERS:<\/b><\/span> Shipping rates from as low as $18",
               "hide": false,
               "text_align": "center",
               "col": "4"
