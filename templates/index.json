@@ -75,6 +75,7 @@
       "blocks": {
         "template--16756803535088__09f268f6-775b-4f44-ab3a-2fb9abf6202a-168587486702a3fbb0-0": {
           "type": "img",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MEET_YOUR_NEW_BEST_FRIENDS..png"
           }
@@ -146,12 +147,14 @@
         },
         "cb7e8068-420c-4c71-82b3-1ebb515ae351": {
           "type": "img",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/website_second_page.png"
           }
         },
         "b9762404-5f0c-4e3e-a8f2-89b6f9fc4d3f": {
           "type": "pr",
+          "disabled": true,
           "settings": {
             "pos_t": 50,
             "pos_l": 50,
@@ -208,6 +211,45 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
+        "164602873867eb3815-0": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-04.jpg",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "shopify:\/\/collections\/frontpage",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "start",
+            "text_align_mb": "start",
+            "content_width": "container",
+            "cv_pos": 50,
+            "ch_pos": 0,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 0,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "rgba(0,0,0,0)",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 30
+          }
+        },
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
           "settings": {
@@ -408,45 +450,6 @@
             "button_ls_mb": 0,
             "button_mgb_mb": 0,
             "animation": "none"
-          }
-        },
-        "164602873867eb3815-0": {
-          "type": "image_parent",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-04.jpg",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/frontpage",
-            "open_link": "_blank",
-            "animate_slide": "none",
-            "text_align": "start",
-            "text_align_mb": "start",
-            "content_width": "container",
-            "cv_pos": 50,
-            "ch_pos": 0,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 0,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "rgba(0,0,0,0)",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 30
           }
         },
         "9d45e682-4cef-4d13-8fd1-8bf93daa821f": {
@@ -667,6 +670,7 @@
         }
       },
       "block_order": [
+        "164602873867eb3815-0",
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
         "398a6708-b6bd-4825-b484-80b4453cf210",
         "e97dafb5-1bb1-472c-8e3a-bbfdd7f8059c",
@@ -674,7 +678,6 @@
         "5eff4e76-0cf0-4cd4-8972-c1a2d47bfb0b",
         "59b60a8d-4f49-40dd-9a49-dc74c6a6e750",
         "90b1b88c-05ca-4838-a40e-3d265d1b195a",
-        "164602873867eb3815-0",
         "9d45e682-4cef-4d13-8fd1-8bf93daa821f",
         "c7fce9ca-ee33-44ed-9355-e12fc227e245",
         "b20f1a22-b5de-45a5-9463-906ecf648f66",
@@ -1833,7 +1836,7 @@
         "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "Why Shortcutx?"
+            "top_heading": "Choose Shortcutx."
           }
         },
         "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1": {
@@ -2131,8 +2134,8 @@
             "text_size": "30,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Guaranteed Results",
-            "text": "<p>Shortcutx products guarantee results. With our carefully crafted formulas and advanced technologies, we have fine-tuned our products to deliver exceptional outcomes. Trust in our commitment to excellence and make Shortcutx your go-to choice for achieving your desired outcomes. Say goodbye to uncertainty and unlock the confidence of guaranteed results.<\/p>",
+            "heading": "100% Satisfaction",
+            "text": "<p>Our products are focused on getting you the best results. With our carefully crafted formulas and advanced technologies, we have fine-tuned our products to deliver exceptional outcomes. Trust in our commitment to excellence and make Shortcutx your go-to choice for achieving your desired outcomes.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -2522,7 +2525,7 @@
             "icon_themes": "car",
             "icon": "las la-smile",
             "heading": "",
-            "number": 443549,
+            "number": 643549,
             "unit": "",
             "des": "SATISFIED CUSTOMERS",
             "content_align": "center"
@@ -2755,7 +2758,7 @@
           "type": "shopify:\/\/apps\/maestrooo-section-feed\/blocks\/app-block\/43cd482b-515a-4e82-b170-05d391763cd2",
           "settings": {
             "title": "Follow us on @shortcutx.co",
-            "subheading": "<p>Stay updated on our promotions, launches, and reviews! <\/p>",
+            "subheading": "<p>Keep updated on our promotions, launches, and reviews! <\/p>",
             "button_text": "",
             "button_link": "",
             "layout": "sliding_carousel",
