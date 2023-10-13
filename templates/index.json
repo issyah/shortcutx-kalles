@@ -1333,7 +1333,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Shop our Best Sellers",
+        "top_heading": "Take the first step to a better you.",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -2757,7 +2757,7 @@
         "b5290e87-3fcc-42c1-90c1-c97834c2ed19": {
           "type": "shopify:\/\/apps\/maestrooo-section-feed\/blocks\/app-block\/43cd482b-515a-4e82-b170-05d391763cd2",
           "settings": {
-            "title": "Follow us on @shortcutx.co",
+            "title": "Follow us @shortcutx.co",
             "subheading": "<p>Keep updated on our promotions, launches, and reviews! <\/p>",
             "button_text": "",
             "button_link": "",
