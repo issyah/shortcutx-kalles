@@ -2,7 +2,6 @@
   "sections": {
     "c6e6c660-3127-418d-81a9-5fe2e6189b10": {
       "type": "image_text",
-      "disabled": true,
       "blocks": {
         "template--16756803141872__c6e6c660-3127-418d-81a9-5fe2e6189b10-1685867812e799f40f-1": {
           "type": "bl_text",
@@ -62,6 +61,7 @@
         "template--16756803141872__c6e6c660-3127-418d-81a9-5fe2e6189b10-1685867812e799f40f-1",
         "template--16756803141872__c6e6c660-3127-418d-81a9-5fe2e6189b10-1685867812e799f40f-0"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -89,6 +89,13 @@
     "top": {
       "type": "top-collections",
       "blocks": {
+        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
+          "type": "cat",
+          "settings": {
+            "collection": "frontpage",
+            "icon": "las la-burn"
+          }
+        },
         "a18bd590-b0b5-4ff8-b48d-1691167b1a7f": {
           "type": "cat",
           "settings": {
@@ -103,13 +110,6 @@
             "icon": "las la-cookie-bite"
           }
         },
-        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
-          "type": "cat",
-          "settings": {
-            "collection": "frontpage",
-            "icon": "las la-burn"
-          }
-        },
         "9a953769-57c2-417a-b665-db34392c8d1c": {
           "type": "cat",
           "settings": {
@@ -119,9 +119,9 @@
         }
       },
       "block_order": [
+        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22",
         "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
         "2502644f-656b-4289-9245-a75187bd0170",
-        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22",
         "9a953769-57c2-417a-b665-db34392c8d1c"
       ],
       "settings": {
@@ -236,7 +236,6 @@
     },
     "sidebar": {
       "type": "sidebar-collection",
-      "disabled": true,
       "blocks": {
         "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
           "type": "category",
@@ -292,6 +291,7 @@
         "c090f36e-d6ef-4a2a-ab04-cc78211dadb7",
         "221aa22f-5c6c-40c9-9403-6d3cd2c23e93"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,
