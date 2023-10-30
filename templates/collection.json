@@ -368,6 +368,21 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "c8eec251-ccf9-45bb-85f1-6ae8f5159496": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -375,6 +390,7 @@
     "top",
     "heading_template",
     "sidebar",
-    "main"
+    "main",
+    "c8eec251-ccf9-45bb-85f1-6ae8f5159496"
   ]
 }
