@@ -299,7 +299,7 @@
         "b20f1a22-b5de-45a5-9463-906ecf648f66": {
           "type": "custom_text",
           "settings": {
-            "text": "Over 500,00 boxes sold. Subscribe and save up to 10%. <br>",
+            "text": "Over 500,000 boxes sold. Save more when you subscribe. <br>",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "2",
