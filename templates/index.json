@@ -39,7 +39,7 @@
         "9a953769-57c2-417a-b665-db34392c8d1c"
       ],
       "custom_css": [
-        ".t4s-top-collections {min-height: 59px;}"
+        ".t4s-top-collections,.flickityt4s-viewport {min-height: 59px;}"
       ],
       "settings": {
         "show_top_collections": true,
