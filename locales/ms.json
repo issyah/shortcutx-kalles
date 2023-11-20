@@ -146,7 +146,9 @@
       "multiple_rates": "Kami mendapati [number_of_rates] kadar penghantaran tersedia untuk [address], bermula pada [rate].",
       "one_rate": "Kami mendapati satu kadar penghantaran tersedia untuk [alamat].",
       "no_rates": "Maaf, kami tidak menghantar ke destinasi ini.",
-      "errors": "Terdapat beberapa ralat:"
+      "errors": "Terdapat beberapa ralat:",
+      "title": "Anggaran penghantaran",
+      "country": "Negara"
     },
     "shipping_threshold": {
       "text_1_html": "Penghantaran Percuma untuk semua pesanan melebihi <span class=\"t4s-cr\">{{ money }}<\/span>",
@@ -175,6 +177,36 @@
       "subtotal": "Jumlah kecil:",
       "checkout": "Daftar Keluar",
       "update": "Kemas Kini Troli"
+    },
+    "general": {
+      "cookies_required": "Dayakan kuki untuk menggunakan troli beli-belah",
+      "taxes_and_shipping_at_checkout": "Cukai dan penghantaran dikira semasa pembayaran",
+      "taxes_and_shipping_policy_at_checkout_html": "Cukai dan <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">penghantaran<\/a> dikira semasa pembayaran",
+      "taxes_included_but_shipping_at_checkout": "Termasuk cukai dan penghantaran dikira semasa pembayaran",
+      "taxes_included_and_shipping_policy_html": "Termasuk cukai. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">Penghantaran<\/a> dikira semasa pembayaran.",
+      "taxes_discounts_and_shipping_at_checkout": "Kod cukai, penghantaran dan diskaun dikira semasa pembayaran",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Kod cukai, <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">penghantaran<\/a> dan diskaun dikira semasa pembayaran",
+      "taxes_included_discounts_but_shipping_at_checkout": "Termasuk cukai. Kod penghantaran dan diskaun dikira semasa pembayaran",
+      "taxes_included_discounts_and_shipping_policy_html": "Termasuk cukai. Kod <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">penghantaran<\/a> dan diskaun dikira semasa pembayaran.",
+      "terms_and_conditions_html": "Saya bersetuju dengan <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" target=\"_blank\">terma dan syarat<\/a> .",
+      "terms_and_conditions": "Saya bersetuju dengan terma dan syarat.",
+      "edit_item": "Edit item ini",
+      "remove_item": "Alih keluar item ini",
+      "recurring_mess": "Penghantaran Berulang setiap {{frequency}} {{frequency_unit}} . Tukar atau batalkan bila-bila masa",
+      "agree_checkout": "Anda mesti bersetuju dengan terma dan syarat jualan untuk menyemak."
+    },
+    "tool": {
+      "save": "Jimat",
+      "cancel": "Batal",
+      "note": "Tambah Nota Pesanan",
+      "edit_note": "Edit Nota Pesanan",
+      "placeholder_note": "Bagaimanakah kami boleh membantu anda?",
+      "gift_wrap_html": "<span class=\"cd\">Adakah anda mahu pembalut hadiah?<\/span> Hanya {{ money }}",
+      "add_gift_wrap": "Tambah Bungkus Hadiah",
+      "coupon": "kupon:",
+      "add_coupon": "Tambah Kupon",
+      "info_coupon": "Kod kupon akan berfungsi pada halaman pembayaran",
+      "placeholder_coupon": "Kod Kupon"
     }
   },
   "templates": {
@@ -271,6 +303,106 @@
       "payment_status": "Status bayaran",
       "fulfillment_status": "Status Pemenuhan",
       "total": "Jumlah"
+    }
+  },
+  "products": {
+    "product_card": {
+      "countdown_text": {
+        "hr": "jam",
+        "hr_plural": "Jam",
+        "min_plural": "min",
+        "sec_plural": "saat"
+      }
+    },
+    "product_single": {
+      "countdown_text": {
+        "day": "Hari",
+        "day_plural": "hari-hari",
+        "hr": "jam",
+        "hr_plural": "Jam",
+        "min_plural": "min",
+        "sec_plural": "saat"
+      },
+      "order_dayNames": "Ahad Isnin Selasa Rabu Khamis Jumaat Sabtu",
+      "order_monthNames": "Januari,Februari,Mac,April,Mei,Jun,Julai,Ogos,September,Oktober,November,Disember",
+      "view_in_space": "Lihat di ruang anda",
+      "view_in_space_label": "Lihat dalam ruang anda, muatkan item dalam tetingkap realiti tambahan",
+      "view_360": "360 paparan produk",
+      "click_zoom": "Klik untuk besarkan",
+      "will_not_ship_until_html": "Tidak akan dihantar sehingga <span data-incoming-date>{{date}}<\/span>",
+      "will_be_in_stock_after_html": "Akan ada dalam stok selepas <span data-incoming-date>{{date}}<\/span>"
+    },
+    "fbt": {
+      "title": "Kerap Dibeli Bersama",
+      "tt_price": "Harga keseluruhan:",
+      "add_tc": "Tambah yang dipilih pada troli",
+      "this_item": "Barang ini:"
+    },
+    "grouped": {
+      "tt_price": "Jumlah kecil:"
+    },
+    "notify_stock": {
+      "trigger": "Beritahu Saya Apabila Tersedia",
+      "title": "Daftar untuk menerima pemberitahuan apabila item ini kembali dalam stok.",
+      "email": "Alamat emel",
+      "please": "Sila maklumkan saya apabila produk ini tersedia",
+      "success": "Terima kasih! Kami akan memberitahu anda apabila produk ini tersedia!",
+      "button": "E-mel saya apabila tersedia"
+    },
+    "facets": {
+      "apply": "Mohon",
+      "clear": "Jelas",
+      "clear_all": "Kosongkan semua",
+      "from": "daripada",
+      "filter_and_sort": "Tapis dan susun",
+      "filter_title": "Penapis",
+      "title_price": "harga",
+      "button_price": "Penapis",
+      "results_with_count_html": {
+        "zero": "<span class=\"cp\">0<\/span> Produk Ditemui",
+        "one": "<span class=\"cp\">1<\/span> Produk Ditemui",
+        "other": "<span class=\"cp\">{{count}}<\/span> Produk Ditemui"
+      },
+      "clear_filter": "Kosongkan penapis"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Cari Laman Kami",
+      "heading": {
+        "one": "Hasil carian",
+        "other": "Keputusan Carian"
+      },
+      "results_others": "Hasil daripada artikel, halaman",
+      "quick_search": "Pencarian pantas:",
+      "close_search": "Tutup Carian",
+      "suggest": "Perlukan inspirasi?",
+      "placeholder": "Cari",
+      "placeholder_products": "Cari produk",
+      "submit": "cari",
+      "all_categories": "semua Kategori",
+      "no_results": "Tiada hasil yang sepadan",
+      "no_product_results": "Tiada produk ditemui sepadan dengan pilihan anda.",
+      "sort_by_label": "Disusun mengikut:",
+      "sort_button": "Isih",
+      "filter_button": "Penapis"
+    },
+    "search_for": "Cari “ {{ terms }} ”",
+    "pagination": {
+      "view_all": "Lihat semua",
+      "load_more": "Tambah lagi",
+      "load_prev": "Muatkan Sebelumnya",
+      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} produk"
+    },
+    "results_with_term": {
+      "zero": "Hasil Carian untuk: “ {{ terms }} ”",
+      "one": "Hasil Carian untuk: “ {{ terms }} ”",
+      "other": "Hasil Carian untuk: “ {{ terms }} ”"
+    },
+    "results_with_count_and_term": {
+      "zero": "Hasil Carian untuk: “ {{ terms }} ”",
+      "one": "{{ count }} Hasil Carian untuk: “ {{ terms }} ”",
+      "other": "{{ count }} Hasil Carian untuk: “ {{ terms }} ”"
     }
   }
 }
