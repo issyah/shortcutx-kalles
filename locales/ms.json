@@ -1,0 +1,276 @@
+{
+  "sections": {
+    "announcement": {
+      "label": "Pengumuman",
+      "close": "dekat"
+    },
+    "lookbook": {
+      "title": {
+        "product": "produk",
+        "text": "Teks"
+      }
+    },
+    "countdown_text": {
+      "day": "Hari",
+      "day_plural": "hari-hari",
+      "hr": "jam",
+      "hr_plural": "Jam",
+      "min_plural": "min",
+      "sec_plural": "saat"
+    },
+    "newsletter_form": {
+      "email_placeholder": "alamat e-mel anda",
+      "submit": "Langgan",
+      "subscribing": "Melanggan...",
+      "confirmation": "Terima kasih kerana melanggan",
+      "error_exist": "E-mel sudah digunakan untuk akaun lain"
+    },
+    "agree_mail": {
+      "conditions": "Anda mesti bersetuju dengan terma dan syarat untuk mendaftar.",
+      "link_conditions_html": "Saya bersetuju dengan <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"t4s-text__link\">terma dan syarat<\/a> .",
+      "link_conditions_emty": "Saya bersetuju dengan terma dan syarat."
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "Ditag \" {{ tags }} \"",
+      "page": "Halaman {{ page }}"
+    },
+    "aria": {
+      "close": "tutup",
+      "back_to_top": "Kembali ke atas"
+    },
+    "popup": {
+      "close": "tutup",
+      "close_esc": "Tutup (Esc)",
+      "loading": "Memuatkan...",
+      "pswp_share": "Kongsi",
+      "pswp_fs": "Togol skrin penuh",
+      "pswp_zoom": "Zum masuk\/keluar",
+      "pswp_facebook": "Kongsi di Facebook",
+      "pswp_pinterest": "Pin ia",
+      "pswp_prev": "Sebelumnya (anak panah ke kiri)",
+      "pswp_next": "Seterusnya (anak panah ke kanan)"
+    },
+    "newsletter_popup": {
+      "email_placeholder": "alamat e-mel anda",
+      "submit": "Langgan",
+      "subscribing": "Melanggan...",
+      "confirmation": "Terima kasih kerana melanggan"
+    },
+    "pagination": {
+      "label": "penomboran",
+      "page": "{{ number }}",
+      "next": "Seterusnya",
+      "previous": "Sebelum"
+    },
+    "breadcrumb": {
+      "home": "Rumah"
+    },
+    "mobile_menu": {
+      "close": "Tutup menu, kategori",
+      "categories": "Kategori",
+      "wishlist": "Senarai hajat",
+      "compare": "bandingkan",
+      "search": "Cari",
+      "login_register": "Log masuk \/ Daftar",
+      "my_account": "Akaun saya"
+    },
+    "sidebar": {
+      "open": "Buka bar sisi",
+      "close": "Tutup bar sisi",
+      "title": "Bar sisi",
+      "language": "Pilih bahasa anda",
+      "currency": "Pilih mata wang anda"
+    }
+  },
+  "socials": {
+    "share_fb": "Kongsi di Facebook",
+    "share_tw": "Kongsi di Twitter",
+    "share_em": "Kongsi di E-mel",
+    "share_pr": "Kongsi di Pinterest",
+    "share_tu": "Kongsi di Tumblr",
+    "share_tl": "Kongsi di Telegram",
+    "share_wa": "Kongsi di WhatsApp",
+    "follow_fb": "Ikuti di Facebook",
+    "follow_tw": "Ikuti di Twitter",
+    "follow_it": "Ikuti di Instagram",
+    "follow_dr": "Ikuti di Dribbble",
+    "follow_ld": "Ikuti di LinkedIn",
+    "follow_pr": "Ikuti di Pinterest",
+    "follow_tu": "Ikuti di Tumblr",
+    "follow_yt": "Ikuti di YouTube",
+    "follow_vm": "Ikuti di Vimeo",
+    "follow_bh": "Ikuti di Behance",
+    "follow_sc": "Ikuti di Soundcloud",
+    "follow_tt": "Ikuti di Tiktok",
+    "follow_sp": "Ikuti di Snapchat",
+    "follow_sptify": "Ikuti di Spotify"
+  },
+  "accessibility": {
+    "skip_to_text": "Langkau ke kandungan",
+    "skip_to_product_info": "Langkau ke maklumat produk",
+    "close": "tutup",
+    "vendor": "Penjual:",
+    "error": "ralat",
+    "refresh_page": "Memilih pilihan menghasilkan muat semula halaman penuh.",
+    "link_messages": {
+      "new_window": "Dibuka dalam tetingkap baharu.",
+      "external": "Membuka tapak web luaran."
+    },
+    "of": "daripada",
+    "next_slide": "Luncurkan ke kanan",
+    "previous_slide": "Luncurkan ke kiri",
+    "loading": "Memuatkan...",
+    "total_reviews": "jumlah ulasan",
+    "star_reviews_info": "{{ rating_value }} daripada {{ rating_max }} bintang"
+  },
+  "blogs": {
+    "filter_all": "Semua",
+    "pagination": {
+      "view_all": "Lihat semua",
+      "load_more": "Muatkan Lagi Siaran",
+      "load_prev": "Muatkan Sebelumnya",
+      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} siaran"
+    },
+    "article": {
+      "by": "Oleh",
+      "on": "pada"
+    }
+  },
+  "cart": {
+    "shipping_estimator": {
+      "province": "Wilayah",
+      "zip_code": "Poskod",
+      "estimate": "Anggaran",
+      "multiple_rates": "Kami mendapati [number_of_rates] kadar penghantaran tersedia untuk [address], bermula pada [rate].",
+      "one_rate": "Kami mendapati satu kadar penghantaran tersedia untuk [alamat].",
+      "no_rates": "Maaf, kami tidak menghantar ke destinasi ini.",
+      "errors": "Terdapat beberapa ralat:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Penghantaran Percuma untuk semua pesanan melebihi <span class=\"t4s-cr\">{{ money }}<\/span>",
+      "text_2_html": "Hampir sampai, tambah <span class=\"t4s-cr\">{{ money }}<\/span> lagi untuk mendapatkan <span class=\"t4s-ch\">PENGHANTARAN PERCUMA!<\/span>",
+      "text_3": "[Tahniah!] Anda mendapat penghantaran percuma!"
+    },
+    "mini_cart": {
+      "title": "Troli beli-belah",
+      "close_cart": "Tutup Troli",
+      "empty": "Troli anda kosong.",
+      "subtotal": "Jumlah kecil:",
+      "checkout": "Daftar Keluar",
+      "view": "Lihat troli",
+      "title_recommendations": "Awak juga mungkin menyukai"
+    },
+    "cart_page": {
+      "title": "Troli beli-belah",
+      "label": {
+        "product": "produk",
+        "price": "harga",
+        "quantity": "Kuantiti",
+        "total": "Jumlah"
+      },
+      "empty": "Troli anda kosong.",
+      "empty_html": "Sebelum meneruskan pembayaran, anda mesti menambah beberapa produk pada troli beli-belah anda.<br> Anda akan menemui banyak produk menarik di halaman \"Kedai\" kami.",
+      "subtotal": "Jumlah kecil:",
+      "checkout": "Daftar Keluar",
+      "update": "Kemas Kini Troli"
+    }
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "name": "Nama Anda (diperlukan)",
+        "email": "E-mel Anda (diperlukan)",
+        "phone": "Nombor telefon anda",
+        "message": "Mesej anda",
+        "submit": "Hantar",
+        "post_success": "Terima kasih kerana menghubungi kami. Kami akan menghubungi anda semula secepat mungkin.",
+        "error_heading": "Sila laraskan perkara berikut:"
+      }
+    },
+    "404": {
+      "subtext": "Maaf! Halaman yang anda cari tidak ditemui.",
+      "link_html": "Kembali ke <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" rel=\"home\">laman utama<\/a>"
+    }
+  },
+  "customer": {
+    "form": {
+      "error_heading": "Sila laraskan perkara berikut:"
+    },
+    "account": {
+      "title": "AKAUN SAYA",
+      "make_order": "Buat pesanan pertama anda",
+      "none": "Anda belum membuat sebarang pesanan lagi.",
+      "hello_html": "Hello <strong>{{name}}<\/strong> (bukan <strong>{{name}}<\/strong> ? <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\">Log keluar<\/a> )",
+      "manage_subs": "Urus Langganan",
+      "dashboard": "Papan pemuka",
+      "wishlist": "Senarai hajat",
+      "details": "Butiran akaun:",
+      "log_out": "Log keluar",
+      "name": "nama:",
+      "email": "E-mel:",
+      "address": "Alamat:",
+      "address_2": "Alamat 2:",
+      "country": "negara:",
+      "phone": "telefon:",
+      "company": "Syarikat:"
+    },
+    "menu": {
+      "dashboard": "Papan pemuka",
+      "addresses": "Alamat",
+      "logout": "Log keluar"
+    },
+    "activate_account": {
+      "title": "Aktifkan Akaun",
+      "subtext": "Buat kata laluan anda untuk mengaktifkan akaun anda.",
+      "password": "Kata laluan",
+      "password_confirm": "Sahkan Kata Laluan",
+      "submit": "Aktifkan Akaun",
+      "cancel": "Tolak Jemputan"
+    },
+    "addresses": {
+      "title": "Alamat",
+      "default": "Lalai",
+      "add_new": "Tambah alamat baru",
+      "edit_address": "Edit alamat",
+      "first_name": "Nama pertama",
+      "last_name": "Nama terakhir",
+      "company": "Syarikat",
+      "address1": "Alamat",
+      "address2": "Pangsapuri, suite, dsb.",
+      "city": "Bandar",
+      "country": "Negara\/wilayah",
+      "province": "Wilayah",
+      "zip": "Pos \/ Poskod",
+      "phone": "telefon",
+      "set_default": "Tetapkan sebagai alamat lalai",
+      "add": "Tambah Alamat",
+      "update": "Kemas Kini Alamat",
+      "cancel": "Batal",
+      "edit": "Sunting",
+      "delete": "Padam",
+      "delete_confirm": "Adakah anda pasti mahu memadamkan alamat ini?"
+    },
+    "login": {
+      "title": "LOG MASUK",
+      "create_account": "Pelanggan baru? cipta akaun anda",
+      "email": "E-mel",
+      "password": "Kata laluan",
+      "forgot_password": "Terlupa kata laluan anda?",
+      "submit": "Log Masuk",
+      "sign_in": "Log masuk",
+      "guest_title": "Teruskan sebagai tetamu",
+      "guest_continue": "teruskan"
+    },
+    "orders": {
+      "title": "Sejarah Pesanan:",
+      "order_number": "Pesanan",
+      "order_number_link": "Nombor pesanan {{ number }}",
+      "date": "Tarikh",
+      "payment_status": "Status bayaran",
+      "fulfillment_status": "Status Pemenuhan",
+      "total": "Jumlah"
+    }
+  }
+}
