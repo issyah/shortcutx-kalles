@@ -135,7 +135,51 @@
     },
     "article": {
       "by": "Oleh",
-      "on": "pada"
+      "on": "pada",
+      "in": "Dalam",
+      "read_more": "Teruskan membaca",
+      "back_to": "Kembali ke {{title}}",
+      "view_all": "Lihat lagi",
+      "by_author": "Oleh {{ author }}"
+    },
+    "portfolio": {
+      "filter_all": "Semua",
+      "category": "Kategori:",
+      "author": "Pengarang:",
+      "tags": "Tag:"
+    },
+    "comments": {
+      "title": "Tinggalkan komen",
+      "comments_note_html": "Alamat e-mel anda tidak akan diterbitkan. Medan yang diperlukan ditanda <span class=\"required\">*<\/span>",
+      "name": "Nama",
+      "email": "E-mel",
+      "message": "Komen",
+      "post": "pos komen",
+      "moderated": "Sila ambil perhatian, ulasan mesti diluluskan sebelum ia diterbitkan",
+      "success_moderated": "Ulasan anda telah berjaya disiarkan. Kami akan menerbitkannya sedikit masa lagi, kerana blog kami disederhanakan.",
+      "success": "Ulasan anda telah berjaya disiarkan! Terima kasih!",
+      "unapproved": "Alamat e-mel yang diberikan tidak diluluskan untuk menyiarkan ulasan.",
+      "error_heading": "Sila laraskan perkara berikut:",
+      "with_count": {
+        "zero": "0 ulasan",
+        "one": "1 komen",
+        "other": "{{ count }} ulasan"
+      },
+      "with_count_2": {
+        "zero": "Tinggalkan komen",
+        "one": "1 komen",
+        "other": "{{ count }} ulasan"
+      },
+      "with_count_html": {
+        "zero": "0 <span>ulasan<\/span>",
+        "one": "1 <span>komen<\/span>",
+        "other": "{{ count }} <span>ulasan<\/span>"
+      },
+      "comments_title_html": {
+        "zero": "0 memikirkan “ <span>{{title}}<\/span> ”",
+        "one": "1 pemikiran tentang “ <span>{{title}}<\/span> ”",
+        "other": "{{ count }} pemikiran tentang “ <span>{{title}}<\/span> ”"
+      }
     }
   },
   "cart": {
@@ -311,8 +355,22 @@
         "hr": "jam",
         "hr_plural": "Jam",
         "min_plural": "min",
-        "sec_plural": "saat"
-      }
+        "sec_plural": "saat",
+        "day": "Hari",
+        "day_plural": "hari-hari"
+      },
+      "read_more": "Baca lagi",
+      "view": "Lihat produk",
+      "quick_view": "Pandangan pantas",
+      "quick_shop": "Kedai Cepat",
+      "quick_shop_text": {
+        "replace_item_atc": "Gantikan item",
+        "replace_item_pre": "Gantikan item"
+      },
+      "select_option": "Pilih pilihan",
+      "swatch_limit": "Tunjukkan Lebih Banyak Warna",
+      "swatch_limit_less": "Tunjukkan Kurang Warna",
+      "offer_end_in": "Tawaran Berakhir Pada:"
     },
     "product_single": {
       "countdown_text": {
@@ -364,6 +422,54 @@
         "other": "<span class=\"cp\">{{count}}<\/span> Produk Ditemui"
       },
       "clear_filter": "Kosongkan penapis"
+    },
+    "aria_label": {
+      "select_option": "Pilih pilihan untuk “ {{product_title}} ”",
+      "add_to_cart": "Tambahkan “ {{product_title}} ” pada troli anda",
+      "read_more": "Baca lebih lanjut mengenai “ {{product_title}} ”"
+    },
+    "breadcrumb": {
+      "home": "Rumah",
+      "back_to": "Kembali ke {{title}}"
+    },
+    "badge": {
+      "new": "Baru",
+      "sold_out": "Habis dijual",
+      "on_sale": "Jualan",
+      "save_amoun_html": "- {{ saved_amount }} %",
+      "save_amount_fixed_html": "- {{ saved_amount }}",
+      "save_amount_2_html": "JIMAT {{ saved_amount }} %",
+      "save_amount_fixed_2_html": "SIMPAN {{ saved_amount }}"
+    },
+    "product": {
+      "include_taxes": "Termasuk cukai.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Penghantaran<\/a> dikira semasa pembayaran.",
+      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\">Dari<\/span> {{price_min}}",
+      "Please_choose_pr_options": "Sila pilih beberapa pilihan produk sebelum menambahkan produk ini pada troli anda.",
+      "choose_an_option": "Memilih pilihan",
+      "add_to_cart": "Tambah ke troli",
+      "pre_order": "Pra-pesanan",
+      "unavailable": "Tidak ada",
+      "sold_out": "kehabisan stok",
+      "notice_only_stock": "Tidak cukup barang yang tersedia. Hanya {{max}} yang tinggal.",
+      "login_to_wishlist": "Log masuk untuk menggunakan Senarai Hajat",
+      "add_to_wishlist": "Tambahkan ke Senarai Hajat",
+      "remove_wishlist": "Alih keluar Senarai Hajat",
+      "browse_wishlist": "Semak imbas Senarai Hajat",
+      "compare": "Bandingkan",
+      "added_text_compare": "Bandingkan produk",
+      "product_vendor": "Penjual:",
+      "product_type": "Jenis:",
+      "product_barcode": "Kod bar:",
+      "na": "T\/A",
+      "available": "Ketersediaan:",
+      "in_stock_status": "Dalam stok",
+      "sold_out_status": "kehabisan stok",
+      "product_category": "Kategori:",
+      "product_tag": "Tag:",
+      "product_size_guide": "Panduan Saiz",
+      "delivery_return": "Penghantaran &amp; Pemulangan",
+      "ask_question": "Tanya soalan"
     }
   },
   "search": {
@@ -403,6 +509,29 @@
       "zero": "Hasil Carian untuk: “ {{ terms }} ”",
       "one": "{{ count }} Hasil Carian untuk: “ {{ terms }} ”",
       "other": "{{ count }} Hasil Carian untuk: “ {{ terms }} ”"
+    }
+  },
+  "list_collections": {
+    "meta_title": "Halaman Senarai Koleksi",
+    "meta_description": "Halaman senarai koleksi, yang menyenaraikan semua koleksi kedai.",
+    "pagination": {
+      "load_more": "Tambah lagi",
+      "load_prev": "Muatkan Sebelumnya",
+      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} koleksi"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Tiada produk ditemui sepadan dengan pilihan anda.",
+      "sort_by_label": "Disusun mengikut:",
+      "sort_button": "Isih",
+      "filter_button": "Penapis"
+    },
+    "pagination": {
+      "view_all": "Lihat semua",
+      "load_more": "Tambah lagi",
+      "load_prev": "Muatkan Sebelumnya",
+      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} produk"
     }
   }
 }
