@@ -2777,10 +2777,16 @@
             "overlay_text_color": "#ffffff",
             "overlay_opacity": 65
           }
+        },
+        "socialwidget_instagram_feed_base_widget_8acJFy": {
+          "type": "shopify:\/\/apps\/socialwidget-instagram-feed\/blocks\/base-widget\/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "b5290e87-3fcc-42c1-90c1-c97834c2ed19"
+        "b5290e87-3fcc-42c1-90c1-c97834c2ed19",
+        "socialwidget_instagram_feed_base_widget_8acJFy"
       ],
       "settings": {
       }
