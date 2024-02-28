@@ -63,7 +63,7 @@
     "hover_currency": false,
     "bootstrap_css": false,
     "custom_css_t4s": true,
-    "global_css": "<script type=\"text\/javascript\">\n  window.__miu_cid = \"88e184d9-3a2a-4c22-97bb-3bac20b04595\";\n  (function() {\n    const script = document.createElement('script');\n    script.type = 'text\/javascript';\n    script.async = true;\n    script.src = 'https:\/\/app.miu.ai\/assets\/script.js';\n    script.id = '__miu';\n    document.getElementsByTagName('body')[0].appendChild(script);\n  })();\n<\/script>\n<script type=\"text\/javascript\">\n\ndocument.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){\n\nwindow._klOnsite = window._klOnsite || [];\n\nwindow._klOnsite.push(['openForm', 'RiaQ2B']);\n\n});\n\n<\/script>",
+    "global_css": "<script type=\"text\/javascript\">\n  window.__miu_cid = \"88e184d9-3a2a-4c22-97bb-3bac20b04595\";\n  (function() {\n    const script = document.createElement('script');\n    script.type = 'text\/javascript';\n    script.async = true;\n    script.src = 'https:\/\/app.miu.ai\/assets\/script.js';\n    script.id = '__miu';\n    document.getElementsByTagName('body')[0].appendChild(script);\n  })();\n<\/script>",
     "t4s_custom_js": true,
     "share_twitter": false,
     "share_pinterest": false,
@@ -2361,11 +2361,44 @@
               "cart": false,
               "page": false
             }
+          },
+          "newsletter_hgdztg": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "heading": "Sign up our newsletter and save 25% off for the next purchase!",
+              "sub_heading": "Subscribe to our newsletters and don’t miss new arrivals, the latest fashion updates and our promotions.",
+              "txt": "Your Information will never be shared with any third party.",
+              "btn_ck": true,
+              "txt2": "Do not show it anymore.",
+              "input_cl": "#878787",
+              "border_cl": "#000",
+              "btn_cl": "#ffffff",
+              "btn_bg_cl": "#222222",
+              "btn_hover_cl": "#ffffff",
+              "btn_hover_bg_cl": "#56CFE1",
+              "news_layout": "1",
+              "mb": false,
+              "index": true,
+              "product": false,
+              "collection": false,
+              "article": false,
+              "blog": false,
+              "cart": false,
+              "page": false,
+              "number_pages": 0,
+              "version": "1",
+              "day_next": 7,
+              "after": "scroll",
+              "time_delay": 2,
+              "scroll_delay": 800
+            }
           }
         },
         "block_order": [
           "d1f50304-6df1-4b10-9533-99594d87327a",
-          "0318c729-6aa7-4e73-b7f9-1cad399d2224"
+          "0318c729-6aa7-4e73-b7f9-1cad399d2224",
+          "newsletter_hgdztg"
         ],
         "settings": {
         }
@@ -2477,6 +2510,9 @@
       },
       "extras": {
         "type": "extras",
+        "custom_css": [
+
+        ],
         "settings": {
         }
       },
