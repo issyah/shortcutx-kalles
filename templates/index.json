@@ -2686,6 +2686,43 @@
         "code_cus_css": ""
       }
     },
+    "top_heading_4G8MCQ": {
+      "type": "top_heading",
+      "blocks": {
+        "bl_heading_a8hAUX": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Follow us @shorcutx.co"
+          }
+        },
+        "bl_subheading_qXDEPN": {
+          "type": "bl_subheading",
+          "settings": {
+            "top_subheading": "Keep updated with our promotions, free gifts, and new products!"
+          }
+        }
+      },
+      "block_order": [
+        "bl_heading_a8hAUX",
+        "bl_subheading_qXDEPN"
+      ],
+      "settings": {
+        "anchor_id": "",
+        "design_heading": "10",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "1689065658ece8d2cb": {
       "type": "apps",
       "blocks": {
@@ -2752,6 +2789,7 @@
     "51d99fc7-af1a-4a98-b13e-90422bb3393d",
     "1646035317ea8b6928",
     "72c030a2-8b52-4beb-8b57-fb421bcedb27",
+    "top_heading_4G8MCQ",
     "1689065658ece8d2cb"
   ]
 }
