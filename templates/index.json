@@ -214,7 +214,7 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-04.jpg",
+            "image": "shopify:\/\/shop_images\/Website_Banner_ca7bc5f7-6abf-45d8-ac57-1be61907cf00.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify:\/\/collections\/frontpage",
@@ -276,7 +276,7 @@
         "c7fce9ca-ee33-44ed-9355-e12fc227e245": {
           "type": "custom_text",
           "settings": {
-            "text": "Shortcutx Fat Burner <br>Apple Cider Vinegar Fruit Juice",
+            "text": "Apple Cider Vinegar Fruit Juice <br> Enhanced formula, better results",
             "remove_br_tag": true,
             "tag": "h2",
             "fontf": "1",
