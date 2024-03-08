@@ -1208,31 +1208,14 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/33.png",
-            "title": "Lychee Lemon Fat Burner",
-            "text": "<p>Our latest addition to our fat burner juice collection. The Lychee Lemon Fat Burner Juice helps you to lose weight naturally and fast! This natural weight loss supplement helps to breakdown stubborn fats, curbs your appetite and help you feel fuller quicker.  <\/p>",
+            "image": "shopify:\/\/shop_images\/2_3edf1ecd-3b26-4450-a514-6aff863d3eb8.png",
+            "title": "2.0 Lychee Lemon Fat Burner",
+            "text": "<p>Our latest addition to our fat burner juice collection, with a new and enhanced formula. The Lychee Lemon Fat Burner Juice helps you to lose weight naturally and fast! This natural weight loss supplement helps to breakdown stubborn fats, curbs your appetite and help you feel fuller quicker.  <\/p>",
             "button_label": "Lychee Lemon Fat Burner",
-            "button_link": "shopify:\/\/products\/shorcutx-lychee-lemon-fat-burner-juice",
+            "button_link": "shopify:\/\/products\/2-0-shortcutx-lychee-lemon-fat-burner-juice",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "primary",
-            "button_effect": "fade"
-          }
-        },
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/tummy-shakes.jpg",
-            "title": "Flat Tummy Shakes",
-            "text": "<p>Tasty and nutritious, the Flat Tummy Shakes Strawberry Cheesecake meal replacement from Shortcutx can complement your weight loss efforts. This nutrient-rich shake serves as a pleasant replacement for high-calorie dishes.<\/p>",
-            "button_label": "Shop Flat Tummy Shakes",
-            "button_link": "shopify:\/\/collections\/meal-replacement",
-            "open_link": "_self",
-            "btn_icon": false,
-            "button_style": "outline",
             "btn_size": "large",
             "btn_cl": "primary",
             "button_effect": "fade"
@@ -1242,11 +1225,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/14.png",
-            "title": "Slimming Coffee",
-            "text": "<p>Start your day on a high note with a fresh energy boost from our slimming coffee. Our 7-day sugar-free formula is proven effective to boost energy levels, stimulate body fat burning, and curb sugar craving.<\/p><p> <\/p><p><\/p><p>     <\/p>",
+            "image": "shopify:\/\/shop_images\/5_315e656c-e39a-4b48-835b-1f6c2d350d5b.png",
+            "title": "2.0 Caramel Macchiato Coffee",
+            "text": "<p>Start your day on a high note with our new and enhanced formula of our Caramel Macchiato slimming coffee. Our 7-day sugar-free formula is proven effective to boost energy levels, stimulate body fat burning, and curb sugar craving. Your daily morning and afternoon companion got healthier!<\/p><p><\/p><p> <\/p><p><\/p><p>     <\/p>",
             "button_label": "Shop Slimming Drinks",
-            "button_link": "shopify:\/\/collections\/slimming-tea-coffee",
+            "button_link": "shopify:\/\/products\/2-0-shortcutx-slimming-coffee-caramel-macchiato",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
@@ -1254,12 +1237,29 @@
             "btn_cl": "custom1",
             "button_effect": "fade"
           }
+        },
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1_11498d9d-3036-4757-9ad1-261741df2798.png",
+            "title": "2.0 Apple Cider Vinegar Juice",
+            "text": "<p>Shortcutx Fat Burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily.<\/p>",
+            "button_label": "Shop Apple Cider Vinegar",
+            "button_link": "shopify:\/\/products\/fat-burner-apple-cider-fruit-juice",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "outline",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0",
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1",
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2"
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2",
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1"
       ],
       "custom_css": [
         "a.t4s-btn {width: 100%;}",
