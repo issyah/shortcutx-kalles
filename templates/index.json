@@ -1244,8 +1244,8 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/1_673e4fd3-207b-4190-bc83-fee4ce5f7390.png",
             "title": "Apple Cider Vinegar Juice v2.0",
-            "text": "<p>Shortcutx Fat Burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily.<\/p>",
-            "button_label": "Shop Apple Cider Vinegar",
+            "text": "<p>Shortcutx Fat Burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily. Get started on your journey today!<\/p>",
+            "button_label": "Shop Apple Cider Fat Burner",
             "button_link": "shopify:\/\/products\/fat-burner-apple-cider-fruit-juice",
             "open_link": "_self",
             "btn_icon": false,
@@ -1326,7 +1326,7 @@
 
       ],
       "settings": {
-        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    See results after 7 Days<\/span>\n<span>#1 Bestselling Health Supplement on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    Fast and effective results<\/span>\n<span>#1 Bestselling Health Supplement on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    See results after 7 Days<\/span>\n<\/marquee>",
+        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    See results after 7 Days<\/span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    Fast and effective results<\/span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    See results after 7 Days<\/span>\n<\/marquee>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
