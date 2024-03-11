@@ -482,10 +482,21 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "link": "shopify:\/\/collections\/meal-replacement",
+              "link": "shopify:\/\/collections\/all",
               "content": "<p><strong>[NEW ARRIVAL] <\/strong>Shortcutx v2.0 now available for purchase [icon_arrow]<\/p>",
               "countdown": "",
               "txt_day": "",
+              "dayx": 0
+            }
+          },
+          "announcement_RadDbk": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "link": "",
+              "content": "<p>Today deal sale off 70%. End in [countdown]. Hurry Up!! [icon_arrow]<\/p>",
+              "countdown": "2023\/12\/26",
+              "txt_day": "days",
               "dayx": 0
             }
           },
@@ -525,6 +536,7 @@
         },
         "block_order": [
           "announcement-bar-0",
+          "announcement_RadDbk",
           "announcement-bar-1",
           "announcement-bar-2",
           "b2b5fc9d-1142-47bc-a56b-a0a5dccbb000"
