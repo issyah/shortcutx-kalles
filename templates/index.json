@@ -277,7 +277,7 @@
           "type": "custom_text",
           "settings": {
             "text": "Better formulation \n<br>and highly effective!",
-            "remove_br_tag": true,
+            "remove_br_tag": false,
             "tag": "h2",
             "fontf": "1",
             "text_cl": "#ffffff",
@@ -287,7 +287,7 @@
             "text_ls": 0,
             "text_mgb": 15,
             "font_italic": false,
-            "text_shadow": false,
+            "text_shadow": true,
             "hidden_mobile": false,
             "text_fs_mb": 18,
             "text_lh_mb": 0,
