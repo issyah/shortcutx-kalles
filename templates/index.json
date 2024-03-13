@@ -253,10 +253,10 @@
         "9d45e682-4cef-4d13-8fd1-8bf93daa821f": {
           "type": "custom_text",
           "settings": {
-            "text": "THE #1 WEIGHT LOSS SUPPLEMENT IN SINGAPORE",
+            "text": "NEW! Version 2.0 now available!",
             "remove_br_tag": true,
             "tag": "h2",
-            "fontf": "2",
+            "fontf": "1",
             "text_cl": "#ffffff",
             "text_fs": 23,
             "text_lh": 46,
@@ -266,7 +266,7 @@
             "font_italic": false,
             "text_shadow": false,
             "hidden_mobile": false,
-            "text_fs_mb": 14,
+            "text_fs_mb": 13,
             "text_lh_mb": 15,
             "text_ls_mb": 0,
             "text_mgb_mobile": 10,
@@ -276,7 +276,7 @@
         "c7fce9ca-ee33-44ed-9355-e12fc227e245": {
           "type": "custom_text",
           "settings": {
-            "text": "Apple Cider Vinegar Fruit Juice <br> Enhanced formula, better results",
+            "text": "Better formulation \n<br>and highly effective!",
             "remove_br_tag": true,
             "tag": "h2",
             "fontf": "1",
