@@ -632,7 +632,7 @@
         "7e657595-1f48-4382-b4be-af19bdff3f31": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tummy-shakes-landscape.jpg",
+            "image": "shopify:\/\/shop_images\/Website_Banner_2.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -694,7 +694,7 @@
         "59b60a8d-4f49-40dd-9a49-dc74c6a6e750": {
           "type": "custom_text",
           "settings": {
-            "text": "Indulge in our Chocolate Brownie Meal Replacement Shakes. <br> Replace one or two meals a day <br> with our shakes to see a flatter tummy <br>in just 7 days!",
+            "text": "Indulge yourselves in our Chocolate Brownie <br> and Strawberry Cheesecake Meal Replacement Shakes. <br> Replace one or two meals a day with our shakes <br> to see a flatter tummy in just 7 days!",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "2",
