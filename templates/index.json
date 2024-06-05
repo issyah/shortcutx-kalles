@@ -211,6 +211,46 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
+        "image_parent_H34eai": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Banner_3.png",
+            "image_mb": "shopify:\/\/shop_images\/Website_Banner_3.png",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "center",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
         "7ec0ff00-0440-45d4-8339-a40fddf43963": {
           "type": "image_parent",
           "settings": {
@@ -280,7 +320,7 @@
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "1",
-            "text_cl": "#fff",
+            "text_cl": "#ffffff",
             "text_fs": 22,
             "text_lh": 0,
             "text_fw": 400,
@@ -559,7 +599,7 @@
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "1",
-            "text_cl": "#fff",
+            "text_cl": "#ffffff",
             "text_fs": 22,
             "text_lh": 0,
             "text_fw": 400,
@@ -747,6 +787,7 @@
         }
       },
       "block_order": [
+        "image_parent_H34eai",
         "7ec0ff00-0440-45d4-8339-a40fddf43963",
         "ce546539-ff4c-4ae1-b40c-7149316c9983",
         "custom_text_6DLjRz",
