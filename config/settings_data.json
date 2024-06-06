@@ -494,7 +494,7 @@
             "type": "announcement",
             "settings": {
               "link": "shopify:\/\/collections\/all",
-              "content": "<p>[GSS SALE] Free 2 sachets with every purchase of v2.0 box! Ending in [countdown][icon_arrow]<\/p>",
+              "content": "<p>[GSS SALE] Free 2 sachets with every purchase of v2.0 box! [icon_arrow]<\/p>",
               "countdown": "2024\/06\/30",
               "txt_day": "days",
               "dayx": 0
