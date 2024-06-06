@@ -481,6 +481,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "shopify:\/\/collections\/all",
               "content": "<p><strong>[NEW ARRIVAL] <\/strong>Shortcutx v2.0 now available for purchase [icon_arrow]<\/p>",
@@ -491,11 +492,10 @@
           },
           "announcement_RadDbk": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "link": "",
-              "content": "<p>Today deal sale off 70%. End in [countdown]. Hurry Up!! [icon_arrow]<\/p>",
-              "countdown": "2023\/12\/26",
+              "link": "shopify:\/\/collections\/all",
+              "content": "<p>[GSS SALE] Free 2 sachets with every purchase of v2.0 box! Ending in [countdown][icon_arrow]<\/p>",
+              "countdown": "2024\/06\/30",
               "txt_day": "days",
               "dayx": 0
             }
