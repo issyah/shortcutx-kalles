@@ -714,13 +714,13 @@
               "pos": "left"
             }
           },
-          "08c08080-fcb4-4534-bc57-dfcd9afe6024": {
+          "08bdec6b-ed72-48b6-8b78-fdf3f231763f": {
             "type": "drop",
             "settings": {
-              "title": "The Product",
-              "url": "shopify:\/\/pages\/the-product",
+              "title": "Shop",
+              "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
-              "menu": "the-product-dropdown",
+              "menu": "shop-dropdown",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -744,6 +744,23 @@
               "lb_cl": ""
             }
           },
+          "08c08080-fcb4-4534-bc57-dfcd9afe6024": {
+            "type": "drop",
+            "settings": {
+              "title": "The Product",
+              "url": "shopify:\/\/pages\/the-product",
+              "open_link": "_self",
+              "menu": "the-product-dropdown",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": false,
+              "pos_sub": "bottom",
+              "pos": "left"
+            }
+          },
           "1c183604-aba8-4307-947b-2ed4f4d0b0ff": {
             "type": "base",
             "settings": {
@@ -756,23 +773,6 @@
               "lb": "",
               "lb_cl": ""
             }
-          },
-          "08bdec6b-ed72-48b6-8b78-fdf3f231763f": {
-            "type": "drop",
-            "settings": {
-              "title": "Shop",
-              "url": "shopify:\/\/collections\/all",
-              "open_link": "_self",
-              "menu": "shop-dropdown",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": false,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
           }
         },
         "block_order": [
@@ -781,10 +781,10 @@
           "334013b4-82f3-4046-8371-eaf3c3340153",
           "556a85dc-041d-4d44-8c22-263ed70a8b48",
           "120b4e2d-ed97-46f2-a06c-e7980a3a59b6",
-          "08c08080-fcb4-4534-bc57-dfcd9afe6024",
+          "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab",
-          "1c183604-aba8-4307-947b-2ed4f4d0b0ff",
-          "08bdec6b-ed72-48b6-8b78-fdf3f231763f"
+          "08c08080-fcb4-4534-bc57-dfcd9afe6024",
+          "1c183604-aba8-4307-947b-2ed4f4d0b0ff"
         ],
         "settings": {
           "layout": "logo_left",
