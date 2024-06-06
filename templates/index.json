@@ -1342,23 +1342,6 @@
             "button_effect": "fade"
           }
         },
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/5_8da3b41b-d5e3-412c-a105-2c4cf843c699.png",
-            "title": "Caramel Macchiato Coffee v2.0",
-            "text": "<p>Start your day on a high note with our new and enhanced formula of our Caramel Macchiato slimming coffee. Our 7-day sugar-free formula is proven effective to boost energy levels, stimulate body fat burning, and curb sugar craving. Your daily morning and afternoon companion got healthier!<\/p><p><\/p><p> <\/p><p><\/p><p>     <\/p>",
-            "button_label": "Shop Slimming Drinks",
-            "button_link": "shopify:\/\/products\/2-0-shortcutx-slimming-coffee-caramel-macchiato",
-            "open_link": "_self",
-            "btn_icon": false,
-            "button_style": "outline",
-            "btn_size": "large",
-            "btn_cl": "custom1",
-            "button_effect": "fade"
-          }
-        },
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1": {
           "type": "text_block",
           "settings": {
@@ -1375,12 +1358,29 @@
             "btn_cl": "primary",
             "button_effect": "fade"
           }
+        },
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/5_8da3b41b-d5e3-412c-a105-2c4cf843c699.png",
+            "title": "Caramel Macchiato Coffee v2.0",
+            "text": "<p>Start your day on a high note with our new and enhanced formula of our Caramel Macchiato slimming coffee. Our 7-day sugar-free formula is proven effective to boost energy levels, stimulate body fat burning, and curb sugar craving. Your daily morning and afternoon companion got healthier!<\/p><p><\/p><p> <\/p><p><\/p><p>     <\/p>",
+            "button_label": "Shop Slimming Drinks",
+            "button_link": "shopify:\/\/products\/2-0-shortcutx-slimming-coffee-caramel-macchiato",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "outline",
+            "btn_size": "large",
+            "btn_cl": "custom1",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0",
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2",
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1"
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1",
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2"
       ],
       "custom_css": [
         "a.t4s-btn {width: 100%;}",
