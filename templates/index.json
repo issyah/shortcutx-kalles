@@ -228,9 +228,9 @@
             "ch_pos": 50,
             "cv_pos_mb": 50,
             "ch_pos_mb": 50,
-            "bg_overlay": "#000",
+            "bg_overlay": "#000000",
             "bg_opacity": 0,
-            "bg_content_cl": "#fff",
+            "bg_content_cl": "#ffffff",
             "bg_content_op": 0,
             "content_radius": 0,
             "box_square": false,
@@ -241,8 +241,8 @@
             "content_pd_tb_mb": 10,
             "content_pd_lr_mb": 10,
             "border_bl": false,
-            "br_color": "#222",
-            "br_bg": "#fff",
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
             "br_opacity": 50,
             "br_style": "solid",
             "br_pd": 20,
@@ -871,7 +871,7 @@
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-1": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SME500_2022_Trademark_Authorised.webp",
+            "image": "shopify:\/\/shop_images\/SME-e1716218096708-450x350.png",
             "url": ""
           }
         },
@@ -1364,8 +1364,8 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/1_673e4fd3-207b-4190-bc83-fee4ce5f7390.png",
-            "title": "Apple Cider Vinegar Juice v2.0",
-            "text": "<p>Shortcutx Fat Burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily. Get started on your journey today!<\/p>",
+            "title": "Apple Cider Fat Burner Juice v2.0",
+            "text": "<p>Shortcutx best-selling fat burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily. Get started on your journey today!<\/p>",
             "button_label": "Shop Apple Cider Fat Burner",
             "button_link": "shopify:\/\/products\/fat-burner-apple-cider-fruit-juice",
             "open_link": "_self",
