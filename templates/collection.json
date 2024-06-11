@@ -304,6 +304,7 @@
     },
     "featured_collection_cnKFrX": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -368,6 +369,7 @@
     },
     "featured_collection_n3AgTX": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -456,7 +458,6 @@
         "30594d23-d644-4653-9545-9ff769d2e6ab",
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc"
       ],
-      "disabled": true,
       "settings": {
         "show_desc": false,
         "position_desc": "2",
