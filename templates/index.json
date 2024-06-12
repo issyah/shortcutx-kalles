@@ -214,11 +214,11 @@
         "image_parent_H34eai": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Website_Banner_3600_x_1200_px.png",
+            "image": "shopify:\/\/shop_images\/Website_Banner_3600_x_1200_px_1.png",
             "image_mb": "shopify:\/\/shop_images\/father.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/bundles",
+            "link_img1": "shopify:\/\/collections\/key-products",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
