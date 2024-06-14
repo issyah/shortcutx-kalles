@@ -671,6 +671,7 @@
         },
         "7e657595-1f48-4382-b4be-af19bdff3f31": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Website_Banner_2.jpg",
             "image_position": "8",
@@ -710,6 +711,7 @@
         },
         "5eff4e76-0cf0-4cd4-8972-c1a2d47bfb0b": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "The Tastiest Meal Replacement. <br>Ever.",
             "remove_br_tag": true,
@@ -733,6 +735,7 @@
         },
         "59b60a8d-4f49-40dd-9a49-dc74c6a6e750": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Indulge yourselves in our Chocolate Brownie <br> and Strawberry Cheesecake Meal Replacement Shakes. <br> Replace one or two meals a day with our shakes <br> to see a flatter tummy in just 7 days!",
             "remove_br_tag": true,
@@ -756,6 +759,7 @@
         },
         "90b1b88c-05ca-4838-a40e-3d265d1b195a": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Buy Now",
             "button_link": "shopify:\/\/collections\/meal-replacement",
@@ -820,9 +824,9 @@
         "height_tb": 500,
         "custom_mb": true,
         "height_mb": 250,
-        "eff": "fade",
+        "eff": "slide",
         "loop": true,
-        "au_time": 8.5,
+        "au_time": 5,
         "au_hover": true,
         "nav_btn": true,
         "btn_vi": "hover",
