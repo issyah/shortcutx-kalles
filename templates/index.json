@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "top": {
@@ -213,10 +222,9 @@
       "blocks": {
         "image_parent_H34eai": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Website_Banner_3600_x_1200_px_1.png",
-            "image_mb": "shopify:\/\/shop_images\/father.jpg",
+            "image": "shopify:\/\/shop_images\/Website_Banner_8.png",
+            "image_mb": "shopify:\/\/shop_images\/Website_Banner_8.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify:\/\/collections\/key-products",
