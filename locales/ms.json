@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "announcement": {
@@ -346,7 +355,58 @@
       "date": "Tarikh",
       "payment_status": "Status bayaran",
       "fulfillment_status": "Status Pemenuhan",
-      "total": "Jumlah"
+      "total": "Jumlah",
+      "none": "Anda belum membuat sebarang pesanan lagi."
+    },
+    "order": {
+      "title": "Pesanan {{ name }}",
+      "date_html": "Diletakkan pada {{ date }}",
+      "cancelled_html": "Pesanan Dibatalkan pada {{ date }}",
+      "cancelled_reason": "Sebab: {{ reason }}",
+      "billing_address": "Alamat Pengebilan",
+      "payment_status": "Status bayaran",
+      "shipping_address": "Alamat Penghantaran",
+      "fulfillment_status": "Status Pemenuhan",
+      "discount": "Diskaun",
+      "shipping": "penghantaran",
+      "tax": "Cukai",
+      "product": "produk",
+      "price": "harga",
+      "quantity": "Kuantiti",
+      "total": "Jumlah",
+      "fulfilled_at_html": "Dipenuhi {{ date }}",
+      "subtotal": "jumlah kecil",
+      "track_shipment": "Jejaki penghantaran",
+      "gift_note": "Mesej hadiah",
+      "note": "Arahan khas untuk penjual"
+    },
+    "recover_password": {
+      "title": "Menetapkan semula kata laluan anda",
+      "email": "Alamat emel",
+      "submit": "Menetapkan semula kata laluan",
+      "save": "Jimat",
+      "cancel": "Batal",
+      "subtext": "Lupa kata kunci? Sila masukkan alamat e-mel anda. Anda akan menerima pautan untuk membuat kata laluan baharu melalui e-mel.",
+      "success": "Kami telah menghantar e-mel kepada anda dengan pautan untuk mengemas kini kata laluan anda.",
+      "content_success": "E-mel tetapan semula kata laluan telah dihantar ke alamat e-mel pada fail untuk akaun anda, tetapi mungkin mengambil masa beberapa minit untuk dipaparkan dalam peti masuk anda. Sila tunggu sekurang-kurangnya 10 minit sebelum mencuba tetapan semula yang lain."
+    },
+    "reset_password": {
+      "title": "Tetapkan semula kata laluan akaun",
+      "subtext": "Masukkan kata laluan baharu untuk {{ email }}",
+      "password": "Kata laluan",
+      "password_confirm": "Sahkan Kata Laluan",
+      "submit": "Menetapkan semula kata laluan"
+    },
+    "register": {
+      "login_here": "Sudah mempunyai akaun? Daftar masuk disini",
+      "title": "Daftar",
+      "first_name": "Nama pertama",
+      "last_name": "Nama terakhir",
+      "email": "E-mel",
+      "password": "Kata laluan",
+      "submit": "Daftar",
+      "privacy_policy": "Data peribadi anda akan digunakan untuk menyokong pengalaman anda di seluruh tapak web ini, untuk mengurus akses kepada akaun anda dan untuk tujuan lain yang diterangkan dalam dasar privasi kami.",
+      "privacy_policy_html": "Data peribadi anda akan digunakan untuk menyokong pengalaman anda di seluruh tapak web ini, untuk mengurus akses kepada akaun anda dan untuk tujuan lain yang diterangkan dalam <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">dasar privasi<\/a> kami."
     }
   },
   "products": {
@@ -532,6 +592,91 @@
       "load_more": "Tambah lagi",
       "load_prev": "Muatkan Sebelumnya",
       "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} produk"
+    }
+  },
+  "password_page": {
+    "opening_soon": "Akan dibuka",
+    "drawer_heading": "Masukkan kata laluan",
+    "login_form_password_label": "Kata laluan",
+    "login_form_password_placeholder": "Kata laluan Awak",
+    "login_form_submit": "Masuk",
+    "signup_form_success": "Kami akan menghantar e-mel kepada anda sejurus sebelum kami membuka!",
+    "admin_link_html": "Adakah anda pemilik kedai? <a href=\"\/admin\" class=\"text-link\">Daftar masuk disini<\/a>",
+    "password_link": "Masukkan menggunakan kata laluan"
+  },
+  "wishlist_page": {
+    "meta": "Halaman Senarai Hajat Saya",
+    "title": "Senarai hajat",
+    "empty": "Senarai hajat kosong.",
+    "empty_html": "Anda belum mempunyai sebarang produk dalam senarai hajat.<br> Anda akan menemui banyak produk menarik di halaman \"Kedai\" kami."
+  },
+  "compare_page": {
+    "meta": "Halaman Perbandingan Saya",
+    "title": "Bandingkan",
+    "empty": "SENARAI BANDINGKAN ADALAH KOSONG.",
+    "empty_html": "Tiada produk ditambah dalam senarai bandingkan. Anda mesti menambah beberapa produk untuk membandingkannya.<br> Anda akan menemui banyak produk menarik di halaman \"Kedai\" kami.",
+    "remove": "Alih keluar",
+    "in_stock": "Dalam stok",
+    "outofstock": "kehabisan stok"
+  },
+  "compare_popup": {
+    "title": "Bandingkan Produk",
+    "close": "tutup",
+    "remove": "Alih keluar item ini",
+    "clear": "Kosongkan semua",
+    "button": "Bandingkan"
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Lihat maklumat kedai",
+      "check_other_stores": "Semak ketersediaan di kedai lain",
+      "pick_up_available": "Pickup tersedia",
+      "pick_up_currently_unavailable": "Pengambilan tidak tersedia pada masa ini",
+      "pick_up_available_at_html": "Pengambilan tersedia di <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Pickup tidak tersedia pada masa ini di <strong>{{ location_name }}<\/strong>",
+      "check_map": "Semak ini di peta google"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Kad hadiah anda",
+      "gift_card_code": "Kod kad hadiah",
+      "disabled": "Dilumpuhkan",
+      "expired": "Tamat tempoh pada {{ expiry }}",
+      "active": "Tamat tempoh pada {{ expiry }}",
+      "redeem_html": "Gunakan kod ini semasa pembayaran untuk menebus kad hadiah {{ value }} anda",
+      "shop_link": "Mulakan membeli-belah",
+      "print": "Cetak kad hadiah ini",
+      "remaining_html": "{{ balance }} tinggal",
+      "add_to_apple_wallet": "Tambahkan pada Apple Wallet",
+      "qr_image_alt": "Kod QR — imbas untuk menebus kad hadiah",
+      "copy_code": "Salin kod",
+      "copy_code_success": "Kod berjaya disalin"
+    }
+  },
+  "onboarding": {
+    "product_title": "Nama produk anda",
+    "product_description": "Kawasan ini digunakan untuk menerangkan butiran produk anda. Beritahu pelanggan tentang rupa, rasa dan gaya produk anda. Tambahkan butiran tentang warna, bahan yang digunakan, saiz dan tempat ia dibuat.",
+    "collection_title": "Nama koleksi anda",
+    "blog_title": "Tajuk siaran anda",
+    "blog_excerpt": "Kedai anda belum lagi menerbitkan sebarang catatan blog. Blog boleh digunakan untuk bercakap tentang pelancaran produk baharu, petua atau berita lain yang ingin anda kongsi dengan pelanggan anda. Anda boleh menyemak blog e-dagang Shopify untuk mendapatkan inspirasi dan nasihat untuk kedai dan blog anda sendiri.",
+    "blog_author": "Nama pengarang",
+    "no_content": "Bahagian ini tidak mengandungi sebarang kandungan pada masa ini. Tambahkan kandungan pada bahagian ini menggunakan bar sisi."
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "errors": {
+          "checkout_source": {
+            "revoked": "Daftar keluar ini tidak tersedia lagi."
+          }
+        }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "no_longer_available": "Kad hadiah ini tidak lagi boleh digunakan dengan pembayaran ini"
+        }
+      }
     }
   }
 }
