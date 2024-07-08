@@ -580,7 +580,7 @@
           "cc5767f7-25de-4e7e-a4a4-26d8064b4032": {
             "type": "html",
             "settings": {
-              "html": "<span><b style=\"color: #bf1932\">INTERNATIONAL ORDERS:<\/b><\/span> FREE SHIPPING ABOVE $100",
+              "html": "<span><b style=\"color: #bf1932\">FREE SHIPPING<\/b><\/span> FOR ORDERS ABOVE $100!",
               "hide": false,
               "text_align": "center",
               "col": "4"
