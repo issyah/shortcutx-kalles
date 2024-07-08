@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "purchase_code": "d3ceda0f-bfcb-4271-85f7-011fcaddc61b",
@@ -571,7 +580,7 @@
           "cc5767f7-25de-4e7e-a4a4-26d8064b4032": {
             "type": "html",
             "settings": {
-              "html": "<span><b style=\"color: #bf1932\">INTERNATIONAL ORDERS:<\/b><\/span> Shipping from as low as $18",
+              "html": "<span><b style=\"color: #bf1932\">INTERNATIONAL ORDERS:<\/b><\/span> FREE SHIPPING ABOVE $100",
               "hide": false,
               "text_align": "center",
               "col": "4"
