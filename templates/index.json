@@ -222,6 +222,7 @@
       "blocks": {
         "image_parent_H34eai": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Website_Banner_b123c1a7-5d39-4776-b053-6002ca69155d.png",
             "image_mb": "shopify:\/\/shop_images\/Website_Banner_b123c1a7-5d39-4776-b053-6002ca69155d.png",
