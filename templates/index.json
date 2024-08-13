@@ -2749,7 +2749,7 @@
         "btns_cl": "dark",
         "button_effect": "sweep-to-right",
         "btn_pos": "t4s-text-center",
-        "layout": "t4s-container-wrap",
+        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,90px,",
