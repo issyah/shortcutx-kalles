@@ -2712,7 +2712,7 @@
         "show_vendor": false,
         "use_cdt": false,
         "image_ratio": "ratio1_1",
-        "image_size": "cover",
+        "image_size": "contain",
         "image_position": "8",
         "content_align": "default",
         "limit": 8,
