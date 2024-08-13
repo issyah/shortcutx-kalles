@@ -222,6 +222,7 @@
       "blocks": {
         "image_parent_LxrKjX": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Website_Banner_NFC.jpg",
             "image_mb": "shopify:\/\/shop_images\/Website_Banner_NFC.jpg",
