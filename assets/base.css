@@ -4554,3 +4554,5 @@ shopify-payment-terms {
       max-width: 100%;
   }
 }
+.product-media-container.media-type-image.media-fit-contain.global-media-settings.gradient.constrain-height {
+    border: none !important;
