@@ -4557,7 +4557,3 @@ shopify-payment-terms {
 .global-media-settings {
     border: none !important;
 }
-
-#snize-search-results-grid-mode li.snize-product, #snize-search-results-grid-mode li.snize-product .snize-thumbnail {
-  border: 0px !important;
-}
