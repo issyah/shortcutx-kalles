@@ -14,9 +14,6 @@
 .t4s-product-info__inner > a.t4s-pr-addtocart {
     border-radius: var(--pr-btn-radius-size);
 }
-.pr_border_style_2 .t4s-product .t4s-product-inner{
-    border: solid 1px var(--border-color);
-}
 .pr_border_style_3 .t4s_box_pr_grid .t4s-product {
     box-shadow: 0 0 0 1px var(--border-color);
 }
