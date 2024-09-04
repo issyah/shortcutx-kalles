@@ -490,7 +490,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "link": "shopify:\/\/products\/bundle-of-2-shortcutx-detox-juice",
               "content": "<p><strong>[BACK IN STOCK] <\/strong>Night Fat Burner is back by popular demand! [icon_arrow]<\/p>",
