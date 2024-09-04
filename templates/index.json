@@ -263,6 +263,7 @@
         },
         "image_parent_H34eai": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Website_Banner_9_8be9a2b7-00f4-4d60-b99f-f8dec9b34468.png",
             "image_mb": "shopify:\/\/shop_images\/Website_Banner_9_8be9a2b7-00f4-4d60-b99f-f8dec9b34468.png",
@@ -2928,7 +2929,7 @@
           }
         },
         "socialwidget_instagram_feed_base_widget_8acJFy": {
-          "type": "shopify:\/\/apps\/socialwidget-instagram-feed\/blocks\/base-widget\/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
+          "type": "shopify:\/\/apps\/socialwidget\/blocks\/base-widget\/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
           "settings": {
           }
         }
