@@ -304,6 +304,7 @@
         },
         "7ec0ff00-0440-45d4-8339-a40fddf43963": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Website_Banner_10.png",
             "image_position": "8",
@@ -343,6 +344,7 @@
         },
         "ce546539-ff4c-4ae1-b40c-7149316c9983": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Limited Edition, Unlimited Results",
             "remove_br_tag": true,
@@ -366,6 +368,7 @@
         },
         "custom_text_6DLjRz": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "The 30 Day Weight Loss Pack - your new best friend.",
             "remove_br_tag": false,
@@ -389,6 +392,7 @@
         },
         "b396d551-bab2-4a1f-9739-936985f9e902": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "1 box, 3 supplements, 30 days.  <br>Discover the power of our 30 Day Weight Loss Pack, <br> specially formulated for weight loss. \n<br> <br>  Say hello to a new you in just 30 days.",
             "remove_br_tag": true,
@@ -412,6 +416,7 @@
         },
         "custom_button_xzbVDc": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Buy Now",
             "button_link": "shopify:\/\/products\/shortcutx-30-day-weight-loss-kit",
@@ -529,7 +534,7 @@
         "b20f1a22-b5de-45a5-9463-906ecf648f66": {
           "type": "custom_text",
           "settings": {
-            "text": "Over 500,000 boxes sold. Save more when you subscribe. <br>",
+            "text": "Over 500,000 boxes sold.<br>Save more when you subscribe. <br>",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "2",

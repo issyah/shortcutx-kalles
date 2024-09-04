@@ -492,8 +492,8 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "link": "shopify:\/\/collections\/all",
-              "content": "<p><strong>[NEW ARRIVAL] <\/strong>Shortcutx v2.0 now available for purchase [icon_arrow]<\/p>",
+              "link": "shopify:\/\/products\/bundle-of-2-shortcutx-detox-juice",
+              "content": "<p><strong>[BACK IN STOCK] <\/strong>Night Fat Burner is back by popular demand! [icon_arrow]<\/p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
@@ -501,6 +501,7 @@
           },
           "announcement_RadDbk": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "shopify:\/\/collections\/all",
               "content": "<p>[NATIONAL DAY PROMO] 35% OFF our v1 Teh Tarik and Caramel Macchiato from 1 - 31 Aug!<\/p>",
