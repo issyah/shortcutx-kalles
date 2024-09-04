@@ -593,12 +593,12 @@
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3.jpg",
-            "image_mb": "shopify:\/\/shop_images\/3.jpg",
+            "image": "shopify:\/\/shop_images\/APPLE_banner-05.jpg",
+            "image_mb": "shopify:\/\/shop_images\/APPLE_banner-04.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "",
-            "open_link": "_blank",
+            "link_img1": "shopify:\/\/collections\/frontpage",
+            "open_link": "_self",
             "animate_slide": "none",
             "text_align": "start",
             "text_align_mb": "start",
@@ -632,6 +632,7 @@
         },
         "398a6708-b6bd-4825-b484-80b4453cf210": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Coffee, Tea, or Me?",
             "remove_br_tag": true,
@@ -655,6 +656,7 @@
         },
         "custom_text_4tj9Mx": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "New Version 2.0 now available!",
             "remove_br_tag": false,
@@ -678,6 +680,7 @@
         },
         "e97dafb5-1bb1-472c-8e3a-bbfdd7f8059c": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Our Slimming Tea and Coffee is formulated to help you <br> curb your appetite better. <br> It contains 0% sugar and is packed with <br>fat burning properties. \n\n\n<br> <br> Are you ready for a better you?",
             "remove_br_tag": true,
@@ -701,6 +704,7 @@
         },
         "0c6c5edd-310f-4f02-902a-e92dfb8ae471": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Buy Now",
             "button_link": "shopify:\/\/collections\/slimming-tea-coffee",
