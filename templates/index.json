@@ -449,10 +449,11 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.jpg",
+            "image": "shopify:\/\/shop_images\/NFB-Banner-02.jpg",
+            "image_mb": "shopify:\/\/shop_images\/NFB-Banner-03.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/frontpage",
+            "link_img1": "shopify:\/\/products\/shortcutx-night-fat-burner-juice",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
@@ -487,6 +488,7 @@
         },
         "9d45e682-4cef-4d13-8fd1-8bf93daa821f": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "NEW! Version 2.0 now available!",
             "remove_br_tag": true,
@@ -510,6 +512,7 @@
         },
         "c7fce9ca-ee33-44ed-9355-e12fc227e245": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Better formulation \n<br>and highly effective!",
             "remove_br_tag": false,
@@ -533,6 +536,7 @@
         },
         "b20f1a22-b5de-45a5-9463-906ecf648f66": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Over 500,000 boxes sold.<br>Save more when you subscribe. <br>",
             "remove_br_tag": true,
@@ -556,6 +560,7 @@
         },
         "1c1ade5f-0eb6-4a03-a03c-d8eed9afc110": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Buy Now",
             "button_link": "shopify:\/\/collections\/frontpage",
@@ -1970,7 +1975,7 @@
       ],
       "settings": {
         "anchor_id": "why-shortcutx",
-        "design_heading": "1",
+        "design_heading": "3",
         "heading_align": "t4s-text-center",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -2475,12 +2480,12 @@
 
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "3",
         "heading_align": "t4s-text-center",
         "top_heading": "Real People, Real Results",
         "icon_heading": "las la-gem",
         "top_subheading": "",
-        "tophead_mb": 96,
+        "tophead_mb": 20,
         "text_align": "start",
         "pos_text": "default",
         "fs_title": 22,
@@ -2707,12 +2712,12 @@
     "1646035317ea8b6928": {
       "type": "featured-collection",
       "settings": {
-        "design_heading": "1",
+        "design_heading": "3",
         "heading_align": "t4s-text-center",
         "top_heading": "Featured Products",
         "icon_heading": "gem",
         "top_subheading": "",
-        "tophead_mb": 96,
+        "tophead_mb": 30,
         "collection": "key-products",
         "product_des": "5",
         "show_vendor": false,
