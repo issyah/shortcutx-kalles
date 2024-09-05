@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "26a20a56-981e-4161-8d4d-0c9ba9c78e53": {
@@ -139,6 +148,7 @@
       "blocks": {
         "template--16758164488432__0d810c31-39db-4122-8259-487f7fce1f78-168595353694b1e1b9-0": {
           "type": "b_item",
+          "disabled": true,
           "settings": {
             "custom_dk": true,
             "height_dk": 200,
@@ -146,7 +156,6 @@
             "height_tb": 400,
             "custom_mb": true,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/IMG_2133_1.jpg",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -264,7 +273,7 @@
             "heading": "One time payment",
             "package_label": "",
             "package_label_bg": "#ff0000",
-            "price": 9600,
+            "price": 10400,
             "des": "\/ one time payment",
             "txt": "4 boxes of Shortcutx Fat Burner Apple Cider Fruit Juice",
             "button_text": "Buy now",
@@ -283,7 +292,7 @@
             "heading": "Subscribe for 3 months",
             "package_label": "Hot",
             "package_label_bg": "#222222",
-            "price": 8800,
+            "price": 9900,
             "des": "\/ per month",
             "txt": "4 boxes of Shortcutx Fat Burner Apple cider Fruit juice delivered every month automatically!\nSave 15% off!",
             "button_text": "Subscribe now",
@@ -343,7 +352,7 @@
           "settings": {
             "tab": "General",
             "icon": "la-question-circle",
-            "content": "<h5><strong>Is Shortcutx Halal? <\/strong><\/h5><p>Yes. Shortcutx is halal certified. <\/p><h5><strong>Is Shortcutx safe for breastfeeding mummies?<\/strong><\/h5><p>Yes. Shortcutx is safe to be consumed by nursing mothers.<\/p><h5><strong>Is Shortcutx suitable for pregnant mummies?<\/strong><\/h5><p>No. We do not advise pregnant mothers to consume Shortcutx.<\/p><h5><strong>Is Shortcutx suitable for those trying to conceive?<\/strong><\/h5><p>Yes. It is absolutely safe to consume for those who are trying to conceive. <\/p><h5><strong>Is Shortcutx safe for diabetic or high blood pressure patients?<\/strong><\/h5><p>Yes it is safe as there is no sugar added.<\/p><h5><strong>Can we consume more than 1 sachet of Shortcutx in a day?<\/strong><\/h5><p>You may consume up to 2 sachets a day. If you are consuming other supplements, you should take them at least 2 hours apart. <\/p><h5><strong>Are there any diet restrictions that I have to follow?<\/strong><\/h5><p>You can still eat whatever you want, but for best results, we recommend to skip or cut down on carbohydrates and fast food. It is also advisable to drink plenty of plain water.<\/p><h5><strong>Are there any side effects for Shortcutx?<\/strong><\/h5><p>There are no known side effects when consuming Shortcutx. Our products does NOT contain any banned or harmful substances as listed by the health authorities.<\/p><h5><strong>Will I gain any weight if I stop consuming Shortcutx?<\/strong><\/h5><p>It is highly unlikely that your weight will rebound when you stop consuming Shortcutx. Rest assured that many of our consumers have managed to lead a better quality of life even after they stop consuming Shortcutx.<\/p><p><\/p><p><\/p>"
+            "content": "<h5><strong>Is Shortcutx Halal? <\/strong><\/h5><p>Yes. Shortcutx is halal certified. <\/p><h5><strong>Is Shortcutx safe for breastfeeding mummies?<\/strong><\/h5><p>Yes. Shortcutx is safe to be consumed by nursing mothers.<\/p><h5><strong>Is Shortcutx suitable for pregnant mummies?<\/strong><\/h5><p>No. We do not advise pregnant mothers to consume Shortcutx.<\/p><h5><strong>Is Shortcutx suitable for those trying to conceive?<\/strong><\/h5><p>Yes. It is absolutely safe to consume for those who are trying to conceive.\u2028<\/p><h5><strong>Is Shortcutx safe for diabetic or high blood pressure patients?<\/strong><\/h5><p>Yes it is safe as there is no sugar added.<\/p><h5><strong>Can we consume more than 1 sachet of Shortcutx in a day?<\/strong><\/h5><p>You may consume up to 2 sachets a day. If you are consuming other supplements, you should take them at least 2 hours apart. <\/p><h5><strong>Are there any diet restrictions that I have to follow?<\/strong><\/h5><p>You can still eat whatever you want, but for best results, we recommend to skip or cut down on carbohydrates and fast food. It is also advisable to drink plenty of plain water.<\/p><h5><strong>Are there any side effects for Shortcutx?<\/strong><\/h5><p>There are no known side effects when consuming Shortcutx. Our products does NOT contain any banned or harmful substances as listed by the health authorities.<\/p><h5><strong>Will I gain any weight if I stop consuming Shortcutx?<\/strong><\/h5><p>It is highly unlikely that your weight will rebound when you stop consuming Shortcutx. Rest assured that many of our consumers have managed to lead a better quality of life even after they stop consuming Shortcutx.<\/p><p><\/p><p><\/p>"
           }
         },
         "3da33074-e481-4bee-83b6-c26e5246220d": {
