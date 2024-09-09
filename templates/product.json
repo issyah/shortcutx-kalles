@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumb": {
@@ -261,6 +270,486 @@
         "enable_select": true,
         "ani": "none",
         "time": 6
+      }
+    },
+    "image_text_rayEMU": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_mDrtyb": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "Night Shred enhances both the quantity and quality of your sleep while boosting your body’s fat-burning capabilities. You’ll experience relaxation quickly and fall asleep more swiftly.",
+            "heading": "ENJOY DEEP SLEEP WHILE BURNING FAT",
+            "text": "<h5>Our Night Fat Burner is back by popular demand and is now a permanent addition to our lineup. Enjoy the soothing wildberry lavender flavor in convenient 7-pack sets. Sip before bed to relax, fall into deep sleep, and enhance fat burning overnight. Formulated with essential vitamins and minerals, it supports restful sleep and boosts your weight loss journey, making it the perfect nighttime companion.<\/h5>",
+            "subhd_color": "#222222",
+            "hd_color": "#bf1932",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_ctkY4J": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/website_product_description_images_6.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_mDrtyb",
+        "bl_image_ctkY4J"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_yH6bcD": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_VxeVX7": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "THE ADVANCED INGREDIENTS IN NIGHT FAT BURNER ENHANCE DEEP, RESTFUL SLEEP, BOOSTING METABOLISM FOR LONG-TERM BENEFITS.",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_VxeVX7"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_WUYYgb": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_FXdNeL": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Untitled_design_3.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_p8qmHm": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "IGNITE THERMOGENESIS AND ENHANCE FAT BURNING ALL NIGHT LONG.",
+            "text": "<h5>With just 1 sachet of Night Fat Burner 30 minutes before bed, you can expect to experience: <\/h5><h5>✔ Enhanced Sleep Quality<\/h5><h5>✔ Waking up feeling refreshed and rested<\/h5><h5>✔ Increased Lipolysis (Fat Burning) While Sleeping<\/h5><h5>✔ An Accelerated Metabolism <\/h5><h5>✔ Reduced Nighttime Cravings<\/h5><h5>✔ Reduces anxiety levels<\/h5>",
+            "subhd_color": "#222222",
+            "hd_color": "#bf1932",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_FXdNeL",
+        "bl_text_p8qmHm"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_Cj6iL6": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_cxjaMF": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/website_product_description_images_1.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_tUBXDj": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "FORMULATED WITH CHAMOMILE EXTRACT GABA (GAMMA-AMINOBUTYRIC ACID), VALERIAN ROOT EXTRACT, ASHWAGANDHA ROOT EXTRACT",
+            "heading": "CRAFTED TO REDUCE STRESS, ANXIETY, AND CALM YOUR NERVOUS SYSTENM",
+            "text": "<h4>✔ CHAMOMILE EXTRACT GABA (GAMMA-AMINOBUTYRIC ACID)<\/h4><p>Calms the nervous system and helps to control anxiety. Naturally stabilises your mood and improves daily quality of life. <\/p><h4>✔ VALERIAN ROOT EXTRACT <\/h4><p>Aids in alleviating mood, reduces stress levels. Aids in falling asleep faster, and spend more time in deep stage sleep.<\/p><h4>✔ ASHWAGANDA ROOT EXTRACT <\/h4><p>Reduces sleeplessness, fatigue, and reduced serum cortisol levels. Aids in improvements in sleep efficiency, total sleep time, sleep latency.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#bf1932",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_cxjaMF",
+        "bl_text_tUBXDj"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_gbbUKH": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_yazr6N": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/website_product_description_images_3.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_fjA78h": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "L-CARNITINE MOVES FATTY ACID INTO YOUR CELLS TO BE BURNED FOR ENERGY",
+            "heading": "BOOSTED WITH L-CARNITINE",
+            "text": "<h5>SHORTCUTX NIGHT FAT BURNER IS FORMULATED WITH L-CARNITINE TO AID IN BURNING OF FATS. <\/h5><h4>✔ <strong>Enhances Fat Burning<\/strong>: <\/h4><p>Helps the body convert fat into energy, aiding in weight loss and fat metabolism.<\/p><h4>✔ <strong>Boosts Energy Levels<\/strong>: <\/h4><p>Increases energy production by transporting fatty acids into the mitochondria, the powerhouse of cells.<\/p><h4>✔ <strong>Improves Exercise Performance<\/strong>: <\/h4><p>Reduces muscle soreness and fatigue, allowing for better endurance and recovery during workouts.<\/p><h4>✔ <strong>Enhances Brain Function<\/strong>:<\/h4><p>Protects brain cells from damage and may improve cognitive function and mental clarity.<\/p><h4>✔ <strong>Aids in Muscle Recovery<\/strong>: <\/h4><p>Helps repair muscle tissue after exercise, reducing recovery time and enhancing muscle growth.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#bf1932",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_yazr6N",
+        "bl_text_fjA78h"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_9EbnCj": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_MVFb64": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/website_product_description_images_4.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_GYkE7B": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "INFUSED WITH LAVANDER FLAVOUR",
+            "heading": "PACKED WITH MULTIVITAMINS AND MULTIMINERALS FOR OPTIMAL NUTRITION",
+            "text": "<h6>✔ <strong>Supports Immune Function<\/strong>: <\/h6><p>Helps strengthen the immune system to fight off infections.<\/p><h6>✔ <strong>Boosts Energy Levels<\/strong>: <\/h6><p>Enhances energy production and reduces fatigue.<\/p><h6>✔ <strong>Promotes Healthy Aging<\/strong>: <\/h6><p>Provides essential nutrients that may help slow the aging process.<\/p><h6>✔ <strong>Supports Bone Health<\/strong>: <\/h6><p>Contributes to strong bones and teeth, reducing the risk of fractures.<\/p><h6>✔ <strong>Improves Mood and Mental Well-being<\/strong>:<\/h6><p>Helps maintain emotional balance and cognitive function.<\/p><h6>✔ <strong>Supports Heart Health<\/strong>: <\/h6><p>Aids in maintaining healthy blood pressure and cholesterol levels.<\/p><p><\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#bf1932",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_MVFb64",
+        "bl_text_GYkE7B"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "d04c193c-455c-49d1-8052-6b476007dc5c": {
@@ -528,13 +1017,14 @@
       "type": "apps",
       "blocks": {
         "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
             "limit": 20,
             "hide_thumbnails": false,
-            "maxwidth": 1080
+            "maxwidth": 1080,
+            "is_sample": true
           }
         }
       },
@@ -563,6 +1053,12 @@
   "order": [
     "breadcrumb",
     "main",
+    "image_text_rayEMU",
+    "image_text_yH6bcD",
+    "image_text_WUYYgb",
+    "image_text_Cj6iL6",
+    "image_text_gbbUKH",
+    "image_text_9EbnCj",
     "d04c193c-455c-49d1-8052-6b476007dc5c",
     "sidebar",
     "product-recommendations",
