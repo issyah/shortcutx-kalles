@@ -278,13 +278,13 @@
         "bl_text_mDrtyb": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "12",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "center",
-            "sub_heading": "Night Shred enhances both the quantity and quality of your sleep while boosting your body’s fat-burning capabilities. You’ll experience relaxation quickly and fall asleep more swiftly.",
-            "heading": "ENJOY DEEP SLEEP WHILE BURNING FAT",
-            "text": "<h5>Our Night Fat Burner is back by popular demand and is now a permanent addition to our lineup. Enjoy the soothing wildberry lavender flavor in convenient 7-pack sets. Sip before bed to relax, fall into deep sleep, and enhance fat burning overnight. Formulated with essential vitamins and minerals, it supports restful sleep and boosts your weight loss journey, making it the perfect nighttime companion.<\/h5>",
+            "sub_heading": "",
+            "heading": "YOUR BODY WILL THANK YOU LATER.",
+            "text": "",
             "subhd_color": "#222222",
             "hd_color": "#bf1932",
             "des_color": "#878787",
@@ -302,9 +302,9 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/website_product_description_images_5.png",
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify:\/\/shop_images\/website_backgroud_1_e2fdc7f8-6cd2-41aa-9013-cc9cf3610fa7.png",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -333,7 +333,6 @@
         "bl_text_mDrtyb",
         "bl_image_ctkY4J"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -348,6 +347,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
+        "image_bg": "shopify:\/\/shop_images\/website_backgroud_1.png",
         "mg": "50px,50px,",
         "pd": "",
         "mg_tb": "",
@@ -369,7 +369,7 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "THE ADVANCED INGREDIENTS IN NIGHT FAT BURNER ENHANCE DEEP, RESTFUL SLEEP, BOOSTING METABOLISM FOR LONG-TERM BENEFITS.",
+            "heading": "#1 BEST SELLING APPLE CIDER VINEGAR JUICE IN SINGAPORE",
             "text": "",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -389,7 +389,6 @@
       "block_order": [
         "bl_text_VxeVX7"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -420,9 +419,9 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Untitled_design_3.png",
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify:\/\/shop_images\/website_product_description_images_8.png",
+            "col_dk": "5",
+            "col_tb": "5",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -449,13 +448,13 @@
         "bl_text_p8qmHm": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "7",
+            "col_tb": "7",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "",
-            "heading": "IGNITE THERMOGENESIS AND ENHANCE FAT BURNING ALL NIGHT LONG.",
-            "text": "<h5>With just 1 sachet of Night Fat Burner 30 minutes before bed, you can expect to experience: <\/h5><h5>✔ Enhanced Sleep Quality<\/h5><h5>✔ Waking up feeling refreshed and rested<\/h5><h5>✔ Increased Lipolysis (Fat Burning) While Sleeping<\/h5><h5>✔ An Accelerated Metabolism <\/h5><h5>✔ Reduced Nighttime Cravings<\/h5><h5>✔ Reduces anxiety levels<\/h5>",
+            "sub_heading": "WORLD'S FIRST APPLE CIDER VINEGAR FAT BURNER JUICE",
+            "heading": "APPLE CIDER VINEGAR EXTRACT",
+            "text": "<h5>✔ Acetic Acid<\/h5><p>Unlock the power of natural weight loss. Packed with potent acetic acid, our ACV helps boost metabolism, reduce fat storage, and curb cravings by regulating blood sugar levels. Experience a fuller, more satisfied feeling after meals, making it easier to manage your calorie intake.<\/p><p><\/p><h5><strong>✔  Support Healthy Blood Sugar Levels & Weight Loss<\/strong> <\/h5><p>Maintaining healthy blood sugar levels and support your body's insulin response. This balance not only helps shred stubborn fat but also enhances overall weight loss success.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#bf1932",
             "des_color": "#878787",
@@ -475,7 +474,6 @@
         "bl_image_FXdNeL",
         "bl_text_p8qmHm"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
