@@ -333,6 +333,7 @@
         "bl_text_mDrtyb",
         "bl_image_ctkY4J"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -388,6 +389,7 @@
       "block_order": [
         "bl_text_VxeVX7"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -473,6 +475,7 @@
         "bl_image_FXdNeL",
         "bl_text_p8qmHm"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -558,6 +561,7 @@
         "bl_image_cxjaMF",
         "bl_text_tUBXDj"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -643,6 +647,7 @@
         "bl_image_yazr6N",
         "bl_text_fjA78h"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -728,6 +733,7 @@
         "bl_image_MVFb64",
         "bl_text_GYkE7B"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
