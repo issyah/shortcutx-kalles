@@ -533,6 +533,7 @@
       "blocks": {
         "bl_text_VxeVX7": {
           "type": "bl_text",
+          "disabled": true,
           "settings": {
             "col_dk": "12",
             "col_tb": "12",
@@ -554,10 +555,40 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_tcnQQ4": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/website_backgroud_3.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "bl_text_VxeVX7"
+        "bl_text_VxeVX7",
+        "bl_image_tcnQQ4"
       ],
       "settings": {
         "design_heading": "1",
