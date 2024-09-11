@@ -387,6 +387,7 @@
         },
         "bl_image_ctkY4J": {
           "type": "bl_image",
+          "disabled": true,
           "settings": {
             "image1": "shopify:\/\/shop_images\/website_backgroud_1_e2fdc7f8-6cd2-41aa-9013-cc9cf3610fa7.png",
             "col_dk": "12",
@@ -434,6 +435,144 @@
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": "50px,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "our_team_Tw4cPY": {
+      "type": "our_team",
+      "blocks": {
+        "member_CEMeNC": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13_bbd381c5-4ca2-4f7f-99f3-7a47ff7d61d8.png",
+            "name": "CURBS APPETITE",
+            "position": "",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_instagram_link": "",
+            "social_dribbble_link": "",
+            "social_behance_link": "",
+            "social_tiktok_link": ""
+          }
+        },
+        "member_nGRFy4": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14_aca92b9f-b22f-45e4-9845-8ca826a7783a.png",
+            "name": "REDUCED BLOATING",
+            "position": "",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_instagram_link": "",
+            "social_dribbble_link": "",
+            "social_behance_link": "",
+            "social_tiktok_link": ""
+          }
+        },
+        "member_pTd8YP": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15_1d67d097-7631-4647-a898-b7500172f7d3.png",
+            "name": "ANTIOXIDANT SUPPORT",
+            "position": "",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_instagram_link": "",
+            "social_dribbble_link": "",
+            "social_behance_link": "",
+            "social_tiktok_link": ""
+          }
+        },
+        "member_EwziQN": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16_0351fb34-e263-4085-9f4f-070c6e70a976.png",
+            "name": "NATURAL FAT BURNER",
+            "position": "",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_instagram_link": "",
+            "social_dribbble_link": "",
+            "social_behance_link": "",
+            "social_tiktok_link": ""
+          }
+        },
+        "member_yh8gRN": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17_28c31e02-2558-4c17-902e-cd252932ad84.png",
+            "name": "ADVANCED CARB BLOCKER",
+            "position": "",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_instagram_link": "",
+            "social_dribbble_link": "",
+            "social_behance_link": "",
+            "social_tiktok_link": ""
+          }
+        },
+        "member_iJRYgL": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18_e700e083-74dd-405d-8ba1-bbe60511ac92.png",
+            "name": "ADDED VITAMINS",
+            "position": "",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_instagram_link": "",
+            "social_dribbble_link": "",
+            "social_behance_link": "",
+            "social_tiktok_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "member_CEMeNC",
+        "member_nGRFy4",
+        "member_pTd8YP",
+        "member_EwziQN",
+        "member_yh8gRN",
+        "member_iJRYgL"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "1",
+        "col_dk": "6",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "30",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
@@ -528,10 +667,10 @@
         "code_cus_css": ""
       }
     },
-    "our_team_Tw4cPY": {
+    "our_team_8Qpr88": {
       "type": "our_team",
       "blocks": {
-        "member_nGRFy4": {
+        "member_zAaWKd": {
           "type": "member",
           "settings": {
             "image": "shopify:\/\/shop_images\/8_64dfb059-1b5e-4e5b-911c-daf1b860a76e.png",
@@ -545,7 +684,7 @@
             "social_tiktok_link": ""
           }
         },
-        "member_pTd8YP": {
+        "member_D8WwUi": {
           "type": "member",
           "settings": {
             "image": "shopify:\/\/shop_images\/10_adf23588-96e9-4f9c-ab0f-63df15b71345.png",
@@ -559,7 +698,7 @@
             "social_tiktok_link": ""
           }
         },
-        "member_EwziQN": {
+        "member_3jHzAR": {
           "type": "member",
           "settings": {
             "image": "shopify:\/\/shop_images\/9_148dc314-cf8e-4e0d-a996-bb5f6cb45939.png",
@@ -573,7 +712,7 @@
             "social_tiktok_link": ""
           }
         },
-        "member_yh8gRN": {
+        "member_eUhULw": {
           "type": "member",
           "settings": {
             "image": "shopify:\/\/shop_images\/11_0044e58b-41cc-4bdc-8a58-32d9260553f6.png",
@@ -587,7 +726,7 @@
             "social_tiktok_link": ""
           }
         },
-        "member_Mkg7BJ": {
+        "member_pqwpbB": {
           "type": "member",
           "settings": {
             "image": "shopify:\/\/shop_images\/12_d7bd2bfa-23f0-40d0-9777-2aca6c41699d.png",
@@ -603,11 +742,11 @@
         }
       },
       "block_order": [
-        "member_nGRFy4",
-        "member_pTd8YP",
-        "member_EwziQN",
-        "member_yh8gRN",
-        "member_Mkg7BJ"
+        "member_zAaWKd",
+        "member_D8WwUi",
+        "member_3jHzAR",
+        "member_eUhULw",
+        "member_pqwpbB"
       ],
       "settings": {
         "design_heading": "1",
@@ -1299,8 +1438,9 @@
     "main",
     "image_text_qwTC7C",
     "image_text_rayEMU",
-    "image_text_WUYYgb",
     "our_team_Tw4cPY",
+    "image_text_WUYYgb",
+    "our_team_8Qpr88",
     "image_text_yH6bcD",
     "image_text_Cj6iL6",
     "image_text_gbbUKH",
