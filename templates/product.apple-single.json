@@ -443,61 +443,6 @@
         "code_cus_css": ""
       }
     },
-    "image_text_yH6bcD": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_VxeVX7": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "center",
-            "sub_heading": "",
-            "heading": "#1 BEST SELLING APPLE CIDER VINEGAR JUICE IN SINGAPORE",
-            "text": "",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_VxeVX7"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "50px,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_WUYYgb": {
       "type": "image_text",
       "blocks": {
@@ -537,7 +482,7 @@
             "col_tb": "7",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "WORLD'S FIRST APPLE CIDER VINEGAR FAT BURNER JUICE",
+            "sub_heading": "CONTAINS VITAMIN B + C",
             "heading": "APPLE CIDER VINEGAR EXTRACT",
             "text": "<h5>✔ Acetic Acid<\/h5><p>Unlock the power of natural weight loss. Packed with potent acetic acid, our ACV helps boost metabolism, reduce fat storage, and curb cravings by regulating blood sugar levels. Experience a fuller, more satisfied feeling after meals, making it easier to manage your calorie intake.<\/p><p><\/p><h5><strong>✔  Support Healthy Blood Sugar Levels & Weight Loss<\/strong> <\/h5><p>Maintaining healthy blood sugar levels and support your body's insulin response. This balance not only helps shred stubborn fat but also enhances overall weight loss success.<\/p>",
             "subhd_color": "#222222",
@@ -574,6 +519,61 @@
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_yH6bcD": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_VxeVX7": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_VxeVX7"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,50px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
@@ -1144,8 +1144,8 @@
     "main",
     "image_text_qwTC7C",
     "image_text_rayEMU",
-    "image_text_yH6bcD",
     "image_text_WUYYgb",
+    "image_text_yH6bcD",
     "image_text_Cj6iL6",
     "image_text_gbbUKH",
     "image_text_9EbnCj",
