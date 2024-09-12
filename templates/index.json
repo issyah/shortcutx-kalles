@@ -1956,6 +1956,21 @@
         "code_cus_css": "h3{\n\n}"
       }
     },
+    "172612287255a47bf8": {
+      "type": "apps",
+      "blocks": {
+        "vimotia_shoppable_videos_ugc_gallery_block_XBCtmP": {
+          "type": "shopify:\/\/apps\/vimotia-shoppable-videos-ugc\/blocks\/gallery-block\/280c56fc-729f-4789-a38e-96c81f569369",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vimotia_shoppable_videos_ugc_gallery_block_XBCtmP"
+      ],
+      "settings": {
+      }
+    },
     "6539eb23-5ca8-4d72-8477-f441439a0d2a": {
       "type": "top_heading",
       "blocks": {
@@ -2777,106 +2792,6 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
-    "72c030a2-8b52-4beb-8b57-fb421bcedb27": {
-      "type": "instagram_feed",
-      "blocks": {
-        "6c989167-ad39-474c-b10e-d1bc547a1d59": {
-          "type": "1",
-          "settings": {
-            "design_heading": "1",
-            "heading_align": "t4s-text-center",
-            "top_heading": "Follow us on @shortcutx.co",
-            "icon_heading": "las la-gem",
-            "top_subheading": "",
-            "tophead_mb": 40
-          }
-        },
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-0": {
-          "type": "img",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_6.54.16_PM.png",
-            "url": "https:\/\/www.instagram.com\/p\/CtDr92KJE4A\/"
-          }
-        },
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-1": {
-          "type": "img",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_6.56.56_PM.png",
-            "url": "https:\/\/www.instagram.com\/p\/CtBHMaJJE1C\/"
-          }
-        },
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-2": {
-          "type": "img",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_6.57.16_PM.png",
-            "url": "https:\/\/www.instagram.com\/p\/Cs79mXZJNUj\/"
-          }
-        },
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-3": {
-          "type": "img",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_6.58.24_PM.png",
-            "url": "https:\/\/www.instagram.com\/p\/Cs2z_Q1JyGk\/"
-          }
-        },
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-5": {
-          "type": "img",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_7.01.07_PM.png",
-            "url": "https:\/\/www.instagram.com\/p\/CscokvJJcci\/"
-          }
-        }
-      },
-      "block_order": [
-        "6c989167-ad39-474c-b10e-d1bc547a1d59",
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-0",
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-1",
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-2",
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-3",
-        "template--16756803535088__72c030a2-8b52-4beb-8b57-fb421bcedb27-168587601015a7d483-5"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout_des": "2",
-        "image_ratio": "ratio1_1",
-        "image_position": "8",
-        "image_size": "cover",
-        "img_effect": "zoom",
-        "b_effect": "pervasive-circle",
-        "col_dk": "5",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_item": "0",
-        "space_item_mb": "0",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": true,
-        "btn_vi": "hover",
-        "btn_owl": "simple",
-        "btn_shape": "rotate",
-        "btn_cl": "dark",
-        "btn_size": "large",
-        "btn_hidden_mobile": true,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "top_heading_4G8MCQ": {
       "type": "top_heading",
       "blocks": {
@@ -2970,6 +2885,7 @@
     "164620932069107a3a",
     "365ac68a-f135-4a2b-95ef-303495351a35",
     "e138c48f-0064-4181-accb-34576678c058",
+    "172612287255a47bf8",
     "6539eb23-5ca8-4d72-8477-f441439a0d2a",
     "b312d522-3a5e-4c9f-b327-5592ca97f816",
     "5054c224-b8ca-42fb-a4e5-db573d89c9d8",
@@ -2979,7 +2895,6 @@
     "e88215f3-26cc-4f02-98c5-d290e5aee8ab",
     "51d99fc7-af1a-4a98-b13e-90422bb3393d",
     "1646035317ea8b6928",
-    "72c030a2-8b52-4beb-8b57-fb421bcedb27",
     "top_heading_4G8MCQ",
     "1689065658ece8d2cb"
   ]
