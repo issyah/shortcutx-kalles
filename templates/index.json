@@ -1956,21 +1956,6 @@
         "code_cus_css": "h3{\n\n}"
       }
     },
-    "172612287255a47bf8": {
-      "type": "apps",
-      "blocks": {
-        "vimotia_shoppable_videos_ugc_gallery_block_XBCtmP": {
-          "type": "shopify:\/\/apps\/vimotia-shoppable-videos-ugc\/blocks\/gallery-block\/280c56fc-729f-4789-a38e-96c81f569369",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "vimotia_shoppable_videos_ugc_gallery_block_XBCtmP"
-      ],
-      "settings": {
-      }
-    },
     "6539eb23-5ca8-4d72-8477-f441439a0d2a": {
       "type": "top_heading",
       "blocks": {
@@ -2885,7 +2870,6 @@
     "164620932069107a3a",
     "365ac68a-f135-4a2b-95ef-303495351a35",
     "e138c48f-0064-4181-accb-34576678c058",
-    "172612287255a47bf8",
     "6539eb23-5ca8-4d72-8477-f441439a0d2a",
     "b312d522-3a5e-4c9f-b327-5592ca97f816",
     "5054c224-b8ca-42fb-a4e5-db573d89c9d8",

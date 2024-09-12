@@ -2896,6 +2896,13 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "16064005293743155225": {
+        "type": "shopify:\/\/apps\/ghost-shoppable-ugc-video\/blocks\/ghost_embed_js\/0c680c94-9038-480e-8e79-1229a9895cfb",
+        "disabled": false,
+        "settings": {
+          "devUrl": ""
+        }
       }
     }
   },
