@@ -1548,65 +1548,6 @@
       "settings": {
       }
     },
-    "1bd8a459-e0b8-40b5-b685-a046ef3f497b": {
-      "type": "image_text",
-      "blocks": {
-        "template--16756803535088__1bd8a459-e0b8-40b5-b685-a046ef3f497b-168589239541d3c7f0-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "UK Factory Tour",
-            "text": "<p>Formulated and manufactured all the way in the United Kingdom, our Flat Tummy Shakes are designed to make you feel full longer! Our products have all gone through rigorous testing, research and development to ensure results can be seen, and not just dreamed of! <\/p>",
-            "subhd_color": "#ffffff",
-            "hd_color": "#ffffff",
-            "des_color": "#f5f5f5",
-            "use_shadow": false,
-            "button_label": "Watch Video",
-            "button_link": "https:\/\/www.youtube.com\/watch?v=8sdqkKiWwr0",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "extra-large",
-            "btn_cl": "primary",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "template--16756803535088__1bd8a459-e0b8-40b5-b685-a046ef3f497b-168589239541d3c7f0-1"
-      ],
-      "custom_css": [
-        "@media (max-width: 768px) {.t4s-container {padding-left: 0; padding-right: 0; }}"
-      ],
-      "settings": {
-        "design_heading": "8",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-se-container",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "image_bg": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_1.23.10_PM.png",
-        "mg": "50px,,50px,",
-        "pd": "160px,24px,160px,24px",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "164620932069107a3a": {
       "type": "shipping",
       "blocks": {
@@ -1697,7 +1638,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "#f5f5f5",
         "cl_bg_gradient": "",
-        "mg": ",,96px,",
+        "mg": "30px,,96px,",
         "pd": "55px,,55px,",
         "mg_tb": ",,50px,",
         "pd_tb": "",
@@ -1705,6 +1646,65 @@
         "pd_mb": "55px,,25px,",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "1bd8a459-e0b8-40b5-b685-a046ef3f497b": {
+      "type": "image_text",
+      "blocks": {
+        "template--16756803535088__1bd8a459-e0b8-40b5-b685-a046ef3f497b-168589239541d3c7f0-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "UK Factory Tour",
+            "text": "<p>Formulated and manufactured all the way in the United Kingdom, our Flat Tummy Shakes are designed to make you feel full longer! Our products have all gone through rigorous testing, research and development to ensure results can be seen, and not just dreamed of! <\/p>",
+            "subhd_color": "#ffffff",
+            "hd_color": "#ffffff",
+            "des_color": "#f5f5f5",
+            "use_shadow": false,
+            "button_label": "Watch Video",
+            "button_link": "https:\/\/www.youtube.com\/watch?v=8sdqkKiWwr0",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "extra-large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756803535088__1bd8a459-e0b8-40b5-b685-a046ef3f497b-168589239541d3c7f0-1"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.t4s-container {padding-left: 0; padding-right: 0; }}"
+      ],
+      "settings": {
+        "design_heading": "8",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "image_bg": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_1.23.10_PM.png",
+        "mg": "50px,,50px,",
+        "pd": "160px,24px,160px,24px",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "365ac68a-f135-4a2b-95ef-303495351a35": {
@@ -2884,8 +2884,8 @@
     "60a7e69b-a1b8-41fd-8534-9311d09e24ef",
     "8bf6220c-3a2f-4494-97dd-7b814ec663d8",
     "17261228869bd18f11",
-    "1bd8a459-e0b8-40b5-b685-a046ef3f497b",
     "164620932069107a3a",
+    "1bd8a459-e0b8-40b5-b685-a046ef3f497b",
     "365ac68a-f135-4a2b-95ef-303495351a35",
     "6539eb23-5ca8-4d72-8477-f441439a0d2a",
     "e138c48f-0064-4181-accb-34576678c058",
