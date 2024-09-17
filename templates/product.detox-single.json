@@ -517,7 +517,7 @@
         "space_v_item": "10",
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
+        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,,,",
