@@ -925,7 +925,7 @@
         "use_cdt": false,
         "limit": 12,
         "display_type": "4",
-        "image_ratio": "rationt",
+        "image_ratio": "ratio1_1",
         "image_size": "nt_cover",
         "image_position": "8",
         "content_align": "default",
