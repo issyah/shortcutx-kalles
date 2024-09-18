@@ -980,7 +980,7 @@
         "limit": 14,
         "sortby": "1",
         "unavailable_prs": "show",
-        "image_ratio": "rationt",
+        "image_ratio": "ratio1_1",
         "image_size": "cover",
         "image_position": "8",
         "content_align": "default",
