@@ -275,36 +275,12 @@
     "image_text_rayEMU": {
       "type": "image_text",
       "blocks": {
-        "bl_text_mDrtyb": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "center",
-            "sub_heading": "Night Shred enhances both the quantity and quality of your sleep while boosting your body’s fat-burning capabilities. You’ll experience relaxation quickly and fall asleep more swiftly.",
-            "heading": "ENJOY DEEP SLEEP WHILE BURNING FAT",
-            "text": "<h5>Our Night Fat Burner is back by popular demand and is now a permanent addition to our lineup. Enjoy the soothing wildberry lavender flavor in convenient 7-pack sets. Sip before bed to relax, fall into deep sleep, and enhance fat burning overnight. Formulated with essential vitamins and minerals, it supports restful sleep and boosts your weight loss journey, making it the perfect nighttime companion.<\/h5>",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/website_product_description_images_5.png",
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify:\/\/shop_images\/website_backgroud_12.png",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -327,13 +303,37 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
+        },
+        "bl_text_mDrtyb": {
+          "type": "bl_text",
+          "disabled": true,
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "Night Shred enhances both the quantity and quality of your sleep while boosting your body’s fat-burning capabilities. You’ll experience relaxation quickly and fall asleep more swiftly.",
+            "heading": "ENJOY DEEP SLEEP WHILE BURNING FAT",
+            "text": "<h5>Our Night Fat Burner is back by popular demand and is now a permanent addition to our lineup. Enjoy the soothing wildberry lavender flavor in convenient 7-pack sets. Sip before bed to relax, fall into deep sleep, and enhance fat burning overnight. Formulated with essential vitamins and minerals, it supports restful sleep and boosts your weight loss journey, making it the perfect nighttime companion.<\/h5>",
+            "subhd_color": "#222222",
+            "hd_color": "#bf1932",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
         }
       },
       "block_order": [
-        "bl_text_mDrtyb",
-        "bl_image_ctkY4J"
+        "bl_image_ctkY4J",
+        "bl_text_mDrtyb"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
