@@ -364,15 +364,15 @@
         "bl_text_VxeVX7": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
+            "col_dk": "6",
+            "col_tb": "6",
             "text_size": "40,15",
-            "txt_align": "center",
+            "txt_align": "end",
             "sub_heading": "",
-            "heading": "THE ADVANCED INGREDIENTS IN NIGHT FAT BURNER ENHANCE DEEP, RESTFUL SLEEP, BOOSTING METABOLISM FOR LONG-TERM BENEFITS.",
-            "text": "",
+            "heading": "ID-aIG ™ & Grape Seed Extract",
+            "text": "<h4>✔ ID-aIG<\/h4><p>A brown seaweed extract derived from Ascophyllum Nodosum and utilized to help limit fat and sugar storage in the body and control weight.<\/p><h4>✔ Grape Seed Exract<\/h4><p>Helps to prevent absorption of dietary fat. It is also known to help to control blood sugar from spike after consuming carbohydrates.<\/p>",
             "subhd_color": "#222222",
-            "hd_color": "#222222",
+            "hd_color": "#bf1932",
             "des_color": "#878787",
             "use_shadow": false,
             "button_label": "Button label",
@@ -384,12 +384,41 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_ywMqWA": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/21_2b97efd9-0bfc-4a51-b07b-c82eed3887d9.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "bl_text_VxeVX7"
+        "bl_text_VxeVX7",
+        "bl_image_ywMqWA"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
