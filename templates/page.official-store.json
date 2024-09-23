@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "heading": {
@@ -119,6 +128,23 @@
     "e4666f00-5478-4c93-ad59-09e91b4dc395": {
       "type": "iconbox",
       "blocks": {
+        "674adfcd-2de5-4787-a896-4dca350ec86f": {
+          "type": "item",
+          "settings": {
+            "link": "https:\/\/shopee.com.my\/shortcutx.hq",
+            "open_link": "_blank",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/logo_1_dde56f0b-c65f-4a7b-ad85-ab73b05307f6.png",
+            "icon_image_width": 1000,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Tiktok Shop"
+          }
+        },
         "template--16765884858608__e4666f00-5478-4c93-ad59-09e91b4dc395-16872349365e20c612-0": {
           "type": "item",
           "settings": {
@@ -134,23 +160,6 @@
             "w_image_svg_mb": 40,
             "heading": "",
             "des": "Shopee Singapore"
-          }
-        },
-        "674adfcd-2de5-4787-a896-4dca350ec86f": {
-          "type": "item",
-          "settings": {
-            "link": "https:\/\/shopee.com.my\/shortcutx.hq",
-            "open_link": "_blank",
-            "icon_pos": "start",
-            "icon": "las la-gem",
-            "icon_awesome_fs": 50,
-            "image_icon": "shopify:\/\/shop_images\/Shopee_logo.svg",
-            "icon_image_width": 50,
-            "img_svg": "",
-            "w_image_svg": 60,
-            "w_image_svg_mb": 40,
-            "heading": "",
-            "des": "Shopee Malaysia"
           }
         },
         "7af7dcc7-be3b-43cb-80e9-e65c1889221e": {
@@ -172,8 +181,8 @@
         }
       },
       "block_order": [
-        "template--16765884858608__e4666f00-5478-4c93-ad59-09e91b4dc395-16872349365e20c612-0",
         "674adfcd-2de5-4787-a896-4dca350ec86f",
+        "template--16765884858608__e4666f00-5478-4c93-ad59-09e91b4dc395-16872349365e20c612-0",
         "7af7dcc7-be3b-43cb-80e9-e65c1889221e"
       ],
       "custom_css": [
@@ -267,6 +276,40 @@
     "d7407385-b5eb-4d73-91c0-cce10000b936": {
       "type": "iconbox",
       "blocks": {
+        "item_zntik7": {
+          "type": "item",
+          "settings": {
+            "link": "https:\/\/www.watsons.com.sg\/search?text=shortcutx&useDefaultSearch=false&brandRedirect=true",
+            "open_link": "_blank",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/1_db432dba-838f-4578-8269-385b7ead6cda.png",
+            "icon_image_width": 0,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Watsons"
+          }
+        },
+        "item_ayKwkW": {
+          "type": "item",
+          "settings": {
+            "link": "https:\/\/bhgsingapore.com.sg\/?srsltid=AfmBOop2eksvsFYEfTAIe-G35WFXMyE7_kRijojNCRrXgCpNc7ElP2za",
+            "open_link": "_self",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/4_d8ca0946-3fa9-4976-9e89-fb2ee22f413c.png",
+            "icon_image_width": 0,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "BHG"
+          }
+        },
         "c6455515-415e-4645-964f-6e7a7fee3c07": {
           "type": "item",
           "settings": {
@@ -303,6 +346,8 @@
         }
       },
       "block_order": [
+        "item_zntik7",
+        "item_ayKwkW",
         "c6455515-415e-4645-964f-6e7a7fee3c07",
         "7ce6d104-b878-4a99-b13b-2c1a31638101"
       ],
@@ -316,7 +361,7 @@
         "source": "get_image",
         "pd_content": "20px,20px,20px,20px",
         "layout_des": "1",
-        "col_dk": "3",
+        "col_dk": "2",
         "col_tb": "2",
         "col_mb": "1",
         "space_h_item": "20",
