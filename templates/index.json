@@ -86,7 +86,7 @@
           "type": "img",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/MEET_YOUR_NEW_BEST_FRIENDS..png"
+            "image": "shopify://shop_images/MEET_YOUR_NEW_BEST_FRIENDS..png"
           }
         },
         "94c04e02-2a61-4154-ba13-3695ca9dd51b": {
@@ -158,7 +158,7 @@
           "type": "img",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/website_second_page.png"
+            "image": "shopify://shop_images/website_second_page.png"
           }
         },
         "b9762404-5f0c-4e3e-a8f2-89b6f9fc4d3f": {
@@ -220,14 +220,53 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
+        "image_parent_LxrKjX": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify://shop_images/Website_Banner_10_2.png",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "shopify://collections/key-products",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "center",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/APPLE_banner-05.jpg",
-            "image_mb": "shopify:\/\/shop_images\/APPLE_banner-04.jpg",
+            "image": "shopify://shop_images/APPLE_banner-05.jpg",
+            "image_mb": "shopify://shop_images/APPLE_banner-04.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/frontpage",
+            "link_img1": "shopify://collections/frontpage",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "start",
@@ -263,11 +302,11 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NFB-Banner-02.jpg",
-            "image_mb": "shopify:\/\/shop_images\/NFB-Banner-03.jpg",
+            "image": "shopify://shop_images/NFB-Banner-02.jpg",
+            "image_mb": "shopify://shop_images/NFB-Banner-03.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/products\/shortcutx-night-fat-burner-juice",
+            "link_img1": "shopify://products/shortcutx-night-fat-burner-juice",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
@@ -300,56 +339,15 @@
             "animation_delay": 30
           }
         },
-        "image_parent_LxrKjX": {
-          "type": "image_parent",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Website_Banner_NFC.jpg",
-            "image_mb": "shopify:\/\/shop_images\/Website_Banner_NFC.jpg",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/key-products",
-            "open_link": "_blank",
-            "animate_slide": "none",
-            "text_align": "center",
-            "text_align_mb": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 40
-          }
-        },
         "image_parent_H34eai": {
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Website_Banner_9_8be9a2b7-00f4-4d60-b99f-f8dec9b34468.png",
-            "image_mb": "shopify:\/\/shop_images\/Website_Banner_9_8be9a2b7-00f4-4d60-b99f-f8dec9b34468.png",
+            "image": "shopify://shop_images/Website_Banner_9_8be9a2b7-00f4-4d60-b99f-f8dec9b34468.png",
+            "image_mb": "shopify://shop_images/Website_Banner_9_8be9a2b7-00f4-4d60-b99f-f8dec9b34468.png",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/key-products",
+            "link_img1": "shopify://collections/key-products",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
@@ -386,7 +384,7 @@
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Website_Banner_10.png",
+            "image": "shopify://shop_images/Website_Banner_10.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -499,7 +497,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Buy Now",
-            "button_link": "shopify:\/\/products\/shortcutx-30-day-weight-loss-kit",
+            "button_link": "shopify://products/shortcutx-30-day-weight-loss-kit",
             "target_link": "_self",
             "fontf": "1",
             "button_icon_w": 0,
@@ -603,7 +601,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Buy Now",
-            "button_link": "shopify:\/\/collections\/frontpage",
+            "button_link": "shopify://collections/frontpage",
             "target_link": "_self",
             "fontf": "1",
             "button_icon_w": 0,
@@ -707,7 +705,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Buy Now",
-            "button_link": "shopify:\/\/collections\/slimming-tea-coffee",
+            "button_link": "shopify://collections/slimming-tea-coffee",
             "target_link": "_self",
             "fontf": "1",
             "button_icon_w": 0,
@@ -738,7 +736,7 @@
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Website_Banner_2.jpg",
+            "image": "shopify://shop_images/Website_Banner_2.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -827,7 +825,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Buy Now",
-            "button_link": "shopify:\/\/collections\/meal-replacement",
+            "button_link": "shopify://collections/meal-replacement",
             "target_link": "_self",
             "fontf": "1",
             "button_icon_w": 0,
@@ -856,9 +854,9 @@
         }
       },
       "block_order": [
+        "image_parent_LxrKjX",
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
         "164602873867eb3815-0",
-        "image_parent_LxrKjX",
         "image_parent_H34eai",
         "7ec0ff00-0440-45d4-8339-a40fddf43963",
         "ce546539-ff4c-4ae1-b40c-7149316c9983",
@@ -927,43 +925,43 @@
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-0": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vulcan_pot.png",
-            "url": "https:\/\/vulcanpost.com\/824307\/naezily-founder-serial-entrepreneur-five-businesses\/"
+            "image": "shopify://shop_images/vulcan_pot.png",
+            "url": "https://vulcanpost.com/824307/naezily-founder-serial-entrepreneur-five-businesses/"
           }
         },
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-2": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The-Independent-News-Media-1024-300x64-1.png",
+            "image": "shopify://shop_images/The-Independent-News-Media-1024-300x64-1.png",
             "url": ""
           }
         },
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-1": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SME-e1716218096708-450x350.png",
+            "image": "shopify://shop_images/SME-e1716218096708-450x350.png",
             "url": ""
           }
         },
         "ff876523-9092-4211-99f8-b1f5edb4aa5a": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2020-07-Tropika-Magazine-logo-250px.png",
+            "image": "shopify://shop_images/2020-07-Tropika-Magazine-logo-250px.png",
             "url": ""
           }
         },
         "b6d933f2-558c-4096-8696-5926c76ebeaa": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo.png",
+            "image": "shopify://shop_images/logo.png",
             "url": ""
           }
         },
         "7a219b36-022b-4a68-9f24-a3bf39a9d53f": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bestprices.sg-logo.png",
-            "url": "https:\/\/bestprices.sg\/best-fat-burner-supplement-singapore\/"
+            "image": "shopify://shop_images/bestprices.sg-logo.png",
+            "url": "https://bestprices.sg/best-fat-burner-supplement-singapore/"
           }
         }
       },
@@ -1399,11 +1397,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/website-03.jpg",
+            "image": "shopify://shop_images/website-03.jpg",
             "title": "Lychee Lemon Fat Burner v2.0",
-            "text": "<p>Our latest addition to our fat burner juice collection, with a new and enhanced formula. The Lychee Lemon Fat Burner Juice helps you to lose weight naturally and fast! This natural weight loss supplement helps to breakdown stubborn fats, curbs your appetite and help you feel fuller quicker.  <\/p>",
+            "text": "<p>Our latest addition to our fat burner juice collection, with a new and enhanced formula. The Lychee Lemon Fat Burner Juice helps you to lose weight naturally and fast! This natural weight loss supplement helps to breakdown stubborn fats, curbs your appetite and help you feel fuller quicker.  </p>",
             "button_label": "Buy Lychee Lemon Fat Burner",
-            "button_link": "shopify:\/\/products\/2-0-shortcutx-lychee-lemon-fat-burner-juice",
+            "button_link": "shopify://products/2-0-shortcutx-lychee-lemon-fat-burner-juice",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
@@ -1416,11 +1414,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/website-02.jpg",
+            "image": "shopify://shop_images/website-02.jpg",
             "title": "Apple Cider Fat Burner Juice v2.0",
-            "text": "<p>Our best-selling fat burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily.<\/p>",
+            "text": "<p>Our best-selling fat burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily.</p>",
             "button_label": "Buy Apple Cider Fat Burner Juice",
-            "button_link": "shopify:\/\/products\/fat-burner-apple-cider-fruit-juice",
+            "button_link": "shopify://products/fat-burner-apple-cider-fruit-juice",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
@@ -1433,11 +1431,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/website-04.jpg",
+            "image": "shopify://shop_images/website-04.jpg",
             "title": "Caramel Macchiato Coffee v2.0",
-            "text": "<p>Start your day on a high note with our new and enhanced formula of our Caramel Macchiato slimming coffee. Our 7-day sugar-free formula is proven effective to boost energy levels, stimulate body fat burning, and curb sugar craving. Your daily morning and afternoon companion got healthier!<\/p><p><\/p><p> <\/p><p><\/p><p>     <\/p>",
+            "text": "<p>Start your day on a high note with our new and enhanced formula of our Caramel Macchiato slimming coffee. Our 7-day sugar-free formula is proven effective to boost energy levels, stimulate body fat burning, and curb sugar craving. Your daily morning and afternoon companion got healthier!</p><p></p><p> </p><p></p><p>     </p>",
             "button_label": "Shop Slimming Coffee",
-            "button_link": "shopify:\/\/products\/2-0-shortcutx-slimming-coffee-caramel-macchiato",
+            "button_link": "shopify://products/2-0-shortcutx-slimming-coffee-caramel-macchiato",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
@@ -1517,7 +1515,7 @@
 
       ],
       "settings": {
-        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    See results after 7 Days<\/span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    Fast and effective results<\/span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore<\/span><span>7 Day Achiever<\/span><span>World's First Apple Cider Fat Burner Juice<\/span><span>    See results after 7 Days<\/span>\n<\/marquee>",
+        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    See results after 7 Days</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    Fast and effective results</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    See results after 7 Days</span>\n</marquee>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -1535,7 +1533,7 @@
       "type": "apps",
       "blocks": {
         "ghost_shoppable_ugc_video_ghost_shoppable_videos_ftUhUn": {
-          "type": "shopify:\/\/apps\/ghost-shoppable-ugc-video\/blocks\/ghost_shoppable_videos\/0c680c94-9038-480e-8e79-1229a9895cfb",
+          "type": "shopify://apps/ghost-shoppable-ugc-video/blocks/ghost_shoppable_videos/0c680c94-9038-480e-8e79-1229a9895cfb",
           "settings": {
             "ghost_collection_id": "66e290d9cffeadbcd708777e",
             "display_type": "carousel"
@@ -1557,7 +1555,7 @@
             "icon_themes": "headphones",
             "icon": "las la-microscope",
             "title": "Expertly formulated",
-            "text": "<p>Elevate your expectations with our meticulously crafted formula. We spared no expense in sourcing the highest quality ingredients, ensuring an unparalleled experience of efficacy and indulgence.<\/p>",
+            "text": "<p>Elevate your expectations with our meticulously crafted formula. We spared no expense in sourcing the highest quality ingredients, ensuring an unparalleled experience of efficacy and indulgence.</p>",
             "html": ""
           }
         },
@@ -1567,7 +1565,7 @@
             "icon_themes": "help",
             "icon": "las la-apple-alt",
             "title": "Quality Ingredients",
-            "text": "<p>Experience the epitome of quality ingredients with our exceptional products. We meticulously source and select only the finest, premium-grade components from around the world.<\/p>",
+            "text": "<p>Experience the epitome of quality ingredients with our exceptional products. We meticulously source and select only the finest, premium-grade components from around the world.</p>",
             "html": ""
           }
         },
@@ -1577,7 +1575,7 @@
             "icon_themes": "refesh",
             "icon": "lar la-heart",
             "title": "Convenient",
-            "text": "<p>Our products offer unparalleled convenience, allowing you to effortlessly incorporate it into your daily regimen for all your weight loss goals.<\/p>",
+            "text": "<p>Our products offer unparalleled convenience, allowing you to effortlessly incorporate it into your daily regimen for all your weight loss goals.</p>",
             "html": ""
           }
         },
@@ -1586,10 +1584,10 @@
           "disabled": true,
           "settings": {
             "icon_themes": "door-lock",
-            "image_icon": "shopify:\/\/shop_images\/halal-malaysia-logo-83E58494C7-seeklogo.com.png",
+            "image_icon": "shopify://shop_images/halal-malaysia-logo-83E58494C7-seeklogo.com.png",
             "icon": "las la-lock",
             "title": "100% PAYMENT SECURE",
-            "text": "<p>We ensure secure payment with PEV<\/p>",
+            "text": "<p>We ensure secure payment with PEV</p>",
             "html": ""
           }
         }
@@ -1660,13 +1658,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "UK Factory Tour",
-            "text": "<p>Formulated and manufactured all the way in the United Kingdom, our Flat Tummy Shakes are designed to make you feel full longer! Our products have all gone through rigorous testing, research and development to ensure results can be seen, and not just dreamed of! <\/p>",
+            "text": "<p>Formulated and manufactured all the way in the United Kingdom, our Flat Tummy Shakes are designed to make you feel full longer! Our products have all gone through rigorous testing, research and development to ensure results can be seen, and not just dreamed of! </p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#f5f5f5",
             "use_shadow": false,
             "button_label": "Watch Video",
-            "button_link": "https:\/\/www.youtube.com\/watch?v=8sdqkKiWwr0",
+            "button_link": "https://www.youtube.com/watch?v=8sdqkKiWwr0",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -1696,7 +1694,7 @@
         "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "image_bg": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_1.23.10_PM.png",
+        "image_bg": "shopify://shop_images/Screenshot_2023-06-04_at_1.23.10_PM.png",
         "mg": "50px,,50px,",
         "pd": "160px,24px,160px,24px",
         "mg_tb": "",
@@ -1719,7 +1717,7 @@
             "height_tb": 400,
             "custom_mb": true,
             "height_mb": 500,
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_1.23.10_PM.png",
+            "image": "shopify://shop_images/Screenshot_2023-06-04_at_1.23.10_PM.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -1781,7 +1779,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "Watch video",
-            "button_link": "https:\/\/www.youtube.com\/watch?v=8sdqkKiWwr0",
+            "button_link": "https://www.youtube.com/watch?v=8sdqkKiWwr0",
             "target_link": "_blank",
             "fontf": "1",
             "button_icon_w": 0,
@@ -1881,9 +1879,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/website.png",
+            "image": "shopify://shop_images/website.png",
             "title": "All Natural Ingredients",
-            "text": "<p>All our products have been carefully formulated and made with 100% natural ingredients. This way, our products are perfect everyone!<\/p>",
+            "text": "<p>All our products have been carefully formulated and made with 100% natural ingredients. This way, our products are perfect everyone!</p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1898,9 +1896,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/website_2.png",
+            "image": "shopify://shop_images/website_2.png",
             "title": "Proven Effective",
-            "text": "<p>Each product has been tested by us and our consumers, and has kept it track record of being an effective supplement to aid in weight loss.<\/p>",
+            "text": "<p>Each product has been tested by us and our consumers, and has kept it track record of being an effective supplement to aid in weight loss.</p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1915,9 +1913,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/website_3.png",
+            "image": "shopify://shop_images/website_3.png",
             "title": "No Side Effects",
-            "text": "<p>As our products are all natural, there are no added chemicals. This ensures no unwanted side effects when your consume Shortcutx.<\/p>",
+            "text": "<p>As our products are all natural, there are no added chemicals. This ensures no unwanted side effects when your consume Shortcutx.</p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1932,9 +1930,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/website_4.png",
+            "image": "shopify://shop_images/website_4.png",
             "title": "Guaranteed Results",
-            "text": "<p>With Shortcutx, you will definitely see changes in your body, and reach your goal!<\/p>",
+            "text": "<p>With Shortcutx, you will definitely see changes in your body, and reach your goal!</p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -2017,7 +2015,7 @@
         "template--16756803535088__b312d522-3a5e-4c9f-b327-5592ca97f816-168654292433c31c9e-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/japanese-scientist-making-medicine-in-a-vintage-ap-2023-11-27-05-14-02-utc.jpg",
+            "image1": "shopify://shop_images/japanese-scientist-making-medicine-in-a-vintage-ap-2023-11-27-05-14-02-utc.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -2052,7 +2050,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "All Natural Ingredients",
-            "text": "<p>Indulge in the pure power of nature with Shortcutx. We pride ourselves on using only the finest all-natural ingredients, carefully selected for their efficacy and gentleness. Experience the peace of mind that comes from choosing the best for your body, as we bring you a product that combines nature's wonders with unrivalled results. Embrace the beauty of natural ingredients and elevate your skincare journey with us.<\/p>",
+            "text": "<p>Indulge in the pure power of nature with Shortcutx. We pride ourselves on using only the finest all-natural ingredients, carefully selected for their efficacy and gentleness. Experience the peace of mind that comes from choosing the best for your body, as we bring you a product that combines nature's wonders with unrivalled results. Embrace the beauty of natural ingredients and elevate your skincare journey with us.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -2108,7 +2106,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "Proven Effective",
-            "text": "<p>Shortcutx's effectiveness is undeniable. Backed by extensive research and customer testimonials, it has proven time and again to deliver remarkable results. Witness the transformative power of our formula as it addresses your specific needs, leaving you with visible improvements you can see and feel. Trust in the effectiveness that countless individuals have already experienced and make our product your go-to choice for unparalleled efficacy.<\/p>",
+            "text": "<p>Shortcutx's effectiveness is undeniable. Backed by extensive research and customer testimonials, it has proven time and again to deliver remarkable results. Witness the transformative power of our formula as it addresses your specific needs, leaving you with visible improvements you can see and feel. Trust in the effectiveness that countless individuals have already experienced and make our product your go-to choice for unparalleled efficacy.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -2126,7 +2124,7 @@
         "template--16756803535088__5054c224-b8ca-42fb-a4e5-db573d89c9d8-168654292433c31c9e-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/shot-of-a-young-man-holding-a-scale-and-an-apple-a-2023-11-27-05-16-43-utc.png",
+            "image1": "shopify://shop_images/shot-of-a-young-man-holding-a-scale-and-an-apple-a-2023-11-27-05-16-43-utc.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -2187,7 +2185,7 @@
         "template--16756803535088__11430866-99fb-4127-a3dd-6ed03e8df323-1686543407e840a0bb-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC03992_2.jpg",
+            "image1": "shopify://shop_images/DSC03992_2.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -2222,7 +2220,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "No Side Effects",
-            "text": "<p>Indulge in our side-effect-free products with complete peace of mind. Our meticulously formulated solutions prioritize your well-being, ensuring that you can enjoy their benefits without any unwanted consequences. Trust in our commitment to safety and effectiveness as we deliver a worry-free journey that leaves you feeling confident and satisfied. Embrace the natural goodness of Shortcutx, knowing that our products do not cause any side effects. <\/p>",
+            "text": "<p>Indulge in our side-effect-free products with complete peace of mind. Our meticulously formulated solutions prioritize your well-being, ensuring that you can enjoy their benefits without any unwanted consequences. Trust in our commitment to safety and effectiveness as we deliver a worry-free journey that leaves you feeling confident and satisfied. Embrace the natural goodness of Shortcutx, knowing that our products do not cause any side effects. </p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -2278,13 +2276,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "100% Satisfaction",
-            "text": "<p>Our products are focused on getting you the best results. With our carefully crafted formulas and advanced technologies, we have fine-tuned our products to deliver exceptional outcomes. Trust in our commitment to excellence and make Shortcutx your go-to choice for achieving your desired outcomes.<\/p>",
+            "text": "<p>Our products are focused on getting you the best results. With our carefully crafted formulas and advanced technologies, we have fine-tuned our products to deliver exceptional outcomes. Trust in our commitment to excellence and make Shortcutx your go-to choice for achieving your desired outcomes.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
             "use_shadow": false,
             "button_label": "Buy Now",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "open_link": "_self",
             "btn_icon": true,
             "button_style": "outline",
@@ -2296,7 +2294,7 @@
         "template--16756803535088__fef1583b-a0be-46ec-a6d8-1307b243076e-1686543407e840a0bb-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Flushes_toxins_from_the_body_Enhances_digestion_Improves_gut_health_Boosts_metabolism_Reduces_bloating_Elevates_energy_levels_Promotes_overall_health.png",
+            "image1": "shopify://shop_images/Flushes_toxins_from_the_body_Enhances_digestion_Improves_gut_health_Boosts_metabolism_Reduces_bloating_Elevates_energy_levels_Promotes_overall_health.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -2358,9 +2356,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/rev4_350px.png",
+            "image": "shopify://shop_images/rev4_350px.png",
             "title": "Ika",
-            "text": "<p>From size 36 I probably to size 32 now! Can't even fit into my jeans now!<\/p>",
+            "text": "<p>From size 36 I probably to size 32 now! Can't even fit into my jeans now!</p>",
             "button_label": "",
             "button_link": "",
             "product": "fat-burner-apple-cider-fruit-juice",
@@ -2377,9 +2375,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/rev5_350px-01.png",
+            "image": "shopify://shop_images/rev5_350px-01.png",
             "title": "Liza",
-            "text": "<p>I've been consuming it consistently for the last two months and I've dropped two sizes. I really feel great about my body and I'm glad it works for me!<\/p>",
+            "text": "<p>I've been consuming it consistently for the last two months and I've dropped two sizes. I really feel great about my body and I'm glad it works for me!</p>",
             "button_label": "",
             "button_link": "",
             "product": "fat-burner-apple-cider-fruit-juice",
@@ -2396,9 +2394,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/rev2_350px-03.jpg",
+            "image": "shopify://shop_images/rev2_350px-03.jpg",
             "title": "Sue",
-            "text": "<p>From 73kg to 64kg currently, Shortcutx has been awesome! I lost a few kg every week, without much dieting or exercising. I just control my portions and try to eat clean + Shortcutx every morning. It really works!<\/p>",
+            "text": "<p>From 73kg to 64kg currently, Shortcutx has been awesome! I lost a few kg every week, without much dieting or exercising. I just control my portions and try to eat clean + Shortcutx every morning. It really works!</p>",
             "button_label": "",
             "button_link": "",
             "product": "fat-burner-apple-cider-fruit-juice",
@@ -2415,9 +2413,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/review1-01.png",
+            "image": "shopify://shop_images/review1-01.png",
             "title": "Hadihaz",
-            "text": "<p>I wanted to feel better about myself so I tried this juice. Shortcutx really helped me to feel less bloated which I’ve always had a problem with. It also tastes great!<\/p>",
+            "text": "<p>I wanted to feel better about myself so I tried this juice. Shortcutx really helped me to feel less bloated which I’ve always had a problem with. It also tastes great!</p>",
             "button_label": "",
             "button_link": "",
             "product": "fat-burner-apple-cider-fruit-juice",
@@ -2434,9 +2432,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/rev2_350px.png",
+            "image": "shopify://shop_images/rev2_350px.png",
             "title": "Chen",
-            "text": "<p>Took Shortcutx for 4 months and I lost 16kg. FYI, I didn't exercise at all due to injuries 😅<\/p>",
+            "text": "<p>Took Shortcutx for 4 months and I lost 16kg. FYI, I didn't exercise at all due to injuries 😅</p>",
             "button_label": "",
             "button_link": "",
             "product": "fat-burner-apple-cider-fruit-juice",
@@ -2453,9 +2451,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/rev3_350px.png",
+            "image": "shopify://shop_images/rev3_350px.png",
             "title": "Wanijo",
-            "text": "<p>I took Shortcutx for 12 days straight and I lost weight from 58kg to 55.3kg now!<\/p>",
+            "text": "<p>I took Shortcutx for 12 days straight and I lost weight from 58kg to 55.3kg now!</p>",
             "button_label": "",
             "button_link": "",
             "product": "fat-burner-apple-cider-fruit-juice",
@@ -2472,9 +2470,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/rev5_350px-02.png",
+            "image": "shopify://shop_images/rev5_350px-02.png",
             "title": "Zili",
-            "text": "<p>I can't emphasize how much Shortcutx helped me in my weight loss journey. It's super easy to drink, one sachet every morning couple with a few light exercises every week and I lost over 20kg!<\/p>",
+            "text": "<p>I can't emphasize how much Shortcutx helped me in my weight loss journey. It's super easy to drink, one sachet every morning couple with a few light exercises every week and I lost over 20kg!</p>",
             "button_label": "",
             "button_link": "",
             "product": "",
@@ -2562,7 +2560,7 @@
         "template--16756803535088__e88215f3-26cc-4f02-98c5-d290e5aee8ab-16859828671ef39516-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Screenshot_2023-06-06_at_12.43.03_AM.png",
+            "image1": "shopify://shop_images/Screenshot_2023-06-06_at_12.43.03_AM.png",
             "col_dk": "4",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -2597,13 +2595,13 @@
             "txt_align": "start",
             "sub_heading": "over",
             "heading": "145,465",
-            "text": "<p>boxes sold and counting<\/p>",
+            "text": "<p>boxes sold and counting</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
             "use_shadow": false,
             "button_label": "Buy now",
-            "button_link": "shopify:\/\/products\/fat-burner-apple-cider-fruit-juice",
+            "button_link": "shopify://products/fat-burner-apple-cider-fruit-juice",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
@@ -2836,11 +2834,11 @@
       "type": "apps",
       "blocks": {
         "b5290e87-3fcc-42c1-90c1-c97834c2ed19": {
-          "type": "shopify:\/\/apps\/maestrooo-section-feed\/blocks\/app-block\/43cd482b-515a-4e82-b170-05d391763cd2",
+          "type": "shopify://apps/maestrooo-section-feed/blocks/app-block/43cd482b-515a-4e82-b170-05d391763cd2",
           "disabled": true,
           "settings": {
             "title": "Follow us @shortcutx.co",
-            "subheading": "<p>Keep updated on our promotions, launches, and reviews! <\/p>",
+            "subheading": "<p>Keep updated on our promotions, launches, and reviews! </p>",
             "button_text": "",
             "button_link": "",
             "layout": "sliding_carousel",
@@ -2861,7 +2859,7 @@
           }
         },
         "socialwidget_instagram_feed_base_widget_8acJFy": {
-          "type": "shopify:\/\/apps\/socialwidget\/blocks\/base-widget\/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
+          "type": "shopify://apps/socialwidget/blocks/base-widget/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
           "settings": {
           }
         }
