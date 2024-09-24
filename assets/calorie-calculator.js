@@ -22,16 +22,16 @@ function clickCalculateCalorie(e){
         activity_factor = 1.2;
         break;
       case 'light':
-        activity_factor = 1.375;
+        activity_factor = 1.25;
         break;
       case 'moderate': 
-        activity_factor = 1.55;
+        activity_factor = 1.35;
         break;
       case 'active' : 
-        activity_factor = 1.725;
+        activity_factor = 1.55;
         break;
       case 'extreme' : 
-        activity_factor = 1.9;
+        activity_factor = 1.75;
       default:
         break;
     }
