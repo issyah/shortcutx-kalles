@@ -42,9 +42,9 @@ function clickCalculateCalorie(e){
     console.log(bmr);
     // starting formula before activity level 
     if(gender === 'female'){
-      bmr = 655.1  + (9.563 * parseFloat(weight)) + (1.850 * parseFloat(height)) - (4.676 * parseFloat(age));
+      bmr = 447.593 + (9.247 * parseFloat(weight)) + (3.098 * parseFloat(height)) - (4.330 * parseFloat(age));
     }else if (gender === 'male'){
-      bmr = 66.5 + (13.75 * parseFloat(weight)) + (5.003 * parseFloat(height)) - (6.75 * parseFloat(age));
+      bmr = 88.362 + (13.397 * parseFloat(weight)) + (4.799 * parseFloat(height)) - (5.677 * parseFloat(age));
     }
     var final_calorie = bmr * activity_factor;
     console.log(final_calorie);
