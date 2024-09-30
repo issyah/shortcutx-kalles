@@ -533,6 +533,7 @@
         "member_eAF8p3",
         "member_awPBfT"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
