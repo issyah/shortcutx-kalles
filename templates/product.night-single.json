@@ -458,7 +458,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/17_56f38be1-2096-421a-8911-6e47e315ee0a.png",
+            "image1": "shopify://shop_images/17_ed47c763-c38f-4f68-8e94-b455bfd9b664.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -502,7 +502,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
@@ -562,11 +562,11 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
