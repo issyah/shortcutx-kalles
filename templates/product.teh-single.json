@@ -275,10 +275,10 @@
     "image_text_rayEMU": {
       "type": "image_text",
       "blocks": {
-        "bl_image_ctkY4J": {
+        "bl_image_a6yTXa": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/website_backgroud_12.png",
+            "image1": "shopify://shop_images/29_5837384d-1154-43af-b09f-a4f7074c9e91.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -303,36 +303,10 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "bl_text_mDrtyb": {
-          "type": "bl_text",
-          "disabled": true,
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "center",
-            "sub_heading": "Night Shred enhances both the quantity and quality of your sleep while boosting your body’s fat-burning capabilities. You’ll experience relaxation quickly and fall asleep more swiftly.",
-            "heading": "ENJOY DEEP SLEEP WHILE BURNING FAT",
-            "text": "<h5>Our Night Fat Burner is back by popular demand and is now a permanent addition to our lineup. Enjoy the soothing wildberry lavender flavor in convenient 7-pack sets. Sip before bed to relax, fall into deep sleep, and enhance fat burning overnight. Formulated with essential vitamins and minerals, it supports restful sleep and boosts your weight loss journey, making it the perfect nighttime companion.</h5>",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "bl_image_ctkY4J",
-        "bl_text_mDrtyb"
+        "bl_image_a6yTXa"
       ],
       "settings": {
         "design_heading": "1",
@@ -352,7 +326,7 @@
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -361,36 +335,12 @@
     "image_text_yH6bcD": {
       "type": "image_text",
       "blocks": {
-        "bl_text_VxeVX7": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "end",
-            "sub_heading": "",
-            "heading": "ID-aIG ™ & Grape Seed Extract",
-            "text": "<h4>✔ ID-aIG</h4><p>A brown seaweed extract derived from Ascophyllum Nodosum and utilized to help limit fat and sugar storage in the body and control weight.</p><h4>✔ Grape Seed Exract</h4><p>Helps to prevent absorption of dietary fat. It is also known to help to control blood sugar from spike after consuming carbohydrates.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_ywMqWA": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/21_2b97efd9-0bfc-4a51-b07b-c82eed3887d9.png",
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify://shop_images/30_eb37974b-4ab2-4f4f-a984-e04760b9fb49.png",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -416,7 +366,6 @@
         }
       },
       "block_order": [
-        "bl_text_VxeVX7",
         "bl_image_ywMqWA"
       ],
       "settings": {
@@ -437,7 +386,187 @@
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_6p4ETm": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_jQJkqC": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/31_af51b647-ba64-418a-af7a-8a304b76203d.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_jQJkqC"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_HqDhwp": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_8CPHcK": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/32_dbf1759a-24a6-49b9-b5f5-40409573bbaf.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_8CPHcK"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_CkHWna": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_eztVda": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/33_a01902b9-6dad-4f8e-be2a-ac56aba85234.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_eztVda"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -607,35 +736,10 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "bl_text_tUBXDj": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "FORMULATED WITH CHAMOMILE EXTRACT GABA (GAMMA-AMINOBUTYRIC ACID), VALERIAN ROOT EXTRACT, ASHWAGANDHA ROOT EXTRACT",
-            "heading": "CRAFTED TO REDUCE STRESS, ANXIETY, AND CALM YOUR NERVOUS SYSTENM",
-            "text": "<h4>✔ CHAMOMILE EXTRACT GABA (GAMMA-AMINOBUTYRIC ACID)</h4><p>Calms the nervous system and helps to control anxiety. Naturally stabilises your mood and improves daily quality of life. </p><h4>✔ VALERIAN ROOT EXTRACT </h4><p>Aids in alleviating mood, reduces stress levels. Aids in falling asleep faster, and spend more time in deep stage sleep.</p><h4>✔ ASHWAGANDA ROOT EXTRACT </h4><p>Reduces sleeplessness, fatigue, and reduced serum cortisol levels. Aids in improvements in sleep efficiency, total sleep time, sleep latency.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "bl_image_cxjaMF",
-        "bl_text_tUBXDj"
+        "bl_image_cxjaMF"
       ],
       "disabled": true,
       "settings": {
@@ -1137,6 +1241,9 @@
     "main",
     "image_text_rayEMU",
     "image_text_yH6bcD",
+    "image_text_6p4ETm",
+    "image_text_HqDhwp",
+    "image_text_CkHWna",
     "our_team_WYKrzg",
     "image_text_Cj6iL6",
     "image_text_gbbUKH",
