@@ -52,7 +52,7 @@
           "disabled": true,
           "settings": {
             "des": "2",
-            "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.<\/p>",
+            "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.</p>",
             "length": 31,
             "readm": false,
             "readm_txt": "Read more"
@@ -142,7 +142,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Ingredients",
-            "content": "<p>{{ product.metafields.custom.ingredients.value  }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.ingredients.value  }}</p>",
             "page": ""
           }
         },
@@ -150,7 +150,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Benefits",
-            "content": "<p>{{ product.metafields.custom.benefits.value }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.benefits.value }}</p>",
             "page": ""
           }
         },
@@ -199,7 +199,7 @@
           "type": "tab_html",
           "settings": {
             "title": "How to Consume",
-            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
             "page": ""
           }
         }
@@ -278,7 +278,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/website_backgroud_4.png",
+            "image1": "shopify://shop_images/27.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -322,11 +322,11 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "50px,50px,",
+        "mg": "",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -335,34 +335,10 @@
     "image_text_WUYYgb": {
       "type": "image_text",
       "blocks": {
-        "bl_text_p8qmHm": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "center",
-            "sub_heading": "",
-            "heading": "WHY DO YOU NEED PROBIOTICS?",
-            "text": "",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_PWxMkJ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/website_backgroud_6.png",
+            "image1": "shopify://shop_images/28.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -390,7 +366,6 @@
         }
       },
       "block_order": [
-        "bl_text_p8qmHm",
         "bl_image_PWxMkJ"
       ],
       "settings": {
@@ -407,11 +382,11 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -423,9 +398,9 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/website_product_description_images_9.png",
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify://shop_images/29.svg",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -448,35 +423,10 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "bl_text_tUBXDj": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "FORMULATED WITH L-CARNITINE + L-ARGININE + L-LYSINE",
-            "heading": "",
-            "text": "<h4>✔ L-CARNITINE<\/h4><p>L-carnitine supplements <strong>reduced lactate levels<\/strong> and heart rate and <strong>increases lipid metabolism <\/strong>by helping the body turn fat into energy.<\/p><h4>✔ L-ARGININE<\/h4><p>Assists in producing proteins and <strong>improving body circulation.<\/strong> L-arginine is converted in the body into a chemical called nitric oxide. Nitric oxide causes blood vessels to open wider for <strong>improved blood flow.<\/strong> L-arginine also stimulates the release of growth hormone, insulin, and other substances in the body.<\/p><h4>✔ L-LYSINE <\/h4><p>L-lysine is an <strong>essential amino acid <\/strong>that your body cannot produce naturally. It helps your body by <strong>increasing calcium absorption <\/strong>and works together with other amino acids to <strong>move fatty acids<\/strong> with ease across cells to be <strong>burned for energy<\/strong> which aids in weight loss.<\/p>",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "bl_image_cxjaMF",
-        "bl_text_tUBXDj"
+        "bl_image_cxjaMF"
       ],
       "settings": {
         "design_heading": "1",
@@ -492,11 +442,11 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -508,9 +458,9 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/website_product_description_images_3.png",
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify://shop_images/30.svg",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -533,37 +483,11 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "bl_text_fjA78h": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "L-CARNITINE MOVES FATTY ACID INTO YOUR CELLS TO BE BURNED FOR ENERGY",
-            "heading": "BOOSTED WITH L-CARNITINE",
-            "text": "<h5>SHORTCUTX NIGHT FAT BURNER IS FORMULATED WITH L-CARNITINE TO AID IN BURNING OF FATS. <\/h5><h4>✔ <strong>Enhances Fat Burning<\/strong>: <\/h4><p>Helps the body convert fat into energy, aiding in weight loss and fat metabolism.<\/p><h4>✔ <strong>Boosts Energy Levels<\/strong>: <\/h4><p>Increases energy production by transporting fatty acids into the mitochondria, the powerhouse of cells.<\/p><h4>✔ <strong>Improves Exercise Performance<\/strong>: <\/h4><p>Reduces muscle soreness and fatigue, allowing for better endurance and recovery during workouts.<\/p><h4>✔ <strong>Enhances Brain Function<\/strong>:<\/h4><p>Protects brain cells from damage and may improve cognitive function and mental clarity.<\/p><h4>✔ <strong>Aids in Muscle Recovery<\/strong>: <\/h4><p>Helps repair muscle tissue after exercise, reducing recovery time and enhancing muscle growth.<\/p>",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "bl_image_yazr6N",
-        "bl_text_fjA78h"
+        "bl_image_yazr6N"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -578,11 +502,11 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -594,9 +518,9 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/website_product_description_images_4.png",
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify://shop_images/31.svg",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -619,37 +543,11 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "bl_text_GYkE7B": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "INFUSED WITH LAVANDER FLAVOUR",
-            "heading": "PACKED WITH MULTIVITAMINS AND MULTIMINERALS FOR OPTIMAL NUTRITION",
-            "text": "<h6>✔ <strong>Supports Immune Function<\/strong>: <\/h6><p>Helps strengthen the immune system to fight off infections.<\/p><h6>✔ <strong>Boosts Energy Levels<\/strong>: <\/h6><p>Enhances energy production and reduces fatigue.<\/p><h6>✔ <strong>Promotes Healthy Aging<\/strong>: <\/h6><p>Provides essential nutrients that may help slow the aging process.<\/p><h6>✔ <strong>Supports Bone Health<\/strong>: <\/h6><p>Contributes to strong bones and teeth, reducing the risk of fractures.<\/p><h6>✔ <strong>Improves Mood and Mental Well-being<\/strong>:<\/h6><p>Helps maintain emotional balance and cognitive function.<\/p><h6>✔ <strong>Supports Heart Health<\/strong>: <\/h6><p>Aids in maintaining healthy blood pressure and cholesterol levels.<\/p><p><\/p>",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "bl_image_MVFb64",
-        "bl_text_GYkE7B"
+        "bl_image_MVFb64"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -664,11 +562,11 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -780,7 +678,7 @@
           "settings": {
             "title": "Shipping & Delivery",
             "shipping_1": "las la-truck,FREE SHIPPING,Free shipping for all US order",
-            "shipping_2": "las la-headset,SUPPORT 24\/7,We support 24 hours a day",
+            "shipping_2": "las la-headset,SUPPORT 24/7,We support 24 hours a day",
             "shipping_3": "las la-exchange-alt,30 DAYS RETURN,You have 30 days to return",
             "shipping_4": "",
             "shipping_5": "",
@@ -793,7 +691,7 @@
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
-            "date": "2022\/12\/26",
+            "date": "2022/12/26",
             "content_align": "center",
             "cdt_des": "2",
             "countdown_pos": "2",
@@ -939,7 +837,7 @@
       "type": "apps",
       "blocks": {
         "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -959,7 +857,7 @@
     "dc6e4ebd-9b14-4bb8-8df1-9a9b35ed06e3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='\/cart\/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n<\/script>",
+        "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price/100,\n      $value: data.total_price/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}/cart/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='/cart/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n</script>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
