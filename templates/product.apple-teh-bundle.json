@@ -278,7 +278,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/36_2b4c9e04-3c34-433c-a9e4-d85b7b204bc3.png",
+            "image1": "shopify://shop_images/36.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -338,7 +338,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/37.png",
+            "image1": "shopify://shop_images/37_37b80c58-43ce-443c-94b8-cc99705822d2.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
