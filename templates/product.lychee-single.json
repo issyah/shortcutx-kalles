@@ -398,7 +398,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/29.svg",
+            "image1": "shopify://shop_images/website_backgroud_4.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
