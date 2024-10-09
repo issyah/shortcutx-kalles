@@ -338,7 +338,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/42.svg",
+            "image1": "shopify://shop_images/42_39b2c63f-d6b2-441b-93c0-4bc65eb2bb0a.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
