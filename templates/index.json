@@ -222,8 +222,9 @@
       "blocks": {
         "image_parent_LxrKjX": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_Tumbler.svg",
+            "image": "shopify://shop_images/Website_Banner_1.svg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
