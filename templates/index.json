@@ -224,9 +224,10 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify://shop_images/Website_Banner_1.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_3.svg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/key-products",
+            "link_img1": "shopify://products/new-shortcutx-max-fat-burner",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
