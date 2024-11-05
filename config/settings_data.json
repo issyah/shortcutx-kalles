@@ -491,8 +491,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "link": "shopify://products/bundle-of-2-shortcutx-detox-juice",
-              "content": "<p><strong>[BACK IN STOCK] </strong>Night Fat Burner is back by popular demand! [icon_arrow]</p>",
+              "link": "shopify://products/new-shortcutx-max-fat-burner",
+              "content": "<p><strong>[FRESH FROM UK] </strong>Shortcutx Max: 3x Stronger, 3x Better, 3x Faster [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
