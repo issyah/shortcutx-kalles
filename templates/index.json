@@ -222,13 +222,12 @@
       "blocks": {
         "image_parent_mENw86": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_13.png",
-            "image_mb": "shopify://shop_images/Website_Banner_13.png",
+            "image": "shopify://shop_images/Website_Banner_5_1.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_5_1.svg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/key-products",
+            "link_img1": "shopify://collections/meal-replacement",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
