@@ -488,6 +488,16 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "announcement_RadDbk": {
+            "type": "announcement",
+            "settings": {
+              "link": "shopify://collections/all",
+              "content": "<p>[BLACK FRIDAY SALE] BUY 2 GET 1 50% OFF. 25 Nov - 3 Dec. </p>",
+              "countdown": "2024/06/30",
+              "txt_day": "days",
+              "dayx": 0
+            }
+          },
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
@@ -498,13 +508,13 @@
               "dayx": 0
             }
           },
-          "announcement_RadDbk": {
+          "announcement_DGYEi8": {
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "link": "shopify://collections/all",
-              "content": "<p>[NATIONAL DAY PROMO] 35% OFF our v1 Teh Tarik and Caramel Macchiato from 1 - 31 Aug!</p>",
-              "countdown": "2024/06/30",
+              "link": "",
+              "content": "<p>Today deal sale off 70%. End in [countdown]. Hurry Up!! [icon_arrow]</p>",
+              "countdown": "2023/12/26",
               "txt_day": "days",
               "dayx": 0
             }
@@ -544,8 +554,9 @@
           }
         },
         "block_order": [
-          "announcement-bar-0",
           "announcement_RadDbk",
+          "announcement-bar-0",
+          "announcement_DGYEi8",
           "announcement-bar-1",
           "announcement-bar-2",
           "b2b5fc9d-1142-47bc-a56b-a0a5dccbb000"
@@ -1524,18 +1535,15 @@
           },
           "mb_nav-4": {
             "type": "wis",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-5": {
             "type": "sea",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-7": {
             "type": "help",
@@ -1546,13 +1554,11 @@
           },
           "mb_nav-8": {
             "type": "lang",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-9": {
             "type": "cur",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1568,8 +1574,7 @@
           "mb_nav-8",
           "mb_nav-9"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mb_cat": {
         "type": "mb_cat",
@@ -1778,27 +1783,23 @@
           "02afbc74-7e86-47eb-a54c-4b782b9be1ec",
           "6d74ffce-83b8-4201-9d3a-c200e5962277"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mini_cart": {
         "type": "mini_cart",
         "blocks": {
           "mini_cart-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-2": {
             "type": "agree",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-3": {
             "type": "btnc",
@@ -1820,8 +1821,7 @@
           },
           "mini_cart-5": {
             "type": "img",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-6": {
             "type": "btn",
@@ -1922,15 +1922,11 @@
               "show_dynamic_checkout": true,
               "btn_txt2": "3",
               "button_color_payment": "dark",
-              "product_list": [
-
-              ],
+              "product_list": [],
               "show_product_current": true,
               "qty_val": "0",
               "advance_label": "Choose style",
-              "advance_pr_list": [
-
-              ]
+              "advance_pr_list": []
             }
           },
           "main-qv-4": {
@@ -2039,8 +2035,7 @@
       },
       "search-hidden": {
         "type": "search-hidden",
-        "settings": {
-        }
+        "settings": {}
       },
       "login-sidebar": {
         "type": "login-sidebar",
@@ -2110,8 +2105,7 @@
         "blocks": {
           "main-wishlist-0": {
             "type": "layout",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2157,8 +2151,7 @@
         "blocks": {
           "main-compare-0": {
             "type": "basic",
-            "settings": {
-            }
+            "settings": {}
           },
           "main-compare-1": {
             "type": "availability",
@@ -2346,9 +2339,7 @@
               "icon_heading": "las la-gem",
               "top_subheading": "Maybe this will help...",
               "tophead_mb": 30,
-              "product_list": [
-
-              ],
+              "product_list": [],
               "product_des": "1",
               "show_vendor": false,
               "image_ratio": "rationt",
@@ -2421,8 +2412,7 @@
           "0318c729-6aa7-4e73-b7f9-1cad399d2224",
           "newsletter_hgdztg"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "t4s_custom_color": {
         "type": "t4s_custom_color",
@@ -2440,8 +2430,7 @@
         "block_order": [
           "06eaa184-e59c-4525-ac5d-eac6fc91f3e8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "main-qs": {
         "type": "main-qs",
@@ -2526,16 +2515,12 @@
         "block_order": [
           "14770600-c9ef-4dc1-afbb-0efa120a1bd4"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "extras": {
         "type": "extras",
-        "custom_css": [
-
-        ],
-        "settings": {
-        }
+        "custom_css": [],
+        "settings": {}
       },
       "header-sidebar": {
         "type": "header-sidebar",
@@ -2857,33 +2842,27 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "decbbfc3-9244-4e44-a730-6167ce3aafe7": {
         "type": "shopify://apps/instagram-feed-story-tiktok/blocks/social-widget/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "10436698916776057164": {
         "type": "shopify://apps/appstle-subscriptions/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11656770355074664061": {
         "type": "shopify://apps/pasilobus-google-analytics-4/blocks/ga4/a193266a-8f65-4da8-bcba-d9df8d371e21",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -2907,8 +2886,7 @@
       "7280966411886983154": {
         "type": "shopify://apps/monk/blocks/app-embed/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
