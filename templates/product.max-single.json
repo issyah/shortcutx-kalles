@@ -269,7 +269,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/4_8a68b942-3f0d-4f7a-b836-31e70335e7da.png",
+            "image1": "shopify://shop_images/4.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -299,7 +299,6 @@
       "block_order": [
         "bl_image_ctkY4J"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -330,7 +329,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/5_b9b1404c-9a67-4b0e-a43b-58b97b42cd69.png",
+            "image1": "shopify://shop_images/5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -360,7 +359,6 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -391,7 +389,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/7_d5457573-1e7c-4cc6-ae1b-ce97b70ca939.png",
+            "image1": "shopify://shop_images/7_b4f6f9b3-bdb2-4884-b18c-5dc663dedb27.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -421,7 +419,6 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -452,7 +449,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/6_2e595d8a-a5ff-490a-9133-158ae30cc86e.png",
+            "image1": "shopify://shop_images/6.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -482,7 +479,6 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -543,7 +539,6 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
