@@ -509,7 +509,7 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Shopee_Description_Shortcutx_1366_x_768_px.png",
+            "image1": "shopify://shop_images/8_75e8fe5b-4651-446e-8311-11a3692ee7dd.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
