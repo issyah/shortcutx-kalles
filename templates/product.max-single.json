@@ -299,6 +299,7 @@
       "block_order": [
         "bl_image_ctkY4J"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -359,6 +360,7 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -419,6 +421,7 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -479,6 +482,7 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -539,6 +543,7 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
