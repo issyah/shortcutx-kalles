@@ -553,7 +553,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "",
+        "mg": ",,20px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
