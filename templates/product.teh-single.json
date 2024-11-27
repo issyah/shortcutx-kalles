@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -86,15 +86,11 @@
             "show_dynamic_checkout": false,
             "btn_txt2": "3",
             "button_color_payment": "dark",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
             "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
+            "advance_pr_list": []
           }
         },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
@@ -156,8 +152,7 @@
         },
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
           "type": "store_pickup",
-          "settings": {
-          }
+          "settings": {}
         },
         "meta": {
           "type": "meta",
@@ -221,9 +216,7 @@
         "94011ade-ec25-4d68-b37a-70660ede49dd",
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "pr_layout": "default",
         "enable_sticky_info": true,
@@ -261,9 +254,7 @@
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": [
-
-        ],
+        "product_list": [],
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",
@@ -278,7 +269,7 @@
         "bl_image_a6yTXa": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/22.svg",
+            "image1": "shopify://shop_images/48.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -322,11 +313,11 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "",
+        "mg": "50px,,,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": "",
+        "mg_mb": "30px,,,",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -338,7 +329,7 @@
         "bl_image_ywMqWA": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/website_backgroud_3_8a04d0fd-846a-484d-adda-45a4b7d480c8.svg",
+            "image1": "shopify://shop_images/49.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -398,7 +389,7 @@
         "bl_image_jQJkqC": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/24.svg",
+            "image1": "shopify://shop_images/50.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -458,7 +449,7 @@
         "bl_image_8CPHcK": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/25.svg",
+            "image1": "shopify://shop_images/52.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -518,7 +509,7 @@
         "bl_image_eztVda": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/26.svg",
+            "image1": "shopify://shop_images/53.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -547,6 +538,66 @@
       },
       "block_order": [
         "bl_image_eztVda"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_CNbVep": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_NbpKhf": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/54.svg",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_NbpKhf"
       ],
       "settings": {
         "design_heading": "1",
@@ -1217,8 +1268,7 @@
       "block_order": [
         "loox-product-reviews"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "dc6e4ebd-9b14-4bb8-8df1-9a9b35ed06e3": {
       "type": "custom-liquid",
@@ -1244,6 +1294,7 @@
     "image_text_6p4ETm",
     "image_text_HqDhwp",
     "image_text_CkHWna",
+    "image_text_CNbVep",
     "our_team_WYKrzg",
     "image_text_Cj6iL6",
     "image_text_gbbUKH",
