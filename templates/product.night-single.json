@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -86,15 +86,11 @@
             "show_dynamic_checkout": false,
             "btn_txt2": "3",
             "button_color_payment": "dark",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
             "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
+            "advance_pr_list": []
           }
         },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
@@ -156,8 +152,7 @@
         },
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
           "type": "store_pickup",
-          "settings": {
-          }
+          "settings": {}
         },
         "meta": {
           "type": "meta",
@@ -221,9 +216,7 @@
         "94011ade-ec25-4d68-b37a-70660ede49dd",
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "pr_layout": "default",
         "enable_sticky_info": true,
@@ -261,9 +254,7 @@
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": [
-
-        ],
+        "product_list": [],
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",
@@ -278,7 +269,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/7_89760786-d86a-4214-9eba-a27e2fce243b.svg",
+            "image1": "shopify://shop_images/21_5c26081b-6493-4c60-8a69-dd8a31cb4dde.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -322,11 +313,11 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "",
+        "mg": "50px",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,,",
+        "mg_mb": "20px,,,",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -338,7 +329,7 @@
         "bl_image_Nbrhtr": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/8_f910aff1-6086-40c9-9bf2-b8177a8a136b.svg",
+            "image1": "shopify://shop_images/22_85057dc5-8653-4292-aa79-1cd4f0c4edb9.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -398,7 +389,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/9_63fd85da-fc4d-4903-acb0-b6b67ec7b2d0.svg",
+            "image1": "shopify://shop_images/23.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -458,7 +449,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/10_ad36f421-ae9c-4932-83ee-dc71ffb32bb1.svg",
+            "image1": "shopify://shop_images/24_ac8a02b8-070e-4b87-bc55-b39cd0075be9.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -518,7 +509,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/11.svg",
+            "image1": "shopify://shop_images/25_28dbfb9d-9155-40de-b417-0cfbbaf2f7ca.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -578,9 +569,9 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/website_product_description_images_4.png",
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify://shop_images/26_97f3e0d4-bee1-42a8-a87c-c78f0258f0fd.svg",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -603,37 +594,11 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "bl_text_GYkE7B": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "INFUSED WITH LAVANDER FLAVOUR",
-            "heading": "PACKED WITH MULTIVITAMINS AND MULTIMINERALS FOR OPTIMAL NUTRITION",
-            "text": "<h6>✔ <strong>Supports Immune Function</strong>: </h6><p>Helps strengthen the immune system to fight off infections.</p><h6>✔ <strong>Boosts Energy Levels</strong>: </h6><p>Enhances energy production and reduces fatigue.</p><h6>✔ <strong>Promotes Healthy Aging</strong>: </h6><p>Provides essential nutrients that may help slow the aging process.</p><h6>✔ <strong>Supports Bone Health</strong>: </h6><p>Contributes to strong bones and teeth, reducing the risk of fractures.</p><h6>✔ <strong>Improves Mood and Mental Well-being</strong>:</h6><p>Helps maintain emotional balance and cognitive function.</p><h6>✔ <strong>Supports Heart Health</strong>: </h6><p>Aids in maintaining healthy blood pressure and cholesterol levels.</p><p></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#bf1932",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "bl_image_MVFb64",
-        "bl_text_GYkE7B"
+        "bl_image_MVFb64"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -937,8 +902,7 @@
       "block_order": [
         "loox-product-reviews"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "dc6e4ebd-9b14-4bb8-8df1-9a9b35ed06e3": {
       "type": "custom-liquid",
