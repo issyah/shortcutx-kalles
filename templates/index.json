@@ -223,6 +223,46 @@
         "image_parent_mENw86": {
           "type": "image_parent",
           "settings": {
+            "image": "shopify://shop_images/Website_Banner_12.12.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_6_3.svg",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "shopify://collections/key-products",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "center",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 3,
+            "animation_delay": 40
+          }
+        },
+        "image_parent_epPRbC": {
+          "type": "image_parent",
+          "settings": {
             "image": "shopify://shop_images/365_SACHET_1_0e714a45-b69f-44ff-8912-826f26410cba.svg",
             "image_mb": "shopify://shop_images/365_SACHET_1_0e714a45-b69f-44ff-8912-826f26410cba.svg",
             "image_position": "8",
@@ -936,6 +976,7 @@
       },
       "block_order": [
         "image_parent_mENw86",
+        "image_parent_epPRbC",
         "image_parent_8BymdV",
         "image_parent_LxrKjX",
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
@@ -2354,27 +2395,7 @@
         "b5290e87-3fcc-42c1-90c1-c97834c2ed19": {
           "type": "shopify://apps/maestrooo-section-feed/blocks/app-block/43cd482b-515a-4e82-b170-05d391763cd2",
           "disabled": true,
-          "settings": {
-            "title": "Follow us @shortcutx.co",
-            "subheading": "<p>Keep updated on our promotions, launches, and reviews! </p>",
-            "button_text": "",
-            "button_link": "",
-            "layout": "sliding_carousel",
-            "image_size": "small",
-            "add_spacing": true,
-            "rows_count": 2,
-            "show_author": false,
-            "show_caption": true,
-            "show_date": true,
-            "click_action": "open_instagram",
-            "heading_color": "#000000",
-            "subheading_color": "#000000",
-            "button_background": "#000000",
-            "button_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_text_color": "#ffffff",
-            "overlay_opacity": 65
-          }
+          "settings": {}
         },
         "socialwidget_instagram_feed_base_widget_8acJFy": {
           "type": "shopify://apps/socialwidget-instafeed/blocks/base-widget/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
