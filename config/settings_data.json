@@ -498,6 +498,17 @@
               "dayx": 0
             }
           },
+          "announcement_Pmnwz7": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "link": "",
+              "content": "<p>Today deal sale off 70%. End in [countdown]. Hurry Up!! [icon_arrow]</p>",
+              "countdown": "2023/12/26",
+              "txt_day": "days",
+              "dayx": 0
+            }
+          },
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
@@ -555,6 +566,7 @@
         },
         "block_order": [
           "announcement_RadDbk",
+          "announcement_Pmnwz7",
           "announcement-bar-0",
           "announcement_DGYEi8",
           "announcement-bar-1",
