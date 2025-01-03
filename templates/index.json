@@ -222,6 +222,7 @@
       "blocks": {
         "image_parent_mENw86": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_8.svg",
             "image_mb": "shopify://shop_images/Website_Banner_11.svg",
@@ -262,6 +263,7 @@
         },
         "image_parent_epPRbC": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/365_SACHET_1_0e714a45-b69f-44ff-8912-826f26410cba.svg",
             "image_mb": "shopify://shop_images/365_SACHET_1_0e714a45-b69f-44ff-8912-826f26410cba.svg",
