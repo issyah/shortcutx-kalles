@@ -263,10 +263,9 @@
         },
         "image_parent_epPRbC": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/365_SACHET_1_0e714a45-b69f-44ff-8912-826f26410cba.svg",
-            "image_mb": "shopify://shop_images/365_SACHET_1_0e714a45-b69f-44ff-8912-826f26410cba.svg",
+            "image": "shopify://shop_images/Website_Banner_10_b910436a-a356-435b-a5ad-d47e0eb048c4.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_10_b910436a-a356-435b-a5ad-d47e0eb048c4.svg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
@@ -2394,18 +2393,12 @@
     "1689065658ece8d2cb": {
       "type": "apps",
       "blocks": {
-        "b5290e87-3fcc-42c1-90c1-c97834c2ed19": {
-          "type": "shopify://apps/maestrooo-section-feed/blocks/app-block/43cd482b-515a-4e82-b170-05d391763cd2",
-          "disabled": true,
-          "settings": {}
-        },
         "socialwidget_instagram_feed_base_widget_8acJFy": {
           "type": "shopify://apps/socialwidget-instafeed/blocks/base-widget/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
           "settings": {}
         }
       },
       "block_order": [
-        "b5290e87-3fcc-42c1-90c1-c97834c2ed19",
         "socialwidget_instagram_feed_base_widget_8acJFy"
       ],
       "settings": {}
