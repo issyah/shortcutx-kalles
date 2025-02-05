@@ -269,7 +269,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/29.svg",
+            "image1": "shopify://shop_images/9_93d9352a-4c98-462c-8a74-8df4c131a2f1.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -313,7 +313,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "",
+        "mg": "20px",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
@@ -329,7 +329,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/30_a4d9b140-ca5e-42ba-b944-ac444da41a1c.svg",
+            "image1": "shopify://shop_images/10_412987e7-0283-4402-9524-9b37e7816db4.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -389,7 +389,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/33_2161c129-afd0-4111-ac72-281f9fa2a8f4.svg",
+            "image1": "shopify://shop_images/11_b1d748cb-8999-4467-92df-7f2d2ed31a7a.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -449,8 +449,9 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify://shop_images/12_5e46b2b0-17e5-4777-b573-d746c096bb2b.svg",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -478,7 +479,6 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -509,8 +509,9 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "image1": "shopify://shop_images/13_a616efed-c767-488a-8996-c017fa9ca50b.svg",
+            "col_dk": "12",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -538,7 +539,126 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
-      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_dzCjkG": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_E9J9VQ": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/14_78217144-c8d7-43ce-b385-11bb4db2163f.svg",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_E9J9VQ"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_hy73Vj": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_mB9GTR": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/15.svg",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_mB9GTR"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -868,6 +988,8 @@
     "image_text_Cj6iL6",
     "image_text_gbbUKH",
     "image_text_9EbnCj",
+    "image_text_dzCjkG",
+    "image_text_hy73Vj",
     "d04c193c-455c-49d1-8052-6b476007dc5c",
     "sidebar",
     "product-recommendations",
