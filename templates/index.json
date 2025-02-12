@@ -222,10 +222,9 @@
       "blocks": {
         "image_parent_mENw86": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_15.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_17.svg",
+            "image": "shopify://shop_images/Website_Banner_22.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_23.svg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/slimming-tea-coffee",
