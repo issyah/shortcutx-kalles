@@ -261,14 +261,14 @@
             "animation_delay": 40
           }
         },
-        "image_parent_epPRbC": {
+        "image_parent_LxrKjX": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_10_b910436a-a356-435b-a5ad-d47e0eb048c4.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_10_b910436a-a356-435b-a5ad-d47e0eb048c4.svg",
+            "image": "shopify://shop_images/Website_Banner_24.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_27.svg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/key-products",
+            "link_img1": "shopify://products/new-shortcutx-max-fat-burner",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
@@ -304,8 +304,8 @@
         "image_parent_8BymdV": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_5_1.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_5_1.svg",
+            "image": "shopify://shop_images/Website_Banner_18.png",
+            "image_mb": "shopify://shop_images/Website_Banner_19.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/meal-replacement",
@@ -341,14 +341,14 @@
             "animation_delay": 40
           }
         },
-        "image_parent_LxrKjX": {
+        "image_parent_epPRbC": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_1.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_4.svg",
+            "image": "shopify://shop_images/Website_Banner_10_b910436a-a356-435b-a5ad-d47e0eb048c4.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_10_b910436a-a356-435b-a5ad-d47e0eb048c4.svg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://products/new-shortcutx-max-fat-burner",
+            "link_img1": "shopify://collections/key-products",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
@@ -977,9 +977,9 @@
       },
       "block_order": [
         "image_parent_mENw86",
-        "image_parent_epPRbC",
-        "image_parent_8BymdV",
         "image_parent_LxrKjX",
+        "image_parent_8BymdV",
+        "image_parent_epPRbC",
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
         "164602873867eb3815-0",
         "image_parent_H34eai",
