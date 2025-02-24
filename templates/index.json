@@ -1519,20 +1519,20 @@
     "60a7e69b-a1b8-41fd-8534-9311d09e24ef": {
       "type": "feature_columns",
       "blocks": {
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0": {
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/website-03.jpg",
-            "title": "Lychee Lemon Fat Burner v2.0",
-            "text": "<p>Our latest addition to our fat burner juice collection, with a new and enhanced formula. The Lychee Lemon Fat Burner Juice helps you to lose weight naturally and fast! This natural weight loss supplement helps to breakdown stubborn fats, curbs your appetite and help you feel fuller quicker.  </p>",
-            "button_label": "Buy Lychee Lemon Fat Burner",
-            "button_link": "shopify://products/2-0-shortcutx-lychee-lemon-fat-burner-juice",
+            "image": "shopify://shop_images/max-01.png",
+            "title": "Shortcutx Max",
+            "text": "<p>The ultimate fat-burning drink designed to help you achieve your weight loss goals quickly and efficiently. Packed with powerful ingredients, it’s three times more effective than traditional fat burners. Shortcutx Max accelerates metabolism, promotes fat loss, and helps you achieve a slimmer physique, all in one drink!</p>",
+            "button_label": "Shop Shortcutx Max",
+            "button_link": "shopify://products/new-shortcutx-max-fat-burner",
             "open_link": "_self",
             "btn_icon": false,
-            "button_style": "default",
+            "button_style": "outline",
             "btn_size": "large",
-            "btn_cl": "primary",
+            "btn_cl": "custom1",
             "button_effect": "fade"
           }
         },
@@ -1540,7 +1540,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/website-02.jpg",
+            "image": "shopify://shop_images/acv.png",
             "title": "Apple Cider Fat Burner Juice v2.0",
             "text": "<p>Our best-selling fat burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily.</p>",
             "button_label": "Buy Apple Cider Fat Burner Juice",
@@ -1553,28 +1553,28 @@
             "button_effect": "fade"
           }
         },
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2": {
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/website-04.jpg",
-            "title": "Caramel Macchiato Coffee v2.0",
-            "text": "<p>Start your day on a high note with our new and enhanced formula of our Caramel Macchiato slimming coffee. Our 7-day sugar-free formula is proven effective to boost energy levels, stimulate body fat burning, and curb sugar craving. Your daily morning and afternoon companion got healthier!</p><p></p><p> </p><p></p><p>     </p>",
-            "button_label": "Shop Slimming Coffee",
-            "button_link": "shopify://products/2-0-shortcutx-slimming-coffee-caramel-macchiato",
+            "image": "shopify://shop_images/nfbf.png",
+            "title": "Lychee Lemon Fat Burner v2.0",
+            "text": "<p>Designed to work while you rest, helping you burn fat and lose weight overnight. With its unique blend of ingredients, it boosts metabolism, aids fat breakdown, and promotes restful sleep. Wake up feeling lighter and refreshed with this easy, ready-to-drink solution.</p>",
+            "button_label": "Buy Night Fat Burner",
+            "button_link": "shopify://products/shortcutx-night-fat-burner-juice",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
             "btn_size": "large",
-            "btn_cl": "custom1",
+            "btn_cl": "primary",
             "button_effect": "fade"
           }
         }
       },
       "block_order": [
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0",
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2",
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1",
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2"
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0"
       ],
       "custom_css": [
         "a.t4s-btn {width: 100%;}",
