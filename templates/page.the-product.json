@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "26a20a56-981e-4161-8d4d-0c9ba9c78e53": {
@@ -102,7 +102,7 @@
           "settings": {
             "title": "Shipping & Delivery",
             "shipping_1": "las la-truck,FREE SHIPPING,Free shipping for all US order",
-            "shipping_2": "las la-headset,SUPPORT 24\/7,We support 24 hours a day",
+            "shipping_2": "las la-headset,SUPPORT 24/7,We support 24 hours a day",
             "shipping_3": "las la-exchange-alt,30 DAYS RETURN,You have 30 days to return",
             "shipping_4": "",
             "shipping_5": "",
@@ -274,10 +274,10 @@
             "package_label": "",
             "package_label_bg": "#ff0000",
             "price": 10400,
-            "des": "\/ one time payment",
+            "des": "/ one time payment",
             "txt": "4 boxes of Shortcutx Fat Burner Apple Cider Fruit Juice",
             "button_text": "Buy now",
-            "button_link": "shopify:\/\/products\/fat-burner-apple-cider-fruit-juice",
+            "button_link": "shopify://products/fat-burner-apple-cider-fruit-juice",
             "button_style": "default",
             "btns_size": "large",
             "btns_cl": "dark",
@@ -293,10 +293,10 @@
             "package_label": "Hot",
             "package_label_bg": "#222222",
             "price": 9900,
-            "des": "\/ per month",
+            "des": "/ per month",
             "txt": "4 boxes of Shortcutx Fat Burner Apple cider Fruit juice delivered every month automatically!\nSave 15% off!",
             "button_text": "Subscribe now",
-            "button_link": "shopify:\/\/products\/bundle-4-box-fat-burner-apple-cider-fruit-juice",
+            "button_link": "shopify://products/bundle-4-box-fat-burner-apple-cider-fruit-juice",
             "button_style": "default",
             "btns_size": "extra-large",
             "btns_cl": "primary",
@@ -352,7 +352,7 @@
           "settings": {
             "tab": "General",
             "icon": "la-question-circle",
-            "content": "<h5><strong>Is Shortcutx Halal? <\/strong><\/h5><p>Yes. Shortcutx is halal certified. <\/p><h5><strong>Is Shortcutx safe for breastfeeding mummies?<\/strong><\/h5><p>Yes. Shortcutx is safe to be consumed by nursing mothers.<\/p><h5><strong>Is Shortcutx suitable for pregnant mummies?<\/strong><\/h5><p>No. We do not advise pregnant mothers to consume Shortcutx.<\/p><h5><strong>Is Shortcutx suitable for those trying to conceive?<\/strong><\/h5><p>Yes. It is absolutely safe to consume for those who are trying to conceive.\u2028<\/p><h5><strong>Is Shortcutx safe for diabetic or high blood pressure patients?<\/strong><\/h5><p>Yes it is safe as there is no sugar added.<\/p><h5><strong>Can we consume more than 1 sachet of Shortcutx in a day?<\/strong><\/h5><p>You may consume up to 2 sachets a day. If you are consuming other supplements, you should take them at least 2 hours apart. <\/p><h5><strong>Are there any diet restrictions that I have to follow?<\/strong><\/h5><p>You can still eat whatever you want, but for best results, we recommend to skip or cut down on carbohydrates and fast food. It is also advisable to drink plenty of plain water.<\/p><h5><strong>Are there any side effects for Shortcutx?<\/strong><\/h5><p>There are no known side effects when consuming Shortcutx. Our products does NOT contain any banned or harmful substances as listed by the health authorities.<\/p><h5><strong>Will I gain any weight if I stop consuming Shortcutx?<\/strong><\/h5><p>It is highly unlikely that your weight will rebound when you stop consuming Shortcutx. Rest assured that many of our consumers have managed to lead a better quality of life even after they stop consuming Shortcutx.<\/p><p><\/p><p><\/p>"
+            "content": "<h5><strong>Is Shortcutx Halal? </strong></h5><p>Yes. Shortcutx is made only from Halal ingredients. </p><h5><strong>Is Shortcutx safe for breastfeeding mummies?</strong></h5><p>Yes. Shortcutx is safe to be consumed by nursing mothers 6 months postpartum.</p><h5><strong>Is Shortcutx suitable for pregnant mummies?</strong></h5><p>No. We do not advise pregnant mothers to consume Shortcutx as there might be ingredients that triggers hormonal imbalance.</p><h5><strong>Is Shortcutx suitable for those trying to conceive?</strong></h5><p>Yes. It is absolutely safe to consume for those who are trying to conceive. </p><h5><strong>Is Shortcutx safe for diabetic or high blood pressure patients?</strong></h5><p>Although there is no added sugar in our products, it is generally safe to consume. However, we strongly suggest checking with a medical practitioner on our products before you consume.</p><h5><strong>Can we consume more than 1 sachet of Shortcutx in a day?</strong></h5><p>You may consume up to 2 sachets a day. If you are consuming other supplements, you should take them at least 2 hours apart. </p><h5><strong>Are there any diet restrictions that I have to follow?</strong></h5><p>You can still eat whatever you want, but for best results, we recommend to skip or cut down on carbohydrates and fast food. It is also advisable to drink plenty of plain water to keep yourself hydrated.</p><h5><strong>Are there any side effects for Shortcutx?</strong></h5><p>There are no known side effects when consuming Shortcutx. Our products does NOT contain any banned or harmful substances as listed by the health authorities.</p><h5><strong>Will I gain any weight if I stop consuming Shortcutx?</strong></h5><p>It is highly unlikely that your weight will rebound when you stop consuming Shortcutx. Rest assured that many of our consumers have managed to lead a better quality of life even after they stop consuming Shortcutx.</p><p></p><p></p>"
           }
         },
         "3da33074-e481-4bee-83b6-c26e5246220d": {
@@ -360,7 +360,7 @@
           "settings": {
             "tab": "Apple Cider Vinegar",
             "icon": "la-apple-alt",
-            "content": "<h5><strong>What are the ingredients in ACV? <\/strong><\/h5><p>Apple Cider Vinegar extract, RO water, Apple Powder, Kiwi Powder, Raspberry Extract, Nutgrass Extract, Green Tea Extract, Pumpkin Seed Extract, Guarana Extract, Barley Extract, L-Carnitine, Wheat Fiber, Inulin.<\/p><h5><strong>How does the ACV taste? <\/strong><\/h5><p>Our ACV juice is made with Himalayan apples, which makes the juice naturally sweet. There is no bitter taste. <\/p><h5><strong>When do I consume this? <\/strong><\/h5><p>It is best to consume the ACV in the mornings on an empty stomach. This is so that it allows your body to absorb all the goodness and nutritions from the juice best! <\/p><h5><strong>Can I consume the ACV while menstruating\/on period? <\/strong><\/h5><p>It is best to pause consuming ACV for the length of your period, and resume once your period finished. This is to let your body naturally cycle itself. <\/p><h5><strong>Can males consume ACV? <\/strong><\/h5><p>Yes! All our products are for both! <\/p>"
+            "content": "<h5><strong>What are the ingredients in ACV? </strong></h5><p>Apple Cider Vinegar extract, Filtered Water, Apple Powder, Kiwi Powder, Raspberry Extract, Nutgrass Extract, Green Tea Extract, Pumpkin Seed Extract, Guarana Extract, Barley Extract, L-Carnitine, Wheat Fiber, Inulin.</p><h5><strong>How does the ACV taste? </strong></h5><p>Our ACV juice is made with Himalayan apples, which makes the juice naturally sweet. There is no bitter taste. </p><h5><strong>When do I consume this? </strong></h5><p>It is best to consume the ACV in the morning on an empty stomach. This is so that it allows your body to absorb all the goodness and nutritions from the juice best! </p><h5><strong>Can I consume the ACV while menstruating/on period? </strong></h5><p>It is best to pause consuming ACV for the length of your period, and resume once your period finished. This is to let your body naturally cycle itself. </p><h5><strong>Can males consume ACV? </strong></h5><p>Yes! All our products are for males and females! </p>"
           }
         },
         "031615ec-8bab-4325-b3d2-dc4930073f83": {
@@ -368,7 +368,7 @@
           "settings": {
             "tab": "Lychee Lemon",
             "icon": "las la-lemon",
-            "content": "<h5><strong>What are the ingredients in Lychee Lemon? <\/strong><\/h5><p>RO Water, Lychee Juice Powder, Lemon Powder, Green Coffee Bean Extract, L-Carnitine, L- Arginine, L-Lysine, Guarana Extract, White Kidney Bean Extract, Chicory, Probiotic, Inulin<\/p><h5><strong>How does the Lychee Lemon taste? <\/strong><\/h5><p>Our ACV juice is made with lychee and lemon, which makes the juice sweet with a hint of natural sourness. <\/p><h5><strong>When do I consume this? <\/strong><\/h5><p>It is best to consume the Lychee Lemon in the mornings on an empty stomach. This is so that it allows your body to absorb all the goodness and nutrients from the juice best! <\/p><h5>What is the difference between ACV and Lychee Lemon?<strong> <\/strong><\/h5><p>Both the ACV and Lychee are Fat Burners. However, the Lychee Lemon has additional probiotics and a detox element to the juice, which helps you to cleanse out your body's toxins. <\/p><h5><strong>Can I consume the Lychee Lemon while menstruating\/on period? <\/strong><\/h5><p>It is best to pause consuming Lychee Lemon for the length of your period, and resume once your period finished. This is to let your body naturally cycle itself. <\/p><h5><strong>Can males consume Lychee Lemon? <\/strong><\/h5><p>Yes! All our products are for both! <\/p>"
+            "content": "<h5><strong>What are the ingredients in Lychee Lemon? </strong></h5><p>Filtered Water, Lychee Juice Powder, Lemon Powder, Green Coffee Bean Extract, L-Carnitine, L- Arginine, L-Lysine, Guarana Extract, White Kidney Bean Extract, Chicory, Probiotic, Inulin</p><h5><strong>How does the Lychee Lemon taste? </strong></h5><p>Sweet with a hint of natural sourness. </p><h5><strong>When do I consume this? </strong></h5><p>It is best to consume the Lychee Lemon in the morning on an empty stomach. This is so that it allows your body to absorb all the goodness and nutrients from the juice best! </p><h5>What is the difference between ACV and Lychee Lemon?<strong> </strong></h5><p>Both the ACV and Lychee are Fat Burners. However, the Lychee Lemon has additional probiotics and a detox element to the juice, which helps you to cleanse out your body's toxins. </p><h5><strong>Can I consume the Lychee Lemon while menstruating/on period? </strong></h5><p>It is best to pause consuming Lychee Lemon for the length of your period, and resume once your period finished. This is to let your body naturally cycle itself. </p><h5><strong>Can males consume Lychee Lemon? </strong></h5><p>Yes! All our products are for males and females.</p>"
           }
         },
         "d87fd24f-774c-4b88-ab58-d40615f6b3b8": {
@@ -376,7 +376,7 @@
           "settings": {
             "tab": "Slimming Drinks",
             "icon": "la-mug-hot",
-            "content": "<h5><strong>How many calories is the slimming drink?<\/strong><\/h5><p>Our Slimming Caramel Coffee is 76 calories, and our Slimming Teh Tarik is 86 calories per sachet. <\/p><h5><strong>Does this contain caffeine? <\/strong><\/h5><p>Yes, there is caffeine in the ingredients. <\/p><h5><strong>Can I drink this with other supplements? <\/strong><\/h5><p>Yes you can. Most people pair this drink with our Apple Cider Vinegar Fat Burner Juice. <\/p><h5><strong>When should I consume this drink? <\/strong><\/h5><p>You can drink this any time of the day. Best would be to replace this with your usual coffee\/tea or when you feel like snacking. <\/p>"
+            "content": "<h5><strong>How many calories is the slimming drink?</strong></h5><p>Our Slimming Caramel Coffee is 76 calories, and our Slimming Teh Tarik is 86 calories per sachet. </p><h5><strong>Does this contain caffeine? </strong></h5><p>Yes, there is caffeine in the ingredients. </p><h5><strong>Can I drink this with other supplements? </strong></h5><p>Yes you can. Most people pair this drink with our Apple Cider Vinegar Fat Burner Juice. </p><h5><strong>When should I consume this drink? </strong></h5><p>You can drink this any time of the day. Best would be to replace this with your usual coffee/tea or when you feel like snacking. </p>"
           }
         },
         "ebef7a46-c40d-43fa-ac97-0fe73c07b6f4": {
@@ -384,15 +384,16 @@
           "settings": {
             "tab": "Flat Tummy Shakes",
             "icon": "las la-cookie-bite",
-            "content": "<h5><strong>How to consume Flat Tummy Shakes? <\/strong><\/h5><p>Flat Tummy Shakes should be consumed as a meal replacement, to replace one of your meals daily. Simply mix the sachet’s powder in our Shortcutx Shaker Bottle and pour 400ml of water or milk. If you choose milk, we recommend using a low fat milk. Once you drop in the blender ball, cap the bottle tightly and shake well.<\/p><h5><strong>Can breastfeeding moms consume this? <\/strong><\/h5><p>Yes! All our products are breastfeeding friendly. <\/p><h5><strong>Can pregnant moms consume Flat Tummy Shakes? <\/strong><\/h5><p>Yes, our Flat Tummy Shakes can be consumed when pregnant. <\/p><h5><strong>Do Flat Tummy Shakes contain nuts? <\/strong><\/h5><p>Our Flat Tummy Shakes contain traces of nuts. <\/p>"
+            "content": "<h5><strong>How to consume Flat Tummy Shakes? </strong></h5><p>Flat Tummy Shakes should be consumed as a meal replacement, to replace one of your meals daily. Simply mix the sachet’s powder in our Shortcutx Shaker Bottle and pour 400ml of water or milk. If you choose milk, we recommend using a low fat milk. Once you drop in the blender ball, cap the bottle tightly and shake well.</p><h5><strong>Can breastfeeding moms consume this? </strong></h5><p>Yes! All our products are breastfeeding friendly. </p><h5><strong>Can pregnant moms consume Flat Tummy Shakes? </strong></h5><p>Hi, it would be best not to consume any weight loss supplements during your pregnancy.</p><h5><strong>Do Flat Tummy Shakes contain nuts? </strong></h5><p>Our Flat Tummy Shakes contain traces of nuts. </p>"
           }
         },
         "4242f8e6-54ec-456a-b560-301ad9dc93f4": {
           "type": "tab_item",
+          "disabled": true,
           "settings": {
             "tab": "30 Day Weight Loss Pack",
             "icon": "las la-box",
-            "content": "<h5><strong>What’s inside the 30 Day Weight Loss Pack?<\/strong><\/h5><p>The 30 Day Weight Loss Pack contains 14 Cookie Butter Crunch sachets, 7 Night Fat Burners, and 8 Detox Juice. <\/p><h5><strong>How to consume a 30 Day Weight Loss Pack? <\/strong><\/h5><p>The weight loss pack comes with its own schedule in the box. <\/p><p>Week 1: Flat Tummy Shakes - consume this as a meal replacement. <\/p><p>Week 2: Night Fat Burner - this should be taken 30 minutes to 1 hour before bed. <\/p><p>Week 3: Flat Tummy Shakes - consume this as a meal replacement. <\/p><p>Week 4: Detox Juice - drink this in the morning on an empty stomach. <\/p><h5><strong>Can I buy the sachet separately? <\/strong><\/h5><p>No, we do not sell the different items in the pack as loose pieces. <\/p>"
+            "content": "<h5><strong>What’s inside the 30 Day Weight Loss Pack?</strong></h5><p>The 30 Day Weight Loss Pack contains 14 Cookie Butter Crunch sachets, 7 Night Fat Burners, and 8 Detox Juice. </p><h5><strong>How to consume a 30 Day Weight Loss Pack? </strong></h5><p>The weight loss pack comes with its own schedule in the box. </p><p>Week 1: Flat Tummy Shakes - consume this as a meal replacement. </p><p>Week 2: Night Fat Burner - this should be taken 30 minutes to 1 hour before bed. </p><p>Week 3: Flat Tummy Shakes - consume this as a meal replacement. </p><p>Week 4: Detox Juice - drink this in the morning on an empty stomach. </p><h5><strong>Can I buy the sachet separately? </strong></h5><p>No, we do not sell the different items in the pack as loose pieces. </p>"
           }
         }
       },
@@ -404,8 +405,7 @@
         "ebef7a46-c40d-43fa-ac97-0fe73c07b6f4",
         "4242f8e6-54ec-456a-b560-301ad9dc93f4"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
