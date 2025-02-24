@@ -779,7 +779,6 @@
           },
           "08c08080-fcb4-4534-bc57-dfcd9afe6024": {
             "type": "drop",
-            "disabled": true,
             "settings": {
               "title": "The Product",
               "url": "shopify://pages/the-product",
