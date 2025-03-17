@@ -382,6 +382,7 @@
         },
         "image_parent_epPRbC": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_10_b910436a-a356-435b-a5ad-d47e0eb048c4.svg",
             "image_mb": "shopify://shop_images/Website_Banner_10_b910436a-a356-435b-a5ad-d47e0eb048c4.svg",
