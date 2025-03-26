@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -53,7 +62,7 @@
           "type": "bl_info",
           "settings": {
             "heading": "CONTACT INFORMATION",
-            "text": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p><p><i class=\"las la-home fs__16\"><\/i> 2 Gambas Cres, #01-35 Nordcom II, Singapore 757044<\/p><p><i class=\"las la-phone fs__16\"><\/i> +65 8775 2114<\/p><p><i class=\"las la-envelope fs__16\"><\/i> contact@shortcutx.co<\/p><i class=\"las la-clock fs__16\"><\/i> Everyday 9:00-18:00"
+            "text": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p><p><i class=\"las la-home fs__16\"></i> 2 Gambas Cres, #01-35 Nordcom II, Singapore 757044</p><p><i class=\"las la-envelope fs__16\"></i> contact@shortcutx.co</p><i class=\"las la-clock fs__16\"></i> Monday to Friday 9:00-18:00"
           }
         }
       },
@@ -63,7 +72,7 @@
       ],
       "settings": {
         "enable_map": true,
-        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d15954.208190236426!2d103.8152639!3d1.4435645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da13c97adcf70f%3A0xc5ace66d004acefc!2sShortcutx%20Pte%20Ltd!5e0!3m2!1sen!2ssg!4v1685893958749!5m2!1sen!2ssg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.208190236426!2d103.8152639!3d1.4435645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da13c97adcf70f%3A0xc5ace66d004acefc!2sShortcutx%20Pte%20Ltd!5e0!3m2!1sen!2ssg!4v1685893958749!5m2!1sen!2ssg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
