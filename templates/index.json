@@ -224,8 +224,8 @@
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_39.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_39.svg",
+            "image": "shopify://shop_images/Website_Banner_40.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_40.svg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
@@ -1696,18 +1696,6 @@
     },
     "17261228869bd18f11": {
       "type": "apps",
-      "blocks": {
-        "ghost_shoppable_ugc_video_ghost_shoppable_videos_ftUhUn": {
-          "type": "shopify://apps/ghost-shoppable-ugc-video/blocks/ghost_shoppable_videos/0c680c94-9038-480e-8e79-1229a9895cfb",
-          "settings": {
-            "ghost_collection_id": "66e290d9cffeadbcd708777e",
-            "display_type": "carousel"
-          }
-        }
-      },
-      "block_order": [
-        "ghost_shoppable_ugc_video_ghost_shoppable_videos_ftUhUn"
-      ],
       "settings": {}
     },
     "164620932069107a3a": {
