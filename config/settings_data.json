@@ -2889,13 +2889,6 @@
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       },
-      "16064005293743155225": {
-        "type": "shopify://apps/ghost-shoppable-ugc-video/blocks/ghost_embed_js/0c680c94-9038-480e-8e79-1229a9895cfb",
-        "disabled": false,
-        "settings": {
-          "devUrl": ""
-        }
-      },
       "7280966411886983154": {
         "type": "shopify://apps/monk/blocks/app-embed/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
         "disabled": false,
