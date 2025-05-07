@@ -419,6 +419,7 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
