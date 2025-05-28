@@ -1525,7 +1525,24 @@
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/Max_d531758c-97ed-44d9-b72d-accde10f57f7.webp",
-            "title": "Shortcutx Max",
+            "title": "Shortcutx Max Blackcurrant",
+            "text": "<p>The ultimate fat-burning drink designed to help you achieve your weight loss goals quickly and efficiently. Packed with powerful ingredients, it’s three times more effective than traditional fat burners. Shortcutx Max accelerates metabolism, promotes fat loss, and helps you achieve a slimmer physique, all in one drink!</p>",
+            "button_label": "Shop Shortcutx Max",
+            "button_link": "shopify://products/shortcutx-max-blackcurrent-fat-burner",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "outline",
+            "btn_size": "large",
+            "btn_cl": "custom1",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_i7xPqF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/max-01.png",
+            "title": "Shortcutx Max Berry Punch",
             "text": "<p>The ultimate fat-burning drink designed to help you achieve your weight loss goals quickly and efficiently. Packed with powerful ingredients, it’s three times more effective than traditional fat burners. Shortcutx Max accelerates metabolism, promotes fat loss, and helps you achieve a slimmer physique, all in one drink!</p>",
             "button_label": "Shop Shortcutx Max",
             "button_link": "shopify://products/shortcutx-max-blackcurrent-fat-burner",
@@ -1542,7 +1559,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/acv.png",
-            "title": "Apple Cider Fat Burner Juice v2.0",
+            "title": "Apple Cider Fat Burner Juice",
             "text": "<p>Our best-selling fat burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily.</p>",
             "button_label": "Buy Apple Cider Fat Burner Juice",
             "button_link": "shopify://products/fat-burner-apple-cider-fruit-juice",
@@ -1574,6 +1591,7 @@
       },
       "block_order": [
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2",
+        "text_block_i7xPqF",
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1",
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0"
       ],
@@ -1604,7 +1622,7 @@
         "space_v_item": "30",
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
-        "col_dk": "3",
+        "col_dk": "4",
         "col_tb": "2",
         "col_mb": "1",
         "loop": true,
