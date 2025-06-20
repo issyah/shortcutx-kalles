@@ -1447,6 +1447,23 @@
     "60a7e69b-a1b8-41fd-8534-9311d09e24ef": {
       "type": "feature_columns",
       "blocks": {
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/30D.png",
+            "title": "30 Days Weight Loss Pack",
+            "text": "<p>Transform your body and elevate your routine with a high-performance, all-in-one weight loss kit for those who demand excellence. This curated set delivers a full month of support with our improved fat burner, delicious meal-replacement shakes, and a soothing night-time formula. It’s weight loss made effortless, elegant, and effective.</p>",
+            "button_label": "Buy 30 Day Pack",
+            "button_link": "shopify://products/30-day-weight-loss-pack",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "outline",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "fade"
+          }
+        },
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2": {
           "type": "text_block",
           "settings": {
@@ -1481,23 +1498,6 @@
             "button_effect": "fade"
           }
         },
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/30D.png",
-            "title": "30 Days Weight Loss Pack",
-            "text": "<p>Transform your body and elevate your routine with a high-performance, all-in-one weight loss kit for those who demand excellence. This curated set delivers a full month of support with our improved fat burner, delicious meal-replacement shakes, and a soothing night-time formula. It’s weight loss made effortless, elegant, and effective.</p>",
-            "button_label": "Buy 30 Day Pack",
-            "button_link": "shopify://products/30-day-weight-loss-pack",
-            "open_link": "_self",
-            "btn_icon": false,
-            "button_style": "outline",
-            "btn_size": "large",
-            "btn_cl": "primary",
-            "button_effect": "fade"
-          }
-        },
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0": {
           "type": "text_block",
           "settings": {
@@ -1517,9 +1517,9 @@
         }
       },
       "block_order": [
+        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1",
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-2",
         "text_block_i7xPqF",
-        "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1",
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0"
       ],
       "custom_css": [
