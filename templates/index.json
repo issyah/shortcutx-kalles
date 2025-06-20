@@ -343,6 +343,7 @@
         },
         "image_parent_8BymdV": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_18.png",
             "image_mb": "shopify://shop_images/Website_Banner_19.png",
@@ -424,6 +425,7 @@
         },
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/APPLE_banner-05.jpg",
             "image_mb": "shopify://shop_images/APPLE_banner-04.jpg",
@@ -1592,7 +1594,7 @@
             "fw_pr": 600,
             "lh_pr": 0,
             "ls_pr": 0,
-            "pr_title_color": "#222",
+            "pr_title_color": "#222222",
             "pr_title_color_hover": "#56cfe1"
           }
         },
@@ -1639,7 +1641,7 @@
             "button_effect": "fade",
             "wishlist_color": "#222222",
             "wishlist_color_hover": "#56cfe1",
-            "wishlist_color_active": "#E81E1E",
+            "wishlist_color_active": "#e81e1e",
             "compare_color": "#222222",
             "compare_color_hover": "#56cfe1",
             "compare_color_active": "#222222",
