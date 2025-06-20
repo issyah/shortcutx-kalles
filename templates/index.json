@@ -1658,7 +1658,7 @@
       "type": "custom-html",
       "custom_css": [],
       "settings": {
-        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    See results after 7 Days</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    Fast and effective results</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    See results after 7 Days</span>\n</marquee>",
+        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    See results in just 7 days</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>Over 1,000,000 boxes sold</span><span>    Fast and effective results</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>Formulated with natural ingredients</span><span>    See results in just 7 days</span>\n</marquee>",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
