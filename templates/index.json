@@ -222,7 +222,6 @@
       "blocks": {
         "image_parent_H34eai": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_45.svg",
             "image_mb": "shopify://shop_images/Website_Banner_45.svg",
@@ -1486,11 +1485,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/acv.png",
-            "title": "Apple Cider Fat Burner Juice",
-            "text": "<p>Our best-selling fat burner is the World's First Apple Cider Fruit Juice. This new formula helps you lose weight easily with no side effects. It tastes just like an apple juice but contains Apple Cider Vinegar (ACV) which has been used by thousands of people in Asia to lose weight safely and easily.</p>",
-            "button_label": "Buy Apple Cider Fat Burner Juice",
-            "button_link": "shopify://products/fat-burner-apple-cider-fruit-juice",
+            "image": "shopify://shop_images/30D.png",
+            "title": "30 Days Weight Loss Pack",
+            "text": "<p>Transform your body and elevate your routine with a high-performance, all-in-one weight loss kit for those who demand excellence. This curated set delivers a full month of support with our improved fat burner, delicious meal-replacement shakes, and a soothing night-time formula. It’s weight loss made effortless, elegant, and effective.</p>",
+            "button_label": "Buy 30 Day Pack",
+            "button_link": "shopify://collections/all",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
