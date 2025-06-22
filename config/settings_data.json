@@ -503,10 +503,10 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "link": "",
-              "content": "<p>Today deal sale off 70%. End in [countdown]. Hurry Up!! [icon_arrow]</p>",
-              "countdown": "2023/12/26",
-              "txt_day": "days",
+              "link": "shopify://pages/events",
+              "content": "<p>Join Ride With Us 2025: Spin Cycling Event [icon_arrow]</p>",
+              "countdown": "",
+              "txt_day": "",
               "dayx": 0
             }
           },
