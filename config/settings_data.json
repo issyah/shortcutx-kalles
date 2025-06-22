@@ -1494,6 +1494,19 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
+          "menu_4NHJNU": {
+            "type": "menu",
+            "settings": {
+              "title": "Ride With Us 2025",
+              "url": "shopify://products/ride-with-us-community-ride-11-07-2025",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-bicycle"
+            }
+          },
           "mb_nav-1": {
             "type": "menu",
             "settings": {
@@ -1588,6 +1601,7 @@
           }
         },
         "block_order": [
+          "menu_4NHJNU",
           "mb_nav-1",
           "mb_nav-2",
           "a232f002-32ad-428e-8fce-064f90f82542",
