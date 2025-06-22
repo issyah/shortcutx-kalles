@@ -747,6 +747,19 @@
               "pos": "left"
             }
           },
+          "base_hRGdJR": {
+            "type": "base",
+            "settings": {
+              "title": "Ride With Us 2025",
+              "url": "shopify://products/ride-with-us-community-ride-11-07-2025",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f": {
             "type": "drop",
             "settings": {
@@ -814,6 +827,7 @@
           "334013b4-82f3-4046-8371-eaf3c3340153",
           "556a85dc-041d-4d44-8c22-263ed70a8b48",
           "120b4e2d-ed97-46f2-a06c-e7980a3a59b6",
+          "base_hRGdJR",
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab",
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
