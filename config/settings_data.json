@@ -511,6 +511,7 @@
           },
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "shopify://products/new-shortcutx-max-fat-burner",
               "content": "<p><strong>[FRESH FROM UK] </strong>Shortcutx Max: Stronger,  Better, Faster [icon_arrow]</p>",
