@@ -501,7 +501,6 @@
           },
           "announcement_Pmnwz7": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "link": "shopify://pages/events",
               "content": "<p>Join Ride With Us 2025: Spin Cycling Event [icon_arrow]</p>",
@@ -514,7 +513,7 @@
             "type": "announcement",
             "settings": {
               "link": "shopify://products/new-shortcutx-max-fat-burner",
-              "content": "<p><strong>[FRESH FROM UK] </strong>Shortcutx Max: 3x Stronger, 3x Better, 3x Faster [icon_arrow]</p>",
+              "content": "<p><strong>[FRESH FROM UK] </strong>Shortcutx Max: Stronger,  Better, Faster [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
