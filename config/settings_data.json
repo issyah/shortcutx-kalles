@@ -1501,8 +1501,8 @@
               "url": "shopify://products/ride-with-us-community-ride-11-07-2025",
               "open_link": "_self",
               "menu": "",
-              "lb": "",
-              "lb_cl": "",
+              "lb": "Join Now!",
+              "lb_cl": "#bf1932",
               "icons_op": "2",
               "icon": "las la-bicycle"
             }
