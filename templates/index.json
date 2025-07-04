@@ -222,13 +222,12 @@
       "blocks": {
         "7ec0ff00-0440-45d4-8339-a40fddf43963": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_51.svg",
             "image_mb": "shopify://shop_images/Website_Banner_51.svg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "",
+            "link_img1": "shopify://collections/key-products",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
