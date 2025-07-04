@@ -11,6 +11,7 @@
   "sections": {
     "breadcrumb": {
       "type": "brc-nav-product",
+      "disabled": true,
       "settings": {
         "breadcrumb_pr": true,
         "back_next_pr": true,
@@ -216,6 +217,7 @@
         "94011ade-ec25-4d68-b37a-70660ede49dd",
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "pr_layout": "default",
@@ -565,6 +567,7 @@
     },
     "d04c193c-455c-49d1-8052-6b476007dc5c": {
       "type": "pair-it-with",
+      "disabled": true,
       "settings": {
         "heading_align": "t4s-text-center",
         "top_heading": "Pair it with",
@@ -717,6 +720,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "show": true,
         "design_heading": "1",
@@ -771,6 +775,7 @@
     },
     "recently-viewed-products": {
       "type": "recently_viewed",
+      "disabled": true,
       "settings": {
         "show": true,
         "design_heading": "1",
@@ -842,10 +847,12 @@
       "block_order": [
         "loox-product-reviews"
       ],
+      "custom_css": [],
       "settings": {}
     },
     "dc6e4ebd-9b14-4bb8-8df1-9a9b35ed06e3": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price/100,\n      $value: data.total_price/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}/cart/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='/cart/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n</script>",
         "layout": "t4s-container-wrap",
@@ -875,7 +882,7 @@
             "title_linethrough_color": "#e96c5f",
             "desc_color": "#000000",
             "button_bg_color": "#e96c5f",
-            "button_fg_color": "#FFFFFF",
+            "button_fg_color": "#ffffff",
             "button_padding": "5px 10px 5px 10px",
             "button_radius": 10,
             "add_to_cart_label": "Add To Cart",
