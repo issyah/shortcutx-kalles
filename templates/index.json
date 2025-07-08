@@ -342,6 +342,7 @@
         },
         "image_parent_MBQtX4": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/35_e65907a6-e670-48f6-9741-a1c56dbcac66.png",
             "image_mb": "shopify://shop_images/36_20d247f1-cc64-4e99-b892-87c6a90986e3.png",
@@ -1052,12 +1053,13 @@
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-0": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/vulcan_pot.png",
+            "image": "shopify://shop_images/logos_top.png",
             "url": "https://vulcanpost.com/824307/naezily-founder-serial-entrepreneur-five-businesses/"
           }
         },
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-2": {
           "type": "logo_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/The-Independent-News-Media-1024-300x64-1.png",
             "url": ""
@@ -1065,6 +1067,7 @@
         },
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-1": {
           "type": "logo_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SME-e1716218096708-450x350.png",
             "url": ""
@@ -1072,6 +1075,7 @@
         },
         "ff876523-9092-4211-99f8-b1f5edb4aa5a": {
           "type": "logo_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2020-07-Tropika-Magazine-logo-250px.png",
             "url": ""
@@ -1079,6 +1083,7 @@
         },
         "b6d933f2-558c-4096-8696-5926c76ebeaa": {
           "type": "logo_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/logo.png",
             "url": ""
@@ -1118,9 +1123,9 @@
         "layout_des": "1",
         "click_image": "data-goto",
         "nav_thumbs": true,
-        "col_dk": "6",
-        "col_tb": "3",
-        "col_mb": "2",
+        "col_dk": "1",
+        "col_tb": "1",
+        "col_mb": "1",
         "space_item": "30",
         "space_item_mb": "30",
         "loop": true,
