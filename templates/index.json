@@ -1712,9 +1712,9 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "ride-with-us-community-ride-11-07-2025",
+        "product": "30-day-weight-loss-pack",
         "enable_sticky_info": false,
-        "media_layout": "thumbnails_bottom",
+        "media_layout": "without_thumbnails",
         "media_size": "medium",
         "thumb_lr_size": "medium",
         "image_ratio": "ratioadapt",
