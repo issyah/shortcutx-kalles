@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -86,15 +86,11 @@
             "show_dynamic_checkout": false,
             "btn_txt2": "3",
             "button_color_payment": "dark",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
             "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
+            "advance_pr_list": []
           }
         },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
@@ -156,8 +152,7 @@
         },
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
           "type": "store_pickup",
-          "settings": {
-          }
+          "settings": {}
         },
         "meta": {
           "type": "meta",
@@ -221,9 +216,7 @@
         "94011ade-ec25-4d68-b37a-70660ede49dd",
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "pr_layout": "default",
         "enable_sticky_info": true,
@@ -261,9 +254,7 @@
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": [
-
-        ],
+        "product_list": [],
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",
@@ -851,8 +842,7 @@
       "block_order": [
         "loox-product-reviews"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "dc6e4ebd-9b14-4bb8-8df1-9a9b35ed06e3": {
       "type": "custom-liquid",

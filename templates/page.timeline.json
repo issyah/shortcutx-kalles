@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -76,7 +85,7 @@
             "step_label": "1999",
             "sub_heading": "Condimentum fames egestas ad potenti",
             "heading": "Lementum musat dignissim",
-            "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,
@@ -98,7 +107,7 @@
             "step_label": "2000",
             "sub_heading": "Condimentum fames egestas ad potenti",
             "heading": "Lementum musat dignissim",
-            "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,
@@ -120,7 +129,7 @@
             "step_label": "2001",
             "sub_heading": "Condimentum fames egestas ad potenti",
             "heading": "Lementum musat dignissim",
-            "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
+            "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,

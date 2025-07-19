@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -38,7 +38,7 @@
         "4ccb8a07-ced7-4518-b278-9951b8bd6157"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_1412.jpg",
+        "image": "shopify://shop_images/IMG_1412.jpg",
         "use_specify_image": true,
         "parallax": false,
         "color": "#000000",
@@ -131,12 +131,12 @@
         "674adfcd-2de5-4787-a896-4dca350ec86f": {
           "type": "item",
           "settings": {
-            "link": "https:\/\/www.tiktok.com\/@shortcutx.sg?lang=en",
+            "link": "https://www.tiktok.com/@shortcutx.sg?lang=en",
             "open_link": "_blank",
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 50,
-            "image_icon": "shopify:\/\/shop_images\/logo_1_dde56f0b-c65f-4a7b-ad85-ab73b05307f6.png",
+            "image_icon": "shopify://shop_images/logo_1_dde56f0b-c65f-4a7b-ad85-ab73b05307f6.png",
             "icon_image_width": 1000,
             "img_svg": "",
             "w_image_svg": 60,
@@ -148,12 +148,12 @@
         "template--16765884858608__e4666f00-5478-4c93-ad59-09e91b4dc395-16872349365e20c612-0": {
           "type": "item",
           "settings": {
-            "link": "https:\/\/shopee.sg\/shortcutx",
+            "link": "https://shopee.sg/shortcutx",
             "open_link": "_blank",
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 50,
-            "image_icon": "shopify:\/\/shop_images\/Shopee_logo.svg",
+            "image_icon": "shopify://shop_images/Shopee_logo.svg",
             "icon_image_width": 50,
             "img_svg": "",
             "w_image_svg": 60,
@@ -165,12 +165,12 @@
         "7af7dcc7-be3b-43cb-80e9-e65c1889221e": {
           "type": "item",
           "settings": {
-            "link": "https:\/\/www.lazada.sg\/shop\/shortcutxofficial",
+            "link": "https://www.lazada.sg/shop/shortcutxofficial",
             "open_link": "_blank",
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 50,
-            "image_icon": "shopify:\/\/shop_images\/Lazada-Symbol.png",
+            "image_icon": "shopify://shop_images/Lazada-Symbol.png",
             "icon_image_width": 130,
             "img_svg": "",
             "w_image_svg": 60,
@@ -185,9 +185,7 @@
         "template--16765884858608__e4666f00-5478-4c93-ad59-09e91b4dc395-16872349365e20c612-0",
         "7af7dcc7-be3b-43cb-80e9-e65c1889221e"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -279,12 +277,12 @@
         "item_zntik7": {
           "type": "item",
           "settings": {
-            "link": "https:\/\/www.watsons.com.sg\/search?text=shortcutx&useDefaultSearch=false&brandRedirect=true",
+            "link": "https://www.watsons.com.sg/search?text=shortcutx&useDefaultSearch=false&brandRedirect=true",
             "open_link": "_blank",
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 50,
-            "image_icon": "shopify:\/\/shop_images\/1_db432dba-838f-4578-8269-385b7ead6cda.png",
+            "image_icon": "shopify://shop_images/1_db432dba-838f-4578-8269-385b7ead6cda.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 60,
@@ -296,12 +294,12 @@
         "item_ayKwkW": {
           "type": "item",
           "settings": {
-            "link": "https:\/\/bhgsingapore.com.sg\/?srsltid=AfmBOop2eksvsFYEfTAIe-G35WFXMyE7_kRijojNCRrXgCpNc7ElP2za",
+            "link": "https://bhgsingapore.com.sg/?srsltid=AfmBOop2eksvsFYEfTAIe-G35WFXMyE7_kRijojNCRrXgCpNc7ElP2za",
             "open_link": "_self",
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 50,
-            "image_icon": "shopify:\/\/shop_images\/4_d8ca0946-3fa9-4976-9e89-fb2ee22f413c.png",
+            "image_icon": "shopify://shop_images/4_d8ca0946-3fa9-4976-9e89-fb2ee22f413c.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 60,
@@ -313,12 +311,12 @@
         "c6455515-415e-4645-964f-6e7a7fee3c07": {
           "type": "item",
           "settings": {
-            "link": "https:\/\/shop.barakah.sg\/search?type=product&q=shortcutx",
+            "link": "https://shop.barakah.sg/search?type=product&q=shortcutx",
             "open_link": "_blank",
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 50,
-            "image_icon": "shopify:\/\/shop_images\/Barakah_Logo_Vector_1.webp",
+            "image_icon": "shopify://shop_images/Barakah_Logo_Vector_1.webp",
             "icon_image_width": 300,
             "img_svg": "",
             "w_image_svg": 60,
@@ -330,12 +328,12 @@
         "7ce6d104-b878-4a99-b13b-2c1a31638101": {
           "type": "item",
           "settings": {
-            "link": "https:\/\/tokowarisan.sg\/",
+            "link": "https://tokowarisan.sg/",
             "open_link": "_blank",
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 50,
-            "image_icon": "shopify:\/\/shop_images\/Thick-Toko-Warisan-Trading-Logo_FC-large.png",
+            "image_icon": "shopify://shop_images/Thick-Toko-Warisan-Trading-Logo_FC-large.png",
             "icon_image_width": 150,
             "img_svg": "",
             "w_image_svg": 60,
@@ -445,7 +443,7 @@
           "settings": {
             "enable_image": false,
             "title": "Afyana.co",
-            "text": "<p><a href=\"https:\/\/take.app\/afyana\" title=\"https:\/\/take.app\/afyana\">https:\/\/take.app\/afyana<\/a><\/p>",
+            "text": "<p><a href=\"https://take.app/afyana\" title=\"https://take.app/afyana\">https://take.app/afyana</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -461,7 +459,7 @@
           "settings": {
             "enable_image": false,
             "title": "BabyGarageSG",
-            "text": "<p><a href=\"http:\/\/www.BabyGarageSG.com\" title=\"http:\/\/www.BabyGarageSG.com\">http:\/\/www.BabyGarageSG.com<\/a><\/p>",
+            "text": "<p><a href=\"http://www.BabyGarageSG.com\" title=\"http://www.BabyGarageSG.com\">http://www.BabyGarageSG.com</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -477,7 +475,7 @@
           "settings": {
             "enable_image": false,
             "title": "Beautyfyxed",
-            "text": "<p><a href=\"https:\/\/www.beautyfyxed.com\" title=\"https:\/\/www.beautyfyxed.com\">www.beautyfyxed.com<\/a><\/p>",
+            "text": "<p><a href=\"https://www.beautyfyxed.com\" title=\"https://www.beautyfyxed.com\">www.beautyfyxed.com</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -493,7 +491,7 @@
           "settings": {
             "enable_image": false,
             "title": "DianAbdul",
-            "text": "<p><a href=\"https:\/\/shopee.sg\/dianabdul\" title=\"https:\/\/shopee.sg\/dianabdul\">https:\/\/shopee.sg\/dianabdul<\/a><\/p>",
+            "text": "<p><a href=\"https://shopee.sg/dianabdul\" title=\"https://shopee.sg/dianabdul\">https://shopee.sg/dianabdul</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -509,7 +507,7 @@
           "settings": {
             "enable_image": false,
             "title": "Emma_clozet",
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/emma_clozet\/?hl=en\" title=\"https:\/\/www.instagram.com\/emma_clozet\/?hl=en\">https:\/\/www.instagram.com\/emma_clozet\/?hl=en<\/a><\/p>",
+            "text": "<p><a href=\"https://www.instagram.com/emma_clozet/?hl=en\" title=\"https://www.instagram.com/emma_clozet/?hl=en\">https://www.instagram.com/emma_clozet/?hl=en</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -525,7 +523,7 @@
           "settings": {
             "enable_image": false,
             "title": "Euphorika",
-            "text": "<p><a href=\"https:\/\/www.euphorika.com.sg\" title=\"https:\/\/www.euphorika.com.sg\">www.euphorika.com.sg<\/a><\/p>",
+            "text": "<p><a href=\"https://www.euphorika.com.sg\" title=\"https://www.euphorika.com.sg\">www.euphorika.com.sg</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -541,7 +539,7 @@
           "settings": {
             "enable_image": false,
             "title": "FilaAllyshaBeauty",
-            "text": "<p><a href=\"https:\/\/linktr.ee\/FilaAllyshaBeauty\" title=\"https:\/\/linktr.ee\/FilaAllyshaBeauty\">https:\/\/linktr.ee\/FilaAllyshaBeauty<\/a><\/p>",
+            "text": "<p><a href=\"https://linktr.ee/FilaAllyshaBeauty\" title=\"https://linktr.ee/FilaAllyshaBeauty\">https://linktr.ee/FilaAllyshaBeauty</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -557,7 +555,7 @@
           "settings": {
             "enable_image": false,
             "title": "Jairoyalneeds",
-            "text": "<p><a href=\"https:\/\/instagram.com\/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==\" title=\"https:\/\/instagram.com\/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==\">https:\/\/instagram.com\/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==<\/a><\/p>",
+            "text": "<p><a href=\"https://instagram.com/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==\" title=\"https://instagram.com/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==\">https://instagram.com/jairoyalneeds?igshid=OGQ5ZDc2ODk2ZA==</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -573,7 +571,7 @@
           "settings": {
             "enable_image": false,
             "title": "Kiddyglow",
-            "text": "<p><a href=\"https:\/\/kiddyglow.com\/\" title=\"https:\/\/kiddyglow.com\/\">https:\/\/kiddyglow.com\/<\/a><\/p>",
+            "text": "<p><a href=\"https://kiddyglow.com/\" title=\"https://kiddyglow.com/\">https://kiddyglow.com/</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -589,7 +587,7 @@
           "settings": {
             "enable_image": false,
             "title": "Nabma_s",
-            "text": "<p><a href=\"https:\/\/instagram.com\/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==\" title=\"https:\/\/instagram.com\/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==\">https:\/\/instagram.com\/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==<\/a><\/p>",
+            "text": "<p><a href=\"https://instagram.com/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==\" title=\"https://instagram.com/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==\">https://instagram.com/nabma_sg?igshid=OGQ5ZDc2ODk2ZA==</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -605,7 +603,7 @@
           "settings": {
             "enable_image": false,
             "title": "Natalie La Bella",
-            "text": "<p><a href=\"http:\/\/www.natalielabella.co\" title=\"http:\/\/www.natalielabella.co\">http:\/\/www.natalielabella.co<\/a><\/p>",
+            "text": "<p><a href=\"http://www.natalielabella.co\" title=\"http://www.natalielabella.co\">http://www.natalielabella.co</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -621,7 +619,7 @@
           "settings": {
             "enable_image": false,
             "title": "Noorhaida1986",
-            "text": "<p><a href=\"https:\/\/shopee.sg\/noorhaida1986\" title=\"https:\/\/shopee.sg\/noorhaida1986\">https:\/\/shopee.sg\/noorhaida1986<\/a><\/p>",
+            "text": "<p><a href=\"https://shopee.sg/noorhaida1986\" title=\"https://shopee.sg/noorhaida1986\">https://shopee.sg/noorhaida1986</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -637,7 +635,7 @@
           "settings": {
             "enable_image": false,
             "title": "Oh.gorgeouss",
-            "text": "<p><a href=\"https:\/\/instagram.com\/oh.gorgeouss?igshid=YmMyMTA2M2Y=\" title=\"https:\/\/instagram.com\/oh.gorgeouss?igshid=YmMyMTA2M2Y=\">https:\/\/instagram.com\/oh.gorgeouss?igshid=YmMyMTA2M2Y=<\/a><\/p>",
+            "text": "<p><a href=\"https://instagram.com/oh.gorgeouss?igshid=YmMyMTA2M2Y=\" title=\"https://instagram.com/oh.gorgeouss?igshid=YmMyMTA2M2Y=\">https://instagram.com/oh.gorgeouss?igshid=YmMyMTA2M2Y=</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -653,7 +651,7 @@
           "settings": {
             "enable_image": false,
             "title": "Tiarakinz",
-            "text": "<p><a href=\"https:\/\/instagram.com\/shortcutx.singapore?igshid=MzRlODBiNWFlZA==\" title=\"https:\/\/instagram.com\/shortcutx.singapore?igshid=MzRlODBiNWFlZA==\">https:\/\/instagram.com\/shortcutx.singapore?igshid=MzRlODBiNWFlZA==<\/a><\/p>",
+            "text": "<p><a href=\"https://instagram.com/shortcutx.singapore?igshid=MzRlODBiNWFlZA==\" title=\"https://instagram.com/shortcutx.singapore?igshid=MzRlODBiNWFlZA==\">https://instagram.com/shortcutx.singapore?igshid=MzRlODBiNWFlZA==</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -669,7 +667,7 @@
           "settings": {
             "enable_image": false,
             "title": "thefsquared",
-            "text": "<p><a href=\"https:\/\/shopee.sg\/thefsquared\" title=\"https:\/\/shopee.sg\/thefsquared\">https:\/\/shopee.sg\/thefsquared<\/a><\/p>",
+            "text": "<p><a href=\"https://shopee.sg/thefsquared\" title=\"https://shopee.sg/thefsquared\">https://shopee.sg/thefsquared</a></p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -803,7 +801,7 @@
           "disabled": true,
           "settings": {
             "heading": "CONTACT INFORMATION",
-            "text": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p><p><i class=\"las la-home fs__16\"><\/i> 184 Main Rd E, St Albans Victoria 3021, Australia<\/p><p><i class=\"las la-phone fs__16\"><\/i> 1800-123-222 \/ 1900-1570-230<\/p><p><i class=\"las la-envelope fs__16\"><\/i> contact@company.com<\/p><i class=\"las la-clock fs__16\"><\/i> Everyday 9:00-17:00"
+            "text": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p><p><i class=\"las la-home fs__16\"></i> 184 Main Rd E, St Albans Victoria 3021, Australia</p><p><i class=\"las la-phone fs__16\"></i> 1800-123-222 / 1900-1570-230</p><p><i class=\"las la-envelope fs__16\"></i> contact@company.com</p><i class=\"las la-clock fs__16\"></i> Everyday 9:00-17:00"
           }
         }
       },
@@ -813,7 +811,7 @@
       ],
       "settings": {
         "enable_map": false,
-        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>",
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",

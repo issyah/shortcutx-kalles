@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -162,7 +171,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "bundles",
-            "image": "shopify:\/\/shop_images\/23_75ffdaa2-bcec-44f5-9150-e8f901ff67d0.png",
+            "image": "shopify://shop_images/23_75ffdaa2-bcec-44f5-9150-e8f901ff67d0.png",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -174,36 +183,36 @@
           "type": "collection_item",
           "settings": {
             "collection": "meal-replacement",
-            "image": "shopify:\/\/shop_images\/27.png",
+            "image": "shopify://shop_images/27.png",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
             "collection_title": "Meal Replacements",
-            "collection_link": "shopify:\/\/collections\/meal-replacement"
+            "collection_link": "shopify://collections/meal-replacement"
           }
         },
         "template--16762629685488__16e62ed9-b02e-47fe-a56d-4b6475ca591c-168671479701c8b4ca-3": {
           "type": "collection_item",
           "settings": {
             "collection": "frontpage",
-            "image": "shopify:\/\/shop_images\/IMG_2201_1.jpg",
+            "image": "shopify://shop_images/IMG_2201_1.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
             "collection_title": "Fat Burners",
-            "collection_link": "shopify:\/\/collections\/frontpage"
+            "collection_link": "shopify://collections/frontpage"
           }
         },
         "template--16762629685488__16e62ed9-b02e-47fe-a56d-4b6475ca591c-168671479701c8b4ca-4": {
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-04_at_6.54.16_PM.png",
+            "image": "shopify://shop_images/Screenshot_2023-06-04_at_6.54.16_PM.png",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
-            "collection_title": "Slimming Tea\/Coffee",
-            "collection_link": "shopify:\/\/collections\/slimming-tea-coffee"
+            "collection_title": "Slimming Tea/Coffee",
+            "collection_link": "shopify://collections/slimming-tea-coffee"
           }
         },
         "template--16762629685488__16e62ed9-b02e-47fe-a56d-4b6475ca591c-168671479701c8b4ca-5": {

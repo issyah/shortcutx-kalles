@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -29,7 +38,7 @@
         "4ccb8a07-ced7-4518-b278-9951b8bd6157"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3.png",
+        "image": "shopify://shop_images/3.png",
         "use_specify_image": true,
         "parallax": false,
         "color": "#000000",
@@ -94,7 +103,7 @@
           "settings": {
             "icon": "none",
             "title": "Tab 01",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p>"
           }
         },
         "template--16758353232112__a377f2d0-29cd-4cbc-a138-5b43e1925d52-16859468697a5626f1-1": {
@@ -102,7 +111,7 @@
           "settings": {
             "icon": "none",
             "title": "Tab 02",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p>"
           }
         },
         "template--16758353232112__a377f2d0-29cd-4cbc-a138-5b43e1925d52-16859468697a5626f1-2": {
@@ -110,7 +119,7 @@
           "settings": {
             "icon": "none",
             "title": "Tab 03",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p>"
           }
         }
       },

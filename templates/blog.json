@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "c36a0992-c9bf-4bab-860a-df086ac2ad9c": {
@@ -57,7 +66,7 @@
         "190dccc0-921d-4bc6-8dbb-51e27461095d": {
           "type": "2",
           "settings": {
-            "content": "<p>Sub title page content<\/p>",
+            "content": "<p>Sub title page content</p>",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 16,

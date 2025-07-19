@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "f0c7eb07-7656-417f-b202-9b322cd25b6d": {
@@ -12,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": true,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/IMG_1113.jpg",
+            "image": "shopify://shop_images/IMG_1113.jpg",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -108,7 +117,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "The Shortcutx Story",
-            "text": "<p>Shortcutx Pte Ltd launched as a nutritional supplement company that focuses on convenience and effectiveness in 2022. Within the span of less than a year, Shortcutx company has experienced rapid growth and has established a presence in four different countries, namely Singapore, Malaysia, Dubai, and the United Kingdom. We have also been ranked the top 500 SME companies in Singapore. <\/p><p>Shortcutx’s goal is to get our audience the results that they want when it comes to their body. Our supplements come in several crowd pleasing flavours. Currently, our products range from ready to drink sachets, to powder form meal replacements. We also have several new exciting products lined up. <\/p><p>As we continue to grow, we are excited to expand globally. We aim to bring our solution to consumers around the world, helping them achieve their goals. Our team is comprised of professionals with a diverse range of skills and expertise, allowing us to adapt to the needs in different regions and industries. We are confident that our products will allow us to establish ourselves as a leader in the global Health & Wellness market.<\/p>",
+            "text": "<p>Shortcutx Pte Ltd launched as a nutritional supplement company that focuses on convenience and effectiveness in 2022. Within the span of less than a year, Shortcutx company has experienced rapid growth and has established a presence in four different countries, namely Singapore, Malaysia, Dubai, and the United Kingdom. We have also been ranked the top 500 SME companies in Singapore. </p><p>Shortcutx’s goal is to get our audience the results that they want when it comes to their body. Our supplements come in several crowd pleasing flavours. Currently, our products range from ready to drink sachets, to powder form meal replacements. We also have several new exciting products lined up. </p><p>As we continue to grow, we are excited to expand globally. We aim to bring our solution to consumers around the world, helping them achieve their goals. Our team is comprised of professionals with a diverse range of skills and expertise, allowing us to adapt to the needs in different regions and industries. We are confident that our products will allow us to establish ourselves as a leader in the global Health & Wellness market.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -126,7 +135,7 @@
         "template--16756803567856__94831cfe-7b31-44bc-bcb1-82f7f9145114-16859865419270c494-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/IMG_0784_dca67a5d-3d84-4ffe-8bdb-f7b3c03dda55.jpg",
+            "image1": "shopify://shop_images/IMG_0784_dca67a5d-3d84-4ffe-8bdb-f7b3c03dda55.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -187,7 +196,7 @@
         "template--16756803567856__eea7ebb5-cfe1-40d3-814c-43a4ba1a0c56-16859866267a2ecb8d-0": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-banner.jpg",
+            "image": "shopify://shop_images/home-banner.jpg",
             "img_pos": "left",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -197,7 +206,7 @@
             "step_label": "June 2022",
             "sub_heading": "",
             "heading": "Debuting the Apple Cider Fat  Burner Juice",
-            "description": "<p>Our Founder, Miza Nazili, launched Shortcutx by debuting the world’s first ever Apple Cider Vinegar Fat Burner Juice. Shortcutx experienced massive orders from all over the world and grew exponentially in the online marketplace<\/p>",
+            "description": "<p>Our Founder, Miza Nazili, launched Shortcutx by debuting the world’s first ever Apple Cider Vinegar Fat Burner Juice. Shortcutx experienced massive orders from all over the world and grew exponentially in the online marketplace</p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,
@@ -210,7 +219,7 @@
         "a6e31cf4-81ee-4d33-95ce-f191330c500e": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shortcutx2.gif",
+            "image": "shopify://shop_images/shortcutx2.gif",
             "img_pos": "right",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -220,7 +229,7 @@
             "step_label": "October 2022",
             "sub_heading": "",
             "heading": "#1 Best selling Health product on Shopee!",
-            "description": "<p>Shortcutx was quickly ranked as #1 Best Selling Health product on Shopee. Our consumers were loving how effective our product is. <\/p>",
+            "description": "<p>Shortcutx was quickly ranked as #1 Best Selling Health product on Shopee. Our consumers were loving how effective our product is. </p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,
@@ -233,7 +242,7 @@
         "fdc1b310-4bb1-48b5-a021-b622e904180c": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/003-2.jpg",
+            "image": "shopify://shop_images/003-2.jpg",
             "img_pos": "left",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -243,7 +252,7 @@
             "step_label": "November 2022",
             "sub_heading": "",
             "heading": "A blend of local flavour",
-            "description": "<p>Shortcutx launched its first Slimming Teh Tarik, which our consumers loved. As a staple drink flavour in every Sinagporean coffee shop, our Teh Tarik flavour was extremely well received and Shortcutx’s popularity continued to grow. <\/p>",
+            "description": "<p>Shortcutx launched its first Slimming Teh Tarik, which our consumers loved. As a staple drink flavour in every Sinagporean coffee shop, our Teh Tarik flavour was extremely well received and Shortcutx’s popularity continued to grow. </p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,
@@ -256,7 +265,7 @@
         "bb1f53ad-86fd-4e39-bfb5-65b732ecdd19": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/14.png",
+            "image": "shopify://shop_images/14.png",
             "img_pos": "right",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -266,7 +275,7 @@
             "step_label": "January 2023",
             "sub_heading": "",
             "heading": "Calling all coffee lovers",
-            "description": "<p>Shortcutx launched our Slimming Coffee Caramel Macchiato Flavour, which soon also became a consumer favourite. We also moved to our new 3-storey office with our own warehouse and huge creative space. The Shortcutx team also continued to grow. <\/p>",
+            "description": "<p>Shortcutx launched our Slimming Coffee Caramel Macchiato Flavour, which soon also became a consumer favourite. We also moved to our new 3-storey office with our own warehouse and huge creative space. The Shortcutx team also continued to grow. </p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,
@@ -279,7 +288,7 @@
         "9a4503b4-90b1-41bd-8851-3d61a74dae46": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/336306726_917775642980307_2644637157378289404_n.jpg",
+            "image": "shopify://shop_images/336306726_917775642980307_2644637157378289404_n.jpg",
             "img_pos": "left",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -289,7 +298,7 @@
             "step_label": "March 2023",
             "sub_heading": "",
             "heading": "Meal replacement",
-            "description": "<p>Shortly after, we launched two delicious meal replacement flavours - Chocolate Brownie and Strawberry Cheesecake. We now had a small library of options and products that our consumers were absolutely loving. <\/p>",
+            "description": "<p>Shortly after, we launched two delicious meal replacement flavours - Chocolate Brownie and Strawberry Cheesecake. We now had a small library of options and products that our consumers were absolutely loving. </p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,
@@ -302,7 +311,7 @@
         "bad17d38-d334-4d2a-bfeb-410791aa902e": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10.png",
+            "image": "shopify://shop_images/10.png",
             "img_pos": "right",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -312,7 +321,7 @@
             "step_label": "April 2023",
             "sub_heading": "",
             "heading": "30 day weight loss pack!",
-            "description": "<p>Over time, we spotted the trend of our consumers wanting packages and a scheduled plan for their weight loss journey. We then dished out our 30 Day Weight Loss Pack - a Limited Edition package that included a month’s supply of a new meal replacement flavour, detox juice, and night fat burner. <\/p>",
+            "description": "<p>Over time, we spotted the trend of our consumers wanting packages and a scheduled plan for their weight loss journey. We then dished out our 30 Day Weight Loss Pack - a Limited Edition package that included a month’s supply of a new meal replacement flavour, detox juice, and night fat burner. </p>",
             "url": "",
             "btn_label": "Read more",
             "btn_icon": false,
@@ -382,7 +391,7 @@
         "c1ab6fbb-940f-4eb4-b374-ce3370b4382f": {
           "type": "2",
           "settings": {
-            "content": "<p>Follow your passion, and success will follow you<\/p>",
+            "content": "<p>Follow your passion, and success will follow you</p>",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 14,
@@ -776,7 +785,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p><em>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quis nostrum exercitationem ullam.<\/em><\/p>",
+        "content_quote": "<p><em>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quis nostrum exercitationem ullam.</em></p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -830,7 +839,7 @@
             "social_instagram_link": "",
             "social_dribbble_link": "",
             "social_behance_link": "",
-            "social_tiktok_link": "https:\/\/tiktok.com\/"
+            "social_tiktok_link": "https://tiktok.com/"
           }
         },
         "6b539f2f-3889-4fe7-8e2f-4173ec373500": {

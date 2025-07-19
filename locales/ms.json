@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "announcement": {
@@ -36,7 +36,7 @@
     },
     "agree_mail": {
       "conditions": "Anda mesti bersetuju dengan terma dan syarat untuk mendaftar.",
-      "link_conditions_html": "Saya bersetuju dengan <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"t4s-text__link\">terma dan syarat<\/a> .",
+      "link_conditions_html": "Saya bersetuju dengan <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;/span&gt;\" class=\"t4s-text__link\">terma dan syarat</a> .",
       "link_conditions_emty": "Saya bersetuju dengan terma dan syarat."
     }
   },
@@ -55,7 +55,7 @@
       "loading": "Memuatkan...",
       "pswp_share": "Kongsi",
       "pswp_fs": "Togol skrin penuh",
-      "pswp_zoom": "Zum masuk\/keluar",
+      "pswp_zoom": "Zum masuk/keluar",
       "pswp_facebook": "Kongsi di Facebook",
       "pswp_pinterest": "Pin ia",
       "pswp_prev": "Sebelumnya (anak panah ke kiri)",
@@ -82,7 +82,7 @@
       "wishlist": "Senarai hajat",
       "compare": "bandingkan",
       "search": "Cari",
-      "login_register": "Log masuk \/ Daftar",
+      "login_register": "Log masuk / Daftar",
       "my_account": "Akaun saya"
     },
     "sidebar": {
@@ -140,7 +140,7 @@
       "view_all": "Lihat semua",
       "load_more": "Muatkan Lagi Siaran",
       "load_prev": "Muatkan Sebelumnya",
-      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} siaran"
+      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}</span> daripada {{total_count}} siaran"
     },
     "article": {
       "by": "Oleh",
@@ -159,7 +159,7 @@
     },
     "comments": {
       "title": "Tinggalkan komen",
-      "comments_note_html": "Alamat e-mel anda tidak akan diterbitkan. Medan yang diperlukan ditanda <span class=\"required\">*<\/span>",
+      "comments_note_html": "Alamat e-mel anda tidak akan diterbitkan. Medan yang diperlukan ditanda <span class=\"required\">*</span>",
       "name": "Nama",
       "email": "E-mel",
       "message": "Komen",
@@ -180,14 +180,14 @@
         "other": "{{ count }} ulasan"
       },
       "with_count_html": {
-        "zero": "0 <span>ulasan<\/span>",
-        "one": "1 <span>komen<\/span>",
-        "other": "{{ count }} <span>ulasan<\/span>"
+        "zero": "0 <span>ulasan</span>",
+        "one": "1 <span>komen</span>",
+        "other": "{{ count }} <span>ulasan</span>"
       },
       "comments_title_html": {
-        "zero": "0 memikirkan “ <span>{{title}}<\/span> ”",
-        "one": "1 pemikiran tentang “ <span>{{title}}<\/span> ”",
-        "other": "{{ count }} pemikiran tentang “ <span>{{title}}<\/span> ”"
+        "zero": "0 memikirkan “ <span>{{title}}</span> ”",
+        "one": "1 pemikiran tentang “ <span>{{title}}</span> ”",
+        "other": "{{ count }} pemikiran tentang “ <span>{{title}}</span> ”"
       }
     }
   },
@@ -204,8 +204,8 @@
       "country": "Negara"
     },
     "shipping_threshold": {
-      "text_1_html": "Penghantaran Percuma untuk semua pesanan melebihi <span class=\"t4s-cr\">{{ money }}<\/span>",
-      "text_2_html": "Hampir sampai, tambah <span class=\"t4s-cr\">{{ money }}<\/span> lagi untuk mendapatkan <span class=\"t4s-ch\">PENGHANTARAN PERCUMA!<\/span>",
+      "text_1_html": "Penghantaran Percuma untuk semua pesanan melebihi <span class=\"t4s-cr\">{{ money }}</span>",
+      "text_2_html": "Hampir sampai, tambah <span class=\"t4s-cr\">{{ money }}</span> lagi untuk mendapatkan <span class=\"t4s-ch\">PENGHANTARAN PERCUMA!</span>",
       "text_3": "[Tahniah!] Anda mendapat penghantaran percuma!"
     },
     "mini_cart": {
@@ -234,14 +234,14 @@
     "general": {
       "cookies_required": "Dayakan kuki untuk menggunakan troli beli-belah",
       "taxes_and_shipping_at_checkout": "Cukai dan penghantaran dikira semasa pembayaran",
-      "taxes_and_shipping_policy_at_checkout_html": "Cukai dan <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">penghantaran<\/a> dikira semasa pembayaran",
+      "taxes_and_shipping_policy_at_checkout_html": "Cukai dan <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">penghantaran</a> dikira semasa pembayaran",
       "taxes_included_but_shipping_at_checkout": "Termasuk cukai dan penghantaran dikira semasa pembayaran",
-      "taxes_included_and_shipping_policy_html": "Termasuk cukai. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">Penghantaran<\/a> dikira semasa pembayaran.",
+      "taxes_included_and_shipping_policy_html": "Termasuk cukai. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">Penghantaran</a> dikira semasa pembayaran.",
       "taxes_discounts_and_shipping_at_checkout": "Kod cukai, penghantaran dan diskaun dikira semasa pembayaran",
-      "taxes_discounts_and_shipping_policy_at_checkout_html": "Kod cukai, <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">penghantaran<\/a> dan diskaun dikira semasa pembayaran",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Kod cukai, <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">penghantaran</a> dan diskaun dikira semasa pembayaran",
       "taxes_included_discounts_but_shipping_at_checkout": "Termasuk cukai. Kod penghantaran dan diskaun dikira semasa pembayaran",
-      "taxes_included_discounts_and_shipping_policy_html": "Termasuk cukai. Kod <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">penghantaran<\/a> dan diskaun dikira semasa pembayaran.",
-      "terms_and_conditions_html": "Saya bersetuju dengan <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" target=\"_blank\">terma dan syarat<\/a> .",
+      "taxes_included_discounts_and_shipping_policy_html": "Termasuk cukai. Kod <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">penghantaran</a> dan diskaun dikira semasa pembayaran.",
+      "terms_and_conditions_html": "Saya bersetuju dengan <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;/span&gt;\" target=\"_blank\">terma dan syarat</a> .",
       "terms_and_conditions": "Saya bersetuju dengan terma dan syarat.",
       "edit_item": "Edit item ini",
       "remove_item": "Alih keluar item ini",
@@ -254,7 +254,7 @@
       "note": "Tambah Nota Pesanan",
       "edit_note": "Edit Nota Pesanan",
       "placeholder_note": "Bagaimanakah kami boleh membantu anda?",
-      "gift_wrap_html": "<span class=\"cd\">Adakah anda mahu pembalut hadiah?<\/span> Hanya {{ money }}",
+      "gift_wrap_html": "<span class=\"cd\">Adakah anda mahu pembalut hadiah?</span> Hanya {{ money }}",
       "add_gift_wrap": "Tambah Bungkus Hadiah",
       "coupon": "kupon:",
       "add_coupon": "Tambah Kupon",
@@ -276,7 +276,7 @@
     },
     "404": {
       "subtext": "Maaf! Halaman yang anda cari tidak ditemui.",
-      "link_html": "Kembali ke <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" rel=\"home\">laman utama<\/a>"
+      "link_html": "Kembali ke <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;/span&gt;\" rel=\"home\">laman utama</a>"
     }
   },
   "customer": {
@@ -287,7 +287,7 @@
       "title": "AKAUN SAYA",
       "make_order": "Buat pesanan pertama anda",
       "none": "Anda belum membuat sebarang pesanan lagi.",
-      "hello_html": "Hello <strong>{{name}}<\/strong> (bukan <strong>{{name}}<\/strong> ? <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\">Log keluar<\/a> )",
+      "hello_html": "Hello <strong>{{name}}</strong> (bukan <strong>{{name}}</strong> ? <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;/span&gt;\">Log keluar</a> )",
       "manage_subs": "Urus Langganan",
       "dashboard": "Papan pemuka",
       "wishlist": "Senarai hajat",
@@ -325,9 +325,9 @@
       "address1": "Alamat",
       "address2": "Pangsapuri, suite, dsb.",
       "city": "Bandar",
-      "country": "Negara\/wilayah",
+      "country": "Negara/wilayah",
       "province": "Wilayah",
-      "zip": "Pos \/ Poskod",
+      "zip": "Pos / Poskod",
       "phone": "telefon",
       "set_default": "Tetapkan sebagai alamat lalai",
       "add": "Tambah Alamat",
@@ -406,7 +406,7 @@
       "password": "Kata laluan",
       "submit": "Daftar",
       "privacy_policy": "Data peribadi anda akan digunakan untuk menyokong pengalaman anda di seluruh tapak web ini, untuk mengurus akses kepada akaun anda dan untuk tujuan lain yang diterangkan dalam dasar privasi kami.",
-      "privacy_policy_html": "Data peribadi anda akan digunakan untuk menyokong pengalaman anda di seluruh tapak web ini, untuk mengurus akses kepada akaun anda dan untuk tujuan lain yang diterangkan dalam <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;\/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">dasar privasi<\/a> kami."
+      "privacy_policy_html": "Data peribadi anda akan digunakan untuk menyokong pengalaman anda di seluruh tapak web ini, untuk mengurus akses kepada akaun anda dan untuk tujuan lain yang diterangkan dalam <a href=\"&lt;span%20class='notranslate'&gt;{{link}}&lt;/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">dasar privasi</a> kami."
     }
   },
   "products": {
@@ -447,8 +447,8 @@
       "view_in_space_label": "Lihat dalam ruang anda, muatkan item dalam tetingkap realiti tambahan",
       "view_360": "360 paparan produk",
       "click_zoom": "Klik untuk besarkan",
-      "will_not_ship_until_html": "Tidak akan dihantar sehingga <span data-incoming-date>{{date}}<\/span>",
-      "will_be_in_stock_after_html": "Akan ada dalam stok selepas <span data-incoming-date>{{date}}<\/span>"
+      "will_not_ship_until_html": "Tidak akan dihantar sehingga <span data-incoming-date>{{date}}</span>",
+      "will_be_in_stock_after_html": "Akan ada dalam stok selepas <span data-incoming-date>{{date}}</span>"
     },
     "fbt": {
       "title": "Kerap Dibeli Bersama",
@@ -477,9 +477,9 @@
       "title_price": "harga",
       "button_price": "Penapis",
       "results_with_count_html": {
-        "zero": "<span class=\"cp\">0<\/span> Produk Ditemui",
-        "one": "<span class=\"cp\">1<\/span> Produk Ditemui",
-        "other": "<span class=\"cp\">{{count}}<\/span> Produk Ditemui"
+        "zero": "<span class=\"cp\">0</span> Produk Ditemui",
+        "one": "<span class=\"cp\">1</span> Produk Ditemui",
+        "other": "<span class=\"cp\">{{count}}</span> Produk Ditemui"
       },
       "clear_filter": "Kosongkan penapis"
     },
@@ -503,8 +503,8 @@
     },
     "product": {
       "include_taxes": "Termasuk cukai.",
-      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Penghantaran<\/a> dikira semasa pembayaran.",
-      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\">Dari<\/span> {{price_min}}",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Penghantaran</a> dikira semasa pembayaran.",
+      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\">Dari</span> {{price_min}}",
       "Please_choose_pr_options": "Sila pilih beberapa pilihan produk sebelum menambahkan produk ini pada troli anda.",
       "choose_an_option": "Memilih pilihan",
       "add_to_cart": "Tambah ke troli",
@@ -521,7 +521,7 @@
       "product_vendor": "Penjual:",
       "product_type": "Jenis:",
       "product_barcode": "Kod bar:",
-      "na": "T\/A",
+      "na": "T/A",
       "available": "Ketersediaan:",
       "in_stock_status": "Dalam stok",
       "sold_out_status": "kehabisan stok",
@@ -558,7 +558,7 @@
       "view_all": "Lihat semua",
       "load_more": "Tambah lagi",
       "load_prev": "Muatkan Sebelumnya",
-      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} produk"
+      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}</span> daripada {{total_count}} produk"
     },
     "results_with_term": {
       "zero": "Hasil Carian untuk: “ {{ terms }} ”",
@@ -577,7 +577,7 @@
     "pagination": {
       "load_more": "Tambah lagi",
       "load_prev": "Muatkan Sebelumnya",
-      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} koleksi"
+      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}</span> daripada {{total_count}} koleksi"
     }
   },
   "collections": {
@@ -591,7 +591,7 @@
       "view_all": "Lihat semua",
       "load_more": "Tambah lagi",
       "load_prev": "Muatkan Sebelumnya",
-      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}<\/span> daripada {{total_count}} produk"
+      "bar_with_count_html": "Anda telah melihat <span data-current-bar>{{current_count}}</span> daripada {{total_count}} produk"
     }
   },
   "password_page": {
@@ -601,7 +601,7 @@
     "login_form_password_placeholder": "Kata laluan Awak",
     "login_form_submit": "Masuk",
     "signup_form_success": "Kami akan menghantar e-mel kepada anda sejurus sebelum kami membuka!",
-    "admin_link_html": "Adakah anda pemilik kedai? <a href=\"\/admin\" class=\"text-link\">Daftar masuk disini<\/a>",
+    "admin_link_html": "Adakah anda pemilik kedai? <a href=\"/admin\" class=\"text-link\">Daftar masuk disini</a>",
     "password_link": "Masukkan menggunakan kata laluan"
   },
   "wishlist_page": {
@@ -632,8 +632,8 @@
       "check_other_stores": "Semak ketersediaan di kedai lain",
       "pick_up_available": "Pickup tersedia",
       "pick_up_currently_unavailable": "Pengambilan tidak tersedia pada masa ini",
-      "pick_up_available_at_html": "Pengambilan tersedia di <strong>{{ location_name }}<\/strong>",
-      "pick_up_unavailable_at_html": "Pickup tidak tersedia pada masa ini di <strong>{{ location_name }}<\/strong>",
+      "pick_up_available_at_html": "Pengambilan tersedia di <strong>{{ location_name }}</strong>",
+      "pick_up_unavailable_at_html": "Pickup tidak tersedia pada masa ini di <strong>{{ location_name }}</strong>",
       "check_map": "Semak ini di peta google"
     }
   },
