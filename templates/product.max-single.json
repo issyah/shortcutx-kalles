@@ -26,9 +26,9 @@
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
-            "size_pr": 16,
+            "size_pr": 42,
             "fw_pr": 600,
-            "lh_pr": 21,
+            "lh_pr": 48,
             "ls_pr": 0,
             "pr_title_color": "#222222"
           }
@@ -44,7 +44,7 @@
             "size_price_pr": 32,
             "fw_price_pr": 400,
             "price_color": "#696969",
-            "price_sale_color": "#ec0101"
+            "price_sale_color": "#222222"
           }
         },
         "description": {
@@ -67,9 +67,9 @@
             "color_size": "medium",
             "show_qty": true,
             "enable_wishlist": true,
-            "enable_compare": true,
+            "enable_compare": false,
             "btn_atc_full": true,
-            "pr_btn_round": 0,
+            "pr_btn_round": 40,
             "ani": "none",
             "time": 6,
             "btn_txt": "0",

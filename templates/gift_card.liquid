@@ -11,7 +11,16 @@
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
-    {%- if settings.favicon != blank %}<link rel="shortcut icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}"><link id="t4s-favico" rel="apple-touch-icon-precomposed" type="image/png" sizes="152x152" href="{{ settings.favicon | image_url: width: 152, height: 152 }}">{% endif -%}
+    {%- if settings.favicon != blank -%}
+      <link rel="shortcut icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
+      ><link
+        id="t4s-favico"
+        rel="apple-touch-icon-precomposed"
+        type="image/png"
+        sizes="152x152"
+        href="{{ settings.favicon | image_url: width: 152, height: 152 }}"
+      >
+    {%- endif -%}
 
     {%- unless settings.type_header_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
@@ -31,53 +40,56 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
     {%- liquid
-        assign font_source = settings.font_source 
-        assign cl_lazyload = '#ffffff'
-        assign cHVyY2hh    = 'cHVyY2hhc2VfY29kZQ==' | base64_url_safe_decode
-        assign pr_overlay  = settings.pr_overlay | divided_by: 100.0
-        assign accent_lightness     = settings.accent_color | color_extract: 'lightness'
+      assign font_source = settings.font_source
+      assign cl_lazyload = '#ffffff'
+      assign cHVyY2hh = 'cHVyY2hhc2VfY29kZQ==' | base64_url_safe_decode
+      assign pr_overlay = settings.pr_overlay | divided_by: 100.0
+      assign accent_lightness = settings.accent_color | color_extract: 'lightness'
+    -%}
+
+    {%- if font_source == '2' -%}
+      {%- liquid
+        assign fm_gg1 = settings.fnt_fm_gg1
+        assign fm_gg2 = settings.fnt_fm_gg2 | default: fm_gg1
+        assign fm_gg3 = settings.fnt_fm_gg3 | default: fm_gg1
       -%}
 
-      {%- if font_source == '2' -%}
-        {%- liquid 
-        assign fm_gg1 = settings.fnt_fm_gg1
-        assign fm_gg2 = settings.fnt_fm_gg2 |default:fm_gg1
-        assign fm_gg3 = settings.fnt_fm_gg3 |default:fm_gg1 -%}
-
-        {%- capture font_var -%}
+      {%- capture font_var -%}
           {{fm_gg1 | strip | replace: ' ', '+'}}:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i
           {%- if fm_gg1 != fm_gg2 -%}|{{fm_gg2 | strip | replace: ' ', '+'}}:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i{%- endif -%}
           {%- if fm_gg3 != fm_gg1 and fm_gg3 != fm_gg2 -%}|{{fm_gg3 | strip | replace: ' ', '+'}}:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i{%- endif -%}
         {%- endcapture -%}
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{font_var}}&display=swap" media="print" onload="this.media='all'">
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family={{font_var}}&display=swap"
+        media="print"
+        onload="this.media='all'"
+      >
 
-      {%- else -%}
-        
-        {%- assign font_1 = settings.fnt_fm_sp1 -%}
-        {%- assign font_2 = settings.fnt_fm_sp2 | default:font_1 -%}
-        {%- assign font_3 = settings.fnt_fm_sp3 | default:font_1 -%}
-        {%- unless font_1.system? -%}
-          <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
-        {%- endunless -%}
-        {%- unless font_2.system? -%}
-          <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
-        {%- endunless -%}
-        {%- unless font_3.system? -%}
-          <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
-        {%- endunless -%}
-      {%- endif -%}
+    {%- else -%}
+      {%- assign font_1 = settings.fnt_fm_sp1 -%}
+      {%- assign font_2 = settings.fnt_fm_sp2 | default: font_1 -%}
+      {%- assign font_3 = settings.fnt_fm_sp3 | default: font_1 -%}
+      {%- unless font_1.system? -%}
+        <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
+      {%- endunless -%}
+      {%- unless font_2.system? -%}
+        <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
+      {%- endunless -%}
+      {%- unless font_3.system? -%}
+        <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
+      {%- endunless -%}
+    {%- endif -%}
 
     {%- style -%}
-
-
       {%- if font_source == '1' -%}
 
         {%- assign cl_flz = 'h1, h2, h3, h4, h5, h6, .f__mont, .f_heading, .h3, ' -%}
         {%- assign fm_sp1 = font_1.family -%}
         {%- assign fm_sp2 = font_2.family -%}
         {%- assign fm_sp3 = font_3.family -%}
-       
+
         {%- capture t4s_font_fm1 -%}{{fm_sp1}}, {{font_1.fallback_families}};{%- endcapture -%}
         {%- assign t4s_font_fm2 = t4s_font_fm1 -%}{%- assign t4s_font_fm3 = t4s_font_fm1 -%}
 
@@ -94,7 +106,7 @@
         {%- endif -%}
 
       {%- else -%}
-      
+
         {%- assign cl_flz = '' -%}
         {%- assign t4s_font_fm1 = fm_gg1 -%}
         {%- assign t4s_font_fm2 = fm_gg2 -%}
@@ -138,12 +150,12 @@
 
         --t4s-success-color  : #428445;
         --buttons-radius: 40px;
-       {%- liquid 
+       {%- liquid
        assign sale_badge_lightness     = settings.sale_badge_color | color_extract: 'lightness'
        assign soldout_badge_lightness  = settings.soldout_badge_color | color_extract: 'lightness' %}
 
         --sale-badge-background    : {{ settings.sale_badge_color }};
-        --sale-badge-color         : {% if sale_badge_lightness < 85 %}#fff{% else %}#222{% endif %};
+        --sale-badge-color         : {% if sale_badge_lightness < 85 %}#fff{% else %}#BF1932{% endif %};
         --soldout-badge-background : {{ settings.soldout_badge_color }};
         --soldout-badge-color      : {% if soldout_badge_lightness < 85 %}#fff{% else %}#222{% endif %};
 
@@ -176,12 +188,14 @@
             {{ gift_card.initial_value | money }}
           {% endif %}
         </p>
-        {%- assign gift_card_expiry_date = gift_card.expires_on | date: "%d/%m/%y" -%}
+        {%- assign gift_card_expiry_date = gift_card.expires_on | date: '%d/%m/%y' -%}
         {%- if gift_card.enabled == false or gift_card.expired -%}
           <p class="gift-card__label badge">{{ 'gift_cards.issued.expired' | t: expiry: gift_card_expiry_date }}</p>
         {%- endif -%}
         {%- if gift_card.expired != true and gift_card.expires_on and gift_card.enabled -%}
-          <p class="gift-card__label badge badge--sold_out">{{ 'gift_cards.issued.active' | t: expiry: gift_card_expiry_date }}</p>
+          <p class="gift-card__label badge badge--sold_out">
+            {{ 'gift_cards.issued.active' | t: expiry: gift_card_expiry_date }}
+          </p>
         {%- endif -%}
       </div>
 
@@ -191,16 +205,27 @@
         {%- assign gift_card_balance = gift_card.balance | money -%}
       {% endif %}
       {%- if gift_card.balance != gift_card.initial_value -%}
-        <p class="gift-card__label caption-large">{{ 'gift_cards.issued.remaining_html' | t: balance: gift_card_balance }}</p>
+        <p class="gift-card__label caption-large">
+          {{ 'gift_cards.issued.remaining_html' | t: balance: gift_card_balance }}
+        </p>
       {%- endif -%}
     </header>
 
     <main class="gift-card">
       <div class="gift-card__image-wrapper">
-        <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="" class="gift-card__image" height="{{ 570 | divided_by: 1.5 }}" width="570" loading="lazy">
+        <img
+          src="{{ 'gift-card/card.svg' | shopify_asset_url }}"
+          alt=""
+          class="gift-card__image"
+          height="{{ 570 | divided_by: 1.5 }}"
+          width="570"
+          loading="lazy"
+        >
       </div>
       <div class="gift-card__information">
-        {%- assign formatted_initial_value = gift_card.initial_value | money_without_trailing_zeros: gift_card.currency -%}
+        {%- assign formatted_initial_value = gift_card.initial_value
+          | money_without_trailing_zeros: gift_card.currency
+        -%}
         {%- assign formatted_initial_value_stripped = formatted_initial_value | strip_html -%}
         {{ 'gift_cards.issued.redeem_html' | t: value: formatted_initial_value_stripped }}
       </div>
@@ -217,12 +242,19 @@
           <button class="link gift-card__copy-link">{{ 'gift_cards.issued.copy_code' | t }}</button>
           <span class="gift-card__copy-success form__message" role="status"></span>
           <template>
-            {%- render 'icon-success' -%}{{ 'gift_cards.issued.copy_code_success' | t }}
+            {%- render 'icon-success' -%}
+            {{ 'gift_cards.issued.copy_code_success' | t }}
           </template>
         </div>
         {%- if gift_card.pass_url -%}
           <a href="{{ gift_card.pass_url }}" class="gift_card__apple-wallet">
-            <img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="120" height="40" alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}" loading="lazy">
+            <img
+              src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}"
+              width="120"
+              height="40"
+              alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}"
+              loading="lazy"
+            >
           </a>
         {%- endif -%}
         <div class="gift-card__buttons no-print">
