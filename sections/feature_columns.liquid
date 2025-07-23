@@ -55,11 +55,16 @@
                     assign open_link = bk_stts.open_link 
                     assign button_link = bk_stts.button_link
                     assign button_style = bk_stts.button_style
+                    assign bgcolor = bk_stts.bgcolor
                 -%}
                 {%- if button_link != blank -%}
                     <div class="t4s-col-item t4s-pos-text-{{se_stts.pos_text}} t4s-text-{{se_stts.text_align}}" id="b_{{block.id}}" data-select-flickity {{ block.shopify_attributes }}>
                         {%- if bk_stts.enable_image -%}
-                            <a href="{{button_link}}" class="t4s-d-block t4s-eff t4s-eff-{{b_effect}} t4s-eff-img-{{img_effect}}" target="{{open_link}}">
+                            <a href="{{button_link}}" class="card-rounded t4s-d-block t4s-eff t4s-eff-{{b_effect}} t4s-eff-img-{{img_effect}}" target="{{open_link}}"
+                              {% if bgcolor != blank %}
+                                style="background-color: {{ bgcolor }}"
+                              {% endif %}
+                            >
                                 {%- if image != blank -%}
                                     <div class="t4s_ratio t4s-bg-11" style="background: url({{ image | image_url: width: 1 }});--aspect-ratioapt: {{ image.aspect_ratio | default: 1.7777 }};--max-width:{{image.width}}px" data-cacl-slide>
                                         <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{image.presentation.focal_point}}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-obj-eff" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg',w:image.width,h:image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
@@ -87,7 +92,7 @@
                 {%- else -%}
                     <div class="t4s-col-item t4s-pos-text-{{se_stts.pos_text}} t4s-text-{{se_stts.text_align}}"  id="b_{{block.id}}" data-select-flickity {{ block.shopify_attributes }}>
                         {%- if bk_stts.enable_image -%}
-                            <div class="t4s-eff t4s-eff-{{b_effect}} t4s-eff-img-{{img_effect}}">
+                            <div class="t4s-eff t4s-eff-{{b_effect}} t4s-eff-img-{{img_effect}} card-rounded">
                                 {%- if image != blank -%}
                                     <div class="t4s_ratio t4s-bg-11" style="background: url({{ image | image_url: width: 1 }});--aspect-ratioapt: {{ image.aspect_ratio | default: 1.7777 }};--max-width:{{image.width}}px" data-cacl-slide>
                                         <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{image.presentation.focal_point}}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-obj-eff" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg',w:image.width,h:image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
@@ -1142,6 +1147,11 @@
                     "type": "image_picker",
                     "id": "image",
                     "label": "Image"
+                },
+                {
+                  "type" : "color",
+                  "id": "bgcolor",
+                  "label": "Add additional background color for image"
                 },
                 {
                     "type": "text",

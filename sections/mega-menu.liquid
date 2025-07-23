@@ -49,7 +49,7 @@
           -%}
           <div id="bk_{{c_bid}}" class="type_mn_banner t4s-menu-item t4s-sub-column-item t4s-col-{{bk_stts.col}} t4s-col-item" {{ block.shopify_attributes }}>
             <div class="t4s-banner-item t4s_{{image_ratio}} t4s_position_{{se_stts.image_position}} t4s_{{se_stts.image_size}} t4scuspx3_true t4s-eff t4s-eff-{{bk_stts.b_effect}} t4s-eff-img-{{bk_stts.img_effect}}" {% if image_ratio != "ratio_fh" %} style="--aspect-ratio-cusdt : {{bk_stts.height_dk}}px;" {%- endif %}>
-              <div class="t4s-banner-inner" style="--cl-text: {{bk_stts.cl_txt}};--bg-overlay:{{cl_overlay}};">
+              <div class="t4s-banner-inner" style="--cl-text: {{bk_stts.cl_txt}};--bg-overlay:{{cl_overlay}};border-radius:16px;">
 
                 <{{ARRhtml[0]}} {{ARRhtml[1]}}href="{{ bk_stts.b_link}}"  {{ARRhtml[2]}}target="{{bk_stts.open_link}}" class="t4s-d-block t4s_ratio t4s_ratio_hasmb" {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 2}};">
                   {%- if image != blank -%}
