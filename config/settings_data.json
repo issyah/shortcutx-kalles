@@ -749,10 +749,9 @@
           },
           "base_hRGdJR": {
             "type": "base",
-            "disabled": true,
             "settings": {
               "title": "Build A Box",
-              "url": "shopify://pages/build-a-box",
+              "url": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
