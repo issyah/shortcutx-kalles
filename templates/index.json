@@ -35,6 +35,7 @@
         },
         "9a953769-57c2-417a-b665-db34392c8d1c": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "bundles",
             "icon": "las la-archive"
