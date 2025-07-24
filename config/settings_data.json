@@ -16,11 +16,11 @@
     "use_rtl": "0",
     "header_design": "inline",
     "logo": "shopify://shop_images/Logo_2023-02_copy.png",
-    "logo_width": 75,
+    "logo_width": 180,
     "logos": "shopify://shop_images/Logo_2023-02_copy.png",
-    "logos_width": 70,
+    "logos_width": 180,
     "logo_mb": "shopify://shop_images/jbn.jpg",
-    "logo_mb_width": 95,
+    "logo_mb_width": 120,
     "logo_tr": "shopify://shop_images/header-logo-01.png",
     "logo_tr_width": 95,
     "accent_color": "#bf1932",
@@ -36,7 +36,7 @@
     "fnt_fm_gg2": "Inter",
     "fnt_fm_gg3": "Libre Baskerville",
     "bd_ffamily": "2",
-    "bd_fsize": 14,
+    "bd_fsize": 16,
     "bd_fweight": 400,
     "hd_ffamily": "1",
     "fs_h1": 47.5,
@@ -655,7 +655,6 @@
         "blocks": {
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "title": "Shop",
               "url": "shopify://collections",
@@ -663,12 +662,12 @@
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
-              "lb": "New",
+              "lb": "",
               "lb_cl": "#00badb",
               "pos_sub": "bottom",
-              "wid": "cus",
+              "wid": "full nav_t4cnt",
               "cus_wid": 1000,
-              "id": 2,
+              "id": 1,
               "enable_packery": true,
               "r_s_h_item": "20",
               "r_s_v_item": "30"
@@ -750,6 +749,7 @@
           },
           "base_hRGdJR": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Ride With Us 2025",
               "url": "shopify://products/ride-with-us-community-ride-11-07-2025",
@@ -763,6 +763,7 @@
           },
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "Shop",
               "url": "shopify://collections/key-products",
@@ -780,6 +781,7 @@
           },
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Blog",
               "url": "shopify://blogs/news",
@@ -793,6 +795,7 @@
           },
           "08c08080-fcb4-4534-bc57-dfcd9afe6024": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "The Product",
               "url": "shopify://pages/the-product",
@@ -810,6 +813,7 @@
           },
           "1c183604-aba8-4307-947b-2ed4f4d0b0ff": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Calorie Calculator",
               "url": "shopify://pages/calorie-calculator",
@@ -834,12 +838,16 @@
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
           "1c183604-aba8-4307-947b-2ed4f4d0b0ff"
         ],
+        "custom_css": [
+          "ul#t4s-nav-ul li:first-child a.t4s-lh-1 {background: var(--accent-color); color: #fff; padding: 16px 24px; border-radius: 8px; margin-right: 16px;}",
+          "ul#t4s-nav-ul li:first-child a.t4s-lh-1:hover{color:#FFF !important;}"
+        ],
         "settings": {
-          "layout": "logo_left",
+          "layout": "logo_center",
           "full_header": true,
           "height": 70,
           "arrow": true,
-          "align": "center",
+          "align": "start",
           "hover": "hover_sideup",
           "enable_active": false,
           "h_navmb": 60,
@@ -851,12 +859,12 @@
           "hover_icon": "2",
           "show_search": true,
           "show_acc": true,
-          "show_wis": true,
+          "show_wis": false,
           "cart_des": "1",
-          "bg_hc": "#000000",
+          "bg_hc": "#bf1932",
           "cl_hc": "#ffffff",
           "sticky_header": true,
-          "scroll_header": true,
+          "scroll_header": false,
           "bgnavst": "#ffffff",
           "opnavst": 100,
           "clnavst": "#222222",
@@ -1209,106 +1217,77 @@
               "id": 1
             }
           },
-          "3abb98a1-837d-46af-b195-f5c43e7c88ee": {
-            "type": "link",
+          "link2_4wTgxw": {
+            "type": "link2",
             "settings": {
-              "tt_hd": "HOME PAGES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
+              "col": "3",
+              "menu": "shop-dropdown"
             }
           },
-          "2ceac397-4b2b-4740-a477-707dd2680e02": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "HOME PAGES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "1f90cea5-04fb-4ef3-822b-5f987845e5c4": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "HEADER LAYOUTS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "45fa281e-2be5-4727-bd01-942824713769": {
-            "type": "mega",
-            "settings": {
-              "id": 2
-            }
-          },
-          "02beea21-3cb9-41ce-a1ab-04ae44b7f47e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "SHOP PAGES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "2"
-            }
-          },
-          "ff494243-e58b-40e9-a2ea-e64ccd58a624": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "2"
-            }
-          },
-          "cec6a189-3084-497a-b4a8-b391531b2503": {
+          "cat_RggdrP": {
             "type": "cat",
             "settings": {
-              "collection": "women",
-              "collection_title": "",
+              "collection": "frontpage",
+              "collection_title": "Fat Burners",
               "collection_subtitle": "",
-              "collection_des": "1",
+              "image": "shopify://shop_images/ACV_Box_Mockup_1_a4de9b2f-e739-404d-89cb-a36c81f1456b.jpg",
+              "collection_des": "4",
               "title_cl": "#ffffff",
-              "title_cl_hover": "#222222",
-              "subtitle_cl": "#878787",
+              "title_cl_hover": "#bf1932",
+              "subtitle_cl": "#ffffff",
               "count_cl": "#222222",
-              "border_cl": "#e5e5e5",
+              "border_cl": "#ffffff",
               "open_link": "_self",
               "space_bottom": 20,
               "space_bottom_mb": 10,
               "border": false,
               "item_pd": 0,
-              "item_rd": 0,
+              "item_rd": 8,
               "img_effect": "zoom",
               "b_effect": "none",
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
+              "image_ratio": "ratio1_1",
+              "image_size": "contain",
+              "image_position": "9",
               "collection_link": "",
-              "col": "4"
+              "col": "3"
             }
           },
-          "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e": {
+          "cat_RggdrP1": {
             "type": "cat",
             "settings": {
-              "collection": "frontpage",
-              "collection_title": "",
+              "collection": "meal-replacement",
+              "collection_title": "Meal Replacements",
               "collection_subtitle": "",
-              "collection_des": "1",
+              "image": "shopify://shop_images/fts-cookiebuttercrunch.png",
+              "collection_des": "4",
+              "title_cl": "#ffffff",
+              "title_cl_hover": "#bf1932",
+              "subtitle_cl": "#ffffff",
+              "count_cl": "#222222",
+              "border_cl": "#ffffff",
+              "open_link": "_self",
+              "space_bottom": 20,
+              "space_bottom_mb": 10,
+              "border": false,
+              "item_pd": 0,
+              "item_rd": 8,
+              "img_effect": "zoom",
+              "b_effect": "none",
+              "image_ratio": "ratio1_1",
+              "image_size": "contain",
+              "image_position": "9",
+              "collection_link": "",
+              "col": "3"
+            }
+          },
+          "cat_ywRQax": {
+            "type": "cat",
+            "settings": {
+              "collection": "slimming-tea-coffee",
+              "collection_title": "Slimming Drinks",
+              "collection_subtitle": "Products",
+              "image": "shopify://shop_images/crm_front_433f962e-2efa-498c-96ff-6102076586e7.png",
+              "collection_des": "4",
               "title_cl": "#ffffff",
               "title_cl_hover": "#222222",
               "subtitle_cl": "#878787",
@@ -1322,173 +1301,22 @@
               "item_rd": 0,
               "img_effect": "none",
               "b_effect": "none",
-              "image_ratio": "rationt",
+              "image_ratio": "ratio1_1",
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "4"
-            }
-          },
-          "5bdb6eec-e820-4415-ac9b-9c6096eb20c1": {
-            "type": "mega",
-            "settings": {
-              "id": 3
-            }
-          },
-          "cc1a7875-8010-421e-b69c-efc19a6043d6": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT LAYOUTS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
               "col": "3"
-            }
-          },
-          "e17e717c-01e0-4704-92bc-92c339ee6148": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT DETAILS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "27ca598d-2e3f-44fc-a790-64783d37de5e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT SWATCH",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "bdfaa837-86a3-4159-805a-668060142b0d": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "5952e385-42a5-4603-9be9-64b76f15ef48": {
-            "type": "mega",
-            "settings": {
-              "id": 4
-            }
-          },
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
-            "type": "link2",
-            "settings": {
-              "col": "2",
-              "menu": ""
-            }
-          },
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6": {
-            "type": "pr",
-            "settings": {
-              "collection": "sale",
-              "product_des": "1",
-              "show_vendor": false,
-              "use_cdt": false,
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
-              "content_align": "default",
-              "limit": 6,
-              "col_dk": "4",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "10"
-            }
-          },
-          "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f": {
-            "type": "mega",
-            "settings": {
-              "id": 5
-            }
-          },
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "BLOG LAYOUT",
-              "url": "https://demo-kalles-4-1.myshopify.com/blogs/fashion?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "4"
-            }
-          },
-          "552902be-02b1-40ca-8475-982bbdb75ed7": {
-            "type": "blogs",
-            "settings": {
-              "blog": "fashion",
-              "post_des": "1",
-              "show_cate": false,
-              "show_tags": true,
-              "show_cnt": false,
-              "show_au": true,
-              "show_dt": true,
-              "show_cm": true,
-              "show_rm": false,
-              "show_irm": false,
-              "date": "date",
-              "content_align": "t4s-text-center",
-              "limit": 8,
-              "img_effect": "zoom",
-              "b_effect": "none",
-              "image_ratio": "ratio4_3",
-              "image_size": "cover",
-              "image_position": "8",
-              "col_dk": "2",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "8"
             }
           }
         },
         "block_order": [
           "583a30c7-369d-4a64-a51d-ca53c1685206",
-          "3abb98a1-837d-46af-b195-f5c43e7c88ee",
-          "2ceac397-4b2b-4740-a477-707dd2680e02",
-          "1f90cea5-04fb-4ef3-822b-5f987845e5c4",
-          "6122e966-0272-4c46-a1a0-051bdc2ae08c",
-          "45fa281e-2be5-4727-bd01-942824713769",
-          "02beea21-3cb9-41ce-a1ab-04ae44b7f47e",
-          "ff494243-e58b-40e9-a2ea-e64ccd58a624",
-          "cec6a189-3084-497a-b4a8-b391531b2503",
-          "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e",
-          "5bdb6eec-e820-4415-ac9b-9c6096eb20c1",
-          "cc1a7875-8010-421e-b69c-efc19a6043d6",
-          "e17e717c-01e0-4704-92bc-92c339ee6148",
-          "27ca598d-2e3f-44fc-a790-64783d37de5e",
-          "bdfaa837-86a3-4159-805a-668060142b0d",
-          "5952e385-42a5-4603-9be9-64b76f15ef48",
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6",
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6",
-          "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
-          "552902be-02b1-40ca-8475-982bbdb75ed7"
+          "link2_4wTgxw",
+          "cat_RggdrP",
+          "cat_RggdrP1",
+          "cat_ywRQax"
         ],
+        "custom_css": [],
         "settings": {
           "bg": ""
         }
@@ -2927,7 +2755,7 @@
       "body,html,p {font-size: 16px;}",
       ".t4s-product.t4s-pr-list,.is--listview .t4s-product {--pr-quickview-color: #bf1932; --pr-addtocart-color: #bf1932;}",
       "@media (max-width: 768px) {#dummy-chat-button-iframe {right: 0px !important; bottom: 70px !important; } iframe#shopifyChat {bottom: 59px !important; } #t4s-backToTop {display: none; }}",
-      "@media (min-width: 768px) {.t4s-title {font-size: 40px; } .loox-float-toggler-container .loox-float-toggler {background-color: #444 !important; border-radius: 40px !important; padding: 24px; } .loox-float-toggler-container {right: initial; left: 24px; transform: none; bottom: 24px; top: initial; width: auto; }}"
+      "@media (min-width: 768px) {.t4s-title {font-size: 48px; } .loox-float-toggler-container .loox-float-toggler {background-color: #444 !important; border-radius: 40px !important; padding: 24px; } .loox-float-toggler-container {right: initial; left: 24px; transform: none; bottom: 24px; top: initial; width: auto; }}"
     ]
   }
 }

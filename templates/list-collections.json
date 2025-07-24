@@ -56,7 +56,6 @@
     },
     "main": {
       "type": "main-list-collections",
-      "disabled": true,
       "blocks": {
         "8b8e32c0-23d6-4b50-9356-1f707380d72f": {
           "type": "collection",
@@ -117,6 +116,7 @@
         "3819762b-01e1-42a2-9ff2-3a58b005b4a6",
         "0aca8588-8096-4b7c-9c11-9344634532c4"
       ],
+      "disabled": true,
       "settings": {
         "cat_design": "1",
         "title_cl": "#ffffff",
@@ -171,7 +171,6 @@
           "type": "collection_item",
           "settings": {
             "collection": "bundles",
-            "image": "shopify://shop_images/23_75ffdaa2-bcec-44f5-9150-e8f901ff67d0.png",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
