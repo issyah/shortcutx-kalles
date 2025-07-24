@@ -127,7 +127,7 @@
              {%- if item.line_level_discount_allocations != blank -%}
                 <ul class="t4s-cart_discount_price">
                    {%- for discount_allocation in item.line_level_discount_allocations -%}
-                     <li class="t4s-order-discount__item"><svg viewBox="0 0 24 24" width="20"><use href="#icon-cart-tag"/></svg> {{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})</li>
+                     <li class="t4s-order-discount__item" style="display:none"><svg viewBox="0 0 24 24" width="20"><use href="#icon-cart-tag"/></svg> {{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})</li>
                    {%- endfor -%}
                 </ul>
              {%- endif -%}
