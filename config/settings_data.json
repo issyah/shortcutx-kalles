@@ -749,9 +749,10 @@
           },
           "base_hRGdJR": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Build A Box",
-              "url": "shopify://products/fat-burner-apple-cider-fruit-juice",
+              "url": "shopify://pages/build-a-box",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
