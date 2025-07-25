@@ -74,7 +74,7 @@
                     <{{ARRhtml[0]}} {{ARRhtml[1]}}href="{{url}}" {{ARRhtml[2]}}target="{{open_link}}" class="t4s-eff t4s-eff-{{b_effect}} t4s-eff-img-{{img_effect}}" {{click_image}}--open>                 
                         {%- if image != blank -%}
                             <div class="t4s_ratio" style="--aspect-ratioapt:{{image.aspect_ratio}};--max-width:{{image.width}}px">
-                                <img class="lazyloadt4s t4s-obj-eff t4s-w-100" data-pswp-src="{{ image | image_url }}" data-pswp-w="{{image.width}}" data-pswp-h="{{ image.height}}"  data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg',w:image.width,h:image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}" >
+                                <img class="logo-icon lazyloadt4s t4s-obj-eff t4s-w-100" data-pswp-src="{{ image | image_url }}" data-pswp-w="{{image.width}}" data-pswp-h="{{ image.height}}"  data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg',w:image.width,h:image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}" >
                                 <span class="lazyloadt4s-loader is-bg-img" style="background: url({{ image | image_url: width: 1 }});"></span>
                             </div>
                         {%- else -%}

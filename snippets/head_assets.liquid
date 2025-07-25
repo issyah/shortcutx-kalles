@@ -80,10 +80,28 @@
 
   {%- endif -%}
   @font-face {
-    font-family: "Gotham-Light";
+    font-family: "Gotham";
     src: url("{{ 'Gotham-Narrow-X-Light.otf' | asset_url }}");
-    font-weight: 700;
-    font-style: "normal";
+    font-weight:300;
+    font-style:normal;
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url("{{ 'Gotham-Narrow-Light.otf' | asset_url }}");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url("{{ 'Gotham-Narrow-Medium.otf' | asset_url }}");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url("{{ 'Gotham-Narrow-Bold.otf'| asset_url }}");
+    font-weight:700;
+    font-style:normal;
   }
   :root {
 
@@ -95,7 +113,7 @@
       /* --font-body-family   : {% if settings.bd_ffamily == '1' %}{{ t4s_font_fm1 }}{% elsif settings.bd_ffamily == '2' %}{{ t4s_font_fm2 }}{% else %}{{ t4s_font_fm3 }}{% endif %}; */
       --font-heading-family: {% if settings.hd_ffamily == '1' %}{{ t4s_font_fm1 }}{% elsif settings.hd_ffamily == '2' %}{{ t4s_font_fm2 }}{% else %}{{ t4s_font_fm3 }}{% endif %};
      {% comment %} --font-button-family : {% if settings.fnt_fm_button == '1' %}{{ t4s_font_fm1 }}{% elsif settings.fnt_fm_button == '2' %}{{ t4s_font_fm2 }}{% else %}{{ t4s_font_fm3 }}{% endif %};{% endcomment %}
-      --font-body-family: "Gotham-Light", sans-serif;
+      --font-body-family: "Gotham", sans-serif;
       --t4s-success-color       : #428445;
       --t4s-success-color-rgb   : {{ '#428445' | color_to_rgb | remove: 'rgba(' | remove: 'rgb(' | remove: ')' }};
       --t4s-warning-color       : #e0b252;
@@ -172,7 +190,7 @@
   }
 
   html {
-    font-size: 62.5%;
+    font-size: 100%;
     height: 100%;
   }
 

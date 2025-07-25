@@ -197,18 +197,22 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
       });
 
       function initGsap() {
+        console.log('gsap loaded');
         gsap.registerPlugin(ScrollTrigger, SplitText);
         let splitText = SplitText.create('.split-text', { type: 'words' });
 
-        gsap.from('.fade-in', {
-          scrollTrigger: {
-            trigger: '.fade-in',
-            start: 'top center',
-            end: 'top 30%',
-          },
-          opacity: 0,
-          y: 18,
+        gsap.utils.toArray('.fade-in').forEach((el) => {
+          gsap.from(el, {
+            scrollTrigger: {
+              trigger: el,
+              start: 'top center',
+              end: 'top 30%',
+            },
+            opacity: 0,
+            y: 18,
+          });
         });
+
         gsap.from(splitText.words, {
           y: 50,
           opacity: 0,
@@ -220,6 +224,33 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
             start: 'top center',
             end: 'top 30%',
           },
+        });
+        gsap.from('.logo-icon', {
+          y: 10,
+          stagger: 0.2,
+          duration: 0.3,
+          opacity: 0,
+          scrollTrigger: {
+            trigger: '.logo-icon',
+            start: 'top 80%',
+            end: 'top 30%',
+          },
+        });
+        gsap.utils.toArray('.line-text').forEach((el) => {
+          el.classList.add('lineText-line');
+          let lineText = SplitText.create(el, { type: 'lines' });
+          gsap.set(el, { display: 'block', margin: 0, padding: 0 });
+          gsap.from(lineText.lines, {
+            y: 50,
+            opacity: 0,
+            stagger: 0.2,
+            duration: 1,
+            scrollTrigger: {
+              trigger: el,
+              start: 'top center',
+              end: 'top 30%',
+            },
+          });
         });
       }
     </script>

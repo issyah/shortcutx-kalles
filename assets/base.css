@@ -116,7 +116,7 @@ body {
   margin: 0;
   background-color: #ffffff;
   color: #878787;
-  font-size: 16px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4292,6 +4292,11 @@ em {
   overflow: hidden;
 }
 
+.border-bottom-rounded {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
 .t4s-z-100 {
   z-index: 100;
 }
@@ -4576,6 +4581,14 @@ template,
   margin-bottom: 17.5px;
   margin-inline-start: 16px;
   padding-inline-start: 0
+}
+
+.lineText-line p {
+  margin-bottom: 0;
+}
+
+.lineText-line ul {
+  margin-top: 16px;
 }
 
 .t4s-rte ol.list--inline,

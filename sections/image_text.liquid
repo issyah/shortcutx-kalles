@@ -128,7 +128,9 @@
                 </h3>
               {%- endif -%}
               {%- if bk_stts.text -%}
-                <div class="t4s-image-text-des t4-fs-md-{{text_size[1]}} t4s-fs-15 t4s-rte">{{ bk_stts.text }}</div>
+                <div class="line-text t4s-image-text-des t4-fs-md-{{text_size[1]}} t4s-fs-15 t4s-rte">
+                  {{ bk_stts.text }}
+                </div>
               {%- endif -%}
               {%- if bk_stts.button_link != blank and bk_stts.button_label != blank -%}
                 {%- assign use_button = true -%}

@@ -60,7 +60,7 @@
                 {%- if button_link != blank -%}
                     <div class="t4s-col-item t4s-pos-text-{{se_stts.pos_text}} t4s-text-{{se_stts.text_align}}" id="b_{{block.id}}" data-select-flickity {{ block.shopify_attributes }}>
                         {%- if bk_stts.enable_image -%}
-                            <a href="{{button_link}}" class="card-rounded t4s-d-block t4s-eff t4s-eff-{{b_effect}} t4s-eff-img-{{img_effect}}" target="{{open_link}}"
+                            <a href="{{button_link}}" class="t4s-d-block card-rounded t4s-eff t4s-eff-{{b_effect}} t4s-eff-img-{{img_effect}}" target="{{open_link}}"
                               {% if bgcolor != blank %}
                                 style="background-color: {{ bgcolor }}"
                               {% endif %}

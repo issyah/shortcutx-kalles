@@ -85,7 +85,6 @@
       "blocks": {
         "template--16756803535088__09f268f6-775b-4f44-ab3a-2fb9abf6202a-168587486702a3fbb0-0": {
           "type": "img",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/MEET_YOUR_NEW_BEST_FRIENDS..png"
           }
@@ -221,18 +220,41 @@
     "hero_image_PQ46Kt": {
       "type": "hero_image",
       "blocks": {
-        "custom_text_VzTGhr": {
+        "custom_text_tcnxda": {
           "type": "custom_text",
           "settings": {
-            "text": "Theme Kalles",
+            "text": "Elevate Your Journey.  One Cup. One Step.",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "inherit",
+            "text_cl": "#bf1932",
+            "text_fs": 70,
+            "text_lh": 70,
+            "text_fw": 500,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 42,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "fadeIn"
+          }
+        },
+        "custom_text_KVWXUt": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Our high-performance slimming solutions help you detox, burn fat, and feel incredible without sacrificing taste or lifestyle.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
-            "text_cl": "#ffffff",
-            "text_fs": 16,
+            "text_cl": "#bf1932",
+            "text_fs": 24,
             "text_lh": 0,
             "text_fw": 400,
-            "text_ls": 1,
+            "text_ls": 0,
             "text_mgb": 15,
             "font_italic": false,
             "text_shadow": false,
@@ -241,51 +263,51 @@
             "text_lh_mb": 0,
             "text_ls_mb": 0,
             "text_mgb_mobile": 10,
-            "animation": "fadeIn"
+            "animation": "fadeInDown"
           }
         },
-        "custom_text_tcnxda": {
+        "custom_text_L9X7RR": {
           "type": "custom_text",
           "settings": {
-            "text": "Best shopify theme",
+            "text": "Shortcutx transforms everyday wellness into powerful rituals—detox, energize, and slim down with taste-driven, science-fueled simplicity.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
-            "text_cl": "#ffffff",
-            "text_fs": 70,
-            "text_lh": 70,
-            "text_fw": 300,
+            "text_cl": "#bf1932",
+            "text_fs": 24,
+            "text_lh": 0,
+            "text_fw": 400,
             "text_ls": 0,
-            "text_mgb": 25,
+            "text_mgb": 24,
             "font_italic": false,
             "text_shadow": false,
             "hidden_mobile": false,
             "text_fs_mb": 16,
             "text_lh_mb": 0,
             "text_ls_mb": 0,
-            "text_mgb_mobile": 10,
-            "animation": "none"
+            "text_mgb_mobile": 24,
+            "animation": "fadeInDown"
           }
         },
         "custom_button_YBy4qD": {
           "type": "custom_button",
           "settings": {
-            "button_text": "Button label",
-            "button_link": "",
+            "button_text": "Shop now",
+            "button_link": "shopify://collections",
             "target_link": "_self",
             "fontf": "inherit",
-            "button_icon_w": 0,
+            "button_icon_w": 12,
             "button_style": "default",
-            "button_effect": "default",
-            "pri_cl": "#222222",
+            "button_effect": "fade",
+            "pri_cl": "#bf1932",
             "second_cl": "#ffffff",
-            "pri_cl_hover": "#56cfe1",
+            "pri_cl_hover": "#ab162d",
             "second_cl_hover": "#ffffff",
-            "fsbutton": 14,
+            "fsbutton": 16,
             "fwbutton": 400,
             "button_ls": 0,
             "button_mh": 42,
-            "button_bdr": 0,
+            "button_bdr": 25,
             "button_pd_lr": 20,
             "button_mgb": 0,
             "hidden_mobile": false,
@@ -295,38 +317,42 @@
             "button_pd_lr_mb": 15,
             "button_ls_mb": 0,
             "button_mgb_mb": 0,
-            "animation": "none"
+            "animation": "fadeInDown"
           }
         }
       },
       "block_order": [
-        "custom_text_VzTGhr",
         "custom_text_tcnxda",
+        "custom_text_KVWXUt",
+        "custom_text_L9X7RR",
         "custom_button_YBy4qD"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.t4s-content-wrap {width: 33.3%; margin-left: 18px; }}"
       ],
       "name": "Hero image",
       "settings": {
-        "se_height": "t4s_ratioadapt",
+        "se_height": "t4s_ratio_fh",
         "custom_dk": true,
         "height_dk": 600,
         "custom_tb": true,
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify://shop_images/30D.png",
+        "image": "shopify://shop_images/home-banner2.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
         "open_link": "_blank",
-        "text_align": "center",
-        "text_align_mb": "center",
+        "text_align": "start",
+        "text_align_mb": "start",
         "content_width": "container",
         "cv_pos": 50,
         "ch_pos": 50,
         "cv_pos_mb": 50,
         "ch_pos_mb": 50,
         "bg_overlay": "#000000",
-        "bg_opacity": 0,
+        "bg_opacity": 11,
         "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
@@ -352,7 +378,7 @@
         "mg_mb": ",,30px,",
         "pd_mb": "",
         "use_cus_css": false,
-        "code_cus_css": ""
+        "code_cus_css": "@media (min-width:768px) {\n\n}"
       }
     },
     "1646028739ae283905": {
@@ -1244,7 +1270,7 @@
       ],
       "custom_css": [
         "div[data-goto] {justify-content: center; background: #f9e8eb; border-radius: 16px;}",
-        "h3 {font-size: 32px; font-weight: normal;}",
+        "h3 {font-size: 32px; font-weight: normal; color: var(--accent-color);}",
         "@media (max-width: 768px) {.t4s-logo-item {width: 33.333%; }}"
       ],
       "settings": {
@@ -1306,10 +1332,10 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "Why Shortcutx Works",
-            "text": "<p>Crafted with powerful natural ingredients, our supplements do more than support your goals—they ignite them.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
+            "text": "<p>Crafted with powerful natural ingredients, our supplements do more than support your goals—they ignite them.</p><p></p><ul><li><strong>Appetite Control</strong>: Crush cravings before they can start.</li><li><strong>Fat Mobilization</strong>: Ignite your metabolism with intelligent blends.</li><li><strong>Gentle Detox</strong>: Reduce bloating and feel refreshed—all day.</li><li>Real results, without the crash.</li></ul>",
+            "subhd_color": "#bf1932",
+            "hd_color": "#bf1932",
+            "des_color": "#bf1932",
             "use_shadow": false,
             "button_label": "Button label",
             "button_link": "",
@@ -1358,7 +1384,8 @@
         "bl_image_YyKgF3"
       ],
       "custom_css": [
-        "img {border-radius: 16px;}"
+        "img {border-radius: 16px;}",
+        "@media (min-width: 768px) {p {font-size: 18px; } ul li {font-size: 18px; }}"
       ],
       "name": "Image with text",
       "settings": {
@@ -2290,6 +2317,7 @@
         "template--16756803535088__b312d522-3a5e-4c9f-b327-5592ca97f816-168654292433c31c9e-0",
         "template--16756803535088__b312d522-3a5e-4c9f-b327-5592ca97f816-168654292433c31c9e-1"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -2375,6 +2403,7 @@
         "template--16756803535088__5054c224-b8ca-42fb-a4e5-db573d89c9d8-168654292433c31c9e-1",
         "template--16756803535088__5054c224-b8ca-42fb-a4e5-db573d89c9d8-168654292433c31c9e-0"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -2460,6 +2489,7 @@
         "template--16756803535088__11430866-99fb-4127-a3dd-6ed03e8df323-1686543407e840a0bb-0",
         "template--16756803535088__11430866-99fb-4127-a3dd-6ed03e8df323-1686543407e840a0bb-1"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -2545,6 +2575,7 @@
         "template--16756803535088__fef1583b-a0be-46ec-a6d8-1307b243076e-1686543407e840a0bb-1",
         "template--16756803535088__fef1583b-a0be-46ec-a6d8-1307b243076e-1686543407e840a0bb-0"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
