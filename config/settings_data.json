@@ -1508,8 +1508,22 @@
               "icon": ""
             }
           },
+          "menu_ntjn4X": {
+            "type": "menu",
+            "settings": {
+              "title": "Bundle Subscription",
+              "url": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "Save",
+              "lb_cl": "#bf1932",
+              "icons_op": "0",
+              "icon": "las la-chair"
+            }
+          },
           "menu_4NHJNU": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Ride With Us 2025",
               "url": "shopify://products/ride-with-us-community-ride-11-07-2025",
@@ -1604,6 +1618,7 @@
         },
         "block_order": [
           "mb_nav-1",
+          "menu_ntjn4X",
           "menu_4NHJNU",
           "mb_nav-2",
           "a232f002-32ad-428e-8fce-064f90f82542",
