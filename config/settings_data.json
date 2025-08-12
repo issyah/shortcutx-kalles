@@ -760,6 +760,26 @@
               "lb_cl": ""
             }
           },
+          "mega_BLtUh3": {
+            "type": "mega",
+            "settings": {
+              "title": "Pickleball",
+              "url": "shopify://products/ride-with-us-community-ride-11-07-2025-copy",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "#00badb",
+              "pos_sub": "bottom",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "id": 1,
+              "enable_packery": true,
+              "r_s_h_item": "20",
+              "r_s_v_item": "30"
+            }
+          },
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f": {
             "type": "drop",
             "settings": {
@@ -828,6 +848,7 @@
           "556a85dc-041d-4d44-8c22-263ed70a8b48",
           "120b4e2d-ed97-46f2-a06c-e7980a3a59b6",
           "base_hRGdJR",
+          "mega_BLtUh3",
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab",
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
