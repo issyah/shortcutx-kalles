@@ -426,7 +426,6 @@
         },
         "image_parent_8BymdV": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_18.png",
             "image_mb": "shopify://shop_images/Website_Banner_19.png",
