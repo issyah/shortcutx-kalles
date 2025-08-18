@@ -93,6 +93,12 @@
             "advance_pr_list": []
           }
         },
+        "custom_liquid_jNPgLt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r\" class=\"t4s-product-form__submit my-red-btn\">\n  Build Your Own Box\n</a>"
+          }
+        },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
           "type": "img",
           "disabled": true,
@@ -204,6 +210,7 @@
         "price_review",
         "description",
         "form",
+        "custom_liquid_jNPgLt",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
