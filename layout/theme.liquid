@@ -72,6 +72,21 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     
   
 	{{ shop.metafields.loox["global_html_head"] }}
+ <style>
+/* Custom Build Your Own Box button */
+.my-red-btn {
+  background-color: #e81e1e !important; /* Shortcutx red */
+  color: #fff !important;
+  border: none;
+  display: block;
+  text-align: center;
+}
+
+.my-red-btn:hover {
+  background-color: #bf1932 !important; /* darker red hover */
+  color: #fff !important;
+}
+</style>
 </head>
 
   <body class="template-{{ request.page_type | handle }} {{class_lazy}}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}
