@@ -264,6 +264,7 @@
         },
         "image_parent_epPRbC": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_57.svg",
             "image_mb": "shopify://shop_images/Website_Banner_57.svg",
