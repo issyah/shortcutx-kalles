@@ -762,6 +762,7 @@
           },
           "mega_BLtUh3": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Pickleball",
               "url": "shopify://products/events",
