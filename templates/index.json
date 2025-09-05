@@ -264,10 +264,9 @@
         },
         "image_parent_epPRbC": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_57.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_57.svg",
+            "image": "shopify://shop_images/Website_Banner_58.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_58.svg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
