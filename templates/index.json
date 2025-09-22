@@ -1621,7 +1621,7 @@
         "description_T4pn8G": {
           "type": "description",
           "settings": {
-            "des": "2",
+            "des": "1",
             "text": "",
             "length": 31
           }
@@ -1719,7 +1719,8 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "30-day-weight-loss-pack",
+        "product": "new-shortcutx-max-fat-burner",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-09-18_at_10.56.00_1.jpg",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
