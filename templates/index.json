@@ -223,10 +223,9 @@
       "blocks": {
         "7ec0ff00-0440-45d4-8339-a40fddf43963": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_59.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_61.svg",
+            "image": "shopify://shop_images/Desktop_1.jpg",
+            "image_mb": "shopify://shop_images/Mobile.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
@@ -264,10 +263,9 @@
         },
         "image_parent_epPRbC": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_58.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_58.svg",
+            "image": "shopify://shop_images/Desktop_copy.jpg",
+            "image_mb": "shopify://shop_images/Mobile_copy.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
@@ -305,10 +303,9 @@
         },
         "image_parent_H34eai": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_45.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_45.svg",
+            "image": "shopify://shop_images/Desktop.jpg",
+            "image_mb": "shopify://shop_images/Phone.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/30-day-weight-loss-pack",
@@ -346,6 +343,7 @@
         },
         "image_parent_mENw86": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_12.svg",
             "image_mb": "shopify://shop_images/Website_Banner_12.svg",
@@ -428,8 +426,7 @@
         "image_parent_8BymdV": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_18.png",
-            "image_mb": "shopify://shop_images/Website_Banner_19.png",
+            "image": "shopify://shop_images/MaxDesktop.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/meal-replacement",
