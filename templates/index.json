@@ -227,7 +227,7 @@
           "settings": {
             "image": "shopify://shop_images/Desktop_1.jpg",
             "image_mb": "shopify://shop_images/Mobile.jpg",
-            "image_position": "9",
+            "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
             "open_link": "_blank",
