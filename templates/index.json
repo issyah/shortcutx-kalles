@@ -227,7 +227,7 @@
           "settings": {
             "image": "shopify://shop_images/Desktop_1.jpg",
             "image_mb": "shopify://shop_images/Mobile.jpg",
-            "image_position": "8",
+            "image_position": "9",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
             "open_link": "_blank",
@@ -267,7 +267,7 @@
           "settings": {
             "image": "shopify://shop_images/Desktop_copy.jpg",
             "image_mb": "shopify://shop_images/Mobile_copy.jpg",
-            "image_position": "8",
+            "image_position": "9",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
             "open_link": "_blank",
