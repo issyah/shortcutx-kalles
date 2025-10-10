@@ -265,8 +265,8 @@
         "image_parent_epPRbC": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Desktop_copy.jpg",
-            "image_mb": "shopify://shop_images/Mobile_copy.jpg",
+            "image": "shopify://shop_images/Desktop_1_3dffce13-fcdb-4ff9-b32a-68f7de1e96b8.jpg",
+            "image_mb": "shopify://shop_images/Mobile_3.jpg",
             "image_position": "9",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
@@ -305,8 +305,8 @@
         "image_parent_H34eai": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Desktop.jpg",
-            "image_mb": "shopify://shop_images/Phone.jpg",
+            "image": "shopify://shop_images/Desktop_3.jpg",
+            "image_mb": "shopify://shop_images/Phone_8467f1b6-d286-4013-a983-64063105509f.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/30-day-weight-loss-pack",
@@ -428,6 +428,7 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify://shop_images/MaxDesktop.jpg",
+            "image_mb": "shopify://shop_images/Mobile_4.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/meal-replacement",
