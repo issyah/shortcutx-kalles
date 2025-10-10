@@ -1620,7 +1620,7 @@
         "description_T4pn8G": {
           "type": "description",
           "settings": {
-            "des": "1",
+            "des": "2",
             "text": "",
             "length": 31
           }
@@ -1718,7 +1718,7 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "new-shortcutx-max-fat-burner",
+        "product": "shortcutx-de-bloat-white-grape",
         "image": "shopify://shop_images/Screenshot2025-10-08at11.17.49AM.png",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
