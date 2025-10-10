@@ -119,6 +119,13 @@
             "icon": "las la-burn"
           }
         },
+        "cat_w66zdG": {
+          "type": "cat",
+          "settings": {
+            "collection": "wellness",
+            "icon": "las la-smile"
+          }
+        },
         "9a953769-57c2-417a-b665-db34392c8d1c": {
           "type": "cat",
           "settings": {
@@ -131,6 +138,7 @@
         "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
         "2502644f-656b-4289-9245-a75187bd0170",
         "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22",
+        "cat_w66zdG",
         "9a953769-57c2-417a-b665-db34392c8d1c"
       ],
       "settings": {
