@@ -1454,6 +1454,7 @@
       "blocks": {
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-1": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/30D.png",
@@ -1544,7 +1545,7 @@
         "fs_text": 14,
         "fs_title_mb": 22,
         "fs_text_mb": 12,
-        "image_ratio": "ratio2_3",
+        "image_ratio": "ratio1_1",
         "image_size": "cover",
         "image_position": "8",
         "img_effect": "none",
@@ -1554,8 +1555,8 @@
         "space_v_item": "30",
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
-        "col_dk": "4",
-        "col_tb": "2",
+        "col_dk": "3",
+        "col_tb": "3",
         "col_mb": "1",
         "loop": true,
         "au_time": 0,
@@ -2326,9 +2327,9 @@
             "icon_themes": "car",
             "icon": "las la-boxes",
             "heading": "",
-            "number": 1704045,
+            "number": 2704045,
             "unit": "",
-            "des": "BOXES SOLD",
+            "des": "PRODUCTS SOLD",
             "content_align": "center"
           }
         },
@@ -2338,9 +2339,9 @@
             "icon_themes": "car",
             "icon": "las la-smile",
             "heading": "",
-            "number": 643549,
+            "number": 943549,
             "unit": "",
-            "des": "SATISFIED CUSTOMERS",
+            "des": "HAPPY CUSTOMERS",
             "content_align": "center"
           }
         },
@@ -2410,7 +2411,7 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "collection": "key-products",
-        "product_des": "5",
+        "product_des": "6",
         "show_vendor": false,
         "use_cdt": false,
         "image_ratio": "ratio1_1",
@@ -2470,13 +2471,14 @@
         "bl_heading_a8hAUX": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "Follow our instagram @shortcutx.co"
+            "top_heading": "Follow our Instagram @shortcutx.co"
           }
         },
         "bl_subheading_qXDEPN": {
           "type": "bl_subheading",
+          "disabled": true,
           "settings": {
-            "top_subheading": "Keep updated with our promotions, free gifts, and new products!"
+            "top_subheading": ""
           }
         }
       },
