@@ -1759,6 +1759,36 @@
         "pd_mb": ""
       }
     },
+    "17612034474b0228a7": {
+      "type": "apps",
+      "blocks": {
+        "doran_shoppable_videos_basic_widget_bQtA8j": {
+          "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
+          "settings": {
+            "widgets": [
+              "5dcec228-836f-4ec4-ae03-bf8d5ff93a5c"
+            ],
+            "widget_type": "carousel",
+            "heading": "",
+            "heading_tag": "h2",
+            "description": "",
+            "alignment": "center",
+            "is_custom_grid": false,
+            "grid_item_in_desktop": 4,
+            "grid_item_in_tablet": 3,
+            "grid_item_in_mobile": 2,
+            "is_custom_carousel": false,
+            "carousel_item_in_desktop": 4,
+            "carousel_item_in_tablet": 3,
+            "carousel_item_in_mobile": 2
+          }
+        }
+      },
+      "block_order": [
+        "doran_shoppable_videos_basic_widget_bQtA8j"
+      ],
+      "settings": {}
+    },
     "8bf6220c-3a2f-4494-97dd-7b814ec663d8": {
       "type": "custom-html",
       "custom_css": [],
@@ -2526,6 +2556,7 @@
     "16460362229768af39",
     "60a7e69b-a1b8-41fd-8534-9311d09e24ef",
     "featured_product_WARhwX",
+    "17612034474b0228a7",
     "8bf6220c-3a2f-4494-97dd-7b814ec663d8",
     "17261228869bd18f11",
     "164620932069107a3a",
