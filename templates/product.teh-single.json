@@ -613,7 +613,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "",
+        "mg": ",,20px",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
@@ -622,6 +622,34 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "176120632747f0799a": {
+      "type": "apps",
+      "blocks": {
+        "doran_shoppable_videos_basic_widget_fM6pay": {
+          "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
+          "settings": {
+            "widgets": [],
+            "widget_type": "carousel",
+            "heading": "",
+            "heading_tag": "h2",
+            "description": "",
+            "alignment": "center",
+            "is_custom_grid": false,
+            "grid_item_in_desktop": 4,
+            "grid_item_in_tablet": 3,
+            "grid_item_in_mobile": 2,
+            "is_custom_carousel": false,
+            "carousel_item_in_desktop": 4,
+            "carousel_item_in_tablet": 3,
+            "carousel_item_in_mobile": 2
+          }
+        }
+      },
+      "block_order": [
+        "doran_shoppable_videos_basic_widget_fM6pay"
+      ],
+      "settings": {}
     },
     "our_team_WYKrzg": {
       "type": "our_team",
@@ -1295,6 +1323,7 @@
     "image_text_HqDhwp",
     "image_text_CkHWna",
     "image_text_CNbVep",
+    "176120632747f0799a",
     "our_team_WYKrzg",
     "image_text_Cj6iL6",
     "image_text_gbbUKH",
