@@ -212,7 +212,6 @@ endif -%}
 
             {%- endif -%}
           </div>
-          {%- if PR_buy_pr and type != 'main_sticky' %}{{- form | payment_button -}}{% endif -%}
           {%- if settings.use_notify_me -%}<button data-class="t4s-mfp-btn-close-inline" data-id="t4s-pr-popup__notify-stock" data-storageid="notify-stock{{current_variant.id}}" data-mfp-src data-open-mfp-ajax class="t4s-pr__notify-stock{% if current_variant_available or current_variant == blank %} t4s-d-none{% endif %}" type="button" data-notify-stock-btn data-variant-id="{{ current_variant.id }}" data-root-url="{{ routes.root_url }}">{{ 'products.notify_stock.trigger' | t }}</button>{%- endif -%}
         </div>
         </div> <!-- end of t4s-d-flex -->
