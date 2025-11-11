@@ -54,6 +54,47 @@ assign show_tooltip = '-off'
 endif -%}
 
 {%- if color_mode == 'dropdown' or selector_mode == 'dropdown' %}<link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">{% endif -%}
+{%- if color_mode == 'dropdown' or selector_mode == 'dropdown' %}<link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">{% endif -%}
+
+<style>
+  /* === Limit to this product section only === */
+  #shopify-section-{{ section.id }} .is--main-sticky,
+  #shopify-section-{{ section.id }} .is--atc-sticky,
+  #shopify-section-{{ section.id }} .t4s-sticky,
+  #shopify-section-{{ section.id }} .t4s-sticky__inner,
+  #shopify-section-{{ section.id }} .t4s-sticky-atc,
+  #shopify-section-{{ section.id }} [data-sticky-atc],
+  #shopify-section-{{ section.id }} [class*="sticky-atc"] {
+    position: static !important;
+    top: auto !important;
+    bottom: auto !important;
+    inset: auto !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  /* If a separate sticky bar is rendered inside this section, hide it */
+  #shopify-section-{{ section.id }} .t4s-sticky-atc,
+  #shopify-section-{{ section.id }} [data-sticky-atc],
+  #shopify-section-{{ section.id }} [class*="sticky-atc"] {
+    display: none !important;
+  }
+
+  /* Hide Ask-a-question just in this section */
+  #shopify-section-{{ section.id }} .t4s-pr__ask-question,
+  #shopify-section-{{ section.id }} [data-open-mfp-ajax][data-id*="ask"],
+  #shopify-section-{{ section.id }} a[href*="ask"],
+  #shopify-section-{{ section.id }} button[title*="Ask"] {
+    display: none !important;
+  }
+
+  /* (optional) comfy padding for the main CTA in this section only */
+  #shopify-section-{{ section.id }} .t4s-product-form__submit {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    line-height: 1.2;
+  }
+</style>
 
 <div class="t4s-product-form__variants is-no-pick__{{PR_no_pick}}{% if PR_buy_pr %} is-payment-btn-true t4s-payment-button t4s-btn-color-{{bk_stts.button_color_payment}}{% endif %}  is-remove-soldout-{{remove_soldout}} is-btn-full-width__{{bk_stts.btn_atc_full}} is-btn-atc-txt-{{bk_stts.btn_txt}} is-btn-ck-txt-{{bk_stts.btn_txt2}} is--fist-ratio-{{is_fit_ratio_img}}" style="{% if is_fit_ratio_img %};--fit-ratio-img:{{first_ratio_img}};{% endif %} --wishlist-color: {{bk_stts.wishlist_color}};--wishlist-hover-color: {{bk_stts.wishlist_color_hover}};--wishlist-active-color: {{bk_stts.wishlist_color_active}};--compare-color: {{bk_stts.compare_color}};--compare-hover-color: {{bk_stts.compare_color_hover}};--compare-active-color: {{bk_stts.compare_color_active}};" {{ shopify_attributes }}>
   <div data-callBackVariant id="t4s-callBackVariant{{product_form_id}}">
