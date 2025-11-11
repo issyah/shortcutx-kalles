@@ -139,7 +139,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Ingredients",
-            "content": "<p>{{ product.metafields.custom.ingredients.value  }}</p>",
+            "content": "<p>{{ product.metafields.custom.ingredients.value }}</p>",
             "page": ""
           }
         },

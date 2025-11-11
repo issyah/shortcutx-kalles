@@ -108,6 +108,7 @@
         },
         "size_delivery_ask": {
           "type": "size_delivery_ask",
+          "disabled": true,
           "settings": {
             "size_chart": "3",
             "pos_sizeg": "1",
@@ -138,7 +139,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Ingredients",
-            "content": "<p>{{ product.metafields.custom.ingredients.value  }}</p>",
+            "content": "<p>{{ product.metafields.custom.ingredients.value }}</p>",
             "page": ""
           }
         },
