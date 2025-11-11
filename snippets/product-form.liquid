@@ -15,9 +15,9 @@ if arr_properties.size > 0 and isProductAvailable
     assign class_frm =  class_frm | append: ' has--properties'
 endif
 if settings.sticky_atc and type == 'main'
-  assign class_frm =  class_frm | append:' is--main-sticky'
+  assign class_frm = class_frm
 else if settings.sticky_atc and type == 'main_sticky'
-  assign class_frm =  class_frm | append:' is--atc-sticky'
+  assign class_frm = class_frm
 endif
 
 assign color_swatch    = 'disabled-'
