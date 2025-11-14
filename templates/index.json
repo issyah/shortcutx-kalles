@@ -223,6 +223,7 @@
       "blocks": {
         "image_parent_mENw86": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Shopee_Banner_11.11_Desktop.png",
             "image_mb": "shopify://shop_images/Website_Shopee_Banner_11.11_Mobile.png",
