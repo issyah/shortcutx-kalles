@@ -225,8 +225,8 @@
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Shopee_Banner_11.11_Desktop.png",
-            "image_mb": "shopify://shop_images/Website_Shopee_Banner_11.11_Mobile.png",
+            "image": "shopify://shop_images/Black_Friday_Banner_Desktop.png",
+            "image_mb": "shopify://shop_images/Black_Friday_Banner_Mobile.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/key-products",
