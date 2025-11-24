@@ -223,7 +223,6 @@
       "blocks": {
         "image_parent_mENw86": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Black_Friday_Banner_Desktop.png",
             "image_mb": "shopify://shop_images/Black_Friday_Banner_Mobile.png",
