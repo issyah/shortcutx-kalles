@@ -175,6 +175,7 @@
       "blocks": {
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
+          "disabled": true,
           "settings": {
             "heading": "{{ collection.title }}",
             "fontf": "1",
@@ -234,7 +235,7 @@
         "bfc82e9a-ffbe-43c5-b411-3308e04c68d9"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner-01.jpg",
+        "image": "shopify://shop_images/APPLE_banner-05.jpg",
         "use_specify_image": true,
         "parallax": false,
         "color": "#bf1932",
