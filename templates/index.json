@@ -2358,7 +2358,7 @@
             "icon_themes": "car",
             "icon": "las la-boxes",
             "heading": "",
-            "number": 2704045,
+            "number": 4704045,
             "unit": "",
             "des": "PRODUCTS SOLD",
             "content_align": "center"
@@ -2370,7 +2370,7 @@
             "icon_themes": "car",
             "icon": "las la-smile",
             "heading": "",
-            "number": 943549,
+            "number": 1643549,
             "unit": "",
             "des": "HAPPY CUSTOMERS",
             "content_align": "center"
@@ -2519,7 +2519,7 @@
         "bl_heading_a8hAUX": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "Follow our Instagram @shortcutx.co"
+            "top_heading": "Follow our instagram @shortcutx.co"
           }
         },
         "bl_subheading_qXDEPN": {
