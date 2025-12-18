@@ -304,6 +304,7 @@
         },
         "7ec0ff00-0440-45d4-8339-a40fddf43963": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_4.jpg",
             "image_mb": "shopify://shop_images/Mobile_5.jpg",
@@ -424,6 +425,7 @@
         },
         "image_parent_8BymdV": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_7bceb555-d8a3-4a99-9d23-ebb55d8be1b2.jpg",
             "image_mb": "shopify://shop_images/Mobile_20fc56a1-f3f5-425e-b456-41395bae6697.jpg",
@@ -2494,6 +2496,23 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "custom_html_dTRpwH": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>SCIENCE BACKED SUPPLEMENTS</span>\n<span>CLINICALLY STUDIED INGREDIENTS</span>\n<span>BUNDLE &amp; SAVE</span><span>FREE SHIPPING FOR ORDERS ABOVE $100</span>\n</marquee>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "#222222",
+        "cl_bg_gradient": "linear-gradient(114deg, rgba(240, 69, 87, 1), rgba(221, 39, 57, 1) 100%)",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": "#marquee-section {\n  margin-top: 8px;\nmargin-bottom:2px;\n}\n#marquee-section > span {\nmargin-right: 55px;\nfont-size: 20px;\ncolor: #FFFFFF;\n}\n\n#marquee-section > span:before{\n    content: '\\2022 ';\n    color: #FFFFFF;\n   margin-right:15px;\n}"
+      }
+    },
     "top_heading_4G8MCQ": {
       "type": "top_heading",
       "blocks": {
@@ -2567,6 +2586,7 @@
     "fef1583b-a0be-46ec-a6d8-1307b243076e",
     "51d99fc7-af1a-4a98-b13e-90422bb3393d",
     "1646035317ea8b6928",
+    "custom_html_dTRpwH",
     "top_heading_4G8MCQ",
     "1689065658ece8d2cb"
   ]
