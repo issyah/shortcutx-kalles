@@ -513,8 +513,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "link": "shopify://products/new-shortcutx-max-fat-burner",
-              "content": "<p><strong>[FRESH FROM UK] </strong>Shortcutx Max: Stronger,  Better, Faster [icon_arrow]</p>",
+              "link": "shopify://pages/build-a-box",
+              "content": "<p><strong>Subscribe & Save</strong> • Free shipping above S$100 [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
