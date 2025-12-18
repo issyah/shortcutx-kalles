@@ -1496,14 +1496,14 @@
           "type": "img",
           "settings": {
             "image": "shopify://shop_images/Category_List000-01.png",
-            "url": "shopify://collections/frontpage"
+            "url": "shopify://collections/starter-fat-burners"
           }
         },
         "img_649NdH": {
           "type": "img",
           "settings": {
             "image": "shopify://shop_images/Category_List000-02.png",
-            "url": "shopify://collections/frontpage"
+            "url": "shopify://collections/advanced-fat-burner"
           }
         },
         "img_rWQpgN": {
