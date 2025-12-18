@@ -1450,6 +1450,45 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "6539eb23-5ca8-4d72-8477-f441439a0d2a": {
+      "type": "top_heading",
+      "blocks": {
+        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Singapore's #1 Best Selling Weight Management Supplements"
+          }
+        },
+        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Best theme shopify"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0",
+        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1"
+      ],
+      "name": "Header",
+      "settings": {
+        "anchor_id": "why-shortcutx",
+        "design_heading": "3",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "instagram_feed_6xbbwW": {
       "type": "instagram_feed",
       "blocks": {
@@ -1504,7 +1543,7 @@
         "img_9eXT4U",
         "img_kMY6C4"
       ],
-      "name": "Instagram feed",
+      "name": "Category List",
       "settings": {
         "layout_des": "2",
         "image_ratio": "ratioadapt",
@@ -1733,16 +1772,16 @@
         "code_cus_css": "#marquee-section {\n  margin-top: 24px;\nmargin-bottom:24px;\n}\n#marquee-section > span {\nmargin-right: 55px;\nfont-size: 30px;\ncolor: #444;\n}\n\n#marquee-section > span:before{\n    content: '\\2022 ';\n    color: var(--accent-color);\n   margin-right:15px;\n}"
       }
     },
-    "6539eb23-5ca8-4d72-8477-f441439a0d2a": {
+    "top_heading_BRzWbE": {
       "type": "top_heading",
       "blocks": {
-        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0": {
+        "bl_heading_MQXce7": {
           "type": "bl_heading",
           "settings": {
             "top_heading": "New Launch: Shortcutx De-Bloat"
           }
         },
-        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1": {
+        "bl_subheading_zQmTRe": {
           "type": "bl_subheading",
           "disabled": true,
           "settings": {
@@ -1751,8 +1790,8 @@
         }
       },
       "block_order": [
-        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0",
-        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1"
+        "bl_heading_MQXce7",
+        "bl_subheading_zQmTRe"
       ],
       "settings": {
         "anchor_id": "why-shortcutx",
@@ -2673,11 +2712,12 @@
     "7ae682bd-8cdc-4092-8235-21bbc7ff5aac",
     "164603504020ce33da",
     "16460362229768af39",
+    "6539eb23-5ca8-4d72-8477-f441439a0d2a",
     "instagram_feed_6xbbwW",
     "60a7e69b-a1b8-41fd-8534-9311d09e24ef",
     "17612034474b0228a7",
     "8bf6220c-3a2f-4494-97dd-7b814ec663d8",
-    "6539eb23-5ca8-4d72-8477-f441439a0d2a",
+    "top_heading_BRzWbE",
     "featured_product_WARhwX",
     "17261228869bd18f11",
     "164620932069107a3a",
