@@ -1123,13 +1123,13 @@
         "open_link": "_blank",
         "layout_des": "1",
         "click_image": "data-goto",
-        "nav_thumbs": true,
+        "nav_thumbs": false,
         "col_dk": "1",
         "col_tb": "1",
         "col_mb": "1",
         "space_item": "30",
         "space_item_mb": "30",
-        "loop": true,
+        "loop": false,
         "au_time": 0,
         "au_hover": true,
         "nav_btn": false,
@@ -1450,6 +1450,99 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "instagram_feed_6xbbwW": {
+      "type": "instagram_feed",
+      "blocks": {
+        "img_jTryxf": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/website_11-11_sale_mobile.png",
+            "url": ""
+          }
+        },
+        "img_649NdH": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "img_rWQpgN": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "img_G8EUeX": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "img_9eXT4U": {
+          "type": "img",
+          "settings": {
+            "url": ""
+          }
+        },
+        "img_kMY6C4": {
+          "type": "img",
+          "disabled": true,
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "img_jTryxf",
+        "img_649NdH",
+        "img_rWQpgN",
+        "img_G8EUeX",
+        "img_9eXT4U",
+        "img_kMY6C4"
+      ],
+      "disabled": true,
+      "name": "Instagram feed",
+      "settings": {
+        "layout_des": "2",
+        "image_ratio": "ratio1_2",
+        "image_position": "8",
+        "image_size": "cover",
+        "img_effect": "none",
+        "b_effect": "dark-overlay",
+        "col_dk": "5",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "0",
+        "space_item_mb": "0",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "60a7e69b-a1b8-41fd-8534-9311d09e24ef": {
       "type": "feature_columns",
       "blocks": {
@@ -1586,6 +1679,54 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
+      }
+    },
+    "17612034474b0228a7": {
+      "type": "apps",
+      "blocks": {
+        "doran_shoppable_videos_basic_widget_bQtA8j": {
+          "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
+          "settings": {
+            "widgets": [
+              "5dcec228-836f-4ec4-ae03-bf8d5ff93a5c"
+            ],
+            "widget_type": "carousel",
+            "heading": "",
+            "heading_tag": "h2",
+            "description": "",
+            "alignment": "center",
+            "is_custom_grid": false,
+            "grid_item_in_desktop": 4,
+            "grid_item_in_tablet": 3,
+            "grid_item_in_mobile": 2,
+            "is_custom_carousel": false,
+            "carousel_item_in_desktop": 4,
+            "carousel_item_in_tablet": 3,
+            "carousel_item_in_mobile": 2
+          }
+        }
+      },
+      "block_order": [
+        "doran_shoppable_videos_basic_widget_bQtA8j"
+      ],
+      "settings": {}
+    },
+    "8bf6220c-3a2f-4494-97dd-7b814ec663d8": {
+      "type": "custom-html",
+      "custom_css": [],
+      "settings": {
+        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    See results in just 7 days</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>Over 1,000,000 boxes sold</span><span>    Fast and effective results</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>Formulated with natural ingredients</span><span>    See results in just 7 days</span>\n</marquee>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": "#marquee-section {\n  margin-top: 24px;\nmargin-bottom:24px;\n}\n#marquee-section > span {\nmargin-right: 55px;\nfont-size: 30px;\ncolor: #444;\n}\n\n#marquee-section > span:before{\n    content: '\\2022 ';\n    color: var(--accent-color);\n   margin-right:15px;\n}"
       }
     },
     "featured_product_WARhwX": {
@@ -1758,54 +1899,6 @@
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
-      }
-    },
-    "17612034474b0228a7": {
-      "type": "apps",
-      "blocks": {
-        "doran_shoppable_videos_basic_widget_bQtA8j": {
-          "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
-          "settings": {
-            "widgets": [
-              "5dcec228-836f-4ec4-ae03-bf8d5ff93a5c"
-            ],
-            "widget_type": "carousel",
-            "heading": "",
-            "heading_tag": "h2",
-            "description": "",
-            "alignment": "center",
-            "is_custom_grid": false,
-            "grid_item_in_desktop": 4,
-            "grid_item_in_tablet": 3,
-            "grid_item_in_mobile": 2,
-            "is_custom_carousel": false,
-            "carousel_item_in_desktop": 4,
-            "carousel_item_in_tablet": 3,
-            "carousel_item_in_mobile": 2
-          }
-        }
-      },
-      "block_order": [
-        "doran_shoppable_videos_basic_widget_bQtA8j"
-      ],
-      "settings": {}
-    },
-    "8bf6220c-3a2f-4494-97dd-7b814ec663d8": {
-      "type": "custom-html",
-      "custom_css": [],
-      "settings": {
-        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>#1 Bestselling Health Supplement on Shopee</span><span>7 Day Achiever</span><span>World's First Apple Cider Fat Burner Juice</span><span>    See results in just 7 days</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>Over 1,000,000 boxes sold</span><span>    Fast and effective results</span>\n<span>#1 Bestselling Health &amp; Wellness Supplement in Singapore</span><span>7 Day Achiever</span><span>Formulated with natural ingredients</span><span>    See results in just 7 days</span>\n</marquee>",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": true,
-        "code_cus_css": "#marquee-section {\n  margin-top: 24px;\nmargin-bottom:24px;\n}\n#marquee-section > span {\nmargin-right: 55px;\nfont-size: 30px;\ncolor: #444;\n}\n\n#marquee-section > span:before{\n    content: '\\2022 ';\n    color: var(--accent-color);\n   margin-right:15px;\n}"
       }
     },
     "17261228869bd18f11": {
@@ -1992,6 +2085,7 @@
         "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0",
         "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1"
       ],
+      "disabled": true,
       "settings": {
         "anchor_id": "why-shortcutx",
         "design_heading": "3",
@@ -2070,6 +2164,7 @@
         "template--16756803535088__b312d522-3a5e-4c9f-b327-5592ca97f816-168654292433c31c9e-0",
         "template--16756803535088__b312d522-3a5e-4c9f-b327-5592ca97f816-168654292433c31c9e-1"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -2155,6 +2250,7 @@
         "template--16756803535088__5054c224-b8ca-42fb-a4e5-db573d89c9d8-168654292433c31c9e-1",
         "template--16756803535088__5054c224-b8ca-42fb-a4e5-db573d89c9d8-168654292433c31c9e-0"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -2240,6 +2336,7 @@
         "template--16756803535088__11430866-99fb-4127-a3dd-6ed03e8df323-1686543407e840a0bb-0",
         "template--16756803535088__11430866-99fb-4127-a3dd-6ed03e8df323-1686543407e840a0bb-1"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -2325,6 +2422,7 @@
         "template--16756803535088__fef1583b-a0be-46ec-a6d8-1307b243076e-1686543407e840a0bb-1",
         "template--16756803535088__fef1583b-a0be-46ec-a6d8-1307b243076e-1686543407e840a0bb-0"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -2432,6 +2530,23 @@
         "code_cus_css": ""
       }
     },
+    "custom_html_dTRpwH": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>SCIENCE BACKED SUPPLEMENTS</span>\n<span>CLINICALLY STUDIED INGREDIENTS</span>\n<span>BUNDLE &amp; SAVE</span><span>FREE SHIPPING FOR ORDERS ABOVE $100</span>\n</marquee>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "#222222",
+        "cl_bg_gradient": "linear-gradient(114deg, rgba(240, 69, 87, 1), rgba(221, 39, 57, 1) 100%)",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": "#marquee-section {\n  margin-top: 8px;\nmargin-bottom:2px;\n}\n#marquee-section > span {\nmargin-right: 55px;\nfont-size: 20px;\ncolor: #FFFFFF;\n}\n\n#marquee-section > span:before{\n    content: '\\2022 ';\n    color: #FFFFFF;\n   margin-right:15px;\n}"
+      }
+    },
     "1646035317ea8b6928": {
       "type": "featured-collection",
       "settings": {
@@ -2496,23 +2611,6 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
-    "custom_html_dTRpwH": {
-      "type": "custom-html",
-      "settings": {
-        "code": "<marquee class=\"marquee-container\" id=\"marquee-section\"><span>SCIENCE BACKED SUPPLEMENTS</span>\n<span>CLINICALLY STUDIED INGREDIENTS</span>\n<span>BUNDLE &amp; SAVE</span><span>FREE SHIPPING FOR ORDERS ABOVE $100</span>\n</marquee>",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "#222222",
-        "cl_bg_gradient": "linear-gradient(114deg, rgba(240, 69, 87, 1), rgba(221, 39, 57, 1) 100%)",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": true,
-        "code_cus_css": "#marquee-section {\n  margin-top: 8px;\nmargin-bottom:2px;\n}\n#marquee-section > span {\nmargin-right: 55px;\nfont-size: 20px;\ncolor: #FFFFFF;\n}\n\n#marquee-section > span:before{\n    content: '\\2022 ';\n    color: #FFFFFF;\n   margin-right:15px;\n}"
-      }
-    },
     "top_heading_4G8MCQ": {
       "type": "top_heading",
       "blocks": {
@@ -2572,10 +2670,11 @@
     "7ae682bd-8cdc-4092-8235-21bbc7ff5aac",
     "164603504020ce33da",
     "16460362229768af39",
+    "instagram_feed_6xbbwW",
     "60a7e69b-a1b8-41fd-8534-9311d09e24ef",
-    "featured_product_WARhwX",
     "17612034474b0228a7",
     "8bf6220c-3a2f-4494-97dd-7b814ec663d8",
+    "featured_product_WARhwX",
     "17261228869bd18f11",
     "164620932069107a3a",
     "1bd8a459-e0b8-40b5-b685-a046ef3f497b",
@@ -2585,8 +2684,8 @@
     "11430866-99fb-4127-a3dd-6ed03e8df323",
     "fef1583b-a0be-46ec-a6d8-1307b243076e",
     "51d99fc7-af1a-4a98-b13e-90422bb3393d",
-    "1646035317ea8b6928",
     "custom_html_dTRpwH",
+    "1646035317ea8b6928",
     "top_heading_4G8MCQ",
     "1689065658ece8d2cb"
   ]
