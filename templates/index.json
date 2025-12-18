@@ -1729,6 +1729,44 @@
         "code_cus_css": "#marquee-section {\n  margin-top: 24px;\nmargin-bottom:24px;\n}\n#marquee-section > span {\nmargin-right: 55px;\nfont-size: 30px;\ncolor: #444;\n}\n\n#marquee-section > span:before{\n    content: '\\2022 ';\n    color: var(--accent-color);\n   margin-right:15px;\n}"
       }
     },
+    "6539eb23-5ca8-4d72-8477-f441439a0d2a": {
+      "type": "top_heading",
+      "blocks": {
+        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "New Launch: Shortcutx De-Bloat"
+          }
+        },
+        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Best theme shopify"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0",
+        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1"
+      ],
+      "settings": {
+        "anchor_id": "why-shortcutx",
+        "design_heading": "3",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "featured_product_WARhwX": {
       "type": "featured-product",
       "blocks": {
@@ -2056,45 +2094,6 @@
         "image_bg": "shopify://shop_images/Screenshot_2023-06-04_at_1.23.10_PM.png",
         "mg": "50px,,50px,",
         "pd": "160px,24px,160px,24px",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "6539eb23-5ca8-4d72-8477-f441439a0d2a": {
-      "type": "top_heading",
-      "blocks": {
-        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0": {
-          "type": "bl_heading",
-          "settings": {
-            "top_heading": "Choose Shortcutx."
-          }
-        },
-        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1": {
-          "type": "bl_subheading",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "Best theme shopify"
-          }
-        }
-      },
-      "block_order": [
-        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-0",
-        "template--16756803535088__6539eb23-5ca8-4d72-8477-f441439a0d2a-16865428652c00ace7-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "anchor_id": "why-shortcutx",
-        "design_heading": "3",
-        "heading_align": "t4s-text-center",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "50px,,50px,",
-        "pd": "",
         "mg_tb": "",
         "pd_tb": "",
         "mg_mb": ",,30px,",
@@ -2674,11 +2673,11 @@
     "60a7e69b-a1b8-41fd-8534-9311d09e24ef",
     "17612034474b0228a7",
     "8bf6220c-3a2f-4494-97dd-7b814ec663d8",
+    "6539eb23-5ca8-4d72-8477-f441439a0d2a",
     "featured_product_WARhwX",
     "17261228869bd18f11",
     "164620932069107a3a",
     "1bd8a459-e0b8-40b5-b685-a046ef3f497b",
-    "6539eb23-5ca8-4d72-8477-f441439a0d2a",
     "b312d522-3a5e-4c9f-b327-5592ca97f816",
     "5054c224-b8ca-42fb-a4e5-db573d89c9d8",
     "11430866-99fb-4127-a3dd-6ed03e8df323",
