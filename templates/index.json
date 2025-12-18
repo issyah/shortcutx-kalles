@@ -1456,32 +1456,36 @@
         "img_jTryxf": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/website_11-11_sale_mobile.png",
-            "url": ""
+            "image": "shopify://shop_images/Category_List000-01.png",
+            "url": "shopify://collections/frontpage"
           }
         },
         "img_649NdH": {
           "type": "img",
           "settings": {
-            "url": ""
+            "image": "shopify://shop_images/Category_List000-02.png",
+            "url": "shopify://collections/frontpage"
           }
         },
         "img_rWQpgN": {
           "type": "img",
           "settings": {
-            "url": ""
+            "image": "shopify://shop_images/Category_List000-04.png",
+            "url": "shopify://collections/meal-replacement"
           }
         },
         "img_G8EUeX": {
           "type": "img",
           "settings": {
-            "url": ""
+            "image": "shopify://shop_images/Category_List000-03.png",
+            "url": "shopify://products/shortcutx-night-fat-burner-juice"
           }
         },
         "img_9eXT4U": {
           "type": "img",
           "settings": {
-            "url": ""
+            "image": "shopify://shop_images/Category_List000-05.png",
+            "url": "shopify://products/shortcutx-de-bloat-white-grape"
           }
         },
         "img_kMY6C4": {
@@ -1500,11 +1504,10 @@
         "img_9eXT4U",
         "img_kMY6C4"
       ],
-      "disabled": true,
       "name": "Instagram feed",
       "settings": {
         "layout_des": "2",
-        "image_ratio": "ratio1_2",
+        "image_ratio": "ratioadapt",
         "image_position": "8",
         "image_size": "cover",
         "img_effect": "none",
@@ -1622,6 +1625,7 @@
         "text_block_i7xPqF",
         "template--16756803535088__60a7e69b-a1b8-41fd-8534-9311d09e24ef-16862431915713b7df-0"
       ],
+      "disabled": true,
       "custom_css": [
         "a.t4s-btn {width: 100%;}",
         ".t4s-eff-border-run:before,.t4s-eff-border-run:after {border-color: var(--color-accent);}"
