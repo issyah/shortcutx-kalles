@@ -225,7 +225,7 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify://shop_images/Website_Banner_66.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_66.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE.svg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
@@ -345,8 +345,8 @@
         "image_parent_epPRbC": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Desktop_1_3dffce13-fcdb-4ff9-b32a-68f7de1e96b8.jpg",
-            "image_mb": "shopify://shop_images/Mobile_3.jpg",
+            "image": "shopify://shop_images/Website_Banner_67.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_67.svg",
             "image_position": "9",
             "cl_img": "",
             "link_img1": "shopify://products/shortcutx-night-fat-burner-juice",
