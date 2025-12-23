@@ -221,14 +221,14 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "image_parent_MBQtX4": {
+        "image_parent_mENw86": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_63.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE.png",
+            "image": "shopify://shop_images/Website_Banner_66.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_66.svg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://products/toffee-nut-latte-limited-edition",
+            "link_img1": "shopify://collections/all",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
@@ -261,14 +261,14 @@
             "animation_delay": 40
           }
         },
-        "image_parent_mENw86": {
+        "image_parent_MBQtX4": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_66.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_66.svg",
+            "image": "shopify://shop_images/Website_Banner_63.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE.png",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/all",
+            "link_img1": "shopify://products/toffee-nut-latte-limited-edition",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
@@ -979,8 +979,8 @@
         }
       },
       "block_order": [
-        "image_parent_MBQtX4",
         "image_parent_mENw86",
+        "image_parent_MBQtX4",
         "7ec0ff00-0440-45d4-8339-a40fddf43963",
         "image_parent_epPRbC",
         "image_parent_H34eai",
