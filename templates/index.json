@@ -263,6 +263,7 @@
         },
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_72.svg",
             "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_8.svg",
