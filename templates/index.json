@@ -306,7 +306,7 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify://shop_images/Website_Banner_71.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_7.svg",
+            "image_mb": "shopify://shop_images/49_1e6262c7-dd5b-4313-bc68-da2e73f7f6e9.svg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
@@ -334,7 +334,7 @@
             "border_bl": false,
             "br_color": "#222222",
             "br_bg": "#ffffff",
-            "br_opacity": 50,
+            "br_opacity": 67,
             "br_style": "solid",
             "br_pd": 20,
             "br_pd_mb": 10,
