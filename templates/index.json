@@ -306,7 +306,6 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify://shop_images/Website_Banner_71.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_750_x_1100_px_1.svg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
