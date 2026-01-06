@@ -1550,7 +1550,7 @@
         "bl_heading_MQXce7": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "New Launch: Shortcutx De-Bloat"
+            "top_heading": "New Launch: Shortcutx Toffee Nut Latte"
           }
         },
         "bl_subheading_zQmTRe": {
@@ -1614,6 +1614,7 @@
         },
         "description_T4pn8G": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "des": "2",
             "text": "",
@@ -1713,13 +1714,13 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "shortcutx-de-bloat-white-grape",
-        "image": "shopify://shop_images/Screenshot2025-10-08at11.17.49AM.png",
+        "product": "toffee-nut-latte-limited-edition",
+        "image": "shopify://shop_images/StudioSession-563_2mb.png",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
         "thumb_lr_size": "medium",
-        "image_ratio": "ratioadapt",
+        "image_ratio": "ratio2_3",
         "image_size": "cover",
         "image_position": "8",
         "main_click": "zoom",
