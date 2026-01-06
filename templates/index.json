@@ -2191,6 +2191,89 @@
         "code_cus_css": ""
       }
     },
+    "51d99fc7-af1a-4a98-b13e-90422bb3393d": {
+      "type": "counter",
+      "blocks": {
+        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-0": {
+          "type": "counter_item",
+          "settings": {
+            "icon_themes": "car",
+            "icon": "las la-boxes",
+            "heading": "",
+            "number": 4704045,
+            "unit": "",
+            "des": "PRODUCTS SOLD",
+            "content_align": "center"
+          }
+        },
+        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-1": {
+          "type": "counter_item",
+          "settings": {
+            "icon_themes": "car",
+            "icon": "las la-smile",
+            "heading": "",
+            "number": 1643549,
+            "unit": "",
+            "des": "HAPPY CUSTOMERS",
+            "content_align": "center"
+          }
+        },
+        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-2": {
+          "type": "counter_item",
+          "disabled": true,
+          "settings": {
+            "icon_themes": "car",
+            "icon": "las la-user",
+            "heading": "",
+            "number": 999,
+            "unit": "",
+            "des": "COUNT",
+            "content_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-0",
+        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-1",
+        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "source_icon": "line_awe",
+        "icon_effect": "none",
+        "counter_size": "medium",
+        "use_border": false,
+        "icon_cl": "#222222",
+        "heading_cl": "#222222",
+        "number_cl": "#222222",
+        "des_cl": "#878787",
+        "bd_cl": "#dddddd",
+        "bg_cl": "",
+        "col_dk": "2",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "slideshow_BtFy4Q": {
       "type": "slideshow",
       "blocks": {
@@ -2266,89 +2349,6 @@
         "dots_space": 10,
         "dots_hidden_mobile": false,
         "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "51d99fc7-af1a-4a98-b13e-90422bb3393d": {
-      "type": "counter",
-      "blocks": {
-        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-0": {
-          "type": "counter_item",
-          "settings": {
-            "icon_themes": "car",
-            "icon": "las la-boxes",
-            "heading": "",
-            "number": 4704045,
-            "unit": "",
-            "des": "PRODUCTS SOLD",
-            "content_align": "center"
-          }
-        },
-        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-1": {
-          "type": "counter_item",
-          "settings": {
-            "icon_themes": "car",
-            "icon": "las la-smile",
-            "heading": "",
-            "number": 1643549,
-            "unit": "",
-            "des": "HAPPY CUSTOMERS",
-            "content_align": "center"
-          }
-        },
-        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-2": {
-          "type": "counter_item",
-          "disabled": true,
-          "settings": {
-            "icon_themes": "car",
-            "icon": "las la-user",
-            "heading": "",
-            "number": 999,
-            "unit": "",
-            "des": "COUNT",
-            "content_align": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-0",
-        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-1",
-        "template--16762629718256__51d99fc7-af1a-4a98-b13e-90422bb3393d-16866464187b3354d8-2"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "source_icon": "line_awe",
-        "icon_effect": "none",
-        "counter_size": "medium",
-        "use_border": false,
-        "icon_cl": "#222222",
-        "heading_cl": "#222222",
-        "number_cl": "#222222",
-        "des_cl": "#878787",
-        "bd_cl": "#dddddd",
-        "bg_cl": "",
-        "col_dk": "2",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
@@ -2513,8 +2513,8 @@
     "b312d522-3a5e-4c9f-b327-5592ca97f816",
     "5054c224-b8ca-42fb-a4e5-db573d89c9d8",
     "11430866-99fb-4127-a3dd-6ed03e8df323",
-    "slideshow_BtFy4Q",
     "51d99fc7-af1a-4a98-b13e-90422bb3393d",
+    "slideshow_BtFy4Q",
     "custom_html_dTRpwH",
     "1646035317ea8b6928",
     "top_heading_4G8MCQ",
