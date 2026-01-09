@@ -309,6 +309,7 @@
         "template--16758164488432__a76bdd6e-fe90-427b-8240-41a92fcaff71-168595265932c61a28-0",
         "template--16758164488432__a76bdd6e-fe90-427b-8240-41a92fcaff71-168595265932c61a28-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".t4s-subtitle {font-family: var(--font-family-2); margin-top: 15px;}",
         ".t4s-price-tables-price {font-family: var(--font-family-1) !important;}",
