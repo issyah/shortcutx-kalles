@@ -223,6 +223,7 @@
       "blocks": {
         "image_parent_mENw86": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_73.svg",
             "image_mb": "shopify://shop_images/4_c4b185ae-82d0-4abf-a866-3ecc791bf86d.svg",
