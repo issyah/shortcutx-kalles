@@ -221,13 +221,12 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "image_parent_mENw86": {
+        "image_parent_8BymdV": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_73.svg",
-            "image_mb": "shopify://shop_images/4_c4b185ae-82d0-4abf-a866-3ecc791bf86d.svg",
-            "image_position": "8",
+            "image": "shopify://shop_images/Website_Banner_76.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_76.svg",
+            "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
             "open_link": "_blank",
@@ -254,7 +253,7 @@
             "border_bl": false,
             "br_color": "#222222",
             "br_bg": "#ffffff",
-            "br_opacity": 50,
+            "br_opacity": 67,
             "br_style": "solid",
             "br_pd": 20,
             "br_pd_mb": 10,
@@ -302,13 +301,12 @@
             "animation_delay": 40
           }
         },
-        "image_parent_8BymdV": {
+        "image_parent_mENw86": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_76.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_76.svg",
-            "image_position": "default",
+            "image": "shopify://shop_images/Website_Banner_73.svg",
+            "image_mb": "shopify://shop_images/4_c4b185ae-82d0-4abf-a866-3ecc791bf86d.svg",
+            "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
             "open_link": "_blank",
@@ -335,7 +333,7 @@
             "border_bl": false,
             "br_color": "#222222",
             "br_bg": "#ffffff",
-            "br_opacity": 67,
+            "br_opacity": 50,
             "br_style": "solid",
             "br_pd": 20,
             "br_pd_mb": 10,
@@ -978,9 +976,9 @@
         }
       },
       "block_order": [
-        "image_parent_mENw86",
-        "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
         "image_parent_8BymdV",
+        "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
+        "image_parent_mENw86",
         "7ec0ff00-0440-45d4-8339-a40fddf43963",
         "image_parent_MBQtX4",
         "image_parent_epPRbC",
