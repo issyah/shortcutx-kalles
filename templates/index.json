@@ -1327,6 +1327,9 @@
         "img_G8EUeX",
         "img_9eXT4U"
       ],
+      "custom_css": [
+        "@media (max-width: 768px){.t4s-col-item{width: 40%; }}"
+      ],
       "name": "Category List",
       "settings": {
         "layout_des": "2",
