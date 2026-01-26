@@ -1328,7 +1328,7 @@
         "img_9eXT4U"
       ],
       "custom_css": [
-        "@media (max-width: 768px){.t4s-col-item{width: 40%; }}"
+        "@media (max-width: 768px) {.t4s-col-item {width: 40%; }}"
       ],
       "name": "Category List",
       "settings": {
@@ -1344,7 +1344,7 @@
         "space_item": "2",
         "space_item_mb": "2",
         "loop": true,
-        "au_time": 2,
+        "au_time": 0,
         "au_hover": true,
         "nav_btn": false,
         "btn_vi": "hover",
