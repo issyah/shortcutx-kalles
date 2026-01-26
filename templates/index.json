@@ -505,8 +505,8 @@
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/NFB-Banner-02.jpg",
-            "image_mb": "shopify://shop_images/NFB-Banner-03.jpg",
+            "image": "shopify://shop_images/Website_Banner_77.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_13.svg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/shortcutx-night-fat-burner-juice",
