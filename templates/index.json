@@ -223,12 +223,14 @@
       "blocks": {
         "image_parent_8BymdV": {
           "type": "image_parent",
+          "name": "Max+",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_76.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_f7795b72-c541-4db9-a514-8939222d174b.png",
+            "image": "shopify://shop_images/maxPlus_bannerDesktop_copy.jpg",
+            "image_mb": "shopify://shop_images/maxPlus_bannerMobile.jpg",
             "image_position": "default",
             "cl_img": "",
-            "link_img1": "shopify://collections/slimming-tea-coffee",
+            "link_img1": "",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -263,6 +265,7 @@
         },
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
+          "name": "Weighing Scale",
           "settings": {
             "image": "shopify://shop_images/Website_Banner_72.svg",
             "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_8.svg",
@@ -303,6 +306,7 @@
         },
         "image_parent_mENw86": {
           "type": "image_parent",
+          "name": "New Year New Me",
           "settings": {
             "image": "shopify://shop_images/Website_Banner_73.svg",
             "image_mb": "shopify://shop_images/4_c4b185ae-82d0-4abf-a866-3ecc791bf86d.svg",
@@ -343,6 +347,7 @@
         },
         "7ec0ff00-0440-45d4-8339-a40fddf43963": {
           "type": "image_parent",
+          "name": "2025 Best Sellers",
           "settings": {
             "image": "shopify://shop_images/54_23f41f26-2723-4fa3-aa09-1fec8f8f75d5.svg",
             "image_mb": "shopify://shop_images/6_a7d25d08-376d-47c2-8396-49843977fcee.svg",
@@ -383,6 +388,7 @@
         },
         "image_parent_MBQtX4": {
           "type": "image_parent",
+          "name": "Toffee Nut",
           "settings": {
             "image": "shopify://shop_images/Website_Banner_74.svg",
             "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_10.svg",
@@ -423,6 +429,7 @@
         },
         "image_parent_epPRbC": {
           "type": "image_parent",
+          "name": "Night Fat Burner",
           "settings": {
             "image": "shopify://shop_images/Website_Banner_75.svg",
             "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_12.svg",
@@ -463,6 +470,7 @@
         },
         "image_parent_H34eai": {
           "type": "image_parent",
+          "name": "FTS",
           "settings": {
             "image": "shopify://shop_images/Desktop_1_13dad142-1af1-4696-bb98-8b2fccea51f5.jpg",
             "image_mb": "shopify://shop_images/Phone_ce3e7650-b2b4-4aad-a029-cdfc6e0a1fd0.jpg",
