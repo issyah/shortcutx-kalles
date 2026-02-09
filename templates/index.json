@@ -1588,7 +1588,6 @@
         "bl_heading_MQXce7",
         "bl_subheading_zQmTRe"
       ],
-      "disabled": true,
       "name": "New Launch Title",
       "settings": {
         "anchor_id": "",
@@ -1736,13 +1735,12 @@
         "meta_8aQqND",
         "social_8MbBMY"
       ],
-      "disabled": true,
       "name": "Featured product",
       "settings": {
-        "product": "toffee-nut-latte-limited-edition",
+        "product": "max-fat-burner-juice",
         "image": "shopify://shop_images/max_studio.jpg",
         "enable_sticky_info": false,
-        "media_layout": "thumbnails_bottom",
+        "media_layout": "without_thumbnails",
         "media_size": "small",
         "thumb_lr_size": "small",
         "image_ratio": "ratio1_1",
