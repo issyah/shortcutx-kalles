@@ -224,7 +224,7 @@
         "media_layout": "thumbnails_bottom",
         "media_size": "medium",
         "thumb_lr_size": "medium",
-        "image_ratio": "ratioadapt",
+        "image_ratio": "ratio1_1",
         "image_size": "cover",
         "image_position": "8",
         "main_click": "zoom",
