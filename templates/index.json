@@ -224,10 +224,9 @@
         "image_parent_8BymdV": {
           "type": "image_parent",
           "name": "Max+",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/max_Banner_RevisedDesktop.jpg",
-            "image_mb": "shopify://shop_images/max_Banner_RevisedMobile.jpg",
+            "image": "shopify://shop_images/max_Banner_FFF-02.jpg",
+            "image_mb": "shopify://shop_images/max_Banner_FFF-01.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "",
