@@ -570,7 +570,7 @@
         "bl_image_TNinhx": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/6.jpg",
+            "image1": "shopify://shop_images/footer.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
