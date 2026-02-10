@@ -229,7 +229,7 @@
             "image_mb": "shopify://shop_images/max_Banner_FFF-01.jpg",
             "image_position": "default",
             "cl_img": "",
-            "link_img1": "",
+            "link_img1": "shopify://products/max-fat-burner-juice",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
