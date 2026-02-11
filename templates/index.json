@@ -266,8 +266,8 @@
           "type": "image_parent",
           "name": "Valentine's Day",
           "settings": {
-            "image": "shopify://shop_images/Shortcutx_-_VDAY_-_Webpage_Banner_Desktop.jpg",
-            "image_mb": "shopify://shop_images/Shortcutx_-_VDAY_-_Webpage_Banner_Mobile.jpg",
+            "image": "shopify://shop_images/Shortcutx_-_Webpage_Banner_Desktop.jpg",
+            "image_mb": "shopify://shop_images/Shortcutx_-_Webpage_Banner_Mobile.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
