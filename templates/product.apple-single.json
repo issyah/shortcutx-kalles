@@ -36,14 +36,14 @@
         "loox_reviews_loox_rating_VM69m4": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "contentSize": 14,
+            "contentSize": 13,
             "pattern": "",
             "hideText": false,
             "alignment": "",
             "layout": "",
             "textColor": "",
             "starColor": "",
-            "showAllReviews": true,
+            "showAllReviews": false,
             "looxOpenFloatingWidget": false,
             "emptyRatingWidget": false
           }
