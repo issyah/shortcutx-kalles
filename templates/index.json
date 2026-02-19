@@ -265,6 +265,7 @@
         "image_parent_a7XJpR": {
           "type": "image_parent",
           "name": "Valentine's Day",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Shortcutx_-_Webpage_Banner_Desktop.jpg",
             "image_mb": "shopify://shop_images/Shortcutx_-_Webpage_Banner_Mobile.jpg",
