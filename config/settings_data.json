@@ -490,11 +490,10 @@
         "blocks": {
           "announcement_RadDbk": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "link": "shopify://collections/all",
-              "content": "<p>STAND A CHANCE TO WIN $1500 WORTH OF PRODUCTS. 1 CHANCE EVERY $100 SPENT.</p>",
-              "countdown": "2024/06/30",
+              "link": "shopify://products/hari-raya-envelope-with-plushie",
+              "content": "<p>NEW LAUNCH: LIMITED EDITION HARI RAYA ENVELOPE PLUSHIES </p>",
+              "countdown": "",
               "txt_day": "days",
               "dayx": 0
             }
