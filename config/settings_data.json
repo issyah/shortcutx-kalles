@@ -802,6 +802,7 @@
           },
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Blog",
               "url": "shopify://blogs/news",
@@ -842,6 +843,19 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "base_4x6yhq": {
+            "type": "base",
+            "settings": {
+              "title": "Hari Raya Envelopes",
+              "url": "shopify://products/hari-raya-envelope-with-plushie",
+              "open_link": "_self",
+              "icon": "las la-star-and-crescent",
+              "cus_cl": true,
+              "cl": "#109533",
+              "lb": "",
+              "lb_cl": "#109533"
+            }
           }
         },
         "block_order": [
@@ -855,7 +869,8 @@
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
           "7772c0e8-1ae7-4a2d-a709-eef3c9023eab",
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
-          "1c183604-aba8-4307-947b-2ed4f4d0b0ff"
+          "1c183604-aba8-4307-947b-2ed4f4d0b0ff",
+          "base_4x6yhq"
         ],
         "settings": {
           "layout": "logo_left",
