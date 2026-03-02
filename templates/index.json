@@ -221,15 +221,15 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "image_parent_8BymdV": {
+        "image_parent_a7XJpR": {
           "type": "image_parent",
-          "name": "Max+",
+          "name": "3.3 ",
           "settings": {
-            "image": "shopify://shop_images/max_Banner_FFF-02.jpg",
-            "image_mb": "shopify://shop_images/max_Banner_FFF-01.jpg",
+            "image": "shopify://shop_images/Shortcutx_-_Webpage_Banner_Desktop_1_copy.png",
+            "image_mb": "shopify://shop_images/Shortcutx_-_Webpage_Banner_Mobile.png",
             "image_position": "default",
             "cl_img": "",
-            "link_img1": "shopify://products/max-fat-burner-juice",
+            "link_img1": "shopify://collections/all",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -262,15 +262,15 @@
             "animation_delay": 40
           }
         },
-        "image_parent_a7XJpR": {
+        "image_parent_8BymdV": {
           "type": "image_parent",
-          "name": "3.3 ",
+          "name": "Max+",
           "settings": {
-            "image": "shopify://shop_images/Shortcutx_-_Webpage_Banner_Desktop_1_copy.png",
-            "image_mb": "shopify://shop_images/Shortcutx_-_Webpage_Banner_Mobile.png",
+            "image": "shopify://shop_images/max_Banner_FFF-02.jpg",
+            "image_mb": "shopify://shop_images/max_Banner_FFF-01.jpg",
             "image_position": "default",
             "cl_img": "",
-            "link_img1": "shopify://collections/all",
+            "link_img1": "shopify://products/max-fat-burner-juice",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -1024,8 +1024,8 @@
         }
       },
       "block_order": [
-        "image_parent_8BymdV",
         "image_parent_a7XJpR",
+        "image_parent_8BymdV",
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
         "image_parent_mENw86",
         "7ec0ff00-0440-45d4-8339-a40fddf43963",
