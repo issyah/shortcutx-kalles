@@ -513,7 +513,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "link": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
+              "link": "shopify://pages/build-a-box",
               "content": "<p><strong>Subscribe & Save</strong> • Free shipping above S$100 [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
