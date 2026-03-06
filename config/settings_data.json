@@ -490,6 +490,7 @@
         "blocks": {
           "announcement_RadDbk": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "shopify://products/hari-raya-envelope-with-plushie",
               "content": "<p>NEW LAUNCH: LIMITED EDITION HARI RAYA ENVELOPE PLUSHIES </p>",
