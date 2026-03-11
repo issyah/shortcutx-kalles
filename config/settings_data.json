@@ -514,7 +514,7 @@
             "type": "announcement",
             "settings": {
               "link": "shopify://pages/build-a-box",
-              "content": "<p><strong>Subscribe & Save</strong> • Free shipping above S$100 [icon_arrow]</p>",
+              "content": "<p><strong>Subscribe & Save</strong> 15% • Free shipping above S$100 [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
