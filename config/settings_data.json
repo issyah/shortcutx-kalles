@@ -847,6 +847,7 @@
           },
           "base_4x6yhq": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Hari Raya Envelopes",
               "url": "shopify://products/hari-raya-envelope-with-plushie",
