@@ -656,6 +656,48 @@
         "code_cus_css": ""
       }
     },
+    "promo_text_HVy8bj": {
+      "type": "promo_text",
+      "blocks": {
+        "1_JeBhbR": {
+          "type": "1",
+          "settings": {
+            "content": "<p>Shop the Full Range</p>",
+            "countdown": "",
+            "cus_cd": "%-D day%!D %H:%M:%S",
+            "dayx": 0,
+            "cl_text": "#fff",
+            "cl_link": "#fff",
+            "fw_text": 800,
+            "fs_text": 40,
+            "lh_text": 0,
+            "ls_text": 0,
+            "fs_mb_text": 30,
+            "lh_text_mb": 0,
+            "ls_mb_text": 0
+          }
+        }
+      },
+      "block_order": [
+        "1_JeBhbR"
+      ],
+      "name": "Promo text",
+      "settings": {
+        "effect": "slider",
+        "au_time": 3,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#000",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "12px,,12px,",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "10px,,10px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -746,6 +788,7 @@
     "featured_collection_n3AgTX",
     "hero_image_n6aDy8",
     "featured_collection_ggjbzm",
+    "promo_text_HVy8bj",
     "main",
     "c8eec251-ccf9-45bb-85f1-6ae8f5159496"
   ]
