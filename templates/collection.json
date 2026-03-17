@@ -597,7 +597,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
+        "top_heading": "<br>Your Daily Favorites, Combined",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -652,6 +652,48 @@
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "promo_text_pqRWqb": {
+      "type": "promo_text",
+      "blocks": {
+        "1_FtdLN9": {
+          "type": "1",
+          "settings": {
+            "content": "<h2>Shop the Full Range</h2>",
+            "countdown": "",
+            "cus_cd": "%-D day%!D %H:%M:%S",
+            "dayx": 0,
+            "cl_text": "#fff",
+            "cl_link": "#56cfe1",
+            "fw_text": 600,
+            "fs_text": 12,
+            "lh_text": 0,
+            "ls_text": 0,
+            "fs_mb_text": 10,
+            "lh_text_mb": 0,
+            "ls_mb_text": 0
+          }
+        }
+      },
+      "block_order": [
+        "1_FtdLN9"
+      ],
+      "name": "Promo text",
+      "settings": {
+        "effect": "slider",
+        "au_time": 3,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#000",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "12px,,12px,",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "10px,,10px,",
         "use_cus_css": false,
         "code_cus_css": ""
       }
@@ -746,6 +788,7 @@
     "featured_collection_n3AgTX",
     "hero_image_n6aDy8",
     "featured_collection_ggjbzm",
+    "promo_text_pqRWqb",
     "main",
     "c8eec251-ccf9-45bb-85f1-6ae8f5159496"
   ]
