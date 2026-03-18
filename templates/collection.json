@@ -597,7 +597,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "<br>Shop Our Best-Sellers",
+        "top_heading": "Shop Our Best-Sellers",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -609,7 +609,7 @@
         "image_size": "cover",
         "image_position": "8",
         "content_align": "default",
-        "limit": 4,
+        "limit": 7,
         "col_dk": "4",
         "col_tb": "2",
         "col_mb": "2",
