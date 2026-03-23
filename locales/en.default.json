@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "meta": {
@@ -14,7 +23,7 @@
       "loading": "Loading...",
       "pswp_share": "Share",
       "pswp_fs": "Toggle fullscreen",
-      "pswp_zoom": "Zoom in\/out",
+      "pswp_zoom": "Zoom in/out",
       "pswp_facebook": "Share on Facebook",
       "pswp_twitter": "Tweet",
       "pswp_pinterest": "Pin it",
@@ -43,7 +52,7 @@
       "wishlist": "Wishlist",
       "compare": "compare",
       "search": "Search",
-      "login_register": "Login \/ Register",
+      "login_register": "Login / Register",
       "my_account": "My account"
     },
     "sidebar": {
@@ -102,7 +111,7 @@
       "view_all": "View All",
       "load_more": "Load More Posts",
       "load_prev": "Load Previous",
-      "bar_with_count_html": "You've viewed <span data-current-bar>{{current_count}}<\/span> of {{total_count}} posts"
+      "bar_with_count_html": "You've viewed <span data-current-bar>{{current_count}}</span> of {{total_count}} posts"
     },
     "article": {
       "by": "By",
@@ -121,7 +130,7 @@
     },
     "comments": {
       "title": "Leave a comment",
-      "comments_note_html": "Your email address will not be published. Required fields are marked <span class=\"required\">*<\/span>",
+      "comments_note_html": "Your email address will not be published. Required fields are marked <span class=\"required\">*</span>",
       "name": "Name",
       "email": "Email",
       "message": "Comment",
@@ -142,24 +151,24 @@
         "other": "{{ count }} comments"
       },
       "with_count_html": {
-        "zero": "0 <span>comment<\/span>",
-        "one": "1 <span>comment<\/span>",
-        "other": "{{ count }} <span>comments<\/span>"
+        "zero": "0 <span>comment</span>",
+        "one": "1 <span>comment</span>",
+        "other": "{{ count }} <span>comments</span>"
       },
       "comments_title_html": {
-        "zero": "0 thought on “<span>{{title}}<\/span>”",
-        "one": "1 thought on “<span>{{title}}<\/span>”",
-        "other": "{{ count }} thoughts on “<span>{{title}}<\/span>”"
+        "zero": "0 thought on “<span>{{title}}</span>”",
+        "one": "1 thought on “<span>{{title}}</span>”",
+        "other": "{{ count }} thoughts on “<span>{{title}}</span>”"
       }
     }
   },
   "list_collections": {
-    "meta_title":"Collection List Page",
-    "meta_description":"The collection list page, which lists all the store's collections.",
+    "meta_title": "Collection List Page",
+    "meta_description": "The collection list page, which lists all the store's collections.",
     "pagination": {
       "load_more": "Load More",
       "load_prev": "Load Previous",
-      "bar_with_count_html": "You've viewed <span data-current-bar>{{current_count}}<\/span> of {{total_count}} collections"
+      "bar_with_count_html": "You've viewed <span data-current-bar>{{current_count}}</span> of {{total_count}} collections"
     }
   },
   "collections": {
@@ -169,13 +178,12 @@
       "sort_button": "Sort",
       "filter_button": "Filter"
     },
-    "filter": {
-    },
+    "filter": {},
     "pagination": {
       "view_all": "View All",
       "load_more": "Load More",
       "load_prev": "Load Previous",
-      "bar_with_count_html": "You've viewed <span data-current-bar>{{current_count}}<\/span> of {{total_count}} products"
+      "bar_with_count_html": "You've viewed <span data-current-bar>{{current_count}}</span> of {{total_count}} products"
     }
   },
   "products": {
@@ -200,8 +208,8 @@
     },
     "product": {
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
-      "from_price_html": "<span class=\"{{ class }}\">From<\/span> {{price_min}}",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "from_price_html": "<span class=\"{{ class }}\">From</span> {{price_min}}",
       "Please_choose_pr_options": "Please select some product options before adding this product to your cart.",
       "choose_an_option": "Choose an option",
       "add_to_cart": "Add to cart",
@@ -219,7 +227,7 @@
       "product_type": "Type:",
       "product_sku": "SKU:",
       "product_barcode": "Barcode:",
-      "na": "N\/A",
+      "na": "N/A",
       "available": "Availability :",
       "in_stock_status": "In Stock",
       "pre_oder_status": "Pre order",
@@ -271,8 +279,8 @@
       "view_in_space_label": "View in your space, loads item in augmented reality window",
       "view_360": "360 product view",
       "click_zoom": "Click to enlarge",
-      "will_not_ship_until_html": "Will not ship until <span data-incoming-date>{{date}}<\/span>",
-      "will_be_in_stock_after_html": "Will be in stock after <span data-incoming-date>{{date}}<\/span>"
+      "will_not_ship_until_html": "Will not ship until <span data-incoming-date>{{date}}</span>",
+      "will_be_in_stock_after_html": "Will be in stock after <span data-incoming-date>{{date}}</span>"
     },
     "fbt": {
       "title": "Frequently Bought Together",
@@ -301,9 +309,9 @@
       "title_price": "Price",
       "button_price": "Filter",
       "results_with_count_html": {
-        "zero": "<span class=\"cp\">0<\/span> Products Found",
-        "one": "<span class=\"cp\">1<\/span> Products Found",
-        "other": "<span class=\"cp\">{{count}}<\/span> Products Found"
+        "zero": "<span class=\"cp\">0</span> Products Found",
+        "one": "<span class=\"cp\">1</span> Products Found",
+        "other": "<span class=\"cp\">{{count}}</span> Products Found"
       },
       "clear_filter": "Clear filter"
     }
@@ -334,7 +342,7 @@
       "view_all": "View All",
       "load_more": "Load More",
       "load_prev": "Load Previous",
-      "bar_with_count_html": "You've viewed <span data-current-bar>{{current_count}}<\/span> of {{total_count}} products"
+      "bar_with_count_html": "You've viewed <span data-current-bar>{{current_count}}</span> of {{total_count}} products"
     },
     "results_with_term": {
       "zero": "Search Result for: “{{ terms }}”",
@@ -351,14 +359,14 @@
     "general": {
       "cookies_required": "Enable cookies to use the shopping cart",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\" target=\"_blank\">shipping<\/a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\" target=\"_blank\">shipping</a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\" target=\"_blank\">Shipping<\/a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\" target=\"_blank\">Shipping</a> calculated at checkout.",
       "taxes_discounts_and_shipping_at_checkout": "Taxes, shipping and discounts codes calculated at checkout",
-      "taxes_discounts_and_shipping_policy_at_checkout_html": "Taxes, <a href=\"{{ link }}\" target=\"_blank\">shipping<\/a> and discounts codes calculated at checkout",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Taxes, <a href=\"{{ link }}\" target=\"_blank\">shipping</a> and discounts codes calculated at checkout",
       "taxes_included_discounts_but_shipping_at_checkout": "Tax included. Shipping and discounts codes calculated at checkout",
-      "taxes_included_discounts_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\" target=\"_blank\">Shipping<\/a> and discounts codes calculated at checkout.",
-      "terms_and_conditions_html": "I agree with the <a href=\"{{link}}\" target=\"_blank\">terms and conditions<\/a>.",
+      "taxes_included_discounts_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\" target=\"_blank\">Shipping</a> and discounts codes calculated at checkout.",
+      "terms_and_conditions_html": "I agree with the <a href=\"{{link}}\" target=\"_blank\">terms and conditions</a>.",
       "terms_and_conditions": "I agree with the terms and conditions.",
       "edit_item": "Edit this item",
       "remove_item": "Remove this item",
@@ -371,7 +379,7 @@
       "note": "Add Order Note",
       "edit_note": "Edit Order Note",
       "placeholder_note": "How can we help you?",
-      "gift_wrap_html": "<span class=\"cd\">Do you want a gift wrap?<\/span> Only {{ money }}",
+      "gift_wrap_html": "<span class=\"cd\">Do you want a gift wrap?</span> Only {{ money }}",
       "add_gift_wrap": "Add A Gift Wrap",
       "coupon": "Coupon:",
       "add_coupon": "Add A Coupon",
@@ -391,8 +399,8 @@
       "errors": "There are some errors:"
     },
     "shipping_threshold": {
-      "text_1_html": "Free Shipping for all orders over <span class=\"t4s-cr\">{{ money }}<\/span>",
-      "text_2_html": "Almost there, add <span class=\"t4s-cr\">{{ money }}<\/span> more to get <span class=\"t4s-ch\">FREE SHIPPING!<\/span>",
+      "text_1_html": "Free Shipping for all orders over <span class=\"t4s-cr\">{{ money }}</span>",
+      "text_2_html": "Almost there, add <span class=\"t4s-cr\">{{ money }}</span> more to get <span class=\"t4s-ch\">FREE SHIPPING!</span>",
       "text_3": "[Congratulations!] You've got free shipping!"
     },
     "mini_cart": {
@@ -413,13 +421,18 @@
         "total": "Total"
       },
       "empty": "Your cart is empty.",
-      "empty_html": "Before proceed to checkout you must add some products to your shopping cart.<br \/> You will find a lot of interesting products on our \"Shop\" page.",
+      "empty_html": "Before proceed to checkout you must add some products to your shopping cart.<br /> You will find a lot of interesting products on our \"Shop\" page.",
       "subtotal": "Subtotal:",
       "checkout": "Check Out",
       "update": "Update Cart"
     }
   },
   "templates": {
+    "404": {
+      "title": "404",
+      "subtext": "Sorry! Page you are looking can’t be found.",
+      "link_html": "Go back to the <a href=\"{{link}}\" rel=\"home\">homepage</a>"
+    },
     "contact": {
       "form": {
         "name": "Your Name (required)",
@@ -430,11 +443,6 @@
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
       }
-    },
-    "404": {
-      "title": "404",
-      "subtext": "Sorry! Page you are looking can’t be found.",
-      "link_html": "Go back to the <a href=\"{{link}}\" rel=\"home\">homepage<\/a>"
     }
   },
   "sections": {
@@ -467,11 +475,10 @@
     },
     "agree_mail": {
       "conditions": "You must agree with the terms and conditions to sign up.",
-      "link_conditions_html": "I agree with the <a href=\"{{link}}\" class=\"t4s-text__link\">terms and conditions<\/a>.",
+      "link_conditions_html": "I agree with the <a href=\"{{link}}\" class=\"t4s-text__link\">terms and conditions</a>.",
       "link_conditions_emty": "I agree with the terms and conditions."
     },
-    "footer": {
-    }
+    "footer": {}
   },
   "customer": {
     "form": {
@@ -481,7 +488,7 @@
       "title": "MY ACCOUNT",
       "make_order": "Make your first order",
       "none": "You haven't placed any orders yet.",
-      "hello_html": "Hello <strong>{{name}}<\/strong> (not <strong>{{name}}<\/strong>? <a href=\"{{link}}\">Log out<\/a>)",
+      "hello_html": "Hello <strong>{{name}}</strong> (not <strong>{{name}}</strong>? <a href=\"{{link}}\">Log out</a>)",
       "manage_subs": "Manage Subscriptions",
       "dashboard": "Dashboard",
       "wishlist": "Wishlist",
@@ -520,9 +527,9 @@
       "address1": "Address",
       "address2": "Apartment, suite, etc.",
       "city": "City",
-      "country": "Country\/region",
+      "country": "Country/region",
       "province": "Province",
-      "zip": "Postal\/Zip Code",
+      "zip": "Postal/Zip Code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add Address",
@@ -602,7 +609,7 @@
       "password": "Password",
       "submit": "Register",
       "privacy_policy": "Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.",
-      "privacy_policy_html": "Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href=\"{{link}}\" class=\"privacy-policy-link fwm\" target=\"_blank\">privacy policy<\/a>."
+      "privacy_policy_html": "Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href=\"{{link}}\" class=\"privacy-policy-link fwm\" target=\"_blank\">privacy policy</a>."
     }
   },
   "password_page": {
@@ -612,20 +619,20 @@
     "login_form_password_placeholder": "Your password",
     "login_form_submit": "Enter",
     "signup_form_success": "We will send you an email right before we open!",
-    "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
+    "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
     "password_link": "Enter using password"
   },
   "wishlist_page": {
     "meta": "My Wishlist Page",
     "title": "Wishlist",
     "empty": "Wishlist is empty.",
-    "empty_html": "You don't have any products in the wishlist yet.<br \/> You will find a lot of interesting products on our \"Shop\" page."
+    "empty_html": "You don't have any products in the wishlist yet.<br /> You will find a lot of interesting products on our \"Shop\" page."
   },
   "compare_page": {
     "meta": "My Compare Page",
     "title": "Compare",
     "empty": "COMPARE LIST IS EMPTY.",
-    "empty_html": "No products added in the compare list. You must add some products to compare them.<br \/> You will find a lot of interesting products on our \"Shop\" page.",
+    "empty_html": "No products added in the compare list. You must add some products to compare them.<br /> You will find a lot of interesting products on our \"Shop\" page.",
     "remove": "Remove",
     "in_stock": "In Stock",
     "outofstock": "Out of stock"
@@ -643,8 +650,8 @@
       "check_other_stores": "Check availability at other stores",
       "pick_up_available": "Pickup available",
       "pick_up_currently_unavailable": "Pickup currently unavailable",
-      "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}<\/strong>",
-      "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}<\/strong>",
+      "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}</strong>",
+      "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}</strong>",
       "check_map": "Check this on google map"
     }
   },
@@ -673,5 +680,50 @@
     "blog_excerpt": "Your store hasn’t published any blog posts yet. A blog can be used to talk about new product launches, tips, or other news you want to share with your customers. You can check out Shopify’s ecommerce blog for inspiration and advice for your own store and blog.",
     "blog_author": "Author name",
     "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar."
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
+    }
   }
 }
