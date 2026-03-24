@@ -12,6 +12,13 @@
     "top": {
       "type": "top-collections",
       "blocks": {
+        "cat_cp3bwE": {
+          "type": "cat",
+          "settings": {
+            "collection": "",
+            "icon": ""
+          }
+        },
         "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
           "type": "cat",
           "settings": {
@@ -35,7 +42,6 @@
         },
         "9a953769-57c2-417a-b665-db34392c8d1c": {
           "type": "cat",
-          "disabled": true,
           "settings": {
             "collection": "bundles",
             "icon": "las la-archive"
@@ -43,6 +49,7 @@
         }
       },
       "block_order": [
+        "cat_cp3bwE",
         "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22",
         "2502644f-656b-4289-9245-a75187bd0170",
         "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
