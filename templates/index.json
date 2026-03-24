@@ -224,6 +224,7 @@
         "image_parent_a7XJpR": {
           "type": "image_parent",
           "name": "Hari Raya Special",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bannerDesktopHero-v3.jpg",
             "image_mb": "shopify://shop_images/bannerMobileHero-v3.jpg",
