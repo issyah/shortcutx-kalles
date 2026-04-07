@@ -230,13 +230,13 @@
       "blocks": {
         "image_parent_a7XJpR": {
           "type": "image_parent",
-          "name": "4.4 SALE",
+          "name": "30-Day",
           "settings": {
-            "image": "shopify://shop_images/4.4_HERO_-_DESKTOP___1800_x_600_4d082f42-fe93-4528-9f14-8fb1b3916ae7.jpg",
-            "image_mb": "shopify://shop_images/4.4_HERO_-_MOBILE___1100_x_780.jpg",
+            "image": "shopify://shop_images/1800_x_600_desktop.jpg",
+            "image_mb": "shopify://shop_images/1100_x_750_mobile.jpg",
             "image_position": "default",
             "cl_img": "",
-            "link_img1": "shopify://collections/all",
+            "link_img1": "shopify://products/30-day-weight-loss-pack",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
