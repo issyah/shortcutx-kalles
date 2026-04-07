@@ -15,11 +15,11 @@
         "image_parent_ctJWg4": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/4.4_-_Accent_-_Desktop_-_1920_x_480.jpg",
-            "image_mb": "shopify://shop_images/4.4_Accent_-_Mobile_-_1080_x_1080.jpg",
+            "image": "shopify://shop_images/1920_x_480_desktop.jpg",
+            "image_mb": "shopify://shop_images/1080_x_1080_mobile.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "",
+            "link_img1": "shopify://products/30-day-weight-loss-pack",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
