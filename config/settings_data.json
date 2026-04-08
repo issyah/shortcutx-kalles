@@ -2991,6 +2991,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "13767922238101876566": {
+        "type": "shopify://apps/quizify-product-quiz-builder/blocks/quizify-app-embed/a183a207-633e-46c0-841f-299e90a9605b",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
