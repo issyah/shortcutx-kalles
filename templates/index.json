@@ -1454,7 +1454,7 @@
         "bl_heading_MQXce7": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "New Launch: Shortcutx Max+ Fat Burner Juice"
+            "top_heading": "Back in Stock: Shortcutx 30 Days Weight Loss Pack"
           }
         },
         "bl_subheading_zQmTRe": {
@@ -1495,9 +1495,9 @@
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
-            "size_pr": 16,
-            "fw_pr": 600,
-            "lh_pr": 0,
+            "size_pr": 25.5,
+            "fw_pr": 400,
+            "lh_pr": 30,
             "ls_pr": 0,
             "pr_title_color": "#222222",
             "pr_title_color_hover": "#56cfe1"
@@ -1618,13 +1618,13 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "max-fat-burner-juice",
-        "image": "shopify://shop_images/max_studio.jpg",
+        "product": "30-day-weight-loss-pack",
+        "image": "shopify://shop_images/1100_x_750_mobile.jpg",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
-        "media_size": "small",
+        "media_size": "medium",
         "thumb_lr_size": "small",
-        "image_ratio": "ratio1_1",
+        "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
         "main_click": "zoom",
