@@ -231,7 +231,6 @@
         "image_parent_KVEHbr": {
           "type": "image_parent",
           "name": "FTS NEW",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Mystery_Flavour_1800_by_600.jpg",
             "image_mb": "shopify://shop_images/Mystery_1100_by_750.jpg",
