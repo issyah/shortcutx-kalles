@@ -15,11 +15,11 @@
         "image_parent_ctJWg4": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/FTS-webBanners-Desktop_Accent.jpg",
-            "image_mb": "shopify://shop_images/FTS-webBannersMobile_Accen.jpg",
+            "image": "shopify://shop_images/Mystery_Flavours_1920_by_480.jpg",
+            "image_mb": "shopify://shop_images/Mystery_Flavours_-_1080_by_1080.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://products/30-day-weight-loss-pack",
+            "link_img1": "shopify://products/flat-tummy-shakes-mystery-flavours",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
@@ -56,7 +56,6 @@
       "block_order": [
         "image_parent_ctJWg4"
       ],
-      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "se_height": "t4s_ratioadapt",
