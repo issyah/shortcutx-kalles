@@ -228,12 +228,13 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "image_parent_a7XJpR": {
+        "image_parent_KVEHbr": {
           "type": "image_parent",
-          "name": "30-Day",
+          "name": "FTS NEW",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/1800_x_600_desktop.jpg",
-            "image_mb": "shopify://shop_images/1100_x_750_mobile.jpg",
+            "image": "shopify://shop_images/FTS-webBanners-Desktop_Banner.jpg",
+            "image_mb": "shopify://shop_images/FTS-webBanners-Mobile_Banner.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://products/30-day-weight-loss-pack",
@@ -269,12 +270,12 @@
             "animation_delay": 40
           }
         },
-        "image_parent_KVEHbr": {
+        "image_parent_a7XJpR": {
           "type": "image_parent",
-          "name": "FTS NEW",
+          "name": "30-Day",
           "settings": {
-            "image": "shopify://shop_images/FTS-webBanners-Desktop_Banner.jpg",
-            "image_mb": "shopify://shop_images/FTS-webBanners-Mobile_Banner.jpg",
+            "image": "shopify://shop_images/1800_x_600_desktop.jpg",
+            "image_mb": "shopify://shop_images/1100_x_750_mobile.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://products/30-day-weight-loss-pack",
@@ -908,8 +909,8 @@
         }
       },
       "block_order": [
-        "image_parent_a7XJpR",
         "image_parent_KVEHbr",
+        "image_parent_a7XJpR",
         "image_parent_8BymdV",
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
         "image_parent_epPRbC",
