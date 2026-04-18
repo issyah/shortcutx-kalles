@@ -231,7 +231,6 @@
         "image_parent_KVEHbr": {
           "type": "image_parent",
           "name": "Detox",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20260417_SX_ECOM_SHOP_DETOX-DESKTOP.jpg",
             "image_mb": "shopify://shop_images/20260417_SX_ECOM_SHOP_MOBILE.jpg",
