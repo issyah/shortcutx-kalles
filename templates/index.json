@@ -437,6 +437,7 @@
         "image_parent_epPRbC": {
           "type": "image_parent",
           "name": "Night Fat Burner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Banner_75.svg",
             "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_12.svg",
