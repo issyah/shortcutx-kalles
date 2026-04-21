@@ -228,15 +228,15 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "image_parent_KVEHbr": {
+        "image_parent_xn7RGr": {
           "type": "image_parent",
-          "name": "Detox",
+          "name": "FTS NEW",
           "settings": {
-            "image": "shopify://shop_images/20260417_SX_ECOM_SHOP_DETOX-DESKTOP.jpg",
-            "image_mb": "shopify://shop_images/20260417_SX_ECOM_SHOP_MOBILE.jpg",
+            "image": "shopify://shop_images/Flat_Tummy_Shakes_2.jpg",
+            "image_mb": "shopify://shop_images/Flat_Tummy_Shakes_1.jpg",
             "image_position": "default",
             "cl_img": "",
-            "link_img1": "shopify://products/shortcutx-detox-juice",
+            "link_img1": "shopify://collections/meal-replacement",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -269,15 +269,15 @@
             "animation_delay": 40
           }
         },
-        "image_parent_xn7RGr": {
+        "image_parent_KVEHbr": {
           "type": "image_parent",
-          "name": "FTS NEW",
+          "name": "Detox",
           "settings": {
-            "image": "shopify://shop_images/Mystery_Flavour_1800_by_600.jpg",
-            "image_mb": "shopify://shop_images/Mystery_1100_by_750.jpg",
+            "image": "shopify://shop_images/20260417_SX_ECOM_SHOP_DETOX-DESKTOP.jpg",
+            "image_mb": "shopify://shop_images/20260417_SX_ECOM_SHOP_MOBILE.jpg",
             "image_position": "default",
             "cl_img": "",
-            "link_img1": "shopify://products/flat-tummy-shakes-mystery-flavours",
+            "link_img1": "shopify://products/shortcutx-detox-juice",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -397,11 +397,11 @@
           "name": "Weighing Scale",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_72.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_8.svg",
+            "image": "shopify://shop_images/Flat_Tummy_Shakes_2.jpg",
+            "image_mb": "shopify://shop_images/Flat_Tummy_Shakes_1.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
+            "link_img1": "shopify://collections/meal-replacement",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "start",
@@ -951,8 +951,8 @@
         }
       },
       "block_order": [
-        "image_parent_KVEHbr",
         "image_parent_xn7RGr",
+        "image_parent_KVEHbr",
         "image_parent_a7XJpR",
         "image_parent_8BymdV",
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
