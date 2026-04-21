@@ -15,11 +15,11 @@
         "image_parent_ctJWg4": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Mystery_Flavours_1920_by_480.jpg",
-            "image_mb": "shopify://shop_images/Mystery_Flavours_-_1080_by_1080.jpg",
+            "image": "shopify://shop_images/Flat_Tummy_Shakes_3.jpg",
+            "image_mb": "shopify://shop_images/Flat_Tummy_Shakes_4.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://products/flat-tummy-shakes-mystery-flavours",
+            "link_img1": "shopify://collections/meal-replacement",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
