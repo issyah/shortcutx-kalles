@@ -231,7 +231,6 @@
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
           "name": "Mother's Day 12%",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Mothers_Day_Banner-01.jpg",
             "image_mb": "shopify://shop_images/Mothers_Day_Banner-02.jpg",
