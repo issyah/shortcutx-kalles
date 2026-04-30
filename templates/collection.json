@@ -14,7 +14,6 @@
       "blocks": {
         "image_parent_ctJWg4": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Mothers_Day_Banner-03.jpg",
             "image_mb": "shopify://shop_images/Mothers_Day_Banner-04.jpg",
