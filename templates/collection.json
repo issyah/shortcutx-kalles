@@ -675,11 +675,12 @@
     },
     "featured_collection_ggjbzm": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "<br>Shop Our Best-Sellers",
+        "top_heading": "Shop Our Best-Sellers",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
