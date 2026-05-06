@@ -3018,6 +3018,11 @@
         "type": "shopify://apps/quizify-product-quiz-builder/blocks/quizify-app-embed/a183a207-633e-46c0-841f-299e90a9605b",
         "disabled": false,
         "settings": {}
+      },
+      "5332588544499791172": {
+        "type": "shopify://apps/hoppy-free-shipping/blocks/shipping_bar/66159626-1fb8-4d18-901f-af7b6a63adaa",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
