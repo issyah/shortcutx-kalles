@@ -1131,29 +1131,6 @@
     "slideshow_rkhJnA": {
       "type": "slideshow",
       "blocks": {
-        "custom_text_UNVMAX": {
-          "type": "custom_text",
-          "settings": {
-            "text": "As seen on:",
-            "remove_br_tag": false,
-            "tag": "p",
-            "fontf": "inherit",
-            "text_cl": "#ffffff",
-            "text_fs": 40,
-            "text_lh": 0,
-            "text_fw": 400,
-            "text_ls": 0,
-            "text_mgb": 15,
-            "font_italic": false,
-            "text_shadow": false,
-            "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 10,
-            "animation": "none"
-          }
-        },
         "image_parent_8zDfdq": {
           "type": "image_parent",
           "settings": {
@@ -1181,8 +1158,8 @@
             "content_pd_lr": 15,
             "content_pd_tb_tb": 15,
             "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
+            "content_pd_tb_mb": 15,
+            "content_pd_lr_mb": 15,
             "border_bl": false,
             "br_color": "#222222",
             "br_bg": "#ffffff",
@@ -1196,7 +1173,6 @@
         }
       },
       "block_order": [
-        "custom_text_UNVMAX",
         "image_parent_8zDfdq"
       ],
       "name": "Logo List",
@@ -1535,6 +1511,9 @@
       },
       "block_order": [
         "doran_shoppable_videos_basic_widget_bQtA8j"
+      ],
+      "custom_css": [
+        ".drv-swiper-wrapper {width: 90%;}"
       ],
       "settings": {}
     },
