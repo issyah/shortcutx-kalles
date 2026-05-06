@@ -596,6 +596,7 @@
           "announcement-bar-2",
           "b2b5fc9d-1142-47bc-a56b-a0a5dccbb000"
         ],
+        "custom_css": [],
         "settings": {
           "show_announcement": true,
           "effect": "1",
