@@ -4562,7 +4562,7 @@ shopify-payment-terms {
 /* START! Added on 6 May 2026, to fix breadcrumb issue breaking into two lines */
 
 .t4s-pr-breadcrumb {
-  margin: 0 0 0.2em; /* Adjust spacing as needed */
+  margin: 0 0 0; /* Adjust spacing as needed */
   white-space: nowrap; /* Forces text to stay on one line */
   overflow-x: auto; /* Adds a scrollbar if it's too long, preventing breakage */
   padding: 2px 0;
