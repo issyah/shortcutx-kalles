@@ -4565,7 +4565,7 @@ shopify-payment-terms {
   margin: 0 0 0.2em; /* Adjust spacing as needed */
   white-space: nowrap; /* Forces text to stay on one line */
   overflow-x: auto; /* Adds a scrollbar if it's too long, preventing breakage */
-  padding: 4px 0;
+  padding: 2px 0;
 }
 
 .t4s-pr-breadcrumb__list {
