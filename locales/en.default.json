@@ -178,7 +178,6 @@
       "sort_button": "Sort",
       "filter_button": "Filter"
     },
-    "filter": {},
     "pagination": {
       "view_all": "View All",
       "load_more": "Load More",
@@ -212,7 +211,7 @@
       "from_price_html": "<span class=\"{{ class }}\">From</span> {{price_min}}",
       "Please_choose_pr_options": "Please select some product options before adding this product to your cart.",
       "choose_an_option": "Choose an option",
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to cart ● {{price}}",
       "pre_order": "Pre-order",
       "unavailable": "Unavailable",
       "sold_out": "Out of stock",
@@ -477,8 +476,7 @@
       "conditions": "You must agree with the terms and conditions to sign up.",
       "link_conditions_html": "I agree with the <a href=\"{{link}}\" class=\"t4s-text__link\">terms and conditions</a>.",
       "link_conditions_emty": "I agree with the terms and conditions."
-    },
-    "footer": {}
+    }
   },
   "customer": {
     "form": {
