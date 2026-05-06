@@ -73,6 +73,28 @@
             "readm_txt": "Read more"
           }
         },
+        "order_RyGV4c": {
+          "type": "order",
+          "settings": {
+            "hide_pre": true,
+            "icon": "2",
+            "icon_name": "las la-truck",
+            "ani": "none",
+            "txt": "Estimated delivery between [date_start] and [date_end]",
+            "ds": 2,
+            "de": 3,
+            "mode": "1",
+            "cut_day": "SAT,SUN",
+            "frm_day": "t44, DD t46",
+            "time": "14:00:00",
+            "hr": "hours",
+            "min": "minutes"
+          }
+        },
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
+          "type": "store_pickup",
+          "settings": {}
+        },
         "form": {
           "type": "form",
           "settings": {
@@ -80,7 +102,7 @@
             "color_mode": "color is-sw-cl__round",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
-            "show_qty": true,
+            "show_qty": false,
             "enable_wishlist": false,
             "enable_compare": false,
             "btn_atc_full": false,
@@ -136,6 +158,15 @@
             "phone": true
           }
         },
+        "mega_block_spacer_spacer_LCGpeT": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 20,
+            "block_height_mobile": 20,
+            "background_color": "",
+            "is_full_width": false
+          }
+        },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
           "settings": {
@@ -166,12 +197,9 @@
             "page": ""
           }
         },
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
-          "type": "store_pickup",
-          "settings": {}
-        },
         "meta": {
           "type": "meta",
+          "disabled": true,
           "settings": {
             "show_options": false,
             "show_vendor": false,
@@ -191,6 +219,7 @@
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "socials_align": "start",
             "social_mode": "2",
@@ -213,6 +242,24 @@
             "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
             "page": ""
           }
+        },
+        "tab_html_RdUbTh": {
+          "type": "tab_html",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page": ""
+          }
+        },
+        "mega_block_spacer_spacer_L77iG6": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 20,
+            "block_height_mobile": 20,
+            "background_color": "",
+            "is_full_width": false
+          }
         }
       },
       "block_order": [
@@ -220,18 +267,22 @@
         "title",
         "price_review",
         "description",
+        "order_RyGV4c",
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
+        "mega_block_spacer_spacer_LCGpeT",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
         "94011ade-ec25-4d68-b37a-70660ede49dd",
-        "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
+        "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80",
+        "tab_html_RdUbTh",
+        "mega_block_spacer_spacer_L77iG6"
       ],
       "custom_css": [],
       "settings": {
