@@ -596,7 +596,9 @@
           "announcement-bar-2",
           "b2b5fc9d-1142-47bc-a56b-a0a5dccbb000"
         ],
-        "custom_css": [],
+        "custom_css": [
+          ".t4-section-announcement-bar {position: sticky !important; top: 0; z-index: 999;}"
+        ],
         "settings": {
           "show_announcement": true,
           "effect": "1",
