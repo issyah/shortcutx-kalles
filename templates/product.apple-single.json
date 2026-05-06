@@ -13,7 +13,7 @@
       "type": "brc-nav-product",
       "settings": {
         "breadcrumb_pr": true,
-        "back_next_pr": true,
+        "back_next_pr": false,
         "cl_bg": "#f6f6f6",
         "cl_link": "#222222"
       }
@@ -41,7 +41,7 @@
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
-            "size_pr": 28,
+            "size_pr": 30,
             "fw_pr": 600,
             "lh_pr": 21,
             "ls_pr": 0,
