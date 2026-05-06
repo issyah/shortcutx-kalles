@@ -4557,3 +4557,28 @@ shopify-payment-terms {
 .global-media-settings {
     border: none !important;
 }
+
+
+/* START! Added on 6 May 2026, to fix breadcrumb issue breaking into two lines */
+
+.breadcrumbs {
+  margin: 0 0 2em; /* Adjust spacing as needed */
+  white-space: nowrap; /* Forces text to stay on one line */
+  overflow-x: auto; /* Adds a scrollbar if it's too long, preventing breakage */
+  padding: 10px 0;
+}
+
+.breadcrumbs__list {
+  display: flex; /* Keeps items in a row */
+  flex-wrap: nowrap; /* Prevents wrapping */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* END! Added on 6 May 2026, to fix breadcrumb issue breaking into two lines */
