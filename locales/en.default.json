@@ -272,7 +272,7 @@
         "sec": "sec",
         "sec_plural": "secs"
       },
-      "order_dayNames": "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
+      "order_dayNames": "Sun,Mon,Tue,Wed,Thurs,Fri,Sat",
       "order_monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
       "view_in_space": "View in your space",
       "view_in_space_label": "View in your space, loads item in augmented reality window",
@@ -722,6 +722,26 @@
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "dates": {
+          "weekdays": {
+            "monday": "Mon"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Mon"
+          }
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "ui_components": {
+      "monday": "Mon",
+      "mondayAbbreviation": "Mon"
     }
   }
 }
