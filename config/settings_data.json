@@ -596,9 +596,7 @@
           "announcement-bar-2",
           "b2b5fc9d-1142-47bc-a56b-a0a5dccbb000"
         ],
-        "custom_css": [
-          ".t4-section-announcement-bar {position: sticky !important; top: 0; z-index: 999;}"
-        ],
+        "custom_css": [],
         "settings": {
           "show_announcement": true,
           "effect": "1",
@@ -1202,17 +1200,28 @@
       "toolbar_mobile": {
         "type": "toolbar_mobile",
         "blocks": {
-          "toolbar_mobile-0": {
-            "type": "shop",
+          "link_NkqwLF": {
+            "type": "link",
             "settings": {
-              "title": "Shop",
-              "link": ""
+              "title": "Bundles",
+              "image": "shopify://shop_images/scx-bm-bundles.png",
+              "link": "shopify://collections/bundles"
             }
           },
-          "toolbar_mobile-1": {
-            "type": "wish",
+          "link_YUmBcG": {
+            "type": "link",
             "settings": {
-              "title": "Wishlist"
+              "title": "Fat Burners",
+              "image": "shopify://shop_images/scx-bm-fatburners.png",
+              "link": "shopify://collections/frontpage"
+            }
+          },
+          "link_WFLwEw": {
+            "type": "link",
+            "settings": {
+              "title": "Slimming Drinks",
+              "image": "shopify://shop_images/scx-bm-drinks.png",
+              "link": "shopify://collections/slimming-tea-coffee"
             }
           },
           "toolbar_mobile-2": {
@@ -1220,26 +1229,13 @@
             "settings": {
               "title": "Cart"
             }
-          },
-          "toolbar_mobile-3": {
-            "type": "account",
-            "settings": {
-              "title": "Account"
-            }
-          },
-          "toolbar_mobile-4": {
-            "type": "search",
-            "settings": {
-              "title": "Search"
-            }
           }
         },
         "block_order": [
-          "toolbar_mobile-0",
-          "toolbar_mobile-1",
-          "toolbar_mobile-2",
-          "toolbar_mobile-3",
-          "toolbar_mobile-4"
+          "link_NkqwLF",
+          "link_YUmBcG",
+          "link_WFLwEw",
+          "toolbar_mobile-2"
         ],
         "settings": {
           "enable_toolbar": true,
