@@ -24,7 +24,7 @@
         "loox_reviews_loox_rating_VM69m4": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "contentSize": 13,
+            "contentSize": 16,
             "pattern": "",
             "hideText": false,
             "alignment": "",
@@ -1172,7 +1172,7 @@
         "doran_shoppable_videos_basic_widget_tLqYWG"
       ],
       "custom_css": [
-        ".drv-swiper-wrapper {width: 88%;}"
+        ".drv-swiper-wrapper {width: 86%;}"
       ],
       "settings": {}
     },
