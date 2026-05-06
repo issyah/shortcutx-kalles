@@ -211,7 +211,7 @@
       "from_price_html": "<span class=\"{{ class }}\">From</span> {{price_min}}",
       "Please_choose_pr_options": "Please select some product options before adding this product to your cart.",
       "choose_an_option": "Choose an option",
-      "add_to_cart": "Add to cart ● {{price_min}}",
+      "add_to_cart": "Add to cart ● {{ price_min }}",
       "pre_order": "Pre-order",
       "unavailable": "Unavailable",
       "sold_out": "Out of stock",
