@@ -84,7 +84,7 @@
             "enable_wishlist": false,
             "enable_compare": false,
             "btn_atc_full": false,
-            "pr_btn_round": 0,
+            "pr_btn_round": 20,
             "ani": "none",
             "time": 6,
             "btn_txt": "0",
@@ -245,8 +245,8 @@
         "image_position": "8",
         "main_click": "zoom",
         "zoom_tp": "external",
-        "enable_zoom_icon": true,
-        "enable_zoom_click_mb": true,
+        "enable_zoom_icon": false,
+        "enable_zoom_click_mb": false,
         "enable_video_looping": false,
         "enable_video_muting": true,
         "enable_video_autoplaying": true,
@@ -1102,6 +1102,9 @@
       },
       "block_order": [
         "doran_shoppable_videos_basic_widget_tLqYWG"
+      ],
+      "custom_css": [
+        ".drv-swiper-wrapper {width: 88%;}"
       ],
       "settings": {}
     },
