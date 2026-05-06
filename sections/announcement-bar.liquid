@@ -8,7 +8,7 @@
 
   {%- style -%}
     {%- assign bg_op = se_stts.bg_op | divided_by: 100.0 -%}
-    .t4s-announcement-bar { background-color: {{ se_stts.bg | color_modify: 'alpha', bg_op }};min-height:{{se_stts.height}}px;font-size:{{se_stts.fontsize}}px;}
+    .t4s-announcement-bar { background-color: {{ se_stts.bg | color_modify: 'alpha', bg_op }};min-height:{{se_stts.height}}px;font-size:{{se_stts.fontsize}}px; position: fixed;}
     .t4s-announcement-bar__wrap,.t4s-announcement-bar__wrap a { color:{{se_stts.cl}} }
     .t4s-announcement-bar__wrap {padding: 5px 10px;min-height:{{se_stts.height}}px}
     .t4s-announcement-bar__item p a { z-index: 5;position: relative; }.t4s-announcement-bar__item p {margin-bottom:0} .t4s-announcement-bar__item strong {font-size: 14px;font-weight: 600;}
