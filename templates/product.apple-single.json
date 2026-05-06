@@ -1179,6 +1179,7 @@
     },
     "d04c193c-455c-49d1-8052-6b476007dc5c": {
       "type": "pair-it-with",
+      "disabled": true,
       "settings": {
         "heading_align": "t4s-text-center",
         "top_heading": "Pair it with",
@@ -1385,6 +1386,7 @@
     },
     "recently-viewed-products": {
       "type": "recently_viewed",
+      "disabled": true,
       "settings": {
         "show": true,
         "design_heading": "1",
