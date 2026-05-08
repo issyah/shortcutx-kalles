@@ -1504,6 +1504,7 @@
       "blocks": {
         "title_ErJqer": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
@@ -1517,6 +1518,7 @@
         },
         "price_review_J9iWTW": {
           "type": "price_review",
+          "disabled": true,
           "settings": {
             "price": "0",
             "type_sale": "1",
@@ -1647,7 +1649,8 @@
         "social_8MbBMY"
       ],
       "custom_css": [
-        ".t4s-product__info-container .t4s-product-price {color: #000000 !important;}"
+        ".t4s-product__info-container .t4s-product-price {color: #000000 !important;}",
+        "h1 a {color: #000000 !important;}"
       ],
       "name": "Featured product",
       "settings": {
