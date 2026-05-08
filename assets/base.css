@@ -4591,7 +4591,7 @@ shopify-payment-terms {
  .t4s-product-form__variants.is-btn-full-width__false .t4s-product-form__buttons, .t4s-product-form__variants.is-btn-full-width__false .t4s-product-form__submit 
  {
   width: 100% !important;
-  padding: 8px 0;
+  padding: 20px 0;
 }
 /* END! Added on 6 May 2026, to increase front size for Add to Cart button is larger */
 
