@@ -1516,6 +1516,15 @@
             "pr_title_color_hover": "#56cfe1"
           }
         },
+        "mega_block_spacer_spacer_EfaybH": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 20,
+            "block_height_mobile": 20,
+            "background_color": "",
+            "is_full_width": false
+          }
+        },
         "price_review_J9iWTW": {
           "type": "price_review",
           "disabled": true,
@@ -1581,11 +1590,11 @@
             "advance_pr_list": []
           }
         },
-        "mega_block_spacer_spacer_EfaybH": {
+        "mega_block_spacer_spacer_YUfqtB": {
           "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
           "settings": {
-            "block_height": 40,
-            "block_height_mobile": 40,
+            "block_height": 20,
+            "block_height_mobile": 20,
             "background_color": "",
             "is_full_width": false
           }
@@ -1639,11 +1648,12 @@
       },
       "block_order": [
         "title_ErJqer",
+        "mega_block_spacer_spacer_EfaybH",
         "price_review_J9iWTW",
         "text_Damgra",
         "description_T4pn8G",
         "form_awgqJd",
-        "mega_block_spacer_spacer_EfaybH",
+        "mega_block_spacer_spacer_YUfqtB",
         "size_delivery_ask_i69et7",
         "meta_8aQqND",
         "social_8MbBMY"
