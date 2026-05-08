@@ -1507,11 +1507,11 @@
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
-            "size_pr": 25.5,
+            "size_pr": 30,
             "fw_pr": 400,
             "lh_pr": 30,
             "ls_pr": 0,
-            "pr_title_color": "#222222",
+            "pr_title_color": "#000000",
             "pr_title_color_hover": "#56cfe1"
           }
         },
@@ -1523,14 +1523,21 @@
             "tax_ship": true,
             "rating": true,
             "review_liquid": "",
-            "size_price_pr": 22,
+            "size_price_pr": 24,
             "fw_price_pr": 400,
             "price_color": "#696969",
             "price_sale_color": "#ec0101"
           }
         },
+        "text_Damgra": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>15x Max+: </strong>4x Stronger Weight Loss</li><li><strong>8x Night Hot Chocolate: </strong>Relax, Recharge  & Reset</li><li><strong>7x Flat Tummy Shakes: </strong>Reduce cravings with this meal replacement. Choose between Cookie Butter Crunch or Salted Caramel</li></ul>"
+          }
+        },
         "description_T4pn8G": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "des": "2",
             "text": "",
@@ -1570,6 +1577,15 @@
             "qty_val": "0",
             "advance_label": "Choose style",
             "advance_pr_list": []
+          }
+        },
+        "mega_block_spacer_spacer_EfaybH": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 40,
+            "block_height_mobile": 40,
+            "background_color": "",
+            "is_full_width": false
           }
         },
         "size_delivery_ask_i69et7": {
@@ -1622,11 +1638,16 @@
       "block_order": [
         "title_ErJqer",
         "price_review_J9iWTW",
+        "text_Damgra",
         "description_T4pn8G",
         "form_awgqJd",
+        "mega_block_spacer_spacer_EfaybH",
         "size_delivery_ask_i69et7",
         "meta_8aQqND",
         "social_8MbBMY"
+      ],
+      "custom_css": [
+        ".t4s-product__info-container .t4s-product-price {color: #000000 !important;}"
       ],
       "name": "Featured product",
       "settings": {
@@ -1639,10 +1660,10 @@
         "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
-        "main_click": "zoom",
+        "main_click": "none",
         "zoom_tp": "external",
-        "enable_zoom_icon": true,
-        "enable_zoom_click_mb": true,
+        "enable_zoom_icon": false,
+        "enable_zoom_click_mb": false,
         "enable_video_looping": false,
         "enable_video_muting": true,
         "enable_video_autoplaying": true,
