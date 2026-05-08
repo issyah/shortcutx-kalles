@@ -3023,6 +3023,13 @@
         "type": "shopify://apps/hoppy-free-shipping/blocks/shipping_bar/66159626-1fb8-4d18-901f-af7b6a63adaa",
         "disabled": false,
         "settings": {}
+      },
+      "13951170544780599758": {
+        "type": "shopify://apps/tapita-seo-speed/blocks/app-embed/cd37ca7a-40ad-4fdc-afd3-768701482209",
+        "disabled": false,
+        "settings": {
+          "hide_price": false
+        }
       }
     }
   },
@@ -3031,7 +3038,7 @@
       ":root {--shopify-editor-section-pr_item_config-setting-pr_title_color_hover: BF1932;}",
       "body,html,p {font-size: 16px;}",
       ".t4s-product.t4s-pr-list,.is--listview .t4s-product {--pr-quickview-color: #bf1932; --pr-addtocart-color: #bf1932;}",
-      " @media (max-width: 768px) {#dummy-chat-button-iframe {right: 0px !important; bottom: 70px !important; } iframe#shopifyChat {bottom: 59px !important; } #t4s-backToTop {display: none; }}",
+      "@media (max-width: 768px) {#dummy-chat-button-iframe {right: 0px !important; bottom: 70px !important; } iframe#shopifyChat {bottom: 59px !important; } #t4s-backToTop {display: none; }}",
       "@media (min-width: 768px) {.t4s-title {font-size: 40px; } .loox-float-toggler-container .loox-float-toggler {background-color: #444 !important; border-radius: 40px !important; padding: 24px; } .loox-float-toggler-container {right: initial; left: 24px; transform: none; bottom: 24px; top: initial; width: auto; }}"
     ]
   }
