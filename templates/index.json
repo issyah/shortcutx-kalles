@@ -230,11 +230,10 @@
       "blocks": {
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
-          "name": "Mother's Day 12%",
-          "disabled": true,
+          "name": "Direct Pricing",
           "settings": {
-            "image": "shopify://shop_images/Mothers_Day_Banner-01.jpg",
-            "image_mb": "shopify://shop_images/Mothers_Day_Banner-02.jpg",
+            "image": "shopify://shop_images/Artboard_1_3x_541f2285-d338-41e5-ab1a-12cef97aa49b.webp",
+            "image_mb": "shopify://shop_images/Artboard_2_3x_b1566c9b-ed5a-4a90-b6c2-86ea015212ff.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
