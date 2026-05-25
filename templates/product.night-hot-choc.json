@@ -280,7 +280,7 @@
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": "",
-        "pd": "",
+        "pd": "100px",
         "mg_tb": "",
         "pd_tb": "",
         "mg_mb": "",
