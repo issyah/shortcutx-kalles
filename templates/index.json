@@ -1508,7 +1508,7 @@
         "bl_heading_MQXce7": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "Shortcutx 30 Days Weight Loss Pack"
+            "top_heading": "NEW: Night Hot Chocolate"
           }
         },
         "bl_subheading_zQmTRe": {
@@ -1576,7 +1576,7 @@
         "text_Damgra": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>15x Max+: </strong>4x Stronger Weight Loss</li><li><strong>8x Night Hot Chocolate: </strong>Relax, Recharge  & Reset</li><li><strong>7x Flat Tummy Shakes: </strong>Reduce cravings with this meal replacement. Choose between Cookie Butter Crunch or Salted Caramel</li></ul>"
+            "text": "<ul><li>Infused with <strong>KSM-66® Ashwagandha</strong> to support relaxation and nighttime wellness</li><li>Rich, creamy hot chocolate blend crafted for a calming bedtime ritual</li><li><strong>Helps support appetite control</strong> and reduce late-night snacking habits</li></ul>"
           }
         },
         "description_T4pn8G": {
@@ -1696,8 +1696,8 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "30-day-weight-loss-pack",
-        "image": "shopify://shop_images/1100_x_750_mobile.jpg",
+        "product": "night-hot-chocolate",
+        "image": "shopify://shop_images/1_c7caffba-6ebe-4bb7-bf67-f5628d6df608.png",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
