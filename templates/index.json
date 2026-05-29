@@ -237,7 +237,7 @@
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/night-hot-chocolate",
-            "open_link": "_blank",
+            "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
             "text_align_mb": "center",
