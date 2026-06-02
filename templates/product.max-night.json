@@ -576,7 +576,7 @@
         "bl_image_AJ9RY4": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/5.jpg",
+            "image1": "shopify://shop_images/45.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -636,7 +636,7 @@
         "bl_image_TNinhx": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/footer.jpg",
+            "image1": "shopify://shop_images/46.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -665,6 +665,66 @@
       },
       "block_order": [
         "bl_image_TNinhx"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 0,
+        "space_h_item": "0",
+        "space_v_item": "0",
+        "space_h_item_mb": "0",
+        "space_v_item_mb": "0",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "0",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_eJKNAM": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_fPrec3": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/48.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_fPrec3"
       ],
       "settings": {
         "design_heading": "1",
@@ -1031,6 +1091,7 @@
     "image_text_9EbnCj",
     "image_text_YKEJAX",
     "image_text_hCLP8J",
+    "image_text_eJKNAM",
     "1761206205c737c5c5",
     "d04c193c-455c-49d1-8052-6b476007dc5c",
     "sidebar",
