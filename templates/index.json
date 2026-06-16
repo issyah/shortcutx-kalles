@@ -231,7 +231,6 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "name": "Father's Day ",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Father_s_Da_4.png",
             "image_mb": "shopify://shop_images/Father_s_day_3.png",
