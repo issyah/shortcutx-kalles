@@ -354,6 +354,7 @@
         "image_parent_xn7RGr": {
           "type": "image_parent",
           "name": "FTS NEW",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Flat_Tummy_Shakes_2.jpg",
             "image_mb": "shopify://shop_images/Flat_Tummy_Shakes_1.jpg",
@@ -395,6 +396,7 @@
         "image_parent_a7XJpR": {
           "type": "image_parent",
           "name": "30-Day",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1800_x_600_desktop.jpg",
             "image_mb": "shopify://shop_images/1100_x_750_mobile.jpg",
@@ -436,6 +438,7 @@
         "image_parent_8BymdV": {
           "type": "image_parent",
           "name": "Max+",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/max_Banner_FFF-02.jpg",
             "image_mb": "shopify://shop_images/max_Banner_FFF-01.jpg",
@@ -477,6 +480,7 @@
         "image_parent_KVEHbr": {
           "type": "image_parent",
           "name": "Detox",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20260417_SX_ECOM_SHOP_DETOX-DESKTOP.jpg",
             "image_mb": "shopify://shop_images/20260417_SX_ECOM_SHOP_MOBILE.jpg",
