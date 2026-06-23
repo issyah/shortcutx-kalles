@@ -134,6 +134,7 @@
         },
         "image_parent_UU7EM4": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Flat_Tummy_Shakes_3.jpg",
             "image_mb": "shopify://shop_images/Flat_Tummy_Shakes_4.jpg",
