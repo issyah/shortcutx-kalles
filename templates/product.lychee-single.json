@@ -134,6 +134,15 @@
             "advance_pr_list": []
           }
         },
+        "mega_block_spacer_spacer_aKhBji": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 20,
+            "block_height_mobile": 20,
+            "background_color": "",
+            "is_full_width": false
+          }
+        },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
           "type": "img",
           "disabled": true,
@@ -250,6 +259,7 @@
         "order_zGGkBH",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
+        "mega_block_spacer_spacer_aKhBji",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
