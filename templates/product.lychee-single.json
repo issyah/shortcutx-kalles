@@ -74,7 +74,7 @@
         "text_mYBPHd": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>7-Day Results:</strong> Fast weight loss management.</li><li><strong>Control Appetite:</strong> Enhances satiety.</li><li><strong>Total Wellness:</strong> Supports digestion and healthy blood glucose.</li></ul>"
+            "text": "<ul><li><strong>7-Day Results:</strong> Fast weight loss management.</li><li><strong>Control Appetite:</strong> Scientifically backed formula enhances satiety.</li><li><strong>Total Wellness:</strong> Supports digestion and healthy blood glucose.</li></ul>"
           }
         },
         "order_zGGkBH": {
@@ -84,7 +84,7 @@
             "icon": "2",
             "icon_name": "las la-truck",
             "ani": "none",
-            "txt": "Estimated delivery between [date_start] and [date_end]",
+            "txt": "Get it by [date_end]",
             "ds": 2,
             "de": 3,
             "mode": "1",
