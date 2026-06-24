@@ -735,6 +735,9 @@
             "monday": "Mon"
           }
         }
+      },
+      "delivery_options": {
+        "pick_up_in_twenty_four_hours": "Ready in 24 hours"
       }
     }
   },
