@@ -75,7 +75,7 @@
             "icon": "2",
             "icon_name": "las la-truck",
             "ani": "none",
-            "txt": "Order in the next [hour] to get it between [date_start] and [date_end]",
+            "txt": "Get it by [date_end]",
             "ds": 10,
             "de": 15,
             "mode": "1",
