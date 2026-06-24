@@ -739,6 +739,11 @@
       "delivery_options": {
         "pick_up_in_twenty_four_hours": "Ready in 24 hours"
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "twenty_four_hours": "Ready in 24 hours"
+      }
     }
   },
   "customer_accounts": {
