@@ -55,6 +55,7 @@
         "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
         "9a953769-57c2-417a-b665-db34392c8d1c"
       ],
+      "disabled": true,
       "custom_css": [
         ".t4s-top-collections,.flickityt4s-viewport {min-height: 59px;}"
       ],
