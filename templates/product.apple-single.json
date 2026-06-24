@@ -1147,6 +1147,15 @@
     "17612045406f516d5a": {
       "type": "apps",
       "blocks": {
+        "mega_block_spacer_spacer_kUVgkR": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 40,
+            "block_height_mobile": 40,
+            "background_color": "",
+            "is_full_width": false
+          }
+        },
         "doran_shoppable_videos_basic_widget_tLqYWG": {
           "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
           "settings": {
@@ -1170,6 +1179,7 @@
         }
       },
       "block_order": [
+        "mega_block_spacer_spacer_kUVgkR",
         "doran_shoppable_videos_basic_widget_tLqYWG"
       ],
       "custom_css": [
