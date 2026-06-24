@@ -74,18 +74,7 @@
         "text_8PTm93": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Accelerate Fat Burn:</strong> Green Tea Extract & L-Carnitine ignite your metabolism for maximum weight loss.</li><li><strong>Peak Performance Energy:</strong> Adaptogens & B-vitamins fuel intense workouts with zero crash.</li><li><strong>Rapid Recovery:</strong> Essential electrolytes & aminos quickly replenish your body so you bounce back faster.</li></ul>"
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "des": "2",
-            "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.</p>",
-            "length": 31,
-            "readm": false,
-            "readm_txt": "Read more"
+            "text": "<ul><li><strong>Accelerated Fat Burn:</strong> Green Tea & L-Carnitine ignite metabolism.</li><li><strong>Peak Energy:</strong> Adaptogens & B-vitamins fuel crash-free workouts.</li><li><strong>Rapid Recovery:</strong> Electrolytes & aminos speed up recovery.</li></ul>"
           }
         },
         "order_8XPb7k": {
@@ -267,7 +256,6 @@
         "mega_block_spacer_spacer_G3pJF6",
         "price_review",
         "text_8PTm93",
-        "description",
         "order_8XPb7k",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
