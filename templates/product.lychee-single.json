@@ -275,7 +275,7 @@
       "settings": {
         "pr_layout": "default",
         "enable_sticky_info": true,
-        "media_layout": "thumbnails_bottom",
+        "media_layout": "without_thumbnails",
         "media_size": "medium",
         "thumb_lr_size": "medium",
         "image_ratio": "ratioadapt",
@@ -296,14 +296,14 @@
         "btn_cl": "dark",
         "btn_size": "small",
         "btn_hidden_mobile": false,
-        "nav_dot": false,
-        "dot_owl": "default",
+        "nav_dot": true,
+        "dot_owl": "elessi",
         "dots_cl": "dark",
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
-        "tabs_design": "accordion",
-        "tabs_design_mb": "accordion",
+        "tabs_design": "tab",
+        "tabs_design_mb": "tab",
         "tabs_position": "inner",
         "enable_first_tab": false,
         "tabs_layout_fix": "full",
@@ -648,6 +648,7 @@
     },
     "d04c193c-455c-49d1-8052-6b476007dc5c": {
       "type": "pair-it-with",
+      "disabled": true,
       "settings": {
         "heading_align": "t4s-text-center",
         "top_heading": "Pair it with",
@@ -854,6 +855,7 @@
     },
     "recently-viewed-products": {
       "type": "recently_viewed",
+      "disabled": true,
       "settings": {
         "show": true,
         "design_heading": "1",
@@ -917,7 +919,7 @@
             "default_tab": "automatic",
             "only_photos": false,
             "aggregated": false,
-            "limit": 20,
+            "limit": 4,
             "hide_thumbnails": false,
             "maxwidth": 1080,
             "is_sample": true
