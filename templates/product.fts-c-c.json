@@ -105,7 +105,7 @@
           "type": "form",
           "settings": {
             "selector_mode": "block2",
-            "color_mode": "color is-sw-cl__round",
+            "color_mode": "circle",
             "enable_fit_ratio_img": true,
             "color_size": "medium",
             "show_qty": false,

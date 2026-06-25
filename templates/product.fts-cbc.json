@@ -62,13 +62,13 @@
             "price_sale_color": "#ec0101"
           }
         },
-        "text_3c8gah": {
+        "text_qRmc8n": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Rich Double Chocolate Fudge:</strong> Indulge your deepest chocolate cravings with a decadent, guilt-free shake that keeps you full for hours and makes dieting effortless.</li><li><strong>Flatter Tummy Fast:</strong> Our 7-day sugar-free, keto-friendly formula accelerates weight loss and slims your waistline without the hunger.</li><li><strong>Complete Nutrition & Recovery:</strong> Packed with premium whey protein, high fibre, and 19 essential vitamins to perfectly replace a meal while boosting energy and post-workout healing.</li></ul>"
+            "text": "<ul><li><strong>Luscious Salted Caramel:</strong> Indulge in the perfect sweet and salty balance with a rich, guilt-free shake that crushes cravings and keeps you full for hours.</li><li><strong>Flatter Tummy Fast:</strong> Our 7-day sugar-free, keto-friendly formula effortlessly accelerates weight loss and slims your waistline without the hunger.</li><li><strong>Complete Nutrition & Recovery:</strong> Packed with premium whey protein, high fibre, and 19 essential vitamins to seamlessly replace a meal while boosting energy and post-workout </li></ul>"
           }
         },
-        "order_bJnHQw": {
+        "order_UW6tHa": {
           "type": "order",
           "settings": {
             "hide_pre": true,
@@ -86,6 +86,10 @@
             "min": "minutes"
           }
         },
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
+          "type": "store_pickup",
+          "settings": {}
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -97,15 +101,11 @@
             "readm_txt": "Read more"
           }
         },
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
-          "type": "store_pickup",
-          "settings": {}
-        },
         "form": {
           "type": "form",
           "settings": {
             "selector_mode": "block2",
-            "color_mode": "color is-sw-cl__round",
+            "color_mode": "circle",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
             "show_qty": false,
@@ -210,7 +210,6 @@
         },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
-          "disabled": true,
           "settings": {
             "title": "Additional Information"
           }
@@ -246,10 +245,10 @@
         "loox_reviews_loox_rating_Xnb9Dt",
         "title",
         "price_review",
-        "text_3c8gah",
-        "order_bJnHQw",
-        "description",
+        "text_qRmc8n",
+        "order_UW6tHa",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
+        "description",
         "form",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
