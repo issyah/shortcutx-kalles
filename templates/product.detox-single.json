@@ -112,7 +112,7 @@
             "enable_wishlist": false,
             "enable_compare": false,
             "btn_atc_full": true,
-            "pr_btn_round": 0,
+            "pr_btn_round": 20,
             "ani": "none",
             "time": 6,
             "btn_txt": "0",
