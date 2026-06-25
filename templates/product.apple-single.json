@@ -329,7 +329,7 @@
         "btn_size": "small",
         "btn_hidden_mobile": false,
         "nav_dot": true,
-        "dot_owl": "default",
+        "dot_owl": "elessi",
         "dots_cl": "dark",
         "dots_round": true,
         "dots_space": 10,
