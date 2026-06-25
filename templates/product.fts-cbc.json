@@ -24,7 +24,7 @@
         "loox_reviews_loox_rating_nmFYMe": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "contentSize": 16,
+            "contentSize": 14,
             "pattern": "",
             "hideText": false,
             "alignment": "",
