@@ -366,6 +366,7 @@ button.t4s-product-form__submit[disabled="disabled"]{
   display: inline-flex;
   flex-direction: column;
   width: 100%;
+  margin:8px 0;
 }
 .t4s-product-form__buttons .t4s-quantity-wrapper,
 .t4s-product-form__buttons .t4s-pr-wishlist,
