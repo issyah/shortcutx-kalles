@@ -113,8 +113,8 @@
         "form": {
           "type": "form",
           "settings": {
-            "selector_mode": "circle",
-            "color_mode": "color is-sw-cl__round",
+            "selector_mode": "block2",
+            "color_mode": "variant_image is-sw-cl__round",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
             "show_qty": false,
