@@ -21,18 +21,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "txt_tr_pr": "none",
-            "fnt_df_pr": "1",
-            "size_pr": 16,
-            "fw_pr": 600,
-            "lh_pr": 21,
-            "ls_pr": 0,
-            "pr_title_color": "#222222"
-          }
-        },
         "loox_reviews_loox_rating_ARrhTR": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -48,6 +36,18 @@
             "emptyRatingWidget": false
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "none",
+            "fnt_df_pr": "1",
+            "size_pr": 30,
+            "fw_pr": 600,
+            "lh_pr": 38,
+            "ls_pr": 0,
+            "pr_title_color": "#222222"
+          }
+        },
         "price_review": {
           "type": "price_review",
           "settings": {
@@ -56,22 +56,39 @@
             "tax_ship": false,
             "rating": true,
             "review_liquid": "",
-            "size_price_pr": 32,
+            "size_price_pr": 20,
             "fw_price_pr": 400,
             "price_color": "#696969",
             "price_sale_color": "#ec0101"
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
+        "text_k7e7Ea": {
+          "type": "text",
           "settings": {
-            "des": "2",
-            "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.</p>",
-            "length": 31,
-            "readm": false,
-            "readm_txt": "Read more"
+            "text": "<ul><li><strong>Refreshing White Grape Flavour:</strong> A delicious, fast-absorbing liquid formula that quickly eliminates post-meal heaviness, gas, and discomfort.</li><li><strong>Clinically Proven Digestion:</strong> Powered by DigeZyme® to efficiently break down carbs, proteins, fats, and fibre so you instantly feel lighter after every meal.</li><li><strong>Soothes & Balances:</strong> A calming botanical blend of ginger and mint, combined with premium probiotics, works to relax the stomach, relieve cramps, and support long-term gut health.</li></ul>"
           }
+        },
+        "order_kHjWwy": {
+          "type": "order",
+          "settings": {
+            "hide_pre": true,
+            "icon": "2",
+            "icon_name": "las la-truck",
+            "ani": "none",
+            "txt": "Get it by [date_end]",
+            "ds": 2,
+            "de": 3,
+            "mode": "1",
+            "cut_day": "SAT,SUN",
+            "frm_day": "t44, DD t46",
+            "time": "14:00:00",
+            "hr": "hours",
+            "min": "minutes"
+          }
+        },
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
+          "type": "store_pickup",
+          "settings": {}
         },
         "form": {
           "type": "form",
@@ -80,11 +97,11 @@
             "color_mode": "color is-sw-cl__round",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
-            "show_qty": true,
-            "enable_wishlist": true,
-            "enable_compare": true,
+            "show_qty": false,
+            "enable_wishlist": false,
+            "enable_compare": false,
             "btn_atc_full": true,
-            "pr_btn_round": 0,
+            "pr_btn_round": 20,
             "ani": "none",
             "time": 6,
             "btn_txt": "0",
@@ -108,46 +125,10 @@
             "advance_pr_list": []
           }
         },
-        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "al": "start",
-            "mess": "",
-            "size": 16,
-            "source": "1",
-            "wimg": 70,
-            "svg": "american_express,apple_pay,google_pay,master,shopify_pay,visa",
-            "height": 44
-          }
-        },
-        "size_delivery_ask": {
-          "type": "size_delivery_ask",
-          "disabled": true,
-          "settings": {
-            "size_chart": "3",
-            "pos_sizeg": "1",
-            "sc_type": "1",
-            "page": "",
-            "size_ck": "",
-            "delivery": true,
-            "page_dr": "delivery-return",
-            "ask": true,
-            "phone": true
-          }
-        },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
           "settings": {
             "title": "Description"
-          }
-        },
-        "56e67368-7424-4d73-8f14-dacdda4c59be": {
-          "type": "tab_rivui",
-          "disabled": true,
-          "settings": {
-            "title": "Benefits",
-            "review_liquid": ""
           }
         },
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
@@ -166,44 +147,10 @@
             "page": ""
           }
         },
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
-          "type": "store_pickup",
-          "settings": {}
-        },
-        "meta": {
-          "type": "meta",
-          "settings": {
-            "show_options": false,
-            "show_vendor": false,
-            "show_type": false,
-            "show_sku": true,
-            "show_barcode": false,
-            "show_available": true,
-            "show_category": false,
-            "show_tags": true
-          }
-        },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
           "settings": {
             "title": "Additional Information"
-          }
-        },
-        "94011ade-ec25-4d68-b37a-70660ede49dd": {
-          "type": "social",
-          "settings": {
-            "socials_align": "start",
-            "social_mode": "2",
-            "social_style": "1",
-            "social_size": "extra_small",
-            "bd_radius": 0,
-            "use_color_set": true,
-            "icon_cl": "#222222",
-            "bg_cl": "#bf1932",
-            "space_h_item": "20",
-            "space_v_item": "5",
-            "space_h_item_mb": "10",
-            "space_v_item_mb": "2"
           }
         },
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80": {
@@ -216,37 +163,33 @@
         }
       },
       "block_order": [
-        "title",
         "loox_reviews_loox_rating_ARrhTR",
+        "title",
         "price_review",
-        "description",
+        "text_k7e7Ea",
+        "order_kHjWwy",
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
-        "23551ebc-3be1-40d6-81b2-30f03478cccb",
-        "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "56e67368-7424-4d73-8f14-dacdda4c59be",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
-        "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "94011ade-ec25-4d68-b37a-70660ede49dd",
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
       "custom_css": [],
       "settings": {
         "pr_layout": "default",
         "enable_sticky_info": true,
-        "media_layout": "thumbnails_bottom",
+        "media_layout": "without_thumbnails",
         "media_size": "medium",
         "thumb_lr_size": "medium",
         "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
-        "main_click": "zoom",
+        "main_click": "none",
         "zoom_tp": "external",
-        "enable_zoom_icon": true,
-        "enable_zoom_click_mb": true,
+        "enable_zoom_icon": false,
+        "enable_zoom_click_mb": false,
         "enable_video_looping": false,
         "enable_video_muting": true,
         "enable_video_autoplaying": true,
@@ -258,14 +201,14 @@
         "btn_cl": "dark",
         "btn_size": "small",
         "btn_hidden_mobile": false,
-        "nav_dot": false,
-        "dot_owl": "default",
+        "nav_dot": true,
+        "dot_owl": "elessi",
         "dots_cl": "dark",
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
-        "tabs_design": "accordion",
-        "tabs_design_mb": "accordion",
+        "tabs_design": "tab",
+        "tabs_design_mb": "tab",
         "tabs_position": "inner",
         "enable_first_tab": false,
         "tabs_layout_fix": "full",
@@ -642,6 +585,7 @@
     },
     "d04c193c-455c-49d1-8052-6b476007dc5c": {
       "type": "pair-it-with",
+      "disabled": true,
       "settings": {
         "heading_align": "t4s-text-center",
         "top_heading": "Pair it with",
@@ -848,6 +792,7 @@
     },
     "recently-viewed-products": {
       "type": "recently_viewed",
+      "disabled": true,
       "settings": {
         "show": true,
         "design_heading": "1",
@@ -907,9 +852,11 @@
         "loox-product-reviews": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
             "only_photos": false,
             "aggregated": false,
-            "limit": 20,
+            "limit": 4,
             "hide_thumbnails": false,
             "maxwidth": 1080,
             "is_sample": true
