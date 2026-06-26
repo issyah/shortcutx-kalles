@@ -1551,13 +1551,12 @@
       "blocks": {
         "title_ErJqer": {
           "type": "title",
-          "disabled": true,
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
             "size_pr": 30,
             "fw_pr": 400,
-            "lh_pr": 30,
+            "lh_pr": 38,
             "ls_pr": 0,
             "pr_title_color": "#000000",
             "pr_title_color_hover": "#56cfe1"
@@ -1565,14 +1564,13 @@
         },
         "price_review_J9iWTW": {
           "type": "price_review",
-          "disabled": true,
           "settings": {
             "price": "0",
             "type_sale": "1",
             "tax_ship": true,
             "rating": true,
             "review_liquid": "",
-            "size_price_pr": 24,
+            "size_price_pr": 20,
             "fw_price_pr": 400,
             "price_color": "#696969",
             "price_sale_color": "#ec0101"
@@ -1592,6 +1590,28 @@
             "text": "",
             "length": 31
           }
+        },
+        "order_F4d8tK": {
+          "type": "order",
+          "settings": {
+            "hide_pre": true,
+            "icon": "2",
+            "icon_name": "las la-truck",
+            "ani": "none",
+            "txt": "Get it by [date_end]",
+            "ds": 10,
+            "de": 15,
+            "mode": "1",
+            "cut_day": "SAT,SUN",
+            "frm_day": "t44, t45 t46",
+            "time": "16:00:00",
+            "hr": "hours",
+            "min": "minutes"
+          }
+        },
+        "store_pickup_fJHBE9": {
+          "type": "store_pickup",
+          "settings": {}
         },
         "form_awgqJd": {
           "type": "form",
@@ -1639,6 +1659,7 @@
         },
         "size_delivery_ask_i69et7": {
           "type": "size_delivery_ask",
+          "disabled": true,
           "settings": {
             "size_chart": "3",
             "pos_sizeg": "1",
@@ -1689,6 +1710,8 @@
         "price_review_J9iWTW",
         "text_Damgra",
         "description_T4pn8G",
+        "order_F4d8tK",
+        "store_pickup_fJHBE9",
         "form_awgqJd",
         "mega_block_spacer_spacer_YUfqtB",
         "size_delivery_ask_i69et7",
