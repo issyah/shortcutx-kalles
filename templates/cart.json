@@ -54,6 +54,37 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "1782444914e5900c76": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_trust_badge_WgJipm": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-trust-badge/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "layout": "horizontal",
+            "alignment": "fillContainer",
+            "scheme-type": "default",
+            "review-title": "reviews",
+            "rating-icon": true,
+            "average-rating": true,
+            "loox-branding": true,
+            "review-count": true,
+            "open-reviews": true,
+            "show-border": true,
+            "border-radius": 8,
+            "font-size": 20,
+            "background-color": "",
+            "secondary-background-color": "",
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_trust_badge_WgJipm"
+      ],
+      "settings": {}
+    },
     "main": {
       "type": "main-cart",
       "blocks": {
@@ -245,12 +276,38 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "17824448931478389d": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_AwFECM": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "reviews_to_display": "product_reviews_only",
+            "default_tab": "automatic",
+            "only_photos": true,
+            "hide_thumbnails": true,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 4,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_AwFECM"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "heading",
+    "1782444914e5900c76",
     "main",
     "featured",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "17824448931478389d"
   ]
 }
