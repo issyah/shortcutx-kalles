@@ -641,6 +641,7 @@
           },
           "1c183604-aba8-4307-947b-2ed4f4d0b0ff": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Calorie Calculator",
               "url": "shopify://pages/calorie-calculator",
