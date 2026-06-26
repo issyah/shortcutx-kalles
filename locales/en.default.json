@@ -380,8 +380,8 @@
       "placeholder_note": "How can we help you?",
       "gift_wrap_html": "<span class=\"cd\">Do you want a gift wrap?</span> Only {{ money }}",
       "add_gift_wrap": "Add A Gift Wrap",
-      "coupon": "Coupon:",
-      "add_coupon": "Add A Coupon",
+      "coupon": "Have a coupon?",
+      "add_coupon": "Enter your coupon code here",
       "info_coupon": "Coupon code will work on checkout page",
       "placeholder_coupon": "Coupon code"
     },
