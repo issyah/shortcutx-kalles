@@ -23,6 +23,7 @@
     "logo_mb_width": 95,
     "logo_tr": "shopify://shop_images/header-logo-01.png",
     "logo_tr_width": 95,
+    "mobile_nav_type": "1",
     "text_color": "#555555",
     "accent_color": "#bf1932",
     "price_primary": "#bf1932",
