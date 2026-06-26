@@ -204,105 +204,6 @@
               "padding_inner_mb": ""
             }
           },
-          "footer-0": {
-            "type": "bl_col",
-            "disabled": true,
-            "settings": {
-              "col_heading": "",
-              "menu": "",
-              "menu_style": "1",
-              "col_dk": "4",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "",
-              "col_heading_mobile": "Get in touch",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "de84a111-3ed0-40a2-b86a-1e81488e9bff": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image_child": "shopify://shop_images/shorcutx-logo.png",
-              "link_img": "",
-              "img_width": 120,
-              "img_width_mb": 0,
-              "mgb": 34,
-              "mgb_mb": 24
-            }
-          },
-          "dc57896d-8763-423e-a2a3-04703555e8a5": {
-            "type": "bl_col",
-            "disabled": true,
-            "settings": {
-              "col_heading": "Official Reseller",
-              "menu": "",
-              "menu_style": "1",
-              "col_dk": "15",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "07370baa-a5de-4adc-8e7f-3ee22915c44e": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image_child": "shopify://shop_images/Thick-Toko-Warisan-Trading-Logo_FC-large.png",
-              "link_img": "",
-              "img_width": 120,
-              "img_width_mb": 0,
-              "mgb": 15,
-              "mgb_mb": 20
-            }
-          },
-          "710232ab-a0c8-49be-8494-689001fb99e2": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image_child": "shopify://shop_images/Barakah_Logo_Vector_1.webp",
-              "link_img": "",
-              "img_width": 0,
-              "img_width_mb": 0,
-              "mgb": 15,
-              "mgb_mb": 20
-            }
-          },
-          "6c6efeae-08c3-4e3d-93c1-9bf2dbb858a5": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image_child": "shopify://shop_images/Beautyfyxed_200x800-01-01.webp",
-              "link_img": "",
-              "img_width": 0,
-              "img_width_mb": 0,
-              "mgb": 20,
-              "mgb_mb": 20
-            }
-          },
-          "footer-4": {
-            "type": "bl_col",
-            "disabled": true,
-            "settings": {
-              "col_heading": "Links",
-              "menu": "footer",
-              "menu_style": "1",
-              "col_dk": "15",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
           "ba3ee6a6-f2de-4cd1-82cc-51e4f07cbf53": {
             "type": "bl_col",
             "settings": {
@@ -441,13 +342,6 @@
         },
         "block_order": [
           "7dbc0ddd-5531-4ca0-8460-47c25f2074b5",
-          "footer-0",
-          "de84a111-3ed0-40a2-b86a-1e81488e9bff",
-          "dc57896d-8763-423e-a2a3-04703555e8a5",
-          "07370baa-a5de-4adc-8e7f-3ee22915c44e",
-          "710232ab-a0c8-49be-8494-689001fb99e2",
-          "6c6efeae-08c3-4e3d-93c1-9bf2dbb858a5",
-          "footer-4",
           "ba3ee6a6-f2de-4cd1-82cc-51e4f07cbf53",
           "64720722-da6c-41f7-bd4d-26fb8ced1c50",
           "footer-2",
