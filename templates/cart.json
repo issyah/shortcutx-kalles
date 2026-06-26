@@ -60,7 +60,7 @@
         "mega_block_spacer_spacer_qh7QAp": {
           "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
           "settings": {
-            "block_height": 20,
+            "block_height": 10,
             "block_height_mobile": 20,
             "background_color": "",
             "is_full_width": false
@@ -69,9 +69,9 @@
         "loox_reviews_loox_trust_badge_WgJipm": {
           "type": "shopify://apps/loox-reviews/blocks/loox-trust-badge/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "layout": "horizontal",
-            "alignment": "fillContainer",
-            "scheme-type": "alternative",
+            "layout": "horizontal-slim",
+            "alignment": "center",
+            "scheme-type": "default",
             "review-title": "reviews",
             "rating-icon": true,
             "average-rating": true,
