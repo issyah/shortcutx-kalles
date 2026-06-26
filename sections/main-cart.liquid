@@ -312,6 +312,7 @@
 
   </form> 
 
+  {% comment %}
    {%- if se_stts.enable_rates %}{% assign idShip = 'main_cart' -%}
     <div data-estimate-shipping-wrap data-id="{{idShip}}" class="t4s-shipping_calculator t4s-shipping_calc_page">
       <h3 class="t4s-truncate">{{ 'cart.shipping_estimator.title' | t }}</h3>
@@ -349,7 +350,7 @@
         </template>  
     </div>
    {%- endif -%}
-
+{% endcomment %}
 </div>
 <script>window.cartT4SectionID = {{section.id | json}};</script> 
 
