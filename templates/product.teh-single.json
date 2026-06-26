@@ -73,18 +73,22 @@
             "readm_txt": "Read more"
           }
         },
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
+          "type": "store_pickup",
+          "settings": {}
+        },
         "form": {
           "type": "form",
           "settings": {
             "selector_mode": "circle",
-            "color_mode": "color is-sw-cl__round",
+            "color_mode": "variant_image",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
-            "show_qty": true,
-            "enable_wishlist": true,
-            "enable_compare": true,
+            "show_qty": false,
+            "enable_wishlist": false,
+            "enable_compare": false,
             "btn_atc_full": true,
-            "pr_btn_round": 0,
+            "pr_btn_round": 20,
             "ani": "none",
             "time": 6,
             "btn_txt": "0",
@@ -165,44 +169,10 @@
             "page": ""
           }
         },
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
-          "type": "store_pickup",
-          "settings": {}
-        },
-        "meta": {
-          "type": "meta",
-          "settings": {
-            "show_options": false,
-            "show_vendor": false,
-            "show_type": false,
-            "show_sku": true,
-            "show_barcode": false,
-            "show_available": true,
-            "show_category": false,
-            "show_tags": true
-          }
-        },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
           "settings": {
             "title": "Additional Information"
-          }
-        },
-        "94011ade-ec25-4d68-b37a-70660ede49dd": {
-          "type": "social",
-          "settings": {
-            "socials_align": "start",
-            "social_mode": "2",
-            "social_style": "1",
-            "social_size": "extra_small",
-            "bd_radius": 0,
-            "use_color_set": true,
-            "icon_cl": "#222222",
-            "bg_cl": "#bf1932",
-            "space_h_item": "20",
-            "space_v_item": "5",
-            "space_h_item_mb": "10",
-            "space_v_item_mb": "2"
           }
         },
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80": {
@@ -219,6 +189,7 @@
         "loox_reviews_loox_rating_hfxgcV",
         "price_review",
         "description",
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
@@ -226,10 +197,7 @@
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
-        "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "94011ade-ec25-4d68-b37a-70660ede49dd",
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
       "custom_css": [],
@@ -242,7 +210,7 @@
         "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
-        "main_click": "zoom",
+        "main_click": "pswp",
         "zoom_tp": "external",
         "enable_zoom_icon": true,
         "enable_zoom_click_mb": true,
@@ -1300,6 +1268,8 @@
         "loox-product-reviews": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
             "only_photos": false,
             "aggregated": false,
             "limit": 20,
