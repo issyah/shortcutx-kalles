@@ -692,7 +692,7 @@
           "hover_icon": "2",
           "show_search": true,
           "show_acc": true,
-          "show_wis": true,
+          "show_wis": false,
           "cart_des": "1",
           "bg_hc": "#000000",
           "cl_hc": "#ffffff",
