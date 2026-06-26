@@ -155,6 +155,7 @@
         },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
+          "disabled": true,
           "settings": {
             "title": "Description"
           }
