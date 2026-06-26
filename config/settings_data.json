@@ -684,102 +684,6 @@
       "header-inline": {
         "type": "header-inline",
         "blocks": {
-          "e0be43d6-bf02-4962-a06e-4294c6d6bd53": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "Shop",
-              "url": "shopify://collections",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "New",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1000,
-              "id": 2,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
-          "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "Sale",
-              "url": "shopify://collections",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "Sale",
-              "lb_cl": "#ffa800",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "id": 4,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
-          "334013b4-82f3-4046-8371-eaf3c3340153": {
-            "type": "drop",
-            "disabled": true,
-            "settings": {
-              "title": "Portfolio",
-              "url": "https://demo-kalles-4-1.myshopify.com/blogs/portfolio/?preview_theme_id=128644972750",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
-          "556a85dc-041d-4d44-8c22-263ed70a8b48": {
-            "type": "drop",
-            "disabled": true,
-            "settings": {
-              "title": "Lookbook",
-              "url": "https://demo-kalles-4-1.myshopify.com",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
-          "120b4e2d-ed97-46f2-a06c-e7980a3a59b6": {
-            "type": "drop",
-            "disabled": true,
-            "settings": {
-              "title": "Home",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": false,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
           "base_hRGdJR": {
             "type": "base",
             "settings": {
@@ -806,27 +710,6 @@
               "lb_cl": ""
             }
           },
-          "mega_BLtUh3": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "Pickleball",
-              "url": "shopify://products/events",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "id": 1,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f": {
             "type": "drop",
             "settings": {
@@ -842,20 +725,6 @@
               "lazy_mn": false,
               "pos_sub": "bottom",
               "pos": "left"
-            }
-          },
-          "7772c0e8-1ae7-4a2d-a709-eef3c9023eab": {
-            "type": "base",
-            "disabled": true,
-            "settings": {
-              "title": "Blog",
-              "url": "shopify://blogs/news",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
             }
           },
           "08c08080-fcb4-4534-bc57-dfcd9afe6024": {
@@ -900,37 +769,15 @@
               "lb": "",
               "lb_cl": ""
             }
-          },
-          "base_4x6yhq": {
-            "type": "base",
-            "disabled": true,
-            "settings": {
-              "title": "Hari Raya Envelopes",
-              "url": "shopify://products/hari-raya-envelope-with-plushie",
-              "open_link": "_self",
-              "icon": "las la-star-and-crescent",
-              "cus_cl": true,
-              "cl": "#109533",
-              "lb": "",
-              "lb_cl": "#109533"
-            }
           }
         },
         "block_order": [
-          "e0be43d6-bf02-4962-a06e-4294c6d6bd53",
-          "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
-          "334013b4-82f3-4046-8371-eaf3c3340153",
-          "556a85dc-041d-4d44-8c22-263ed70a8b48",
-          "120b4e2d-ed97-46f2-a06c-e7980a3a59b6",
           "base_hRGdJR",
           "base_NHtqzn",
-          "mega_BLtUh3",
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
-          "7772c0e8-1ae7-4a2d-a709-eef3c9023eab",
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
           "1c183604-aba8-4307-947b-2ed4f4d0b0ff",
-          "base_64LhGL",
-          "base_4x6yhq"
+          "base_64LhGL"
         ],
         "settings": {
           "layout": "logo_left",
