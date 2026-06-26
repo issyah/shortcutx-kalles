@@ -115,7 +115,6 @@
         },
         "2fef20ad-861c-4d15-aca6-4c26b6ee96f9": {
           "type": "tax",
-          "disabled": true,
           "settings": {}
         },
         "1f5c1718-08c4-406f-a332-28431934bf99": {
@@ -288,10 +287,6 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
-    },
-    "17824448931478389d": {
-      "type": "apps",
-      "settings": {}
     }
   },
   "order": [
@@ -299,7 +294,6 @@
     "1782444914e5900c76",
     "main",
     "featured",
-    "recently-viewed-products",
-    "17824448931478389d"
+    "recently-viewed-products"
   ]
 }
