@@ -1600,7 +1600,7 @@
             "icon_name": "las la-truck",
             "ani": "none",
             "txt": "Get it by [date_end]",
-            "ds": 2,
+            "ds": 1,
             "de": 3,
             "mode": "1",
             "cut_day": "SAT,SUN",
