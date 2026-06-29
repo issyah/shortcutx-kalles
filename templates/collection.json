@@ -14,6 +14,7 @@
       "blocks": {
         "image_parent_QjjCMR": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/fathers_day.png",
             "image_mb": "shopify://shop_images/Father_s_Day_3_1.png",
