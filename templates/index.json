@@ -1383,7 +1383,7 @@
         "image_position": "8",
         "image_size": "cover",
         "img_effect": "none",
-        "b_effect": "dark-overlay",
+        "b_effect": "none",
         "col_dk": "5",
         "col_tb": "2",
         "col_mb": "2",
