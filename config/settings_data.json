@@ -1802,6 +1802,7 @@
           },
           "main-qv-4": {
             "type": "size_delivery_ask",
+            "disabled": true,
             "settings": {
               "size_chart": "3",
               "pos_sizeg": "1",
@@ -1816,6 +1817,7 @@
           },
           "main-qv-5": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_options": true,
               "show_vendor": false,
@@ -1829,6 +1831,7 @@
           },
           "main-qv-6": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "socials_align": "start",
               "social_mode": "2",
