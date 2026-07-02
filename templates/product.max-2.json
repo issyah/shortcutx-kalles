@@ -21,21 +21,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "loox_reviews_loox_rating_TEMVgX": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "contentSize": 14,
-            "pattern": "",
-            "hideText": false,
-            "alignment": "",
-            "layout": "",
-            "textColor": "",
-            "starColor": "",
-            "showAllReviews": true,
-            "looxOpenFloatingWidget": false,
-            "emptyRatingWidget": false
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -46,15 +31,6 @@
             "lh_pr": 38,
             "ls_pr": 0,
             "pr_title_color": "#222222"
-          }
-        },
-        "mega_block_spacer_spacer_G3pJF6": {
-          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
-          "settings": {
-            "block_height": 0,
-            "block_height_mobile": 0,
-            "background_color": "",
-            "is_full_width": false
           }
         },
         "price_review": {
@@ -188,15 +164,6 @@
             "review_liquid": ""
           }
         },
-        "mega_block_spacer_spacer_7ewnXy": {
-          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
-          "settings": {
-            "block_height": 20,
-            "block_height_mobile": 20,
-            "background_color": "",
-            "is_full_width": false
-          }
-        },
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
           "type": "tab_html",
           "settings": {
@@ -262,9 +229,7 @@
         }
       },
       "block_order": [
-        "loox_reviews_loox_rating_TEMVgX",
         "title",
-        "mega_block_spacer_spacer_G3pJF6",
         "price_review",
         "text_8PTm93",
         "description",
@@ -275,7 +240,6 @@
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
-        "mega_block_spacer_spacer_7ewnXy",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "meta",
@@ -692,33 +656,6 @@
     },
     "1761206205c737c5c5": {
       "type": "apps",
-      "blocks": {
-        "doran_shoppable_videos_basic_widget_zmEKUV": {
-          "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
-          "disabled": true,
-          "settings": {
-            "widgets": [
-              "66c329d1-d153-4706-ac8e-be7ffd0ae739"
-            ],
-            "widget_type": "carousel",
-            "heading": "",
-            "heading_tag": "h2",
-            "description": "",
-            "alignment": "center",
-            "is_custom_grid": false,
-            "grid_item_in_desktop": 4,
-            "grid_item_in_tablet": 3,
-            "grid_item_in_mobile": 2,
-            "is_custom_carousel": false,
-            "carousel_item_in_desktop": 4,
-            "carousel_item_in_tablet": 3,
-            "carousel_item_in_mobile": 2
-          }
-        }
-      },
-      "block_order": [
-        "doran_shoppable_videos_basic_widget_zmEKUV"
-      ],
       "settings": {}
     },
     "d04c193c-455c-49d1-8052-6b476007dc5c": {
@@ -986,24 +923,6 @@
     },
     "loox-product-reviews-app-section": {
       "type": "apps",
-      "blocks": {
-        "loox-product-reviews": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "reviews_to_display": "",
-            "default_tab": "automatic",
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 4,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox-product-reviews"
-      ],
       "settings": {}
     },
     "dc6e4ebd-9b14-4bb8-8df1-9a9b35ed06e3": {

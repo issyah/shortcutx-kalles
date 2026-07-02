@@ -21,21 +21,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "loox_reviews_loox_rating_83PJHy": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "contentSize": 14,
-            "pattern": "",
-            "hideText": false,
-            "alignment": "",
-            "layout": "",
-            "textColor": "",
-            "starColor": "",
-            "showAllReviews": false,
-            "looxOpenFloatingWidget": false,
-            "emptyRatingWidget": false
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -157,7 +142,6 @@
         }
       },
       "block_order": [
-        "loox_reviews_loox_rating_83PJHy",
         "title",
         "price_review",
         "text_W7NxGM",
@@ -518,30 +502,6 @@
     },
     "17612060444bc831bd": {
       "type": "apps",
-      "blocks": {
-        "doran_shoppable_videos_basic_widget_JCbLzW": {
-          "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
-          "settings": {
-            "widgets": [],
-            "widget_type": "carousel",
-            "heading": "",
-            "heading_tag": "h2",
-            "description": "",
-            "alignment": "center",
-            "is_custom_grid": false,
-            "grid_item_in_desktop": 4,
-            "grid_item_in_tablet": 3,
-            "grid_item_in_mobile": 2,
-            "is_custom_carousel": false,
-            "carousel_item_in_desktop": 4,
-            "carousel_item_in_tablet": 3,
-            "carousel_item_in_mobile": 2
-          }
-        }
-      },
-      "block_order": [
-        "doran_shoppable_videos_basic_widget_JCbLzW"
-      ],
       "settings": {}
     },
     "d04c193c-455c-49d1-8052-6b476007dc5c": {
@@ -809,24 +769,6 @@
     },
     "loox-product-reviews-app-section": {
       "type": "apps",
-      "blocks": {
-        "loox-product-reviews": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "reviews_to_display": "",
-            "default_tab": "automatic",
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 4,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox-product-reviews"
-      ],
       "settings": {}
     },
     "dc6e4ebd-9b14-4bb8-8df1-9a9b35ed06e3": {

@@ -15,7 +15,7 @@
     "shop_author": "Issyah",
     "use_rtl": "0",
     "header_design": "inline",
-    "logo": "shopify://shop_images/Logo_2023-02_copy.png",
+    "logo": "shopify://shop_images/Logo_2023-02_copy_1.avif",
     "logo_width": 75,
     "logos": "shopify://shop_images/Logo_2023-02_copy.png",
     "logos_width": 70,
@@ -192,7 +192,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Product",
-              "menu": "footer-products",
+              "menu": "",
               "menu_style": "1",
               "col_dk": "15",
               "col_tb": "6",
@@ -208,7 +208,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Learn",
-              "menu": "footer-learn",
+              "menu": "",
               "menu_style": "1",
               "col_dk": "15",
               "col_tb": "6",
@@ -224,7 +224,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Information",
-              "menu": "footer-information",
+              "menu": "",
               "menu_style": "1",
               "col_dk": "3",
               "col_tb": "6",
@@ -598,7 +598,7 @@
               "title": "Shop",
               "url": "shopify://collections/all",
               "open_link": "_self",
-              "menu": "shop-dropdown",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -628,7 +628,7 @@
               "title": "The Product",
               "url": "shopify://pages/the-product",
               "open_link": "_self",
-              "menu": "the-product-dropdown",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -982,7 +982,6 @@
             "type": "link",
             "settings": {
               "title": "Bundles",
-              "image": "shopify://shop_images/scx-bm-bundles.png",
               "link": "shopify://collections/bundles"
             }
           },
@@ -990,7 +989,6 @@
             "type": "link",
             "settings": {
               "title": "Fat Burners",
-              "image": "shopify://shop_images/scx-bm-fatburners.png",
               "link": "shopify://collections/frontpage"
             }
           },
@@ -998,7 +996,6 @@
             "type": "link",
             "settings": {
               "title": "Slimming Drinks",
-              "image": "shopify://shop_images/scx-bm-drinks.png",
               "link": "shopify://collections/slimming-tea-coffee"
             }
           },
@@ -1354,7 +1351,7 @@
               "title": "Shop",
               "url": "",
               "open_link": "_self",
-              "menu": "shop-dropdown",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1380,7 +1377,7 @@
               "title": "The Product",
               "url": "shopify://products/analogue-resin-strap",
               "open_link": "_self",
-              "menu": "the-product-dropdown",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
@@ -1534,7 +1531,6 @@
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "0",
-              "image": "shopify://shop_images/23.png",
               "icon": "las la-chair",
               "cat1": "",
               "url1": "",
@@ -1599,7 +1595,6 @@
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "0",
-              "image": "shopify://shop_images/23.png",
               "icon": "las la-chair"
             }
           },
@@ -2701,75 +2696,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "decbbfc3-9244-4e44-a730-6167ce3aafe7": {
-        "type": "shopify://apps/instagram-feed-story-tiktok/blocks/social-widget/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
-        "disabled": false,
-        "settings": {}
-      },
-      "10436698916776057164": {
-        "type": "shopify://apps/appstle-subscriptions/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-        "disabled": false,
-        "settings": {}
-      },
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
-      "11656770355074664061": {
-        "type": "shopify://apps/pasilobus-google-analytics-4/blocks/ga4/a193266a-8f65-4da8-bcba-d9df8d371e21",
-        "disabled": false,
-        "settings": {}
-      },
-      "4727195953647268973": {
-        "type": "shopify://apps/doran-shoppable-videos/blocks/app-embed/9f421243-1cc3-42c0-8a88-49922de1eacf",
-        "disabled": false,
-        "settings": {}
-      },
-      "pagefly-page-builder": {
-        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
-        "disabled": false,
-        "settings": {}
-      },
-      "8605505498557855500": {
-        "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
-        "disabled": false,
-        "settings": {}
-      },
-      "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": true,
-        "settings": {
-          "button_color": "#bf1932",
-          "secondary_color": "#FFFFFF",
-          "ternary_color": "#6A6A6A",
-          "button_icon": "chat_bubble",
-          "button_text": "no_text",
-          "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
-        }
-      },
-      "13767922238101876566": {
-        "type": "shopify://apps/quizify-product-quiz-builder/blocks/quizify-app-embed/a183a207-633e-46c0-841f-299e90a9605b",
-        "disabled": false,
-        "settings": {}
-      },
-      "5332588544499791172": {
-        "type": "shopify://apps/hoppy-free-shipping/blocks/shipping_bar/66159626-1fb8-4d18-901f-af7b6a63adaa",
-        "disabled": false,
-        "settings": {}
-      },
-      "13951170544780599758": {
-        "type": "shopify://apps/tapita-seo-speed/blocks/app-embed/cd37ca7a-40ad-4fdc-afd3-768701482209",
-        "disabled": false,
-        "settings": {
-          "hide_price": false
-        }
-      }
-    }
+    "content_for_index": []
   },
   "platform_customizations": {
     "custom_css": [

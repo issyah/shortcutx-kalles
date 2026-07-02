@@ -94,9 +94,7 @@
         "template--16756803535088__09f268f6-775b-4f44-ab3a-2fb9abf6202a-168587486702a3fbb0-0": {
           "type": "img",
           "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/MEET_YOUR_NEW_BEST_FRIENDS..png"
-          }
+          "settings": {}
         },
         "94c04e02-2a61-4154-ba13-3695ca9dd51b": {
           "type": "pr",
@@ -166,9 +164,7 @@
         "cb7e8068-420c-4c71-82b3-1ebb515ae351": {
           "type": "img",
           "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/website_second_page.png"
-          }
+          "settings": {}
         },
         "b9762404-5f0c-4e3e-a8f2-89b6f9fc4d3f": {
           "type": "pr",
@@ -234,8 +230,6 @@
           "name": "Father's Day ",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Father_s_Day_a896e8bf-39f1-46d2-8f54-22298e1c5de9.png",
-            "image_mb": "shopify://shop_images/Father_s_Day_2_1.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
@@ -275,8 +269,7 @@
           "type": "image_parent",
           "name": "NHC",
           "settings": {
-            "image": "shopify://shop_images/NHC_Banner-01.webp",
-            "image_mb": "shopify://shop_images/NHC_Banner-02.webp",
+            "image": "shopify://shop_images/7.7_Back_on_Track_Sale_July_2026_1800_by_600_2.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/night-hot-chocolate",
@@ -316,8 +309,7 @@
           "type": "image_parent",
           "name": "Direct Pricing",
           "settings": {
-            "image": "shopify://shop_images/Artboard_1_4x_7df299ca-7480-4c8c-90e1-814ce96ce4b2.webp",
-            "image_mb": "shopify://shop_images/Artboard_2_4x_360b5c22-4e07-49d8-9467-62a52972b838.webp",
+            "image": "shopify://shop_images/NHC_Banner-01.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
@@ -358,8 +350,6 @@
           "name": "FTS NEW",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Flat_Tummy_Shakes_2.jpg",
-            "image_mb": "shopify://shop_images/Flat_Tummy_Shakes_1.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://collections/meal-replacement",
@@ -400,8 +390,6 @@
           "name": "30-Day",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/1800_x_600_desktop.jpg",
-            "image_mb": "shopify://shop_images/1100_x_750_mobile.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://products/30-day-weight-loss-pack",
@@ -442,8 +430,6 @@
           "name": "Max+",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/max_Banner_FFF-02.jpg",
-            "image_mb": "shopify://shop_images/max_Banner_FFF-01.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://products/max-fat-burner-juice",
@@ -484,8 +470,6 @@
           "name": "Detox",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/20260417_SX_ECOM_SHOP_DETOX-DESKTOP.jpg",
-            "image_mb": "shopify://shop_images/20260417_SX_ECOM_SHOP_MOBILE.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://products/shortcutx-detox-juice",
@@ -526,8 +510,6 @@
           "name": "Night Fat Burner",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_75.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_12.svg",
             "image_position": "9",
             "cl_img": "",
             "link_img1": "shopify://products/shortcutx-night-fat-burner-juice",
@@ -903,7 +885,6 @@
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Website_Banner_2.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -1096,7 +1077,6 @@
         "template--16756803535088__7ae682bd-8cdc-4092-8235-21bbc7ff5aac-1685854507c4703129-0": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/logos_top.png",
             "url": "https://beautyinsider.sg/chtried-tested-and-loved-worlds-1st-apple-cider-fat-burner-juice-by-shortcutx/"
           }
         },
@@ -1104,7 +1084,6 @@
           "type": "logo_item",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/The-Independent-News-Media-1024-300x64-1.png",
             "url": ""
           }
         },
@@ -1112,7 +1091,6 @@
           "type": "logo_item",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/SME-e1716218096708-450x350.png",
             "url": ""
           }
         },
@@ -1120,7 +1098,6 @@
           "type": "logo_item",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2020-07-Tropika-Magazine-logo-250px.png",
             "url": ""
           }
         },
@@ -1128,7 +1105,6 @@
           "type": "logo_item",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/logo.png",
             "url": ""
           }
         },
@@ -1136,7 +1112,6 @@
           "type": "logo_item",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/bestprices.sg-logo.png",
             "url": "https://bestprices.sg/best-fat-burner-supplement-singapore/"
           }
         }
@@ -1208,7 +1183,6 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify://shop_images/20260506_SCX_Shopify_Logos.webp",
-            "image_mb": "shopify://shop_images/20260506_SCX_Shopify_Logos.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -1333,35 +1307,35 @@
         "img_jTryxf": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-01_990ec272-0308-46cd-b5cc-4492d2c76f58.jpg",
+            "image": "shopify://shop_images/Category_List-01_990ec272-0308-46cd-b5cc-4492d2c76f58.webp",
             "url": "shopify://collections/starter-fat-burners"
           }
         },
         "img_649NdH": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-02_bed53a89-dac7-4d5b-9cca-2b3bdccfbbcf.jpg",
+            "image": "shopify://shop_images/Category_List-02_bed53a89-dac7-4d5b-9cca-2b3bdccfbbcf.webp",
             "url": "shopify://collections/advanced-fat-burner"
           }
         },
         "img_rWQpgN": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-04_9df9af65-87ad-44a7-87ae-af395434e4a2.jpg",
+            "image": "shopify://shop_images/Category_List-04_9df9af65-87ad-44a7-87ae-af395434e4a2.webp",
             "url": "shopify://collections/meal-replacement"
           }
         },
         "img_G8EUeX": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-03_51ff553b-4d00-466f-b19d-30c49a2a06ff.jpg",
+            "image": "shopify://shop_images/Category_List-03_51ff553b-4d00-466f-b19d-30c49a2a06ff.webp",
             "url": "shopify://products/shortcutx-night-fat-burner-juice"
           }
         },
         "img_9eXT4U": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-05_313945a3-f03b-4243-8dd8-5fd830b784c9.jpg",
+            "image": "shopify://shop_images/Category_List-05_313945a3-f03b-4243-8dd8-5fd830b784c9.webp",
             "url": "shopify://products/shortcutx-de-bloat-white-grape"
           }
         }
@@ -1438,6 +1412,7 @@
         "bl_heading_NryHMj",
         "bl_subheading_LVYVLg"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "anchor_id": "",
@@ -1458,32 +1433,6 @@
     },
     "17612034474b0228a7": {
       "type": "apps",
-      "blocks": {
-        "doran_shoppable_videos_basic_widget_bQtA8j": {
-          "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
-          "settings": {
-            "widgets": [
-              "5dcec228-836f-4ec4-ae03-bf8d5ff93a5c"
-            ],
-            "widget_type": "carousel",
-            "heading": "",
-            "heading_tag": "h2",
-            "description": "",
-            "alignment": "center",
-            "is_custom_grid": false,
-            "grid_item_in_desktop": 4,
-            "grid_item_in_tablet": 3,
-            "grid_item_in_mobile": 2,
-            "is_custom_carousel": false,
-            "carousel_item_in_desktop": 4,
-            "carousel_item_in_tablet": 3,
-            "carousel_item_in_mobile": 2
-          }
-        }
-      },
-      "block_order": [
-        "doran_shoppable_videos_basic_widget_bQtA8j"
-      ],
       "custom_css": [
         ".drv-swiper-wrapper {width: 90%;}"
       ],
@@ -1649,15 +1598,6 @@
             "advance_pr_list": []
           }
         },
-        "mega_block_spacer_spacer_YUfqtB": {
-          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
-          "settings": {
-            "block_height": 20,
-            "block_height_mobile": 20,
-            "background_color": "",
-            "is_full_width": false
-          }
-        },
         "size_delivery_ask_i69et7": {
           "type": "size_delivery_ask",
           "disabled": true,
@@ -1714,7 +1654,6 @@
         "order_F4d8tK",
         "store_pickup_fJHBE9",
         "form_awgqJd",
-        "mega_block_spacer_spacer_YUfqtB",
         "size_delivery_ask_i69et7",
         "meta_8aQqND",
         "social_8MbBMY"
@@ -1833,6 +1772,7 @@
     },
     "17261228869bd18f11": {
       "type": "apps",
+      "disabled": true,
       "settings": {}
     },
     "164620932069107a3a": {
@@ -1873,7 +1813,6 @@
           "disabled": true,
           "settings": {
             "icon_themes": "door-lock",
-            "image_icon": "shopify://shop_images/halal-malaysia-logo-83E58494C7-seeklogo.com.png",
             "icon": "las la-lock",
             "title": "100% PAYMENT SECURE",
             "text": "<p>We ensure secure payment with PEV</p>",
@@ -1983,7 +1922,7 @@
         "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "image_bg": "shopify://shop_images/Screenshot_2023-06-04_at_1.23.10_PM.png",
+        "image_bg": "shopify://shop_images/Screenshot_2023-06-04_at_1.23.10_PM.webp",
         "mg": "50px,,50px,",
         "pd": "160px,24px,160px,24px",
         "mg_tb": "",
@@ -2000,7 +1939,6 @@
         "template--16756803535088__b312d522-3a5e-4c9f-b327-5592ca97f816-168654292433c31c9e-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/9_148dc314-cf8e-4e0d-a996-bb5f6cb45939.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -2172,7 +2110,6 @@
         "template--16756803535088__11430866-99fb-4127-a3dd-6ed03e8df323-1686543407e840a0bb-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/shot-of-a-young-man-holding-a-scale-and-an-apple-a-2023-11-27-05-16-43-utc.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -2342,7 +2279,7 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify://shop_images/49_1e6262c7-dd5b-4313-bc68-da2e73f7f6e9.svg",
-            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_750_x_1100_px_1.svg",
+            "image_mb": "shopify://shop_images/mobile.svg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -2479,15 +2416,6 @@
     },
     "1689065658ece8d2cb": {
       "type": "apps",
-      "blocks": {
-        "socialwidget_instagram_feed_base_widget_8acJFy": {
-          "type": "shopify://apps/socialwidget-instafeed/blocks/base-widget/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "socialwidget_instagram_feed_base_widget_8acJFy"
-      ],
       "settings": {}
     }
   },
