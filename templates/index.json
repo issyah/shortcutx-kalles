@@ -2416,6 +2416,15 @@
     },
     "1689065658ece8d2cb": {
       "type": "apps",
+      "blocks": {
+        "socialwidget_instafeed_base_widget_YViamC": {
+          "type": "shopify://apps/socialwidget-instafeed/blocks/base-widget/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "socialwidget_instafeed_base_widget_YViamC"
+      ],
       "settings": {}
     }
   },

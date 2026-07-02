@@ -16,8 +16,6 @@
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/fathers_day.png",
-            "image_mb": "shopify://shop_images/Father_s_Day_3_1.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "https://shortcutx.co/collections/bundles/products/the-day-night-routine-bundle?variant=49834847371504",
@@ -56,8 +54,7 @@
         "image_parent_Jgid7t": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/NHC_Banner-03.webp",
-            "image_mb": "shopify://shop_images/NHC_Banner-04.webp",
+            "image": "{{ collection.image }}",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/night-hot-chocolate",
@@ -96,8 +93,6 @@
         "image_parent_ctJWg4": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Artboard_3_4x_0f931a14-bf61-454e-895c-9d952e726fe1.webp",
-            "image_mb": "shopify://shop_images/Artboard_4_4x_280b4107-598a-4e3c-9899-d8fd7cfa73d2.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
@@ -137,8 +132,6 @@
           "type": "image_parent",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Flat_Tummy_Shakes_3.jpg",
-            "image_mb": "shopify://shop_images/Flat_Tummy_Shakes_4.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/meal-replacement",
@@ -224,22 +217,30 @@
     "top": {
       "type": "top-collections",
       "blocks": {
-        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f": {
+        "cat_4LGyJg": {
           "type": "cat",
           "settings": {
-            "collection": "slimming-tea-coffee",
+            "collection": "slimming-drinks",
             "icon": "las la-coffee"
           }
         },
         "2502644f-656b-4289-9245-a75187bd0170": {
           "type": "cat",
           "settings": {
-            "collection": "meal-replacement",
+            "collection": "meal-replacements",
             "icon": "las la-cookie-bite"
+          }
+        },
+        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f": {
+          "type": "cat",
+          "settings": {
+            "collection": "fat-burners",
+            "icon": "las la-burn"
           }
         },
         "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "frontpage",
             "icon": "las la-burn"
@@ -261,8 +262,9 @@
         }
       },
       "block_order": [
-        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
+        "cat_4LGyJg",
         "2502644f-656b-4289-9245-a75187bd0170",
+        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
         "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22",
         "cat_w66zdG",
         "9a953769-57c2-417a-b665-db34392c8d1c"
@@ -361,7 +363,6 @@
         "bfc82e9a-ffbe-43c5-b411-3308e04c68d9"
       ],
       "settings": {
-        "image": "shopify://shop_images/APPLE_banner-05.jpg",
         "use_specify_image": true,
         "parallax": false,
         "color": "#bf1932",
@@ -674,7 +675,6 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify://shop_images/Wesbite_Banner.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",

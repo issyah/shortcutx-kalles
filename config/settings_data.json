@@ -583,7 +583,7 @@
             "type": "base",
             "settings": {
               "title": "Home",
-              "url": "https://shortcutx.co/",
+              "url": "https://shortcutx.com.my",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -598,7 +598,7 @@
               "title": "Shop",
               "url": "shopify://collections/all",
               "open_link": "_self",
-              "menu": "",
+              "menu": "shop-dropdown",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -611,6 +611,7 @@
           },
           "base_NHtqzn": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Bundle Subscription",
               "url": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
@@ -628,7 +629,7 @@
               "title": "The Product",
               "url": "shopify://pages/the-product",
               "open_link": "_self",
-              "menu": "",
+              "menu": "the-product-dropdown",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
