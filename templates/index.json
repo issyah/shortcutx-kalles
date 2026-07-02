@@ -270,6 +270,7 @@
           "name": "NHC",
           "settings": {
             "image": "shopify://shop_images/7.7_Back_on_Track_Sale_July_2026_1800_by_600_2.webp",
+            "image_mb": "shopify://shop_images/mobilebanner2.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/night-hot-chocolate",
@@ -310,6 +311,7 @@
           "name": "Direct Pricing",
           "settings": {
             "image": "shopify://shop_images/NHC_Banner-01.webp",
+            "image_mb": "shopify://shop_images/mobilebanner1.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
