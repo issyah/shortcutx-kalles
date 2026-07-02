@@ -389,6 +389,17 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "announcement_VHCtmB": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "link": "",
+              "content": "<p>Today deal sale off 70%. End in [countdown]. Hurry Up!! [icon_arrow]</p>",
+              "countdown": "2023/12/26",
+              "txt_day": "days",
+              "dayx": 0
+            }
+          },
           "announcement_RadDbk": {
             "type": "announcement",
             "disabled": true,
@@ -423,6 +434,7 @@
           },
           "announcement_wqa474": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
               "content": "<p>🚚 Free Shipping S$100+ (with GST) [icon_arrow]</p>",
@@ -487,6 +499,7 @@
           }
         },
         "block_order": [
+          "announcement_VHCtmB",
           "announcement_RadDbk",
           "announcement_Pmnwz7",
           "announcement-bar-0",
@@ -2742,14 +2755,14 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
+          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!",
           "button_color": "#bf1932",
           "secondary_color": "#FFFFFF",
           "ternary_color": "#6A6A6A",
           "button_icon": "chat_bubble",
           "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
+          "button_vertical_position": "lowest"
         }
       },
       "13767922238101876566": {
