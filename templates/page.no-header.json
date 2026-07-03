@@ -37,6 +37,7 @@
       "block_order": [
         "4ccb8a07-ced7-4518-b278-9951b8bd6157"
       ],
+      "disabled": true,
       "settings": {
         "use_specify_image": true,
         "parallax": false,
@@ -70,7 +71,6 @@
     },
     "sidebar-page": {
       "type": "sidebar-page",
-      "disabled": true,
       "blocks": {
         "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
           "type": "blog_cate",
@@ -84,6 +84,7 @@
       "block_order": [
         "f69681ed-b75e-42de-be58-fdf73b3b7e08"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,
@@ -93,11 +94,42 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "1783062093664704b8": {
+      "type": "apps",
+      "blocks": {
+        "doran_shoppable_videos_basic_widget_yDrJ7D": {
+          "type": "shopify://apps/doran-shoppable-videos/blocks/basic-widget/9f421243-1cc3-42c0-8a88-49922de1eacf",
+          "settings": {
+            "widgets": [
+              "480ad92b-e091-4b1e-b0a1-63ed26b4d3be"
+            ],
+            "widget_type": "grid",
+            "heading": "",
+            "heading_tag": "h2",
+            "description": "",
+            "alignment": "center",
+            "is_custom_grid": false,
+            "grid_item_in_desktop": 4,
+            "grid_item_in_tablet": 3,
+            "grid_item_in_mobile": 2,
+            "is_custom_carousel": false,
+            "carousel_item_in_desktop": 4,
+            "carousel_item_in_tablet": 3,
+            "carousel_item_in_mobile": 2
+          }
+        }
+      },
+      "block_order": [
+        "doran_shoppable_videos_basic_widget_yDrJ7D"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "1783062093664704b8"
   ]
 }
