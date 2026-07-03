@@ -79,16 +79,20 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     <div class="t4s-close-overlay t4s-op-0"></div>
 
     <div class="t4s-website-wrapper">
-      {%- render 'header',t_name:t_name -%}
+      {% unless template.name == 'page' and template.suffix == 'no-header' %}
+        {%- render 'header',t_name:t_name -%}
+      {% endunless %}
 
       <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
         {{ content_for_layout }}
       </main>
+      {% unless template.name == 'page' and template.suffix == 'no-header' %}
+        <footer id="t4s-footer">
+          {%- section 'footer' -%}
+          {%- section 'bottom-bar' -%}
+        </footer>
+      {% endunless %}
 
-      <footer id="t4s-footer">
-        {%- section 'footer' -%}
-        {%- section 'bottom-bar' -%}
-      </footer>
     </div>
 
       <ul hidden class="t4s-d-none">
