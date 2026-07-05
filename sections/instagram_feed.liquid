@@ -100,11 +100,15 @@
                                 {{ 'image' | placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' }} 
                             {%- endif -%} 
                         </div>   
-                        <div class="t4s-ins-info">
+                        {% comment %} 
+                          Note: Remove this for now as it creates 
+                          a weird on hover icon that is not needed. 
+                        {% endcomment %}
+                        {% comment %} <div class="t4s-ins-info">
                             <div class="t4s-ins-icon">
                                 <svg aria-hidden="true" focusable="false" role="presentation"><use href="#{{icon_ins_id}}" /></svg>
                             </div>
-                        </div>  
+                        </div>   {% endcomment %}
                     </{{ARRhtml[0]}}> 
                 </div>
             {%- endfor -%}
