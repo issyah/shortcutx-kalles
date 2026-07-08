@@ -77,16 +77,21 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
   <body class="template-{{ request.page_type | handle }} {{class_lazy}}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}
     <a class="skip-to-content-link visually-hidden" href="#MainContent">{{ "accessibility.skip_to_text" | t }}</a>
     <div class="t4s-close-overlay t4s-op-0"></div>
-
+      {%liquid  
+        assign no_header = false
+        if template.name == 'page' and template.suffix contains 'no-header'
+          assign no_header = true
+        endif      
+      %}
     <div class="t4s-website-wrapper">
-      {% unless template.name == 'page' and template.suffix == 'no-header' %}
+      {% unless no_header %}
         {%- render 'header',t_name:t_name -%}
       {% endunless %}
 
       <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
         {{ content_for_layout }}
       </main>
-      {% unless template.name == 'page' and template.suffix == 'no-header' %}
+      {% unless no_header %}
         <footer id="t4s-footer">
           {%- section 'footer' -%}
           {%- section 'bottom-bar' -%}
