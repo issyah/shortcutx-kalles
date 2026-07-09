@@ -1,0 +1,168 @@
+<!-- sections/nav-irl.liquid -->
+{{ 'nav-irl.css' | asset_url | stylesheet_tag }}
+{{ 'button-style.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign se = section.settings
+  assign logo_image = se.logo | default: settings.logo
+  assign menu = linklists[se.menu]
+  assign sid = section.id
+-%}
+<header
+  id="t4s-nav-irl-{{ sid }}"
+  class="t4s-nav-irl"
+  style="--nav-bg: {{ se.background_color }}; --nav-color: {{ se.text_color }};"
+>
+  <div class="t4s-nav-irl__bar t4s-container">
+    <div class="t4s-nav-irl__logo">
+      <a href="{{ routes.root_url }}">
+        {%- if logo_image != blank -%}
+          <img
+            src="{{ logo_image | image_url: width: 300 }}"
+            srcset="{{ logo_image | image_url: width: 300 }} 1x, {{ logo_image | image_url: width: 600 }} 2x"
+            width="{{ se.logo_width }}"
+            height="{{ se.logo_width | times: logo_image.height | divided_by: logo_image.width }}"
+            alt="{{ logo_image.alt | default: shop.name | escape }}"
+            loading="eager"
+            style="min-height: 64px"
+          >
+        {%- else -%}
+          <span class="t4s-nav-irl__logo-text">{{ shop.name }}</span>
+        {%- endif -%}
+      </a>
+    </div>
+
+    <nav class="t4s-nav-irl__menu" id="t4s-nav-irl-menu-{{ sid }}" aria-hidden="true">
+      {%- if menu != blank -%}
+        <ul class="t4s-nav-irl__menu-list">
+          {%- for link in menu.links -%}
+            <li class="t4s-nav-irl__menu-item">
+              <a
+                href="{{ link.url }}"
+                class="t4s-nav-irl__menu-link"
+                {% if link.active %}
+                  aria-current="page"
+                {% endif %}
+              >
+                {{- link.title | escape -}}
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    </nav>
+
+    <div class="t4s-nav-irl__cta">
+      {%- if se.cta_label != blank -%}
+        <a
+          href="{{ se.cta_link | default: '#' }}"
+          class="t4s-btn t4s-btn-base t4s-btn-size-medium t4s-btn-color-primary t4s-nav-irl__cta-btn btn-slanted"
+        >
+          {{- se.cta_label | escape -}}
+        </a>
+      {%- endif -%}
+      <button
+        type="button"
+        class="t4s-nav-irl__toggle"
+        data-nav-irl-toggle
+        aria-expanded="false"
+        aria-controls="t4s-nav-irl-menu-{{ sid }}"
+        aria-label="Toggle menu"
+      >
+        <span class="t4s-nav-irl__toggle-bar"></span>
+        <span class="t4s-nav-irl__toggle-bar"></span>
+        <span class="t4s-nav-irl__toggle-bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+  (function () {
+    var root = document.getElementById('t4s-nav-irl-{{ sid }}');
+    if (!root) return;
+    var toggle = root.querySelector('[data-nav-irl-toggle]');
+    var menu = root.querySelector('.t4s-nav-irl__menu');
+    if (!toggle || !menu) return;
+    toggle.addEventListener('click', function () {
+      var isOpen = root.classList.toggle('is-menu-open');
+      toggle.setAttribute('aria-expanded', String(isOpen));
+      menu.setAttribute('aria-hidden', String(!isOpen));
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Nav IRL",
+  "tag": "section",
+  "class": "t4s-section t4s-section-all",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image",
+      "info": "Leave blank to use the theme's default logo"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "label": "Logo width",
+      "min": 80,
+      "max": 260,
+      "step": 10,
+      "unit": "px",
+      "default": 140
+    },
+    {
+      "type": "header",
+      "content": "Menu"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu",
+      "default": "main-menu"
+    },
+    {
+      "type": "header",
+      "content": "Call to action"
+    },
+    {
+      "type": "text",
+      "id": "cta_label",
+      "label": "Button label",
+      "default": "Join Now"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Nav IRL"
+    }
+  ]
+}
+{% endschema %}

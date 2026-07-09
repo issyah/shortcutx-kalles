@@ -1,0 +1,117 @@
+.t4s-sports {
+  background: var(--section-bg, #141414);
+  padding: 80px 20px;
+}
+.t4s-sports__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 1200px;
+  margin: 0 auto 24px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.t4s-sports__eyebrow-line {
+  display: block;
+  width: 32px;
+  height: 1px;
+  background: currentColor;
+}
+.t4s-sports__heading {
+  max-width: 1200px;
+  margin: 0 auto 48px;
+  font-size: clamp(36px, 6vw, 64px);
+  font-weight: 800;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+.t4s-sports__heading-line {
+  display: block;
+}
+.t4s-sports__heading-line--white {
+  color: #fff;
+}
+.t4s-sports__heading-line--accent {
+  color: var(--accent-color, #bf1932);
+}
+.t4s-sports__grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(5, 1fr);
+  gap: 1px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.06);
+}
+.t4s-sports__card {
+  position: relative;
+  padding: 32px 24px;
+  overflow: hidden;
+  background: #0d0d0d;
+}
+.t4s-sports__card--active {
+  background: linear-gradient(160deg, rgba(191, 25, 50, 0.18) 0%, #0d0d0d 70%);
+}
+.t4s-sports__card--active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background: var(--accent-color, #bf1932);
+}
+.t4s-sports__icon {
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 1;
+}
+.t4s-sports__name {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+.t4s-sports__status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+.t4s-sports__status--live {
+  color: var(--accent-color, #bf1932);
+}
+.t4s-sports__status-dot {
+  width: 6px;
+  height: 6px;
+  background: currentColor;
+  border-radius: 50%;
+}
+.t4s-sports__products {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media (max-width: 899px) {
+  .t4s-sports__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .t4s-sports__card--active {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 479px) {
+  .t4s-sports__grid {
+    grid-template-columns: 1fr;
+  }
+  .t4s-sports__card--active {
+    grid-column: auto;
+  }
+}

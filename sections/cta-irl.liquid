@@ -1,0 +1,134 @@
+<!-- sections/cta-irl.liquid -->
+{{ 'cta-irl.css' | asset_url | stylesheet_tag }}
+{{ 'button-style.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign se = section.settings
+-%}
+<div class="t4s-cta-irl" style="--section-bg: {{ se.background_color }};padding-bottom:8px;">
+  <div class="t4s-cta-irl__inner">
+    {%- if se.eyebrow_text != blank -%}
+      <p class="t4s-cta-irl__eyebrow">{{ se.eyebrow_text | escape }}</p>
+    {%- endif -%}
+
+    {%- if se.heading_line_1 != blank or se.heading_line_2 != blank -%}
+      <h2 class="t4s-cta-irl__heading">
+        {%- if se.heading_line_1 != blank -%}
+          <span class="t4s-cta-irl__heading-line">{{ se.heading_line_1 | escape }}</span>
+        {%- endif -%}
+        {%- if se.heading_line_2 != blank -%}
+          <span class="t4s-cta-irl__heading-line t4s-cta-irl__heading-line--outline">
+            {{- se.heading_line_2 | escape -}}
+          </span>
+        {%- endif -%}
+      </h2>
+    {%- endif -%}
+
+    {%- if se.description != blank -%}
+      <div class="t4s-cta-irl__description">{{ se.description }}</div>
+    {%- endif -%}
+
+    {%- if se.button_1_label != blank or se.button_2_label != blank -%}
+      <div class="t4s-cta-irl__buttons">
+        {%- if se.button_1_label != blank -%}
+          <a
+            {% if se.button_1_link != blank %}
+              href="{{ se.button_1_link }}"
+            {% else %}
+              role="link" aria-disabled="true"
+            {% endif %}
+            class="t4s-btn t4s-btn-base t4s-btn-color-light t4s-btn-size-large btn-slanted t4s-cta-irl__btn--solid"
+          >
+            {{- se.button_1_label | escape -}}
+          </a>
+        {%- endif -%}
+        {%- if se.button_2_label != blank -%}
+          <a
+            {% if se.button_2_link != blank %}
+              href="{{ se.button_2_link }}"
+            {% else %}
+              role="link" aria-disabled="true"
+            {% endif %}
+            class="t4s-btn t4s-btn-base t4s-btn-color-light t4s-btn-size-large btn-slanted btn-outlined"
+          >
+            {{- se.button_2_label | escape -}}
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "CTA IRL",
+  "tag": "section",
+  "class": "t4s-section t4s-section-all",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#bf1932"
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow_text",
+      "label": "Eyebrow text",
+      "default": "Limited Spots. Real Training."
+    },
+    {
+      "type": "text",
+      "id": "heading_line_1",
+      "label": "Heading line 1 (solid)",
+      "default": "Don't Watch."
+    },
+    {
+      "type": "text",
+      "id": "heading_line_2",
+      "label": "Heading line 2 (outline)",
+      "default": "Participate."
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>The June 29 boxing workshop is filling up. Members pay $15. Public pays $90. Both get an experience worth 10× that. Choose your side.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Buttons"
+    },
+    {
+      "type": "text",
+      "id": "button_1_label",
+      "label": "Primary button label",
+      "default": "Join As Member — $15"
+    },
+    {
+      "type": "url",
+      "id": "button_1_link",
+      "label": "Primary button link"
+    },
+    {
+      "type": "text",
+      "id": "button_2_label",
+      "label": "Secondary button label",
+      "default": "Book Public Spot — $90"
+    },
+    {
+      "type": "url",
+      "id": "button_2_link",
+      "label": "Secondary button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "CTA IRL"
+    }
+  ]
+}
+{% endschema %}

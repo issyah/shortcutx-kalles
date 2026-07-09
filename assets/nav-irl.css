@@ -1,0 +1,137 @@
+.t4s-nav-irl {
+  position: relative;
+  z-index: 30;
+  background: var(--nav-bg, #000000);
+  color: var(--nav-color, #ffffff);
+}
+.t4s-nav-irl__bar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.t4s-nav-irl__logo {
+  order: 1;
+}
+.t4s-nav-irl__logo a {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+.t4s-nav-irl__logo img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 36px;
+}
+.t4s-nav-irl__logo-text {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.t4s-nav-irl__menu {
+  order: 3;
+  flex-basis: 100%;
+}
+.t4s-nav-irl__menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.t4s-nav-irl__menu-link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+.t4s-nav-irl__menu-link:hover,
+.t4s-nav-irl__menu-link[aria-current="page"] {
+  opacity: 1;
+}
+.t4s-nav-irl__cta {
+  order: 2;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.t4s-nav-irl__toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 30px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+}
+.t4s-nav-irl__toggle-bar {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+.t4s-nav-irl.is-menu-open .t4s-nav-irl__toggle-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.t4s-nav-irl.is-menu-open .t4s-nav-irl__toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+.t4s-nav-irl.is-menu-open .t4s-nav-irl__toggle-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Desktop: centered menu, no toggle */
+@media (min-width: 992px) {
+  .t4s-nav-irl__menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    flex-basis: auto;
+    transform: translate(-50%, -50%);
+  }
+  .t4s-nav-irl__toggle {
+    display: none;
+  }
+}
+
+/* Mobile: collapsible dropdown menu */
+@media (max-width: 991px) {
+  .t4s-nav-irl__menu {
+    display: none;
+  }
+  .t4s-nav-irl.is-menu-open .t4s-nav-irl__menu {
+    display: block;
+    padding-top: 12px;
+  }
+  .t4s-nav-irl__menu-list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  .t4s-nav-irl__menu-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .t4s-nav-irl__menu-link {
+    display: block;
+    padding: 14px 0;
+  }
+}

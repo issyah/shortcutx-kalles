@@ -1,0 +1,268 @@
+<!-- sections/next-up-irl.liquid -->
+{{ 'next-up-irl.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign se = section.settings
+  assign panel_image = se.panel_image
+-%}
+<div class="t4s-next-up" style="--section-bg: {{ se.background_color }};">
+  {%- if se.eyebrow_text != blank -%}
+    <p class="t4s-next-up__eyebrow">
+      <span class="t4s-next-up__eyebrow-line"></span>
+      {{- se.eyebrow_text | escape -}}
+    </p>
+  {%- endif -%}
+
+  <div class="t4s-next-up__card">
+    <div class="t4s-next-up__panel">
+      {%- if panel_image != blank -%}
+        <img
+          class="t4s-next-up__panel-img lazyloadt4s"
+          data-src="{{ panel_image | image_url: width: 1 }}"
+          data-widths="[400,600,800,1000,1200,1600]"
+          data-optimumx="2"
+          data-sizes="auto"
+          src="{% render 'img_svg', w: panel_image.width, h: panel_image.height %}"
+          width="{{ panel_image.width }}"
+          height="{{ panel_image.height }}"
+          alt="{{ panel_image.alt | escape }}"
+        >
+        <div class="t4s-next-up__panel-overlay"></div>
+      {%- endif -%}
+      <div class="t4s-next-up__ring"></div>
+
+      {%- if se.badge_text != blank -%}
+        <span class="t4s-next-up__badge">
+          <span class="t4s-next-up__badge-dot"></span>
+          {{- se.badge_text | escape -}}
+        </span>
+      {%- endif -%}
+
+      <h2 class="t4s-next-up__title">
+        {%- if se.heading_line_1_white != blank or se.heading_line_1_accent != blank -%}
+          <span class="t4s-next-up__title-line">{{- se.heading_line_1_white | escape -}}<span class="t4s-next-up__title-accent">{{- se.heading_line_1_accent | escape -}}</span></span>
+        {%- endif -%}
+        {%- if se.heading_line_2 != blank -%}
+          <span class="t4s-next-up__title-line">{{ se.heading_line_2 | escape }}</span>
+        {%- endif -%}
+        {%- if se.heading_line_3 != blank -%}
+          <span class="t4s-next-up__title-line">{{ se.heading_line_3 | escape }}</span>
+        {%- endif -%}
+      </h2>
+
+      {%- if se.date_line != blank -%}
+        <p class="t4s-next-up__date">{{ se.date_line | escape }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="t4s-next-up__details">
+      {%- if se.event_name_line_1 != blank or se.event_name_line_2 != blank -%}
+        <h3 class="t4s-next-up__heading">
+          {%- if se.event_name_line_1 != blank -%}{{ se.event_name_line_1 | escape }}<br>{%- endif -%}
+          {%- if se.event_name_line_2 != blank -%}{{ se.event_name_line_2 | escape }}{%- endif -%}
+        </h3>
+      {%- endif -%}
+
+      <div class="t4s-next-up__divider"></div>
+
+      <div class="t4s-next-up__meta">
+        {%- if se.host_value != blank -%}
+          <div class="t4s-next-up__meta-item">
+            <span class="t4s-next-up__meta-label">Host</span>
+            <span class="t4s-next-up__meta-value">{{ se.host_value | escape }}</span>
+          </div>
+        {%- endif -%}
+        {%- if se.location_value != blank -%}
+          <div class="t4s-next-up__meta-item">
+            <span class="t4s-next-up__meta-label">Location</span>
+            <span class="t4s-next-up__meta-value">{{ se.location_value | escape }}</span>
+          </div>
+        {%- endif -%}
+        {%- if se.duration_value != blank -%}
+          <div class="t4s-next-up__meta-item">
+            <span class="t4s-next-up__meta-label">Duration</span>
+            <span class="t4s-next-up__meta-value">{{ se.duration_value | escape }}</span>
+          </div>
+        {%- endif -%}
+        {%- if se.spots_value != blank -%}
+          <div class="t4s-next-up__meta-item">
+            <span class="t4s-next-up__meta-label">Spots Available</span>
+            <span class="t4s-next-up__meta-value t4s-next-up__meta-value--accent">{{ se.spots_value | escape }}</span>
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="t4s-next-up__pricing">
+        <div class="t4s-next-up__price-box t4s-next-up__price-box--member">
+          <p class="t4s-next-up__price-label t4s-next-up__price-label--member">Members</p>
+          <p class="t4s-next-up__price-value t4s-next-up__price-value--member">{{ se.member_price | escape }}</p>
+          <div class="t4s-next-up__price-note">{{ se.member_note }}</div>
+        </div>
+        <div class="t4s-next-up__price-box">
+          <p class="t4s-next-up__price-label t4s-next-up__price-label--public">Public / Non-Members</p>
+          <p class="t4s-next-up__price-value">{{ se.public_price | escape }}</p>
+          <div class="t4s-next-up__price-note">{{ se.public_note }}</div>
+        </div>
+      </div>
+
+      {%- if se.cta_label != blank -%}
+        <a href="{{ se.cta_link | default: '#' }}" class="t4s-next-up__cta btn-slanted">{{ se.cta_label | escape }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Next Up IRL",
+  "tag": "section",
+  "class": "t4s-section t4s-section-all",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section background color",
+      "default": "#141414"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow_text",
+      "label": "Eyebrow text",
+      "default": "Next Up"
+    },
+    {
+      "type": "header",
+      "content": "Left panel"
+    },
+    {
+      "type": "image_picker",
+      "id": "panel_image",
+      "label": "Panel image",
+      "info": "Optional. Leave blank to use the gradient background"
+    },
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Badge text",
+      "default": "Next Event"
+    },
+    {
+      "type": "text",
+      "id": "heading_line_1_white",
+      "label": "Heading line 1",
+      "default": "Box"
+    },
+    {
+      "type": "text",
+      "id": "heading_line_1_accent",
+      "label": "Heading line 1 (accent color, appended)",
+      "default": "ing"
+    },
+    {
+      "type": "text",
+      "id": "heading_line_2",
+      "label": "Heading line 2",
+      "default": "With"
+    },
+    {
+      "type": "text",
+      "id": "heading_line_3",
+      "label": "Heading line 3",
+      "default": "Fash"
+    },
+    {
+      "type": "text",
+      "id": "date_line",
+      "label": "Date / time line",
+      "default": "Sunday, 29 June 2026 · 10:00 AM – 12:00 PM"
+    },
+    {
+      "type": "header",
+      "content": "Event details"
+    },
+    {
+      "type": "text",
+      "id": "event_name_line_1",
+      "label": "Event name line 1",
+      "default": "Spartans Boxing Club"
+    },
+    {
+      "type": "text",
+      "id": "event_name_line_2",
+      "label": "Event name line 2",
+      "default": "× Shortcutx I.R.L"
+    },
+    {
+      "type": "text",
+      "id": "host_value",
+      "label": "Host",
+      "default": "Efasha \"Fash\" Kamarudin"
+    },
+    {
+      "type": "text",
+      "id": "location_value",
+      "label": "Location",
+      "default": "Spartans Boxing Club"
+    },
+    {
+      "type": "text",
+      "id": "duration_value",
+      "label": "Duration",
+      "default": "2 Hours"
+    },
+    {
+      "type": "text",
+      "id": "spots_value",
+      "label": "Spots available",
+      "default": "Limited — 15 Max"
+    },
+    {
+      "type": "header",
+      "content": "Pricing"
+    },
+    {
+      "type": "text",
+      "id": "member_price",
+      "label": "Member price",
+      "default": "$15"
+    },
+    {
+      "type": "richtext",
+      "id": "member_note",
+      "label": "Member note",
+      "default": "<p>You're already subscribed. This is your reward.</p>"
+    },
+    {
+      "type": "text",
+      "id": "public_price",
+      "label": "Public price",
+      "default": "$90"
+    },
+    {
+      "type": "richtext",
+      "id": "public_note",
+      "label": "Public note",
+      "default": "<p>Includes <strong>2 free products:</strong> MAX+ & Flat Tummy Shake</p>"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "cta_label",
+      "label": "Button label",
+      "default": "Secure Your Spot"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Next Up IRL"
+    }
+  ]
+}
+{% endschema %}

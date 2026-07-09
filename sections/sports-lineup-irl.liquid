@@ -1,0 +1,154 @@
+<!-- sections/sports-lineup-irl.liquid -->
+{{ 'sports-lineup-irl.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign se = section.settings
+-%}
+<div class="t4s-sports" style="--section-bg: {{ se.background_color }};">
+  {%- if se.eyebrow_text != blank -%}
+    <p class="t4s-sports__eyebrow roti-color-1">
+      <span class="t4s-sports__eyebrow-line"></span>
+      {{- se.eyebrow_text | escape -}}
+    </p>
+  {%- endif -%}
+
+  {%- if se.heading_line_1 != blank or se.heading_line_2 != blank -%}
+    <h2 class="t4s-sports__heading">
+      {%- if se.heading_line_1 != blank -%}
+        <span class="t4s-sports__heading-line t4s-sports__heading-line--white">{{ se.heading_line_1 | escape }}</span>
+      {%- endif -%}
+      {%- if se.heading_line_2 != blank -%}
+        <span class="t4s-sports__heading-line t4s-sports__heading-line--accent">{{ se.heading_line_2 | escape }}</span>
+      {%- endif -%}
+    </h2>
+  {%- endif -%}
+
+  {%- if section.blocks.size > 0 -%}
+    <div class="t4s-sports__grid">
+      {%- for block in section.blocks -%}
+        {%- assign bk = block.settings -%}
+        <div class="t4s-sports__card{% if bk.is_live %} t4s-sports__card--active{% endif %}" {{ block.shopify_attributes }}>
+          {%- if bk.icon != blank -%}
+            <div class="t4s-sports__icon" aria-hidden="true">{{ bk.icon }}</div>
+          {%- endif -%}
+          {%- if bk.name != blank -%}
+            <p class="t4s-sports__name">{{ bk.name | escape }}</p>
+          {%- endif -%}
+          {%- if bk.status_text != blank -%}
+            <p class="t4s-sports__status{% if bk.is_live %} t4s-sports__status--live{% endif %}">
+              {%- if bk.is_live -%}<span class="t4s-sports__status-dot"></span>{%- endif -%}
+              {{- bk.status_text | escape -}}
+            </p>
+          {%- endif -%}
+          {%- if bk.products_text != blank -%}
+            <p class="t4s-sports__products roti-color-1">{{ bk.products_text | escape }}</p>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Sports Lineup IRL",
+  "tag": "section",
+  "class": "t4s-section t4s-section-all",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section background color",
+      "default": "#141414"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow_text",
+      "label": "Eyebrow text",
+      "default": "Sports Lineup"
+    },
+    {
+      "type": "text",
+      "id": "heading_line_1",
+      "label": "Heading line 1",
+      "default": "Every Sport."
+    },
+    {
+      "type": "text",
+      "id": "heading_line_2",
+      "label": "Heading line 2 (accent color)",
+      "default": "Right Products."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "sport_item",
+      "name": "Sport",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Icon (emoji)",
+          "info": "Paste an emoji, e.g. from emojicopy.com",
+          "default": "🥊"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Sport name",
+          "default": "Boxing"
+        },
+        {
+          "type": "checkbox",
+          "id": "is_live",
+          "label": "Live now",
+          "info": "Highlights this card and colors the status red",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "status_text",
+          "label": "Status text",
+          "default": "Coming Soon"
+        },
+        {
+          "type": "text",
+          "id": "products_text",
+          "label": "Products text",
+          "default": "Products TBA"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sports Lineup IRL",
+      "blocks": [
+        {
+          "type": "sport_item",
+          "settings": { "icon": "🥊", "name": "Boxing", "is_live": true, "status_text": "Live Now", "products_text": "MAX+ · Flat Tummy Shake" }
+        },
+        {
+          "type": "sport_item",
+          "settings": { "icon": "🥋", "name": "Muay Thai", "is_live": false, "status_text": "Coming Soon", "products_text": "Products TBA" }
+        },
+        {
+          "type": "sport_item",
+          "settings": { "icon": "⚽", "name": "Football", "is_live": false, "status_text": "Coming Soon", "products_text": "Products TBA" }
+        },
+        {
+          "type": "sport_item",
+          "settings": { "icon": "🏃", "name": "Running", "is_live": false, "status_text": "Coming Soon", "products_text": "Products TBA" }
+        },
+        {
+          "type": "sport_item",
+          "settings": { "icon": "🏋️", "name": "Weightlifting", "is_live": false, "status_text": "Coming Soon", "products_text": "Products TBA" }
+        },
+        {
+          "type": "sport_item",
+          "settings": { "icon": "🧘", "name": "Recovery", "is_live": false, "status_text": "Coming Soon", "products_text": "Products TBA" }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

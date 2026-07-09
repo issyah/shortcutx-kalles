@@ -37,6 +37,7 @@
       "block_order": [
         "4ccb8a07-ced7-4518-b278-9951b8bd6157"
       ],
+      "disabled": true,
       "settings": {
         "use_specify_image": true,
         "parallax": false,
@@ -56,6 +57,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -92,6 +94,19 @@
         "brcolor": "#222222",
         "sidebar_bdr": 5,
         "sidebar_pd": 10
+      }
+    },
+    "nav_irl_nwQftT": {
+      "type": "nav-irl",
+      "name": "Nav IRL",
+      "settings": {
+        "logo": "shopify://shop_images/irl_logo.png",
+        "logo_width": 140,
+        "menu": "in-real-life-main-menu",
+        "cta_label": "Join Now",
+        "cta_link": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff"
       }
     },
     "hero_irl_cxLtjG": {
@@ -137,7 +152,7 @@
       ],
       "name": "Hero IRL",
       "settings": {
-        "image": "shopify://shop_images/hero-banner-irl.jpg",
+        "image": "shopify://shop_images/hero-banner-irl_bad7f66d-6a9c-4466-9932-591e53eafcd5.jpg",
         "min_height": 640,
         "overlay_color": "#000000",
         "overlay_opacity": 35,
@@ -153,12 +168,185 @@
         "show_ticker": true,
         "ticker_speed": 25
       }
+    },
+    "next_up_irl_4iAXrz": {
+      "type": "next-up-irl",
+      "name": "Next Up IRL",
+      "settings": {
+        "background_color": "#141414",
+        "eyebrow_text": "Next Up",
+        "badge_text": "Next Event",
+        "heading_line_1_white": "Box",
+        "heading_line_1_accent": "ing",
+        "heading_line_2": "With",
+        "heading_line_3": "Fash",
+        "date_line": "Sunday, 29 June 2026 · 10:00 AM – 12:00 PM",
+        "event_name_line_1": "Spartans Boxing Club",
+        "event_name_line_2": "× Shortcutx I.R.L",
+        "host_value": "Efasha \"Fash\" Kamarudin",
+        "location_value": "Spartans Boxing Club",
+        "duration_value": "2 Hours",
+        "spots_value": "Limited — 15 Max",
+        "member_price": "$15",
+        "member_note": "<p>You're already subscribed. This is your reward.</p>",
+        "public_price": "$90",
+        "public_note": "<p>Includes <strong>2 free products:</strong> MAX+ & Flat Tummy Shake</p>",
+        "cta_label": "Secure Your Spot",
+        "cta_link": ""
+      }
+    },
+    "custom_liquid_3fEngD": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"upcoming\"></div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "sports_lineup_irl_PP77Pj": {
+      "type": "sports-lineup-irl",
+      "blocks": {
+        "sport_item_Cn9yx9": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🥊",
+            "name": "Boxing",
+            "is_live": true,
+            "status_text": "Live Now",
+            "products_text": "MAX+ · Flat Tummy Shake"
+          }
+        },
+        "sport_item_RdVxEN": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🥋",
+            "name": "Muay Thai",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Products TBA"
+          }
+        },
+        "sport_item_Q3fAKc": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "⚽",
+            "name": "Football",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Products TBA"
+          }
+        },
+        "sport_item_yXeL4j": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🏃",
+            "name": "Running",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Products TBA"
+          }
+        },
+        "sport_item_FTM4mR": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🏋️",
+            "name": "Weightlifting",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Products TBA"
+          }
+        },
+        "sport_item_UbF3Yh": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🧘",
+            "name": "Recovery",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Products TBA"
+          }
+        }
+      },
+      "block_order": [
+        "sport_item_Cn9yx9",
+        "sport_item_RdVxEN",
+        "sport_item_Q3fAKc",
+        "sport_item_yXeL4j",
+        "sport_item_FTM4mR",
+        "sport_item_UbF3Yh"
+      ],
+      "name": "Sports Lineup IRL",
+      "settings": {
+        "background_color": "#141414",
+        "eyebrow_text": "Sports Lineup",
+        "heading_line_1": "Every Sport.",
+        "heading_line_2": "Right Products."
+      }
+    },
+    "cta_irl_HFCaeK": {
+      "type": "cta-irl",
+      "name": "CTA IRL",
+      "settings": {
+        "background_color": "#bf1932",
+        "eyebrow_text": "Limited Spots. Real Training.",
+        "heading_line_1": "Don't Watch.",
+        "heading_line_2": "Participate.",
+        "description": "<p>The June 29 boxing workshop is filling up. Members pay $15. Public pays $90. Both get an experience worth 10× that. Choose your side.</p>",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_2_label": "",
+        "button_2_link": ""
+      }
+    },
+    "17835669606320580b": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_6DnU4z": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "1061081",
+            "text_color": "#ffffff",
+            "button_background_color": "#c9a84c",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 30,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_6DnU4z"
+      ],
+      "custom_css": [
+        ".shopify-block {background: #bf1932;}"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "hero_irl_cxLtjG"
+    "nav_irl_nwQftT",
+    "hero_irl_cxLtjG",
+    "next_up_irl_4iAXrz",
+    "custom_liquid_3fEngD",
+    "sports_lineup_irl_PP77Pj",
+    "cta_irl_HFCaeK",
+    "17835669606320580b"
   ]
 }

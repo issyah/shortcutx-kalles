@@ -7,6 +7,14 @@
   assign overlay_opacity = se.overlay_opacity | divided_by: 100.0
   assign overlay_color = se.overlay_color | color_modify: 'alpha', overlay_opacity
 -%}
+
+<style>
+  @media (min-width: 769px) {
+    .t4s-hero-irl {
+      --hero-min-height: {{ se.min_height }}px;
+    }
+  }
+</style>
 <div class="t4s-hero-irl" style="--hero-overlay: {{ overlay_color }}; --hero-min-height: {{ se.min_height }}px;">
   <div class="t4s-hero-irl__media">
     {%- if image != blank -%}
@@ -30,13 +38,17 @@
 
   <div class="t4s-hero-irl__content t4s-container">
     {%- if se.eyebrow != blank -%}
-      <p class="t4s-hero-irl__eyebrow">— {{ se.eyebrow | escape }}</p>
+      <p class="t4s-hero-irl__eyebrow roti-color-1">— {{ se.eyebrow | escape }}</p>
     {%- endif -%}
 
     {%- if se.heading_accent != blank or se.heading_main != blank -%}
       <h1 class="t4s-hero-irl__heading">
-        {%- if se.heading_accent != blank -%}<span class="t4s-hero-irl__heading-accent">{{ se.heading_accent | escape }}</span>{%- endif -%}
-        {%- if se.heading_main != blank -%}<span class="t4s-hero-irl__heading-main">{{ se.heading_main | escape }}</span>{%- endif -%}
+        {%- if se.heading_accent != blank -%}
+          <span class="t4s-hero-irl__heading-accent">{{ se.heading_accent | escape }}</span>
+        {%- endif -%}
+        {%- if se.heading_main != blank -%}
+          <span class="t4s-hero-irl__heading-main">{{ se.heading_main | escape }}</span>
+        {%- endif -%}
       </h1>
     {%- endif -%}
 
@@ -51,12 +63,38 @@
     {%- if se.button_1_label != blank or se.button_2_label != blank -%}
       <div class="t4s-hero-irl__buttons">
         {%- if se.button_1_label != blank -%}
-          <a{% if se.button_1_link != blank %} href="{{ se.button_1_link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="t4s-btn t4s-btn-base t4s-btn-size-large t4s-btn-color-primary t4s-hero-irl__btn">{{ se.button_1_label | escape }}</a>
+          <a
+            {% if se.button_1_link != blank %}
+              href="{{ se.button_1_link }}"
+            {% else %}
+              role="link" aria-disabled="true"
+            {% endif %}
+            class="t4s-btn t4s-btn-base t4s-btn-size-large t4s-btn-color-primary t4s-hero-irl__btn btn-slanted"
+          >
+            {{- se.button_1_label | escape -}}
+          </a>
         {%- endif -%}
         {%- if se.button_2_label != blank -%}
-          <a{% if se.button_2_link != blank %} href="{{ se.button_2_link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="t4s-btn t4s-btn-style-link t4s-btn-color-light t4s-btn-size-large t4s-hero-irl__btn t4s-hero-irl__btn--link">
+          <a
+            {% if se.button_2_link != blank %}
+              href="{{ se.button_2_link }}"
+            {% else %}
+              role="link" aria-disabled="true"
+            {% endif %}
+            class="t4s-btn t4s-btn-base t4s-btn-color-light t4s-btn-size-large t4s-hero-irl__btn t4s-hero-irl__btn--link btn-slanted btn-outlined"
+          >
             {{ se.button_2_label | escape }}
-            <svg class="t4s-hero-irl__btn-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M6 1v10M1.5 7L6 11.5 10.5 7" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+            <svg
+              class="t4s-hero-irl__btn-arrow"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M6 1v10M1.5 7L6 11.5 10.5 7" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            </svg>
           </a>
         {%- endif -%}
       </div>
@@ -67,9 +105,21 @@
     <div class="t4s-hero-irl__ticker" style="--ticker-duration: {{ se.ticker_speed }}s;">
       <div class="t4s-hero-irl__ticker-track">
         {%- for i in (1..2) -%}
-          <div class="t4s-hero-irl__ticker-set" {% if forloop.first == false %}aria-hidden="true"{% endif %}>
+          <div
+            class="t4s-hero-irl__ticker-set"
+            {% if forloop.first == false %}
+              aria-hidden="true"
+            {% endif %}
+          >
             {%- for block in section.blocks -%}
-              <span class="t4s-hero-irl__ticker-item"{% if forloop.parentloop.first %} {{ block.shopify_attributes }}{% endif %}>{{ block.settings.text | escape }}</span>
+              <span
+                class="t4s-hero-irl__ticker-item"
+                {% if forloop.parentloop.first %}
+                  {{ block.shopify_attributes -}}
+                {% endif %}
+              >
+                {{- block.settings.text | escape -}}
+              </span>
               <span class="t4s-hero-irl__ticker-sep" aria-hidden="true">⚡</span>
             {%- endfor -%}
           </div>
