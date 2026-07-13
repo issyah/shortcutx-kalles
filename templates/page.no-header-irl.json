@@ -121,25 +121,25 @@
         "ticker_item_F78cBk": {
           "type": "ticker_item",
           "settings": {
-            "text": "Boxing with Fash — June 29"
+            "text": "Boxing with Fash — August 1, 2026"
           }
         },
         "ticker_item_LHpC7R": {
           "type": "ticker_item",
           "settings": {
-            "text": "Spartans × Shortcutx"
+            "text": "Shortcutx x Fash\"The Face\" x Spartans Boxing Club"
           }
         },
         "ticker_item_aTyU9p": {
           "type": "ticker_item",
           "settings": {
-            "text": "Max+ & Flat Tummy Shake included for public"
+            "text": "FREE Max+ Fat Burner"
           }
         },
         "ticker_item_fcEnTg": {
           "type": "ticker_item",
           "settings": {
-            "text": "Limited to 15 spots"
+            "text": "2 Sessions, 25 Spots Each"
           }
         }
       },
@@ -160,7 +160,7 @@
         "heading_accent": "In Real",
         "heading_main": "Life.",
         "subheading": "Shortcutx • Sport • Community",
-        "description": "<p>I.R.L is where your subscription becomes a lifestyle. Exclusive workshops, live events and sport collide — all designed to push you further. Members get access. Non-members get left behind.</p>",
+        "description": "<p>I.R.L is where Shortcutx becomes a lifestyle. Exclusive workshops, live events and sports collides. All designed to push you further. Exclusive invite.</p>",
         "button_1_label": "Become a Member",
         "button_1_link": "",
         "button_2_label": "Next Event",
@@ -178,19 +178,19 @@
         "badge_text": "Next Event",
         "heading_line_1_white": "Box",
         "heading_line_1_accent": "ing",
-        "heading_line_2": "With",
-        "heading_line_3": "Fash",
-        "date_line": "Sunday, 29 June 2026 · 10:00 AM – 12:00 PM",
+        "heading_line_2": "With Fash",
+        "heading_line_3": "",
+        "date_line": "Saturday, 1 August 2026 · Session 1: 9:30 AM – 10:30 PM · Session 2: 11:00AM – 12:00 PM",
         "event_name_line_1": "Spartans Boxing Club",
         "event_name_line_2": "× Shortcutx I.R.L",
         "host_value": "Efasha \"Fash\" Kamarudin",
-        "location_value": "Spartans Boxing Club",
-        "duration_value": "2 Hours",
-        "spots_value": "Limited — 15 Max",
+        "location_value": "Spartans Boxing Club @ Joo Chiat (Singapore 427625)",
+        "duration_value": "1.5 Hours",
+        "spots_value": "Limited — 25 Max",
         "member_price": "$15",
-        "member_note": "<p>You're already subscribed. This is your reward.</p>",
+        "member_note": "<p>You're already using Shortcutx. This is your reward.</p>",
         "public_price": "$90",
-        "public_note": "<p>Includes <strong>2 free products:</strong> MAX+ & Flat Tummy Shake</p>",
+        "public_note": "<p>Includes<strong> FREE MAX+ Fat Burner </strong>worth $68!</p>",
         "cta_label": "Secure Your Spot",
         "cta_link": ""
       }
@@ -300,7 +300,7 @@
         "eyebrow_text": "Limited Spots. Real Training.",
         "heading_line_1": "Don't Watch.",
         "heading_line_2": "Participate.",
-        "description": "<p>The June 29 boxing workshop is filling up. Members pay $15. Public pays $90. Both get an experience worth 10× that. Choose your side.</p>",
+        "description": "<p>The August 1, 2026 boxing workshop is filling up. Members pay $15. Public pays $90. Both get an experience worth 10× that. Choose your side.</p>",
         "button_1_label": "",
         "button_1_link": "",
         "button_2_label": "",
