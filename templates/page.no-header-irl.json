@@ -161,9 +161,9 @@
         "heading_main": "Life.",
         "subheading": "Shortcutx • Sport • Community",
         "description": "<p>I.R.L is where Shortcutx becomes a lifestyle. Exclusive workshops, live events and sports collides. All designed to push you further. Exclusive invite.</p>",
-        "button_1_label": "Become a Member",
+        "button_1_label": "Register for Boxing with Fash",
         "button_1_link": "",
-        "button_2_label": "Next Event",
+        "button_2_label": "See What's New",
         "button_2_link": "",
         "show_ticker": true,
         "ticker_speed": 25
@@ -270,8 +270,8 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "accor_des": "1",
-        "title_cl": "#FFFFFF",
-        "bg_title_cl": "#BF1932",
+        "title_cl": "#ffffff",
+        "bg_title_cl": "#bf1932",
         "title_active_cl": "#000",
         "bg_title_active_cl": "#f6f6f8",
         "content_cl": "#878787",
@@ -403,8 +403,8 @@
             "form_alignment": "center",
             "padding_top": 0,
             "padding_bottom": 30,
-            "padding_right": 40,
-            "padding_left": 40
+            "padding_right": 20,
+            "padding_left": 20
           }
         }
       },
