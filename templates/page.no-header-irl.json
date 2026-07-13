@@ -273,7 +273,7 @@
         "accor_item_3Bd96X"
       ],
       "custom_css": [
-        "h3 {text-transform: uppercase; font-size: clamp(36px, 5vw, 56px); color: #fff;}"
+        "h3 {text-transform: uppercase; font-size: clamp(36px, 5vw, 56px); color: #fff; line-height:1.2;}"
       ],
       "name": "Accordion",
       "settings": {
@@ -284,12 +284,12 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "accor_des": "2",
-        "title_cl": "#FFFFFF",
+        "title_cl": "#ffffff",
         "bg_title_cl": "#bf1932",
-        "title_active_cl": "#FFFFFF",
-        "bg_title_active_cl": "#A6263B",
-        "content_cl": "#FFFFFF",
-        "bg_content_cl": "#A6263B",
+        "title_active_cl": "#ffffff",
+        "bg_title_active_cl": "#a6263b",
+        "content_cl": "#ffffff",
+        "bg_content_cl": "#a6263b",
         "content_align": "t4s-text-start",
         "auto_active": true,
         "layout": "t4s-container-wrap",
