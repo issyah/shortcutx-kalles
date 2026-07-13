@@ -249,7 +249,7 @@
       "name": "Accordion",
       "settings": {
         "design_heading": "1",
-        "heading_align": "t4s-text-center",
+        "heading_align": "t4s-text-start",
         "top_heading": "What You Can Expect",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -267,14 +267,14 @@
         "custom_width": 1000,
         "cl_bg": "#141414",
         "cl_bg_gradient": "",
-        "mg": "0",
+        "mg": "",
         "pd": "50px, 40px, 50px, 40px",
         "mg_tb": "",
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": "",
         "use_cus_css": true,
-        "code_cus_css": "h3 { color:#fff !important;; text-transform:uppercase;font-size:4em !important;}"
+        "code_cus_css": ""
       }
     },
     "sports_lineup_irl_PP77Pj": {
