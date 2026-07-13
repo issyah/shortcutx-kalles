@@ -103,7 +103,7 @@
         "logo": "shopify://shop_images/irl_logo.png",
         "logo_width": 140,
         "menu": "in-real-life-main-menu",
-        "cta_label": "Join Now",
+        "cta_label": "Register Now",
         "cta_link": "",
         "background_color": "#000000",
         "text_color": "#ffffff"
@@ -169,6 +169,21 @@
         "ticker_speed": 25
       }
     },
+    "cta_irl_7cWbmG": {
+      "type": "cta-irl",
+      "name": "CTA IRL",
+      "settings": {
+        "background_color": "#bf1932",
+        "eyebrow_text": "From the screen to the streets, this is Shortcutx, In Real Life.",
+        "heading_line_1": "Momentum, MULTIPLIED.",
+        "heading_line_2": "",
+        "description": "<p>They say a shortcut is about finding an easy way out. But maybe the real shortcut is the people you move with. It's the community that pulls you forward, the crew that makes hard days lighter and every win bigger. One step becomes a collective stride.</p><p>That's what Shortcutx IRL is built for: taking the community offline. A full calendar of meetups, workshops, socials, and experiences designed to turn the people you follow into the people you know. Come move with us.</p>",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_2_label": "",
+        "button_2_link": ""
+      }
+    },
     "next_up_irl_4iAXrz": {
       "type": "next-up-irl",
       "name": "Next Up IRL",
@@ -188,27 +203,12 @@
         "location_value": "Spartans Boxing Club @ Joo Chiat (Singapore 427625)",
         "duration_value": "1.5 Hours",
         "spots_value": "Limited! 25 Max per Session",
-        "member_price": "$15",
+        "member_price": "$29",
         "member_note": "<p>You're already using Shortcutx. This is your reward.</p>",
         "public_price": "$59",
         "public_note": "<p>You're new to Shortcutx and looking to kickstart your weight loss journey.</p>",
         "cta_label": "Secure Your Spot",
         "cta_link": ""
-      }
-    },
-    "cta_irl_7cWbmG": {
-      "type": "cta-irl",
-      "name": "CTA IRL",
-      "settings": {
-        "background_color": "#bf1932",
-        "eyebrow_text": "Limited Spots. Real Training.",
-        "heading_line_1": "Don't Watch.",
-        "heading_line_2": "Participate.",
-        "description": "<p>The August 1, 2026 boxing workshop is filling up. Current Shortcutx users pay $15. New to Shortcutx participants pays $59. Both get an experience worth 10× that. Choose your side.</p>",
-        "button_1_label": "",
-        "button_1_link": "",
-        "button_2_label": "",
-        "button_2_link": ""
       }
     },
     "custom_liquid_3fEngD": {
