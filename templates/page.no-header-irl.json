@@ -388,8 +388,8 @@
             "form_alignment": "center",
             "padding_top": 0,
             "padding_bottom": 30,
-            "padding_right": 0,
-            "padding_left": 0
+            "padding_right": 40,
+            "padding_left": 40
           }
         }
       },
