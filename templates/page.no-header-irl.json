@@ -261,6 +261,9 @@
         "accor_item_3bPeMr",
         "accor_item_3Bd96X"
       ],
+      "custom_css": [
+        "h3 {color:#ffffff; }"
+      ],
       "name": "Accordion",
       "settings": {
         "design_heading": "1",
