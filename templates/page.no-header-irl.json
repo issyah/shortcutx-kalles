@@ -175,6 +175,7 @@
       "settings": {
         "background_color": "#141414",
         "eyebrow_text": "Next Up",
+        "panel_image": "shopify://shop_images/Bio_-_Fash_Harrison.webp",
         "badge_text": "Next Event",
         "heading_line_1_white": "Box",
         "heading_line_1_accent": "ing",
@@ -210,6 +211,70 @@
         "pd_tb": "",
         "mg_mb": "",
         "pd_mb": ""
+      }
+    },
+    "accordion_Dx49Na": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_JiFEKc": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "TECHNIQUE: DOMINATE THE RING",
+            "content": "<p>Stop just throwing punches! Start landing them with lethal precision. This is where you master the slick footwork, flawless head movement, and elite mechanics that turn raw effort into effortless, crisp power. Your form is your ultimate weapon.</p>"
+          }
+        },
+        "accor_item_3bPeMr": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "STRENGTH & CONDITIONING: BUILD THE ENGINE",
+            "content": "<p>An explosive, high-octane circuit engineered to unlock your inner athlete. Packed with intense plyometrics and rotational core work, this section pushes your stamina to the absolute limit, torching calories and building the raw, functional power you need to outlast anyone.</p><p></p>"
+          }
+        },
+        "accor_item_3Bd96X": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "BAG & PAD WORK: UNLEASH THE POWER",
+            "content": "<p>The ultimate high-energy climax. Step up to the heavy bags and focus mitts to let loose with explosive combinations and adrenaline-pumping burnout intervals. It’s loud, it's fast, and it's designed to leave you feeling completely unstoppable.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_JiFEKc",
+        "accor_item_3bPeMr",
+        "accor_item_3Bd96X"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "What You Can Expect",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#FFFFFF",
+        "bg_title_cl": "#BF1932",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "auto_active": true,
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "#141414",
+        "cl_bg_gradient": "",
+        "mg": "0",
+        "pd": "50px, 40px, 50px, 40px",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": "h3 { color:#fff !important;; text-transform:uppercase;font-size:4em !important;}"
       }
     },
     "sports_lineup_irl_PP77Pj": {
@@ -345,6 +410,7 @@
     "hero_irl_cxLtjG",
     "next_up_irl_4iAXrz",
     "custom_liquid_3fEngD",
+    "accordion_Dx49Na",
     "sports_lineup_irl_PP77Pj",
     "cta_irl_HFCaeK",
     "17835669606320580b"
