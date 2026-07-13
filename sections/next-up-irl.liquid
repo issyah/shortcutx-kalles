@@ -3,8 +3,9 @@
 {%- liquid
   assign se = section.settings
   assign panel_image = se.panel_image
+  assign anchor_id = se.anchor_id | default: section.id | handleize
 -%}
-<div class="t4s-next-up" style="--section-bg: {{ se.background_color }};">
+<div id="{{ anchor_id }}" class="t4s-next-up" style="--section-bg: {{ se.background_color }};">
   {%- if se.eyebrow_text != blank -%}
     <p class="t4s-next-up__eyebrow">
       <span class="t4s-next-up__eyebrow-line"></span>
@@ -39,7 +40,10 @@
 
       <h2 class="t4s-next-up__title">
         {%- if se.heading_line_1_white != blank or se.heading_line_1_accent != blank -%}
-          <span class="t4s-next-up__title-line">{{- se.heading_line_1_white | escape -}}<span class="t4s-next-up__title-accent">{{- se.heading_line_1_accent | escape -}}</span></span>
+          <span class="t4s-next-up__title-line">
+            {{- se.heading_line_1_white | escape -}}
+            <span class="t4s-next-up__title-accent">{{- se.heading_line_1_accent | escape -}}</span></span
+          >
         {%- endif -%}
         {%- if se.heading_line_2 != blank -%}
           <span class="t4s-next-up__title-line">{{ se.heading_line_2 | escape }}</span>
@@ -50,14 +54,17 @@
       </h2>
 
       {%- if se.date_line != blank -%}
-        <p class="t4s-next-up__date">{{ se.date_line | escape }}</p>
+        <p class="t4s-next-up__date">{{ se.date_line }}</p>
       {%- endif -%}
     </div>
 
     <div class="t4s-next-up__details">
       {%- if se.event_name_line_1 != blank or se.event_name_line_2 != blank -%}
         <h3 class="t4s-next-up__heading">
-          {%- if se.event_name_line_1 != blank -%}{{ se.event_name_line_1 | escape }}<br>{%- endif -%}
+          {%- if se.event_name_line_1 != blank -%}
+            {{ se.event_name_line_1 | escape -}}
+            <br>
+          {%- endif -%}
           {%- if se.event_name_line_2 != blank -%}{{ se.event_name_line_2 | escape }}{%- endif -%}
         </h3>
       {%- endif -%}
@@ -118,6 +125,12 @@
   "class": "t4s-section t4s-section-all",
   "settings": [
     {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets nav menu links jump to this section, e.g. \"next-up\" links to #next-up. Leave blank to use the section's default ID."
+    },
+    {
       "type": "color",
       "id": "background_color",
       "label": "Section background color",
@@ -170,7 +183,7 @@
       "default": "Fash"
     },
     {
-      "type": "text",
+      "type": "html",
       "id": "date_line",
       "label": "Date / time line",
       "default": "Sunday, 29 June 2026 · 10:00 AM – 12:00 PM"

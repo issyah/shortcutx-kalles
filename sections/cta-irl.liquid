@@ -3,8 +3,9 @@
 {{ 'button-style.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign se = section.settings
+  assign anchor_id = se.anchor_id | default: section.id | handleize
 -%}
-<div class="t4s-cta-irl" style="--section-bg: {{ se.background_color }};padding-bottom:8px;">
+<div id="{{ anchor_id }}" class="t4s-cta-irl" style="--section-bg: {{ se.background_color }};padding-bottom:8px;">
   <div class="t4s-cta-irl__inner">
     {%- if se.eyebrow_text != blank -%}
       <p class="t4s-cta-irl__eyebrow">{{ se.eyebrow_text | escape }}</p>
@@ -65,6 +66,12 @@
   "class": "t4s-section t4s-section-all",
   "settings": [
     {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets nav menu links jump to this section, e.g. \"join\" links to #join. Leave blank to use the section's default ID."
+    },
+    {
       "type": "color",
       "id": "background_color",
       "label": "Background color",
@@ -93,7 +100,7 @@
       "default": "Participate."
     },
     {
-      "type": "richtext",
+      "type": "html",
       "id": "description",
       "label": "Description",
       "default": "<p>The June 29 boxing workshop is filling up. Members pay $15. Public pays $90. Both get an experience worth 10× that. Choose your side.</p>"

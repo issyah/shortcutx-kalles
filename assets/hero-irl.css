@@ -21,6 +21,42 @@
   object-position: center;
 }
 
+.t4s-hero-irl--video {
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+}
+
+.t4s-hero-irl__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.t4s-hero-irl__video--mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .t4s-hero-irl--video {
+    aspect-ratio: 9 / 16;
+  }
+
+  .t4s-hero-irl__video--desktop {
+    display: none;
+  }
+
+  .t4s-hero-irl__video--mobile {
+    display: block;
+  }
+
+  .t4s-hero-irl__video--always {
+    display: block;
+  }
+}
+
 .t4s-hero-irl__overlay {
   position: absolute;
   inset: 0;
@@ -45,7 +81,7 @@
 
 .t4s-hero-irl__heading {
   margin: 0 0 16px;
-  font-size: clamp(42px, 8vw, 96px);
+  font-size: clamp(64px, 8vw, 96px);
   font-weight: 800;
   line-height: 0.95;
   text-transform: uppercase;

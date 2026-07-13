@@ -5,10 +5,10 @@
   assign se = section.settings
   assign logo_image = se.logo | default: settings.logo
   assign menu = linklists[se.menu]
-  assign sid = section.id
+  assign anchor_id = se.anchor_id | default: section.id | handleize
 -%}
 <header
-  id="t4s-nav-irl-{{ sid }}"
+  id="{{ anchor_id }}"
   class="t4s-nav-irl"
   style="--nav-bg: {{ se.background_color }}; --nav-color: {{ se.text_color }};"
 >
@@ -31,7 +31,7 @@
       </a>
     </div>
 
-    <nav class="t4s-nav-irl__menu" id="t4s-nav-irl-menu-{{ sid }}" aria-hidden="true">
+    <nav class="t4s-nav-irl__menu" id="{{ anchor_id }}-menu" aria-hidden="true">
       {%- if menu != blank -%}
         <ul class="t4s-nav-irl__menu-list">
           {%- for link in menu.links -%}
@@ -65,7 +65,7 @@
         class="t4s-nav-irl__toggle"
         data-nav-irl-toggle
         aria-expanded="false"
-        aria-controls="t4s-nav-irl-menu-{{ sid }}"
+        aria-controls="{{ anchor_id }}-menu"
         aria-label="Toggle menu"
       >
         <span class="t4s-nav-irl__toggle-bar"></span>
@@ -78,7 +78,7 @@
 
 <script>
   (function () {
-    var root = document.getElementById('t4s-nav-irl-{{ sid }}');
+    var root = document.getElementById('{{ anchor_id }}');
     if (!root) return;
     var toggle = root.querySelector('[data-nav-irl-toggle]');
     var menu = root.querySelector('.t4s-nav-irl__menu');
@@ -97,6 +97,12 @@
   "tag": "section",
   "class": "t4s-section t4s-section-all",
   "settings": [
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other nav links jump to this section, e.g. \"nav\" links to #nav. Leave blank to use the section's default ID."
+    },
     {
       "type": "header",
       "content": "Logo"

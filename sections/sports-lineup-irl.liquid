@@ -2,8 +2,9 @@
 {{ 'sports-lineup-irl.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign se = section.settings
+  assign anchor_id = se.anchor_id | default: section.id | handleize
 -%}
-<div class="t4s-sports" style="--section-bg: {{ se.background_color }};">
+<div id="{{ anchor_id }}" class="t4s-sports" style="--section-bg: {{ se.background_color }};">
   {%- if se.eyebrow_text != blank -%}
     <p class="t4s-sports__eyebrow roti-color-1">
       <span class="t4s-sports__eyebrow-line"></span>
@@ -54,6 +55,12 @@
   "tag": "section",
   "class": "t4s-section t4s-section-all",
   "settings": [
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets nav menu links jump to this section, e.g. \"sports\" links to #sports. Leave blank to use the section's default ID."
+    },
     {
       "type": "color",
       "id": "background_color",

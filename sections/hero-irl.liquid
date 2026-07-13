@@ -4,8 +4,19 @@
 {%- liquid
   assign se = section.settings
   assign image = se.image
+  assign video_desktop = se.video_desktop
+  assign video_mobile = se.video_mobile
   assign overlay_opacity = se.overlay_opacity | divided_by: 100.0
   assign overlay_color = se.overlay_color | color_modify: 'alpha', overlay_opacity
+  assign has_any_video = false
+  if video_desktop != blank or video_mobile != blank
+    assign has_any_video = true
+  endif
+  assign use_video = false
+  if image == blank and has_any_video
+    assign use_video = true
+  endif
+  assign anchor_id = se.anchor_id | default: section.id | handleize
 -%}
 
 <style>
@@ -15,7 +26,7 @@
     }
   }
 </style>
-<div class="t4s-hero-irl" style="--hero-overlay: {{ overlay_color }}; --hero-min-height: {{ se.min_height }}px;">
+<div id="{{ anchor_id }}" class="t4s-hero-irl{% if use_video %} t4s-hero-irl--video{% endif %}" style="--hero-overlay: {{ overlay_color }}; --hero-min-height: {{ se.min_height }}px;">
   <div class="t4s-hero-irl__media">
     {%- if image != blank -%}
       <img
@@ -30,6 +41,31 @@
         alt="{{ image.alt | escape }}"
       >
       <span class="lazyloadt4s-loader"></span>
+    {%- elsif use_video -%}
+      {%- if video_desktop != blank and video_mobile != blank -%}
+        <video class="t4s-hero-irl__video t4s-hero-irl__video--desktop" autoplay muted loop playsinline preload="metadata" poster="{{ video_desktop.preview_image | image_url: width: 1600 }}">
+          {%- for source in video_desktop.sources -%}
+            <source src="{{ source.url }}" type="{{ source.mime_type }}">
+          {%- endfor -%}
+        </video>
+        <video class="t4s-hero-irl__video t4s-hero-irl__video--mobile" autoplay muted loop playsinline preload="metadata" poster="{{ video_mobile.preview_image | image_url: width: 800 }}">
+          {%- for source in video_mobile.sources -%}
+            <source src="{{ source.url }}" type="{{ source.mime_type }}">
+          {%- endfor -%}
+        </video>
+      {%- elsif video_desktop != blank -%}
+        <video class="t4s-hero-irl__video t4s-hero-irl__video--always" autoplay muted loop playsinline preload="metadata" poster="{{ video_desktop.preview_image | image_url: width: 1600 }}">
+          {%- for source in video_desktop.sources -%}
+            <source src="{{ source.url }}" type="{{ source.mime_type }}">
+          {%- endfor -%}
+        </video>
+      {%- else -%}
+        <video class="t4s-hero-irl__video t4s-hero-irl__video--always" autoplay muted loop playsinline preload="metadata" poster="{{ video_mobile.preview_image | image_url: width: 800 }}">
+          {%- for source in video_mobile.sources -%}
+            <source src="{{ source.url }}" type="{{ source.mime_type }}">
+          {%- endfor -%}
+        </video>
+      {%- endif -%}
     {%- else -%}
       {{ 'lifestyle-1' | placeholder_svg_tag: 't4s-placeholder-svg t4s-hero-irl__placeholder' }}
     {%- endif -%}
@@ -136,14 +172,38 @@
   "class": "t4s-section t4s-section-all",
   "settings": [
     {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets nav menu links jump to this section, e.g. \"home\" links to #home. Leave blank to use the section's default ID."
+    },
+    {
       "type": "image_picker",
       "id": "image",
       "label": "Background image"
     },
     {
+      "type": "header",
+      "content": "Background video",
+      "info": "Used only when no background image is set above"
+    },
+    {
+      "type": "video",
+      "id": "video_desktop",
+      "label": "Background video — desktop",
+      "info": "16:9 recommended"
+    },
+    {
+      "type": "video",
+      "id": "video_mobile",
+      "label": "Background video — mobile",
+      "info": "9:16 recommended"
+    },
+    {
       "type": "range",
       "id": "min_height",
       "label": "Minimum height",
+      "info": "Only applies when a background image is set. Background video uses a fixed 16:9 (desktop) / 9:16 (mobile) aspect ratio instead.",
       "min": 400,
       "max": 900,
       "step": 20,
