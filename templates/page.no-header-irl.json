@@ -115,13 +115,19 @@
         "ticker_item_XkekkK": {
           "type": "ticker_item",
           "settings": {
-            "text": "Members pay $15"
+            "text": "$29 for Shortcutx Customers"
+          }
+        },
+        "ticker_item_V6jQfw": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "$59 for New to Shortcutx"
           }
         },
         "ticker_item_F78cBk": {
           "type": "ticker_item",
           "settings": {
-            "text": "Boxing with Fash — August 1, 2026"
+            "text": "Boxing with Fash \"The Face\". August 1, 2026"
           }
         },
         "ticker_item_LHpC7R": {
@@ -133,18 +139,19 @@
         "ticker_item_aTyU9p": {
           "type": "ticker_item",
           "settings": {
-            "text": "FREE Max+ Fat Burner"
+            "text": "Get 10% Off Max+ Fat Burner"
           }
         },
         "ticker_item_fcEnTg": {
           "type": "ticker_item",
           "settings": {
-            "text": "2 Sessions, 25 Spots Each"
+            "text": "2 Sessions, Limited Spots"
           }
         }
       },
       "block_order": [
         "ticker_item_XkekkK",
+        "ticker_item_V6jQfw",
         "ticker_item_F78cBk",
         "ticker_item_LHpC7R",
         "ticker_item_aTyU9p",
