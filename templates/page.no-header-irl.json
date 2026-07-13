@@ -262,7 +262,7 @@
         "accor_item_3Bd96X"
       ],
       "custom_css": [
-        "h3 {color:#ffffff; }"
+        "h3 {color: #ffffff;}"
       ],
       "name": "Accordion",
       "settings": {
@@ -304,8 +304,8 @@
             "icon": "🥊",
             "name": "Boxing",
             "is_live": true,
-            "status_text": "Live Now",
-            "products_text": "MAX+ · Flat Tummy Shake"
+            "status_text": "Registration Now Open",
+            "products_text": "Featuring Fash \"The Face\""
           }
         },
         "sport_item_RdVxEN": {
