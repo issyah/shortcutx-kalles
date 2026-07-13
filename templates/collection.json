@@ -55,6 +55,7 @@
         },
         "image_parent_Jgid7t": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/NHC_Banner-03.webp",
             "image_mb": "shopify://shop_images/NHC_Banner-04.webp",
