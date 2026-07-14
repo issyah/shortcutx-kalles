@@ -161,7 +161,7 @@
       "name": "Hero IRL",
       "settings": {
         "anchor_id": "",
-        "image": "shopify://shop_images/hero-banner-irl_bad7f66d-6a9c-4466-9932-591e53eafcd5.jpg",
+        "video_desktop": "shopify://files/videos/Fash IRL 16x9.mov",
         "min_height": 640,
         "overlay_color": "#000000",
         "overlay_opacity": 35,
