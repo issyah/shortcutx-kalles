@@ -273,7 +273,7 @@
         "accor_item_3Bd96X"
       ],
       "custom_css": [
-        "h3 {text-transform: uppercase; font-size: clamp(36px, 5vw, 56px); color: #fff; line-height:1.2;}"
+        "h3 {text-transform: uppercase; font-size: clamp(36px, 5vw, 56px); color: #fff; line-height: 1.2;}"
       ],
       "name": "Accordion",
       "settings": {
@@ -326,7 +326,7 @@
             "name": "Muay Thai",
             "is_live": false,
             "status_text": "Coming Soon",
-            "products_text": "Products TBA"
+            "products_text": "Guest Trainer TBA"
           }
         },
         "sport_item_Q3fAKc": {
@@ -336,7 +336,7 @@
             "name": "Football",
             "is_live": false,
             "status_text": "Coming Soon",
-            "products_text": "Products TBA"
+            "products_text": "Guest Trainer TBA"
           }
         },
         "sport_item_yXeL4j": {
@@ -346,7 +346,7 @@
             "name": "Running",
             "is_live": false,
             "status_text": "Coming Soon",
-            "products_text": "Products TBA"
+            "products_text": "Guest Trainer TBA"
           }
         },
         "sport_item_FTM4mR": {
@@ -356,7 +356,7 @@
             "name": "Weightlifting",
             "is_live": false,
             "status_text": "Coming Soon",
-            "products_text": "Products TBA"
+            "products_text": "Guest Trainer TBA"
           }
         },
         "sport_item_UbF3Yh": {
@@ -366,7 +366,7 @@
             "name": "Recovery",
             "is_live": false,
             "status_text": "Coming Soon",
-            "products_text": "Products TBA"
+            "products_text": "Guest Trainer TBA"
           }
         }
       },
@@ -396,7 +396,7 @@
         "eyebrow_text": "Limited Spots. Real Training.",
         "heading_line_1": "Don't Watch.",
         "heading_line_2": "Participate.",
-        "description": "<p>The August 1, 2026 boxing workshop is filling up. Current Shortcutx users pay $15. New to Shortcutx participants pays $59. Both get an experience worth 10× that. Choose your side.</p>",
+        "description": "<p>The August 1, 2026 boxing workshop is filling up. Current Shortcutx users pay $29. New to Shortcutx participants pays $59. Both get an experience worth 10× that. Choose your side.</p>",
         "button_1_label": "",
         "button_1_link": "",
         "button_2_label": "",
