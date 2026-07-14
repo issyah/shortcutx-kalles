@@ -1846,6 +1846,7 @@
         "bl_heading_a8hAUX",
         "bl_subheading_qXDEPN"
       ],
+      "disabled": true,
       "settings": {
         "anchor_id": "",
         "design_heading": "10",
@@ -1868,6 +1869,7 @@
       "blocks": {
         "socialwidget_instafeed_base_widget_YViamC": {
           "type": "shopify://apps/socialwidget-instafeed/blocks/base-widget/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
+          "disabled": true,
           "settings": {}
         }
       },

@@ -355,7 +355,7 @@
         "settings": {
           "sticky": false,
           "collapse": true,
-          "border_top": false,
+          "border_top": true,
           "border_pos": "in",
           "space_h_item": "30",
           "space_v_item": "30",
@@ -376,7 +376,7 @@
           "link_hover_cl": "#bf1932",
           "border_cl": "#e6e6e6",
           "layout": "t4s-container-wrap",
-          "cl_bg": "#f6f6f8",
+          "cl_bg": "#F8F3F3",
           "cl_bg_gradient": "",
           "mg": "",
           "pd": "75px,,75px,",
