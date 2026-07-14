@@ -414,7 +414,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "link": "https://shortcutx.co/collections/bundles",
+              "link": "shopify://collections/all",
               "content": "<p>🇸🇬 SG's #1 Supplement [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
@@ -424,8 +424,8 @@
           "announcement_wqa474": {
             "type": "announcement",
             "settings": {
-              "link": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
-              "content": "<p>🚚 Free Shipping S$100+ (with GST) [icon_arrow]</p>",
+              "link": "shopify://collections/all",
+              "content": "<p>🚚 Free Shipping Above RM300 [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
@@ -433,9 +433,10 @@
           },
           "announcement_B8p7tt": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
-              "content": "<p><strong>Subscribe & Save</strong> 15% [icon_arrow]</p>",
+              "content": "<p><strong>Subscribe & Save 15%</strong> [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
