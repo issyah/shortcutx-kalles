@@ -415,7 +415,7 @@
             "type": "announcement",
             "settings": {
               "link": "shopify://collections/all",
-              "content": "<p>🇸🇬 SG's #1 Supplement [icon_arrow]</p>",
+              "content": "<p>SG's #1 Supplement <strong>Now Available in MY </strong>[icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
