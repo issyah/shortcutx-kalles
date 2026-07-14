@@ -53,6 +53,7 @@
         },
         "image_parent_Jgid7t": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "{{ collection.image }}",
             "image_position": "8",
@@ -92,6 +93,7 @@
         },
         "image_parent_ctJWg4": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image_position": "8",
             "cl_img": "",
