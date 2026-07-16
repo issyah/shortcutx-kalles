@@ -1,7 +1,7 @@
 .t4s-cta-irl {
   position: relative;
   overflow: hidden;
-  padding: 80px 20px;
+  padding: 40px 20px;
   text-align: center;
   background: var(--section-bg, #bf1932);
 }
