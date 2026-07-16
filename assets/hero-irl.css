@@ -23,7 +23,8 @@
 
 .t4s-hero-irl--video {
   min-height: 0;
-  aspect-ratio: 16 / 9;
+  /* aspect-ratio: 16 / 9; */
+  aspect-ratio: 4 / 3;
 }
 
 .t4s-hero-irl__video {
