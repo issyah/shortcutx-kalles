@@ -105,7 +105,7 @@
         "logo_width": 140,
         "menu": "in-real-life-main-menu",
         "cta_label": "Register Now",
-        "cta_link": "#ARENEeW1PZ3B6TEUxV__forms_inline_6DnU4z",
+        "cta_link": "#register",
         "background_color": "#000000",
         "text_color": "#ffffff"
       }
@@ -220,7 +220,7 @@
         "public_price": "$43.50",
         "public_note": "<p>Entry to the IRL event for 2 person.</p>",
         "cta_label": "Secure Your Spot",
-        "cta_link": "#ARENEeW1PZ3B6TEUxV__forms_inline_6DnU4z"
+        "cta_link": "#register"
       }
     },
     "custom_liquid_3fEngD": {
@@ -392,7 +392,7 @@
       "type": "cta-irl",
       "name": "CTA IRL",
       "settings": {
-        "anchor_id": "",
+        "anchor_id": "#register",
         "background_color": "#bf1932",
         "eyebrow_text": "Limited Spots. Real Training.",
         "heading_line_1": "Don't Watch.",
