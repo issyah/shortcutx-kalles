@@ -397,7 +397,7 @@
         "eyebrow_text": "Limited Spots. Real Training.",
         "heading_line_1": "Don't Watch.",
         "heading_line_2": "Participate.",
-        "description": "<p>The August 1, 2026 boxing workshop is filling up. Current Shortcutx users pay $29. New to Shortcutx participants pays $59. Both get an experience worth 10× that. Choose your side.</p>",
+        "description": "<p>The August 15, 2026 boxing workshop is filling up.<br>\nEntry is $29 for 1 pax, $43.50 for 2 pax.\n<br><br>\nGet an experience worth 10× that.</p>",
         "button_1_label": "",
         "button_1_link": "",
         "button_2_label": "",
@@ -419,7 +419,7 @@
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
-            "padding_bottom": 30,
+            "padding_bottom": 60,
             "padding_right": 20,
             "padding_left": 20
           }
