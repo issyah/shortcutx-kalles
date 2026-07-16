@@ -122,13 +122,13 @@
         "ticker_item_V6jQfw": {
           "type": "ticker_item",
           "settings": {
-            "text": "$59 for New to Shortcutx"
+            "text": "Bring a friend for 50% Off"
           }
         },
         "ticker_item_F78cBk": {
           "type": "ticker_item",
           "settings": {
-            "text": "Boxing with Fash \"The Face\". August 1, 2026"
+            "text": "Boxing with Fash \"The Face\". August 15, 2026"
           }
         },
         "ticker_item_LHpC7R": {
@@ -202,13 +202,13 @@
         "anchor_id": "upcoming",
         "background_color": "#141414",
         "eyebrow_text": "Next Up",
-        "panel_image": "shopify://shop_images/Bio_-_Fash_Harrison.webp",
+        "panel_image": "shopify://shop_images/MYR07842_1.jpg",
         "badge_text": "Next Event",
         "heading_line_1_white": "Box",
         "heading_line_1_accent": "ing",
         "heading_line_2": "With Fash",
         "heading_line_3": "",
-        "date_line": "Saturday, 15 August 2026 <br>\n9:30 AM – 11:00AM",
+        "date_line": "WBC Female Asia Continental 108lb Champion\n<br><br>\nSaturday, 15 August 2026 <br>\n9:30 AM – 11:00AM",
         "event_name_line_1": "Spartans Boxing Club",
         "event_name_line_2": "× Shortcutx I.R.L",
         "host_value": "Efasha \"Fash The Face\" Kamarudin",
