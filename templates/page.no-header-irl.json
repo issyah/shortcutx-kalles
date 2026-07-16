@@ -320,6 +320,26 @@
             "products_text": "Featuring Fash \"The Face\""
           }
         },
+        "sport_item_Q3fAKc": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "⚽",
+            "name": "Futsal",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Guest Trainer TBA"
+          }
+        },
+        "sport_item_FTM4mR": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🧘🏻‍♀️",
+            "name": "Pilates",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Guest Trainer TBA"
+          }
+        },
         "sport_item_RdVxEN": {
           "type": "sport_item",
           "settings": {
@@ -330,31 +350,11 @@
             "products_text": "Guest Trainer TBA"
           }
         },
-        "sport_item_Q3fAKc": {
-          "type": "sport_item",
-          "settings": {
-            "icon": "⚽",
-            "name": "Football",
-            "is_live": false,
-            "status_text": "Coming Soon",
-            "products_text": "Guest Trainer TBA"
-          }
-        },
         "sport_item_yXeL4j": {
           "type": "sport_item",
           "settings": {
             "icon": "🏃",
             "name": "Running",
-            "is_live": false,
-            "status_text": "Coming Soon",
-            "products_text": "Guest Trainer TBA"
-          }
-        },
-        "sport_item_FTM4mR": {
-          "type": "sport_item",
-          "settings": {
-            "icon": "🏋️",
-            "name": "Weightlifting",
             "is_live": false,
             "status_text": "Coming Soon",
             "products_text": "Guest Trainer TBA"
@@ -373,10 +373,10 @@
       },
       "block_order": [
         "sport_item_Cn9yx9",
-        "sport_item_RdVxEN",
         "sport_item_Q3fAKc",
-        "sport_item_yXeL4j",
         "sport_item_FTM4mR",
+        "sport_item_RdVxEN",
+        "sport_item_yXeL4j",
         "sport_item_UbF3Yh"
       ],
       "name": "Sports Lineup IRL",
