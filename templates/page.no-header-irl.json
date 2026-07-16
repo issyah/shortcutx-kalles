@@ -419,14 +419,24 @@
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
-            "padding_bottom": 60,
+            "padding_bottom": 64,
             "padding_right": 20,
             "padding_left": 20
+          }
+        },
+        "mega_block_spacer_spacer_BfQNtN": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 60,
+            "block_height_mobile": 60,
+            "background_color": "",
+            "is_full_width": false
           }
         }
       },
       "block_order": [
-        "forms_inline_6DnU4z"
+        "forms_inline_6DnU4z",
+        "mega_block_spacer_spacer_BfQNtN"
       ],
       "custom_css": [
         ".shopify-block {background: #bf1932;}"
