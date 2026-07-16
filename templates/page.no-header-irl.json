@@ -162,7 +162,7 @@
       "settings": {
         "anchor_id": "",
         "video_desktop": "shopify://files/videos/Fash IRL 16x9.mov",
-        "video_mobile": "shopify://files/videos/IRL FASH.mov",
+        "video_mobile": "shopify://files/videos/forWeb-Mobile.mp4",
         "min_height": 640,
         "overlay_color": "#000000",
         "overlay_opacity": 35,
