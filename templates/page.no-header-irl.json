@@ -448,14 +448,14 @@
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-XrR9M7\"></div>",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "#BF1932",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": ""
       }
     }
