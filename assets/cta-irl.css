@@ -88,6 +88,8 @@
 
 input, select, textarea, button, .btn {
   touch-action: manipulation !important;
+}
+input, select, textarea {
   font-size: 16px !important;
 }
 
@@ -96,4 +98,8 @@ input, select, textarea, button, .btn {
   .btn:hover {
     background-color: #e2384f; 
   }
+}
+
+input, select, textarea, button {
+  -webkit-appearance: none !important;
 }
