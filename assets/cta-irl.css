@@ -85,3 +85,7 @@
     align-items: stretch;
   }
 }
+
+input, select, textarea, button, .btn {
+  touch-action: manipulation !important;
+}
