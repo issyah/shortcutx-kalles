@@ -28,40 +28,8 @@
       <div class="t4s-cta-irl__description">{{ se.description }}</div>
     {%- endif -%}
 
-    <!-- Added -->
+
     {%- if se.button_1_label != blank or se.button_2_label != blank -%}
-      <div class="t4s-cta-irl__buttons">
-        {%- if se.button_1_label != blank -%}
-          <a
-            {% if se.button_1_link != blank %}
-              href="{{ se.button_1_link }}"
-            {% else %}
-              role="link" aria-disabled="true"
-            {% endif %}
-            class="t4s-btn t4s-btn-base t4s-btn-color-light t4s-btn-size-large btn-slanted t4s-cta-irl__btn--solid needsclick"
-            style="touch-action: manipulation;"
-          >
-            {{- se.button_1_label | escape -}}
-          </a>
-        {%- endif -%}
-        {%- if se.button_2_label != blank -%}
-          <a
-            {% if se.button_2_link != blank %}
-              href="{{ se.button_2_link }}"
-            {% else %}
-              role="link" aria-disabled="true"
-            {% endif %}
-            class="t4s-btn t4s-btn-base t4s-btn-color-light t4s-btn-size-large btn-slanted btn-outlined needsclick"
-            style="touch-action: manipulation;"
-          >
-            {{- se.button_2_label | escape -}}
-          </a>
-        {%- endif -%}
-      </div>
-    {%- endif -%}
-
-
-<!--    {%- if se.button_1_label != blank or se.button_2_label != blank -%}
       <div class="t4s-cta-irl__buttons">
         {%- if se.button_1_label != blank -%}
           <a
@@ -89,10 +57,6 @@
         {%- endif -%}
       </div>
     {%- endif -%}
-
-  -->
-
-
   </div>
 </div>
 
