@@ -443,19 +443,23 @@
       ],
       "settings": {}
     },
-    "custom_liquid_xFtmtq": {
+    "1784253529d597297d": {
+      "type": "apps",
+      "settings": {}
+    },
+    "custom_liquid_3emhdr": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-XrR9M7\"></div>",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "#BF1932",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "",
+        "mg": ",,50px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": "",
+        "mg_mb": ",,30px,",
         "pd_mb": ""
       }
     }
@@ -473,6 +477,7 @@
     "sports_lineup_irl_PP77Pj",
     "cta_irl_HFCaeK",
     "17835669606320580b",
-    "custom_liquid_xFtmtq"
+    "1784253529d597297d",
+    "custom_liquid_3emhdr"
   ]
 }
