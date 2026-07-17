@@ -208,7 +208,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Learn",
-              "menu": "",
+              "menu": "footer",
               "menu_style": "1",
               "col_dk": "15",
               "col_tb": "6",
