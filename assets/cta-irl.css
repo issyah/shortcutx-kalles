@@ -89,3 +89,10 @@
 input, select, textarea, button, .btn {
   touch-action: manipulation !important;
 }
+
+@media (hover: hover) {
+  /* Put your hover styles inside here */
+  .btn:hover {
+    background-color: #e2384f; 
+  }
+}
