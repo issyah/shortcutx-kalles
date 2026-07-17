@@ -391,7 +391,7 @@
     "cta_irl_HFCaeK": {
       "type": "cta-irl",
       "custom_css": [
-        "input, select, textarea {background-color: #ffffff !important; color: #000000 !important;}",
+        "input,select,textarea {background-color: #ffffff !important; color: #000000 !important;}",
         "input::placeholder {color: #555555 !important;}"
       ],
       "name": "CTA IRL",
@@ -413,7 +413,6 @@
       "blocks": {
         "forms_inline_6DnU4z": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
-          "disabled": true,
           "settings": {
             "form_id": "1061081",
             "text_color": "#ffffff",
