@@ -442,6 +442,22 @@
         ".shopify-block {background: #bf1932;}"
       ],
       "settings": {}
+    },
+    "custom_liquid_xFtmtq": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-XrR9M7\"></div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -456,6 +472,7 @@
     "accordion_Dx49Na",
     "sports_lineup_irl_PP77Pj",
     "cta_irl_HFCaeK",
-    "17835669606320580b"
+    "17835669606320580b",
+    "custom_liquid_xFtmtq"
   ]
 }
