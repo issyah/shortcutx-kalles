@@ -192,7 +192,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Product",
-              "menu": "",
+              "menu": "the-product-dropdown",
               "menu_style": "1",
               "col_dk": "15",
               "col_tb": "6",
