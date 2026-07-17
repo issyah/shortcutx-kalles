@@ -404,6 +404,22 @@
         "button_2_link": ""
       }
     },
+    "custom_liquid_3emhdr": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-XrR9M7\"></div>",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "17835669606320580b": {
       "type": "apps",
       "blocks": {
@@ -446,22 +462,6 @@
     "1784253529d597297d": {
       "type": "apps",
       "settings": {}
-    },
-    "custom_liquid_3emhdr": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-XrR9M7\"></div>",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
@@ -476,8 +476,8 @@
     "accordion_Dx49Na",
     "sports_lineup_irl_PP77Pj",
     "cta_irl_HFCaeK",
+    "custom_liquid_3emhdr",
     "17835669606320580b",
-    "1784253529d597297d",
-    "custom_liquid_3emhdr"
+    "1784253529d597297d"
   ]
 }
