@@ -443,7 +443,8 @@
         "mega_block_spacer_spacer_BfQNtN"
       ],
       "custom_css": [
-        ".shopify-block {background: #bf1932;}"
+        ".shopify-block {background: #bf1932;}",
+        ".shopify-app-block,.shopify-app-block iframe {pointer-events: auto !important; touch-action: manipulation;}"
       ],
       "settings": {}
     },
