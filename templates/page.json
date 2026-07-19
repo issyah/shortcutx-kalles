@@ -103,7 +103,7 @@
           "settings": {
             "image": "shopify://shop_images/THE_STORY.webp",
             "use_border": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "",
             "mgb": 15,
             "mgb_mb": 10
           }
