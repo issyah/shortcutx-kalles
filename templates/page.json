@@ -94,63 +94,11 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
-    },
-    "about_us_NyeQbR": {
-      "type": "about_us",
-      "blocks": {
-        "bl_image_Ltt64U": {
-          "type": "bl_image",
-          "settings": {
-            "image": "shopify://shop_images/THE_STORY.webp",
-            "use_border": false,
-            "video_url": "",
-            "mgb": 15,
-            "mgb_mb": 10
-          }
-        },
-        "bl_text_MGQK8Q": {
-          "type": "bl_text",
-          "settings": {
-            "text": "<p>Shortcutx Pte Ltd launched as a nutritional supplement company that focuses on convenience and effectiveness in 2022. Within the span of less than a year, Shortcutx company has experienced rapid growth and has established a presence in four different countries, namely Singapore, Malaysia, Dubai, and the United Kingdom. We have also been ranked the top 500 SME companies in Singapore. </p><p>Shortcutx’s goal is to get our audience the results that they want when it comes to their body. Our supplements come in several crowd pleasing flavours. Currently, our products range from ready to drink sachets, to powder form meal replacements. We also have several new exciting products lined up. </p><p>As we continue to grow, we are excited to expand globally. We aim to bring our solution to consumers around the world, helping them achieve their goals. Our team is comprised of professionals with a diverse range of skills and expertise, allowing us to adapt to the needs in different regions and industries. We are confident that our products will allow us to establish ourselves as a leader in the global Health & Wellness market.</p>",
-            "mgb": 25,
-            "mgb_mb": 10
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_Ltt64U",
-        "bl_text_MGQK8Q"
-      ],
-      "name": "About us",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "The Shortcutx Story",
-        "icon_heading": "",
-        "top_subheading": "",
-        "tophead_mb": 20,
-        "txt_align": "center",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "default",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page",
-    "about_us_NyeQbR"
+    "sidebar-page"
   ]
 }
