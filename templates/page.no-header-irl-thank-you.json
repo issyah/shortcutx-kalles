@@ -1,0 +1,471 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "4ccb8a07-ced7-4518-b278-9951b8bd6157": {
+          "type": "1",
+          "settings": {
+            "heading": "",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 20,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "4ccb8a07-ced7-4518-b278-9951b8bd6157"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "nav_irl_nwQftT": {
+      "type": "nav-irl",
+      "name": "Nav IRL",
+      "settings": {
+        "anchor_id": "",
+        "logo": "shopify://shop_images/irl_logo.png",
+        "logo_width": 140,
+        "menu": "in-real-life-main-menu",
+        "cta_label": "Register Now",
+        "cta_link": "#register",
+        "background_color": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    "hero_irl_cxLtjG": {
+      "type": "hero-irl",
+      "blocks": {
+        "ticker_item_XkekkK": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "$29 for Shortcutx Customers"
+          }
+        },
+        "ticker_item_V6jQfw": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Bring a friend for 50% Off"
+          }
+        },
+        "ticker_item_F78cBk": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Boxing with Fash \"The Face\". August 15, 2026"
+          }
+        },
+        "ticker_item_LHpC7R": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Shortcutx x Fash\"The Face\" x Spartans Boxing Club"
+          }
+        },
+        "ticker_item_aTyU9p": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "Get 10% Off Max+ Fat Burner"
+          }
+        },
+        "ticker_item_fcEnTg": {
+          "type": "ticker_item",
+          "settings": {
+            "text": "2 Sessions, Limited Spots"
+          }
+        }
+      },
+      "block_order": [
+        "ticker_item_XkekkK",
+        "ticker_item_V6jQfw",
+        "ticker_item_F78cBk",
+        "ticker_item_LHpC7R",
+        "ticker_item_aTyU9p",
+        "ticker_item_fcEnTg"
+      ],
+      "name": "Hero IRL",
+      "settings": {
+        "anchor_id": "",
+        "video_desktop": "shopify://files/videos/Fash IRL 16x9.mov",
+        "video_mobile": "shopify://files/videos/forWeb-Mobile (1).mp4",
+        "min_height": 640,
+        "overlay_color": "#000000",
+        "overlay_opacity": 35,
+        "eyebrow": "Members Only Access",
+        "heading_accent": "In Real",
+        "heading_main": "Life.",
+        "subheading": "Shortcutx • Sport • Community",
+        "description": "<p>I.R.L is where Shortcutx becomes a lifestyle. Exclusive workshops, live events and sports collides. All designed to push you further. Exclusive invite.</p>",
+        "button_1_label": "Register for Boxing with Fash",
+        "button_1_link": "#register",
+        "button_2_label": "",
+        "button_2_link": "",
+        "show_ticker": true,
+        "ticker_speed": 25
+      }
+    },
+    "cta_irl_7cWbmG": {
+      "type": "cta-irl",
+      "name": "CTA IRL",
+      "settings": {
+        "anchor_id": "whatis",
+        "background_color": "#bf1932",
+        "eyebrow_text": "From the screen to the streets, this is Shortcutx, In Real Life.",
+        "heading_line_1": "Momentum, MULTIPLIED.",
+        "heading_line_2": "",
+        "description": "<p>They say a shortcut is about finding an easy way out. But maybe the real shortcut is the people you move with. It's the community that pulls you forward, the crew that makes hard days lighter and every win bigger. One step becomes a collective stride.</p>\n<br>\n<p><b>That's what Shortcutx IRL is built for: taking the community offline.</b> </p>\n<br>\n<p>A full calendar of meetups, workshops, socials, and experiences designed to turn the people you follow into the people you know. Come move with us.</p>\n<br><br>",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_2_label": "",
+        "button_2_link": ""
+      }
+    },
+    "next_up_irl_4iAXrz": {
+      "type": "next-up-irl",
+      "name": "Next Up IRL",
+      "settings": {
+        "anchor_id": "upcoming",
+        "background_color": "#141414",
+        "eyebrow_text": "Next Up",
+        "panel_image": "shopify://shop_images/MYR07842_1.jpg",
+        "badge_text": "Next Event",
+        "heading_line_1_white": "Box",
+        "heading_line_1_accent": "ing",
+        "heading_line_2": "With Fash",
+        "heading_line_3": "",
+        "date_line": "WBC Female Asia Continental 108lb Champion\n<br><br>\nSaturday, 15 August 2026 <br>\n9:30 AM – 11:00AM",
+        "event_name_line_1": "Spartans Boxing Club",
+        "event_name_line_2": "× Shortcutx I.R.L",
+        "host_value": "Efasha \"Fash The Face\" Kamarudin",
+        "location_value": "Spartans Boxing Club @ Joo Chiat (Singapore 427625)",
+        "duration_value": "1.5 Hours",
+        "spots_value": "Limited slots! Priority is given in order of registration.",
+        "member_price": "$29",
+        "member_note": "<p>Entry to the IRL event for just yourself.</p>",
+        "public_price": "$43.50",
+        "public_note": "<p>Entry to the IRL event for 2 person.</p>",
+        "cta_label": "Secure Your Spot",
+        "cta_link": "#register"
+      }
+    },
+    "custom_liquid_3fEngD": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"upcoming\"></div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "accordion_Dx49Na": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_JiFEKc": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "TECHNIQUE: DOMINATE THE RING",
+            "content": "<p>Stop just throwing punches! Start landing them with lethal precision. This is where you master the slick footwork, flawless head movement, and elite mechanics that turn raw effort into effortless, crisp power. Your form is your ultimate weapon.</p>"
+          }
+        },
+        "accor_item_3bPeMr": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "STRENGTH & CONDITIONING: BUILD THE ENGINE",
+            "content": "<p>An explosive, high-octane circuit engineered to unlock your inner athlete. Packed with intense plyometrics and rotational core work, this section pushes your stamina to the absolute limit, torching calories and building the raw, functional power you need to outlast anyone.</p><p></p>"
+          }
+        },
+        "accor_item_3Bd96X": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "BAG & PAD WORK: UNLEASH THE POWER",
+            "content": "<p>The ultimate high-energy climax. Step up to the heavy bags and focus mitts to let loose with explosive combinations and adrenaline-pumping burnout intervals. It’s loud, it's fast, and it's designed to leave you feeling completely unstoppable.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_JiFEKc",
+        "accor_item_3bPeMr",
+        "accor_item_3Bd96X"
+      ],
+      "custom_css": [
+        "h3 {text-transform: uppercase; font-size: clamp(36px, 5vw, 56px); color: #fff; line-height: 1.2;}"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "What You Can Expect",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "2",
+        "title_cl": "#ffffff",
+        "bg_title_cl": "#bf1932",
+        "title_active_cl": "#ffffff",
+        "bg_title_active_cl": "#a6263b",
+        "content_cl": "#ffffff",
+        "bg_content_cl": "#a6263b",
+        "content_align": "t4s-text-start",
+        "auto_active": true,
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "#141414",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "50px, 40px, 50px, 40px",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": ""
+      }
+    },
+    "sports_lineup_irl_PP77Pj": {
+      "type": "sports-lineup-irl",
+      "blocks": {
+        "sport_item_Cn9yx9": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🥊",
+            "name": "Boxing",
+            "is_live": true,
+            "status_text": "Registration Now Open",
+            "products_text": "Featuring Fash \"The Face\""
+          }
+        },
+        "sport_item_Q3fAKc": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "⚽",
+            "name": "Futsal",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Guest Trainer TBA"
+          }
+        },
+        "sport_item_FTM4mR": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🧘🏻‍♀️",
+            "name": "Pilates",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Guest Trainer TBA"
+          }
+        },
+        "sport_item_RdVxEN": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🥋",
+            "name": "Muay Thai",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Guest Trainer TBA"
+          }
+        },
+        "sport_item_yXeL4j": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🏃",
+            "name": "Running",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Guest Trainer TBA"
+          }
+        },
+        "sport_item_UbF3Yh": {
+          "type": "sport_item",
+          "settings": {
+            "icon": "🧘",
+            "name": "Recovery",
+            "is_live": false,
+            "status_text": "Coming Soon",
+            "products_text": "Guest Trainer TBA"
+          }
+        }
+      },
+      "block_order": [
+        "sport_item_Cn9yx9",
+        "sport_item_Q3fAKc",
+        "sport_item_FTM4mR",
+        "sport_item_RdVxEN",
+        "sport_item_yXeL4j",
+        "sport_item_UbF3Yh"
+      ],
+      "name": "Sports Lineup IRL",
+      "settings": {
+        "anchor_id": "",
+        "background_color": "#141414",
+        "eyebrow_text": "Sports Lineup",
+        "heading_line_1": "Every Sport.",
+        "heading_line_2": "Right Products."
+      }
+    },
+    "cta_irl_HFCaeK": {
+      "type": "cta-irl",
+      "custom_css": [
+        "input,select,textarea {background-color: #ffffff !important; color: #000000 !important;}",
+        "input::placeholder {color: #555555 !important;}"
+      ],
+      "name": "CTA IRL",
+      "settings": {
+        "anchor_id": "#register",
+        "background_color": "#bf1932",
+        "eyebrow_text": "Limited Spots. Real Training.",
+        "heading_line_1": "Don't Watch.",
+        "heading_line_2": "Participate.",
+        "description": "The August 15, 2026 boxing workshop is filling up.<br>\nEntry is $29 for 1 pax, $43.50 for 2 pax.\n<br><br>\nGet an experience worth 10× that.",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_2_label": "",
+        "button_2_link": ""
+      }
+    },
+    "17835669606320580b": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_6DnU4z": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "1061081",
+            "text_color": "#ffffff",
+            "button_background_color": "#c9a84c",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 64,
+            "padding_right": 20,
+            "padding_left": 20
+          }
+        },
+        "mega_block_spacer_spacer_BfQNtN": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 60,
+            "block_height_mobile": 60,
+            "background_color": "",
+            "is_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_6DnU4z",
+        "mega_block_spacer_spacer_BfQNtN"
+      ],
+      "custom_css": [
+        ".shopify-block {background: #bf1932;}",
+        ".shopify-app-block,.shopify-app-block iframe {pointer-events: auto !important; touch-action: manipulation;}"
+      ],
+      "settings": {}
+    },
+    "1784253529d597297d": {
+      "type": "apps",
+      "settings": {}
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "nav_irl_nwQftT",
+    "hero_irl_cxLtjG",
+    "cta_irl_7cWbmG",
+    "next_up_irl_4iAXrz",
+    "custom_liquid_3fEngD",
+    "accordion_Dx49Na",
+    "sports_lineup_irl_PP77Pj",
+    "cta_irl_HFCaeK",
+    "17835669606320580b",
+    "1784253529d597297d"
+  ]
+}
