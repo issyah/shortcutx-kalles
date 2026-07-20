@@ -98,6 +98,7 @@
     },
     "nav_irl_nwQftT": {
       "type": "nav-irl",
+      "disabled": true,
       "name": "Nav IRL",
       "settings": {
         "anchor_id": "",
@@ -112,50 +113,6 @@
     },
     "hero_irl_cxLtjG": {
       "type": "hero-irl",
-      "blocks": {
-        "ticker_item_V6jQfw": {
-          "type": "ticker_item",
-          "disabled": true,
-          "settings": {
-            "text": "Bring a friend for 50% Off"
-          }
-        },
-        "ticker_item_F78cBk": {
-          "type": "ticker_item",
-          "disabled": true,
-          "settings": {
-            "text": "Boxing with Fash \"The Face\". August 15, 2026"
-          }
-        },
-        "ticker_item_LHpC7R": {
-          "type": "ticker_item",
-          "disabled": true,
-          "settings": {
-            "text": "Shortcutx x Fash\"The Face\" x Spartans Boxing Club"
-          }
-        },
-        "ticker_item_aTyU9p": {
-          "type": "ticker_item",
-          "disabled": true,
-          "settings": {
-            "text": "Get 10% Off Max+ Fat Burner"
-          }
-        },
-        "ticker_item_fcEnTg": {
-          "type": "ticker_item",
-          "disabled": true,
-          "settings": {
-            "text": "2 Sessions, Limited Spots"
-          }
-        }
-      },
-      "block_order": [
-        "ticker_item_V6jQfw",
-        "ticker_item_F78cBk",
-        "ticker_item_LHpC7R",
-        "ticker_item_aTyU9p",
-        "ticker_item_fcEnTg"
-      ],
       "name": "Hero IRL",
       "settings": {
         "anchor_id": "",
@@ -164,12 +121,12 @@
         "min_height": 640,
         "overlay_color": "#000000",
         "overlay_opacity": 35,
-        "eyebrow": "Members Only Access",
-        "heading_accent": "In Real",
-        "heading_main": "Life.",
+        "eyebrow": "Ding, Ding, Ding! We Got Your Registration! 🔔",
+        "heading_accent": "Thank you",
+        "heading_main": "For joining US",
         "subheading": "Shortcutx • Sport • Community",
-        "description": "<p>I.R.L is where Shortcutx becomes a lifestyle. Exclusive workshops, live events and sports collides. All designed to push you further. Exclusive invite.</p>",
-        "button_1_label": "Register for Boxing with Fash",
+        "description": "<p>🔔 Please note, this is not a confirmation. Our team will reach out with a payment link after further verification. 🔔</p>",
+        "button_1_label": "",
         "button_1_link": "#register",
         "button_2_label": "",
         "button_2_link": "",
@@ -242,6 +199,7 @@
     },
     "cta_irl_HFCaeK": {
       "type": "cta-irl",
+      "disabled": true,
       "custom_css": [
         "input,select,textarea {background-color: #ffffff !important; color: #000000 !important;}",
         "input::placeholder {color: #555555 !important;}"
