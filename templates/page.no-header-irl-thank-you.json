@@ -113,45 +113,43 @@
     "hero_irl_cxLtjG": {
       "type": "hero-irl",
       "blocks": {
-        "ticker_item_XkekkK": {
-          "type": "ticker_item",
-          "settings": {
-            "text": "$29 for Shortcutx Customers"
-          }
-        },
         "ticker_item_V6jQfw": {
           "type": "ticker_item",
+          "disabled": true,
           "settings": {
             "text": "Bring a friend for 50% Off"
           }
         },
         "ticker_item_F78cBk": {
           "type": "ticker_item",
+          "disabled": true,
           "settings": {
             "text": "Boxing with Fash \"The Face\". August 15, 2026"
           }
         },
         "ticker_item_LHpC7R": {
           "type": "ticker_item",
+          "disabled": true,
           "settings": {
             "text": "Shortcutx x Fash\"The Face\" x Spartans Boxing Club"
           }
         },
         "ticker_item_aTyU9p": {
           "type": "ticker_item",
+          "disabled": true,
           "settings": {
             "text": "Get 10% Off Max+ Fat Burner"
           }
         },
         "ticker_item_fcEnTg": {
           "type": "ticker_item",
+          "disabled": true,
           "settings": {
             "text": "2 Sessions, Limited Spots"
           }
         }
       },
       "block_order": [
-        "ticker_item_XkekkK",
         "ticker_item_V6jQfw",
         "ticker_item_F78cBk",
         "ticker_item_LHpC7R",
@@ -181,6 +179,7 @@
     },
     "cta_irl_7cWbmG": {
       "type": "cta-irl",
+      "disabled": true,
       "name": "CTA IRL",
       "settings": {
         "anchor_id": "whatis",
@@ -197,6 +196,7 @@
     },
     "next_up_irl_4iAXrz": {
       "type": "next-up-irl",
+      "disabled": true,
       "name": "Next Up IRL",
       "settings": {
         "anchor_id": "upcoming",
@@ -240,6 +240,26 @@
         "pd_mb": ""
       }
     },
+    "cta_irl_HFCaeK": {
+      "type": "cta-irl",
+      "custom_css": [
+        "input,select,textarea {background-color: #ffffff !important; color: #000000 !important;}",
+        "input::placeholder {color: #555555 !important;}"
+      ],
+      "name": "CTA IRL",
+      "settings": {
+        "anchor_id": "#register",
+        "background_color": "#bf1932",
+        "eyebrow_text": "Ding, Ding, Ding! We Got Your Registration! 🔔",
+        "heading_line_1": "thank you",
+        "heading_line_2": "",
+        "description": "Please note, this is not a confirmation. Our team will reach out with a payment link after further verification.",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_2_label": "",
+        "button_2_link": ""
+      }
+    },
     "accordion_Dx49Na": {
       "type": "accordion",
       "blocks": {
@@ -247,7 +267,7 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "suhib: DOMINATE THE RING",
+            "title": "TECHNIQUE: DOMINATE THE RING",
             "content": "<p>Stop just throwing punches! Start landing them with lethal precision. This is where you master the slick footwork, flawless head movement, and elite mechanics that turn raw effort into effortless, crisp power. Your form is your ultimate weapon.</p>"
           }
         },
@@ -379,6 +399,7 @@
         "sport_item_yXeL4j",
         "sport_item_UbF3Yh"
       ],
+      "disabled": true,
       "name": "Sports Lineup IRL",
       "settings": {
         "anchor_id": "",
@@ -388,31 +409,12 @@
         "heading_line_2": "Right Products."
       }
     },
-    "cta_irl_HFCaeK": {
-      "type": "cta-irl",
-      "custom_css": [
-        "input,select,textarea {background-color: #ffffff !important; color: #000000 !important;}",
-        "input::placeholder {color: #555555 !important;}"
-      ],
-      "name": "CTA IRL",
-      "settings": {
-        "anchor_id": "#register",
-        "background_color": "#bf1932",
-        "eyebrow_text": "Limited Spots. Real Training.",
-        "heading_line_1": "thank you",
-        "heading_line_2": "Participate.",
-        "description": "The August 15, 2026 boxing workshop is filling up.<br>\nEntry is $29 for 1 pax, $43.50 for 2 pax.\n<br><br>\nGet an experience worth 10× that.",
-        "button_1_label": "",
-        "button_1_link": "",
-        "button_2_label": "",
-        "button_2_link": ""
-      }
-    },
     "17835669606320580b": {
       "type": "apps",
       "blocks": {
         "forms_inline_6DnU4z": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "disabled": true,
           "settings": {
             "form_id": "1061081",
             "text_color": "#ffffff",
@@ -462,9 +464,9 @@
     "cta_irl_7cWbmG",
     "next_up_irl_4iAXrz",
     "custom_liquid_3fEngD",
+    "cta_irl_HFCaeK",
     "accordion_Dx49Na",
     "sports_lineup_irl_PP77Pj",
-    "cta_irl_HFCaeK",
     "17835669606320580b",
     "1784253529d597297d"
   ]
