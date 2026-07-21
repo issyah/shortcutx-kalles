@@ -299,6 +299,11 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/1.webp",
+            "image2": "shopify://shop_images/2.webp",
+            "image3": "shopify://shop_images/3.webp",
+            "image4": "shopify://shop_images/4.webp",
+            "image5": "shopify://shop_images/5.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -388,7 +393,6 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
