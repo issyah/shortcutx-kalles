@@ -539,7 +539,7 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/5.webp",
+            "image1": "shopify://shop_images/TEH_TARIK_5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -599,6 +599,7 @@
         "bl_image_Gfrkza": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_6.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -628,7 +629,6 @@
       "block_order": [
         "bl_image_Gfrkza"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
