@@ -50,7 +50,7 @@
         "text_9dWm8p": {
           "type": "text",
           "settings": {
-            "text": "{{ product.description }}"
+            "text": "<p>{{ product.description }}</p>"
           }
         },
         "order_h3wknP": {
@@ -163,19 +163,27 @@
             "is_full_width": false
           }
         },
-        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
-          "type": "tab_html",
-          "settings": {
-            "title": "How To Consume",
-            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
           "type": "tab_html",
           "settings": {
             "title": "Ingredients",
             "content": "<p>{{ product.metafields.custom.ingredients.value }}</p>",
+            "page": ""
+          }
+        },
+        "tab_html_QRXFCh": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Benefits",
+            "content": "<p>{{ product.metafields.custom.benefits.value }}</p>",
+            "page": ""
+          }
+        },
+        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
+          "type": "tab_html",
+          "settings": {
+            "title": "How To Consume",
+            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -231,8 +239,9 @@
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "mega_block_spacer_spacer_8q3y8y",
-        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
+        "tab_html_QRXFCh",
+        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
         "94011ade-ec25-4d68-b37a-70660ede49dd"
