@@ -154,6 +154,15 @@
             "review_liquid": ""
           }
         },
+        "mega_block_spacer_spacer_8q3y8y": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 20,
+            "block_height_mobile": 20,
+            "background_color": "",
+            "is_full_width": false
+          }
+        },
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
           "type": "tab_html",
           "settings": {
@@ -221,6 +230,7 @@
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
+        "mega_block_spacer_spacer_8q3y8y",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "meta",
