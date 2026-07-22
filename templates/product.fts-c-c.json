@@ -299,7 +299,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/9_93d9352a-4c98-462c-8a74-8df4c131a2f1.svg",
+            "image1": "shopify://shop_images/cc1.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -359,7 +359,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/10_412987e7-0283-4402-9524-9b37e7816db4.svg",
+            "image1": "shopify://shop_images/cc2.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -419,7 +419,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/11_b1d748cb-8999-4467-92df-7f2d2ed31a7a.svg",
+            "image1": "shopify://shop_images/cc3.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -479,7 +479,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/12_5e46b2b0-17e5-4777-b573-d746c096bb2b.svg",
+            "image1": "shopify://shop_images/cc4.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -539,7 +539,7 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/13_a616efed-c767-488a-8996-c017fa9ca50b.svg",
+            "image1": "shopify://shop_images/cc5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -599,7 +599,7 @@
         "bl_image_E9J9VQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/14_78217144-c8d7-43ce-b385-11bb4db2163f.svg",
+            "image1": "shopify://shop_images/cc6.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -659,7 +659,7 @@
         "bl_image_mB9GTR": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/15.svg",
+            "image1": "shopify://shop_images/cc7.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
