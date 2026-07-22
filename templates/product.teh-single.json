@@ -274,6 +274,7 @@
         "bl_image_ywMqWA": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_2.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -333,6 +334,7 @@
         "bl_image_jQJkqC": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_3.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -392,6 +394,7 @@
         "bl_image_8CPHcK": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_4.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -451,6 +454,7 @@
         "bl_image_eztVda": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -510,6 +514,7 @@
         "bl_image_NbpKhf": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_6.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
