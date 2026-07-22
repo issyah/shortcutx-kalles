@@ -299,7 +299,7 @@
         "bl_image_Beg6Mr": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/cof1_27f5e04e-2ec5-4ed2-9cf1-cd287cc84cf7.webp",
+            "image1": "shopify://shop_images/mb1.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -329,7 +329,6 @@
       "block_order": [
         "bl_image_Beg6Mr"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -360,7 +359,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_2.svg",
+            "image1": "shopify://shop_images/mb2.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -390,7 +389,6 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -421,7 +419,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_3.svg",
+            "image1": "shopify://shop_images/mb3.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -451,7 +449,6 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -482,7 +479,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_4.svg",
+            "image1": "shopify://shop_images/mb4.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -512,7 +509,6 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -543,7 +539,7 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_5.svg",
+            "image1": "shopify://shop_images/mb5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -573,7 +569,6 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
