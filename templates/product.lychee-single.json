@@ -288,7 +288,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Shopee_Description_Shortcutx_1366_x_768_px_3.svg",
+            "image1": "shopify://shop_images/ll1.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -348,7 +348,7 @@
         "bl_image_PWxMkJ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Shopee_Description_Shortcutx_1366_x_768_px_4.svg",
+            "image1": "shopify://shop_images/ll2.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -408,7 +408,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/39_4d7988ff-c01a-4f1f-845e-b40829c55ead.svg",
+            "image1": "shopify://shop_images/ll3.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -468,7 +468,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/40_578393fd-c4a1-44d0-949f-5b2e0f126a49.svg",
+            "image1": "shopify://shop_images/ll4.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -528,7 +528,7 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/41_36e7a1b3-943c-42fe-81e1-7ef5725bfcee.svg",
+            "image1": "shopify://shop_images/ll5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
