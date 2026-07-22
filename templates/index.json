@@ -232,10 +232,9 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "name": "7.7 Back On Track Sale",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/7.7_Back_on_Track_Sale_July_2026_1800_by_600_2.png",
-            "image_mb": "shopify://shop_images/7.7_Back_on_Track_Sale_July_2026_1100_x_750_px_2.png",
+            "image": "shopify://shop_images/Save_up_to_16_1800_by_600.png",
+            "image_mb": "shopify://shop_images/Save_up_to_16_1100_by_750.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
