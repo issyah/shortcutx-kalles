@@ -214,7 +214,7 @@
         "bl_image_a6yTXa": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/48.svg",
+            "image1": "shopify://shop_images/TEH_TARIK_1.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -274,7 +274,6 @@
         "bl_image_ywMqWA": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/49.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -334,7 +333,6 @@
         "bl_image_jQJkqC": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/50.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -394,7 +392,6 @@
         "bl_image_8CPHcK": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/52.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -454,7 +451,6 @@
         "bl_image_eztVda": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/53.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -514,7 +510,6 @@
         "bl_image_NbpKhf": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/54.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -711,7 +706,6 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/website_product_description_images_1.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -772,7 +766,6 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/website_product_description_images_3.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -858,7 +851,6 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/website_product_description_images_4.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
