@@ -299,7 +299,7 @@
         "bl_image_Beg6Mr": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/cof1_27f5e04e-2ec5-4ed2-9cf1-cd287cc84cf7.webp",
+            "image1": "shopify://shop_images/301_68f2c4d1-a2d2-4aa8-849e-128bafa03329.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -329,7 +329,6 @@
       "block_order": [
         "bl_image_Beg6Mr"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -357,10 +356,10 @@
     "image_text_WUYYgb": {
       "type": "image_text",
       "blocks": {
-        "bl_image_FXdNeL": {
+        "bl_image_LCpRaQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_2.svg",
+            "image1": "shopify://shop_images/302_2f5385ad-f029-4b24-9c18-072e8313a7d0.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -388,9 +387,8 @@
         }
       },
       "block_order": [
-        "bl_image_FXdNeL"
+        "bl_image_LCpRaQ"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -418,10 +416,10 @@
     "image_text_Cj6iL6": {
       "type": "image_text",
       "blocks": {
-        "bl_image_cxjaMF": {
+        "bl_image_GknDWf": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_3.svg",
+            "image1": "shopify://shop_images/303_0231c96c-ecdc-4e6d-a615-edc63b30cc03.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -449,9 +447,8 @@
         }
       },
       "block_order": [
-        "bl_image_cxjaMF"
+        "bl_image_GknDWf"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -479,10 +476,10 @@
     "image_text_gbbUKH": {
       "type": "image_text",
       "blocks": {
-        "bl_image_yazr6N": {
+        "bl_image_bdd4Dq": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_4.svg",
+            "image1": "shopify://shop_images/304_a95f4a4e-f814-48b7-97d0-5ae1c893fde0.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -510,9 +507,8 @@
         }
       },
       "block_order": [
-        "bl_image_yazr6N"
+        "bl_image_bdd4Dq"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -540,10 +536,10 @@
     "image_text_9EbnCj": {
       "type": "image_text",
       "blocks": {
-        "bl_image_MVFb64": {
+        "bl_image_WxVfxW": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_5.svg",
+            "image1": "shopify://shop_images/305_48f1af65-e754-4d05-9722-401e87fbd042.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -571,9 +567,8 @@
         }
       },
       "block_order": [
-        "bl_image_MVFb64"
+        "bl_image_WxVfxW"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -604,7 +599,7 @@
         "bl_image_Gfrkza": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/TEH_TARIK_6.svg",
+            "image1": "shopify://shop_images/306_b4e53f90-7501-4ead-bf2b-39c5bc508231.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -634,7 +629,6 @@
       "block_order": [
         "bl_image_Gfrkza"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
