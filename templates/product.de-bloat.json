@@ -213,7 +213,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/1_de33b671-db0b-4568-aeb6-6cb8bb6832ec.png",
+            "image1": "shopify://shop_images/db1_22e3fdc5-940c-4635-9985-78a46afde31b.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -273,7 +273,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/2_3b834512-b553-4d87-bf37-78bd2241b2ec.png",
+            "image1": "shopify://shop_images/db2_643ccca8-180b-4ffd-868a-b551485955dc.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -333,7 +333,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/3_bd7eae89-8201-4142-a087-1360f6fff56b.png",
+            "image1": "shopify://shop_images/db3_6860bf91-4804-432d-affc-d1972bb57078.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -393,7 +393,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/4_075574d9-321f-4f7f-b345-d4d5fad0acaa.png",
+            "image1": "shopify://shop_images/db4_ecd4baba-99a6-4954-99ae-ddde1a75e83a.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -453,7 +453,7 @@
         "bl_image_VJdAXQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/5_7b923609-6494-4f7f-a832-af8f033efe5c.png",
+            "image1": "shopify://shop_images/db5_4ba030e4-99bd-4ea9-8c88-9c05d1a3b666.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -513,7 +513,7 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/6_202add11-5f8d-4d14-8392-4121e3a3210b.png",
+            "image1": "shopify://shop_images/db6_72aeb673-8c17-4fb2-a149-b65a76d1b38f.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
