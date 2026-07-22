@@ -209,7 +209,7 @@
         "bl_image_mbahmA": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/1_1dfaa86e-d6c3-4882-915e-7eb39bcb7a7f.png",
+            "image1": "shopify://shop_images/nhc1.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -269,7 +269,7 @@
         "bl_image_tBNBLJ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/2_05299d6d-feb8-496b-a9a3-3773114fea61.png",
+            "image1": "shopify://shop_images/nhc2.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -329,7 +329,7 @@
         "bl_image_FP4PVa": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/3_5cb84fde-d790-4fa3-b5c7-fd07c65485c8.png",
+            "image1": "shopify://shop_images/nhc3.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -389,7 +389,7 @@
         "bl_image_iKGgnE": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/4_95115890-f47b-4b89-922f-ee3e56be9815.png",
+            "image1": "shopify://shop_images/nhc4.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -449,7 +449,7 @@
         "bl_image_JUkyr8": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/5_92f4c48f-9f28-4cca-b4a0-10b72c2a998f.png",
+            "image1": "shopify://shop_images/nhc5.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -509,7 +509,7 @@
         "bl_image_YLUBq9": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/6_e7b12b5d-2421-4597-a168-389dd18fee44.png",
+            "image1": "shopify://shop_images/nhc6.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
