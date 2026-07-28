@@ -2783,6 +2783,11 @@
         "settings": {
           "hide_price": false
         }
+      },
+      "15134163510845626300": {
+        "type": "shopify://apps/geoip-country-redirect/blocks/speeedup_link/a3fa1a12-9aad-4707-ab56-45ccf9191aa7",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
