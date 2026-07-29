@@ -74,7 +74,7 @@
         "text_8PTm93": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Accelerate Fat Burn:</strong> Green Tea Extract & L-Carnitine ignite your metabolism for maximum weight loss.</li><li><strong>Peak Performance Energy:</strong> Adaptogens & B-vitamins fuel intense workouts with zero crash.</li><li><strong>Rapid Recovery:</strong> Essential electrolytes & aminos quickly replenish your body so you bounce back faster.</li></ul>"
+            "text": "<p><strong>7-Day Fat Burn Program: </strong>Green Tea Extract & L-Carnitine support your metabolism daily, with nightly recovery and all-day energy for your whole week, covered in one box.</p>"
           }
         },
         "description": {
@@ -200,6 +200,14 @@
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
           "type": "tab_html",
           "settings": {
+            "title": "What's Inside?",
+            "content": "<p>{{ product.metafields.custom.what_s_inside.value }}</p>",
+            "page": ""
+          }
+        },
+        "tab_html_LeneEN": {
+          "type": "tab_html",
+          "settings": {
             "title": "Ingredients",
             "content": "<p>{{ product.metafields.custom.ingredients.value }}</p>",
             "page": ""
@@ -277,6 +285,7 @@
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "mega_block_spacer_spacer_7ewnXy",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
+        "tab_html_LeneEN",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
