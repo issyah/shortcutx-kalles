@@ -49,6 +49,7 @@
         },
         "text_ehzyqD": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<ul><li><strong>Decadent Cookies & Cream:</strong> Indulge your dessert cravings with a rich, delicious shake that keeps you full for hours and makes dieting effortless.</li><li><strong>Flatter Tummy Fast:</strong> Our 7-day sugar-free, keto-friendly formula accelerates weight loss and slims your waistline without the hunger.</li><li><strong>Complete Nutrition & Recovery:</strong> Packed with premium whey protein, fibre, and 19 essential vitamins to perfectly replace a meal while speeding up post-workout healing.</li></ul>"
           }
