@@ -49,6 +49,7 @@
         },
         "text_mYBPHd": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<ul><li><strong>7-Day Results:</strong> Fast weight loss management.</li><li><strong>Control Appetite:</strong> Scientifically backed formula enhances satiety.</li><li><strong>Total Wellness:</strong> Supports digestion and healthy blood glucose.</li></ul>"
           }
