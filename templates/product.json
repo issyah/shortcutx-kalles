@@ -49,8 +49,9 @@
         },
         "text_9dWm8p": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>{{ product.description }}</p>"
+            "text": "{{ product.description }}"
           }
         },
         "order_h3wknP": {
