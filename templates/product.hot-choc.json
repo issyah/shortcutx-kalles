@@ -49,6 +49,7 @@
         },
         "text_W7NxGM": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<ul><li><strong>Guilt-Free Indulgence:</strong> Savor the rich, comforting taste of sugar-free hot chocolate while premium dietary fibres keep you feeling full for hours.</li><li><strong>Accelerated Metabolism:</strong> Dandelion and Green Coffee Extracts naturally boost your body's fat-burning capabilities while providing steady, crash-free energy.</li><li><strong>Craving & Gut Control:</strong> Saffron Extract helps stop emotional eating, while natural prebiotics support smooth digestion and a healthy gut.</li></ul>"
           }
