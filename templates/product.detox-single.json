@@ -49,6 +49,7 @@
         },
         "text_RdaUrA": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<ul><li><strong>Deep Detoxification:</strong> Premium ingredients flush out toxins and significantly reduce stubborn bloating.</li><li><strong>Enhanced Metabolism:</strong> Synergistic blends naturally boost your metabolism to support effective weight loss.</li><li><strong>Optimised Gut Health:</strong> L-Glutamine and probiotics work together to balance your microbiome and improve overall digestion.</li></ul>"
           }

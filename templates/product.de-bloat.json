@@ -49,6 +49,7 @@
         },
         "text_k7e7Ea": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<ul><li><strong>Refreshing White Grape Flavour:</strong> A delicious, fast-absorbing liquid formula that quickly eliminates post-meal heaviness, gas, and discomfort.</li><li><strong>Clinically Proven Digestion:</strong> Powered by DigeZyme® to efficiently break down carbs, proteins, fats, and fibre so you instantly feel lighter after every meal.</li><li><strong>Soothes & Balances:</strong> A calming botanical blend of ginger and mint, combined with premium probiotics, works to relax the stomach, relieve cramps, and support long-term gut health.</li></ul>"
           }
