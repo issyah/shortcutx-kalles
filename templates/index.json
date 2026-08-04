@@ -231,14 +231,13 @@
       "blocks": {
         "164602873867eb3815-0": {
           "type": "image_parent",
-          "name": "Bundle Up To 16% off",
-          "disabled": true,
+          "name": "Spend $120, get Free Nasal Strips",
           "settings": {
-            "image": "shopify://shop_images/Save_up_to_16_1800_by_600.png",
-            "image_mb": "shopify://shop_images/Save_up_to_16_1100_by_750.png",
+            "image": "shopify://shop_images/nasal_strip-01.jpg",
+            "image_mb": "shopify://shop_images/nasal_strip-02.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/bundles",
+            "link_img1": "shopify://collections/all",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
