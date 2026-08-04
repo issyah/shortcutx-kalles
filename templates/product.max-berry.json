@@ -49,7 +49,6 @@
         },
         "text_9dWm8p": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.description }}"
           }
