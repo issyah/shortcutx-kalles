@@ -14,10 +14,9 @@
       "blocks": {
         "image_parent_QjjCMR": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Save_up_to_16_1920_by_480.png",
-            "image_mb": "shopify://shop_images/Save_up_to_16_1080_by_1080.png",
+            "image": "shopify://shop_images/nasal_strip-03.jpg",
+            "image_mb": "shopify://shop_images/nasal_strip-04.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
