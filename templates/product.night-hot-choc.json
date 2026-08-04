@@ -49,7 +49,6 @@
         },
         "description_6FKAFT": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "des": "1",
             "text": "",
