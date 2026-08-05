@@ -81,37 +81,27 @@
               <div class="t4s-cart_price">
                 {%- unless cart_ajax_enable %}{{item_qty}} × {% endunless -%}
                 {%- liquid
-                 assign original_price     = item_variant.compare_at_price | default: item.original_price
+                 assign original_price     = item.original_price
                  assign final_price        = item.final_price
-                 assign discount_amount    = original_price | minus: final_price
-
+                 assign v_compare_at_price = item_variant.compare_at_price 
+                 assign item_compare_price = v_compare_at_price | default:original_price |times:item_qty
+                 assign compare_tt_price   = compare_tt_price | plus:item_compare_price
                  if cur_code_enabled
-                   assign money_original = original_price | money_with_currency
-                   assign money_discount = discount_amount | money_with_currency
-                   assign money_final    = final_price | money_with_currency
+                   assign money_original_price = original_price | money_with_currency
+                   assign money_final_price    = final_price | money_with_currency
                  else
-                   assign money_original = original_price | money
-                   assign money_discount = discount_amount | money
-                   assign money_final    = final_price | money
+                   assign money_original_price = original_price | money
+                   assign money_final_price    = final_price | money
                  endif -%}
 
-                {%- if discount_amount > 0 -%}
-                  <div class="t4s-price-breakdown" style="display: flex; flex-direction: column; gap: 2px;">
-                    <span class="t4s-price-original" style="text-decoration: line-through; color: #888;">
-                      Original: {{ money_original }}
-                    </span>
-                    <span class="t4s-price-discount" style="color: #d9534f; font-weight: 500;">
-                      Discount: -{{ money_discount }}
-                    </span>
-                    <span class="t4s-price-final" style="font-weight: bold;">
-                      Final: {{ money_final }}
-                    </span>
-                  </div>
+                {%- if original_price != final_price -%}
+                   <del>{{ money_original_price }}</del><ins>{{ money_final_price }}</ins>
+                {%- elsif v_compare_at_price > original_price  -%}
+                   <del>{% if cur_code_enabled %}{{ v_compare_at_price | money_with_currency }}{% else %}{{ v_compare_at_price | money }}{% endif %}</del><ins>{{ money_final_price }}</ins>
                 {%- else -%}
-                  <span class="t4s-price-final" style="font-weight: bold;">{{ money_final }}</span>
+                   {{ money_original_price }}
                 {%- endif -%}
               </div>
-
               {%- if item.unit_price_measurement -%}
                  {%- capture unit_price_base_unit -%}
                    {%- if item.unit_price_measurement.reference_value != 1 -%}
@@ -121,11 +111,10 @@
                  {%- endcapture -%}
                  <div class="t4s-cart_unit_price">{{ item.unit_price | money }}<span>/</span>{{- unit_price_base_unit -}}</div>
               {%- endif -%}
-
               {%- if item.line_level_discount_allocations != blank -%}
                  <ul class="t4s-cart_discount_price">
                     {%- for discount_allocation in item.line_level_discount_allocations -%}
-                      <li class="t4s-order-discount__item"><svg viewBox="0 0 24 24" width="20"><use href="#icon-cart-tag"/></svg> {{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})</li>
+                      <li class="t4s-order-discount__item" ><svg viewBox="0 0 24 24" width="20"><use href="#icon-cart-tag"/></svg> {{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})</li>
                     {%- endfor -%}
                  </ul>
               {%- endif -%}
