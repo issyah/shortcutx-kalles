@@ -35,18 +35,6 @@
   assign cart_ajax_enable = settings.cart_ajax_enable
   unless cart_ajax_enable
    assign min_qty = 1
-   assign cart_original_total = 0
-  for item in cart.items
-    assign item_base_price = item.variant.compare_at_price | default: item.variant.price
-    if item_base_price > item.final_price
-      assign line_orig = item_base_price | times: item.quantity
-    else
-      assign line_orig = item.original_line_price
-    endif
-    assign cart_original_total = cart_original_total | plus: line_orig
-  endfor
-
-  assign cart_total_savings = cart_original_total | minus: cart.total_price
   endunless -%}
 
 <link rel="stylesheet" href="{{ 'main-cart.css' | asset_url }}" media="all">
@@ -233,51 +221,6 @@
                 {%- assign bk_stts = block.settings -%}
                 {%- assign button_style = bk_stts.button_style -%}
                {%- case block.type -%}
-
-                {%- when 'price' -%}
-                    <div data-cart-discounts class="t4s-text-md-end t4s-text-center">
-                        {%- if cart.cart_level_discount_applications != blank -%}
-                        <ul class="t4s-cart_discounts">
-                            {%- for discount_application in cart.cart_level_discount_applications -%}
-                            <li class="t4s-order_cart_discounts">
-                                <svg viewBox="0 0 24 24" width="20"><use href="#icon-cart-tag"/></svg>
-                                {{- discount_application.title -}} (-{{ discount_application.total_allocated_amount | money }})
-                            </li>
-                            {%- endfor -%}
-                        </ul>
-                        {%- endif -%}
-                    </div>
-
-                    <div class="t4s-cart-total" style="display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">
-                        {%- if cart_total_savings > 0 -%}
-                        <!-- Original Price -->
-                        <div style="font-size: 14px; color: #777;">
-                            <span>Original Price: </span>
-                            <s style="text-decoration: line-through;">{{ cart_original_total | money }}</s>
-                        </div>
-
-                        <!-- Total Savings Line -->
-                        <div style="font-size: 14px; color: #d9534f; font-weight: 600;">
-                            <span>Total Savings: </span>
-                            <span>-{{ cart_total_savings | money }}</span>
-                        </div>
-                        {%- endif -%}
-
-                        <!-- Final Subtotal -->
-                        <div style="font-size: 18px; font-weight: 700; margin-top: 4px;">
-                        <span>SUBTOTAL: </span>
-                        <span>{{ cart.total_price | money }}</span>
-                        </div>
-
-                        <!-- Savings Banner / Liner -->
-                        {%- if cart_total_savings > 0 -%}
-                        <div style="background-color: #e8f5e9; color: #2e7d32; font-weight: 600; font-size: 13px; padding: 6px 12px; border-radius: 4px; margin-top: 6px;">
-                            🎉 You're saving {{ cart_total_savings | money }} on this order!
-                        </div>
-                        {%- endif -%}
-                    </div>
-                    {% comment %}
-                 
                   {%- when 'price' -%}
                         <div data-cart-discounts class="t4s-text-md-end t4s-text-center">
                             {%- if cart.cart_level_discount_applications != blank -%}
@@ -301,8 +244,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        {% endcomment %}
 
                   {%- when 'tax' -%}
                      {%- capture taxes_shipping_checkout -%}{%- assign page_url = pages[settings.link_ship].url -%}
