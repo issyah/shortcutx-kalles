@@ -107,8 +107,8 @@
                    assign money_final_price    = final_price | money
                  endif -%}        
 
-               {% comment %}
-                 {%- if original_price != item.final_price -%}
+              {% comment %}
+               {%- if original_price != item.final_price -%}
                   <del>{{ money_original_price }}</del><ins>{{ money_final_price }}</ins>
                {%- elsif v_compare_at_price > original_price  -%}
                   <del>{% if cur_code_enabled %}{{ v_compare_at_price | money_with_currency }}{% else %}{{ v_compare_at_price | money }}{% endif %}</del><ins>{{ money_final_price }}</ins>
@@ -118,34 +118,38 @@
                {% endcomment %}
 
                {%- liquid
-                 assign strike_price = 0
-                 if v_compare_at_price > final_price
-                   assign strike_price = v_compare_at_price
-                 elsif original_price > final_price
-                   assign strike_price = original_price
-                 endif
+                  assign base_price = item_variant.price
+                  if item_variant.compare_at_price > final_price
+                    assign strike_price = item_variant.compare_at_price
+                  elsif base_price > final_price
+                    assign strike_price = base_price
+                  elsif original_price > final_price
+                    assign strike_price = original_price
+                  else
+                    assign strike_price = 0
+                  endif
 
-                 if strike_price > 0
-                   assign savings_amount = strike_price | minus: final_price
-                   if cur_code_enabled
-                     assign money_strike_price = strike_price | money_with_currency
-                     assign money_savings = savings_amount | money_with_currency
-                   else
-                     assign money_strike_price = strike_price | money
-                     assign money_savings = savings_amount | money
-                   endif
-                 endif
-               -%}
+                  if strike_price > 0
+                    assign savings_amount = strike_price | minus: final_price
+                    if cur_code_enabled
+                      assign money_strike_price = strike_price | money_with_currency
+                      assign money_savings = savings_amount | money_with_currency
+                    else
+                      assign money_strike_price = strike_price | money
+                      assign money_savings = savings_amount | money
+                    endif
+                  endif
+                -%}
 
-               {%- if strike_price > 0 -%}
+                {%- if strike_price > 0 -%}
                   <del style="color: #888; text-decoration: line-through; margin-right: 6px;">{{ money_strike_price }}</del>
-                  <ins style="font-weight: bold; text-decoration: none;">{{ money_final_price }}</ins>
+                  <ins style="font-weight: bold; text-decoration: none; color: #000;">{{ money_final_price }}</ins>
                   <div class="t4s-cart_item_savings" style="color: #d9534f; font-size: 13px; font-weight: 600; margin-top: 2px;">
                     Save {{ money_savings }}
                   </div>
-               {%- else -%}
+                {%- else -%}
                   {{ money_final_price }}
-               {%- endif -%}
+                {%- endif -%}
 
              </div>
              {%- if item.unit_price_measurement -%}
