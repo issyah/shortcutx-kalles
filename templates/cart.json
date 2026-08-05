@@ -159,8 +159,8 @@
         "9f0f4b67-92cb-4f7e-ae91-e921e23ed3ff"
       ],
       "custom_css": [
-        ".appstle_applied_discountText {display: none !important;}",
-        ".appstle_subscription_cart_wrapper {display: none !important;}"
+        ".appstle_applied_discountText,.appstle_subscription_cart_wrapper {display: none !important;}",
+        ".t4s-cart_selling_plan.appstleCartWidgetProcessed {color: #ff0000 !important; font-weight: bold;}"
       ],
       "settings": {
         "enable_calc_ship": true,
