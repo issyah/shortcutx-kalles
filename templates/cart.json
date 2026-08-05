@@ -160,7 +160,8 @@
       ],
       "custom_css": [
         ".appstle_applied_discountText,.appstle_subscription_cart_wrapper {display: none !important;}",
-        ".t4s-cart_selling_plan.appstleCartWidgetProcessed {color: #ff0000 !important;}"
+        ".t4s-cart_selling_plan.appstleCartWidgetProcessed {color: #ff0000 !important;}",
+        ".t4s-page_cart__title {font-size: 18px !important; font-weight: 600;}"
       ],
       "settings": {
         "enable_calc_ship": true,
