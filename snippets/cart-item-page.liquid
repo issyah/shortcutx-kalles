@@ -33,7 +33,25 @@
                  <div class="t4s-page_cart__meta">
                     {%- assign qv_key = item_pr.id -%}
                     {%- unless item_pr.has_only_default_variant or item_variant.title contains 'mczr_price_' -%}{%- assign qv_key = item_id -%}{%- for option in item.options_with_values -%}<p class="t4s-cart_meta_variant">{{ option.name }}: <strong>{{ option.value }}</strong></p>{%- endfor -%}{%- endunless -%}                    
+                    
+                    {% comment %}
                     {%- if item.selling_plan_allocation != blank %}<p class="t4s-cart_selling_plan">{{ item.selling_plan_allocation.selling_plan.name }}</p>{% endif -%}
+                    {% endcomment %}
+
+                    {%- if item.selling_plan_allocation != blank -%}
+                      <p class="t4s-cart_selling_plan" style="color: #d9534f; font-weight: 700; margin-bottom: 2px;">
+                        {{ item.selling_plan_allocation.selling_plan.name }}
+                      </p>
+                      <div class="t4s-subscription-notice" style="font-size: 11px; line-height: 1.3; color: #555; margin-bottom: 6px;">
+                        <span style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeba2; padding: 2px 6px; border-radius: 3px; font-weight: 600; display: inline-block; margin-top: 2px;">
+                          🔒 3-month min. commitment
+                        </span>
+                        <span style="display: block; font-size: 11px; color: #666; margin-top: 3px;">
+                          Cancel anytime after your 3rd order.
+                        </span>
+                      </div>
+                    {%- endif -%}
+
                     {%- assign property_size = item.properties | size -%}
                     {%- if property_size > 0 -%}
                     <ul class="t4s-cart_meta_propertyList">
