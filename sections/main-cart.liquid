@@ -35,6 +35,18 @@
   assign cart_ajax_enable = settings.cart_ajax_enable
   unless cart_ajax_enable
    assign min_qty = 1
+   assign cart_original_total = 0
+  for item in cart.items
+    assign item_base_price = item.variant.compare_at_price | default: item.variant.price
+    if item_base_price > item.final_price
+      assign line_orig = item_base_price | times: item.quantity
+    else
+      assign line_orig = item.original_line_price
+    endif
+    assign cart_original_total = cart_original_total | plus: line_orig
+  endfor
+
+  assign cart_total_savings = cart_original_total | minus: cart.total_price
   endunless -%}
 
 <link rel="stylesheet" href="{{ 'main-cart.css' | asset_url }}" media="all">
