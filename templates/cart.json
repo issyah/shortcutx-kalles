@@ -158,6 +158,9 @@
         "5ae3c0ee-4bc7-4818-af8a-d10d3958189a",
         "9f0f4b67-92cb-4f7e-ae91-e921e23ed3ff"
       ],
+      "custom_css": [
+        ".appstle_applied_discountText {display: none !important;}"
+      ],
       "settings": {
         "enable_calc_ship": true,
         "enable_note": true,
