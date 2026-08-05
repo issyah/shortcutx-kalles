@@ -233,8 +233,8 @@
           "type": "image_parent",
           "name": "Spend $120, get Free Nasal Strips",
           "settings": {
-            "image": "shopify://shop_images/nasal_strip-01.jpg",
-            "image_mb": "shopify://shop_images/nasal_strip-02.jpg",
+            "image": "shopify://shop_images/nasal_strip-01_1.jpg",
+            "image_mb": "shopify://shop_images/nasal_strip-02_1.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
