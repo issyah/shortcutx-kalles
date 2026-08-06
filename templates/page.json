@@ -38,6 +38,7 @@
         "4ccb8a07-ced7-4518-b278-9951b8bd6157"
       ],
       "settings": {
+        "image": "shopify://shop_images/ABOUS.webp",
         "use_specify_image": true,
         "parallax": false,
         "color": "#000000",
@@ -70,7 +71,6 @@
     },
     "sidebar-page": {
       "type": "sidebar-page",
-      "disabled": true,
       "blocks": {
         "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
           "type": "blog_cate",
@@ -84,6 +84,7 @@
       "block_order": [
         "f69681ed-b75e-42de-be58-fdf73b3b7e08"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,

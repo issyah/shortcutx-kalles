@@ -79,7 +79,7 @@
     "hover_currency": false,
     "bootstrap_css": false,
     "custom_css_t4s": true,
-    "global_css": "<script type=\"text/javascript\">\n  window.__miu_cid = \"88e184d9-3a2a-4c22-97bb-3bac20b04595\";\n  (function() {\n    const script = document.createElement('script');\n    script.type = 'text/javascript';\n    script.async = true;\n    script.src = 'https://app.miu.ai/assets/script.js';\n    script.id = '__miu';\n    document.getElementsByTagName('body')[0].appendChild(script);\n  })();\n</script>\n\n\n\n\n<script type=\"text/javascript\">\n\ndocument.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){\n\nwindow._klOnsite = window._klOnsite || [];\n\nwindow._klOnsite.push(['openForm', 'RiaQ2B']);\n});\n</script>\n\n  .custom-subscribe-btn:hover {\n    background-color: #444444 !important; /* Dark grey background */\n    color: #ffffff !important; /* White text so it's readable */\n    border-color: #444444 !important; /* Dark grey border */\n  }",
+    "global_css": "&lt;script type=\"text/javascript\"&gt;\n  window.__miu_cid = \"88e184d9-3a2a-4c22-97bb-3bac20b04595\";\n  (function() {\n    const script = document.createElement('script');\n    script.type = 'text/javascript';\n    script.async = true;\n    script.src = 'https://app.miu.ai/assets/script.js';\n    script.id = '__miu';\n    document.getElementsByTagName('body')[0].appendChild(script);\n  })();\n&lt;/script&gt;\n\n\n\n\n&lt;script type=\"text/javascript\"&gt;\n\ndocument.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){\n\nwindow._klOnsite = window._klOnsite || [];\n\nwindow._klOnsite.push(['openForm', 'RiaQ2B']);\n});\n&lt;/script&gt;\n\n  .custom-subscribe-btn:hover {\n    background-color: #444444 !important; /* Dark grey background */\n    color: #ffffff !important; /* White text so it's readable */\n    border-color: #444444 !important; /* Dark grey border */\n  }\n\n  #template--24495274852375__main__form {\n    padding-bottom: 10px;\n  }",
     "t4s_custom_js": true,
     "share_twitter": false,
     "share_pinterest": false,
@@ -192,7 +192,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Product",
-              "menu": "",
+              "menu": "the-product-dropdown",
               "menu_style": "1",
               "col_dk": "15",
               "col_tb": "6",
@@ -208,7 +208,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Learn",
-              "menu": "",
+              "menu": "footer",
               "menu_style": "1",
               "col_dk": "15",
               "col_tb": "6",
@@ -239,7 +239,7 @@
           "footer-2": {
             "type": "html",
             "settings": {
-              "html_content": "<p style=\"display:flex;\"><svg style=\"width: 30px;height: 30px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 16.001 1.072 c 5.291 0 9.596 4.305 9.596 9.597 c 0 1.683 -0.446 3.341 -1.29 4.799 l -8.307 14.394 l -8.308 -14.395 c -0.843 -1.456 -1.289 -3.115 -1.289 -4.798 c 0 -5.292 4.305 -9.597 9.597 -9.597 Z M 16.001 14.4 c 2.058 0 3.731 -1.674 3.731 -3.731 s -1.674 -3.731 -3.731 -3.731 c -2.058 0 -3.732 1.674 -3.732 3.731 s 1.674 3.731 3.732 3.731 Z M 16.001 0.006 c -5.889 0 -10.663 4.775 -10.663 10.663 c 0 1.945 0.523 3.762 1.432 5.332 l 9.23 15.994 l 9.23 -15.994 c 0.909 -1.57 1.432 -3.387 1.432 -5.332 c 0 -5.888 -4.774 -10.663 -10.662 -10.663 v 0 Z M 16.001 13.334 c -1.472 0 -2.666 -1.193 -2.666 -2.665 c 0 -1.471 1.194 -2.665 2.666 -2.665 s 2.665 1.194 2.665 2.665 c 0 1.472 -1.193 2.665 -2.665 2.665 v 0 Z\"></path></svg><span>2 Gambas Cres, #01-35 Nordcom II</span></p>",
+              "html_content": "<p style=\"display:flex;\"><svg style=\"width: 30px;height: 30px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 16.001 1.072 c 5.291 0 9.596 4.305 9.596 9.597 c 0 1.683 -0.446 3.341 -1.29 4.799 l -8.307 14.394 l -8.308 -14.395 c -0.843 -1.456 -1.289 -3.115 -1.289 -4.798 c 0 -5.292 4.305 -9.597 9.597 -9.597 Z M 16.001 14.4 c 2.058 0 3.731 -1.674 3.731 -3.731 s -1.674 -3.731 -3.731 -3.731 c -2.058 0 -3.732 1.674 -3.732 3.731 s 1.674 3.731 3.732 3.731 Z M 16.001 0.006 c -5.889 0 -10.663 4.775 -10.663 10.663 c 0 1.945 0.523 3.762 1.432 5.332 l 9.23 15.994 l 9.23 -15.994 c 0.909 -1.57 1.432 -3.387 1.432 -5.332 c 0 -5.888 -4.774 -10.663 -10.662 -10.663 v 0 Z M 16.001 13.334 c -1.472 0 -2.666 -1.193 -2.666 -2.665 c 0 -1.471 1.194 -2.665 2.666 -2.665 s 2.665 1.194 2.665 2.665 c 0 1.472 -1.193 2.665 -2.665 2.665 v 0 Z\"></path></svg><span><b>Malaysia</b><br>Beautyfyxed Holdings Sdn Bhd</span></p>",
               "hidden_mobile": false
             }
           },
@@ -248,7 +248,7 @@
             "settings": {
               "title": "",
               "social_mode": "1",
-              "social_style": "3",
+              "social_style": "2",
               "social_size": "small",
               "bd_radius": 0,
               "use_color_set": false,
@@ -355,7 +355,7 @@
         "settings": {
           "sticky": false,
           "collapse": true,
-          "border_top": false,
+          "border_top": true,
           "border_pos": "in",
           "space_h_item": "30",
           "space_v_item": "30",
@@ -376,7 +376,7 @@
           "link_hover_cl": "#bf1932",
           "border_cl": "#e6e6e6",
           "layout": "t4s-container-wrap",
-          "cl_bg": "#f6f6f8",
+          "cl_bg": "#f8f3f3",
           "cl_bg_gradient": "",
           "mg": "",
           "pd": "75px,,75px,",
@@ -414,8 +414,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "link": "https://shortcutx.co/collections/bundles",
-              "content": "<p>🇸🇬 SG's #1 Supplement [icon_arrow]</p>",
+              "link": "shopify://collections/all",
+              "content": "<p>SG's #1 Supplement <strong>Now Available in MY </strong>[icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
@@ -424,8 +424,8 @@
           "announcement_wqa474": {
             "type": "announcement",
             "settings": {
-              "link": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
-              "content": "<p>🚚 Free Shipping S$100+ (with GST) [icon_arrow]</p>",
+              "link": "shopify://collections/all",
+              "content": "<p>🚚 Free Shipping Above RM300 [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0
@@ -433,9 +433,10 @@
           },
           "announcement_B8p7tt": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
-              "content": "<p><strong>Subscribe & Save</strong> 15% [icon_arrow]</p>",
+              "content": "<p><strong>Subscribe & Save 15%</strong> [icon_arrow]</p>",
               "countdown": "",
               "txt_day": "",
               "dayx": 0

@@ -272,7 +272,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/34_b041a45e-19c2-4c4b-a667-64d600b3c2e1.png",
+            "image1": "shopify://shop_images/cof1_27f5e04e-2ec5-4ed2-9cf1-cd287cc84cf7.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -332,7 +332,7 @@
         "bl_image_8fLEEx": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/35_f4839899-3359-4ea3-8c99-572cada41cb4.png",
+            "image1": "shopify://shop_images/cof2_6101a1f7-da35-4e2f-9adc-9c9cd95d07cd.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -392,7 +392,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/36_d6d40f1c-d311-4e87-887b-e4de59ac91e3.png",
+            "image1": "shopify://shop_images/cof3_50577804-c2d7-4164-bd94-7f245c176a2b.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -452,7 +452,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/37.png",
+            "image1": "shopify://shop_images/cof4.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -512,7 +512,7 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/35_db58b5e7-82c8-434f-a27e-14e78674af2a.svg",
+            "image1": "shopify://shop_images/cof5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -572,7 +572,7 @@
         "bl_image_iyMPqg": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/36_897d0390-a2d6-4386-af0e-e7fd167723c6.svg",
+            "image1": "shopify://shop_images/cof6.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",

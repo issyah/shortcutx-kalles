@@ -280,7 +280,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/1.svg",
+            "image1": "shopify://shop_images/mc1.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -340,7 +340,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/2_0a603e58-f210-4ac3-8ceb-d4e07ac718f1.svg",
+            "image1": "shopify://shop_images/mc2.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -400,7 +400,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
-            "image4": "shopify://shop_images/3_89c04d7f-6834-4ed4-91ff-14ca018e26de.svg",
+            "image1": "shopify://shop_images/mc3.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -430,7 +430,6 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -461,7 +460,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/4_7180b9c7-680c-48f4-ad4d-1da3c02df189.svg",
+            "image1": "shopify://shop_images/mc5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -521,7 +520,6 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/5_e4320c5d-629b-4fed-a54b-417a89f45be1.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -551,6 +549,7 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",

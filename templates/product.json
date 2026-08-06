@@ -49,8 +49,9 @@
         },
         "text_9dWm8p": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<ul><li><strong>15x Max+: </strong>4x Stronger Weight Loss</li><li><strong>8x Night Hot Chocolate: </strong>Relax, Recharge  & Reset</li><li><strong>7x Flat Tummy Shakes: </strong>Reduce cravings with this meal replacement. Choose between Cookie Butter Crunch or Salted Caramel</li></ul>"
+            "text": "{{ product.description }}"
           }
         },
         "order_h3wknP": {
@@ -73,6 +74,7 @@
         },
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
           "type": "store_pickup",
+          "disabled": true,
           "settings": {}
         },
         "form": {
@@ -82,7 +84,7 @@
             "color_mode": "color is-sw-cl__round",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
-            "show_qty": false,
+            "show_qty": true,
             "enable_wishlist": false,
             "enable_compare": false,
             "btn_atc_full": true,
@@ -93,7 +95,7 @@
             "btn_icon": false,
             "button_style": "default",
             "button_color": "primary",
-            "button_effect": "sweep-to-top",
+            "button_effect": "default",
             "wishlist_color": "#222222",
             "wishlist_color_hover": "#bf1932",
             "wishlist_color_active": "#e81e1e",
@@ -149,8 +151,17 @@
           "type": "tab_rivui",
           "disabled": true,
           "settings": {
-            "title": "Benefits",
+            "title": "",
             "review_liquid": ""
+          }
+        },
+        "mega_block_spacer_spacer_8q3y8y": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 20,
+            "block_height_mobile": 20,
+            "background_color": "",
+            "is_full_width": false
           }
         },
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
@@ -161,11 +172,19 @@
             "page": ""
           }
         },
-        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
+        "tab_html_QRXFCh": {
           "type": "tab_html",
           "settings": {
             "title": "Benefits",
             "content": "<p>{{ product.metafields.custom.benefits.value }}</p>",
+            "page": ""
+          }
+        },
+        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
+          "type": "tab_html",
+          "settings": {
+            "title": "How To Consume",
+            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -185,6 +204,7 @@
         },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
+          "disabled": true,
           "settings": {
             "title": "Flat Tummy Shake Flavour Options"
           }
@@ -219,7 +239,9 @@
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
+        "mega_block_spacer_spacer_8q3y8y",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
+        "tab_html_QRXFCh",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
@@ -256,8 +278,8 @@
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
-        "tabs_design": "accordion",
-        "tabs_design_mb": "accordion",
+        "tabs_design": "tab",
+        "tabs_design_mb": "tab",
         "tabs_position": "inner",
         "enable_first_tab": false,
         "tabs_layout_fix": "full",
@@ -275,9 +297,10 @@
     "image_text_rayEMU": {
       "type": "image_text",
       "blocks": {
-        "bl_image_ctkY4J": {
+        "bl_image_Beg6Mr": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/cof1_27f5e04e-2ec5-4ed2-9cf1-cd287cc84cf7.webp",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -305,7 +328,7 @@
         }
       },
       "block_order": [
-        "bl_image_ctkY4J"
+        "bl_image_Beg6Mr"
       ],
       "disabled": true,
       "settings": {
@@ -338,6 +361,7 @@
         "bl_image_FXdNeL": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_2.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -398,6 +422,7 @@
         "bl_image_cxjaMF": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_3.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -458,6 +483,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_4.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -518,6 +544,7 @@
         "bl_image_MVFb64": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_5.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -578,6 +605,7 @@
         "bl_image_Gfrkza": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/TEH_TARIK_6.svg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
