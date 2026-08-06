@@ -9,84 +9,6 @@
  */
 {
   "sections": {
-    "top": {
-      "type": "top-collections",
-      "blocks": {
-        "cat_cp3bwE": {
-          "type": "cat",
-          "settings": {
-            "collection": "",
-            "icon": ""
-          }
-        },
-        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
-          "type": "cat",
-          "settings": {
-            "collection": "frontpage",
-            "icon": "las la-burn"
-          }
-        },
-        "2502644f-656b-4289-9245-a75187bd0170": {
-          "type": "cat",
-          "settings": {
-            "collection": "meal-replacement",
-            "icon": "las la-cookie-bite"
-          }
-        },
-        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f": {
-          "type": "cat",
-          "settings": {
-            "collection": "slimming-tea-coffee",
-            "icon": "las la-coffee"
-          }
-        },
-        "9a953769-57c2-417a-b665-db34392c8d1c": {
-          "type": "cat",
-          "settings": {
-            "collection": "bundles",
-            "icon": "las la-archive"
-          }
-        }
-      },
-      "block_order": [
-        "cat_cp3bwE",
-        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22",
-        "2502644f-656b-4289-9245-a75187bd0170",
-        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
-        "9a953769-57c2-417a-b665-db34392c8d1c"
-      ],
-      "custom_css": [
-        ".t4s-top-collections,.flickityt4s-viewport {min-height: 59px;}"
-      ],
-      "settings": {
-        "show_top_collections": true,
-        "source": "2",
-        "menu": "top-collection-list",
-        "sort_collections": "alphabetical_reversed",
-        "box_border": "none",
-        "content_align": "center",
-        "hidden_mobile": false,
-        "space_item": 30,
-        "fontf": "inherit",
-        "text_cl": "#222222",
-        "text_cl_hover": "#bf1932",
-        "text_fs": 14,
-        "text_lh": 24,
-        "text_fw": 400,
-        "text_ls": 0,
-        "font_italic": false,
-        "nav_btn": true,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "rgba(0,0,0,0)",
-        "cl_bg_gradient": "",
-        "mg": "10px,0px,10px,0px",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
@@ -693,6 +615,84 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "top": {
+      "type": "top-collections",
+      "blocks": {
+        "cat_cp3bwE": {
+          "type": "cat",
+          "settings": {
+            "collection": "",
+            "icon": ""
+          }
+        },
+        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22": {
+          "type": "cat",
+          "settings": {
+            "collection": "frontpage",
+            "icon": "las la-burn"
+          }
+        },
+        "2502644f-656b-4289-9245-a75187bd0170": {
+          "type": "cat",
+          "settings": {
+            "collection": "meal-replacement",
+            "icon": "las la-cookie-bite"
+          }
+        },
+        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f": {
+          "type": "cat",
+          "settings": {
+            "collection": "slimming-tea-coffee",
+            "icon": "las la-coffee"
+          }
+        },
+        "9a953769-57c2-417a-b665-db34392c8d1c": {
+          "type": "cat",
+          "settings": {
+            "collection": "bundles",
+            "icon": "las la-archive"
+          }
+        }
+      },
+      "block_order": [
+        "cat_cp3bwE",
+        "2decaa9b-e6a6-4cc5-b4f4-963ab2c96d22",
+        "2502644f-656b-4289-9245-a75187bd0170",
+        "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
+        "9a953769-57c2-417a-b665-db34392c8d1c"
+      ],
+      "custom_css": [
+        ".t4s-top-collections,.flickityt4s-viewport {min-height: 59px;}"
+      ],
+      "settings": {
+        "show_top_collections": true,
+        "source": "2",
+        "menu": "top-collection-list",
+        "sort_collections": "alphabetical_reversed",
+        "box_border": "none",
+        "content_align": "center",
+        "hidden_mobile": false,
+        "space_item": 30,
+        "fontf": "inherit",
+        "text_cl": "#222222",
+        "text_cl_hover": "#bf1932",
+        "text_fs": 14,
+        "text_lh": 24,
+        "text_fw": 400,
+        "text_ls": 0,
+        "font_italic": false,
+        "nav_btn": true,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg_gradient": "",
+        "mg": "10px,0px,10px,0px",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "7ae682bd-8cdc-4092-8235-21bbc7ff5aac": {
       "type": "logo_list",
       "blocks": {
@@ -1281,8 +1281,8 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "30-day-weight-loss-pack",
-        "image": "shopify://shop_images/1100_x_750_mobile.jpg",
+        "product": "night-hot-chocolate",
+        "image": "shopify://shop_images/NHC_Banner-02.webp",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
