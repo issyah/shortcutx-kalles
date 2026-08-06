@@ -11,7 +11,7 @@
   "current": {
     "purchase_code": "d3ceda0f-bfcb-4271-85f7-011fcaddc61b",
     "general_layout": "full_width",
-    "home_keywords": "Kalles shopify, Fastest, Ajax Shop, Minimal, Lazyload",
+    "home_keywords": "Singapore's #1 Best Selling Weight Management Supplements",
     "shop_author": "Issyah",
     "use_rtl": "0",
     "header_design": "inline",
@@ -23,11 +23,16 @@
     "logo_mb_width": 95,
     "logo_tr": "shopify://shop_images/header-logo-01.png",
     "logo_tr_width": 95,
+    "mobile_nav_type": "1",
+    "text_color": "#555555",
     "accent_color": "#bf1932",
     "price_primary": "#bf1932",
+    "price_secondary": "#555555",
+    "link_color": "#555555",
     "link_color_hover": "#bf1932",
     "cl_lazyload": "#bf1932",
     "sw_primary": "#bf1932",
+    "sw_secondary": "#555555",
     "font_source": "2",
     "fnt_fm_sp1": "oswald_n7",
     "fnt_fm_sp2": "sans-serif",
@@ -51,11 +56,12 @@
     "show_qty": false,
     "pr_border_style": "2",
     "enable_pr_color": true,
-    "swatch_item_style": "1",
-    "show_color_type": "1",
+    "swatch_item_style": "2",
+    "show_color_type": "2",
     "pr_img_effect": "2",
     "pr_curent": "3",
     "use_group_media": true,
+    "show_first_media": true,
     "use_change_variant_by_img": true,
     "enable_his": true,
     "variant_remove": "2",
@@ -193,105 +199,6 @@
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "footer-0": {
-            "type": "bl_col",
-            "disabled": true,
-            "settings": {
-              "col_heading": "",
-              "menu": "",
-              "menu_style": "1",
-              "col_dk": "4",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "",
-              "col_heading_mobile": "Get in touch",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "de84a111-3ed0-40a2-b86a-1e81488e9bff": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image_child": "shopify://shop_images/shorcutx-logo.png",
-              "link_img": "",
-              "img_width": 120,
-              "img_width_mb": 0,
-              "mgb": 34,
-              "mgb_mb": 24
-            }
-          },
-          "dc57896d-8763-423e-a2a3-04703555e8a5": {
-            "type": "bl_col",
-            "disabled": true,
-            "settings": {
-              "col_heading": "Official Reseller",
-              "menu": "",
-              "menu_style": "1",
-              "col_dk": "15",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "07370baa-a5de-4adc-8e7f-3ee22915c44e": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image_child": "shopify://shop_images/Thick-Toko-Warisan-Trading-Logo_FC-large.png",
-              "link_img": "",
-              "img_width": 120,
-              "img_width_mb": 0,
-              "mgb": 15,
-              "mgb_mb": 20
-            }
-          },
-          "710232ab-a0c8-49be-8494-689001fb99e2": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image_child": "shopify://shop_images/Barakah_Logo_Vector_1.webp",
-              "link_img": "",
-              "img_width": 0,
-              "img_width_mb": 0,
-              "mgb": 15,
-              "mgb_mb": 20
-            }
-          },
-          "6c6efeae-08c3-4e3d-93c1-9bf2dbb858a5": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image_child": "shopify://shop_images/Beautyfyxed_200x800-01-01.webp",
-              "link_img": "",
-              "img_width": 0,
-              "img_width_mb": 0,
-              "mgb": 20,
-              "mgb_mb": 20
-            }
-          },
-          "footer-4": {
-            "type": "bl_col",
-            "disabled": true,
-            "settings": {
-              "col_heading": "Links",
-              "menu": "footer",
-              "menu_style": "1",
-              "col_dk": "15",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
@@ -435,13 +342,6 @@
         },
         "block_order": [
           "7dbc0ddd-5531-4ca0-8460-47c25f2074b5",
-          "footer-0",
-          "de84a111-3ed0-40a2-b86a-1e81488e9bff",
-          "dc57896d-8763-423e-a2a3-04703555e8a5",
-          "07370baa-a5de-4adc-8e7f-3ee22915c44e",
-          "710232ab-a0c8-49be-8494-689001fb99e2",
-          "6c6efeae-08c3-4e3d-93c1-9bf2dbb858a5",
-          "footer-4",
           "ba3ee6a6-f2de-4cd1-82cc-51e4f07cbf53",
           "64720722-da6c-41f7-bd4d-26fb8ced1c50",
           "footer-2",
@@ -489,6 +389,17 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "announcement_VHCtmB": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "link": "",
+              "content": "<p>Today deal sale off 70%. End in [countdown]. Hurry Up!! [icon_arrow]</p>",
+              "countdown": "2023/12/26",
+              "txt_day": "days",
+              "dayx": 0
+            }
+          },
           "announcement_RadDbk": {
             "type": "announcement",
             "disabled": true,
@@ -587,6 +498,7 @@
           }
         },
         "block_order": [
+          "announcement_VHCtmB",
           "announcement_RadDbk",
           "announcement_Pmnwz7",
           "announcement-bar-0",
@@ -679,11 +591,11 @@
       "header-inline": {
         "type": "header-inline",
         "blocks": {
-          "base_4qtfEy": {
+          "base_hRGdJR": {
             "type": "base",
             "settings": {
               "title": "Home",
-              "url": "https://shortcutx.co",
+              "url": "https://shortcutx.co/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -696,7 +608,7 @@
             "type": "drop",
             "settings": {
               "title": "Shop",
-              "url": "shopify://collections/key-products",
+              "url": "shopify://collections/all",
               "open_link": "_self",
               "menu": "shop-dropdown",
               "icon": "",
@@ -709,7 +621,7 @@
               "pos": "left"
             }
           },
-          "base_hRGdJR": {
+          "base_NHtqzn": {
             "type": "base",
             "settings": {
               "title": "Bundle Subscription",
@@ -741,6 +653,7 @@
           },
           "1c183604-aba8-4307-947b-2ed4f4d0b0ff": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Calorie Calculator",
               "url": "shopify://pages/calorie-calculator",
@@ -751,14 +664,28 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "base_64LhGL": {
+            "type": "base",
+            "settings": {
+              "title": "Reviews",
+              "url": "shopify://pages/real-results",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
-          "base_4qtfEy",
-          "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
           "base_hRGdJR",
+          "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
+          "base_NHtqzn",
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
-          "1c183604-aba8-4307-947b-2ed4f4d0b0ff"
+          "1c183604-aba8-4307-947b-2ed4f4d0b0ff",
+          "base_64LhGL"
         ],
         "settings": {
           "layout": "logo_left",
@@ -777,7 +704,7 @@
           "hover_icon": "2",
           "show_search": true,
           "show_acc": true,
-          "show_wis": true,
+          "show_wis": false,
           "cart_des": "1",
           "bg_hc": "#000000",
           "cl_hc": "#ffffff",
@@ -1426,64 +1353,11 @@
               "title": "Home",
               "url": "",
               "open_link": "_self",
-              "menu": "home-dropdown",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
               "icon": ""
-            }
-          },
-          "menu_ntjn4X": {
-            "type": "menu",
-            "settings": {
-              "title": "Bundle Subscription",
-              "url": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "Save 15%",
-              "lb_cl": "#bf1932",
-              "icons_op": "0",
-              "icon": "las la-chair"
-            }
-          },
-          "menu_4NHJNU": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "Ride With Us 2025",
-              "url": "shopify://products/ride-with-us-community-ride-11-07-2025",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "Join Now!",
-              "lb_cl": "#bf1932",
-              "icons_op": "2",
-              "icon": "las la-bicycle"
-            }
-          },
-          "mb_nav-2": {
-            "type": "menu",
-            "settings": {
-              "title": "The Product",
-              "url": "shopify://products/analogue-resin-strap",
-              "open_link": "_self",
-              "menu": "the-product-dropdown",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "2",
-              "icon": ""
-            }
-          },
-          "a232f002-32ad-428e-8fce-064f90f82542": {
-            "type": "menu",
-            "settings": {
-              "title": "Blog",
-              "url": "shopify://blogs/news",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "0",
-              "icon": "las la-chair"
             }
           },
           "9a97ae06-45c7-40b2-ae39-02c81ea08e21": {
@@ -1499,6 +1373,32 @@
               "icon": "las la-chair"
             }
           },
+          "menu_ntjn4X": {
+            "type": "menu",
+            "settings": {
+              "title": "Bundle Subscription",
+              "url": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "Save 15%",
+              "lb_cl": "#bf1932",
+              "icons_op": "0",
+              "icon": "las la-chair"
+            }
+          },
+          "mb_nav-2": {
+            "type": "menu",
+            "settings": {
+              "title": "The Product",
+              "url": "shopify://products/analogue-resin-strap",
+              "open_link": "_self",
+              "menu": "the-product-dropdown",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": ""
+            }
+          },
           "8379585c-4f67-4501-afe2-00ac3989731c": {
             "type": "menu",
             "settings": {
@@ -1512,10 +1412,6 @@
               "icon": "las la-chair"
             }
           },
-          "mb_nav-4": {
-            "type": "wis",
-            "settings": {}
-          },
           "mb_nav-5": {
             "type": "sea",
             "settings": {}
@@ -1523,14 +1419,6 @@
           "mb_nav-6": {
             "type": "acc",
             "settings": {}
-          },
-          "mb_nav-7": {
-            "type": "help",
-            "disabled": true,
-            "settings": {
-              "title": "Need help?",
-              "text": "<a href=\"tel:%20+6587752114\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 8.65625 3 C 8.132813 3 7.617188 3.1875 7.1875 3.53125 L 7.125 3.5625 L 7.09375 3.59375 L 3.96875 6.8125 L 4 6.84375 C 3.035156 7.734375 2.738281 9.066406 3.15625 10.21875 C 3.160156 10.226563 3.152344 10.242188 3.15625 10.25 C 4.003906 12.675781 6.171875 17.359375 10.40625 21.59375 C 14.65625 25.84375 19.402344 27.925781 21.75 28.84375 L 21.78125 28.84375 C 22.996094 29.25 24.3125 28.960938 25.25 28.15625 L 28.40625 25 C 29.234375 24.171875 29.234375 22.734375 28.40625 21.90625 L 24.34375 17.84375 L 24.3125 17.78125 C 23.484375 16.953125 22.015625 16.953125 21.1875 17.78125 L 19.1875 19.78125 C 18.464844 19.433594 16.742188 18.542969 15.09375 16.96875 C 13.457031 15.40625 12.621094 13.609375 12.3125 12.90625 L 14.3125 10.90625 C 15.152344 10.066406 15.167969 8.667969 14.28125 7.84375 L 14.3125 7.8125 L 14.21875 7.71875 L 10.21875 3.59375 L 10.1875 3.5625 L 10.125 3.53125 C 9.695313 3.1875 9.179688 3 8.65625 3 Z M 8.65625 5 C 8.730469 5 8.804688 5.035156 8.875 5.09375 L 12.875 9.1875 L 12.96875 9.28125 C 12.960938 9.273438 13.027344 9.378906 12.90625 9.5 L 10.40625 12 L 9.9375 12.4375 L 10.15625 13.0625 C 10.15625 13.0625 11.304688 16.136719 13.71875 18.4375 L 13.9375 18.625 C 16.261719 20.746094 19 21.90625 19 21.90625 L 19.625 22.1875 L 22.59375 19.21875 C 22.765625 19.046875 22.734375 19.046875 22.90625 19.21875 L 27 23.3125 C 27.171875 23.484375 27.171875 23.421875 27 23.59375 L 23.9375 26.65625 C 23.476563 27.050781 22.988281 27.132813 22.40625 26.9375 C 20.140625 26.046875 15.738281 24.113281 11.8125 20.1875 C 7.855469 16.230469 5.789063 11.742188 5.03125 9.5625 C 4.878906 9.15625 4.988281 8.554688 5.34375 8.25 L 5.40625 8.1875 L 8.4375 5.09375 C 8.507813 5.035156 8.582031 5 8.65625 5 Z\"></path></svg> +65 8775 2114</a>\n<br>\n<a href=\"mailto:contact@shortcutx.co\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 3 8 L 3 26 L 29 26 L 29 8 Z M 7.3125 10 L 24.6875 10 L 16 15.78125 Z M 5 10.875 L 15.4375 17.84375 L 16 18.1875 L 16.5625 17.84375 L 27 10.875 L 27 24 L 5 24 Z\"></path></svg>\ncontact@shortcutx.co</a>"
-            }
           },
           "mb_nav-8": {
             "type": "lang",
@@ -1543,16 +1431,12 @@
         },
         "block_order": [
           "mb_nav-1",
-          "menu_ntjn4X",
-          "menu_4NHJNU",
-          "mb_nav-2",
-          "a232f002-32ad-428e-8fce-064f90f82542",
           "9a97ae06-45c7-40b2-ae39-02c81ea08e21",
+          "menu_ntjn4X",
+          "mb_nav-2",
           "8379585c-4f67-4501-afe2-00ac3989731c",
-          "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
-          "mb_nav-7",
           "mb_nav-8",
           "mb_nav-9"
         ],
@@ -1654,6 +1538,7 @@
           },
           "28827cfe-cc96-428c-9a58-cca929fb28e9": {
             "type": "catimg",
+            "disabled": true,
             "settings": {
               "cat": "meal-replacement",
               "title": "",
@@ -1717,6 +1602,7 @@
           },
           "c4035550-4772-41cd-ae51-ca6a5f91c7c1": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "slimming-tea-coffee",
               "title": "",
@@ -1731,6 +1617,7 @@
           },
           "02afbc74-7e86-47eb-a54c-4b782b9be1ec": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "frontpage",
               "title": "",
@@ -1744,6 +1631,7 @@
           },
           "6d74ffce-83b8-4201-9d3a-c200e5962277": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "bundles",
               "title": "",
@@ -1913,6 +1801,7 @@
           },
           "main-qv-4": {
             "type": "size_delivery_ask",
+            "disabled": true,
             "settings": {
               "size_chart": "3",
               "pos_sizeg": "1",
@@ -1927,6 +1816,7 @@
           },
           "main-qv-5": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_options": true,
               "show_vendor": false,
@@ -1940,6 +1830,7 @@
           },
           "main-qv-6": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "socials_align": "start",
               "social_mode": "2",
@@ -2880,6 +2771,18 @@
         "type": "shopify://apps/hoppy-free-shipping/blocks/shipping_bar/66159626-1fb8-4d18-901f-af7b6a63adaa",
         "disabled": false,
         "settings": {}
+      },
+      "13951170544780599758": {
+        "type": "shopify://apps/tapita-seo-speed/blocks/app-embed/cd37ca7a-40ad-4fdc-afd3-768701482209",
+        "disabled": false,
+        "settings": {
+          "hide_price": false
+        }
+      },
+      "15134163510845626300": {
+        "type": "shopify://apps/geoip-country-redirect/blocks/speeedup_link/a3fa1a12-9aad-4707-ab56-45ccf9191aa7",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -2889,7 +2792,8 @@
       "body,html,p {font-size: 16px;}",
       ".t4s-product.t4s-pr-list,.is--listview .t4s-product {--pr-quickview-color: #bf1932; --pr-addtocart-color: #bf1932;}",
       "@media (max-width: 768px) {#dummy-chat-button-iframe {right: 0px !important; bottom: 70px !important; } iframe#shopifyChat {bottom: 59px !important; } #t4s-backToTop {display: none; }}",
-      "@media (min-width: 768px) {.t4s-title {font-size: 40px; } .loox-float-toggler-container .loox-float-toggler {background-color: #444 !important; border-radius: 40px !important; padding: 24px; } .loox-float-toggler-container {right: initial; left: 24px; transform: none; bottom: 24px; top: initial; width: auto; }}"
+      "@media (min-width: 768px) {.t4s-title {font-size: 40px; } .loox-float-toggler-container .loox-float-toggler {background-color: #444 !important; border-radius: 40px !important; padding: 24px; } .loox-float-toggler-container {right: initial; left: 24px; transform: none; bottom: 24px; top: initial; width: auto; }}",
+      "@media (hover: none), (pointer: coarse) {input, textarea, select, button, .t4s-btn, form * {transition: none !important; transform: none !important; }}"
     ]
   }
 }

@@ -87,144 +87,6 @@
         "pd_mb": ""
       }
     },
-    "09f268f6-775b-4f44-ab3a-2fb9abf6202a": {
-      "type": "lookbook-slider",
-      "blocks": {
-        "template--16756803535088__09f268f6-775b-4f44-ab3a-2fb9abf6202a-168587486702a3fbb0-0": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/MEET_YOUR_NEW_BEST_FRIENDS..png"
-          }
-        },
-        "94c04e02-2a61-4154-ba13-3695ca9dd51b": {
-          "type": "pr",
-          "settings": {
-            "pos_t": 50,
-            "pos_l": 81,
-            "type": "1",
-            "shorttxt": "$59",
-            "pos_size": "small",
-            "bg_cl": "#19bfa6",
-            "cl_text": "#ffffff",
-            "product": "fat-burner-apple-cider-fruit-juice"
-          }
-        },
-        "219034ab-2294-4a5e-9211-2602e735bcac": {
-          "type": "pr",
-          "settings": {
-            "pos_t": 88,
-            "pos_l": 56,
-            "type": "1",
-            "shorttxt": "$59",
-            "pos_size": "small",
-            "bg_cl": "#19bfa6",
-            "cl_text": "#ffffff",
-            "product": "shortcutx-teh-tarik-slimming-tea"
-          }
-        },
-        "1a38060c-3780-4fa9-aae5-3e78ab1e2f7e": {
-          "type": "pr",
-          "settings": {
-            "pos_t": 80,
-            "pos_l": 7,
-            "type": "1",
-            "shorttxt": "$59",
-            "pos_size": "small",
-            "bg_cl": "#19bfa6",
-            "cl_text": "#ffffff",
-            "product": "shortcutx-flat-tummy-shakes-strawberry-cheesecake"
-          }
-        },
-        "34178054-5b11-4871-ad66-0817ff729277": {
-          "type": "pr",
-          "settings": {
-            "pos_t": 11,
-            "pos_l": 90,
-            "type": "1",
-            "shorttxt": "$59",
-            "pos_size": "medium",
-            "bg_cl": "#19bfa6",
-            "cl_text": "#ffffff",
-            "product": "shortcutx-flat-tummy-shakes-chocolate-brownie"
-          }
-        },
-        "4f2a1a5a-b87d-4734-9618-0cc778acccd9": {
-          "type": "pr",
-          "settings": {
-            "pos_t": 9,
-            "pos_l": 40,
-            "type": "1",
-            "shorttxt": "$59",
-            "pos_size": "medium",
-            "bg_cl": "#19bfa6",
-            "cl_text": "#ffffff",
-            "product": "shortcutx-slimming-coffee-caramel-machiatto"
-          }
-        },
-        "cb7e8068-420c-4c71-82b3-1ebb515ae351": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/website_second_page.png"
-          }
-        },
-        "b9762404-5f0c-4e3e-a8f2-89b6f9fc4d3f": {
-          "type": "pr",
-          "disabled": true,
-          "settings": {
-            "pos_t": 50,
-            "pos_l": 50,
-            "type": "1",
-            "shorttxt": "$59",
-            "pos_size": "medium",
-            "bg_cl": "#19bfa6",
-            "cl_text": "#ffffff",
-            "product": "shortcutx-30-day-weight-loss-kit"
-          }
-        }
-      },
-      "block_order": [
-        "template--16756803535088__09f268f6-775b-4f44-ab3a-2fb9abf6202a-168587486702a3fbb0-0",
-        "94c04e02-2a61-4154-ba13-3695ca9dd51b",
-        "219034ab-2294-4a5e-9211-2602e735bcac",
-        "1a38060c-3780-4fa9-aae5-3e78ab1e2f7e",
-        "34178054-5b11-4871-ad66-0817ff729277",
-        "4f2a1a5a-b87d-4734-9618-0cc778acccd9",
-        "cb7e8068-420c-4c71-82b3-1ebb515ae351",
-        "b9762404-5f0c-4e3e-a8f2-89b6f9fc4d3f"
-      ],
-      "disabled": true,
-      "settings": {
-        "eff": "slide",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": true,
-        "btn_vi": "always",
-        "btn_owl": "simple",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "large",
-        "btn_hidden_mobile": false,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "pr_pin_des": "1",
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
-    },
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
@@ -2186,9 +2048,8 @@
     }
   },
   "order": [
-    "top",
-    "09f268f6-775b-4f44-ab3a-2fb9abf6202a",
     "1646028739ae283905",
+    "top",
     "7ae682bd-8cdc-4092-8235-21bbc7ff5aac",
     "slideshow_rkhJnA",
     "6539eb23-5ca8-4d72-8477-f441439a0d2a",
