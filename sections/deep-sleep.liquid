@@ -1,0 +1,526 @@
+{%- comment -%}
+  ShortcutX Deep Sleep — Landing Page Section
+  Install instructions:
+  1. Upload all files in assets/ to Shopify Admin → Themes → Assets
+  2. Add sections/deep-sleep.liquid to your theme's sections/ folder
+  3. Add templates/page.deep-sleep.json to your theme's templates/ folder
+  4. In Shopify Admin → Online Store → Pages, create a page and set template to "deep-sleep"
+  5. Update VARIANT_ID in assets/deep-sleep.js with the real Shopify product variant ID
+{%- endcomment -%}
+
+{{ 'deep-sleep.css' | asset_url | stylesheet_tag }}
+  
+
+<nav id="nav">
+  <a href="#" class="nav-logo"><img src="{{ 'ds-logo.png' | asset_url }}" alt="ShortcutX" class="nav-logo-img"></a>
+  <a href="#shop" class="nav-cta">Shop Now</a>
+</nav>
+<a href="#shop" id="float-cta">Try It for 7 Nights</a>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="stars"></canvas>
+  <img class="hero-bg" src="{{ 'ds-hero-bg.jpg' | asset_url }}" alt="Deep Sleep by ShortcutX">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-stars-row">
+      <span class="hero-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span class="hero-rating">4.9 &nbsp;&middot;&nbsp; 1,200+ reviews</span>
+    </div>
+    <p class="hero-eyebrow">ShortcutX Deep Sleep  /  7 Sachets &middot; 35ml each</p>
+    <h1 class="hero-headline">
+      It&rsquo;s <em>3am.</em><br>
+      You&rsquo;re still<br>awake.
+    </h1>
+    <p class="hero-sub">You&rsquo;ve tried everything. The meditation apps. The podcasts. Counting backwards. Nothing sticks. We made something that does.</p>
+    <div class="hero-cta-row">
+      <a href="#shop" class="btn-primary">Get Better Sleep</a>
+      <span class="hero-pack">7 Sachets per Pack &nbsp;&middot;&nbsp; Free shipping above SGD $100</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section id="problem">
+  <div class="section-label" data-r data-delay="0">The problem</div>
+  <h2 class="problem-headline" data-r data-delay="1">Poor sleep is an <span>epidemic</span> hiding in plain sight.</h2>
+  <div class="problem-grid">
+    <div class="problem-item" data-r data-delay="0">
+      <div class="problem-num">01</div>
+      <div class="problem-text">Can&rsquo;t fall asleep</div>
+      <div class="problem-detail">Mind racing. Every worry replays on loop. The ceiling becomes familiar. Hours pass.</div>
+    </div>
+    <div class="problem-item" data-r data-delay="1">
+      <div class="problem-num">02</div>
+      <div class="problem-text">Wake at 3am</div>
+      <div class="problem-detail">You finally drift off, then bolt awake at 3am for no reason. You know the feeling.</div>
+    </div>
+    <div class="problem-item" data-r data-delay="2">
+      <div class="problem-num">03</div>
+      <div class="problem-text">Groggy mornings</div>
+      <div class="problem-detail">Eight hours in bed, zero quality sleep. Foggy. Heavy. You drag yourself through the day.</div>
+    </div>
+  </div>
+  <div class="problem-stat">
+    <div class="stat-big" data-r data-delay="0">62%</div>
+    <div class="stat-copy" data-r data-delay="1">
+      <p>of adults don&rsquo;t get the sleep they need every single night.</p>
+      <small>American Sleep Association, 2024</small>
+    </div>
+  </div>
+</section>
+
+<!-- SLEEP FACT -->
+<section id="sleep-fact">
+  <div class="fact-eyebrow" data-r>Did you know?</div>
+  <div class="fact-stat" data-r data-delay="1">1 in 3</div>
+  <div class="fact-sub" data-r data-delay="2">adults struggle with sleep. Not occasionally. Every night.</div>
+</section>
+
+<!-- REVEAL -->
+<section id="reveal">
+  <div class="reveal-left" data-r data-delay="0">
+    <div>
+      <h2 class="reveal-hl">We made<br>something<br>for <em>that.</em></h2>
+      <p class="reveal-body">Deep Sleep is a 35ml ready-to-drink liquid sleep support shot. 7 sachets per pack. Real, restorative sleep.</p>
+      <p class="reveal-body" style="margin-top:16px;color:var(--muted);">Experience what a real deep sleep does to your body: the energy, the clarity, the difference in how you show up. You&rsquo;ll come back for more on your own terms.</p>
+      <div class="reveal-pills">
+        <span class="pill">7 Sachets / Pack</span>
+        <span class="pill">35ml Each</span>
+        <span class="pill">Vegan</span>
+        <span class="pill">Non-Habit Forming</span>
+        <span class="pill">Sugar-Free</span>
+      </div>
+      <div class="reveal-pack">
+        <span class="pack-price">SGD $30</span>
+        <span class="pack-detail">/ 7-pack</span>
+      </div>
+      <a href="#shop" class="btn-primary">Get Better Sleep</a>
+    </div>
+  </div>
+  <div class="reveal-right">
+    <img class="reveal-img" src="{{ 'ds-lifestyle.jpg' | asset_url }}" alt="ShortcutX Deep Sleep">
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<div class="ing-header">
+  <div class="ing-section-label" data-r data-delay="0">How it works</div>
+  <h2 class="ing-section-hl" data-r data-delay="1">Eight precision<br>ingredients.<br>One deep night.</h2>
+</div>
+<section id="ingredients-section">
+  <div class="ing-sticky">
+    <div class="ing-track" id="ing-track">
+      <div class="ing-card ing-card-0"><img class="ing-bg-img" src="{{ 'ds-ing-valerian.jpg' | asset_url }}" alt="" aria-hidden="true"><div class="ing-fade"></div>
+        <div class="ing-bg-num">VR</div>
+        <div class="ing-content">
+<div class="ing-card-label">Ingredient 01 of 08</div>
+          <div class="ing-name">Valerian Root<br>Extract</div>
+          <div class="ing-tagline">The Sleep Herb</div>
+          <div class="ing-body">Traditionally used to support relaxation and restful sleep. One of the most studied botanicals in bedtime wellness formulas.</div>
+        </div>
+      </div>
+      <div class="ing-card ing-card-1"><img class="ing-bg-img" src="{{ 'ds-ing-lemon-balm.jpg' | asset_url }}" alt="" aria-hidden="true"><div class="ing-fade"></div>
+        <div class="ing-bg-num">LB</div>
+        <div class="ing-content">
+<div class="ing-card-label">Ingredient 02 of 08</div>
+          <div class="ing-name">Lemon Balm<br>Extract</div>
+          <div class="ing-tagline">The Calm Maker</div>
+          <div class="ing-body">Used to support calmness and relaxation. A gentle botanical that helps quiet an overactive mind so the body can ease toward sleep.</div>
+        </div>
+      </div>
+      <div class="ing-card ing-card-2"><img class="ing-bg-img" src="{{ 'ds-ing-ashwagandha.jpg' | asset_url }}" alt="" aria-hidden="true"><div class="ing-fade"></div>
+        <div class="ing-bg-num">KSM</div>
+        <div class="ing-content">
+<div class="ing-card-label">Ingredient 03 of 08</div>
+          <div class="ing-name">Ashwagandha<br>KSM&#8209;66</div>
+          <div class="ing-tagline">The Stress Adaptogen</div>
+          <div class="ing-body">Traditionally used as an adaptogen to support stress management and relaxation. KSM-66 is the most clinically studied ashwagandha extract available.</div>
+        </div>
+      </div>
+      <div class="ing-card ing-card-3"><img class="ing-bg-img" src="{{ 'ds-ing-passionflower.jpg' | asset_url }}" alt="" aria-hidden="true"><div class="ing-fade"></div>
+        <div class="ing-bg-num">PF</div>
+        <div class="ing-content">
+<div class="ing-card-label">Ingredient 04 of 08</div>
+          <div class="ing-name">Passionflower<br>Extract</div>
+          <div class="ing-tagline">The Tension Release</div>
+          <div class="ing-body">Traditionally used to promote relaxation and support sleep quality. Works alongside the botanical blend to ease the body toward rest.</div>
+        </div>
+      </div>
+      <div class="ing-card ing-card-4"><img class="ing-bg-img" src="{{ 'ds-ing-magnesium.jpg' | asset_url }}" alt="" aria-hidden="true"><div class="ing-fade"></div>
+        <div class="ing-bg-num">Mg</div>
+        <div class="ing-content">
+<div class="ing-card-label">Ingredient 05 of 08</div>
+          <div class="ing-name">Magnesium<br>Glycinate</div>
+          <div class="ing-tagline">The Relaxation Mineral</div>
+          <div class="ing-body">Supports normal nervous system and muscle function. The glycinate form ensures high absorption, so your body gets the full benefit.</div>
+        </div>
+      </div>
+      <div class="ing-card ing-card-5"><img class="ing-bg-img" src="{{ 'ds-ing-lavender.jpg' | asset_url }}" alt="" aria-hidden="true"><div class="ing-fade"></div>
+        <div class="ing-bg-num">Lv</div>
+        <div class="ing-content">
+<div class="ing-card-label">Ingredient 06 of 08</div>
+          <div class="ing-name">Lavender<br>Extract</div>
+          <div class="ing-tagline">The Wellbeing Botanical</div>
+          <div class="ing-body">Traditionally used to support relaxation and emotional wellbeing. A calming botanical that complements the formula&rsquo;s sleep-support approach.</div>
+        </div>
+      </div>
+      <div class="ing-card ing-card-6"><img class="ing-bg-img" src="{{ 'ds-ing-tart-cherry.jpg' | asset_url }}" alt="" aria-hidden="true"><div class="ing-fade"></div>
+        <div class="ing-bg-num">TC</div>
+        <div class="ing-content">
+<div class="ing-card-label">Ingredient 07 of 08</div>
+          <div class="ing-name">Tart Cherry<br>Extract</div>
+          <div class="ing-tagline">The Night Fruit</div>
+          <div class="ing-body">A fruit extract recognised in wellness and sleep-support formulations. Included to complement the formula&rsquo;s overall approach to rest and recovery.</div>
+        </div>
+      </div>
+      <div class="ing-card ing-card-7"><img class="ing-bg-img" src="{{ 'ds-ing-melatonin.jpg' | asset_url }}" alt="" aria-hidden="true"><div class="ing-fade"></div>
+        <div class="ing-bg-num">M</div>
+        <div class="ing-content">
+<div class="ing-card-label">Ingredient 08 of 08</div>
+          <div class="ing-dose">5</div>
+          <div class="ing-dose-unit">mg</div>
+          <div class="ing-name">Melatonin</div>
+          <div class="ing-tagline">Your Sleep Signal</div>
+          <div class="ing-body">5mg to support regulation of the sleep-wake cycle and reduce sleep onset time. Works with your body&rsquo;s natural rhythm to signal that it&rsquo;s time to rest.</div>
+        </div>
+      </div>
+    </div>
+    <div class="ing-progress" id="ing-progress">
+      <div class="ing-dot active"></div><div class="ing-dot"></div><div class="ing-dot"></div><div class="ing-dot"></div><div class="ing-dot"></div><div class="ing-dot"></div><div class="ing-dot"></div><div class="ing-dot"></div>
+    </div>
+    <div class="ing-scroll-hint">Keep scrolling <svg width="18" height="10" viewBox="0 0 18 10" fill="none"><path d="M1 5h16M11 1l6 4-6 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  </div>
+</section>
+
+<!-- FLAVOR -->
+<section id="flavor">
+  <div class="flavor-inner">
+    <div data-r data-delay="0">
+      <div class="flavor-label">The taste</div>
+      <h2 class="flavor-hl">Tropical<br><em>Peach &amp;</em><br>Mango</h2>
+      <p class="flavor-body">We refused to make a sleep supplement that tastes like medicine. Deep Sleep is light, refreshing, and genuinely delicious, so sipping it actually becomes the ritual you look forward to at the end of the day.</p>
+      <div class="flavor-list">
+        <div class="flavor-item">No artificial sweeteners</div>
+        <div class="flavor-item">Zero sugar crash</div>
+        <div class="flavor-item">Naturally flavored with real fruit extracts</div>
+        <div class="flavor-item">Refreshingly light, not syrupy</div>
+      </div>
+    </div>
+    <div class="flavor-img-wrap" data-r data-delay="1">
+      <img src="{{ 'ds-flavor.jpg' | asset_url }}" alt="Deep Sleep tropical peach mango">
+    </div>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section id="benefits">
+  <div class="benefit-panel">
+    <div class="benefit-scene"><canvas id="c-sleep"></canvas></div>
+    <div class="benefit-copy">
+      <div class="benefit-num" data-r data-delay="0">Benefit 01</div>
+      <h3 class="benefit-headline" data-r data-delay="1">Relax before<br>you <em>rest</em></h3>
+      <p class="benefit-body" data-r data-delay="2">Seven botanical extracts begin working 30 minutes before your head hits the pillow. Valerian Root, Lemon Balm, Lavender — preparing your body for sleep before you even close your eyes.</p>
+    </div>
+  </div>
+  <div class="benefit-panel">
+    <div class="benefit-scene"><canvas id="c-calm"></canvas></div>
+    <div class="benefit-copy">
+      <div class="benefit-num" data-r data-delay="0">Benefit 02</div>
+      <h3 class="benefit-headline" data-r data-delay="1">Silence<br>the <em>noise</em></h3>
+      <p class="benefit-body" data-r data-delay="2">Lemon Balm, Valerian Root, and Passionflower quiet the mental chatter at the source. The to-do list, the 2am spirals, the racing thoughts. They dissolve. What&rsquo;s left is stillness.</p>
+    </div>
+  </div>
+  <div class="benefit-panel">
+    <div class="benefit-scene"><canvas id="c-stay"></canvas></div>
+    <div class="benefit-copy">
+      <div class="benefit-num" data-r data-delay="0">Benefit 03</div>
+      <h3 class="benefit-headline" data-r data-delay="1">Stay<br><em>asleep</em></h3>
+      <p class="benefit-body" data-r data-delay="2">Magnesium Glycinate and Passionflower support sustained relaxation through the night. Fewer interruptions. Longer stretches of deep, restorative sleep. Quality, not just quantity.</p>
+    </div>
+  </div>
+  <div class="benefit-panel">
+    <div class="benefit-scene"><canvas id="c-dawn"></canvas></div>
+    <div class="benefit-copy">
+      <div class="benefit-num" data-r data-delay="0">Benefit 04</div>
+      <h3 class="benefit-headline" data-r data-delay="1">Wake up<br><em>restored</em></h3>
+      <p class="benefit-body" data-r data-delay="2">5mg melatonin recalibrates your sleep-wake cycle so you rise at the right time in the right state. No alarm dread. No grogginess. Just the version of you that actually slept.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO USE -->
+<section id="howtouse">
+  <div class="section-label" data-r>The ritual</div>
+  <div class="htu-grid">
+    <div class="htu-step" data-r data-delay="0">
+      <div class="htu-img-placeholder">Image</div>
+      <div class="htu-time">30 min before bed</div>
+      <div class="htu-num">01</div>
+      <div class="htu-title">Shake the shot</div>
+      <div class="htu-body">Give the 35ml bottle a quick shake to blend all the active ingredients. No mixing required.</div>
+    </div>
+    <div class="htu-step" data-r data-delay="1">
+      <div class="htu-img-placeholder">Image</div>
+      <div class="htu-time">Drink it straight</div>
+      <div class="htu-num">02</div>
+      <div class="htu-title">Down in one</div>
+      <div class="htu-body">Drink the full shot. The tropical peach &amp; mango taste makes this the easy part. No water needed.</div>
+    </div>
+    <div class="htu-step" data-r data-delay="2">
+      <div class="htu-img-placeholder">Image</div>
+      <div class="htu-time">Let it work</div>
+      <div class="htu-num">03</div>
+      <div class="htu-title">Wind down</div>
+      <div class="htu-body">Dim the lights. Put the phone down. By the time your head hits the pillow, your body is already ready.</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO IS THIS FOR -->
+<section id="whoisthisfor">
+  <div class="section-label" data-r>Is this for you?</div>
+  <h2 class="range-headline" data-r data-delay="1">Deep Sleep was built<br>for people like this.</h2>
+  <div class="wif-grid">
+    <div class="wif-item" data-r data-delay="0">
+      <div class="wif-check">&#10003;</div>
+      <div class="wif-body">
+        <div class="wif-title">You lie awake with a racing mind</div>
+        <div class="wif-desc">The moment your head hits the pillow, your brain kicks into overdrive. Replaying conversations, planning tomorrow, unable to switch off. Sound familiar?</div>
+      </div>
+    </div>
+    <div class="wif-item" data-r data-delay="1">
+      <div class="wif-check">&#10003;</div>
+      <div class="wif-body">
+        <div class="wif-title">You wake at 2am and can&rsquo;t go back</div>
+        <div class="wif-desc">You fall asleep fine but can&rsquo;t stay there. Wide awake at 2am with no way back. You&rsquo;re running the next day on five broken hours.</div>
+      </div>
+    </div>
+    <div class="wif-item" data-r data-delay="2">
+      <div class="wif-check">&#10003;</div>
+      <div class="wif-body">
+        <div class="wif-title">You feel groggy after 8 hours</div>
+        <div class="wif-desc">You slept the full night but woke up exhausted. The kind of sleep that doesn&rsquo;t restore. You&rsquo;re tired of being tired, and you know the answer isn&rsquo;t more hours.</div>
+      </div>
+    </div>
+    <div class="wif-item" data-r data-delay="3">
+      <div class="wif-check">&#10003;</div>
+      <div class="wif-body">
+        <div class="wif-title">You travel, work shifts, or cross time zones</div>
+        <div class="wif-desc">Your schedule doesn&rsquo;t follow the sun. You need something portable, reliable, and non-habit forming you can reach for whenever your body clock needs a reset.</div>
+      </div>
+    </div>
+    <div class="wif-item" data-r data-delay="0">
+      <div class="wif-check">&#10003;</div>
+      <div class="wif-body">
+        <div class="wif-title">You&rsquo;re burnt out and can&rsquo;t switch off</div>
+        <div class="wif-desc">The hustle follows you to bed. Work stress, life stress, it doesn&rsquo;t matter. By the time you&rsquo;re lying down, your body still thinks it&rsquo;s game time.</div>
+      </div>
+    </div>
+    <div class="wif-item" data-r data-delay="1">
+      <div class="wif-check">&#10003;</div>
+      <div class="wif-body">
+        <div class="wif-title">You&rsquo;ve tried supplements and hated the morning fog</div>
+        <div class="wif-desc">You don&rsquo;t want to be sedated. You want clean, effortless sleep that leaves you sharp when you wake. Something that works with your body, not over it.</div>
+      </div>
+    </div>
+  </div>
+  <div class="wif-cta">
+    <p>If you ticked any of these, Deep Sleep was made for you.</p>
+    <a href="#shop" class="btn-xl">Try It for 7 Nights</a>
+  </div>
+</section>
+
+<!-- NIGHT RANGE -->
+<section id="nightrange">
+  <div class="section-label" data-r>The ShortcutX Night Range</div>
+  <h2 class="range-headline" data-r data-delay="1">Three products.<br>One mission:<br>Own the night.</h2>
+  <div class="range-grid">
+    <div class="range-card">
+      <img src="{{ 'ds-range-nfb.jpg' | asset_url }}" alt="Night Fat Burner" class="range-prod-img">
+      <span class="range-badge fat-burner">Night Fat Burner</span>
+      <div class="range-name">Night Fat Burner</div>
+      <div class="range-sub">Juice Sachet &middot; Multi-Pack</div>
+      <div class="range-best">Best for</div>
+      <div class="range-goal">Active people managing weight who want overnight metabolic support alongside better sleep.</div>
+      <div class="range-divider"></div>
+      <div class="range-rows">
+        <div class="range-row"><span class="range-row-label">Primary goal</span><span class="range-row-val">Fat burning + sleep</span></div>
+        <div class="range-row"><span class="range-row-label">Sleep Botanicals</span><span class="cross range-row-val">&#10005;</span></div>
+        <div class="range-row"><span class="range-row-label">Melatonin</span><span class="cross range-row-val">&#10005;</span></div>
+        <div class="range-row"><span class="range-row-label">L-Carnitine</span><span class="check range-row-val">&#10003;</span></div>
+        <div class="range-row"><span class="range-row-label">Fat Burning</span><span class="check range-row-val">&#10003;</span></div>
+        <div class="range-row"><span class="range-row-label">Flavor</span><span class="range-row-val">Lavender</span></div>
+      </div>
+      <div class="range-when">
+        <div class="range-when-label">When to use</div>
+        <div class="range-when-val">Nightly when you have active weight management goals. Keto &amp; diabetic-friendly.</div>
+      </div>
+      <a href="https://shortcutx.co/collections/frontpage/products/shortcutx-night-fat-burner-juice" target="_blank" class="range-shop">Shop Fat Burner</a>
+    </div>
+    <div class="range-card new-product">
+      <img src="{{ 'ds-range-ds.jpg' | asset_url }}" alt="Deep Sleep" class="range-prod-img">
+      <div class="new-badge">&#10022; New Launch</div>
+      <span class="range-badge deep-sleep">Most Popular</span>
+      <div class="range-name">Deep Sleep</div>
+      <div class="range-sub">35ml Liquid Sachet &middot; 7-Pack</div>
+      <div class="range-best">Best for</div>
+      <div class="range-goal">Anyone who struggles to fall or stay asleep and wants clinically-backed ingredients in a clean, fast-absorbing format.</div>
+      <div class="range-divider"></div>
+      <div class="range-rows">
+        <div class="range-row"><span class="range-row-label">Primary goal</span><span class="range-row-val">Sleep quality</span></div>
+        <div class="range-row"><span class="range-row-label">Sleep Botanicals</span><span class="check range-row-val">&#10003; 8 actives</span></div>
+        <div class="range-row"><span class="range-row-label">Melatonin</span><span class="check range-row-val">&#10003; 5mg</span></div>
+        <div class="range-row"><span class="range-row-label">Magnesium</span><span class="check range-row-val">&#10003;</span></div>
+        <div class="range-row"><span class="range-row-label">Fat Burning</span><span class="cross range-row-val">&#10005;</span></div>
+        <div class="range-row"><span class="range-row-label">Flavor</span><span class="range-row-val">Tropical Peach &amp; Mango</span></div>
+      </div>
+      <div class="range-when">
+        <div class="range-when-label">When to use</div>
+        <div class="range-when-val">Every night you need real, restorative sleep. Non-habit forming.</div>
+      </div>
+      <a href="#shop" class="range-shop">Get Better Sleep</a>
+    </div>
+    <div class="range-card">
+      <img src="{{ 'ds-range-nhc.jpg' | asset_url }}" alt="Night Hot Chocolate" class="range-prod-img">
+      <span class="range-badge hot-choc">Night Hot Chocolate</span>
+      <div class="range-name">Night Hot Chocolate</div>
+      <div class="range-sub">Sachet &middot; 15-Pack</div>
+      <div class="range-best">Best for</div>
+      <div class="range-goal">People who crave a warm bedtime ritual and want to curb late-night snacking while easing into sleep.</div>
+      <div class="range-divider"></div>
+      <div class="range-rows">
+        <div class="range-row"><span class="range-row-label">Primary goal</span><span class="range-row-val">Relaxation + appetite</span></div>
+        <div class="range-row"><span class="range-row-label">Ashwagandha</span><span class="check range-row-val">&#10003; KSM-66&reg;</span></div>
+        <div class="range-row"><span class="range-row-label">Melatonin</span><span class="cross range-row-val">&#10005;</span></div>
+        <div class="range-row"><span class="range-row-label">Appetite control</span><span class="check range-row-val">&#10003;</span></div>
+        <div class="range-row"><span class="range-row-label">Fat Burning</span><span class="cross range-row-val">&#10005;</span></div>
+        <div class="range-row"><span class="range-row-label">Flavor</span><span class="range-row-val">Chocolate</span></div>
+      </div>
+      <div class="range-when">
+        <div class="range-when-label">When to use</div>
+        <div class="range-when-val">When you want a comforting warm drink ritual and need to manage late-night cravings.</div>
+      </div>
+      <a href="https://shortcutx.co/products/night-hot-chocolate" target="_blank" class="range-shop">Shop Hot Chocolate</a>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section id="compare">
+  <div class="section-label" data-r>Deep Sleep vs. the market</div>
+  <h2 class="range-headline" data-r data-delay="1">Why Deep Sleep<br>wins.</h2>
+  <div class="compare-table-wrap">
+    <table class="cmp">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="col-ds">Deep Sleep</th>
+          <th>Sleep Gummies</th>
+          <th>Melatonin Pills</th>
+          <th>Prescription Aids</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Fast liquid absorption</td><td class="col-ds"><span class="tick">&#10003;</span></td><td><span class="x">&#10005;</span></td><td><span class="x">&#10005;</span></td><td><span class="tick">&#10003;</span></td></tr>
+        <tr><td>Precision melatonin (5mg)</td><td class="col-ds"><span class="tick">&#10003;</span></td><td><span class="x">&#10005;</span></td><td><span class="x">&#10005;</span></td><td><span class="na">N/A</span></td></tr>
+        <tr><td>No next-morning grogginess</td><td class="col-ds"><span class="tick">&#10003;</span></td><td><span class="x">&#10005;</span></td><td><span class="x">&#10005;</span></td><td><span class="x">&#10005;</span></td></tr>
+        <tr><td>Non-habit forming</td><td class="col-ds"><span class="tick">&#10003;</span></td><td><span class="tick">&#10003;</span></td><td><span class="tick">&#10003;</span></td><td><span class="x">&#10005;</span></td></tr>
+        <tr><td>Multi-ingredient formula</td><td class="col-ds"><span class="tick">&#10003;</span></td><td><span class="x">&#10005;</span></td><td><span class="x">&#10005;</span></td><td><span class="tick">&#10003;</span></td></tr>
+        <tr><td>Vegan &amp; clean label</td><td class="col-ds"><span class="tick">&#10003;</span></td><td><span class="x">&#10005;</span></td><td><span class="tick">&#10003;</span></td><td><span class="na">N/A</span></td></tr>
+        <tr><td>Sugar-free</td><td class="col-ds"><span class="tick">&#10003;</span></td><td><span class="x">&#10005;</span></td><td><span class="tick">&#10003;</span></td><td><span class="tick">&#10003;</span></td></tr>
+        <tr><td>No prescription required</td><td class="col-ds"><span class="tick">&#10003;</span></td><td><span class="tick">&#10003;</span></td><td><span class="tick">&#10003;</span></td><td><span class="x">&#10005;</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="section-label" data-r>What they&rsquo;re saying</div>
+  <h2 class="range-headline" data-r data-delay="1">Real nights.<br>Real results.</h2>
+  <div class="reviews-grid">
+    <div class="review-card" data-r data-delay="0">
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-quote">&ldquo;I&rsquo;ve been a light sleeper my whole life. Night one with Deep Sleep and I made it to 6am without waking up once. First time in years.&rdquo;</p>
+      <div class="review-author">Sarah M.</div>
+      <div class="review-tag">Verified Purchase &middot; Singapore</div>
+    </div>
+    <div class="review-card" data-r data-delay="1">
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-quote">&ldquo;The taste is actually really good, and that alone keeps me consistent. But the real win is waking up without that groggy melatonin hangover I used to get.&rdquo;</p>
+      <div class="review-author">Marcus T.</div>
+      <div class="review-tag">Verified Purchase &middot; KL</div>
+    </div>
+    <div class="review-card" data-r data-delay="2">
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-quote">&ldquo;I&rsquo;m a night-shift nurse. My sleep schedule is all over the place. Deep Sleep has been the only thing that actually helps me switch off when I need to.&rdquo;</p>
+      <div class="review-author">Priya K.</div>
+      <div class="review-tag">Verified Purchase &middot; Singapore</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-label" data-r>Common questions</div>
+  <h2 class="range-headline" data-r data-delay="1">Everything<br>you need to know.</h2>
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-q">Is Deep Sleep habit-forming?<span class="faq-icon">+</span></div>
+      <div class="faq-a"><div class="faq-a-inner">No, and this matters more than people realise. Deep Sleep is built around botanicals like Valerian Root, Lemon Balm, and Passionflower, which support your body&rsquo;s own relaxation pathways rather than forcing sedation. They&rsquo;re non-addictive by nature. The 5mg melatonin works with your circadian rhythm, not against it, so your body never becomes dependent on it to produce its own melatonin. You can take Deep Sleep every night or just when you need it. Either way, stopping is effortless.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Will it make me groggy the next morning?<span class="faq-icon">+</span></div>
+      <div class="faq-a"><div class="faq-a-inner">No. This is something we thought hard about. Many sleep supplements use 5&ndash;10mg of melatonin, which floods your system and lingers into the morning, that&rsquo;s what causes the foggy head. Deep Sleep uses a precise 5mg dose, calibrated for overnight effectiveness without the hangover. The botanical ingredients are lipid-soluble and metabolise efficiently, so by the time your alarm goes off, your body has processed them cleanly. You wake up rested, not sedated.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">When will I feel results?<span class="faq-icon">+</span></div>
+      <div class="faq-a"><div class="faq-a-inner">Most people notice something on the first night: a gentler wind-down, less time staring at the ceiling. Because it&rsquo;s a liquid shot, the ingredients absorb significantly faster than capsules or gummies, which have to dissolve before your body can use them. For the deeper benefits (staying asleep longer, waking up more restored), most users report a clear shift within 3 to 5 nights as the botanical compounds build consistency in your system. Take it 20&ndash;30 minutes before bed for the best results.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What does it taste like?<span class="faq-icon">+</span></div>
+      <div class="faq-a"><div class="faq-a-inner">Tropical Peach &amp; Mango: light, clean, and genuinely refreshing. We spent time getting this right because the last thing you want before bed is something that tastes like medicine or leaves an aftertaste. There are zero artificial sweeteners, zero sugar, and no chemical finish. Just a small shot you&rsquo;ll actually look forward to. It doubles as a nice pre-sleep ritual too: a quiet moment that signals to your body: it&rsquo;s time to wind down.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is it safe to take with medication?<span class="faq-icon">+</span></div>
+      <div class="faq-a"><div class="faq-a-inner">If you&rsquo;re on prescribed medication, please check with your doctor or pharmacist before adding any supplement, and that applies to Deep Sleep as it would to anything else. Melatonin can interact with certain medications including blood thinners, immunosuppressants, and some antidepressants. The botanical ingredients (Valerian Root, Ashwagandha, Passionflower, and others) are generally well-tolerated, but individual circumstances vary. When in doubt, a quick conversation with your healthcare provider takes two minutes and gives you complete clarity.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is it vegan and allergen-free?<span class="faq-icon">+</span></div>
+      <div class="faq-a"><div class="faq-a-inner">Yes, fully. Deep Sleep is 100% vegan, non-GMO, gluten-free, and dairy-free. We use no artificial colours, no artificial preservatives, and no fillers. Every ingredient is either a plant extract or a mineral (Magnesium Glycinate), and the formula is manufactured to GMP standards. If you have specific allergen concerns, the full ingredient list is available on the label and we&rsquo;re happy to answer any questions directly.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="final">
+  <canvas id="c-final"></canvas>
+  <div class="final-content">
+    <div class="final-kicker" data-r>ShortcutX Deep Sleep</div>
+    <h2 class="final-hl" data-r data-delay="1">Your best sleep<br><em>starts tonight.</em></h2>
+    <p class="final-sub" data-r data-delay="2">7 sachets. Every night you deserve to rest.</p>
+    <div class="qty-wrap" data-r data-delay="2">
+      <span class="qty-label">Packs</span>
+      <div class="qty-control">
+        <button class="qty-btn" id="qty-down" aria-label="Decrease quantity">&#8722;</button>
+        <span class="qty-num" id="qty-num">1</span>
+        <button class="qty-btn" id="qty-up" aria-label="Increase quantity">&#43;</button>
+      </div>
+      <span class="qty-price" id="qty-price">SGD $30</span>
+    </div>
+    <div class="qty-shipping-status" id="qty-shipping"></div>
+    <div class="final-cta-row" data-r data-delay="3">
+      <a href="#" class="btn-xl" id="shop">Get Better Sleep</a>
+    </div>
+    <div class="final-trust" data-r data-delay="3">&#9733;&#9733;&#9733;&#9733;&#9733; &nbsp;4.9 &middot; 1,200+ reviews &nbsp;&middot;&nbsp; Non-habit forming &nbsp;&middot;&nbsp; Vegan</div>
+    <div class="final-guarantee" data-r data-delay="4">&#9733; &nbsp;We&rsquo;re confident you&rsquo;ll feel the difference. Come back for more.</div>
+  </div>
+</section>
+
+<footer>
+  <a href="#" class="nav-logo"><img src="{{ 'ds-logo.png' | asset_url }}" alt="ShortcutX" class="nav-logo-img footer-logo-img"></a>
+  <span class="footer-note">&copy; 2026 ShortcutX. SG&rsquo;s #1 Supplement Brand.</span>
+</footer>
+
+<script src="{{ 'deep-sleep.js' | asset_url }}" defer></script>
