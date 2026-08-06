@@ -1,0 +1,163 @@
+
+{%- comment -%} Start Tapita Meta Data {%- endcomment -%}
+{%- assign pageType = request.page_type -%}
+{%- if pageType == 'product' or pageType == 'collection' or pageType == 'article' or pageType == 'list-collections' -%}
+  {%- if pageType == 'product' -%}
+    {%- assign templateType = 'products' -%}
+  {%- endif -%}
+  {%- if pageType == 'collection' or pageType == 'list-collections' -%}
+    {%- if collection.title and collection.handle -%}
+        {%- assign templateType = 'collections' -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if pageType == 'article' -%}
+    {%- assign templateType = 'articles' -%}
+  {%- endif -%}
+  {%- if templateType and shop.metafields.tapita-seo-schema and shop.metafields.tapita-seo-schema.tapita-meta-array -%}
+      {%- assign variableMapper = "shop.name,shop.description,shop.currency,shop.phone,shop.address.country,product.title,product.description,product.type,product.vendor,product.variants.title,product.variants.sku,collection.title,collection.description,collection.products_count,article.title,article.author,article.excerpt_or_content,article.content,article.excerpt,product.id,product.price,page.meta.title,page.meta.description" | split: ',' -%}
+      {%- capture variableValueMapper -%}{{shop.name}},tp,{{shop.description | strip_html}},tp,{{shop.currency}},tp,{{shop.phone}},tp,{{shop.address.country}},tp,{{product.title}},tp,{{product.description | strip_html}},tp,{{product.type}},tp,{{product.vendor}},tp,{{product.variants.title}},tp,{{product.variants.sku}},tp,{{collection.title}},tp,{{collection.description | strip_html}},tp,{{collection.products_count}},tp,{{article.title}},tp,{{article.author}},tp,{{article.excerpt_or_content | strip_html}},tp,{{article.content | strip_html}},tp,{{article.excerpt}},tp,{{product.id}},tp,{{product.price | divided_by: 100.0}},tp,{{ product.metafields.global.title_tag }},tp,{{ product.metafields.global.description_tag }}{%- endcapture -%}
+      {%- assign variableValueMapper = variableValueMapper | split: ',tp,' -%}
+      {%- assign meta_tcontents = shop.metafields.tapita-seo-schema.tapita-meta-array -%}
+      {%- assign meta_templates = meta_tcontents.value -%} 
+      {%- assign meta_templates = meta_templates | sort: "priority"| reverse  -%} 
+      {%- assign meta_templates = meta_templates | where: "type", templateType  -%}
+      {%- assign current_product_handle = product.handle -%}
+      {%- assign current_product_collection_handles = product.collections | map: "handle" -%}
+      {%- assign current_blog_article = article.handle | split: "/" -%}
+      {%- assign current_collection_handle =  collection.handle -%}
+      {%- for meta_template in meta_templates -%}
+        {%- unless meta_template.language == shop.locale or meta_template.language == 'all' -%}{%- continue -%}{%- endunless -%}
+        {%- assign meta_apply_to_handles =  meta_template.apply_to_handles | split: ',' -%}
+        {%- assign meta_apply_to =  meta_template.apply_to -%}
+        {%-  if meta_apply_to == 'product' -%}
+          {%- unless meta_apply_to_handles contains current_product_handle -%}{%- continue -%}{%- endunless -%}
+        {%- elsif meta_apply_to == 'collection' -%}
+          {%-  if templateType == 'collections' -%}
+            {%- unless meta_apply_to_handles contains current_collection_handle -%}{%- continue -%}{%-endunless -%}
+          {%- elsif templateType == "products" -%}
+            {%- assign productNotValid = true -%}
+            {%- for current_product_collection_handle in current_product_collection_handles -%}
+              {%- if meta_apply_to_handles contains current_product_collection_handle -%}{%- assign productNotValid = false -%}{%- endif -%}
+            {%- endfor -%}
+            {%- if productNotValid -%}{%- continue -%}{%- endif -%}
+          {%- endif -%}
+        {%- elsif meta_apply_to == 'blogs' -%}
+            {%- unless meta_apply_to_handles contains current_blog_article[0] -%}{%- continue -%}{%- endunless -%}
+        {%- elsif meta_apply_to == 'articles' -%}
+            {%- unless meta_apply_to_handles contains current_blog_article[1] -%}{%- continue -%}{%- endunless -%}
+        {%- endif -%}
+        {%-  assign new_page_title = meta_template.meta_title_value | strip_html -%}
+        {%-  assign new_page_description = meta_template.meta_description_value | strip_html -%}
+        {%-  assign new_page_description = new_page_description | replace: '"', "'" -%}
+        {%- for i in (0..22) -%}
+            {%- assign variableValueItem =  variableValueMapper[i] | slice: 0, 135 | strip_html -%}
+            {%- if variableMapper[i] == "page.meta.title" -%}
+                {%- if product.metafields.global.title_tag.value  -%}
+                {%- assign variableValueItem = product.metafields.global.title_tag.value -%}
+                {%- elsif product.title  -%}
+                {%- assign variableValueItem = product.title -%}
+                {%- elsif collection.metafields.global.title_tag.value  -%}
+                {%- assign variableValueItem = collection.metafields.global.title_tag.value -%}
+                {%- elsif collection.title -%}
+                {%- assign variableValueItem = collection.title -%}
+                {%- elsif page_title -%}
+                {%- assign variableValueItem = page_title | strip_html -%}
+                {%- else %}
+                {%- assign variableValueItem = page_title -%}
+                {%- endif -%}
+            {%- elsif variableMapper[i] == "page.meta.description"  -%}
+                {%- if product.metafields.global.description_tag.value  -%}
+                {%- assign variableValueItem = product.metafields.global.description_tag.value -%}
+                {%- elsif collection.metafields.global.description_tag.value  -%}
+                {%- assign variableValueItem = collection.metafields.global.description_tag.value -%}
+                {%- elsif page_description -%}
+                {%- assign variableValueItem = page_description | strip_html -%}
+                {%- elsif collection.description -%}
+                {%- assign variableValueItem = collection.description | strip_html -%}
+                {%- else %}
+                {%- assign variableValueItem = page_description | strip_html -%}
+                {%- endif -%}
+            {%- elsif variableMapper[i] == "product.variants.sku" -%}
+                {%- assign variableValueItem = product.variants | map: 'sku' | join: ', ' -%}
+            {%- endif -%}
+            {%-  assign new_page_title = new_page_title | replace: variableMapper[i], variableValueItem -%}
+            {%-  assign new_page_description = new_page_description | replace: variableMapper[i], variableValueItem -%}
+        {%- endfor %}
+        
+        {%-  assign page_title = new_page_title | strip_html | url_decode | replace: '&quot;', '"' -%}
+        {%-  assign page_description = new_page_description | strip_html | url_decode -%}
+        {%-  assign page_description = new_page_description | replace: '"', "'" -%}
+        <script>
+        var tapita_meta_page_title =  `{{  page_title | replace: '&quot;', '"' | replace: '&nbsp;', ' ' | replace: '&amp;', '&'  }}`;
+        var tapita_meta_page_description = `{{  page_description | replace: '&quot;', '"' | replace: '&nbsp;', ' ' | replace: '&amp;', '&'  }}`;
+        </script>
+        {%- break -%}
+      {%- endfor -%}
+  {%- endif -%}
+{%- endif -%}
+{%- comment -%} Start of AI Custom Meta Data {%- endcomment -%}
+{%- if shop.metafields.tapita-seo-schema and shop.metafields.tapita-seo-schema.tapita-ai-meta-object-1 -%}
+    {%- assign aicustom_tcontents = "" | split: "," -%}
+    {%- for i in (1..100) -%}
+      {%- assign key = "tapita-ai-meta-object-" | append: i -%}
+      {%- assign mf = shop.metafields['tapita-seo-schema'][key] -%}
+      {%- if mf and mf.value != blank -%}
+        {%- assign aicustom_tcontents = aicustom_tcontents | concat: mf.value -%}
+      {%- else -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign current_product_handle = product.handle | prepend: "/products/" -%}
+    {%- assign current_collection_handle = collection.handle | prepend: "/collections/" -%}
+    {%- assign current_page_handle = page.handle | prepend: "/pages/" -%}
+    {%- assign aicustom_tcontents = aicustom_tcontents | where: "language", shop.locale  -%}
+    {%- for aicustom_tcontent in aicustom_tcontents -%}
+      {%- assign handle_decoded = aicustom_tcontent.handle | url_decode | url_decode -%}
+      {%- assign handle_with_language = handle_decoded | prepend: aicustom_tcontent.language -%}
+      {%- assign handle_with_language = handle_with_language | prepend: "/" -%}
+      {%- assign tptmetamatched = false -%}
+      {%- assign request_path = request.path | remove_first: request.locale.root_url | url_decode -%}
+      {%- assign first_char = request_path | slice: 0 -%}
+      {%- unless first_char == "/" -%}
+        {%- assign request_path = "/" | append: request_path -%}
+      {%- endunless -%}
+      {%- assign request_path_with_slash = request_path | append: "/" -%}
+      {%- if handle_decoded == current_product_handle and request.page_type == "product" -%}
+        {%- assign tptmetamatched = true -%}
+      {%- elsif handle_decoded == current_collection_handle and request.page_type == "collection" -%}
+        {%- assign tptmetamatched = true -%}
+      {%- elsif handle_decoded == current_page_handle -%}
+        {%- assign tptmetamatched = true -%}
+      {%- elsif handle_decoded == request_path or handle_decoded == request_path_with_slash or handle_with_language == request_path or handle_with_language == request_path_with_slash -%}
+        {%- assign tptmetamatched = true -%}
+      {%- endif -%}
+      {%- unless tptmetamatched -%}
+        {%- if template == 'article' and handle_decoded contains '/blogs/' -%}
+          {%- assign url_parts = request_path | split: '/' -%}
+          {%- assign template_parts = handle_decoded | split: '/' -%}
+          {%- if template_parts[3] == url_parts.last and template_parts[1] == blog_handle -%}
+            {%- assign tptmetamatched = true -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endunless -%}
+      {%- if tptmetamatched -%}
+        {%- if aicustom_tcontent.title and aicustom_tcontent.title != "" -%}
+          {%-  assign page_title = aicustom_tcontent.title | strip_html | url_decode -%}
+        {%- endif -%}
+        {%- if aicustom_tcontent.description and aicustom_tcontent.description != "" -%}
+          {%-  assign page_description = aicustom_tcontent.description | strip_html | url_decode -%}
+          {%-  assign page_description = page_description | replace: '"', "'" -%}
+        {%- endif %}
+        <script>
+          //custom Meta Title
+          var tapita_meta_page_title =  `{{  page_title | replace: '&quot;', '"' | replace: '&nbsp;', ' ' | replace: '&amp;', '&'  }}`;
+          var tapita_meta_page_description = `{{ page_description | replace: '&quot;', '"' | replace: '&nbsp;', ' ' | replace: '&amp;', '&'  }}`;
+        </script>
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}
+{%- comment -%} End of Tapita Meta Data {%- endcomment -%}
+{%- comment -%} Start of assets preloading {%- endcomment -%}
+
+{%- comment -%} End of of assets preloading {%- endcomment -%}
