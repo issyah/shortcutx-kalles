@@ -55,7 +55,6 @@
         "a18bd590-b0b5-4ff8-b48d-1691167b1a7f",
         "9a953769-57c2-417a-b665-db34392c8d1c"
       ],
-      "disabled": true,
       "custom_css": [
         ".t4s-top-collections,.flickityt4s-viewport {min-height: 59px;}"
       ],
@@ -229,137 +228,12 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "164602873867eb3815-0": {
-          "type": "image_parent",
-          "name": "Spend $120, get Free Nasal Strips",
-          "settings": {
-            "image": "shopify://shop_images/nasal_strip-01_1.jpg",
-            "image_mb": "shopify://shop_images/nasal_strip-02_1.jpg",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "shopify://collections/all",
-            "open_link": "_blank",
-            "animate_slide": "none",
-            "text_align": "start",
-            "text_align_mb": "start",
-            "content_width": "container",
-            "cv_pos": 50,
-            "ch_pos": 0,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 0,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "rgba(0,0,0,0)",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 30
-          }
-        },
-        "image_parent_PjTGkK": {
-          "type": "image_parent",
-          "name": "NHC",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/NHC_Banner-01.webp",
-            "image_mb": "shopify://shop_images/NHC_Banner-02.webp",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "shopify://products/night-hot-chocolate",
-            "open_link": "_self",
-            "animate_slide": "none",
-            "text_align": "center",
-            "text_align_mb": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 40
-          }
-        },
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
-          "name": "IRL",
+          "name": "Mother's Day 12%",
           "settings": {
-            "image": "shopify://shop_images/fashBanner-desktopMain.jpg",
-            "image_mb": "shopify://shop_images/fashBanner-mobileMain.jpg",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "shopify://pages/irl",
-            "open_link": "_blank",
-            "animate_slide": "none",
-            "text_align": "start",
-            "text_align_mb": "start",
-            "content_width": "container",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 10,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 40
-          }
-        },
-        "image_parent_Qaai3a": {
-          "type": "image_parent",
-          "name": "Direct Pricing",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Artboard_1_4x_7df299ca-7480-4c8c-90e1-814ce96ce4b2.webp",
-            "image_mb": "shopify://shop_images/Artboard_2_4x_360b5c22-4e07-49d8-9467-62a52972b838.webp",
+            "image": "shopify://shop_images/Mothers_Day_Banner-01.jpg",
+            "image_mb": "shopify://shop_images/Mothers_Day_Banner-02.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
@@ -398,7 +272,6 @@
         "image_parent_xn7RGr": {
           "type": "image_parent",
           "name": "FTS NEW",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Flat_Tummy_Shakes_2.jpg",
             "image_mb": "shopify://shop_images/Flat_Tummy_Shakes_1.jpg",
@@ -437,10 +310,50 @@
             "animation_delay": 40
           }
         },
+        "image_parent_KVEHbr": {
+          "type": "image_parent",
+          "name": "Detox",
+          "settings": {
+            "image": "shopify://shop_images/20260417_SX_ECOM_SHOP_DETOX-DESKTOP.jpg",
+            "image_mb": "shopify://shop_images/20260417_SX_ECOM_SHOP_MOBILE.jpg",
+            "image_position": "default",
+            "cl_img": "",
+            "link_img1": "shopify://products/shortcutx-detox-juice",
+            "open_link": "_self",
+            "animate_slide": "none",
+            "text_align": "center",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 67,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 3,
+            "animation_delay": 40
+          }
+        },
         "image_parent_a7XJpR": {
           "type": "image_parent",
           "name": "30-Day",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1800_x_600_desktop.jpg",
             "image_mb": "shopify://shop_images/1100_x_750_mobile.jpg",
@@ -482,55 +395,12 @@
         "image_parent_8BymdV": {
           "type": "image_parent",
           "name": "Max+",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/max_Banner_FFF-02.jpg",
             "image_mb": "shopify://shop_images/max_Banner_FFF-01.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://products/max-fat-burner-juice",
-            "open_link": "_self",
-            "animate_slide": "none",
-            "text_align": "center",
-            "text_align_mb": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 67,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 3,
-            "animation_delay": 40
-          }
-        },
-        "image_parent_KVEHbr": {
-          "type": "image_parent",
-          "name": "Detox",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/20260417_SX_ECOM_SHOP_DETOX-DESKTOP.jpg",
-            "image_mb": "shopify://shop_images/20260417_SX_ECOM_SHOP_MOBILE.jpg",
-            "image_position": "default",
-            "cl_img": "",
-            "link_img1": "shopify://products/shortcutx-detox-juice",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -603,6 +473,47 @@
             "br_pd_mb": 10,
             "time_animation": 3,
             "animation_delay": 40
+          }
+        },
+        "164602873867eb3815-0": {
+          "type": "image_parent",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Website_Banner_77.svg",
+            "image_mb": "shopify://shop_images/Website_Banner_1100_x_750_px_MOBILE_13.svg",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "shopify://products/shortcutx-night-fat-burner-juice",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "start",
+            "text_align_mb": "start",
+            "content_width": "container",
+            "cv_pos": 50,
+            "ch_pos": 0,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 0,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "rgba(0,0,0,0)",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 30
           }
         },
         "ce546539-ff4c-4ae1-b40c-7149316c9983": {
@@ -1063,15 +974,13 @@
         }
       },
       "block_order": [
-        "164602873867eb3815-0",
-        "image_parent_PjTGkK",
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586",
-        "image_parent_Qaai3a",
         "image_parent_xn7RGr",
+        "image_parent_KVEHbr",
         "image_parent_a7XJpR",
         "image_parent_8BymdV",
-        "image_parent_KVEHbr",
         "image_parent_epPRbC",
+        "164602873867eb3815-0",
         "ce546539-ff4c-4ae1-b40c-7149316c9983",
         "custom_text_6DLjRz",
         "b396d551-bab2-4a1f-9739-936985f9e902",
@@ -1426,7 +1335,7 @@
         "image_position": "8",
         "image_size": "cover",
         "img_effect": "none",
-        "b_effect": "none",
+        "b_effect": "dark-overlay",
         "col_dk": "5",
         "col_tb": "2",
         "col_mb": "2",
@@ -1434,9 +1343,9 @@
         "space_item_mb": "2",
         "loop": true,
         "au_time": 0,
-        "au_hover": false,
+        "au_hover": true,
         "nav_btn": false,
-        "btn_vi": "always",
+        "btn_vi": "hover",
         "btn_owl": "default",
         "btn_shape": "none",
         "btn_cl": "dark",
@@ -1557,7 +1466,7 @@
         "bl_heading_MQXce7": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "NEW: Night Hot Chocolate"
+            "top_heading": "Shortcutx 30 Days Weight Loss Pack"
           }
         },
         "bl_subheading_zQmTRe": {
@@ -1598,11 +1507,11 @@
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
-            "size_pr": 30,
+            "size_pr": 25.5,
             "fw_pr": 400,
-            "lh_pr": 38,
+            "lh_pr": 30,
             "ls_pr": 0,
-            "pr_title_color": "#000000",
+            "pr_title_color": "#222222",
             "pr_title_color_hover": "#56cfe1"
           }
         },
@@ -1614,48 +1523,19 @@
             "tax_ship": true,
             "rating": true,
             "review_liquid": "",
-            "size_price_pr": 20,
+            "size_price_pr": 22,
             "fw_price_pr": 400,
             "price_color": "#696969",
             "price_sale_color": "#ec0101"
           }
         },
-        "text_Damgra": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Infused with <strong>KSM-66® Ashwagandha</strong> to support relaxation and nighttime wellness</li><li>Rich, creamy hot chocolate blend crafted for a calming bedtime ritual</li><li><strong>Helps support appetite control</strong> and reduce late-night snacking habits</li></ul>"
-          }
-        },
         "description_T4pn8G": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "des": "2",
             "text": "",
             "length": 31
           }
-        },
-        "order_F4d8tK": {
-          "type": "order",
-          "settings": {
-            "hide_pre": true,
-            "icon": "2",
-            "icon_name": "las la-truck",
-            "ani": "none",
-            "txt": "Get it by [date_end]",
-            "ds": 2,
-            "de": 3,
-            "mode": "1",
-            "cut_day": "SAT,SUN",
-            "frm_day": "t44, t45 t46",
-            "time": "16:00:00",
-            "hr": "hours",
-            "min": "minutes"
-          }
-        },
-        "store_pickup_fJHBE9": {
-          "type": "store_pickup",
-          "settings": {}
         },
         "form_awgqJd": {
           "type": "form",
@@ -1692,18 +1572,8 @@
             "advance_pr_list": []
           }
         },
-        "mega_block_spacer_spacer_YUfqtB": {
-          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
-          "settings": {
-            "block_height": 20,
-            "block_height_mobile": 20,
-            "background_color": "",
-            "is_full_width": false
-          }
-        },
         "size_delivery_ask_i69et7": {
           "type": "size_delivery_ask",
-          "disabled": true,
           "settings": {
             "size_chart": "3",
             "pos_sizeg": "1",
@@ -1752,24 +1622,16 @@
       "block_order": [
         "title_ErJqer",
         "price_review_J9iWTW",
-        "text_Damgra",
         "description_T4pn8G",
-        "order_F4d8tK",
-        "store_pickup_fJHBE9",
         "form_awgqJd",
-        "mega_block_spacer_spacer_YUfqtB",
         "size_delivery_ask_i69et7",
         "meta_8aQqND",
         "social_8MbBMY"
       ],
-      "custom_css": [
-        ".t4s-product__info-container .t4s-product-price {color: #000000 !important;}",
-        "h1 a {color: #000000 !important;}"
-      ],
       "name": "Featured product",
       "settings": {
-        "product": "night-hot-chocolate",
-        "image": "shopify://shop_images/1_c7caffba-6ebe-4bb7-bf67-f5628d6df608.png",
+        "product": "30-day-weight-loss-pack",
+        "image": "shopify://shop_images/1100_x_750_mobile.jpg",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
@@ -1777,10 +1639,10 @@
         "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
-        "main_click": "none",
+        "main_click": "zoom",
         "zoom_tp": "external",
-        "enable_zoom_icon": false,
-        "enable_zoom_click_mb": false,
+        "enable_zoom_icon": true,
+        "enable_zoom_click_mb": true,
         "enable_video_looping": false,
         "enable_video_muting": true,
         "enable_video_autoplaying": true,

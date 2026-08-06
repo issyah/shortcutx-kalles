@@ -33,25 +33,7 @@
                  <div class="t4s-page_cart__meta">
                     {%- assign qv_key = item_pr.id -%}
                     {%- unless item_pr.has_only_default_variant or item_variant.title contains 'mczr_price_' -%}{%- assign qv_key = item_id -%}{%- for option in item.options_with_values -%}<p class="t4s-cart_meta_variant">{{ option.name }}: <strong>{{ option.value }}</strong></p>{%- endfor -%}{%- endunless -%}                    
-                    
-                    {% comment %}
                     {%- if item.selling_plan_allocation != blank %}<p class="t4s-cart_selling_plan">{{ item.selling_plan_allocation.selling_plan.name }}</p>{% endif -%}
-                    {% endcomment %}
-
-                    {%- if item.selling_plan_allocation != blank -%}
-                      <p class="t4s-cart_selling_plan" style="color: #d9534f; font-weight: 400; margin-bottom: 2px;">
-                        {{ item.selling_plan_allocation.selling_plan.name }}
-                      </p>
-                      <div class="t4s-subscription-notice" style="font-size: 12px; line-height: 1.4; color: #555; margin-bottom: 6px;">
-                        <span style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeba2; padding: 2px 6px; border-radius: 3px; font-weight: 600; display: inline-block; margin-top: 2px;">
-                          🔒 3-month min. commitment
-                        </span>
-                        <span style="display: block; font-size: 12px; color: #666; margin-top: 3px;">
-                          Cancel anytime after your 3rd order.
-                        </span>
-                      </div>
-                    {%- endif -%}
-
                     {%- assign property_size = item.properties | size -%}
                     {%- if property_size > 0 -%}
                     <ul class="t4s-cart_meta_propertyList">
@@ -125,7 +107,6 @@
                    assign money_final_price    = final_price | money
                  endif -%}        
 
-              {% comment %}
                {%- if original_price != item.final_price -%}
                   <del>{{ money_original_price }}</del><ins>{{ money_final_price }}</ins>
                {%- elsif v_compare_at_price > original_price  -%}
@@ -133,42 +114,6 @@
                {%- else -%}
                   {{ money_original_price }}
                {%- endif -%}
-               {% endcomment %}
-
-               {%- liquid
-                  assign base_price = item_variant.price
-                  if item_variant.compare_at_price > final_price
-                    assign strike_price = item_variant.compare_at_price
-                  elsif base_price > final_price
-                    assign strike_price = base_price
-                  elsif original_price > final_price
-                    assign strike_price = original_price
-                  else
-                    assign strike_price = 0
-                  endif
-
-                  if strike_price > 0
-                    assign savings_amount = strike_price | minus: final_price
-                    if cur_code_enabled
-                      assign money_strike_price = strike_price | money_with_currency
-                      assign money_savings = savings_amount | money_with_currency
-                    else
-                      assign money_strike_price = strike_price | money
-                      assign money_savings = savings_amount | money
-                    endif
-                  endif
-                -%}
-
-                {%- if strike_price > 0 -%}
-                  <del style="color: #888; text-decoration: line-through; margin-right: 6px;">{{ money_strike_price }}</del>
-                  <ins style="font-weight: bold; text-decoration: none; color: #000;">{{ money_final_price }}</ins>
-                  <div class="t4s-cart_item_savings" style="color: #d9534f; font-size: 13px; font-weight: 600; margin-top: 2px;">
-                    Save {{ money_savings }}
-                  </div>
-                {%- else -%}
-                  {{ money_final_price }}
-                {%- endif -%}
-
              </div>
              {%- if item.unit_price_measurement -%}
                 {%- capture unit_price_base_unit -%}
