@@ -177,6 +177,14 @@
             "review_liquid": ""
           }
         },
+        "tab_html_gJmXFH": {
+          "type": "tab_html",
+          "settings": {
+            "title": "What's Inside",
+            "content": "<p>{{ product.metafields.custom.what_s_inside.value }}</p>",
+            "page": ""
+          }
+        },
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
           "type": "tab_html",
           "settings": {
@@ -185,11 +193,19 @@
             "page": ""
           }
         },
-        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
+        "tab_html_iznnjL": {
           "type": "tab_html",
           "settings": {
             "title": "Benefits",
             "content": "<p>{{ product.metafields.custom.benefits.value }}</p>",
+            "page": ""
+          }
+        },
+        "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
+          "type": "tab_html",
+          "settings": {
+            "title": "FAQ",
+            "content": "<p>{{ product.metafields.custom.faq.value }}</p>",
             "page": ""
           }
         },
@@ -205,12 +221,6 @@
             "show_available": true,
             "show_category": false,
             "show_tags": true
-          }
-        },
-        "e36839f5-0847-44e2-97d3-2885597bd1ff": {
-          "type": "tab_add",
-          "settings": {
-            "title": "Flat Tummy Shake Flavour Options"
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
@@ -254,10 +264,11 @@
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
+        "tab_html_gJmXFH",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
+        "tab_html_iznnjL",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "meta",
-        "e36839f5-0847-44e2-97d3-2885597bd1ff",
         "94011ade-ec25-4d68-b37a-70660ede49dd",
         "mega_block_spacer_spacer_Qj8RUd"
       ],
