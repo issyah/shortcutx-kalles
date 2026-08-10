@@ -778,8 +778,8 @@ document.querySelectorAll("[data-r]").forEach(function (el) {
 (function () {
   // Update DEEP_SLEEP_VARIANT_ID with the actual Shopify variant ID for Deep Sleep
   var VARIANT_ID = window.productVariantId || "45387387928599";
-  var PRICE = 30;
-  var FREE_SHIP = 100;
+  var PRICE = 105;
+  var FREE_SHIP = 420;
   var qty = 1;
   var numEl = document.getElementById("qty-num");
   var priceEl = document.getElementById("qty-price");
@@ -791,7 +791,7 @@ document.querySelectorAll("[data-r]").forEach(function (el) {
   function update() {
     var total = PRICE * qty;
     numEl.textContent = qty;
-    priceEl.textContent = "SGD $" + total;
+    priceEl.textContent = "RM " + total.toFixed(2);
     shopBtn.href = "https://shortcutx.com.my/cart/" + VARIANT_ID + ":" + qty;
     var gap = FREE_SHIP - total;
     if (gap <= 0) {
