@@ -227,6 +227,7 @@
       "blocks": {
         "image_parent_hFXE39": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BANNER.jpg",
             "image_position": "8",
