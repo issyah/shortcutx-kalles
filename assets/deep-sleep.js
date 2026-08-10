@@ -802,7 +802,7 @@ document.querySelectorAll("[data-r]").forEach(function (el) {
       shipEl.classList.remove("qty-shipping-eligible");
       shipEl.classList.add("qty-shipping-hint");
       shipEl.textContent =
-        "Add $" + gap + " more for free shipping (after vouchers)";
+        "Add RM" + gap + " more for free shipping (after vouchers)";
     }
   }
 
