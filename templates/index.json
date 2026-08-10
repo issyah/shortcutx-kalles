@@ -1557,7 +1557,7 @@
         "bl_heading_MQXce7": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "NEW: Night Hot Chocolate"
+            "top_heading": "NEW: Deep Sleep"
           }
         },
         "bl_subheading_zQmTRe": {
@@ -1768,8 +1768,8 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "night-hot-chocolate",
-        "image": "shopify://shop_images/1_c7caffba-6ebe-4bb7-bf67-f5628d6df608.png",
+        "product": "deep-sleep",
+        "image": "shopify://shop_images/DeepSleep-product-main.png",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
