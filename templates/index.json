@@ -227,6 +227,7 @@
       "blocks": {
         "image_parent_hFXE39": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2.png",
             "image_mb": "shopify://shop_images/2.png",
