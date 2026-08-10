@@ -1,0 +1,10 @@
+{
+  "layout": "deep-sleep",
+  "sections": {
+    "main": {
+      "type": "deep-sleep",
+      "settings": {}
+    }
+  },
+  "order": ["main"]
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ request.locale.iso_code }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{{ page.content | strip_html | truncate: 150 }}">
+  <title>{{ page_title }}{% if page_title != shop.name %} — {{ shop.name }}{% endif %}</title>
+  {{ content_for_header }}
+</head>
+<body>
+  {{ content_for_layout }}
+</body>
+</html>
