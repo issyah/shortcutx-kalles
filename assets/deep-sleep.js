@@ -792,7 +792,7 @@ document.querySelectorAll("[data-r]").forEach(function (el) {
     var total = PRICE * qty;
     numEl.textContent = qty;
     priceEl.textContent = "SGD $" + total;
-    shopBtn.href = "https://shortcutx.co/cart/" + VARIANT_ID + ":" + qty;
+    shopBtn.href = "https://shortcutx.com.my/cart/" + VARIANT_ID + ":" + qty;
     var gap = FREE_SHIP - total;
     if (gap <= 0) {
       shipEl.classList.remove("qty-shipping-hint");
