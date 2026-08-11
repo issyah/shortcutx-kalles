@@ -315,6 +315,7 @@
         "22e3f9b3-0f74-4e3e-a662-22e8a61f6586": {
           "type": "image_parent",
           "name": "IRL",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/fashBanner-desktopMain.jpg",
             "image_mb": "shopify://shop_images/fashBanner-mobileMain.jpg",
