@@ -125,19 +125,6 @@
             "advance_pr_list": []
           }
         },
-        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "al": "start",
-            "mess": "",
-            "size": 16,
-            "source": "1",
-            "wimg": 70,
-            "svg": "american_express,apple_pay,google_pay,master,shopify_pay,visa",
-            "height": 44
-          }
-        },
         "mega_block_spacer_spacer_qqyXqk": {
           "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
           "settings": {
@@ -145,21 +132,6 @@
             "block_height_mobile": 20,
             "background_color": "",
             "is_full_width": false
-          }
-        },
-        "size_delivery_ask": {
-          "type": "size_delivery_ask",
-          "disabled": true,
-          "settings": {
-            "size_chart": "3",
-            "pos_sizeg": "1",
-            "sc_type": "1",
-            "page": "",
-            "size_ck": "",
-            "delivery": true,
-            "page_dr": "delivery-return",
-            "ask": true,
-            "phone": true
           }
         },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
@@ -259,9 +231,7 @@
         "order_h3wknP",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
-        "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "mega_block_spacer_spacer_qqyXqk",
-        "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "tab_html_gJmXFH",
