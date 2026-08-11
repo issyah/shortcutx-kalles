@@ -231,13 +231,13 @@
       "blocks": {
         "164602873867eb3815-0": {
           "type": "image_parent",
-          "name": "Spend $120, get Free Nasal Strips",
+          "name": "Deep Sleep Launch",
           "settings": {
-            "image": "shopify://shop_images/nasal_strip-01_1.jpg",
-            "image_mb": "shopify://shop_images/nasal_strip-02_1.jpg",
+            "image": "shopify://shop_images/1_58adf793-77d8-49fd-bf5c-0489f41a579b.png",
+            "image_mb": "shopify://shop_images/3_4ce4d78b-ad10-40be-be2c-c6752809c1a8.png",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/all",
+            "link_img1": "shopify://products/deep-sleep",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
@@ -1557,7 +1557,7 @@
         "bl_heading_MQXce7": {
           "type": "bl_heading",
           "settings": {
-            "top_heading": "NEW: Night Hot Chocolate"
+            "top_heading": "NEW: Deep Sleep"
           }
         },
         "bl_subheading_zQmTRe": {
@@ -1768,8 +1768,8 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "night-hot-chocolate",
-        "image": "shopify://shop_images/1_c7caffba-6ebe-4bb7-bf67-f5628d6df608.png",
+        "product": "deep-sleep",
+        "image": "shopify://shop_images/DeepSleep-product-main.png",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
