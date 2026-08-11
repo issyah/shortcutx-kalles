@@ -30,6 +30,9 @@
 	 --bg-tabs-mb: var(--bg-tabs) !important;
 	}
 }
+.is--tab-design__tab .t4s-tab-wrapper:first-child .t4s-tab-content:not([style]) {
+  display: none;
+}
 .t4s-pr_attrs, .t4s-pr_attrs p {
     margin-bottom: 0;
 }
