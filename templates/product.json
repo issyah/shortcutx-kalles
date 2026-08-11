@@ -125,19 +125,6 @@
             "advance_pr_list": []
           }
         },
-        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "al": "start",
-            "mess": "",
-            "size": 16,
-            "source": "1",
-            "wimg": 70,
-            "svg": "american_express,apple_pay,google_pay,master,shopify_pay,visa",
-            "height": 44
-          }
-        },
         "mega_block_spacer_spacer_qqyXqk": {
           "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
           "settings": {
@@ -145,36 +132,6 @@
             "block_height_mobile": 20,
             "background_color": "",
             "is_full_width": false
-          }
-        },
-        "size_delivery_ask": {
-          "type": "size_delivery_ask",
-          "disabled": true,
-          "settings": {
-            "size_chart": "3",
-            "pos_sizeg": "1",
-            "sc_type": "1",
-            "page": "",
-            "size_ck": "",
-            "delivery": true,
-            "page_dr": "delivery-return",
-            "ask": true,
-            "phone": true
-          }
-        },
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
-          "type": "tab_des",
-          "disabled": true,
-          "settings": {
-            "title": "Description"
-          }
-        },
-        "56e67368-7424-4d73-8f14-dacdda4c59be": {
-          "type": "tab_rivui",
-          "disabled": true,
-          "settings": {
-            "title": "Benefits",
-            "review_liquid": ""
           }
         },
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
@@ -193,42 +150,18 @@
             "page": ""
           }
         },
-        "meta": {
-          "type": "meta",
-          "disabled": true,
+        "tab_html_zyNhWc": {
+          "type": "tab_html",
           "settings": {
-            "show_options": false,
-            "show_vendor": false,
-            "show_type": false,
-            "show_sku": true,
-            "show_barcode": false,
-            "show_available": true,
-            "show_category": false,
-            "show_tags": true
+            "title": "How to Consume",
+            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
+            "page": ""
           }
         },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
           "settings": {
-            "title": "Flat Tummy Shake Flavour Options"
-          }
-        },
-        "94011ade-ec25-4d68-b37a-70660ede49dd": {
-          "type": "social",
-          "disabled": true,
-          "settings": {
-            "socials_align": "start",
-            "social_mode": "2",
-            "social_style": "1",
-            "social_size": "extra_small",
-            "bd_radius": 0,
-            "use_color_set": true,
-            "icon_cl": "#222222",
-            "bg_cl": "#bf1932",
-            "space_h_item": "20",
-            "space_v_item": "5",
-            "space_h_item_mb": "10",
-            "space_v_item_mb": "2"
+            "title": "Flat Tummy Shake Flavours"
           }
         },
         "mega_block_spacer_spacer_Qj8RUd": {
@@ -249,16 +182,11 @@
         "order_h3wknP",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
-        "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "mega_block_spacer_spacer_qqyXqk",
-        "size_delivery_ask",
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "56e67368-7424-4d73-8f14-dacdda4c59be",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
-        "meta",
+        "tab_html_zyNhWc",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "94011ade-ec25-4d68-b37a-70660ede49dd",
         "mega_block_spacer_spacer_Qj8RUd"
       ],
       "custom_css": [],
