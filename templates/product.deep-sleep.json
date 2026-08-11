@@ -134,29 +134,6 @@
             "is_full_width": false
           }
         },
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
-          "type": "tab_des",
-          "disabled": true,
-          "settings": {
-            "title": "Description"
-          }
-        },
-        "56e67368-7424-4d73-8f14-dacdda4c59be": {
-          "type": "tab_rivui",
-          "disabled": true,
-          "settings": {
-            "title": "Benefits",
-            "review_liquid": ""
-          }
-        },
-        "tab_html_gJmXFH": {
-          "type": "tab_html",
-          "settings": {
-            "title": "How to Consume",
-            "content": "<p>{{ product.metafields.custom.what_s_inside.value }}</p>",
-            "page": ""
-          }
-        },
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
           "type": "tab_html",
           "settings": {
@@ -181,36 +158,12 @@
             "page": ""
           }
         },
-        "meta": {
-          "type": "meta",
-          "disabled": true,
+        "tab_html_iUCDjB": {
+          "type": "tab_html",
           "settings": {
-            "show_options": false,
-            "show_vendor": false,
-            "show_type": false,
-            "show_sku": true,
-            "show_barcode": false,
-            "show_available": true,
-            "show_category": false,
-            "show_tags": true
-          }
-        },
-        "94011ade-ec25-4d68-b37a-70660ede49dd": {
-          "type": "social",
-          "disabled": true,
-          "settings": {
-            "socials_align": "start",
-            "social_mode": "2",
-            "social_style": "1",
-            "social_size": "extra_small",
-            "bd_radius": 0,
-            "use_color_set": true,
-            "icon_cl": "#222222",
-            "bg_cl": "#bf1932",
-            "space_h_item": "20",
-            "space_v_item": "5",
-            "space_h_item_mb": "10",
-            "space_v_item_mb": "2"
+            "title": "How to Consume",
+            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
+            "page": ""
           }
         },
         "mega_block_spacer_spacer_Qj8RUd": {
@@ -232,14 +185,10 @@
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
         "mega_block_spacer_spacer_qqyXqk",
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "56e67368-7424-4d73-8f14-dacdda4c59be",
-        "tab_html_gJmXFH",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "tab_html_iznnjL",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
-        "meta",
-        "94011ade-ec25-4d68-b37a-70660ede49dd",
+        "tab_html_iUCDjB",
         "mega_block_spacer_spacer_Qj8RUd"
       ],
       "custom_css": [],
