@@ -1,3 +1,6 @@
+.is--tab-design__tab .t4s-tabs-ul + .t4s-tab-wrapper .t4s-tab-content:not([style]) {
+  display: none !important;
+}
 
 @media (min-width: 1025px) {
     .is--tab-layout__wide .t4s-container{
