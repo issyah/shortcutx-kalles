@@ -1,3 +1,6 @@
+.is--tab-design__tab .t4s-tabs-ul + .t4s-tab-wrapper .t4s-tab-content:not([style]) {
+  display: none !important;
+}
 
 @media (min-width: 1025px) {
     .is--tab-layout__wide .t4s-container{
@@ -8,9 +11,7 @@
         padding-left: 30px;
         padding-right: 30px;
 	}
-    .is--tab-design__tab .t4s-tabs-ul + .t4s-tab-wrapper .t4s-tab-content:not([style]) {
-  display: none !important;
-}
+    
 }
 .is--tab-design__tab.is--tab-design-mb__tab .t4s-tabs-ul {
 	display: block;
