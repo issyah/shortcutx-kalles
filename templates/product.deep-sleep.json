@@ -152,7 +152,7 @@
         "tab_html_gJmXFH": {
           "type": "tab_html",
           "settings": {
-            "title": "What's Inside",
+            "title": "How to Consume",
             "content": "<p>{{ product.metafields.custom.what_s_inside.value }}</p>",
             "page": ""
           }
