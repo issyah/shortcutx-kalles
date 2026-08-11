@@ -8,6 +8,9 @@
         padding-left: 30px;
         padding-right: 30px;
 	}
+    .is--tab-design__tab .t4s-tab-wrapper:first-child .t4s-tab-content:not([style]) {
+  display: none;
+}
 }
 .is--tab-design__tab.is--tab-design-mb__tab .t4s-tabs-ul {
 	display: block;
