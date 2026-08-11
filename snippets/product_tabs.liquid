@@ -61,7 +61,8 @@ assign listTyCurent2 = ''  -%}
     
     <div class="t4s-tabs t4s-type-tabs t4s-accordion-mb-{% if tabs_design_mb == 'accordion' %}true{% else %}false{% endif %}" data-t4s-tabs data-t4s-accordion-pr>
         
-        {%- if tabs_design == 'tab' %}{% assign forloop_first = true -%}
+        {%- if tabs_design == 'tab' %}
+        {%- if enable_first_tab -%}{% assign forloop_first = true %}{%- else -%}{% assign forloop_first = false %}{%- endif -%}
         <ul class="t4s-tabs-ul t4s-tabs-pr-ul t4s-flicky-slider t4s-slider-btn-style-simple t4s-slider-btn-none t4s-slider-btn-small t4s-slider-btn-vi-always flickityt4s" data-t4s-tab-ul data-flickityt4s-js='{"isSimple": true,"freeScroll": true, "setPrevNextButtons":true, "arrowIcon":"1", "imagesLoaded": 0,"adaptiveHeight": 0, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign":"center", "wrapAround": false,"prevNextButtons": true,"percentPosition": 0,"pageDots": false, "pauseAutoPlayOnHover" : true }'>
           {%- for type in tabBlocks -%}
 
