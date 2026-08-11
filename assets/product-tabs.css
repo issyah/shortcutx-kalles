@@ -8,8 +8,8 @@
         padding-left: 30px;
         padding-right: 30px;
 	}
-    .is--tab-design__tab .t4s-tab-wrapper:first-child .t4s-tab-content:not([style]) {
-  display: none;
+    .is--tab-design__tab .t4s-tabs-ul + .t4s-tab-wrapper .t4s-tab-content:not([style]) {
+  display: none !important;
 }
 }
 .is--tab-design__tab.is--tab-design-mb__tab .t4s-tabs-ul {
@@ -29,9 +29,6 @@
 	.t4s-product-tabs-wrapper.is--tab-position__external .t4s-container {
 	 --bg-tabs-mb: var(--bg-tabs) !important;
 	}
-}
-.is--tab-design__tab .t4s-tab-wrapper:first-child .t4s-tab-content:not([style]) {
-  display: none;
 }
 .t4s-pr_attrs, .t4s-pr_attrs p {
     margin-bottom: 0;
