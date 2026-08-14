@@ -227,10 +227,9 @@
       "blocks": {
         "image_parent_hFXE39": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2.png",
-            "image_mb": "shopify://shop_images/2.png",
+            "image": "shopify://shop_images/1.png",
+            "image_mb": "shopify://shop_images/2_8f9ede97-9e0f-4706-ad56-70c8f283aab6.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/shortcutx-deep-sleep-peach-mango-crush",
