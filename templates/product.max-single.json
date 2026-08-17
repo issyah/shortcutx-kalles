@@ -86,7 +86,7 @@
             "ani": "none",
             "txt": "Get it by [date_end]",
             "ds": 2,
-            "de": 3,
+            "de": 2,
             "mode": "1",
             "cut_day": "SAT,SUN",
             "frm_day": "t44, DD t46",
