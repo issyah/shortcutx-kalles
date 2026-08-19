@@ -225,6 +225,15 @@
             "space_h_item_mb": "10",
             "space_v_item_mb": "2"
           }
+        },
+        "mega_block_spacer_spacer_PaEBMk": {
+          "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
+          "settings": {
+            "block_height": 20,
+            "block_height_mobile": 20,
+            "background_color": "",
+            "is_full_width": false
+          }
         }
       },
       "block_order": [
@@ -244,13 +253,14 @@
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "94011ade-ec25-4d68-b37a-70660ede49dd"
+        "94011ade-ec25-4d68-b37a-70660ede49dd",
+        "mega_block_spacer_spacer_PaEBMk"
       ],
       "custom_css": [],
       "settings": {
         "pr_layout": "default",
         "enable_sticky_info": true,
-        "media_layout": "thumbnails_bottom",
+        "media_layout": "without_thumbnails",
         "media_size": "medium",
         "thumb_lr_size": "medium",
         "image_ratio": "ratioadapt",
