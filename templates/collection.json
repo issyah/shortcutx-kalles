@@ -95,6 +95,7 @@
         },
         "image_parent_ctJWg4": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Artboard_3_4x_0f931a14-bf61-454e-895c-9d952e726fe1.webp",
             "image_mb": "shopify://shop_images/Artboard_4_4x_280b4107-598a-4e3c-9899-d8fd7cfa73d2.webp",
