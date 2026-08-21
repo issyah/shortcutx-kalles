@@ -233,7 +233,7 @@
           "type": "image_parent",
           "name": "Deep Sleep Launch",
           "settings": {
-            "image": "shopify://shop_images/DeepSleep-Light-Desktop.jpg",
+            "image": "shopify://shop_images/1800_by_600.jpg",
             "image_mb": "shopify://shop_images/DeepSleep-Light-Mobile.jpg",
             "image_position": "8",
             "cl_img": "",
