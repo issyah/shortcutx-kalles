@@ -1377,26 +1377,27 @@
         "img_jTryxf": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-01_990ec272-0308-46cd-b5cc-4492d2c76f58.jpg",
+            "image": "shopify://shop_images/Category_List-01_990ec272-0308-46cd-b5cc-4492d2c76f58-01.jpg",
             "url": "shopify://collections/starter-fat-burners"
           }
         },
         "img_649NdH": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-02_bed53a89-dac7-4d5b-9cca-2b3bdccfbbcf.jpg",
-            "url": "shopify://collections/advanced-fat-burner"
+            "image": "shopify://shop_images/Category_List-01_990ec272-0308-46cd-b5cc-4492d2c76f58-02.jpg",
+            "url": "shopify://collections/meal-replacement"
           }
         },
         "img_rWQpgN": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-04_9df9af65-87ad-44a7-87ae-af395434e4a2.jpg",
-            "url": "shopify://collections/meal-replacement"
+            "image": "shopify://shop_images/Category_List-01_990ec272-0308-46cd-b5cc-4492d2c76f58-03.jpg",
+            "url": "shopify://collections/slimming-tea-coffee"
           }
         },
         "img_G8EUeX": {
           "type": "img",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Category_List-03_51ff553b-4d00-466f-b19d-30c49a2a06ff.jpg",
             "url": "shopify://products/shortcutx-night-fat-burner-juice"
@@ -1405,8 +1406,8 @@
         "img_9eXT4U": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Category_List-05_313945a3-f03b-4243-8dd8-5fd830b784c9.jpg",
-            "url": "shopify://products/shortcutx-de-bloat-white-grape"
+            "image": "shopify://shop_images/Category_List-01_990ec272-0308-46cd-b5cc-4492d2c76f58-04.jpg",
+            "url": "shopify://collections/wellness"
           }
         }
       },
