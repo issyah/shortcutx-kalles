@@ -172,6 +172,8 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
 /** SCX Singapore's #1 Weight Loss Supplement Brand Susbcription **/
 <script>
 (function () {
+  var bound = false;
+
   function syncAppstleSelection(root) {
     var radios = root.querySelectorAll('input[name="selling_plan"]');
     radios.forEach(function (radio) {
@@ -186,16 +188,14 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
   }
 
   function correctRepeatedly(root) {
-    // Re-apply correction several times over ~1.5s to survive delayed
-    // AJAX re-renders (price refetch) that can restore stale classes.
     [50, 150, 300, 600, 1000, 1500].forEach(function (delay) {
       setTimeout(function () { syncAppstleSelection(root); }, delay);
     });
   }
 
-  function bindAppstleSync() {
+  function tryBindAppstleSync() {
     var container = document.querySelector('.appstle-container');
-    if (!container) return;
+    if (!container || bound) return false;
 
     ['change', 'click', 'touchend'].forEach(function (evt) {
       container.addEventListener(evt, function (e) {
@@ -205,19 +205,21 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
     });
 
     syncAppstleSelection(container);
+    bound = true;
+    return true;
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', bindAppstleSync);
-  } else {
-    bindAppstleSync();
+  // Try immediately, then keep trying on every DOM mutation until the
+  // Appstle widget actually exists and we successfully bind.
+  if (!tryBindAppstleSync()) {
+    var observer = new MutationObserver(function () {
+      if (tryBindAppstleSync()) {
+        observer.disconnect(); // stop once bound; syncAppstleSelection
+                                // inside correctRepeatedly handles the rest
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
   }
-
-  var observer = new MutationObserver(function () {
-    var container = document.querySelector('.appstle-container');
-    if (container) syncAppstleSelection(container);
-  });
-  observer.observe(document.body, { childList: true, subtree: true });
 })();
 </script>
 /* CLOSE */
