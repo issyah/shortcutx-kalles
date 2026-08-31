@@ -168,13 +168,53 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
     }
   });
 </script>
-<style>
-.appstle_subscription_wrapper_option:has(input[name="selling_plan"]:checked) {
-  background-color: rgb(240, 253, 244) !important;
-}
-.appstle_subscription_wrapper_option:not(:has(input[name="selling_plan"]:checked)) {
-  background-color: transparent !important;
-}
-</style>
+
+<script>
+(function () {
+  var bound = false;
+
+  function syncAppstleSelection(root) {
+    var radios = root.querySelectorAll('input[name="selling_plan"]');
+    radios.forEach(function (radio) {
+      var wrapper = radio.closest('.appstle_subscription_wrapper_option');
+      if (!wrapper) return;
+      wrapper.style.setProperty(
+        'background-color',
+        radio.checked ? 'rgb(240, 253, 244)' : 'transparent',
+        'important'
+      );
+    });
+  }
+
+  function tryBindAppstleSync() {
+    var container = document.querySelector('.appstle-container');
+    if (!container || bound) return false;
+
+    ['change', 'click', 'touchend'].forEach(function (evt) {
+      container.addEventListener(evt, function (e) {
+        var target = e.target.closest('input[name="selling_plan"], .appstle_subscription_wrapper_option');
+        if (target) {
+          // Correct immediately, then again shortly after in case Appstle's
+          // own re-render runs afterward and touches the same element.
+          syncAppstleSelection(container);
+          setTimeout(function () { syncAppstleSelection(container); }, 300);
+        }
+      }, { passive: true });
+    });
+
+    syncAppstleSelection(container);
+    bound = true;
+    return true;
+  }
+
+  if (!tryBindAppstleSync()) {
+    var observer = new MutationObserver(function () {
+      if (tryBindAppstleSync()) observer.disconnect();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+})();
+</script>
+
 </body>
 </html>
