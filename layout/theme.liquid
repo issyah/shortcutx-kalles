@@ -168,61 +168,13 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
     }
   });
 </script>
-
-/** SCX Singapore's #1 Weight Loss Supplement Brand Susbcription **/
-<script>
-(function () {
-  var bound = false;
-
-  function syncAppstleSelection(root) {
-    var radios = root.querySelectorAll('input[name="selling_plan"]');
-    radios.forEach(function (radio) {
-      var wrapper = radio.closest('.appstle_subscription_wrapper_option');
-      if (!wrapper) return;
-      if (radio.checked) {
-        wrapper.classList.add('appstle_selected_background', 'appstle-active-option');
-      } else {
-        wrapper.classList.remove('appstle_selected_background', 'appstle-active-option');
-      }
-    });
-  }
-
-  function correctRepeatedly(root) {
-    [50, 150, 300, 600, 1000, 1500].forEach(function (delay) {
-      setTimeout(function () { syncAppstleSelection(root); }, delay);
-    });
-  }
-
-  function tryBindAppstleSync() {
-    var container = document.querySelector('.appstle-container');
-    if (!container || bound) return false;
-
-    ['change', 'click', 'touchend'].forEach(function (evt) {
-      container.addEventListener(evt, function (e) {
-        var target = e.target.closest('input[name="selling_plan"], .appstle_subscription_wrapper_option');
-        if (target) correctRepeatedly(container);
-      }, { passive: true });
-    });
-
-    syncAppstleSelection(container);
-    bound = true;
-    return true;
-  }
-
-  // Try immediately, then keep trying on every DOM mutation until the
-  // Appstle widget actually exists and we successfully bind.
-  if (!tryBindAppstleSync()) {
-    var observer = new MutationObserver(function () {
-      if (tryBindAppstleSync()) {
-        observer.disconnect(); // stop once bound; syncAppstleSelection
-                                // inside correctRepeatedly handles the rest
-      }
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
-  }
-})();
-</script>
-/* CLOSE */
-
+<style>
+.appstle_subscription_wrapper_option:has(input[name="selling_plan"]:checked) {
+  background-color: rgb(240, 253, 244) !important;
+}
+.appstle_subscription_wrapper_option:not(:has(input[name="selling_plan"]:checked)) {
+  background-color: transparent !important;
+}
+</style>
 </body>
 </html>
