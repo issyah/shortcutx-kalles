@@ -169,6 +169,7 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
   });
 </script>
 
+/* Singapore's #1 Weight Loss Supplement */
 <script>
 (function () {
   var bound = false;
@@ -177,12 +178,20 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
     var radios = root.querySelectorAll('input[name="selling_plan"]');
     radios.forEach(function (radio) {
       var wrapper = radio.closest('.appstle_subscription_wrapper_option');
-      if (!wrapper) return;
-      wrapper.style.setProperty(
-        'background-color',
-        radio.checked ? 'rgb(240, 253, 244)' : 'transparent',
-        'important'
-      );
+      var label = radio.nextElementSibling;
+      var dot = label ? label.querySelector('.appstle_dot') : null;
+
+      if (wrapper) {
+        wrapper.style.setProperty(
+          'background-color',
+          radio.checked ? 'rgb(240, 253, 244)' : 'transparent',
+          'important'
+        );
+      }
+      if (dot) {
+        dot.style.setProperty('transform', radio.checked ? 'scale(1)' : 'scale(0)', 'important');
+        dot.style.setProperty('background-color', radio.checked ? 'currentcolor' : 'transparent', 'important');
+      }
     });
   }
 
@@ -194,8 +203,6 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
       container.addEventListener(evt, function (e) {
         var target = e.target.closest('input[name="selling_plan"], .appstle_subscription_wrapper_option');
         if (target) {
-          // Correct immediately, then again shortly after in case Appstle's
-          // own re-render runs afterward and touches the same element.
           syncAppstleSelection(container);
           setTimeout(function () { syncAppstleSelection(container); }, 300);
         }
@@ -215,6 +222,7 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
   }
 })();
 </script>
+/* -- Close -- */
 
 </body>
 </html>
