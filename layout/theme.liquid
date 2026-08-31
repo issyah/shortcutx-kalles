@@ -168,5 +168,61 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
     }
   });
 </script>
+
+/** OPEN 31 AUG 2026 **/
+<script>
+(function () {
+  function syncAppstleSelection(root) {
+    var radios = root.querySelectorAll('input[name="selling_plan"]');
+    radios.forEach(function (radio) {
+      var wrapper = radio.closest('.appstle_subscription_wrapper_option');
+      if (!wrapper) return;
+      if (radio.checked) {
+        wrapper.classList.add('appstle_selected_background', 'appstle-active-option');
+      } else {
+        wrapper.classList.remove('appstle_selected_background', 'appstle-active-option');
+      }
+    });
+  }
+
+  function bindAppstleSync() {
+    var container = document.querySelector('.appstle-container');
+    if (!container) return;
+
+    // Fix state on every radio change
+    container.addEventListener('change', function (e) {
+      if (e.target && e.target.name === 'selling_plan') {
+        // Appstle's own handler runs first; we correct it right after
+        setTimeout(function () { syncAppstleSelection(container); }, 50);
+      }
+    });
+
+    // Also correct on click, since some Appstle builds toggle via click, not native change
+    container.addEventListener('click', function (e) {
+      if (e.target && e.target.closest('.appstle_subscription_wrapper_option')) {
+        setTimeout(function () { syncAppstleSelection(container); }, 50);
+      }
+    });
+
+    // Run once on load in case of a bad initial state
+    syncAppstleSelection(container);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bindAppstleSync);
+  } else {
+    bindAppstleSync();
+  }
+
+  // Appstle widgets sometimes re-render after variant/pack changes — watch for that
+  var observer = new MutationObserver(function () {
+    var container = document.querySelector('.appstle-container');
+    if (container) syncAppstleSelection(container);
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+})();
+</script>
+/* CLOSE */
+
 </body>
 </html>
