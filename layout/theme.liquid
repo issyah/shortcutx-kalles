@@ -169,7 +169,7 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
   });
 </script>
 
-/** OPEN 31 AUG 2026 **/
+/** SCX Singapore's #1 Weight Loss Supplement Brand Susbcription **/
 <script>
 (function () {
   function syncAppstleSelection(root) {
@@ -185,26 +185,25 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
     });
   }
 
+  function correctRepeatedly(root) {
+    // Re-apply correction several times over ~1.5s to survive delayed
+    // AJAX re-renders (price refetch) that can restore stale classes.
+    [50, 150, 300, 600, 1000, 1500].forEach(function (delay) {
+      setTimeout(function () { syncAppstleSelection(root); }, delay);
+    });
+  }
+
   function bindAppstleSync() {
     var container = document.querySelector('.appstle-container');
     if (!container) return;
 
-    // Fix state on every radio change
-    container.addEventListener('change', function (e) {
-      if (e.target && e.target.name === 'selling_plan') {
-        // Appstle's own handler runs first; we correct it right after
-        setTimeout(function () { syncAppstleSelection(container); }, 50);
-      }
+    ['change', 'click', 'touchend'].forEach(function (evt) {
+      container.addEventListener(evt, function (e) {
+        var target = e.target.closest('input[name="selling_plan"], .appstle_subscription_wrapper_option');
+        if (target) correctRepeatedly(container);
+      }, { passive: true });
     });
 
-    // Also correct on click, since some Appstle builds toggle via click, not native change
-    container.addEventListener('click', function (e) {
-      if (e.target && e.target.closest('.appstle_subscription_wrapper_option')) {
-        setTimeout(function () { syncAppstleSelection(container); }, 50);
-      }
-    });
-
-    // Run once on load in case of a bad initial state
     syncAppstleSelection(container);
   }
 
@@ -214,7 +213,6 @@ window._klOnsite.push(['openForm', 'RiaQ2B']);
     bindAppstleSync();
   }
 
-  // Appstle widgets sometimes re-render after variant/pack changes — watch for that
   var observer = new MutationObserver(function () {
     var container = document.querySelector('.appstle-container');
     if (container) syncAppstleSelection(container);
