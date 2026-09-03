@@ -125,6 +125,12 @@
             "advance_pr_list": []
           }
         },
+        "bogos_io_free_gift_cart_discount_view_3twBG7": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/cart-discount-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "settings": {
+            "product": ""
+          }
+        },
         "mega_block_spacer_spacer_qqyXqk": {
           "type": "shopify://apps/mega-block-spacer/blocks/spacer/85c8eef2-2659-4452-a114-a2dba91ad259",
           "settings": {
@@ -184,6 +190,7 @@
         "order_h3wknP",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
+        "bogos_io_free_gift_cart_discount_view_3twBG7",
         "mega_block_spacer_spacer_qqyXqk",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "tab_html_iznnjL",
