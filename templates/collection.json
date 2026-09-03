@@ -54,10 +54,9 @@
         },
         "image_parent_Jgid7t": {
           "type": "image_parent",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/NHC_Banner-03.webp",
-            "image_mb": "shopify://shop_images/NHC_Banner-04.webp",
+            "image": "shopify://shop_images/12_Deep_Sleep-04_1.jpg",
+            "image_mb": "shopify://shop_images/12_Deep_Sleep-02.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/night-hot-chocolate",
