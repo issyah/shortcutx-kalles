@@ -232,6 +232,7 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "name": "Deep Sleep Launch",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1800_by_600.jpg",
             "image_mb": "shopify://shop_images/Untitled-2.png",
@@ -273,13 +274,12 @@
         "image_parent_PjTGkK": {
           "type": "image_parent",
           "name": "NHC",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/NHC_Banner-01.webp",
-            "image_mb": "shopify://shop_images/NHC_Banner-02.webp",
+            "image": "shopify://shop_images/12_Deep_Sleep-03_1.jpg",
+            "image_mb": "shopify://shop_images/12_Deep_Sleep-02.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://products/night-hot-chocolate",
+            "link_img1": "shopify://products/deep-sleep",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
