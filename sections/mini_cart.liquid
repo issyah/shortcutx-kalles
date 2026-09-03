@@ -155,7 +155,7 @@
 
    <form action="{{ cart_url }}" method="post" novalidate class="t4s-drawer__wrap">
       <input type="hidden" data-cart-attr-rm name="attributes[collection_items_per_row]" value="">
-      {%- if se_stts.enable_discount %}<input type="hidden" data-cart-discount name="discount" value="">{% endif -%}
+      {% comment %} {%- if se_stts.enable_discount %}<input type="hidden" data-cart-discount name="discount" value="">{% endif -%} {% endcomment %}
       <div class="t4s-drawer__main">
       <div data-t4s-scroll-me class="t4s-drawer__scroll t4s-current-scrollbar">
          <div class="t4s-cookie-message t4s-dn">{{ 'cart.general.cookies_required' | t }}</div>
