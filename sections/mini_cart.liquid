@@ -370,7 +370,7 @@
         <h3>{{ 'cart.tool.add_coupon' | t }}</h3>
         <p>{{ 'cart.tool.info_coupon' | t }}</p>
         <div class="t4s-field">
-          <input type="text" data-opend-focus data-name="discount" id="CartDiscountcode" value placeholder="{{ 'cart.tool.placeholder_coupon' | t }}">
+          {% comment %} <input type="text" data-opend-focus data-name="discount" id="CartDiscountcode" value placeholder="{{ 'cart.tool.placeholder_coupon' | t }}"> {% endcomment %}
         </div>
         <div class="t4s-field">
           <button type="button" data-action="save-discountcode" data-cart-tool_close class="t4s-mini_cart-tool__primary">{{ 'cart.tool.save' | t }}</button>
