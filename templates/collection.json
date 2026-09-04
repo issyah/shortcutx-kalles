@@ -17,7 +17,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1920_by_480_NEW_DEEP_SLEEP.jpg",
-            "image_mb": "shopify://shop_images/1100_by_750_mobile_hero.jpg",
+            "image_mb": "shopify://shop_images/Promotional_Banner_3.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/deep-sleep",
@@ -56,8 +56,8 @@
         "image_parent_Jgid7t": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/12_Deep_Sleep-04_1.jpg",
-            "image_mb": "shopify://shop_images/12_Deep_Sleep-02.jpg",
+            "image": "shopify://shop_images/Promotional_Banner_1.jpg",
+            "image_mb": "shopify://shop_images/Promotional_Banner_4.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/night-hot-chocolate",
