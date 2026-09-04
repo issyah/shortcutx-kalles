@@ -275,8 +275,8 @@
           "type": "image_parent",
           "name": "Sep Campaign 1",
           "settings": {
-            "image": "shopify://shop_images/Promotional_Banner_2.jpg",
-            "image_mb": "shopify://shop_images/Promotional_Banner_3.jpg",
+            "image": "shopify://shop_images/Promotional_Banner_2_1.jpg",
+            "image_mb": "shopify://shop_images/Promotional_Banner_3_1.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/deep-sleep",
