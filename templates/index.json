@@ -1395,19 +1395,18 @@
             "url": "shopify://collections/slimming-tea-coffee"
           }
         },
-        "img_G8EUeX": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Category_List-03_51ff553b-4d00-466f-b19d-30c49a2a06ff.jpg",
-            "url": "shopify://products/shortcutx-night-fat-burner-juice"
-          }
-        },
         "img_9eXT4U": {
           "type": "img",
           "settings": {
             "image": "shopify://shop_images/Category_List_Website-04.jpg",
             "url": "shopify://collections/wellness"
+          }
+        },
+        "img_G8EUeX": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/night_series.jpg",
+            "url": "shopify://products/shortcutx-night-fat-burner-juice"
           }
         }
       },
@@ -1415,8 +1414,8 @@
         "img_jTryxf",
         "img_649NdH",
         "img_rWQpgN",
-        "img_G8EUeX",
-        "img_9eXT4U"
+        "img_9eXT4U",
+        "img_G8EUeX"
       ],
       "custom_css": [
         "@media (max-width: 768px) {.t4s-col-item {width: 40%; }}"
@@ -1429,7 +1428,7 @@
         "image_size": "cover",
         "img_effect": "none",
         "b_effect": "none",
-        "col_dk": "4",
+        "col_dk": "5",
         "col_tb": "2",
         "col_mb": "2",
         "space_item": "2",
