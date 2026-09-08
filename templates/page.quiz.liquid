@@ -279,29 +279,23 @@
     const goalLabels = quizState.goals.map(g=>quizGoalMap[g] ? quizGoalMap[g].label : '').filter(Boolean);
     const goalSummary = goalLabels.length ? goalLabels.join(' + ') : 'your goals';
 
-    // Map quiz goals → Calendly a1 checkbox values
-    const goalToCalendly = { fatburn:'Lose weight', leanmuscle:'Tone up', energy:'Boost energy' };
-    const a1Values = quizState.goals.filter(g=>goalToCalendly[g]).map(g=>goalToCalendly[g]);
-    if(quizState.considerations.includes('medical')) a1Values.push('Manage a health condition');
-
-    // Build a5 summary for the nutritionist
-    const rhythmLabel  = quizState.rhythm && quizRhythmMap[quizState.rhythm]           ? quizRhythmMap[quizState.rhythm].label           : '';
-    const eatingLabel  = quizState.eating && quizEatingMap[quizState.eating]             ? quizEatingMap[quizState.eating].label             : '';
-    const sleepLabel   = quizState.sleep  && quizSleepMap[quizState.sleep]               ? quizSleepMap[quizState.sleep].label               : '';
+    // Build formatted quiz summary for Calendly a1 (multi-line field)
+    const rhythmLabel  = quizState.rhythm && quizRhythmMap[quizState.rhythm]   ? quizRhythmMap[quizState.rhythm].label   : '';
+    const eatingLabel  = quizState.eating && quizEatingMap[quizState.eating]   ? quizEatingMap[quizState.eating].label   : '';
+    const sleepLabel   = quizState.sleep  && quizSleepMap[quizState.sleep]     ? quizSleepMap[quizState.sleep].label     : '';
     const considLabels = quizState.considerations.filter(c=>c!=='none'&&quizConsiderationMap[c]).map(c=>quizConsiderationMap[c].label);
-    const summaryParts = [];
-    if(quizState.gender)       summaryParts.push('Gender: '+quizState.gender);
-    if(goalLabels.length)      summaryParts.push('Goals: '+goalLabels.join(', '));
-    if(rhythmLabel)            summaryParts.push('Rhythm: '+rhythmLabel);
-    if(eatingLabel)            summaryParts.push('Eating: '+eatingLabel);
-    if(sleepLabel)             summaryParts.push('Sleep: '+sleepLabel);
-    if(considLabels.length)    summaryParts.push('Health notes: '+considLabels.join(', '));
-    const a5Summary = 'Quiz answers — ' + summaryParts.join(' | ');
+    const summaryLines = [];
+    if(quizState.gender)    summaryLines.push('Gender: ' + quizState.gender.charAt(0).toUpperCase() + quizState.gender.slice(1));
+    if(goalLabels.length)   summaryLines.push('Goals: ' + goalLabels.join(', '));
+    if(rhythmLabel)         summaryLines.push('Daily rhythm: ' + rhythmLabel);
+    if(eatingLabel)         summaryLines.push('Eating habits: ' + eatingLabel);
+    if(sleepLabel)          summaryLines.push('Sleep: ' + sleepLabel);
+    if(considLabels.length) summaryLines.push('Health notes: ' + considLabels.join(', '));
+    const a1Summary = summaryLines.join('\n');
 
     // Build pre-filled Calendly URL
     const params = new URLSearchParams();
-    a1Values.forEach(v => params.append('a1', v));
-    params.set('a5', a5Summary);
+    params.set('a1', a1Summary);
     const CALENDLY_URL = 'https://calendly.com/nutritionist-consult-shortcutx/15min?' + params.toString();
 
     // Surface any softNote considerations so the nutritionist sees them at the consultation
