@@ -72,7 +72,25 @@
 
   /* ---------- why we ask ---------- */
 
-  @media (max-width:720px){
+  /* ---------- laptop split layout ---------- */
+  @media (min-width:900px){
+    .fyf-layout{display:flex; min-height:100vh;}
+    .fyf-hero{
+      flex:0 0 44%; display:flex; align-items:center;
+      padding:40px 48px 40px 48px;
+    }
+    .fyf-hero-inner{margin:0; text-align:left; max-width:100%;}
+    .fyf-kicker{justify-content:flex-start;}
+    .fyf-stats{justify-content:flex-start; gap:22px; margin-top:22px;}
+    .na-card{margin:0 0 12px 0;}
+    .fyf-quiz-section{
+      flex:0 0 56%; display:flex; align-items:center; justify-content:center;
+      padding:40px 48px; background:var(--off);
+    }
+    .quiz-card{margin:0; width:100%; max-width:520px; min-height:0;}
+  }
+
+  @media (max-width:899px){
     .quiz-card{padding:28px 22px; margin-top:-50px;}
     .fyf-stats{gap:20px;}
     .na-card{flex-direction:column; text-align:center; padding:18px;}
@@ -82,6 +100,7 @@
 </head>
 <body>
 
+<div class="fyf-layout">
 <!-- ================= HERO INTRO ================= -->
 <section class="fyf-hero">
   <div class="blob blob-a"></div>
@@ -91,7 +110,7 @@
       <span class="stars">★★★★★</span>
       <span class="eyebrow" style="color:#ffd4d2;">Find Your Fit</span>
     </div>
-    <h1>Built with our<br>nutritionist. For you.</h1>
+    <h1>Speak with our<br>Nutritionist.</h1>
     <p>A few honest questions about your goals, your days, and your sleep then a real 1:1 with a professional, not a product pushed at you.</p>
 
     <div class="na-card">
@@ -116,6 +135,7 @@
     <div class="quiz-card" id="quizCard"><!-- rendered by renderQuizStep() --></div>
   </div>
 </section>
+</div><!-- /.fyf-layout -->
 
 <script>
   // ---------- nutritionist quiz engine (same logic as the homepage lightbox) ----------
