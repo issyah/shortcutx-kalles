@@ -649,6 +649,7 @@
         "image_parent_cTC4eN": {
           "type": "image_parent",
           "name": "FTS NEW",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1_1664cdc4-98fe-4472-b6d7-b1424c1064c9.png",
             "image_position": "default",
