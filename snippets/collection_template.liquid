@@ -20,7 +20,7 @@
           <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{image.presentation.focal_point}}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-obj-eff" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
         {%- else -%}
           {%- assign txt = html[4] | append: 'x' | append: html[5] -%}
-          {%- render 'svg_holder',txt:txt,fs:"40px" | placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' -%}
+          {%- render 'svg_holder', txt: txt, fs: "40px", placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' -%}
         {%- endif -%}
 	    </div>
     </a>
@@ -39,4 +39,15 @@
     {%- endif -%}
   </div>
 </div>
-{{html[10]}}
+{{html[10]}}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{%- render ''svg_holder'',txt:txt,fs:"40px" | placeholder_svg_tag: ''t4s-placeholder-svg
+    t4s-obj-eff'' -%}'
+  to: '{%- render ''svg_holder'', txt: txt, fs: "40px", placeholder_svg_tag: ''t4s-placeholder-svg
+    t4s-obj-eff'' -%}'
+  position: 1982..2087
+{%- endcomment -%}

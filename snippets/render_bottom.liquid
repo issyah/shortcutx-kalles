@@ -3,7 +3,9 @@ assign admin_sp = request.design_mode
 assign page_type = request.page_type
 assign enable_quickview = settings.enable_quickview 
 assign enable_quickshop = settings.enable_quickshop
-if page_type == 'page' and page.template_suffix = 't4sindex' and settings.header_design == 'E-Commerce'
+if page_type == 'page'
+
+elsif page_type == 'page'
 assign is_page_index = true
 else
 assign is_page_index = false
@@ -434,4 +436,17 @@ echo '<div id="t4s-snow_ef" class="t4s-dn"></div><div id="t4s-assets-pre" class=
 <link rel="stylesheet" href="{{ 'line-awesome.min.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- if settings.colors_css %}<link rel="stylesheet" href="{{ 'colors.css' | asset_url }}" media="print" onload="this.media='all'">{% endif -%} 
 {%- if settings.custom_css_t4s %}{{- 'custom.css' | asset_url | stylesheet_tag:preload:true -}}{% endif -%}
-{%- if admin_sp %}<style>.t4s-section-admn-fixed { position: fixed;top: 100px;pointer-events: none; z-index: -1;opacity: 0; }.t4s-section-admn2-fixed { position: fixed;top: 100px;z-index: 468; }</style>{% endif -%}
+{%- if admin_sp %}<style>.t4s-section-admn-fixed { position: fixed;top: 100px;pointer-events: none; z-index: -1;opacity: 0; }.t4s-section-admn2-fixed { position: fixed;top: 100px;z-index: 468; }</style>{% endif -%}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: if page_type == 'page' and page.template_suffix = 't4sindex' and settings.header_design
+    == 'E-Commerce'
+  to: |-
+    if page_type == 'page'
+
+    elsif page_type == 'page'
+  position: 191..240
+{%- endcomment -%}

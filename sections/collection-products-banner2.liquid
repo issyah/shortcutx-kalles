@@ -235,7 +235,7 @@
       {%- endfor -%}
         <div class="t4s-col-item t4s-col" style="--tophead_mb: {{se_stts.tophead_mb}}px;">
     {% endif %}
-  {%- render 'section_tophead',se_stts:se_stts,se_stts.heading_align:"t4s-text-left",heading_height:se_stts.heading_height -%}
+  {%- render 'section_tophead', se_stts: se_stts, heading_align: "t4s-text-left", heading_height: se_stts.heading_height -%}
   {%- if layout_des == "1" -%} 
     {{ 'button-style.css' | asset_url | stylesheet_tag }}
     <link href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
@@ -4051,4 +4051,15 @@
       }
     ]
   }
-{%- endschema -%}
+{%- endschema -%}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{%- render ''section_tophead'',se_stts:se_stts,se_stts.heading_align:"t4s-text-left",heading_height:se_stts.heading_height
+    -%}'
+  to: '{%- render ''section_tophead'', se_stts: se_stts, heading_align: "t4s-text-left",
+    heading_height: se_stts.heading_height -%}'
+  position: 17070..17192
+{%- endcomment -%}
