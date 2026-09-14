@@ -475,7 +475,7 @@
         "bl_image_yazr6N": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/5_8b4b833f-47ec-4c26-a362-b04c39b67c92.png",
+            "image1": "shopify://shop_images/5_8b4b833f-47ec-4c26-a362-b04c39b67c92.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
