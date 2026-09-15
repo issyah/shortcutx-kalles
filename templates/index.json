@@ -568,7 +568,8 @@
           "type": "image_parent",
           "name": "FTS NEW",
           "settings": {
-            "image": "shopify://shop_images/SCTX_MY_Month-Shaker_1800_x_600-v2.png",
+            "image": "shopify://shop_images/SCTX_MY_Month-Shaker_1800_x_600-v2_3342deb7-2f6b-495a-a036-55744f2c5b53.png",
+            "image_mb": "shopify://shop_images/SCTX_MY_Month-Shaker_700_x_1100-v2.png",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
