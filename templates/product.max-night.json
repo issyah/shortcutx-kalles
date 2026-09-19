@@ -113,6 +113,7 @@
         "bogos_io_free_gift_cart_discount_view_qbVwpT": {
           "type": "shopify://apps/bogos-io-free-gift/blocks/cart-discount-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
           "settings": {
+            "bogos_offer_id": 34230,
             "product": ""
           }
         },
