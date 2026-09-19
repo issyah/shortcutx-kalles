@@ -90,6 +90,13 @@
           "type": "store_pickup",
           "settings": {}
         },
+        "bogos_io_free_gift_cart_discount_view_MeBJkM": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/cart-discount-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "settings": {
+            "bogos_offer_id": 33401,
+            "product": ""
+          }
+        },
         "form": {
           "type": "form",
           "settings": {
@@ -183,6 +190,7 @@
         "text_9dWm8p",
         "order_h3wknP",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
+        "bogos_io_free_gift_cart_discount_view_MeBJkM",
         "form",
         "mega_block_spacer_spacer_qqyXqk",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
