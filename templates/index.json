@@ -135,6 +135,7 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "name": "Deep Sleep Extended",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Shortcutx-DeepSleep-Banner-Extended-Collections-2.png",
             "image_mb": "shopify://shop_images/Shortcutx-DeepSleep-Banner-Extended-Collections-1.png",
