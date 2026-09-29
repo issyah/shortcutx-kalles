@@ -649,6 +649,7 @@
         "image_parent_GJcMQg": {
           "type": "image_parent",
           "name": "NHC",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Screenshot_2026-07-17_at_12.05.55_PM.png",
             "image_mb": "shopify://shop_images/Screenshot_2026-07-17_at_12.05.55_PM.png",
@@ -1077,7 +1078,7 @@
           "type": "img",
           "settings": {
             "image": "shopify://shop_images/Category_List-03_51ff553b-4d00-466f-b19d-30c49a2a06ff.webp",
-            "url": "shopify://products/shortcutx-night-fat-burner-juice"
+            "url": "shopify://products/shortcutx-sleep-shred"
           }
         },
         "img_9eXT4U": {
@@ -1412,8 +1413,8 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "night-hot-chocolate",
-        "image": "shopify://shop_images/1_c7caffba-6ebe-4bb7-bf67-f5628d6df608.png",
+        "product": "https-shortcutx-com-my-pages-sleep-well",
+        "image": "shopify://shop_images/20260731-SCX-PDP-DeepSleep-front-A.png",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
