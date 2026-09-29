@@ -14,13 +14,13 @@
       "blocks": {
         "image_parent_QjjCMR": {
           "type": "image_parent",
-          "disabled": true,
+          "name": "Image slide - Sleep+Shred",
           "settings": {
-            "image": "shopify://shop_images/1920_by_480_NEW_DEEP_SLEEP.jpg",
-            "image_mb": "shopify://shop_images/Promotional_Banner_3.jpg",
+            "image": "shopify://shop_images/Artboard_3_2x_f4347af7-538c-48ab-a36f-d408de218099.jpg",
+            "image_mb": "shopify://shop_images/Artboard_2_2x_f5e94e9c-2450-4b1a-847c-8579312f850a.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://products/deep-sleep",
+            "link_img1": "shopify://products/sleep-shred-night-fat-burner",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
@@ -55,6 +55,7 @@
         },
         "image_parent_Jgid7t": {
           "type": "image_parent",
+          "name": "Monthly Promotion",
           "settings": {
             "image": "shopify://shop_images/Stock_Up_save_more-02.webp",
             "image_mb": "shopify://shop_images/Stock_Up_save_more-04.webp",
