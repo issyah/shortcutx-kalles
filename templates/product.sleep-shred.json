@@ -309,7 +309,7 @@
         "bl_image_Beg6Mr": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/DeepSleep-product-info.png",
+            "image1": "shopify://shop_images/3_-_Sleep_Shred.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -368,7 +368,11 @@
       "settings": {
         "heading_align": "t4s-text-center",
         "top_heading": "Pair it with",
-        "product_list": "{{ product.metafields.custom.pair_it_with.value }}",
+        "product_list": [
+          "shortcutx-de-bloat-white-grape",
+          "fat-burner-apple-cider-fruit-juice",
+          "shortcutx-detox-juice"
+        ],
         "cd_txt": "",
         "date": "",
         "cl_text": "#ffffff",
