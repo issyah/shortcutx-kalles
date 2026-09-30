@@ -738,6 +738,14 @@
       },
       "delivery_options": {
         "pick_up_in_twenty_four_hours": "Ready in 24 hours"
+      },
+      "contact": {
+        "address2_label": "Unit number (e.g. #05-123)",
+        "optional_address2_label": "Unit number (e.g. #05-123)"
+      },
+      "field_errors": {
+        "address_line2_blank": "Enter unit number",
+        "address_address2_blank": "Enter unit number"
       }
     },
     "store_availability": {
