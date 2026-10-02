@@ -65,7 +65,7 @@
         "text_9dWm8p": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>18 Sleep Botanicals:</strong> Fall asleep fast, stay asleep, wake up refreshed.</li><li><strong>35ml Ready-to-Drink Shot:</strong> Peach & Mango flavour. No mixing or pills.</li><li><strong>100% Non-Habit Forming:</strong> Vegan, sugar-free, safe for daily use.</li></ul>"
+            "text": "<ul><li><strong>18 Sleep Botanicals:</strong>&nbsp;Fall asleep fast, stay asleep, wake up refreshed.</li><li><strong>35ml Ready-to-Drink Shot:</strong>&nbsp;Peach & Mango flavour. No mixing or pills.</li></ul>"
           }
         },
         "order_h3wknP": {
@@ -342,6 +342,7 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -522,6 +523,7 @@
       "block_order": [
         "bl_image_PRbk7T"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
