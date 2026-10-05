@@ -135,6 +135,7 @@
         "image_parent_PjTGkK": {
           "type": "image_parent",
           "name": "Sep Campaign 2",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Stock_Up_save_more-01.webp",
             "image_mb": "shopify://shop_images/Stock_Up_save_more-04.webp",
