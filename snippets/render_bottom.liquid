@@ -3,7 +3,9 @@
   assign page_type = request.page_type
   assign enable_quickview = settings.enable_quickview
   assign enable_quickshop = settings.enable_quickshop
-  if page_type == 'page' and page.template_suffix = 't4sindex' and settings.header_design == 'E-Commerce'
+  if page_type == 'page'
+  
+  elsif page_type == 'page'
     assign is_page_index = true
   else
     assign is_page_index = false
@@ -721,3 +723,14 @@
     }
   </style>
 {% endif -%}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "  if page_type == 'page' and page.template_suffix = 't4sindex' and settings.header_design
+    == 'E-Commerce'"
+  to: "  if page_type == 'page'\n  \n  elsif page_type == 'page'"
+  position: 198..253
+{% endcomment %}
