@@ -16,8 +16,8 @@
           "type": "image_parent",
           "name": "Image slide - Sleep+Shred",
           "settings": {
-            "image": "shopify://shop_images/Artboard_3_2x_f4347af7-538c-48ab-a36f-d408de218099.jpg",
-            "image_mb": "shopify://shop_images/Artboard_2_2x_f5e94e9c-2450-4b1a-847c-8579312f850a.jpg",
+            "image": "shopify://shop_images/DesktopAccentBanner.jpg",
+            "image_mb": "shopify://shop_images/MobileAccentBanner.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/sleep-shred-night-fat-burner",
@@ -57,8 +57,8 @@
           "type": "image_parent",
           "name": "Monthly Promotion",
           "settings": {
-            "image": "shopify://shop_images/Stock_Up_save_more-02.webp",
-            "image_mb": "shopify://shop_images/Stock_Up_save_more-04.webp",
+            "image": "shopify://shop_images/SS-2pack-desktopAccent_1.jpg",
+            "image_mb": "shopify://shop_images/SS-2pack-mobileAccent_1.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
