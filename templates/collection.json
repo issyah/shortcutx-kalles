@@ -14,10 +14,10 @@
       "blocks": {
         "image_parent_QjjCMR": {
           "type": "image_parent",
-          "name": "Image slide - Sleep+Shred",
+          "name": "Image slide - ",
           "settings": {
-            "image": "shopify://shop_images/DesktopAccentBanner.jpg",
-            "image_mb": "shopify://shop_images/MobileAccentBanner.jpg",
+            "image": "shopify://shop_images/DesktopAccentBanner_1.jpg",
+            "image_mb": "shopify://shop_images/MobileAccentBanner_1.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
