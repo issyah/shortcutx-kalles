@@ -95,8 +95,8 @@
           "type": "image_parent",
           "name": "Sep Campaign 2",
           "settings": {
-            "image": "shopify://shop_images/DesktopHeroBanner.jpg",
-            "image_mb": "shopify://shop_images/MobileHeroBanner.jpg",
+            "image": "shopify://shop_images/DesktopHeroBanner_1.jpg",
+            "image_mb": "shopify://shop_images/MobileHeroBanner_1.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
