@@ -57,8 +57,8 @@
           "type": "image_parent",
           "name": "Monthly Promotion",
           "settings": {
-            "image": "shopify://shop_images/SS-2pack-desktopAccent_1.jpg",
-            "image_mb": "shopify://shop_images/SS-2pack-mobileAccent_1.jpg",
+            "image": "shopify://shop_images/SS-2pack-desktopAccent_2.jpg",
+            "image_mb": "shopify://shop_images/SS-2pack-mobileAccent.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://products/sleep-shred-night-fat-burner",
