@@ -136,8 +136,8 @@
           "type": "image_parent",
           "name": "Sleep+Shred Launch",
           "settings": {
-            "image": "shopify://shop_images/SS-2pack-desktopHero_1.jpg",
-            "image_mb": "shopify://shop_images/SS-2pack-mobileHero.jpg",
+            "image": "shopify://shop_images/SS-2pack-desktopHero.jpg",
+            "image_mb": "shopify://shop_images/SS-2pack-mobileHero_c5b51950-911e-4d3a-9e56-d76596379c3c.jpg",
             "image_position": "9",
             "cl_img": "",
             "link_img1": "shopify://products/sleep-shred-night-fat-burner",
