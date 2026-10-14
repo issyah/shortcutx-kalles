@@ -2696,6 +2696,23 @@
           "fw_nav": 400,
           "ls_nav": 0
         }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo_max_width": 100
+        }
+      },
+      "main-password": {
+        "type": "main-password",
+        "settings": {
+          "heading": "Under Maintenance",
+          "content": "Our website is currently undergoing scheduled maintenance so we can serve you better. We’ll be back up shortly, so do check back again soon.\n\nThank you for your patience!",
+          "newsletter_placeholder": "Your email address",
+          "newsletter_button_text": "Notify me",
+          "signup_form_success": "We will send you an email right before we open!",
+          "social": "2"
+        }
       }
     },
     "content_for_index": [],
