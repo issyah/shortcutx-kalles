@@ -2781,6 +2781,15 @@
         "type": "shopify://apps/geoip-country-redirect/blocks/speeedup_link/a3fa1a12-9aad-4707-ab56-45ccf9191aa7",
         "disabled": false,
         "settings": {}
+      },
+      "14171884651881562215": {
+        "type": "shopify://apps/shoprank-ai/blocks/jsonld-product/019acaa4-c3f8-7efc-bd62-de9f817d25cd",
+        "disabled": false,
+        "settings": {
+          "product_schema": true,
+          "review_schema": true,
+          "review_app": "native"
+        }
       }
     }
   },
