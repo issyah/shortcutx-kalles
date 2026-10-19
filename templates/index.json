@@ -609,8 +609,8 @@
           "type": "image_parent",
           "name": "FTS NEW",
           "settings": {
-            "image": "shopify://shop_images/Shortcutx-Trio-Sachet-2.png",
-            "image_mb": "shopify://shop_images/Shortcutx_Mobile-Trio_2048_x_2048.png",
+            "image": "shopify://shop_images/Wide_Banner_-_2048_x_682_Pixel.jpg",
+            "image_mb": "shopify://shop_images/Square_-_2048x2048_Pixel.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
