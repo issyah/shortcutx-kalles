@@ -1413,7 +1413,7 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "https-shortcutx-com-my-pages-sleep-well",
+        "product": "deep-sleep",
         "image": "shopify://shop_images/20260731-SCX-PDP-DeepSleep-front-A.png",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
