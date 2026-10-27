@@ -623,6 +623,7 @@
           },
           "base_NHtqzn": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "Bundle Subscription",
               "url": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
