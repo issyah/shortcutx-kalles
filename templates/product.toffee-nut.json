@@ -286,7 +286,7 @@
         "bl_image_ctkY4J": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/20_174096b5-9ac2-43f5-b4df-1316ee566e39.svg",
+            "image1": "shopify://shop_images/ShortcutX_Toffee_Nut_Latte_PDP-1.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -938,6 +938,8 @@
         "loox-product-reviews": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
             "only_photos": false,
             "aggregated": false,
             "limit": 20,
