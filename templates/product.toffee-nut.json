@@ -21,18 +21,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "txt_tr_pr": "none",
-            "fnt_df_pr": "1",
-            "size_pr": 16,
-            "fw_pr": 600,
-            "lh_pr": 21,
-            "ls_pr": 0,
-            "pr_title_color": "#222222"
-          }
-        },
         "loox_reviews_loox_rating_iFK7aP": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -46,6 +34,18 @@
             "showAllReviews": false,
             "looxOpenFloatingWidget": false,
             "emptyRatingWidget": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "none",
+            "fnt_df_pr": "1",
+            "size_pr": 30,
+            "fw_pr": 600,
+            "lh_pr": 38,
+            "ls_pr": 0,
+            "pr_title_color": "#222222"
           }
         },
         "price_review": {
@@ -62,6 +62,12 @@
             "price_sale_color": "#ec0101"
           }
         },
+        "text_Wxwth9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -73,18 +79,40 @@
             "readm_txt": "Read more"
           }
         },
+        "order_MFGMHA": {
+          "type": "order",
+          "settings": {
+            "hide_pre": true,
+            "icon": "2",
+            "icon_name": "las la-truck",
+            "ani": "none",
+            "txt": "Get it by [date_end]",
+            "ds": 2,
+            "de": 3,
+            "mode": "1",
+            "cut_day": "SAT,SUN",
+            "frm_day": "t44, t45 t46",
+            "time": "16:00:00",
+            "hr": "hours",
+            "min": "minutes"
+          }
+        },
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
+          "type": "store_pickup",
+          "settings": {}
+        },
         "form": {
           "type": "form",
           "settings": {
-            "selector_mode": "circle",
-            "color_mode": "color is-sw-cl__round",
+            "selector_mode": "block2",
+            "color_mode": "circle",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
-            "show_qty": true,
-            "enable_wishlist": true,
-            "enable_compare": true,
+            "show_qty": false,
+            "enable_wishlist": false,
+            "enable_compare": false,
             "btn_atc_full": true,
-            "pr_btn_round": 0,
+            "pr_btn_round": 20,
             "ani": "none",
             "time": 6,
             "btn_txt": "0",
@@ -138,6 +166,7 @@
         },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
+          "disabled": true,
           "settings": {
             "title": "Description"
           }
@@ -166,12 +195,9 @@
             "page": ""
           }
         },
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
-          "type": "store_pickup",
-          "settings": {}
-        },
         "meta": {
           "type": "meta",
+          "disabled": true,
           "settings": {
             "show_options": false,
             "show_vendor": false,
@@ -185,12 +211,14 @@
         },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
+          "disabled": true,
           "settings": {
             "title": "Additional Information"
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "socials_align": "start",
             "social_mode": "2",
@@ -208,6 +236,7 @@
         },
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80": {
           "type": "tab_html",
+          "disabled": true,
           "settings": {
             "title": "How to Consume",
             "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
@@ -216,10 +245,13 @@
         }
       },
       "block_order": [
-        "title",
         "loox_reviews_loox_rating_iFK7aP",
+        "title",
         "price_review",
+        "text_Wxwth9",
         "description",
+        "order_MFGMHA",
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "form",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
@@ -227,7 +259,6 @@
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
-        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
         "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
         "94011ade-ec25-4d68-b37a-70660ede49dd",
