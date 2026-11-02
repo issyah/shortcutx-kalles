@@ -14,11 +14,11 @@
       "blocks": {
         "image_parent_QjjCMR": {
           "type": "image_parent",
-          "name": "Image slide - ",
+          "name": "Nov Promotion",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/DesktopAccentBanner_1.jpg",
-            "image_mb": "shopify://shop_images/MobileAccentBanner_1.jpg",
+            "image": "shopify://shop_images/Banner_3_51b99d42-29b2-4082-b50d-751918a649f5.jpg",
+            "image_mb": "shopify://shop_images/Banner_1_1.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
