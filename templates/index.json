@@ -93,11 +93,11 @@
       "blocks": {
         "image_parent_PjTGkK": {
           "type": "image_parent",
-          "name": "Sep Campaign 2",
+          "name": "Nov Promotion",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/DesktopHeroBanner_1.jpg",
-            "image_mb": "shopify://shop_images/MobileHeroBanner_1.jpg",
+            "image": "shopify://shop_images/Banner_2_1.jpg",
+            "image_mb": "shopify://shop_images/Banner_4_1.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/all",
