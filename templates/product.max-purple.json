@@ -187,6 +187,14 @@
             "page": ""
           }
         },
+        "tab_html_JEHn49": {
+          "type": "tab_html",
+          "settings": {
+            "title": "What's Inside",
+            "content": "<p>{{ product.metafields.custom.what_s_inside | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
           "type": "tab_html",
           "settings": {
@@ -257,6 +265,7 @@
         "size_delivery_ask",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
+        "tab_html_JEHn49",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "meta",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
