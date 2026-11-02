@@ -74,7 +74,7 @@
         "text_8PTm93": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>1 Month Fat Burn Program:</strong> Get complete day-and-night support with 4 boxes in one bundle. Green Tea Extract & L-Carnitine support your daily metabolism and energy, while Sleep+Shred Night Fat Burner supports your nightly routine. Everything you need for a full month, conveniently packed in one program.</p>"
+            "text": "<p>Start your day with MAX+ to support your metabolism and energy, then swap your usual coffee for Slimming Coffee. This bundle includes 2 boxes of MAX+ and 1 box of Slimming Coffee, a simple routine for busy days.</p>"
           }
         },
         "description": {
@@ -331,8 +331,8 @@
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
-        "tabs_design": "accordion",
-        "tabs_design_mb": "accordion",
+        "tabs_design": "tab",
+        "tabs_design_mb": "tab",
         "tabs_position": "inner",
         "enable_first_tab": false,
         "tabs_layout_fix": "full",
@@ -383,6 +383,7 @@
       "block_order": [
         "bl_image_ctkY4J"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -443,6 +444,7 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -503,6 +505,7 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -563,6 +566,7 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -623,6 +627,7 @@
       "block_order": [
         "bl_image_AJ9RY4"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -683,6 +688,7 @@
       "block_order": [
         "bl_image_TNinhx"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -743,6 +749,7 @@
       "block_order": [
         "bl_image_fPrec3"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
