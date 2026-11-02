@@ -11,6 +11,7 @@
   "sections": {
     "breadcrumb": {
       "type": "brc-nav-product",
+      "disabled": true,
       "settings": {
         "breadcrumb_pr": true,
         "back_next_pr": false,
@@ -263,6 +264,7 @@
         "94011ade-ec25-4d68-b37a-70660ede49dd",
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "pr_layout": "default",
@@ -346,6 +348,7 @@
       "block_order": [
         "bl_image_ctkY4J"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -406,6 +409,7 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -527,6 +531,7 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -587,6 +592,7 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -639,6 +645,7 @@
       "block_order": [
         "doran_shoppable_videos_basic_widget_zmEKUV"
       ],
+      "disabled": true,
       "settings": {}
     },
     "d04c193c-455c-49d1-8052-6b476007dc5c": {
