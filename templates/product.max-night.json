@@ -214,6 +214,7 @@
         },
         "tab_html_LeneEN": {
           "type": "tab_html",
+          "disabled": true,
           "settings": {
             "title": "Ingredients",
             "content": "<p>{{ product.metafields.custom.ingredients.value }}</p>",
