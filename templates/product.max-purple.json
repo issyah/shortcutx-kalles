@@ -11,7 +11,6 @@
   "sections": {
     "breadcrumb": {
       "type": "brc-nav-product",
-      "disabled": true,
       "settings": {
         "breadcrumb_pr": true,
         "back_next_pr": false,
@@ -75,7 +74,7 @@
         "text_eqGHLG": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>3x Stronger:</strong> UK formula accelerates fat loss, blackcurrant flavour.</li><li><strong>Max Potency:</strong> 22 ingredients & ACV drive results.</li><li><strong>Debloat:</strong> Chicory root reduces bloating.</li></ul>"
+            "text": "<ul><li><strong>Our Strongest Fat Burners:</strong> MAX and MAX+ are 3x and 4x stronger, with 22 active ingredients.</li><li><strong>Burn Fat & Crush Cravings:</strong> Apple cider vinegar supports fat metabolism and keeps your appetite in check.</li><li><strong>Flatter Tummy, Less Bloating:</strong> Chicory root fibre aids digestion and reduces bloating.</li></ul>"
           }
         },
         "order_ffPCWj": {
@@ -264,7 +263,6 @@
         "94011ade-ec25-4d68-b37a-70660ede49dd",
         "79ab07bb-2ba0-44f8-b54e-6c182b1fcd80"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "pr_layout": "default",
