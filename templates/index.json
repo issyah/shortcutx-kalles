@@ -137,11 +137,11 @@
           "type": "image_parent",
           "name": "Sleep+Shred Launch",
           "settings": {
-            "image": "shopify://shop_images/SS-2pack-desktopHero.jpg",
-            "image_mb": "shopify://shop_images/SS-2pack-mobileHero-v2jpg_1bca21de-5f7a-4ccf-84b5-d47496d9834c.jpg",
+            "image": "shopify://shop_images/Banner_1.jpg",
+            "image_mb": "shopify://shop_images/Banner_2.jpg",
             "image_position": "9",
             "cl_img": "",
-            "link_img1": "shopify://products/sleep-shred-night-fat-burner",
+            "link_img1": "shopify://products/toffee-nut-latte-limited-edition",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
@@ -1332,7 +1332,7 @@
         "text_Damgra": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Overnight Fat Burn:</strong>&nbsp;Achieve your weight loss goals while you sleep.</li><li><strong>Restful Sleep:</strong>&nbsp;Formulated to support a deep, relaxing night.</li><li><strong>Clinically Studied Ashwagandha:</strong>&nbsp;Made with KSM-66® and GABA, melatonin-free.</li></ul>"
+            "text": "<p><strong>Guilt-Free Seasonal Treat:</strong> Enjoy a creamy, toasted toffee-nut latte that tastes like a seasonal indulgence, but it’s low-calorie and fits your daily wellness routine.</p>"
           }
         },
         "description_T4pn8G": {
@@ -1477,8 +1477,8 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "sleep-shred-night-fat-burner",
-        "image": "shopify://shop_images/No_Logo_-_Sleep_Shred_New_Package.jpg",
+        "product": "toffee-nut-latte-limited-edition",
+        "image": "shopify://shop_images/Candid_Hand_Reaches_for_Toffee_Nut_Latte.png",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "medium",
