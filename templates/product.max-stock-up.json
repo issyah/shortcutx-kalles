@@ -77,11 +77,11 @@
             "ani": "none",
             "txt": "Get it by [date_end]",
             "ds": 2,
-            "de": 2,
+            "de": 3,
             "mode": "1",
             "cut_day": "SAT,SUN",
             "frm_day": "t44, t45 t46",
-            "time": "16:00:00",
+            "time": "14:00:00",
             "hr": "hours",
             "min": "minutes"
           }
