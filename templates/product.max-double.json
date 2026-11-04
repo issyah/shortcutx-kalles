@@ -200,8 +200,8 @@
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
           "type": "tab_html",
           "settings": {
-            "title": "Ingredients",
-            "content": "<p>{{ product.metafields.custom.ingredients.value  }}</p>",
+            "title": "What’s inside",
+            "content": "<p>1x Caramel Macchiato Slimming Drink</p><p>2x Max+ Fat Burner</p>",
             "page": ""
           }
         },
