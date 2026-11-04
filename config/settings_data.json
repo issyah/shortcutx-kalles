@@ -621,20 +621,6 @@
               "pos": "left"
             }
           },
-          "base_NHtqzn": {
-            "type": "base",
-            "disabled": true,
-            "settings": {
-              "title": "Bundle Subscription",
-              "url": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "08c08080-fcb4-4534-bc57-dfcd9afe6024": {
             "type": "drop",
             "settings": {
@@ -683,7 +669,6 @@
         "block_order": [
           "base_hRGdJR",
           "08bdec6b-ed72-48b6-8b78-fdf3f231763f",
-          "base_NHtqzn",
           "08c08080-fcb4-4534-bc57-dfcd9afe6024",
           "1c183604-aba8-4307-947b-2ed4f4d0b0ff",
           "base_64LhGL"
