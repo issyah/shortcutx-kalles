@@ -1374,19 +1374,6 @@
               "icon": "las la-chair"
             }
           },
-          "menu_ntjn4X": {
-            "type": "menu",
-            "settings": {
-              "title": "Bundle Subscription",
-              "url": "https://shortcutx.co/apps/subscriptions/bb/5Fz4z68r",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "Save 15%",
-              "lb_cl": "#bf1932",
-              "icons_op": "0",
-              "icon": "las la-chair"
-            }
-          },
           "mb_nav-2": {
             "type": "menu",
             "settings": {
@@ -1433,7 +1420,6 @@
         "block_order": [
           "mb_nav-1",
           "9a97ae06-45c7-40b2-ae39-02c81ea08e21",
-          "menu_ntjn4X",
           "mb_nav-2",
           "8379585c-4f67-4501-afe2-00ac3989731c",
           "mb_nav-5",
