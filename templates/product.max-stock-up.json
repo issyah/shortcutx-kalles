@@ -65,7 +65,7 @@
         "text_9dWm8p": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>15x Max+: </strong>4x Stronger Weight Loss</li><li><strong>8x Night Hot Chocolate: </strong>Relax, Recharge &nbsp;& Reset</li><li><strong>7x Flat Tummy Shakes: </strong>Reduce cravings with this meal replacement.</li></ul>"
+            "text": "<p>Everything you need for a full month of fat burning, in one bundle. One sachet every morning, and you’re set.</p>"
           }
         },
         "order_h3wknP": {
@@ -144,8 +144,8 @@
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
           "type": "tab_html",
           "settings": {
-            "title": "Ingredients",
-            "content": "<p>{{ product.metafields.custom.ingredients.value }}</p>",
+            "title": "What’s inside",
+            "content": "<ul><li>2 × MAX+ Fat Burner</li><li>2 × MAX Fat Burner (Berry Punch)</li><li>1 × Detox (Lychee Lemon)</li><li>1 × Fat Burner (Apple Cider)</li></ul>",
             "page": ""
           }
         },
@@ -249,6 +249,7 @@
       "blocks": {
         "bl_image_ctkY4J": {
           "type": "bl_image",
+          "disabled": true,
           "settings": {
             "image1": "shopify://shop_images/1._No_Logo_-_30_Day_Weight_Loss_-_Poster.psd.jpg",
             "col_dk": "12",
@@ -280,6 +281,7 @@
       "block_order": [
         "bl_image_ctkY4J"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -340,6 +342,7 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -400,6 +403,7 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -460,6 +464,7 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -520,6 +525,7 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -580,6 +586,7 @@
       "block_order": [
         "bl_image_Gfrkza"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -640,6 +647,7 @@
       "block_order": [
         "bl_image_QGLkh7"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -700,6 +708,7 @@
       "block_order": [
         "bl_image_BH6Eik"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
