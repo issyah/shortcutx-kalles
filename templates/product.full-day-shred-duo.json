@@ -143,6 +143,7 @@
         },
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd": {
           "type": "tab_html",
+          "disabled": true,
           "settings": {
             "title": "Ingredients",
             "content": "<p>{{ product.metafields.custom.ingredients.value }}</p>",
