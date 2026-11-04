@@ -74,7 +74,7 @@
         "text_mA4G7h": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>3x Faster Fat Loss:</strong> Potent UK formula accelerates results.</li><li><strong>Ignite Metabolism:</strong> 22 ingredients & Apple Cider Vinegar power weight loss.</li><li><strong>Debloat & Digest:</strong> Chicory root fibre promotes a flatter feel.</li></ul>"
+            "text": "<ul><li><strong>Morning:</strong> Max+ Tropical Burst on an empty stomach helps boost your metabolism and gives you clean energy to start the day.</li><li><strong>Daily coffee swap:</strong> Replace your usual coffee with Caramel Macchiato Slimming Coffee for the same comforting taste while working toward your goals.</li><li><strong>Double the supply:</strong> 2 boxes of Max+ help reduce water retention and stop fat building up, so you can keep going for longer without restocking.</li></ul>"
           }
         },
         "order_tLBjET": {
@@ -335,6 +335,7 @@
       "blocks": {
         "bl_image_ctkY4J": {
           "type": "bl_image",
+          "disabled": true,
           "settings": {
             "image1": "shopify://shop_images/4.svg",
             "col_dk": "12",
@@ -366,6 +367,7 @@
       "block_order": [
         "bl_image_ctkY4J"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -426,6 +428,7 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -486,6 +489,7 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -546,6 +550,7 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -606,6 +611,7 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
