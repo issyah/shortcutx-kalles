@@ -65,7 +65,7 @@
         "text_9dWm8p": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>15x Max+: </strong>4x Stronger Weight Loss</li><li><strong>8x Night Hot Chocolate: </strong>Relax, Recharge &nbsp;& Reset</li><li><strong>7x Flat Tummy Shakes: </strong>Reduce cravings with this meal replacement.</li></ul>"
+            "text": "<ul><li><strong>Day:</strong> Max+ and Teh Tarik in the morning give you clean energy without the crash and help curb cravings.</li><li><strong>Afternoon:</strong> Apple Cider straight from the sachet helps you feel lighter and less bloated. No mixing needed.</li><li><strong>Night:</strong> Night Hot Chocolate helps you wind down before bed and stops late-night snacking.</li></ul>"
           }
         },
         "order_h3wknP": {
@@ -280,6 +280,7 @@
       "block_order": [
         "bl_image_ctkY4J"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -340,6 +341,7 @@
       "block_order": [
         "bl_image_FXdNeL"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -400,6 +402,7 @@
       "block_order": [
         "bl_image_cxjaMF"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -460,6 +463,7 @@
       "block_order": [
         "bl_image_MVFb64"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -520,6 +524,7 @@
       "block_order": [
         "bl_image_yazr6N"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -580,6 +585,7 @@
       "block_order": [
         "bl_image_Gfrkza"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -640,6 +646,7 @@
       "block_order": [
         "bl_image_QGLkh7"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -700,6 +707,7 @@
       "block_order": [
         "bl_image_BH6Eik"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
