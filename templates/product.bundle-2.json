@@ -150,6 +150,14 @@
             "page": ""
           }
         },
+        "tab_html_A4He88": {
+          "type": "tab_html",
+          "settings": {
+            "title": "What’s inside",
+            "content": "<p>1x Max+</p><p>1x Apple Cider</p><p>1x Night Hot Chocolate</p><p>1x Teh Tarik Slimming Drink</p>",
+            "page": ""
+          }
+        },
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646": {
           "type": "tab_html",
           "settings": {
@@ -168,6 +176,7 @@
         },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
+          "disabled": true,
           "settings": {
             "title": "Flat Tummy Shake Flavours"
           }
@@ -193,6 +202,7 @@
         "form",
         "mega_block_spacer_spacer_qqyXqk",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
+        "tab_html_A4He88",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "tab_html_zyNhWc",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
