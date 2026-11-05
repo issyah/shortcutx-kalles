@@ -137,11 +137,19 @@
             "page": ""
           }
         },
+        "tab_html_7rnn3e": {
+          "type": "tab_html",
+          "settings": {
+            "title": "How To Consume",
+            "content": "<p>{{ product.metafields.custom.how_to_consume | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
           "disabled": true,
           "settings": {
-            "title": "Flat Tummy Shake Flavour Options"
+            "title": "How To Consume"
           }
         }
       },
@@ -155,6 +163,7 @@
         "form",
         "51dbe6d2-e3aa-408a-9c3e-1b4af935bafd",
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
+        "tab_html_7rnn3e",
         "e36839f5-0847-44e2-97d3-2885597bd1ff"
       ],
       "custom_css": [],
