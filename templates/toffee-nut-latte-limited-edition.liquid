@@ -1,0 +1,1146 @@
+{% layout none %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="canonical" href="{{ canonical_url }}">
+{{ content_for_header }}
+{% raw %}<title>ShortcutX Toffee Nut Latte</title>
+<meta name="description" content="The seasonal favourite is back. ShortcutX Toffee Nut Latte, limited edition. Here for Christmas only.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&display=swap">
+<style>
+/* Layout concept: a 1995 New York Christmas evening in a Singapore condo. Scroll moves from dusk at the window, down to the walnut table, ending on red velvet. */
+:root{
+  color-scheme:dark;
+  --night:#120906;      /* walnut in shadow: page ground */
+  --walnut-deep:#1E110B;
+  --walnut:#4A2C1D;
+  --red:#980C0C;
+  --red-lit:#B51414;
+  --amber:#D88A2E;
+  --gold:#C9A36A;
+  --cream:#FEF4E2;
+  --cream-dim:rgba(254,244,226,.72);
+  --cream-faint:rgba(254,244,226,.5);
+  --line:rgba(201,163,106,.24);
+  --ink:#2A170E;        /* text on cream */
+  --ink-dim:rgba(42,23,14,.74);
+  --type:Montserrat,"Gotham","Helvetica Neue",Arial,sans-serif;
+  --gx-l:max(clamp(16px,3.2vw,48px),env(safe-area-inset-left,0px));
+  --gx-r:max(clamp(16px,3.2vw,48px),env(safe-area-inset-right,0px));
+  --sec:clamp(72px,10vw,136px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--night);color:var(--cream);font:500 16px/1.65 var(--type);overflow-x:clip;-webkit-font-smoothing:antialiased}
+img,video,canvas{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,p,ul,figure{margin:0;padding:0}
+ul{list-style:none}
+h1,h2{font-weight:900;text-transform:uppercase;line-height:1.02;letter-spacing:-.012em;text-wrap:balance}
+h1{font-size:clamp(40px,5vw,74px)}
+h2{font-size:clamp(33px,4.4vw,62px)}
+h3{font-weight:900;text-transform:uppercase;line-height:1.14;letter-spacing:.002em;font-size:clamp(19px,1.7vw,23px)}
+h1 em,h2 em{font-style:normal;color:var(--amber)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{padding-left:var(--gx-l);padding-right:var(--gx-r)}
+.inner{max-width:1360px;margin-inline:auto}
+.eyebrow{display:block;font-size:12px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.lede{font-size:clamp(17px,1.4vw,19px);line-height:1.6;color:var(--cream-dim);max-width:34em}
+.body{font-size:15.5px;color:var(--cream-dim);max-width:62ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:14px 30px;background:var(--red);color:var(--cream);font:700 13px/1.2 var(--type);letter-spacing:.17em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(201,163,106,.65);cursor:pointer;transition:background .25s,transform .25s,box-shadow .25s;text-align:center}
+.btn:hover{background:var(--red-lit);transform:translateY(-2px);box-shadow:0 10px 34px rgba(216,138,46,.28)}
+.grain{position:fixed;inset:0;z-index:60;pointer-events:none;opacity:.085;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .92 0 0 0 0 .8 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.rv-on .rv{transform:translateY(22px);transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.rv-on .rv.in{transform:none}
+
+@keyframes tw{0%,100%{opacity:1}50%{opacity:.38}}
+
+/* nav */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:50;background:var(--night)}
+.nav{position:fixed;left:0;right:0;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;padding:calc(env(safe-area-inset-top,0px) + 14px) var(--gx-r) 14px var(--gx-l);transition:background .35s,border-color .35s;border-bottom:1px solid transparent}
+.nav.on{background:rgba(18,9,6,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:var(--line)}
+.nav img{width:128px;height:auto}
+.nav .btn{min-height:38px;padding:9px 18px;font-size:11px}
+.float{position:fixed;z-index:39;right:max(18px,env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));min-height:46px;padding:12px 22px;font-size:11.5px;box-shadow:0 10px 30px rgba(0,0,0,.5);opacity:0;pointer-events:none;transform:translateY(12px);transition:opacity .3s,transform .3s,background .25s}
+.float.on{opacity:1;pointer-events:auto;transform:none}
+
+/* hero */
+.hero{position:relative;min-height:min(100svh,920px);display:flex;align-items:center;overflow:hidden;background:var(--night)}
+.hero-media{position:absolute;inset:0;will-change:transform}
+.hero-media img,.hero-media canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:0% 60%}
+.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,9,6,0) 34%,rgba(18,9,6,.56) 62%,rgba(18,9,6,.8) 100%),linear-gradient(180deg,rgba(18,9,6,.55) 0,rgba(18,9,6,0) 20%,rgba(18,9,6,0) 74%,var(--night) 100%)}
+.hero-copy{position:relative;width:100%;padding-block:112px 72px}
+.hero-text{margin-left:auto;width:min(46%,600px);display:grid;gap:20px;justify-items:start}
+.rating{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:13px;color:var(--cream-dim)}
+.stars{color:var(--amber);letter-spacing:.14em;font-size:14px}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin-top:4px}
+.tag-row{display:flex;flex-wrap:wrap;gap:8px}
+.days{display:inline-flex;gap:8px;align-items:center;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cream);border:1px solid var(--line);padding:7px 12px;background:rgba(18,9,6,.42)}
+.days b{color:var(--amber);font-weight:900;font-variant-numeric:tabular-nums}
+
+/* december problem */
+.problem{padding-block:0 var(--sec)}
+.problem .inner{display:grid;gap:clamp(40px,5vw,64px)}
+.problem-head{display:grid;gap:18px;max-width:850px;padding-top:clamp(36px,5vw,72px)}
+.times{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
+.times li{padding:clamp(24px,2.6vw,36px);display:grid;gap:12px;align-content:start;min-width:0}
+.times li+li{border-left:1px solid var(--line)}
+.times time{font-size:12px;font-weight:700;letter-spacing:.2em;color:var(--amber)}
+.stats{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,64px);align-items:center;padding-block:clamp(16px,2vw,28px);border-top:1px solid var(--line)}
+.bignum{font-size:clamp(90px,14vw,196px);line-height:.95;font-weight:900;color:var(--gold);letter-spacing:-.03em;font-variant-numeric:tabular-nums;display:flex;align-items:baseline;gap:.08em;padding-top:clamp(20px,3vw,40px)}
+.bignum small{font-size:.2em;letter-spacing:.02em}
+.stat-copy{display:grid;gap:10px}
+.stat-copy .say{font-size:clamp(20px,2.2vw,30px);font-weight:900;text-transform:uppercase;line-height:1.16}
+.src{font-size:12.5px;color:var(--cream-faint)}
+
+/* old friend */
+.friend{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch;background:var(--walnut-deep)}
+.friend-copy{display:grid;align-content:center;gap:22px;padding-block:clamp(56px,7vw,110px);padding-left:var(--gx-l);padding-right:clamp(20px,5vw,84px)}
+.friend-media{position:relative;min-height:clamp(480px,62vw,860px);background:url("https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-glove-poster.webp") center/cover}
+.friend-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips li{border:1px solid var(--line);padding:7px 12px;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--cream)}
+.price{display:flex;align-items:baseline;gap:10px;font-weight:900;font-size:clamp(30px,3vw,40px);font-variant-numeric:tabular-nums}
+.price span{font-size:14px;font-weight:500;color:var(--cream-dim)}
+
+/* turn the box */
+.boxsec{position:relative;background:radial-gradient(ellipse 58% 62% at 50% 52%,rgba(152,12,12,.34),rgba(18,9,6,0) 72%),var(--night)}
+.box-stage{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(28px,6vw,110px);align-items:center;padding-block:var(--sec)}
+.box-head{display:grid;gap:16px;margin-bottom:clamp(24px,3vw,40px)}
+.box-caps{display:grid;gap:30px}
+.box-cap{display:grid;gap:14px}
+.box-cap .where{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--amber)}
+.box-cap .big{font-size:clamp(20px,2vw,26px);font-weight:900;text-transform:uppercase;line-height:1.16}
+.box-cap ul{display:grid;gap:9px}
+.box-cap li{font-size:clamp(15px,1.25vw,17px);padding-left:20px;position:relative;color:var(--cream)}
+.box-cap li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:1px;background:var(--gold)}
+.scene{--h:min(66svh,580px);perspective:1500px;width:calc(var(--h)*.84);height:calc(var(--h)*1.08);display:grid;place-items:center;margin-inline:auto}
+.box3d{--w:calc(var(--h)*.547);--d:calc(var(--h)*.293);position:relative;width:var(--w);height:var(--h);transform-style:preserve-3d;transform:rotateX(-5deg) rotateY(var(--ry,-22deg))}
+.face{position:absolute;top:0;height:100%;backface-visibility:hidden}
+.face img{width:100%;height:100%;object-fit:fill}
+.f-front{left:0;width:var(--w);transform:translateZ(calc(var(--d)/2))}
+.f-left{left:calc((var(--w) - var(--d))/2);width:var(--d);transform:rotateY(-90deg) translateZ(calc(var(--w)/2))}
+.f-right{left:calc((var(--w) - var(--d))/2);width:var(--d);transform:rotateY(90deg) translateZ(calc(var(--w)/2))}
+.f-back{left:0;width:var(--w);background:#3E0606;transform:rotateY(180deg) translateZ(calc(var(--d)/2))}
+.f-top{left:0;width:var(--w);height:var(--d);top:calc(var(--d)/-2);background:linear-gradient(#26211f,#121010);transform:rotateX(90deg)}
+.shadow{position:absolute;left:50%;bottom:-6%;width:130%;height:54px;transform:translateX(-50%);background:radial-gradient(ellipse at center,rgba(0,0,0,.65),rgba(0,0,0,0) 70%)}
+.pin .boxsec{height:360svh}
+.pin .box-sticky{position:sticky;top:0;height:100svh;overflow:hidden;display:grid;align-items:center}
+.pin .box-stage{padding-block:76px 26px}
+.pin .box-caps{position:relative;min-height:290px}
+.pin .box-cap{position:absolute;inset:0 0 auto;opacity:0;transform:translateY(14px);transition:opacity .4s,transform .4s;pointer-events:none}
+.pin .box-cap.on{opacity:1;transform:none}
+.box-dots{display:none}
+.pin .box-dots{display:flex;gap:7px;margin-top:6px}
+.box-dots i{width:34px;height:2px;background:var(--line);transition:background .3s}
+.box-dots i.on{background:var(--amber)}
+
+/* ingredients */
+.ing-head{padding-block:var(--sec) clamp(36px,5vw,60px);background:var(--night)}
+.ing-head .inner{display:grid;gap:18px}
+.ing{position:sticky;top:0;height:100svh;min-height:560px;overflow:hidden;display:flex;align-items:center;background:var(--night)}
+.ing>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:80% center}
+.ing::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(18,9,6,.92) 0,rgba(18,9,6,.74) 34%,rgba(18,9,6,0) 62%)}
+.ing-copy{position:relative;z-index:2;width:100%}
+.ing-text{display:grid;gap:15px;max-width:540px;justify-items:start}
+.ing-count{display:flex;align-items:center;gap:14px;font-size:11.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.ing-count::before{content:"";width:28px;height:1px;background:var(--gold)}
+.ing-name{font-size:clamp(36px,5vw,70px);font-weight:900;text-transform:uppercase;line-height:1;letter-spacing:-.012em}
+.ing-sub{font-size:clamp(16px,1.5vw,20px);font-weight:600;color:var(--amber);text-transform:uppercase;letter-spacing:.07em}
+.ing-role{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--cream)}
+.ing-text ul{display:grid;gap:8px;font-size:15.5px;color:var(--cream-dim)}
+.ing-text li{padding-left:20px;position:relative}
+.ing-text li::before{content:"";position:absolute;left:0;top:.72em;width:8px;height:1px;background:var(--gold)}
+.keep{position:absolute;z-index:2;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);font-size:10.5px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-faint);white-space:nowrap}
+
+/* taste */
+.taste{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);background:var(--walnut-deep)}
+.taste-media{min-height:clamp(420px,56vw,820px);background:url("https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-santa.webp") center 40%/cover}
+.taste-copy{display:grid;align-content:center;gap:24px;padding-block:clamp(56px,7vw,110px);padding-left:clamp(20px,6vw,96px);padding-right:var(--gx-r)}
+.taste-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.taste-list li{background:var(--walnut-deep);padding:16px 18px;font-size:12.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;line-height:1.45}
+.taste-list b{display:block;font-weight:900;font-size:24px;letter-spacing:0;color:var(--amber);margin-bottom:2px;font-variant-numeric:tabular-nums}
+
+/* benefits */
+.benefits{position:relative;z-index:2;background:var(--night);padding-block:var(--sec)}
+.benefits .inner{display:grid;gap:clamp(48px,7vw,104px)}
+.ben-head{display:grid;gap:16px;max-width:800px}
+.ben{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(24px,5vw,80px);align-items:center}
+.ben:nth-of-type(even) figure{order:2}
+.ben:nth-of-type(even){grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
+.ben figure{aspect-ratio:3/2;overflow:hidden;background:var(--walnut-deep)}
+.ben figure img{width:100%;height:100%;object-fit:cover}
+.ben-copy{display:grid;gap:13px;min-width:0}
+.ben-copy .lab{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.ben-copy h3{font-size:clamp(25px,3vw,42px);line-height:1.06}
+.ben-copy p{font-size:clamp(16px,1.3vw,18px);color:var(--cream-dim)}
+
+/* ritual: daylight on cream */
+.ritual{position:relative;z-index:2;background:var(--cream);color:var(--ink);padding-block:0 var(--sec);overflow:hidden}
+.ritual .inner{display:grid;grid-template-columns:minmax(0,1fr) minmax(170px,300px);gap:clamp(24px,5vw,80px);align-items:center;padding-top:clamp(30px,4vw,56px)}
+.ritual .eyebrow{color:var(--red)}
+.ritual h2{color:var(--red);font-size:clamp(46px,8.4vw,124px);margin-top:12px}
+.ritual-sub{margin-top:14px;font-size:clamp(17px,1.4vw,19px);color:var(--ink-dim);max-width:44em;text-wrap:pretty}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,3vw,44px);margin-top:clamp(32px,4vw,56px)}
+.steps li{display:grid;gap:9px;align-content:start;border-top:2px solid var(--red);padding-top:14px}
+.steps b{font-size:12px;letter-spacing:.2em;color:var(--red)}
+.steps p{color:var(--ink-dim);font-size:15.5px}
+.ritual-sachet{justify-self:center;width:auto;max-width:100%;height:clamp(380px,40vw,560px);transform:rotate(7deg);filter:drop-shadow(0 26px 30px rgba(74,44,29,.34))}
+
+/* for you */
+.foryou{position:relative;z-index:2;background:var(--walnut-deep);padding-block:var(--sec)}
+.foryou .inner{display:grid;gap:clamp(32px,4vw,56px)}
+.foryou-head{display:grid;gap:16px;max-width:860px}
+.ticks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.ticks li{background:var(--walnut-deep);padding:clamp(22px,2.4vw,32px);display:grid;gap:11px;align-content:start;min-width:0}
+.tick{width:24px;height:24px;color:var(--amber)}
+.foryou-end{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;justify-content:space-between}
+.foryou-end p{font-size:clamp(18px,1.6vw,21px);font-weight:600}
+
+/* range */
+.range{position:relative;z-index:2;background:var(--night);padding-block:var(--sec)}
+.range .inner{display:grid;gap:clamp(32px,4vw,56px)}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(14px,2vw,24px);align-items:stretch}
+.card{display:grid;grid-template-rows:auto 1fr;border:1px solid var(--line);background:var(--walnut-deep);min-width:0}
+.card.star{border-color:var(--amber);background:linear-gradient(170deg,#5a0a0a,var(--walnut-deep) 66%)}
+.card-img{height:clamp(220px,24vw,330px);display:grid;place-items:center;padding:24px 12px 8px;position:relative}
+.card-img img{height:clamp(190px,21vw,290px);width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 16px 20px rgba(0,0,0,.5))}
+.flag{position:absolute;top:0;left:50%;transform:translateX(-50%);background:var(--amber);color:var(--ink);font-size:10.5px;font-weight:900;letter-spacing:.13em;text-transform:uppercase;padding:6px 12px;white-space:nowrap}
+.card-body{display:grid;gap:14px;padding:clamp(18px,2vw,26px);align-content:start;grid-template-rows:auto 1fr auto}
+.card dl{margin:0;display:grid;gap:0;font-size:13.5px}
+.card dl div{display:flex;justify-content:space-between;gap:12px;padding-block:8px;border-top:1px solid var(--line)}
+.card dt{color:var(--cream-faint)}
+.card dd{margin:0;text-align:right;font-weight:600}
+.card .btn{width:100%;min-height:46px;font-size:11.5px;padding:10px 12px}
+.card .btn.ghost{background:transparent;border-color:var(--line)}
+.card .btn.ghost:hover{background:rgba(201,163,106,.12)}
+@media (max-width:1100px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* versus */
+.versus{position:relative;z-index:2;background:var(--walnut-deep);padding-block:var(--sec)}
+.versus .inner{display:grid;gap:clamp(28px,4vw,48px)}
+.tbl{overflow-x:auto;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}
+th,td{padding:15px clamp(10px,1.6vw,22px);text-align:center;border-bottom:1px solid var(--line)}
+tr:last-child td,tr:last-child th{border-bottom:0}
+thead th{font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;line-height:1.35;color:var(--cream-dim);vertical-align:bottom}
+tbody th{text-align:left;font-weight:500;color:var(--cream)}
+.us{background:rgba(152,12,12,.34)}
+thead .us{color:var(--cream);font-weight:900}
+.y{color:var(--amber);font-weight:900}.n{color:var(--cream-faint)}
+
+/* reviews */
+.reviews{position:relative;z-index:2;background:var(--night);padding-block:var(--sec)}
+.reviews .inner{display:grid;gap:clamp(32px,4vw,56px)}
+.rev-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,4vw,56px)}
+.rev{display:grid;gap:14px;align-content:start;border-top:1px solid var(--gold);padding-top:20px}
+.rev blockquote{margin:0;font-size:clamp(19px,1.7vw,24px);font-weight:600;line-height:1.36}
+.rev cite{font-style:normal;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cream-dim)}
+
+/* label */
+.label{position:relative;z-index:2;background:var(--walnut-deep);padding-block:var(--sec)}
+.label .inner{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(28px,5vw,80px);align-items:start}
+.nutri{background:linear-gradient(160deg,#7c0a0a,#4d0707);border:1.5px solid rgba(254,244,226,.75);border-radius:12px;padding:clamp(18px,2vw,26px)}
+.nutri h3{font-size:24px;padding-bottom:8px;text-transform:none;border-bottom:1px solid rgba(254,244,226,.75)}
+.nutri .s{display:flex;justify-content:space-between;font-weight:700;padding-block:8px 4px}
+.nutri .p{font-size:13px;color:var(--cream-dim);border-top:3px solid rgba(254,244,226,.85);padding-top:6px}
+.nutri table{min-width:0;font-size:15px}
+.nutri td,.nutri th{padding:7px 0;text-align:left;border-bottom:1px solid rgba(254,244,226,.3);font-weight:500}
+.nutri td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.nutri .m td{font-weight:700}
+.nutri .e td{font-weight:900;font-size:21px}
+.nutri .i td:first-child{padding-left:18px}
+.nutri tr:last-child td{border-bottom:0}
+.label-copy{display:grid;gap:26px}
+.label-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px clamp(20px,3vw,44px)}
+.label-cols>div{display:grid;gap:7px;align-content:start;min-width:0}
+.label-cols h3{font-size:14px;letter-spacing:.14em;color:var(--gold)}
+.label-cols p{font-size:14.5px;color:var(--cream-dim)}
+
+/* faq */
+.faq{position:relative;z-index:2;background:var(--night);padding-block:var(--sec)}
+.faq .inner{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:clamp(28px,5vw,80px);align-items:start}
+.faq-head{display:grid;gap:16px}
+details{border-top:1px solid var(--line)}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:18px;align-items:center;padding-block:19px;font-size:clamp(16.5px,1.4vw,19px);font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary i{font-style:normal;color:var(--amber);font-size:24px;font-weight:500;line-height:1;transition:transform .25s;flex:none}
+details[open] summary i{transform:rotate(45deg)}
+details p{padding-bottom:22px;font-size:15px;color:var(--cream-dim);max-width:62ch}
+
+/* buy */
+.buy{position:relative;z-index:2;background:radial-gradient(ellipse 70% 90% at 30% 50%,#B51414,#6c0808 58%,#3e0505);padding-block:var(--sec);overflow:hidden}
+.buy .inner{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:center}
+.buy-art{position:relative;display:flex;justify-content:center;align-items:flex-end;min-height:clamp(320px,38vw,560px)}
+.buy-art .a{height:clamp(320px,38vw,560px);width:auto;filter:drop-shadow(0 30px 34px rgba(30,0,0,.6))}
+.buy-art .b{height:clamp(240px,29vw,430px);width:auto;margin-left:-5%;filter:drop-shadow(0 22px 26px rgba(30,0,0,.6));transform:rotate(5deg)}
+.buy-copy{display:grid;gap:20px;justify-items:start}
+.buy .eyebrow{color:var(--cream)}
+.buy h2 em{color:#FFD79A}
+.buy .lede{color:var(--cream)}
+.buy .btn{background:var(--cream);color:#7c0a0a;border-color:var(--cream);min-width:min(100%,320px)}
+.buy .btn:hover{background:#fff;box-shadow:0 12px 34px rgba(30,0,0,.5)}
+.fine{font-size:12.5px;letter-spacing:.04em;color:rgba(254,244,226,.82)}
+
+/* footer */
+footer{position:relative;z-index:2;background:var(--night);padding-block:38px calc(38px + env(safe-area-inset-bottom,0px));font-size:12.5px;color:var(--cream-faint);line-height:1.6}
+footer .inner{display:grid;gap:14px}
+footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 28px;align-items:center}
+footer img{width:112px;height:auto}
+footer p{max-width:92ch}
+
+@media (max-width:980px){
+  .times{grid-template-columns:1fr}.times li+li{border-left:0;border-top:1px solid var(--line)}
+  .ticks{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rev-grid{grid-template-columns:1fr}
+  .label .inner,.faq .inner{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:760px){
+  .hero{display:block;min-height:0}
+  .hero-media{position:relative;inset:auto;height:92vw;max-height:66svh}
+  .hero-media img,.hero-media canvas{object-position:17% 60%}
+  .hero-shade{bottom:auto;height:calc(min(92vw,66svh) + 1px);background:linear-gradient(180deg,rgba(18,9,6,.5) 0,rgba(18,9,6,0) 24%,rgba(18,9,6,0) 74%,var(--night) 100%)}
+  .hero-copy{padding-block:6px 42px}
+  .hero-text{width:100%}
+  .friend,.taste{grid-template-columns:minmax(0,1fr)}
+  .friend-copy,.taste-copy{padding-left:var(--gx-l);padding-right:var(--gx-r)}
+  .friend-media{order:-1;min-height:112vw}
+  .taste-media{min-height:96vw}
+  .stats{grid-template-columns:minmax(0,1fr)}
+  .box-stage{grid-template-columns:minmax(0,1fr);gap:18px}
+  .scene{--h:min(42svh,360px);order:-1}
+  .box-head h2{font-size:27px}
+  .box-head .lede{display:none}
+  .pin .box-stage{padding-block:66px 16px;gap:8px}
+  .pin .box-head{margin-bottom:12px;gap:6px}
+  .pin .box-caps{min-height:238px}
+  .box-cap .big{font-size:18px}
+  .box-cap li{font-size:14px}
+  .box-cap{gap:8px}.box-cap ul{gap:5px}
+  .ing>img{object-position:78% center;height:62%}
+  .ing{align-items:flex-end}
+  .ing::before{background:linear-gradient(180deg,rgba(18,9,6,0) 34%,var(--night) 62%)}
+  .ing-copy{padding-bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+  .keep{display:none}
+  .ing-name{font-size:clamp(32px,10.4vw,48px)}
+  .ben,.ben:nth-of-type(even){grid-template-columns:minmax(0,1fr)}
+  .ben:nth-of-type(even) figure{order:0}
+  .ritual .inner{grid-template-columns:minmax(0,1fr)}
+  .ritual-sachet{display:none}
+  .steps{grid-template-columns:minmax(0,1fr)}
+  .ticks{grid-template-columns:minmax(0,1fr)}
+  .cards{grid-template-columns:minmax(0,1fr)}
+  .card.star{order:-1}
+  .label-cols{grid-template-columns:minmax(0,1fr)}
+  .buy .inner{grid-template-columns:minmax(0,1fr)}
+  .buy-art{order:-1}
+  .buy .btn{width:100%}
+  .float{left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px))}
+  .nav img{width:112px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .rv-on .rv{transform:none;transition:none}
+}
+
+/* ===== Christmas layer: velvet, pine, tartan, kraft and gold foil across the whole page ===== */
+:root{
+  --pine:#10261A; --pine-2:#17352A; --velvet:#5A0808; --velvet-lit:#7E0D0D;
+  --foil:linear-gradient(100deg,#F9E3A6 0%,#D9A94F 38%,#FFF0C2 58%,#C8913A 100%);
+  --gold-lit:#EBCB86; --paper:#FBF0DA;
+  --velvet-bg:linear-gradient(rgba(58,4,4,.66),rgba(44,3,3,.76)),url("https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-velvet.webp") center/cover;
+  --gold:#E2BE78; --line:rgba(226,190,120,.42);
+}
+body{background:var(--pine)}
+.grain{opacity:.05}
+h1 em,h2 em{background:var(--foil);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-right:.04em}
+.on-paper h2 em{background:none;color:var(--red);-webkit-text-fill-color:var(--red)}
+.btn{background:var(--foil);background-size:160% 100%;color:#3A0606;border:0;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.34),inset 0 0 0 1px rgba(255,255,255,.4);transition:background-position .5s,transform .25s,box-shadow .25s}
+.btn:hover{background:var(--foil);background-size:160% 100%;background-position:100% 0;transform:translateY(-2px);box-shadow:0 12px 34px rgba(235,190,100,.42)}
+.card .btn.ghost{background:transparent;color:var(--cream);box-shadow:inset 0 0 0 1px var(--line)}
+.card .btn.ghost:hover{background:rgba(226,190,120,.16)}
+.tartan{position:relative;z-index:3;height:clamp(16px,1.8vw,26px);background:url("https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-tartan.webp") center/auto 300%;box-shadow:0 2px 12px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,235,190,.35),inset 0 -1px 0 rgba(255,235,190,.35)}
+.bb{position:absolute;z-index:4;top:0;left:var(--x,auto);right:var(--r,auto);width:var(--w,64px);padding-top:var(--len,90px);transform-origin:50% 0;animation:sway var(--t,5.2s) ease-in-out infinite;pointer-events:none}
+.bb::before{content:"";position:absolute;top:0;left:50%;width:1px;height:calc(var(--len,90px) + 6px);background:linear-gradient(rgba(240,210,150,.9),rgba(240,210,150,.65))}
+.bb img{position:relative;width:100%;height:auto;filter:drop-shadow(0 12px 16px rgba(0,0,0,.45))}
+@keyframes sway{0%,100%{transform:rotate(-2.6deg)}50%{transform:rotate(2.6deg)}}
+#snow{position:fixed;top:0;left:0;width:100%;height:100vh;height:100lvh;z-index:55;pointer-events:none}
+
+/* nav: a velvet pelmet with old-fashioned bulbs hanging under it */
+.nav,.nav.on{background:linear-gradient(#6E0B0B,#4C0606);border-bottom:2px solid var(--gold);backdrop-filter:none;-webkit-backdrop-filter:none}
+body::before{background:#6E0B0B}
+.nav .btn{box-shadow:none}
+.nav-right{display:flex;align-items:center;gap:10px}
+.sound{width:38px;height:38px;border-radius:50%;border:1px solid var(--gold);background:rgba(0,0,0,.18);color:var(--gold-lit);display:grid;place-items:center;cursor:pointer;padding:0;transition:background .25s}
+.sound:hover,.sound[aria-pressed="true"]{background:var(--gold);color:#3A0606}
+.sound svg{width:18px;height:18px}
+.nav-lights{position:absolute;left:0;right:0;top:100%;height:30px;width:100%;overflow:visible;pointer-events:none}
+.nav-lights path{fill:none;stroke:#2c1a10;stroke-width:1.6}
+.nav-lights circle{animation:tw 2.8s ease-in-out infinite}
+.nav-lights .halo{animation:none;opacity:.22}
+.float{box-shadow:0 10px 30px rgba(0,0,0,.5)}
+
+/* hero */
+.hero{background:var(--velvet-bg);min-height:min(100svh,940px)}
+.hero-shade{background:linear-gradient(90deg,rgba(76,6,6,0) 32%,rgba(76,6,6,.62) 54%,rgba(62,5,5,.93) 76%),linear-gradient(180deg,rgba(40,4,4,.3) 0,rgba(40,4,4,0) 24%)}
+.hero-copy{padding-block:clamp(120px,10vw,150px) 72px}
+.days{background:rgba(30,3,3,.55);border:1px solid var(--gold);box-shadow:inset 0 0 0 3px rgba(30,3,3,.55),inset 0 0 0 4px rgba(226,190,120,.5);padding:9px 14px}
+.days b{color:var(--gold-lit)}
+.stars{color:#F3CF7F}
+.eyebrow{color:var(--gold-lit)}
+.lede,.body{color:rgba(254,244,226,.86)}
+
+/* december problem: pine green */
+.problem{position:relative;z-index:2;background:radial-gradient(ellipse 80% 50% at 30% 8%,rgba(60,110,76,.34),transparent 70%),var(--pine);padding-top:0;overflow:clip}
+.problem .inner{position:relative;z-index:2}
+.times{gap:clamp(12px,1.4vw,20px);border:0}
+.times li,.times li+li{border:1px solid var(--gold);background:rgba(7,22,14,.62);box-shadow:inset 0 0 0 4px rgba(7,22,14,.62),inset 0 0 0 5px rgba(226,190,120,.42)}
+.times time{color:var(--gold-lit)}
+.stats{border-top:1px solid var(--line)}
+.bignum{background:var(--foil);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;width:max-content;padding-right:.1em}
+.src{color:rgba(254,244,226,.68)}
+
+/* friend: red velvet */
+.friend{position:relative;z-index:2;background:var(--velvet-bg)}
+.friend-media{box-shadow:inset 0 0 0 1px var(--gold)}
+.chips li{border-color:var(--gold);color:var(--cream)}
+.friend-media video{border-left:2px solid var(--gold)}
+
+/* turning box: tree-green room with soft lights */
+.boxsec{z-index:2;background:var(--pine)}
+.box-sticky{background:radial-gradient(circle 4px at 11% 20%,rgba(255,214,140,.8),transparent 100%),radial-gradient(circle 60px at 8% 78%,rgba(255,190,90,.12),transparent),radial-gradient(circle 90px at 48% 14%,rgba(255,190,90,.1),transparent),radial-gradient(circle 46px at 58% 84%,rgba(255,190,90,.14),transparent),radial-gradient(circle 70px at 94% 18%,rgba(255,190,90,.12),transparent),radial-gradient(circle 54px at 90% 88%,rgba(255,190,90,.14),transparent),radial-gradient(ellipse 34% 62% at 72% 52%,rgba(152,12,12,.5),transparent 75%),radial-gradient(ellipse 80% 80% at 40% 40%,#1C4030,var(--pine) 80%)}
+.pin .box-stage{padding-block:128px 26px}
+.box-cap .where{color:var(--gold-lit)}
+.box-dots i.on{background:var(--gold-lit)}
+
+/* ingredients */
+.ing-head{position:relative;z-index:2;background:var(--velvet-bg)}
+.ing{background:var(--velvet);box-shadow:0 -8px 26px rgba(0,0,0,.45);border-top:2px solid var(--gold)}
+.ing::before{background:linear-gradient(90deg,rgba(62,5,5,.94) 0,rgba(62,5,5,.78) 34%,rgba(62,5,5,0) 62%)}
+.ing-count,.ing-role{color:var(--gold-lit)}
+.ing-sub{color:var(--gold-lit)}
+
+/* taste: cream paper */
+.taste{background:var(--paper);color:var(--ink);border-top:2px solid var(--gold)}
+.taste .eyebrow{color:var(--red)}
+.taste h2{color:#3A0606}
+.taste .lede{color:var(--ink-dim)}
+.taste-list{background:rgba(152,12,12,.3);border-color:rgba(152,12,12,.3)}
+.taste-list li{background:var(--paper)}
+.taste-list b{color:var(--red)}
+
+/* benefits: framed like Christmas cards on velvet */
+.benefits{background:var(--velvet-bg)}
+.ben figure{position:relative;overflow:visible;background:var(--paper);padding:clamp(8px,1vw,14px);box-shadow:0 22px 44px rgba(20,0,0,.55);aspect-ratio:auto;transition:transform .5s}
+.ben figure img{aspect-ratio:3/2;box-shadow:0 0 0 1px rgba(201,163,106,.9)}
+.ben:nth-of-type(odd) figure{transform:rotate(-1deg)}
+.ben:nth-of-type(even) figure{transform:rotate(1deg)}
+.ben figure:hover{transform:rotate(0) scale(1.012)}
+.ben-copy .lab{color:var(--gold-lit)}
+
+/* ritual: wrapped in kraft paper and red ribbon */
+.ritual{background:url("https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-kraft.webp") center/cover;padding-block:var(--sec);overflow:clip}
+.ritual .eyebrow{color:#7C0A0A}
+.ritual h2{color:#7C0A0A}
+.ritual-sub,.steps p{color:#3A2112}
+.ritual .wrap{position:relative;z-index:2}
+
+/* for you: gift tags on pine */
+.foryou{background:radial-gradient(ellipse 70% 50% at 70% 10%,rgba(60,110,76,.3),transparent 70%),var(--pine);overflow:clip}
+.foryou .inner{position:relative;z-index:2}
+.ticks{gap:clamp(18px,2.2vw,30px);background:none;border:0}
+.ticks li{position:relative;background:var(--paper);color:var(--ink);padding:clamp(34px,3vw,42px) clamp(20px,2.2vw,30px) clamp(22px,2.2vw,30px);clip-path:polygon(26px 0,calc(100% - 26px) 0,100% 26px,100% 100%,0 100%,0 26px)}
+.ticks li::before{content:"";position:absolute;top:12px;left:50%;width:13px;height:13px;margin-left:-6px;border-radius:50%;background:var(--pine);box-shadow:0 0 0 2px var(--gold)}
+.ticks-wrap{display:contents}
+.ticks li:nth-child(3n+1){transform:rotate(-.7deg)}
+.ticks li:nth-child(3n){transform:rotate(.7deg)}
+.ticks .body{color:var(--ink-dim)}
+.tick{color:var(--red)}
+.foryou-end p{color:var(--cream)}
+
+/* range */
+.range{position:relative;background:var(--velvet-bg);overflow:clip}
+.range .inner{position:relative;z-index:5}
+.card{background:rgba(12,32,22,.92);border-color:var(--gold);position:relative}
+.card.star{background:linear-gradient(170deg,#9E1010,#4C0606 72%);border:1px solid var(--gold-lit);box-shadow:inset 0 0 0 1px var(--gold-lit)}
+.flag{background:var(--foil);color:#3A0606;transform:translate(-50%,-50%)}
+.card dt{color:rgba(254,244,226,.68)}
+
+/* versus: a paper list on pine */
+.versus{background:var(--pine)}
+.tbl{background:var(--paper);color:var(--ink);border:0;box-shadow:0 26px 50px rgba(0,0,0,.5);transform:rotate(-.35deg);border-top:14px solid transparent;border-image:url("https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-tartan.webp") 40 0 0 0 stretch}
+.tbl th,.tbl td{border-color:rgba(74,44,29,.2)}
+thead th{color:rgba(42,23,14,.7)}
+tbody th{color:var(--ink)}
+.us{background:rgba(152,12,12,.1)}
+thead .us{color:#7C0A0A}
+.y{color:var(--red)}
+.n{color:rgba(42,23,14,.42)}
+
+/* reviews: Christmas cards */
+.reviews{position:relative;background:var(--velvet-bg);overflow:clip}
+.rev-grid{align-items:stretch}
+.rev{position:relative;background:var(--paper);color:var(--ink);border:0;padding:clamp(30px,3vw,42px) clamp(22px,2.4vw,32px);outline:1px solid var(--gold);outline-offset:-9px;box-shadow:0 20px 40px rgba(20,0,0,.5)}
+.rev:nth-child(1){transform:rotate(-1.1deg)}
+.rev:nth-child(3){transform:rotate(1.1deg)}
+.rev .stars{color:var(--red)}
+.rev cite{color:rgba(42,23,14,.7)}
+.reviews .rating .stars{color:#F3CF7F}
+
+/* label */
+.label{background:var(--pine)}
+.nutri{background:linear-gradient(160deg,#8E0D0D,#520707);box-shadow:0 22px 44px rgba(0,0,0,.42)}
+.label-cols h3{color:var(--gold-lit)}
+.label-cols p{color:rgba(254,244,226,.86)}
+
+/* faq */
+.faq{background:var(--paper);color:var(--ink);overflow:clip}
+.faq .inner{position:relative;z-index:2}
+.faq .eyebrow{color:var(--red)}
+.faq h2{color:#3A0606}
+.faq details{border-color:rgba(152,12,12,.3)}
+.faq details p{color:var(--ink-dim)}
+.faq summary i{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 34% 30%,#D93A3A,#8A0D0D 62%);color:var(--cream);font-size:19px;box-shadow:0 3px 6px rgba(80,0,0,.32)}
+
+/* buy */
+.buy{background:linear-gradient(rgba(96,6,6,.42),rgba(60,4,4,.5)),url("https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-velvet.webp") center/cover}
+.buy .btn{background:var(--foil);color:#3A0606;border:0}
+.buy .btn:hover{background:var(--foil);background-size:160% 100%;background-position:100% 0}
+.buy .inner{position:relative;z-index:2}
+.buy h2 em{color:transparent}
+.buy-art .a,.buy-art .b{position:relative}
+.buy-art .b{margin-left:-1%}
+
+footer{background:#0A1C13;color:rgba(254,244,226,.68);padding-top:38px}
+
+@media (max-width:980px){
+  .times li+li{border-top:1px solid var(--gold)}
+}
+@media (max-width:760px){
+  .hero{background:var(--velvet-bg)}
+  .hero-media{height:96vw;max-height:66svh}
+  .hero-shade{height:calc(min(96vw,66svh) + 1px);background:linear-gradient(180deg,rgba(40,4,4,.1) 0,rgba(40,4,4,0) 70%,rgba(60,5,5,1) 100%)}
+  .hero-copy{padding-block:8px 44px}
+  .friend-media video{border-left:0}
+  .pin .box-stage{padding-block:104px 16px}
+  .ing::before{background:linear-gradient(180deg,rgba(70,6,6,0) 32%,var(--velvet) 62%)}
+  .hero .bb{display:none}
+  .hero .bb[style*="--r:3%"]{display:block}
+  .bb.d{display:none}
+  .sound{width:34px;height:34px}
+}
+@media (prefers-reduced-motion:reduce){
+  .bb{animation:none}
+  .nav-lights circle{animation:none}
+}
+</style>
+{% endraw %}</head>
+<body>{% raw %}
+<div class="grain" aria-hidden="true"></div>
+<canvas id="snow" aria-hidden="true"></canvas>
+
+<nav class="nav" id="nav" aria-label="Main">
+  <a href="#top" aria-label="ShortcutX, back to top"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-logo.png" alt="ShortcutX" width="900" height="217"></a>
+  <div class="nav-right">
+    <button type="button" class="sound" id="sound" aria-pressed="false" aria-label="Play Christmas music"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 18.2V6.4l11-2.2v11.6a3 3 0 1 1-1.6-2.6V8.1L10.6 9.7v8.5a3 3 0 1 1-1.6-2.6z"/></svg></button>
+    <a class="btn" href="https://shortcutx.co/cart/update?updates%5B67662191001750%5D=1" target="_blank" rel="noopener">Shop Now</a>
+  </div>
+  <svg class="nav-lights" id="navLights" viewBox="0 0 1440 30" preserveAspectRatio="xMidYMin slice" aria-hidden="true"></svg>
+</nav>
+<a class="btn float" id="float" href="https://shortcutx.co/cart/update?updates%5B67662191001750%5D=1" target="_blank" rel="noopener">Try It for 7 Days</a>
+
+<main id="top">
+
+<section class="hero" aria-label="The seasonal favourite is back">
+  <div class="hero-media" id="heroMedia">
+    <img id="heroImg" src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-hero.webp" alt="ShortcutX Toffee Nut Latte box, sachet and a steaming latte on a stone counter, with a lit Christmas tree and condo towers at dusk behind" width="2200" height="1228" fetchpriority="high">
+    <canvas id="heroFx" aria-hidden="true"></canvas>
+  </div>
+  <div class="hero-shade"></div>
+  <span class="bb" aria-hidden="true" style="--x:4%;--w:62px;--len:150px;--t:5.6s"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-bauble-red.webp" alt="" loading="lazy"></span><span class="bb d" aria-hidden="true" style="--x:10.5%;--w:50px;--len:118px;--t:4.7s"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-bauble-gold.webp" alt="" loading="lazy"></span><span class="bb" aria-hidden="true" style="--r:3%;--w:54px;--len:132px;--t:5s"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-bauble-gold.webp" alt="" loading="lazy"></span><span class="bb d" aria-hidden="true" style="--r:9%;--w:44px;--len:112px;--t:6.1s"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-bauble-red.webp" alt="" loading="lazy"></span>
+  <div class="hero-copy wrap"><div class="inner"><div class="hero-text">
+    <div class="tag-row"><span class="days" id="days" hidden><b id="daysN"></b><span id="daysL">days to Christmas</span></span></div>
+    <div class="rating"><span class="stars" aria-hidden="true">★★★★★</span><span>5.0 · 8 reviews</span></div>
+    <span class="eyebrow">Limited edition · 7 sachets · 20g each</span>
+    <h1>The seasonal favourite <em>is back.</em></h1>
+    <p class="lede">Rich latte. Toasted toffee. A nutty finish. Ready in seconds at home, with clinically studied ingredients in every cup.</p>
+    <div class="hero-cta">
+      <a class="btn" href="https://shortcutx.co/cart/update?updates%5B67662191001750%5D=1" target="_blank" rel="noopener">Get Yours Before It's Gone</a>
+    </div>
+  </div></div></div>
+</section>
+
+<div class="tartan" aria-hidden="true"></div>
+
+<section class="problem wrap" aria-labelledby="pb">
+  <div class="inner">
+    <div class="problem-head rv">
+      <span class="eyebrow">The December problem</span>
+      <h2 id="pb">December isn't kind to your goals.</h2>
+    </div>
+    <ul class="times rv">
+      <li><time>8:45 AM</time><h3>The café queue</h3><p class="body">Every festive latte on the menu is calling you. So is the queue, and the bill at the end of it.</p></li>
+      <li><time>3:00 PM</time><h3>The year-end slump</h3><p class="body">Deadlines, gift lists, one more gathering tonight. By mid-afternoon you're running on empty.</p></li>
+      <li><time>11:00 PM</time><h3>The wrapping shift</h3><p class="body">Still wrapping presents and still thinking about tomorrow. You haven't had a quiet minute since November.</p></li>
+    </ul>
+    <div class="stats rv">
+      <div class="bignum">86<small>kcal</small></div>
+      <div class="stat-copy">
+        <p class="say">Per cup. Creamy, toffee-nutty, and that's all it costs you.</p>
+        <p class="src">Per 20g serving, from the nutrition panel on the pack.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="friend" aria-labelledby="fr">
+  <div class="friend-copy rv">
+    <span class="eyebrow">Toffee Nut Latte Slimming Drink</span>
+    <h2 id="fr">An old friend <em>is back.</em></h2>
+    <p class="lede">Your cosy seasonal latte has returned, with a little extra working behind the scenes.</p>
+    <p class="body">Celebrate the season without derailing your goals. Toffee Nut Latte blends festive indulgence with clinically studied Satiereal® and Cacti-Nea™, so you can enjoy the season's joy and stay committed to your wellness goals. It won't be here year-round.</p>
+    <ul class="chips">
+      <li>7 sachets / pack</li><li>20g each</li><li>Low-lactose</li><li>Gluten-free</li><li>Limited edition</li>
+    </ul>
+    <div class="price">SGD $24 <span>/ 7-pack</span></div>
+    <div><a class="btn" href="https://shortcutx.co/cart/update?updates%5B67662191001750%5D=1" target="_blank" rel="noopener">Get Yours Before It's Gone</a></div>
+  </div>
+  <div class="friend-media">
+    <video id="glove" muted playsinline preload="metadata" poster="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-glove-poster.webp" aria-label="Santa's white glove sets a red ShortcutX mug of toffee latte on a walnut table beside the Christmas tree"><source src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-glove.mp4" type="video/mp4"></video>
+  </div>
+</section>
+
+<section class="boxsec" id="boxsec" aria-labelledby="bx">
+  <div class="box-sticky wrap">
+    <div class="box-stage inner">
+      <div>
+        <div class="box-head">
+          <span class="eyebrow">What's on the box</span>
+          <h2 id="bx">Turn it around. <em>It's all there.</em></h2>
+        </div>
+        <div class="box-caps" id="boxCaps">
+          <div class="box-cap on">
+            <span class="where">The front</span>
+            <p class="big">Limited edition. 7 day achiever.</p>
+            <ul><li>7 sachets of 20g each</li><li>One sachet makes one cup</li><li>Here for Christmas only</li></ul>
+          </div>
+          <div class="box-cap">
+            <span class="where">The left side</span>
+            <p class="big">Powered by clinically studied natural ingredients</p>
+            <ul><li>Satiereal® for appetite support</li><li>Cacti-Nea™ for body balance</li><li>Green Coffee &amp; Green Tea Extract for natural metabolism support</li></ul>
+          </div>
+          <div class="box-cap">
+            <span class="where">The right side</span>
+            <p class="big">What it does for your day</p>
+            <ul><li>Supports healthy metabolism</li><li>Supports appetite control</li><li>Stay focused &amp; energized</li><li>Promotes balance &amp; wellness</li></ul>
+          </div>
+        </div>
+        <div class="box-dots" id="boxDots" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div class="scene">
+        <div class="box3d" id="box3d" role="img" aria-label="The Toffee Nut Latte box, turning to show its front and both side panels">
+          <div class="shadow"></div>
+          <div class="face f-top"></div>
+          <div class="face f-back"></div>
+          <div class="face f-left"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-box-left.webp" alt="" loading="lazy"></div>
+          <div class="face f-right"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-box-right.webp" alt="" loading="lazy"></div>
+          <div class="face f-front"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-box-front.webp" alt="" loading="lazy"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="ig">
+  <div class="ing-head wrap"><div class="inner rv">
+    <span class="eyebrow">How it works</span>
+    <h2 id="ig">Four active ingredients.<br><em>One cosy cup.</em></h2>
+  </div></div>
+
+  <article class="ing">
+    <img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-saffron.webp" alt="Saffron threads in a brass dish on a walnut table by candlelight" loading="lazy">
+    <div class="ing-copy wrap"><div class="inner"><div class="ing-text">
+      <span class="ing-count">Ingredient 01 of 04</span>
+      <p class="ing-name">Satiereal®</p>
+      <p class="ing-sub">Saffron extract</p>
+      <p class="ing-role">The mood lifter</p>
+      <ul><li>Supports mood and emotional well-being</li><li>Clinical studies show improvements in stress and mood scores</li><li>On the box for appetite support</li></ul>
+    </div></div></div>
+    <span class="keep" aria-hidden="true">Keep scrolling</span>
+  </article>
+  <article class="ing">
+    <img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-cactus.webp" alt="Prickly pear cactus fruit, one sliced open, on a walnut table with a pine sprig" loading="lazy">
+    <div class="ing-copy wrap"><div class="inner"><div class="ing-text">
+      <span class="ing-count">Ingredient 02 of 04</span>
+      <p class="ing-name">Cacti-Nea™</p>
+      <p class="ing-sub">Cactus extract</p>
+      <p class="ing-role">The daily defender</p>
+      <ul><li>Supports energy metabolism and antioxidant defenses</li><li>Helps reduce oxidative stress from daily activities</li><li>On the box for body balance</li></ul>
+    </div></div></div>
+  </article>
+  <article class="ing">
+    <img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-greencoffee.webp" alt="Unroasted green coffee beans in a speckled stoneware bowl beside a brass bell" loading="lazy">
+    <div class="ing-copy wrap"><div class="inner"><div class="ing-text">
+      <span class="ing-count">Ingredient 03 of 04</span>
+      <p class="ing-name">Green coffee</p>
+      <p class="ing-sub">Green coffee bean extract</p>
+      <p class="ing-role">The metabolism helper</p>
+      <ul><li>For natural metabolism support</li></ul>
+    </div></div></div>
+  </article>
+  <article class="ing">
+    <img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-greentea.webp" alt="Loose green tea leaves in a red ceramic bowl on a walnut table beside a tartan cloth" loading="lazy">
+    <div class="ing-copy wrap"><div class="inner"><div class="ing-text">
+      <span class="ing-count">Ingredient 04 of 04</span>
+      <p class="ing-name">Green tea</p>
+      <p class="ing-sub">Green tea extract</p>
+      <p class="ing-role">The steady partner</p>
+      <ul><li>Works with green coffee for natural metabolism support</li></ul>
+    </div></div></div>
+  </article>
+</section>
+
+<section class="taste on-paper" aria-labelledby="ts">
+  <div class="taste-media" role="img" aria-label="Santa's white glove holding a speckled mug of toffee latte topped with cream, drizzle and toffee crumbs"></div>
+  <div class="taste-copy rv">
+    <span class="eyebrow">The taste</span>
+    <h2 id="ts">Toasted toffee. <em>Nutty finish.</em></h2>
+    <p class="lede">We refused to make a wellness drink that tastes like one. This is the warmth of toasted toffee and nutty undertones in a rich, creamy latte. It feels like a festive treat, because it is.</p>
+    <ul class="taste-list">
+      <li><b>2g</b>Total sugars per cup</li>
+      <li><b>9.6g</b>Protein per cup</li>
+      <li><b>0g</b>Saturated fat</li>
+      <li><b>Stevia</b>Sweetened with stevia extract</li>
+    </ul>
+  </div>
+</section>
+
+<div class="tartan" aria-hidden="true"></div>
+<section class="benefits wrap" aria-labelledby="bn">
+  <div class="inner">
+    <div class="ben-head rv">
+      <span class="eyebrow">The benefits</span>
+      <h2 id="bn">Your festive latte, <em>with benefits.</em></h2>
+    </div>
+    <article class="ben rv">
+      <figure><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-desk.webp" alt="A red mug of latte on a walnut desk under a brass lamp, with condo towers at dusk through the window" loading="lazy"></figure>
+      <div class="ben-copy"><span class="lab">Sustained energy &amp; focus</span><h3>Steady energy, festive flavour</h3><p>Gives you clean, steady energy and sharper concentration.</p></div>
+    </article>
+    <article class="ben rv">
+      <figure><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-hands.webp" alt="Hands in a chunky cream knit holding a red mug on a beige sofa, with a Christmas tree and condo garden behind" loading="lazy"></figure>
+      <div class="ben-copy"><span class="lab">Mood &amp; stress support</span><h3>A little calm in every cup</h3><p>Helps uplift your mood and reduce daily stress.</p></div>
+    </article>
+    <article class="ben rv">
+      <figure><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-walnut.webp" style="object-position:center 12%" alt="A walnut table with an amber candle, pine sprigs and red berries beside wrapped gifts" loading="lazy"></figure>
+      <div class="ben-copy"><span class="lab">Strong antioxidant protection</span><h3>Festive, with antioxidant protection</h3><p>Protects your cells from oxidative stress and supports overall wellness.</p></div>
+    </article>
+    <article class="ben rv">
+      <figure><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-table.webp" alt="Toffee Nut Latte box and sachet beside a glass mug of latte on a walnut table in a condo living room" loading="lazy"></figure>
+      <div class="ben-copy"><span class="lab">Gentle on sensitive stomachs</span><h3>Creamy, but gentle</h3><p>Low-lactose formula that's suitable for mild lactose intolerance.</p></div>
+    </article>
+    <article class="ben rv">
+      <figure><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-wrap.webp" alt="Kraft-paper gifts, red ribbon and a speckled mug of toffee latte on a terrazzo table" loading="lazy"></figure>
+      <div class="ben-copy"><span class="lab">Convenient drink</span><h3>Wrap. Sip. Repeat.</h3><p>Mixes instantly for a creamy, delicious wellness latte in seconds.</p></div>
+    </article>
+    <article class="ben rv">
+      <figure><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-stone.webp" style="object-position:center 62%" alt="A deep red mug of latte on a stone table, with a Christmas tree, beige sofa and condo blocks behind" loading="lazy"></figure>
+      <div class="ben-copy"><span class="lab">Boosts daily vitality</span><h3>Start your Christmas mornings right</h3><p>Supports energy metabolism to keep you feeling active and refreshed.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="ritual on-paper" aria-labelledby="rt">
+  <div class="wrap"><div class="inner">
+    <div class="rv">
+      <span class="eyebrow">The ritual · Any time of day</span>
+      <h2 id="rt">Tear. Mix. Sip.</h2>
+      <p class="ritual-sub">Morning latte, mid-afternoon pick-me-up or evening cosy treat. Ready before the café queue even moves.</p>
+      <ol class="steps" style="list-style:none;padding:0;margin-block-end:0">
+        <li><b>01</b><h3>Tear</h3><p>Open one 20g sachet into your favourite mug.</p></li>
+        <li><b>02</b><h3>Mix</h3><p>Add 150ml of hot water and stir well.</p></li>
+        <li><b>03</b><h3>Sip</h3><p>Enjoy. Sit down for it if the to-do list allows.</p></li>
+      </ol>
+    </div>
+    <img class="ritual-sachet" id="ritualSachet" src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-sachet.webp" alt="A red Toffee Nut Latte sachet" width="329" height="1100" loading="lazy">
+  </div></div>
+</section>
+
+<section class="foryou wrap" aria-labelledby="fy">
+  <div class="inner">
+    <div class="foryou-head rv">
+      <span class="eyebrow">Is this for you?</span>
+      <h2 id="fy">Made for Decembers <em>like yours.</em></h2>
+    </div>
+    <ul class="ticks rv">
+      <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><h3>You love a festive latte</h3><p class="body">You also have goals, and you'd like to reach January with both intact.</p></li>
+      <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><h3>Your to-do list keeps growing</h3><p class="body">Year-end at work, gifts at home. You need clean, steady energy and sharper concentration.</p></li>
+      <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><h3>You could use a calm minute</h3><p class="body">One warm cup on the sofa, before the Christmas rush picks up again.</p></li>
+      <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><h3>Milk drinks don't always agree with you</h3><p class="body">It's a low-lactose formula that's suitable for mild lactose intolerance.</p></li>
+      <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><h3>You want your festive desk drink</h3><p class="body">Keep a sachet in your bag. Tear, mix and sip in the office pantry.</p></li>
+      <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><h3>You had it last Christmas</h3><p class="body">Then you know. It's only here for the season, so stock up while it's around.</p></li>
+    </ul>
+    <div class="foryou-end rv">
+      <p>If you ticked any of these, it's yours for the season.</p>
+      <a class="btn" href="https://shortcutx.co/cart/update?updates%5B67662191001750%5D=1" target="_blank" rel="noopener">Try It for 7 Days</a>
+    </div>
+  </div>
+</section>
+
+<div class="tartan" aria-hidden="true"></div>
+<section class="range wrap" aria-labelledby="rg">
+  <span class="bb d" aria-hidden="true" style="--r:6%;--w:70px;--len:110px;--t:5.1s"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-bauble-gold.webp" alt="" loading="lazy"></span><span class="bb d" aria-hidden="true" style="--r:14%;--w:58px;--len:170px;--t:5.8s"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-bauble-red.webp" alt="" loading="lazy"></span>
+  <div class="inner">
+    <div class="foryou-head rv">
+      <span class="eyebrow">The ShortcutX warm cup range</span>
+      <h2 id="rg">Three stay all year. <em>One leaves after Christmas.</em></h2>
+    </div>
+    <div class="cards rv">
+      <article class="card">
+        <div class="card-img"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-crm.webp" alt="Caramel Macchiato Slimming Coffee box" loading="lazy"></div>
+        <div class="card-body"><h3>Caramel Macchiato</h3>
+          <dl><div><dt>Type</dt><dd>Slimming coffee</dd></div><div><dt>When</dt><dd>All year</dd></div><div><dt>Price</dt><dd>SGD $24</dd></div></dl>
+          <a class="btn ghost" href="https://shortcutx.co/products/2-0-shortcutx-slimming-coffee-caramel-macchiato" target="_blank" rel="noopener">Shop Caramel</a></div>
+      </article>
+      <article class="card star">
+        <div class="card-img"><span class="flag">Limited edition</span><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-box-front.webp" alt="Toffee Nut Latte Slimming Drink box" loading="lazy"></div>
+        <div class="card-body"><h3>Toffee Nut Latte</h3>
+          <dl><div><dt>Type</dt><dd>Slimming drink</dd></div><div><dt>When</dt><dd>Christmas only</dd></div><div><dt>Price</dt><dd>SGD $24</dd></div></dl>
+          <a class="btn" href="https://shortcutx.co/cart/update?updates%5B67662191001750%5D=1" target="_blank" rel="noopener">Get Yours Now</a></div>
+      </article>
+      <article class="card">
+        <div class="card-img"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-teh.webp" alt="Teh Tarik Slimming Tea box" loading="lazy"></div>
+        <div class="card-body"><h3>Teh Tarik</h3>
+          <dl><div><dt>Type</dt><dd>Slimming tea</dd></div><div><dt>When</dt><dd>All year</dd></div><div><dt>Price</dt><dd>SGD $24</dd></div></dl>
+          <a class="btn ghost" href="https://shortcutx.co/products/2-0-shortcutx-teh-tarik-slimming-tea" target="_blank" rel="noopener">Shop Teh Tarik</a></div>
+      </article>
+      <article class="card">
+        <div class="card-img"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-hc.webp" alt="Hot Chocolate Slimming Drink box" loading="lazy"></div>
+        <div class="card-body"><h3>Hot Chocolate</h3>
+          <dl><div><dt>Type</dt><dd>Slimming drink</dd></div><div><dt>When</dt><dd>All year</dd></div><div><dt>Price</dt><dd>SGD $24</dd></div></dl>
+          <a class="btn ghost" href="https://shortcutx.co/products/shortcutx-hot-chocolate-slimming-drink" target="_blank" rel="noopener">Shop Hot Chocolate</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="versus wrap" aria-labelledby="vs">
+  <div class="inner">
+    <div class="foryou-head rv">
+      <span class="eyebrow">Toffee Nut vs. the usual</span>
+      <h2 id="vs">Why it beats <em>the café run.</em></h2>
+    </div>
+    <div class="tbl rv" tabindex="0" role="region" aria-label="Comparison table">
+      <table>
+        <thead><tr><th scope="col" style="text-align:left">&nbsp;</th><th scope="col" class="us">Toffee Nut Latte</th><th scope="col">Café festive latte</th><th scope="col">Everyday 3-in-1</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Festive toffee nut flavour</th><td class="us y">✓</td><td class="y">✓</td><td class="n">✕</td></tr>
+          <tr><th scope="row">Made at home in seconds</th><td class="us y">✓</td><td class="n">✕</td><td class="y">✓</td></tr>
+          <tr><th scope="row">Clinically studied Satiereal® &amp; Cacti-Nea™</th><td class="us y">✓</td><td class="n">✕</td><td class="n">✕</td></tr>
+          <tr><th scope="row">Green coffee &amp; green tea extract</th><td class="us y">✓</td><td class="n">✕</td><td class="n">✕</td></tr>
+          <tr><th scope="row">Sachet you can take anywhere</th><td class="us y">✓</td><td class="n">✕</td><td class="y">✓</td></tr>
+          <tr><th scope="row">Around $3.43 a cup</th><td class="us y">✓</td><td class="n">✕</td><td class="y">✓</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<div class="tartan" aria-hidden="true"></div>
+<section class="reviews wrap" aria-labelledby="rv">
+  <div class="inner">
+    <div class="foryou-head rv">
+      <span class="eyebrow">What they're saying</span>
+      <h2 id="rv">Real cups. <em>Real reviews.</em></h2>
+      <div class="rating"><span class="stars" aria-hidden="true">★★★★★</span><span>5.0 from 8 customer reviews</span></div>
+    </div>
+    <div class="rev-grid rv">
+      <figure class="rev"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>“Nice aroma and delicious taste. Keeps me full, satisfied and energised till evening.”</blockquote><cite>Anisah B.</cite></figure>
+      <figure class="rev"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>“New flavour and probably my favourite! Thank you!”</blockquote><cite>Siti H.</cite></figure>
+      <figure class="rev"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>“Lovely drink for a fraction of money and calories.”</blockquote><cite>Hidayat A.</cite></figure>
+    </div>
+  </div>
+</section>
+
+<section class="label wrap" aria-labelledby="lb">
+  <div class="inner">
+    <div class="nutri rv">
+      <h3>Nutrition Facts</h3>
+      <div class="s"><span>Serving size</span><span>20g</span></div>
+      <div class="p">7 servings per pack · Amount per serving</div>
+      <table>
+        <tbody>
+          <tr class="e"><td>Energy</td><td>86 kcal</td></tr>
+          <tr class="m"><td>Total Fat</td><td>1.5g</td></tr>
+          <tr class="i"><td>Saturated Fat</td><td>0g</td></tr>
+          <tr class="i"><td>Trans Fat</td><td>0g</td></tr>
+          <tr class="m"><td>Cholesterol</td><td>0g</td></tr>
+          <tr class="m"><td>Total Carbohydrate</td><td>6.4g</td></tr>
+          <tr class="i"><td>Dietary Fiber</td><td>0g</td></tr>
+          <tr class="i"><td>Total Sugars</td><td>2.0g</td></tr>
+          <tr class="m"><td>Protein</td><td>9.6g</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="label-copy rv">
+      <div style="display:grid;gap:16px"><span class="eyebrow">The full label</span><h2 id="lb">Nothing hidden <em>on the back.</em></h2></div>
+      <div class="label-cols">
+        <div><h3>Ingredients</h3><p>Non-dairy Creamer, Instant Coffee Powder, Whole Milk Powder, Toffee Nut Latte Flavour, Satiereal, Cacti-nea, Green Tea Extract, Green Coffee Bean Extract, Guar Gum and Sweetener (Stevia Extract).</p></div>
+        <div><h3>Directions</h3><p>Take 1 sachet (20g) and mix with 150ml of hot water. Stir well and enjoy. Can be consumed at any time of the day.</p></div>
+        <div><h3>Storage</h3><p>Keep in a cool and dry place. Keep away from direct sunlight and heat. Keep out of reach of children.</p></div>
+        <div><h3>Warning</h3><p>This product should be used in conjunction with a varied and balanced diet, but not in place of one. Ensure adequate fluid intake. If you are breastfeeding or taking prescription medication, please consult your doctor. Do not exceed recommended daily dose. Do not consume while pregnant.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq on-paper wrap" aria-labelledby="fq">
+  <div class="inner">
+    <div class="faq-head rv">
+      <span class="eyebrow">Common questions</span>
+      <h2 id="fq">Everything <em>you need to know.</em></h2>
+    </div>
+    <div>
+      <details open><summary>What does it taste like?<i aria-hidden="true">+</i></summary><p>A rich, creamy latte with the warmth of toasted toffee and nutty undertones. It's sweetened with stevia extract and has 2g of total sugars per serving.</p></details>
+      <details><summary>How do I make it?<i aria-hidden="true">+</i></summary><p>Mix one 20g sachet with 150ml of hot water, stir well and enjoy. That's the whole recipe.</p></details>
+      <details><summary>When should I drink it?<i aria-hidden="true">+</i></summary><p>Any time of the day. Have it as a morning latte, a mid-afternoon pick-me-up or an evening cosy treat.</p></details>
+      <details><summary>I'm mildly lactose intolerant. Can I have it?<i aria-hidden="true">+</i></summary><p>It's a low-lactose formula that's suitable for mild lactose intolerance. It does contain whole milk powder, so if you have a milk allergy or stronger intolerance, please check with your doctor first.</p></details>
+      <details><summary>Does it contain caffeine?<i aria-hidden="true">+</i></summary><p>Yes. It contains instant coffee, green coffee bean extract and green tea extract, so it isn't caffeine-free. If you're sensitive to caffeine, keep that in mind for your evening cup.</p></details>
+      <details><summary>Can I drink it while pregnant, breastfeeding or on medication?<i aria-hidden="true">+</i></summary><p>Do not consume it while pregnant. If you are breastfeeding or taking prescription medication, please consult your doctor first.</p></details>
+      <details><summary>Can it replace a meal?<i aria-hidden="true">+</i></summary><p>No. It should be used in conjunction with a varied and balanced diet, not in place of one. Remember to drink enough fluids too.</p></details>
+      <details><summary>How long will it be available?<i aria-hidden="true">+</i></summary><p>It's a limited edition, here for Christmas only and while stocks last. If it's your favourite, stock up for the season.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="buy wrap" id="shop" aria-labelledby="by" style="scroll-margin-top:60px">
+  <div class="inner">
+    <div class="buy-art rv">
+      <img class="a" src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-box-front.webp" alt="Toffee Nut Latte Slimming Drink box" loading="lazy">
+      <img class="b" src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-sachet.webp" alt="Toffee Nut Latte sachet" loading="lazy">
+    </div>
+    <div class="buy-copy rv">
+      <span class="eyebrow">ShortcutX Toffee Nut Latte · Limited edition</span>
+      <h2 id="by">Here for <em>Christmas only.</em></h2>
+      <p class="lede">7 sachets of the season's favourite. Get yours before it's gone.</p>
+      <a class="btn" id="buyBtn" href="https://shortcutx.co/cart/update?updates%5B67662191001750%5D=1" target="_blank" rel="noopener">Get Yours Before It's Gone</a>
+      <p class="fine">★★★★★ 5.0 · 8 reviews · Low-lactose · Gluten-free</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="tartan" aria-hidden="true"></div>
+<footer class="wrap"><div class="inner">
+  <div class="row"><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/tnl-logo.png" alt="ShortcutX" width="900" height="217"><span>© 2026 ShortcutX. <a href="https://shortcutx.co" target="_blank" rel="noopener">shortcutx.co</a></span></div>
+  <p>Manufactured for and distributed by Shortcutx Pte Ltd, 2 Gambas Crescent, Nordcom II #01-35, Singapore 757044. This product should be used in conjunction with a varied and balanced diet, not in place of one. Do not consume while pregnant. Consult your doctor if you are breastfeeding or taking prescription medication.</p>
+</div></footer>
+
+<script>
+(function(){
+  var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  var $=function(id){return document.getElementById(id)};
+  var clamp=function(v,a,b){return Math.min(b,Math.max(a,v))};
+
+  /* edit these two values for offer changes */
+
+  /* days to Christmas, in Singapore time */
+  (function(){
+    var sg=new Date(Date.now()+(8*60+new Date().getTimezoneOffset())*6e4);
+    var today=Date.UTC(sg.getFullYear(),sg.getMonth(),sg.getDate());
+    var n=Math.round((Date.UTC(2026,11,25)-today)/864e5);
+    if(n<0) return;
+    $('daysN').textContent=n===0?'Merry':n;
+    $('daysL').textContent=n===0?'Christmas':n===1?'day to Christmas':'days to Christmas';
+    $('days').hidden=false;
+  })();
+
+  /* old-fashioned bulbs hanging under the nav */
+  (function(){
+    var s=$('navLights'), NS='http://www.w3.org/2000/svg', d='M0 1', spans=9, w=1440/spans, cols=['#FF5A4A','#FFD58A','#4FC27A','#FFB84D'], n=0;
+    for(var i=0;i<spans;i++){
+      var x0=i*w;
+      d+=' Q'+(x0+w/2)+' 26 '+(x0+w)+' 1';
+    }
+    var p=document.createElementNS(NS,'path');p.setAttribute('d',d);s.appendChild(p);
+    for(var j=0;j<spans;j++){
+      for(var k=1;k<5;k++){
+        var t=k/5, x=j*w+t*w, y=1+(2*t*(1-t))*25+6, col=cols[n%4];
+        var h=document.createElementNS(NS,'circle');h.setAttribute('class','halo');h.setAttribute('cx',x);h.setAttribute('cy',y);h.setAttribute('r',9);h.setAttribute('fill',col);s.appendChild(h);
+        var c=document.createElementNS(NS,'circle');c.setAttribute('cx',x);c.setAttribute('cy',y);c.setAttribute('r',3.6);c.setAttribute('fill',col);c.style.animationDelay=(-(n*0.61)%2.8).toFixed(2)+'s';s.appendChild(c);n++;
+      }
+    }
+  })();
+
+  /* falling snow and gold flecks on desktop only, phones get none, set SNOW to false to turn it off everywhere */
+  var SNOW=true;
+  (function(){
+    var cv=$('snow');
+    if(!SNOW){cv.style.display='none';return}
+    var ctx=cv.getContext('2d'),W=0,H=0,dpr=1,flakes=[],last=0;
+    var phone=matchMedia('(max-width:760px),(pointer:coarse) and (max-height:500px)');
+    function flake(){return {x:Math.random()*W,y:Math.random()*H,r:.8+Math.random()*2,v:.35+Math.random()*.75,p:Math.random()*6.28,g:Math.random()<.16}}
+    function size(){
+      cv.style.display=phone.matches?'none':'';
+      if(phone.matches){W=H=0;flakes=[];return}
+      var nw=innerWidth,nh=cv.getBoundingClientRect().height;
+      if(nw===W&&Math.abs(nh-H)<2) return;
+      W=nw;H=nh;dpr=Math.min(devicePixelRatio||1,2);cv.width=W*dpr;cv.height=H*dpr;
+      var n=Math.min(80,Math.round(W/18));
+      flakes=[];for(var i=0;i<n;i++)flakes.push(flake());
+    }
+    function draw(){
+      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
+      flakes.forEach(function(f){
+        ctx.beginPath();ctx.arc(f.x,f.y,f.r,0,6.283);
+        ctx.fillStyle=f.g?'rgba(255,214,140,.9)':'rgba(255,255,255,'+Math.min(.95,.5+f.r*.13)+')';ctx.fill();
+      });
+    }
+    function frame(ms){
+      requestAnimationFrame(frame);
+      if(ms-last<30||!flakes.length)return;last=ms;
+      flakes.forEach(function(f){
+        f.y+=f.v;f.p+=.012;f.x+=Math.sin(f.p)*.42;
+        if(f.y>H+6){f.y=-6;f.x=Math.random()*W}
+      });
+      draw();
+    }
+    /* with the Reduce Motion setting on, the snow stays still rather than falling */
+    size();draw();
+    addEventListener('resize',function(){size();draw()});
+    if(!reduce) requestAnimationFrame(frame);
+  })();
+
+  /* music box: Jingle Bells (public domain), only starts when the visitor presses play */
+  (function(){
+    var btn=$('sound'),ac=null,master=null,timer=null,on=false;
+    var S=[[76,1],[76,1],[76,2],[76,1],[76,1],[76,2],[76,1],[79,1],[72,1.5],[74,.5],[76,4],[77,1],[77,1],[77,1.5],[77,.5],[77,1],[76,1],[76,1],[76,.5],[76,.5],[76,1],[74,1],[74,1],[76,1],[74,2],[79,2],[76,1],[76,1],[76,2],[76,1],[76,1],[76,2],[76,1],[79,1],[72,1.5],[74,.5],[76,4],[77,1],[77,1],[77,1.5],[77,.5],[77,1],[76,1],[76,1],[76,.5],[76,.5],[79,1],[79,1],[77,1],[74,1],[72,4]];
+    var B=.3;
+    function note(m,t,len){
+      var f=440*Math.pow(2,(m-69)/12);
+      [[1,.34],[2,.1],[4,.05]].forEach(function(h){
+        var o=ac.createOscillator(),g=ac.createGain();o.type='sine';o.frequency.value=f*h[0];
+        g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(h[1],t+.006);g.gain.exponentialRampToValueAtTime(.0008,t+Math.max(.9,len*1.8));
+        o.connect(g);g.connect(master);o.start(t);o.stop(t+Math.max(1,len*1.9));
+      });
+    }
+    function play(){
+      var t=ac.currentTime+.08,total=0;
+      S.forEach(function(n){note(n[0],t+total,n[1]*B);total+=n[1]*B});
+      timer=setTimeout(play,(total+.6)*1000);
+    }
+    btn.onclick=function(){
+      on=!on;btn.setAttribute('aria-pressed',on);btn.setAttribute('aria-label',on?'Stop Christmas music':'Play Christmas music');
+      if(on){
+        if(!ac){ac=new (window.AudioContext||window.webkitAudioContext)();master=ac.createGain();master.gain.value=.32;master.connect(ac.destination)}
+        ac.resume();master.gain.setValueAtTime(.32,ac.currentTime);play();
+      }else{clearTimeout(timer);ac.close();ac=null}
+    };
+  })();
+
+  /* reveal: content is readable before and after, only position moves */
+  if(!reduce && 'IntersectionObserver' in window){
+    var items=[].filter.call(document.querySelectorAll('.rv'),function(e){return e.getBoundingClientRect().top>innerHeight});
+    items.forEach(function(e){e.classList.add('rv-prep')});
+    document.documentElement.classList.add('rv-on');
+    document.querySelectorAll('.rv').forEach(function(e){if(!e.classList.contains('rv-prep'))e.classList.add('in')});
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -6% 0px'});
+    items.forEach(function(e){io.observe(e)});
+  }
+
+  /* hero: the tree lights twinkle and the latte steams, mapped onto the photo */
+  (function(){
+    var BULBS=[[0.4019, 0.1023], [0.385, 0.1316], [0.4317, 0.1373], [0.4216, 0.145], [0.3986, 0.1632], [0.3869, 0.1718], [0.441, 0.1892], [0.4312, 0.2014], [0.4152, 0.2049], [0.3731, 0.223], [0.4424, 0.2264], [0.3679, 0.2647], [0.4194, 0.266], [0.3864, 0.2761], [0.4337, 0.2788], [0.455, 0.2878], [0.4608, 0.332], [0.4045, 0.3498], [0.3604, 0.357], [0.4583, 0.358], [0.468, 0.3641], [0.4441, 0.3716], [0.3682, 0.3759], [0.4253, 0.3758], [0.442, 0.432], [0.3908, 0.4544], [0.3548, 0.4855], [0.4706, 0.4838], [0.4832, 0.492], [0.3629, 0.4981], [0.4085, 0.5034], [0.4755, 0.514], [0.3867, 0.5194], [0.4175, 0.5231], [0.4391, 0.5338], [0.3927, 0.57], [0.4404, 0.5759], [0.3869, 0.5758], [0.4232, 0.5789], [0.3718, 0.5803], [0.4534, 0.585], [0.4082, 0.5892], [0.3679, 0.59], [0.4441, 0.5901], [0.4295, 0.5977], [0.4438, 0.6132], [0.4182, 0.5993], [0.4981, 0.61], [0.4238, 0.6051], [0.485, 0.6254]];
+    var img=('heroImg'),cv=('heroFx'), box=$('heroMedia');
+    if(reduce||!cv.getContext) return;
+    var ctx=cv.getContext('2d'), W=0,H=0,dpr=1,iw=2200,ih=1228,sc=1,ox=0,oy=0,visible=true,last=0;
+    var MUG=[.397,.586], steam=[];
+    function fit(){
+      var r=box.getBoundingClientRect();dpr=Math.min(devicePixelRatio||1,1.5);W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;
+      var pos=getComputedStyle(img).objectPosition.split(' ').map(parseFloat);
+      sc=Math.max(W/iw,H/ih);ox=(W-iw*sc)*(pos[0]/100);oy=(H-ih*sc)*(pos[1]/100);
+    }
+    function px(f){return [ox+f[0]*iw*sc, oy+f[1]*ih*sc]}
+    var seeds=BULBS.map(function(b,i){return {b:b,ph:i*2.399,sp:.55+((i*7)%10)/10*.9}});
+    for(var i=0;i<26;i++) steam.push({t:Math.random(),dx:(Math.random()-.5),w:Math.random()*6.28});
+    function frame(ms){
+      requestAnimationFrame(frame);
+      if(!visible||ms-last<33) return; last=ms;
+      var t=ms/1000;
+      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
+      ctx.globalCompositeOperation='lighter';
+      var u=iw*sc/1100;
+      seeds.forEach(function(s){
+        var a=Math.pow(.5+.5*Math.sin(t*s.sp+s.ph),3), q=px(s.b), r=16*u;
+        var g=ctx.createRadialGradient(q[0],q[1],0,q[0],q[1],r);
+        g.addColorStop(0,'rgba(255,214,150,'+(.62*a)+')');g.addColorStop(1,'rgba(255,170,70,0)');
+        ctx.fillStyle=g;ctx.beginPath();ctx.arc(q[0],q[1],r,0,6.283);ctx.fill();
+      });
+      ctx.globalCompositeOperation='source-over';
+      var m=px(MUG);
+      steam.forEach(function(s){
+        s.t+=.0042;if(s.t>1){s.t=0;s.dx=Math.random()-.5}
+        var y=m[1]-s.t*120*u, x=m[0]+s.dx*44*u+Math.sin(s.t*5+s.w)*15*u*s.t, r=(9+s.t*26)*u, a=.085*Math.sin(s.t*3.14);
+        var g=ctx.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,'rgba(255,240,222,'+a+')');g.addColorStop(1,'rgba(255,240,222,0)');
+        ctx.fillStyle=g;ctx.beginPath();ctx.arc(x,y,r,0,6.283);ctx.fill();
+      });
+    }
+    fit();addEventListener('resize',fit);
+    if('IntersectionObserver' in window)new IntersectionObserver(function(e){visible=e[0].isIntersecting}).observe(box);
+    requestAnimationFrame(frame);
+  })();
+
+  /* glove film plays once when reached, then rests on the last frame */
+  (function(){
+    var v=$('glove');
+    if(reduce||!('IntersectionObserver' in window)) return;
+    new IntersectionObserver(function(es,o){
+      if(es[0].isIntersecting){var p=v.play();if(p&&p.catch)p.catch(function(){});o.disconnect()}
+    },{threshold:.45}).observe(v);
+  })();
+
+  /* turning box */
+  var sec=('boxsec'),box=('box3d'), caps=[].slice.call(document.querySelectorAll('.box-cap')), dots=[].slice.call($('boxDots').children), stage=0;
+  var pinned=!reduce;
+  if(pinned) document.documentElement.classList.add('pin');
+  function lerpKeys(p){
+    var K=[[0,-14],[.1,-14],[.32,74],[.5,74],[.72,-74],[.9,-74],[1,-58]];
+    for(var i=1;i<K.length;i++){if(p<=K[i][0]){var a=K[i-1],b=K[i],t=(p-a[0])/(b[0]-a[0]||1);t=t*t*(3-2*t);return a[1]+(b[1]-a[1])*t}}
+    return K[K.length-1][1];
+  }
+  function drawBox(){
+    if(!pinned) return;
+    var r=sec.getBoundingClientRect(), p=clamp(-r.top/(r.height-innerHeight),0,1);
+    box.style.setProperty('--ry',lerpKeys(p).toFixed(2)+'deg');
+    var s=p<.2?0:p<.6?1:2;
+    if(s!==stage){stage=s;caps.forEach(function(c,i){c.classList.toggle('on',i===s)});dots.forEach(function(d,i){d.classList.toggle('on',i===s)})}
+  }
+
+  /* nav, floating CTA, hero depth, sachet tilt */
+  var nav=('nav'),fl=('float'), hm=('heroMedia'),shop=('shop'), sachet=$('ritualSachet'), tick=false;
+  function onScroll(){
+    tick=false;
+    var y=scrollY;
+    nav.classList.toggle('on',y>40);
+    var br=sec.getBoundingClientRect(), overBox=innerWidth<=760 && br.top<innerHeight*.5 && br.bottom>innerHeight*.5;
+    fl.classList.toggle('on',y>innerHeight*.7 && !overBox && shop.getBoundingClientRect().top>innerHeight*.7);
+    if(!reduce){
+      if(y<innerHeight*1.2) hm.style.transform='translateY('+(y*.1).toFixed(1)+'px) scale('+(1+y*.00007).toFixed(4)+')';
+      var sr=sachet.getBoundingClientRect();
+      if(sr.bottom>0&&sr.top<innerHeight) sachet.style.transform='rotate('+(7-(sr.top/innerHeight)*12).toFixed(2)+'deg)';
+    }
+    drawBox();
+  }
+  addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(onScroll)}},{passive:true});
+  addEventListener('resize',onScroll);
+  onScroll();
+
+})();
+</script>
+{% endraw %}</body>
+</html>
+
+
