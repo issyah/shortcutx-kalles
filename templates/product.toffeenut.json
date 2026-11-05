@@ -299,11 +299,7 @@
         "bl_image_Beg6Mr": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/ShortcutX_Toffee_Nut_Latte_PDP-1.jpg",
-            "image2": "shopify://shop_images/ShortcutX_Toffee_Nut_Latte_PDP-2_1.jpg",
-            "image3": "shopify://shop_images/ShortcutX_Toffee_Nut_Latte_PDP-1.jpg",
-            "image4": "shopify://shop_images/ShortcutX_Toffee_Nut_Latte_PDP-4.jpg",
-            "image5": "shopify://shop_images/toffee-nut-latte-pdp-5.png",
+            "image1": "shopify://shop_images/Shortcutx_Toffee_Nut_Latte_PDP-B.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
