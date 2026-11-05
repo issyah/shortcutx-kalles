@@ -8,6 +8,7 @@
  * ------------------------------------------------------------
  */
 {
+  "layout": "deep-sleep",
   "sections": {
     "main": {
       "type": "toffee-nut-limited-edition",
