@@ -300,6 +300,7 @@
           "type": "bl_image",
           "settings": {
             "image1": "shopify://shop_images/ShortcutX_Toffee_Nut_Latte_PDP-1.jpg",
+            "image2": "shopify://shop_images/ShortcutX_Toffee_Nut_Latte_PDP-2_1.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
