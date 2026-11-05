@@ -140,7 +140,7 @@
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
           "settings": {
-            "title": "Flat Tummy Shake Flavour Options"
+            "title": "Combo Flavor Options"
           }
         }
       },
@@ -194,7 +194,11 @@
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": [],
+        "product_list": [
+          "fat-burner-apple-cider-fruit-juice",
+          "shortcutx-de-bloat-white-grape",
+          "shortcutx-detox-juice"
+        ],
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",
@@ -209,7 +213,6 @@
         "bl_image_mbahmA": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/1_1dfaa86e-d6c3-4882-915e-7eb39bcb7a7f.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -269,7 +272,6 @@
         "bl_image_tBNBLJ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/2_05299d6d-feb8-496b-a9a3-3773114fea61.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -329,7 +331,6 @@
         "bl_image_FP4PVa": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/3_5cb84fde-d790-4fa3-b5c7-fd07c65485c8.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -389,7 +390,6 @@
         "bl_image_iKGgnE": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/4_95115890-f47b-4b89-922f-ee3e56be9815.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -449,7 +449,6 @@
         "bl_image_JUkyr8": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/WhatsApp_Image_2024-06-04_at_09.57.29_7478ddff-b0d2-46db-b62b-73c160958c33.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -509,7 +508,6 @@
         "bl_image_YLUBq9": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/WhatsApp_Image_2024-06-04_at_09.59.14_7b74ef44-7b2a-4a0b-bcaa-b2e5189f1af5.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
