@@ -731,8 +731,9 @@
         "image_parent_Leaxfm": {
           "type": "image_parent",
           "name": "30-Day",
-          "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/1800_by_600.jpg",
+            "image_mb": "shopify://shop_images/1080_by_1080.jpg",
             "image_position": "default",
             "cl_img": "",
             "link_img1": "shopify://products/30-day-weight-loss-pack",
