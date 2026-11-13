@@ -419,7 +419,7 @@
         "bl_image_kHz8mG": {
           "type": "bl_image",
           "settings": {
-            "image3": "shopify://shop_images/30Day-season-pdp-tiktok-3_3.jpg",
+            "image1": "shopify://shop_images/30Day-season-pdp-tiktok-3_3.jpg",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
