@@ -1,0 +1,27 @@
+{% layout none %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shortcutx Black Friday Cyber Monday | 4 Days Only</title>
+    <meta
+      name="description"
+      content="Our best deal of the year. Up to 25% off storewide, plus a free Detox and store credit. 27 - 30 Nov."
+    >
+    <link rel="canonical" href="{{ canonical_url }}">
+    {%- if settings.favicon != blank -%}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    >
+    {{ content_for_header }}
+  </head>
+  <body id="top">
+    {% section 'bfcm-landing' %}
+  </body>
+</html>
