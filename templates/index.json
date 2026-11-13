@@ -91,6 +91,46 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
+        "image_parent_WUaPx9": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify://shop_images/1800_by_600_0e6aa206-c47f-4418-a88a-fdd36b5179ff.jpg",
+            "image_mb": "shopify://shop_images/1100_by_750.jpg",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "center",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
         "image_parent_PjTGkK": {
           "type": "image_parent",
           "name": "Nov Promotion",
@@ -883,6 +923,7 @@
         }
       },
       "block_order": [
+        "image_parent_WUaPx9",
         "image_parent_PjTGkK",
         "image_parent_epPRbC",
         "164602873867eb3815-0",
