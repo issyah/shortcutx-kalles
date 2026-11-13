@@ -1106,7 +1106,7 @@ footer{background:#0A1C13;color:rgba(254,244,226,.68);padding-top:38px}
   })();
 
   /* turning box */
-  var sec=('boxsec'),box=('box3d'), caps=[].slice.call(document.querySelectorAll('.box-cap')), dots=[].slice.call($('boxDots').children), stage=0;
+  var sec=$('boxsec'),box=$('box3d'), caps=[].slice.call(document.querySelectorAll('.box-cap')), dots=[].slice.call($('boxDots').children), stage=0;
   var pinned=!reduce;
   if(pinned) document.documentElement.classList.add('pin');
   function lerpKeys(p){
