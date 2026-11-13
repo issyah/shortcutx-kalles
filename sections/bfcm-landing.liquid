@@ -1,0 +1,2915 @@
+{% comment %}BFCM 2026 landing page. Rendered by templates/page.bfcm.liquid (layout none).{% endcomment %}
+<style>
+  :root {
+    --k: #0a0a0a;
+    --g: #2a2a2a;
+    --hot: #e2231a;
+    --red: #980c0c;
+    --off: #f5f0e8;
+    --st: #b9b2aa;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    background: var(--k);
+    color: var(--off);
+    font: 500 16px/1.6 Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  a {
+    color: inherit;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.02;
+    letter-spacing: -0.015em;
+  }
+  .wrap {
+    width: min(1180px, 100%);
+    margin: auto;
+    padding: 0 24px;
+    position: relative;
+  }
+  .lab {
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    color: var(--hot);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  h2 {
+    font-size: clamp(34px, 5vw, 60px);
+  }
+  h2 i {
+    font-style: normal;
+    color: var(--hot);
+  }
+  section {
+    padding: 96px 0;
+    position: relative;
+  }
+  .sub {
+    color: var(--st);
+    font-size: 17px;
+    max-width: 620px;
+    margin: 16px 0 0;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--hot);
+    color: #fff;
+    border: 0;
+    padding: 16px 34px;
+    font: 700 14px Montserrat;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .btn:hover {
+    background: #ff3a30;
+  }
+  .btn.line {
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #6a6a6a;
+  }
+  .btn.line:hover {
+    background: var(--off);
+    color: #111;
+    box-shadow: none;
+  }
+  .rl {
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--hot) 14%, #ff6a5e 50%, var(--hot) 86%, transparent);
+    box-shadow: 0 0 18px 2px rgba(226, 35, 26, 0.75);
+  }
+  /* nav */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(10, 10, 10, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #1c1c1c;
+  }
+  .nav .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+  .nav img {
+    height: 22px;
+  }
+  .nav .btn {
+    padding: 10px 18px;
+    font-size: 11px;
+  }
+  /* hero: wording, then products on the stage */
+  .hero {
+    padding: 56px 0 0;
+    text-align: center;
+    overflow: hidden;
+    background: radial-gradient(60% 42% at 50% 92%, rgba(226, 35, 26, 0.38), transparent 72%), var(--k);
+  }
+  .tag {
+    display: inline-block;
+    border: 1px solid var(--hot);
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-size: clamp(46px, 8.6vw, 114px);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    white-space: nowrap;
+  }
+  .hero h1 i {
+    font-style: normal;
+    color: var(--hot);
+  }
+  .up {
+    font-weight: 900;
+    font-size: clamp(22px, 3vw, 38px);
+    letter-spacing: 0.02em;
+    margin: 20px 0 4px;
+  }
+  .best {
+    font-weight: 500;
+    font-size: clamp(16px, 1.6vw, 20px);
+    color: var(--off);
+    margin: 0;
+  }
+  .hero .p {
+    color: var(--st);
+    font-size: 15px;
+    margin: 6px auto 0;
+    max-width: 560px;
+  }
+  .cdl {
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.24em;
+    color: var(--st);
+    text-transform: uppercase;
+    margin: 28px 0 10px;
+  }
+  .cd {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+  .cd div {
+    border: 1px solid var(--g);
+    width: 88px;
+    padding: 11px 0 8px;
+    background: #0f0f0f;
+  }
+  .cd b {
+    display: block;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .cd span {
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    color: var(--st);
+    text-transform: uppercase;
+  }
+  form.subf {
+    display: flex;
+    gap: 0;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  form.subf input {
+    flex: 1;
+    min-width: 0;
+    background: var(--off);
+    color: #111;
+    border: 0;
+    padding: 15px 20px;
+    font: 500 15px Montserrat;
+  }
+  .consent {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #8f8982;
+    margin: 10px auto 0;
+    max-width: 520px;
+  }
+  .consent a {
+    color: var(--st);
+  }
+  .fmsg {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0 0;
+    min-height: 1px;
+  }
+  .line-up {
+    position: relative;
+    height: clamp(210px, 27vw, 370px);
+    margin-top: 44px;
+    width: min(1180px, 100%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .line-up img {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    filter: drop-shadow(0 0 22px rgba(226, 35, 26, 0.42));
+    -webkit-box-reflect: below 0 linear-gradient(transparent 80%, rgba(255, 255, 255, 0.2));
+  }
+  .floor {
+    height: clamp(46px, 6vw, 84px);
+    background: linear-gradient(#1a0605, #070707);
+  }
+  /* deals */
+  .deals h2 {
+    margin-bottom: 6px;
+  }
+  .tiers {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 44px;
+    border: 1px solid var(--g);
+  }
+  .tier {
+    padding: 32px 30px 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--g);
+  }
+  .tier:first-child {
+    border-left: 0;
+  }
+  .tier .who {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    color: var(--st);
+    text-transform: uppercase;
+  }
+  .tier .pc {
+    font-weight: 900;
+    font-size: clamp(88px, 10.5vw, 138px);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin: 14px 0 0;
+  }
+  .tier .pc small {
+    font-size: 0.44em;
+    vertical-align: 0.72em;
+    letter-spacing: 0;
+  }
+  .tier .off {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .tier ul {
+    list-style: none;
+    margin: 22px 0 0;
+    padding: 18px 0 0;
+    border-top: 1px solid var(--g);
+    font-size: 15px;
+    flex: 1;
+  }
+  .tier li {
+    padding: 0 0 8px 20px;
+    position: relative;
+  }
+  .tier li:before {
+    content: '+';
+    position: absolute;
+    left: 0;
+    color: var(--hot);
+    font-weight: 900;
+  }
+  .tier li.none {
+    padding-left: 0;
+    color: var(--st);
+  }
+  .tier li.none:before {
+    content: '';
+  }
+  .wth {
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: 12px;
+    background: var(--red);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 6px 10px;
+  }
+  .tier.top {
+    background: linear-gradient(180deg, #1d0403, #0d0202);
+    box-shadow: inset 0 0 0 1px var(--hot);
+  }
+  .tier.top .pc {
+    color: var(--off);
+  }
+  .tier.top .who {
+    color: #fff;
+  }
+  .flag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--hot);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    padding: 7px 12px;
+  }
+  .tier.top li {
+    padding-right: 74px;
+  }
+  .pk {
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+    height: 100px;
+    width: auto;
+    filter: drop-shadow(0 0 16px rgba(226, 35, 26, 0.5));
+  }
+  .fine {
+    font-size: 13px;
+    color: var(--st);
+    margin: 16px 0 0;
+  }
+  /* calc */
+  .calc {
+    margin-top: 28px;
+    border: 1px solid var(--g);
+    padding: 32px 34px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 40px;
+    align-items: center;
+  }
+  .calc h3 {
+    font-size: 26px;
+  }
+  .calc label {
+    display: block;
+    font-size: 14px;
+    color: var(--st);
+    margin: 8px 0 14px;
+  }
+  .calc output.c {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 8px;
+  }
+  input[type='range'] {
+    width: 100%;
+    accent-color: var(--hot);
+    height: 28px;
+    margin: 0;
+  }
+  .res .l {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    padding: 6px 0;
+    font-size: 14.5px;
+    color: var(--st);
+    border-bottom: 1px solid #1e1e1e;
+  }
+  .res .l b {
+    font-weight: 700;
+    color: #fff;
+    text-align: right;
+  }
+  .res .pay {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1;
+    color: #fff;
+  }
+  .next {
+    margin-top: 12px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #ff6a5e;
+  }
+  /* lifestyle */
+  .life {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background: #050505;
+  }
+  .life > img,
+  .life picture img {
+    width: 100%;
+    height: auto;
+  }
+  .life .copy {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: min(46%, 600px);
+    padding: 56px 0 0 max(24px, calc((100vw - 1180px) / 2 + 24px));
+    display: flex;
+    flex-direction: column;
+  }
+  .life .lock {
+    font-weight: 900;
+    font-size: clamp(22px, 2.7vw, 38px);
+    line-height: 1;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+  }
+  .life .lock i {
+    font-style: normal;
+    color: var(--hot);
+  }
+  .life .lu {
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    margin-top: 8px;
+  }
+  .life h2 {
+    font-size: clamp(28px, 3.9vw, 54px);
+    margin-top: auto;
+  }
+  .band {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--red);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 13px 24px 13px max(24px, calc((100vw - 1180px) / 2 + 24px));
+  }
+  .life h2 {
+    margin-bottom: calc(52px + clamp(16px, 3vw, 40px));
+  }
+  .life .packs {
+    position: absolute;
+    right: max(20px, calc((100vw - 1180px) / 2 + 24px));
+    bottom: 12px;
+    display: flex;
+    align-items: flex-end;
+    gap: 0;
+    height: clamp(120px, 19vw, 250px);
+  }
+  .life .packs img {
+    height: 100%;
+    width: auto;
+    filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.7));
+  }
+  .life .packs img + img {
+    margin-left: -14%;
+    height: 92%;
+  }
+  /* reviews */
+  .score {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 14px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .stars {
+    color: var(--hot);
+    letter-spacing: 0.12em;
+  }
+  .rg {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 38px;
+  }
+  .rc {
+    border: 1px solid var(--g);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .rc q {
+    quotes: none;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0 16px;
+    flex: 1;
+  }
+  .rc b {
+    font-size: 13.5px;
+    font-weight: 700;
+  }
+  .rc small {
+    display: block;
+    color: var(--st);
+    font-size: 12px;
+  }
+  /* faq */
+  details {
+    border-bottom: 1px solid var(--g);
+    padding: 17px 0;
+  }
+  summary {
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary:after {
+    content: '+';
+    color: var(--hot);
+    font-weight: 900;
+  }
+  details[open] summary:after {
+    content: '−';
+  }
+  details p {
+    color: var(--st);
+    margin: 8px 0 0;
+    max-width: 760px;
+    font-size: 15px;
+  }
+  .faq {
+    padding-top: 0;
+  }
+  .faq .wrap {
+    max-width: 900px;
+  }
+  /* bundles at the bottom */
+  .bun {
+    background: #050505;
+    border-top: 1px solid #1c1c1c;
+  }
+  .art {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(70% 50% at 50% 84%, rgba(226, 35, 26, 0.36), transparent 74%), #080808;
+  }
+  .art .ln {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 17%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--hot) 18%, #ff6a5e 50%, var(--hot) 82%, transparent);
+    box-shadow: 0 0 14px 1px rgba(226, 35, 26, 0.7);
+    z-index: 1;
+  }
+  .art .fl {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 17%;
+    background: linear-gradient(#190605, #060606);
+  }
+  .art img {
+    position: absolute;
+    bottom: 17%;
+    width: auto;
+    z-index: 2;
+    filter: drop-shadow(0 0 12px rgba(226, 35, 26, 0.4));
+  }
+  .feat {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    border: 1px solid var(--g);
+    margin-top: 40px;
+  }
+  .feat .art {
+    min-height: 520px;
+  }
+  .feat .in {
+    padding: 38px 38px 34px;
+    border-left: 1px solid var(--g);
+  }
+  .feat h3 {
+    font-size: clamp(30px, 3.6vw, 46px);
+  }
+  .flagi {
+    display: inline-block;
+    background: var(--hot);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    padding: 6px 10px;
+    margin-bottom: 14px;
+  }
+  .dn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin: 22px 0;
+  }
+  .dn b {
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--hot);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .dn h4 {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 0 4px;
+  }
+  .dn p {
+    margin: 0;
+    font-size: 13.5px;
+    color: var(--st);
+    line-height: 1.5;
+  }
+  .pr {
+    display: flex;
+    align-items: flex-end;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+  }
+  .pr .now {
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .pr .was {
+    color: var(--st);
+    padding-bottom: 6px;
+    font-size: 14px;
+  }
+  .gf {
+    font-weight: 600;
+    margin: 0 0 20px;
+    font-size: 15px;
+  }
+  .upl {
+    margin-top: 22px;
+    padding-top: 16px;
+    border-top: 1px solid var(--g);
+    font-size: 14px;
+    color: var(--st);
+    line-height: 1.5;
+  }
+  .upl b {
+    color: #fff;
+    font-weight: 700;
+  }
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 14px;
+  }
+  .card {
+    border: 1px solid var(--g);
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s;
+  }
+  .card:hover {
+    border-color: var(--hot);
+  }
+  .card .art {
+    aspect-ratio: 1/0.92;
+  }
+  .card .in {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .card h3 {
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 13px;
+    color: var(--st);
+    margin: 8px 0 14px;
+    line-height: 1.5;
+    flex: 1;
+  }
+  .card .now {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .card .was {
+    font-size: 12.5px;
+    color: var(--st);
+    margin: 6px 0 2px;
+  }
+  .card .tg {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #ff6a5e;
+    margin-bottom: 14px;
+    min-height: 19px;
+  }
+  .card .btn {
+    padding: 12px 14px;
+    font-size: 11.5px;
+  }
+  footer {
+    padding: 24px 0;
+    font-size: 12px;
+    color: #8f8982;
+    text-align: center;
+    border-top: 1px solid #1c1c1c;
+  }
+  [data-show] {
+    display: none;
+  }
+  .rv {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.7s, transform 0.7s;
+  }
+  .rv.on {
+    opacity: 1;
+    transform: none;
+  }
+  .mob {
+    display: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .rv {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  @media (max-width: 980px) {
+    .grid4 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .rg,
+    .tiers,
+    .calc,
+    .feat {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .tier {
+      border-left: 0;
+      border-top: 1px solid var(--g);
+    }
+    .tier:first-child {
+      border-top: 0;
+    }
+    .calc {
+      padding: 26px 20px;
+      gap: 22px;
+    }
+    .feat .in {
+      border-left: 0;
+      border-top: 1px solid var(--g);
+      padding: 26px 20px;
+    }
+    .feat .art {
+      min-height: 0;
+      aspect-ratio: 1/0.85;
+    }
+  }
+  @media (max-width: 760px) {
+    section {
+      padding: 64px 0;
+    }
+    .wrap {
+      padding: 0 16px;
+    }
+    .hero {
+      padding-top: 36px;
+    }
+    .hero h1 {
+      font-size: 9.9vw;
+      white-space: nowrap;
+      letter-spacing: -0.03em;
+    }
+    .up {
+      font-size: 24px;
+    }
+    .line-up {
+      height: 60vw;
+      margin-top: 34px;
+    }
+    .line-up .a,
+    .line-up .g,
+    .line-up .c {
+      display: none;
+    }
+    .line-up .b {
+      left: 1% !important;
+      height: 72% !important;
+    }
+    .line-up .d {
+      left: 27% !important;
+      height: 92% !important;
+    }
+    .line-up .e {
+      left: 60% !important;
+      height: 64% !important;
+      z-index: 5 !important;
+    }
+    .line-up .f {
+      left: 71% !important;
+      height: 82% !important;
+    }
+    .cd div {
+      flex: 1;
+      width: auto;
+    }
+    .cd b {
+      font-size: 30px;
+    }
+    form.subf {
+      flex-direction: column;
+      gap: 8px;
+    }
+    form.subf .btn {
+      width: 100%;
+    }
+    .dn {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .sub {
+      font-size: 15.5px;
+    }
+    .grid4 {
+      gap: 10px;
+    }
+    .card .in {
+      padding: 12px;
+    }
+    .card h3 {
+      font-size: 15px;
+    }
+    .card .now {
+      font-size: 25px;
+    }
+    .card .btn {
+      padding: 11px 6px;
+      font-size: 10.5px;
+      letter-spacing: 0.1em;
+    }
+    .life {
+      padding: 0;
+    }
+    .life .copy {
+      position: absolute;
+      width: 100%;
+      padding: 32px 16px 0;
+      text-align: center;
+      display: block;
+    }
+    .life h2 {
+      position: absolute;
+      left: 16px;
+      right: 44%;
+      bottom: 0;
+      margin: 0 0 92px;
+      text-align: left;
+      font-size: 25px;
+    }
+    .band {
+      padding: 11px 47% 11px 16px;
+      font-size: 13px;
+      min-height: 62px;
+      display: flex;
+      align-items: center;
+    }
+    .life .packs {
+      right: 12px;
+      bottom: 12px;
+      height: 132px;
+    }
+    .tier {
+      padding: 26px 20px;
+    }
+    .pk {
+      height: 96px;
+    }
+    .pr .now {
+      font-size: 50px;
+    }
+  }
+  /* urgency */
+  .hero {
+    padding-top: 40px;
+    background: radial-gradient(60% 34% at 50% 96%, rgba(226, 35, 26, 0.42), transparent 72%),
+      radial-gradient(46% 26% at 50% 38%, rgba(226, 35, 26, 0.13), transparent 72%), var(--k);
+  }
+  .tag {
+    margin-bottom: 16px;
+  }
+  .hero h1 {
+    font-size: clamp(30px, 4.5vw, 60px);
+    line-height: 1;
+    letter-spacing: -0.015em;
+  }
+  .cdl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 22px 0 10px;
+    font-size: 13px;
+    color: #fff;
+  }
+  .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--hot);
+    animation: dot 1s steps(2, jump-none) infinite;
+  }
+  @keyframes dot {
+    50% {
+      opacity: 0.15;
+    }
+  }
+  .cd {
+    gap: 12px;
+    margin: 0 auto 14px;
+    max-width: 1040px;
+  }
+  .cd div {
+    flex: 1;
+    width: auto;
+    padding: 14px 0 12px;
+    border-color: #303030;
+    background: linear-gradient(#141414, #0b0b0b);
+  }
+  .cd b {
+    font-size: clamp(46px, 12.4vw, 172px);
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .cd span {
+    font-size: clamp(9.5px, 1vw, 13px);
+  }
+  .cd .sec {
+    border-color: var(--hot);
+    background: linear-gradient(#260605, #120303);
+    box-shadow: 0 0 34px rgba(226, 35, 26, 0.3);
+  }
+  .cd .sec b {
+    color: var(--hot);
+  }
+  .cd b.tk {
+    animation: tk 0.3s ease-out;
+  }
+  @keyframes tk {
+    from {
+      transform: translateY(-5%);
+      opacity: 0.8;
+    }
+    to {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  .tbar {
+    height: 5px;
+    background: #222;
+    max-width: 1040px;
+    margin: 0 auto 26px;
+    overflow: hidden;
+  }
+  .tbar i {
+    display: block;
+    height: 100%;
+    background: var(--hot);
+    box-shadow: 0 0 14px var(--hot);
+    transition: width 1s linear;
+  }
+  .up {
+    margin: 0 0 4px;
+    font-size: clamp(22px, 3.3vw, 44px);
+  }
+  .best {
+    margin: 0 0 22px;
+  }
+  .line-up {
+    margin-top: 40px;
+  }
+  .run {
+    background: var(--hot);
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: clamp(16px, 1.9vw, 24px);
+    letter-spacing: 0.01em;
+    padding: 11px 0;
+  }
+  .run div {
+    display: inline-block;
+    animation: run 40s linear infinite;
+  }
+  @keyframes run {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .deals {
+    padding-top: 80px;
+  }
+  .days {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 36px;
+    border: 1px solid var(--g);
+  }
+  .days > div {
+    padding: 14px 18px;
+    border-left: 1px solid var(--g);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 12px;
+    align-items: center;
+  }
+  .days > div:first-child {
+    border-left: 0;
+  }
+  .days small {
+    grid-column: 1;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--st);
+    text-transform: uppercase;
+  }
+  .days b {
+    grid-column: 1;
+    font-weight: 900;
+    font-size: clamp(30px, 3.6vw, 44px);
+    line-height: 1;
+  }
+  .days em {
+    grid-column: 2;
+    grid-row: 1/3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: right;
+    color: var(--st);
+  }
+  .days .last {
+    background: var(--red);
+  }
+  .days .last small,
+  .days .last em {
+    color: #fff;
+  }
+  .days .gone {
+    opacity: 0.32;
+  }
+  .days .gone b {
+    text-decoration: line-through;
+  }
+  .days .now {
+    box-shadow: inset 0 0 0 2px var(--hot);
+    background: #1d0403;
+  }
+  .days .now em {
+    color: #fff;
+  }
+  .bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+    background: #0c0c0c;
+    border-top: 2px solid var(--hot);
+    transform: translateY(110%);
+    transition: transform 0.25s;
+  }
+  .bar.on {
+    transform: none;
+  }
+  .bar .in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 9px 24px;
+    max-width: 1180px;
+    margin: auto;
+  }
+  .bar .t {
+    font-weight: 700;
+    font-size: 13.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .bar .t b {
+    font-weight: 900;
+    color: var(--hot);
+    font-size: 17px;
+    letter-spacing: 0;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    margin-left: 6px;
+  }
+  .bar .btn {
+    padding: 10px 22px;
+    font-size: 12px;
+    flex: none;
+  }
+  footer {
+    padding-bottom: 84px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .run div,
+    .dot,
+    .cd b.tk {
+      animation: none;
+    }
+  }
+  @media (max-width: 760px) {
+    .hero {
+      padding-top: 28px;
+    }
+    .hero h1 {
+      font-size: 8.4vw;
+      letter-spacing: -0.02em;
+    }
+    .cd {
+      gap: 6px;
+    }
+    .cd b {
+      font-size: 13.4vw;
+    }
+    .cd div {
+      padding: 10px 0 8px;
+    }
+    .up {
+      font-size: 5.6vw;
+      white-space: nowrap;
+    }
+    .days {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .days > div:nth-child(3) {
+      border-left: 0;
+    }
+    .days > div:nth-child(n + 3) {
+      border-top: 1px solid var(--g);
+    }
+    .days > div {
+      padding: 12px;
+    }
+    .days em {
+      font-size: 10.5px;
+    }
+    .bar .in {
+      padding: 8px 12px;
+    }
+    .bar .t {
+      font-size: 11px;
+      letter-spacing: 0.04em;
+    }
+    .bar .t b {
+      font-size: 14px;
+      margin-left: 3px;
+    }
+    .bar .btn {
+      padding: 9px 12px;
+      font-size: 10.5px;
+      letter-spacing: 0.08em;
+    }
+  }
+  /* red version */
+  :root {
+    --k: #d9160e;
+    --rd: #d9160e;
+    --rd2: #a80f09;
+    --blk: #0a0a0a;
+  }
+  body {
+    background: var(--rd);
+    color: #fff;
+  }
+  .nav {
+    background: rgba(217, 22, 14, 0.94);
+    border-bottom: 0;
+  }
+  .nav .btn,
+  .hero .btn,
+  .deals .btn {
+    background: var(--blk);
+  }
+  .nav .btn:hover,
+  .hero .btn:hover {
+    background: #2a2a2a;
+  }
+  .hero {
+    background: var(--rd);
+    animation: beat 1s ease-in-out infinite;
+  }
+  @keyframes beat {
+    50% {
+      background-color: #c2120b;
+    }
+  }
+  .hero:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 66%;
+    width: 240vmax;
+    height: 240vmax;
+    margin: -120vmax;
+    background: repeating-conic-gradient(rgba(0, 0, 0, 0.075) 0 8deg, transparent 8deg 16deg);
+    animation: rays 50s linear infinite;
+    z-index: 0;
+    pointer-events: none;
+  }
+  @keyframes rays {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .hero > * {
+    position: relative;
+    z-index: 1;
+  }
+  .tag {
+    background: var(--blk);
+    border: 0;
+    color: #fff;
+    animation: none;
+  }
+  .hero h1 {
+    color: #fff;
+    font-size: clamp(34px, 5.4vw, 74px);
+  }
+  .hero h1 i {
+    color: var(--blk);
+  }
+  .cdl {
+    color: #fff;
+  }
+  .dot {
+    background: #fff;
+  }
+  .cd div {
+    background: #fff;
+    border: 0;
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.28);
+  }
+  .cd b {
+    color: var(--blk);
+  }
+  .cd span {
+    color: #555;
+  }
+  .cd .sec {
+    background: var(--blk);
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.28), 0 0 40px rgba(0, 0, 0, 0.25);
+  }
+  .cd .sec b {
+    color: #fff;
+  }
+  .cd .sec span {
+    color: #ddd;
+  }
+  .tbar {
+    margin-top: 22px;
+    height: 7px;
+    background: rgba(0, 0, 0, 0.28);
+  }
+  .tbar i {
+    background: #fff;
+    box-shadow: none;
+  }
+  .up {
+    color: #fff;
+  }
+  .best {
+    color: #fff;
+    font-weight: 600;
+  }
+  form.subf input {
+    background: #fff;
+  }
+  form.subf .btn,
+  .hero > .wrap > .btn {
+    animation: pulse 1s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    50% {
+      transform: scale(1.035);
+    }
+  }
+  .consent {
+    color: rgba(255, 255, 255, 0.88);
+  }
+  .consent a {
+    color: #fff;
+  }
+  .fmsg {
+    color: #fff;
+  }
+  .line-up img {
+    filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.45));
+    -webkit-box-reflect: unset;
+  }
+  .rl {
+    height: 4px;
+    background: #fff;
+    box-shadow: none;
+  }
+  .floor {
+    background: linear-gradient(var(--rd2), #8c0c07);
+  }
+  .run {
+    background: var(--blk);
+    padding: 13px 0;
+  }
+  .lab {
+    color: #fff;
+  }
+  h2 {
+    color: #fff;
+  }
+  h2 i {
+    color: var(--blk);
+  }
+  .sub {
+    color: #fff;
+  }
+  .fine {
+    color: #fff;
+  }
+  .deals {
+    background: var(--rd);
+  }
+  .days {
+    border: 0;
+    gap: 8px;
+  }
+  .days > div,
+  .days > div:first-child {
+    border: 0 !important;
+    background: #fff;
+    color: var(--blk);
+  }
+  .days small,
+  .days em {
+    color: #555;
+  }
+  .days .last {
+    background: var(--blk) !important;
+    color: #fff;
+  }
+  .days .last small,
+  .days .last em {
+    color: #fff;
+  }
+  .days .now {
+    background: var(--blk) !important;
+    color: #fff;
+    box-shadow: none;
+  }
+  .days .now small,
+  .days .now em {
+    color: #fff;
+  }
+  .days .gone {
+    opacity: 0.5;
+  }
+  .tiers {
+    border: 0;
+    gap: 8px;
+    margin-top: 8px !important;
+  }
+  .tier,
+  .tier:first-child {
+    background: #fff;
+    color: var(--blk);
+    border: 0;
+  }
+  .tier .who {
+    color: #555;
+  }
+  .tier .pc {
+    color: var(--rd);
+  }
+  .tier ul {
+    border-top-color: #e4e4e4;
+  }
+  .tier li.none {
+    color: #555;
+  }
+  .tier li:before {
+    color: var(--rd);
+  }
+  .wth {
+    background: var(--rd);
+  }
+  .tier.top {
+    background: var(--blk);
+    color: #fff;
+    box-shadow: 0 0 0 4px #fff;
+  }
+  .tier.top .who {
+    color: #fff;
+  }
+  .tier.top .pc {
+    color: #fff;
+  }
+  .tier.top ul {
+    border-top-color: #333;
+  }
+  .tier.top li:before {
+    color: #fff;
+  }
+  .flag {
+    background: var(--rd);
+  }
+  .pk {
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.5));
+  }
+  .calc {
+    background: #fff;
+    color: var(--blk);
+    border: 0;
+    margin-top: 8px;
+  }
+  .calc label {
+    color: #555;
+  }
+  .calc output.c {
+    color: var(--rd);
+  }
+  input[type='range'] {
+    accent-color: var(--rd);
+  }
+  .res .l {
+    color: #555;
+    border-bottom-color: #e8e8e8;
+  }
+  .res .l b,
+  .res .pay {
+    color: var(--blk);
+  }
+  .next {
+    color: var(--rd);
+  }
+  .band {
+    background: var(--rd);
+    font-weight: 700;
+  }
+  .life .lock i {
+    color: #ff3a30;
+  }
+  .revs {
+    background: #fff;
+    color: var(--blk);
+  }
+  .revs .lab {
+    color: var(--rd);
+  }
+  .revs h2 {
+    color: var(--blk);
+  }
+  .revs h2 i {
+    color: var(--rd);
+  }
+  .stars {
+    color: var(--rd);
+  }
+  .rc {
+    border: 2px solid var(--blk);
+  }
+  .rc small {
+    color: #555;
+  }
+  .faq {
+    background: #fff;
+    color: var(--blk);
+  }
+  .faq .lab {
+    color: var(--rd);
+  }
+  details {
+    border-bottom-color: #ddd;
+  }
+  details p {
+    color: #444;
+  }
+  summary:after {
+    color: var(--rd);
+  }
+  .bun {
+    background: var(--rd);
+    border: 0;
+  }
+  .art {
+    background: radial-gradient(70% 60% at 50% 88%, #ff4a3f, var(--rd2) 78%);
+  }
+  .art .ln {
+    background: #fff;
+    box-shadow: none;
+  }
+  .art .fl {
+    background: linear-gradient(#8c0c07, #6d0905);
+  }
+  .art img {
+    filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.45)) !important;
+  }
+  .feat {
+    border: 0;
+    background: #fff;
+    color: var(--blk);
+  }
+  .feat .in {
+    border-left: 0;
+  }
+  .sub.dark {
+    color: #444;
+  }
+  .feat .flagi {
+    background: var(--rd);
+  }
+  .dn b {
+    color: var(--rd);
+  }
+  .dn p {
+    color: #444;
+  }
+  .pr .now {
+    color: var(--rd);
+  }
+  .pr .was {
+    color: #555;
+  }
+  .upl {
+    color: #444;
+    border-top-color: #e4e4e4;
+  }
+  .upl b {
+    color: var(--blk);
+  }
+  .feat .btn {
+    background: var(--rd);
+  }
+  .grid4 {
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .card {
+    background: #fff;
+    color: var(--blk);
+    border: 0;
+  }
+  .card:hover {
+    border: 0;
+    transform: translateY(-4px);
+  }
+  .card p {
+    color: #555;
+  }
+  .card .now {
+    color: var(--rd);
+  }
+  .card .was {
+    color: #555;
+  }
+  .card .tg {
+    color: var(--rd);
+  }
+  .btn.line {
+    background: var(--blk);
+    color: #fff;
+    box-shadow: none;
+  }
+  .btn.line:hover {
+    background: var(--rd);
+    color: #fff;
+  }
+  footer {
+    background: var(--rd2);
+    color: #fff;
+    border-top: 0;
+  }
+  .bar {
+    background: #fff;
+    border-top: 0;
+    box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.28);
+  }
+  .bar .t {
+    color: var(--blk);
+  }
+  .bar .t b {
+    color: var(--rd);
+  }
+  .bar .btn {
+    background: var(--rd);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero,
+    .hero:before,
+    form.subf .btn,
+    .hero > .wrap > .btn {
+      animation: none;
+    }
+  }
+  @media (max-width: 980px) {
+    .feat .in {
+      border-top: 0;
+    }
+    .tier.top {
+      margin: 4px;
+    }
+  }
+  @media (max-width: 760px) {
+    .hero h1 {
+      font-size: 9.6vw;
+    }
+    .days {
+      gap: 6px;
+    }
+  }
+  /* black and red mix */
+  .nav {
+    background: var(--blk);
+  }
+  .nav .btn {
+    background: var(--rd);
+  }
+  .nav .btn:hover {
+    background: #ff3027;
+  }
+  .revs,
+  .faq {
+    background: var(--blk);
+    color: #fff;
+  }
+  .revs .lab,
+  .faq .lab {
+    color: #ff3a30;
+  }
+  .revs h2 {
+    color: #fff;
+  }
+  .revs h2 i {
+    color: #ff3a30;
+  }
+  .revs .stars:first-child {
+    color: #ff3a30;
+  }
+  .rc {
+    background: #fff;
+    color: var(--blk);
+    border: 0;
+  }
+  .rc .stars {
+    color: var(--rd);
+  }
+  details {
+    border-bottom-color: #333;
+  }
+  details p {
+    color: #cfc9c3;
+  }
+  summary:after {
+    color: #ff3a30;
+  }
+  footer {
+    background: var(--blk);
+  }
+  .bar {
+    background: var(--blk);
+    border-top: 3px solid var(--rd);
+    box-shadow: none;
+  }
+  .bar .t {
+    color: #fff;
+  }
+  .bar .t b {
+    color: #fff;
+  }
+  /* balanced red and black: red sections get black cards, black sections get red accents */
+  .cd div {
+    background: var(--blk);
+  }
+  .cd b {
+    color: #fff;
+  }
+  .cd span {
+    color: #cfc9c3;
+  }
+  .cd .sec b {
+    color: #ff3a30;
+  }
+  .cd .sec span {
+    color: #cfc9c3;
+  }
+  .run {
+    border-bottom: 3px solid var(--rd);
+  }
+  .deals {
+    background: var(--blk);
+  }
+  .deals .lab {
+    color: #ff3a30;
+  }
+  .deals h2 i {
+    color: #ff3a30;
+  }
+  .fine {
+    color: #cfc9c3;
+  }
+  .days > div,
+  .days > div:first-child {
+    background: #1a1a1a !important;
+    color: #fff;
+  }
+  .days small,
+  .days em {
+    color: #cfc9c3;
+  }
+  .days .last,
+  .days .now {
+    background: var(--rd) !important;
+    color: #fff;
+  }
+  .days .last small,
+  .days .last em,
+  .days .now small,
+  .days .now em {
+    color: #fff;
+  }
+  .tier,
+  .tier:first-child {
+    background: #1a1a1a;
+    color: #fff;
+  }
+  .tier .who {
+    color: #cfc9c3;
+  }
+  .tier .pc {
+    color: #ff3a30;
+  }
+  .tier ul {
+    border-top-color: #3a3a3a;
+  }
+  .tier li.none {
+    color: #cfc9c3;
+  }
+  .tier li:before {
+    color: #ff3a30;
+  }
+  .wth {
+    background: var(--rd);
+  }
+  .tier.top {
+    background: var(--rd);
+    color: #fff;
+    box-shadow: none;
+  }
+  .tier.top .who,
+  .tier.top .pc {
+    color: #fff;
+  }
+  .tier.top ul {
+    border-top-color: rgba(255, 255, 255, 0.4);
+  }
+  .tier.top li:before {
+    color: #fff;
+  }
+  .tier.top .wth,
+  .flag {
+    background: var(--blk);
+  }
+  .calc {
+    background: #1a1a1a;
+    color: #fff;
+  }
+  .calc label {
+    color: #cfc9c3;
+  }
+  .calc output.c {
+    color: #ff3a30;
+  }
+  .res .l {
+    color: #cfc9c3;
+    border-bottom-color: #3a3a3a;
+  }
+  .res .l b,
+  .res .pay {
+    color: #fff;
+  }
+  .next {
+    color: #ff6a5e;
+  }
+  .band {
+    background: var(--blk);
+  }
+  .revs,
+  .faq {
+    background: var(--rd);
+    color: #fff;
+  }
+  .revs .lab,
+  .faq .lab {
+    color: #fff;
+  }
+  .revs h2 {
+    color: #fff;
+  }
+  .revs h2 i {
+    color: var(--blk);
+  }
+  .revs .score .stars {
+    color: #fff;
+  }
+  .rc {
+    background: var(--blk);
+    color: #fff;
+  }
+  .rc .stars {
+    color: #ff3a30;
+  }
+  .rc small {
+    color: #cfc9c3;
+  }
+  details {
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+  }
+  details p {
+    color: #fff;
+  }
+  summary:after {
+    color: #fff;
+  }
+  .bun {
+    background: var(--blk);
+  }
+  .bun .lab {
+    color: #ff3a30;
+  }
+  .bun h2 i {
+    color: #ff3a30;
+  }
+  .feat {
+    background: #1a1a1a;
+    color: #fff;
+  }
+  .sub.dark {
+    color: #cfc9c3;
+  }
+  .dn b {
+    color: #ff3a30;
+  }
+  .dn p {
+    color: #cfc9c3;
+  }
+  .pr .now {
+    color: #ff3a30;
+  }
+  .pr .was {
+    color: #cfc9c3;
+  }
+  .upl {
+    color: #cfc9c3;
+    border-top-color: #3a3a3a;
+  }
+  .upl b {
+    color: #fff;
+  }
+  .card {
+    background: #1a1a1a;
+    color: #fff;
+  }
+  .card p,
+  .card .was {
+    color: #cfc9c3;
+  }
+  .card .now {
+    color: #ff3a30;
+  }
+  .card .tg {
+    color: #ff6a5e;
+  }
+  .btn.line {
+    background: var(--rd);
+  }
+  .btn.line:hover {
+    background: #ff3027;
+  }
+  footer {
+    background: var(--rd);
+  }
+  /* top bar placed like the Toffee Nut page: logo and button at the screen edges */
+  .nav .wrap {
+    width: 100%;
+    max-width: none;
+    padding: 14px max(clamp(16px, 3.2vw, 48px), env(safe-area-inset-right, 0px)) 14px
+      max(clamp(16px, 3.2vw, 48px), env(safe-area-inset-left, 0px));
+    height: auto;
+  }
+  .nav img {
+    width: 128px;
+    height: auto;
+  }
+  .nav .btn {
+    min-height: 38px;
+    padding: 9px 18px;
+    font-size: 11px;
+  }
+  @media (max-width: 760px) {
+    .nav img {
+      width: 112px;
+    }
+  }
+  /* reviews on black fade, photo on the right */
+  .proof {
+    position: relative;
+    overflow: hidden;
+    background: #050505;
+    color: #fff;
+    padding: clamp(64px, 7vw, 104px) 0;
+  }
+  .proof .ph {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 64%;
+    display: block;
+  }
+  .proof .ph img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 66% 50%;
+  }
+  .proof .ph::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      90deg,
+      #050505 0%,
+      #050505 8%,
+      rgba(5, 5, 5, 0.86) 22%,
+      rgba(5, 5, 5, 0.42) 34%,
+      rgba(5, 5, 5, 0) 46%
+    );
+  }
+  .proof .wrap {
+    position: relative;
+    z-index: 1;
+  }
+  .proof .col {
+    width: min(53%, 620px);
+  }
+  .proof h2 {
+    font-size: clamp(38px, 5vw, 72px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+  .proof h2 i {
+    font-style: normal;
+    color: #ff3a30;
+  }
+  .proof .score .stars {
+    color: #ff3a30;
+  }
+  .proof .rg {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px 30px;
+    margin-top: 34px;
+  }
+  .proof .rc {
+    background: none;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 16px 0 0;
+    color: #fff;
+  }
+  .proof .rc .stars {
+    color: #ff3a30;
+    font-size: 13px;
+  }
+  .proof .rc q {
+    font-size: 15px;
+    line-height: 1.45;
+    margin: 8px 0 12px;
+  }
+  .proof .rc small {
+    color: #cfc9c3;
+  }
+  @media (max-width: 1080px) {
+    .proof {
+      padding: 0 0 64px;
+    }
+    .proof .ph {
+      position: relative;
+      width: 100%;
+      height: 58vw;
+      display: block;
+    }
+    .proof .ph img {
+      object-position: 60% 50%;
+    }
+    .proof .ph::after {
+      background: linear-gradient(180deg, rgba(5, 5, 5, 0) 58%, rgba(5, 5, 5, 0.75) 82%, #050505 100%);
+    }
+    .proof .wrap {
+      margin-top: -40px;
+    }
+    .proof .col {
+      width: 100%;
+    }
+  }
+  @media (max-width: 760px) {
+    .proof .ph {
+      height: 112vw;
+      max-height: 600px;
+    }
+    .proof .ph img {
+      object-position: 50% 72%;
+    }
+    .proof .wrap {
+      margin-top: -58px;
+    }
+    .proof h2 {
+      font-size: clamp(38px, 11vw, 54px);
+    }
+    .proof .rg {
+      grid-template-columns: minmax(0, 1fr);
+      margin-top: 26px;
+      gap: 20px;
+    }
+  }
+  /* urgency headings: fast, slanted, with a trail */
+  .hero h1,
+  .up,
+  .deals h2,
+  .bun h2,
+  .proof h2,
+  .feat h3,
+  .calc h3 {
+    font-family: Anton, Impact, 'Arial Narrow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.005em;
+  }
+  .deals h2,
+  .bun h2,
+  .proof h2 {
+    font-size: clamp(50px, 6.5vw, 96px);
+    line-height: 1.08;
+    margin-left: 10px;
+    color: #fff;
+  }
+  .deals h2 span,
+  .bun h2 span,
+  .proof h2 span,
+  .deals h2 i,
+  .bun h2 i,
+  .proof h2 i {
+    display: block;
+    width: fit-content;
+    font-style: normal;
+    transform: skewX(-10deg);
+  }
+  .deals h2 span,
+  .bun h2 span,
+  .proof h2 span {
+    color: #fff;
+    text-shadow: -3px 0 0 #ff3a30, -6px 0 0 #b81d15, -9px 0 0 #6e120d;
+  }
+  .deals h2 i,
+  .bun h2 i,
+  .proof h2 i {
+    color: #ff3a30;
+    text-shadow: -3px 0 0 #b81d15, -6px 0 0 #8a1610, -9px 0 0 #5a0d09;
+  }
+  .hero h1 {
+    font-size: clamp(44px, 6.2vw, 88px);
+    line-height: 1.08;
+    letter-spacing: 0.005em;
+    white-space: nowrap;
+  }
+  .hero h1 .ln {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    transform: skewX(-10deg);
+    color: #fff;
+    text-shadow: -3px 0 0 #0a0a0a, -6px 0 0 #5a0d09, -9px 0 0 #8c0c07;
+  }
+  .hero h1 i {
+    font-style: normal;
+    color: #f7c744;
+    text-shadow: -3px 0 0 #0a0a0a, -6px 0 0 #5a0d09, -9px 0 0 #8c0c07;
+  }
+  .up {
+    font-size: clamp(26px, 3.6vw, 50px);
+    line-height: 1.1;
+    transform: skewX(-10deg);
+    text-shadow: -2px 0 0 #0a0a0a, -4px 0 0 #8c0c07;
+  }
+  .feat h3 {
+    font-size: clamp(34px, 3.8vw, 54px);
+    line-height: 1.08;
+    transform: skewX(-10deg);
+    transform-origin: left bottom;
+    margin-left: 6px;
+    text-shadow: -2px 0 0 #ff3a30, -4px 0 0 #8a1610;
+  }
+  .calc h3 {
+    font-size: clamp(28px, 2.8vw, 38px);
+    line-height: 1.08;
+    transform: skewX(-10deg);
+    transform-origin: left bottom;
+    margin-left: 6px;
+    text-shadow: -2px 0 0 #ff3a30, -4px 0 0 #8a1610;
+  }
+  @media (max-width: 760px) {
+    .deals h2,
+    .bun h2,
+    .proof h2 {
+      font-size: clamp(46px, 14.5vw, 72px);
+    }
+    .deals h2 span,
+    .bun h2 span,
+    .proof h2 span {
+      text-shadow: -2px 0 0 #ff3a30, -4px 0 0 #b81d15, -6px 0 0 #6e120d;
+    }
+    .deals h2 i,
+    .bun h2 i,
+    .proof h2 i {
+      text-shadow: -2px 0 0 #b81d15, -4px 0 0 #8a1610, -6px 0 0 #5a0d09;
+    }
+    .hero h1 {
+      font-size: 15vw;
+    }
+    .hero h1 .ln {
+      text-shadow: -2px 0 0 #0a0a0a, -4px 0 0 #5a0d09, -6px 0 0 #8c0c07;
+    }
+    .hero h1 i {
+      text-shadow: -2px 0 0 #0a0a0a, -4px 0 0 #5a0d09, -6px 0 0 #8c0c07;
+    }
+    .up {
+      font-size: 7.6vw;
+      white-space: nowrap;
+    }
+  }
+  /* supplied product photo fills the panel */
+  .art.shot {
+    background: #ececec;
+  }
+  .art.shot img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    filter: none !important;
+  }
+  @media (max-width: 980px) {
+    .feat .art.shot {
+      aspect-ratio: 1/1;
+    }
+  }
+  /* room above Good to know */
+  .faq {
+    padding-top: clamp(56px, 6vw, 88px);
+  }
+</style>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="https://shortcutx.co"
+      ><img src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/logo_00677db9-f995-47a5-9e28-a770e3839f76.png?v=1794542097" alt="Shortcutx"></a
+    ><a class="btn" href="#deals">See the deals</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="tag" data-show="soon">COMING SOON · 27 - 30 NOV</div>
+    <div class="tag" data-show="live">LIVE NOW · ENDS 30 NOV</div>
+    <div class="tag" data-show="ended">BFCM HAS ENDED</div>
+    <h1>
+      <span class="ln">Black <i>Friday</i></span
+      ><span class="ln">Cyber <i>Monday</i></span>
+    </h1>
+    <div data-show="soon live">
+      <div class="cdl"><span class="dot"></span><span id="cdl"></span></div>
+      <div class="cd" role="timer">
+        <div><b id="d">00</b><span>Days</span></div>
+        <div><b id="h">00</b><span>Hours</span></div>
+        <div><b id="m">00</b><span>Mins</span></div>
+        <div class="sec"><b id="s">00</b><span>Secs</span></div>
+      </div>
+      <div class="tbar" aria-hidden="true"><i id="tb"></i></div>
+      <div class="up">UP TO 25% OFF. 4 DAYS ONLY.</div>
+      <p class="best">Our best deal of the year won't wait.</p>
+    </div>
+    <p class="p" data-show="ended" style="margin-top:18px">
+      Thanks for shopping with us. Our full range is still here for you.
+    </p>
+    <div data-show="soon">
+      <form class="subf" id="f" novalidate>
+        <input type="email" id="em" placeholder="Your email" aria-label="Your email" autocomplete="email" required
+        ><button class="btn" type="submit">Remind me</button>
+      </form>
+      <div class="fmsg" id="fm" role="status"></div>
+      <p class="consent">
+        By signing up, you agree to receive marketing emails from Shortcutx. Unsubscribe anytime. See our
+        <a href="https://shortcutx.co/policies/privacy-policy">privacy policy</a>.
+      </p>
+    </div>
+    <a class="btn" data-show="live" href="#bundles">Shop before it ends</a>
+    <a class="btn" data-show="ended" style="margin-top:6px" href="https://shortcutx.co/collections/all"
+      >Shop all products</a
+    >
+  </div>
+  <div
+    class="line-up"
+    role="img"
+    aria-label="Shortcutx products: Teh Tarik, Flat Tummy Shakes, Max Fat Burner, Max+, Detox, Sleep+Shred and Caramel Macchiato"
+  >
+    <img
+      class="a"
+      src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-teh.png"
+      alt=""
+      style="height:66%;left:4%"
+    >
+    <img
+      class="b"
+      src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-fts.png"
+      alt=""
+      style="height:78%;left:13%"
+    >
+    <img
+      class="c"
+      src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-max.png"
+      alt=""
+      style="height:80%;left:27%;z-index:2"
+    >
+    <img
+      class="d"
+      src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/h-max.png"
+      alt=""
+      style="height:90%;left:42.5%;z-index:4"
+    >
+    <img
+      class="e"
+      src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/detox.png"
+      alt=""
+      style="height:74%;left:62%;z-index:3"
+    >
+    <img
+      class="f"
+      src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-ss.png"
+      alt=""
+      style="height:84%;left:73%;z-index:2"
+    >
+    <img
+      class="g"
+      src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-crm.png"
+      alt=""
+      style="height:66%;left:86%"
+    >
+  </div>
+  <div class="rl"></div>
+  <div class="floor"></div>
+</section>
+
+<div class="run" aria-hidden="true"><div id="run"></div></div>
+
+<section class="deals" id="deals">
+  <div class="wrap">
+    <div class="rv">
+      <div class="lab">The deals · 27 - 30 Nov</div>
+      <h2><span>Four days.</span><i>Three deals.</i></h2>
+    </div>
+    <div class="days rv" id="days">
+      <div><small>Fri</small><b>27</b><em>Promo starts</em></div>
+      <div><small>Sat</small><b>28</b><em>Day 2</em></div>
+      <div><small>Sun</small><b>29</b><em>Day 3</em></div>
+      <div class="last"><small>Mon</small><b>30</b><em>Last day</em></div>
+    </div>
+    <div class="tiers rv" style="margin-top:14px">
+      <div class="tier">
+        <div class="who">Everyone</div>
+        <div class="pc">15<small>%</small></div>
+        <div class="off">Off storewide</div>
+        <ul>
+          <li class="none">On all products, no minimum spend.</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <div class="who">Spend $150</div>
+        <div class="pc">20<small>%</small></div>
+        <div class="off">Off storewide</div>
+        <ul>
+          <li>1 pack of Detox (worth $22)</li>
+          <li>$10 credit</li>
+        </ul>
+        <div class="wth">Free gifts worth $32</div>
+      </div>
+      <div class="tier top">
+        <div class="flag">BEST DEAL</div>
+        <div class="who">Spend $220</div>
+        <div class="pc">25<small>%</small></div>
+        <div class="off">Off storewide</div>
+        <ul>
+          <li>1 pack of Detox (worth $22)</li>
+          <li>$15 credit</li>
+        </ul>
+        <div class="wth">Free gifts worth $37</div>
+        <img class="pk" src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/detox.png" alt="" loading="lazy">
+      </div>
+    </div>
+    <p class="fine">Spend is counted after the 15% off. Not applicable to subscription and 30 Days Box.</p>
+    <div class="calc rv">
+      <div>
+        <h3>See what your cart unlocks</h3>
+        <label for="cart">Slide to your cart total, before discount.</label><output class="c" id="co">$222</output
+        ><input type="range" id="cart" min="50" max="400" step="1" value="222">
+      </div>
+      <div class="res" aria-live="polite">
+        <div class="l"><span>Your deal</span><b id="rt"></b></div>
+        <div class="l"><span>You pay</span><span class="pay" id="rp"></span></div>
+        <div class="l"><span>Free gifts</span><b id="rg"></b></div>
+        <div class="next" id="rn"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="proof">
+  <picture class="ph">
+    <source media="(max-width:760px)" srcset="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/life-m.jpg">
+    <img
+      src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/life-d.jpg"
+      alt="A woman at home at night with a warm mug, smiling at her phone"
+      loading="lazy"
+  ></picture>
+  <div class="wrap">
+    <div class="col">
+      <div class="rv">
+        <h2><span>Real orders.</span><i>Real reviews.</i></h2>
+        <div class="score"><span class="stars">★★★★★</span> 4.7 from 1,864 reviews</div>
+      </div>
+      <div class="rg">
+        <div class="rc rv">
+          <span class="stars">★★★★★</span><q>Falling asleep faster, getting more deep sleep and lesser insomnia.</q
+          ><b>Ikhwan D.</b><small>Verified · Full-Day Shred Duo</small>
+        </div>
+        <div class="rc rv">
+          <span class="stars">★★★★★</span><q>Absolutely love this drink. I don't get fatigue so easily now.</q
+          ><b>Anne L.</b><small>Verified · Max+</small>
+        </div>
+        <div class="rc rv">
+          <span class="stars">★★★★★</span><q>Love it. Lost count how many I ordered!</q><b>Hidayat A.</b
+          ><small>Verified · Max+</small>
+        </div>
+        <div class="rc rv">
+          <span class="stars">★★★★★</span
+          ><q>Its helps me curb my hunger as well as give me the energy to last the shift.</q><b>Muhammad Zakaria Z.</b
+          ><small>Verified · Max+</small>
+        </div>
+        <div class="rc rv">
+          <span class="stars">★★★★★</span><q>Love the night burner cause it helps me sleep at night.</q><b>Muneir K.</b
+          ><small>Verified · Full-Day Shred Duo</small>
+        </div>
+        <div class="rc rv">
+          <span class="stars">★★★★★</span><q>It tastes great and I feel great throughout the day!</q
+          ><b>Muhammad Daniel Haikel I.</b><small>Verified · Max+</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap">
+    <div class="lab">Good to know</div>
+    <details open>
+      <summary>When does it run?</summary>
+      <p>27 - 30 Nov, on shortcutx.co.</p>
+    </details>
+    <details>
+      <summary>Do I need a code?</summary>
+      <p>No. Your discount is applied automatically.</p>
+    </details>
+    <details>
+      <summary>How is my spend counted?</summary>
+      <p>
+        After the 15% off. So to spend $150 your cart needs to be about $177 before discount, and to spend $220 it needs
+        to be about $259.
+      </p>
+    </details>
+    <details>
+      <summary>When do I get my credit?</summary>
+      <p>We send your $10 or $15 credit as an exclusive code in December, and you can use it from January 2027.</p>
+    </details>
+    <details>
+      <summary>What's not included?</summary>
+      <p>Subscriptions and the 30 Days Box are not included in this sale.</p>
+    </details>
+  </div>
+</section>
+
+<section class="bun" id="bundles">
+  <div class="wrap">
+    <div class="rv">
+      <div class="lab">The bundles</div>
+      <h2><span>Don&#39;t leave it</span><i>to 30 Nov.</i></h2>
+    </div>
+    <div class="feat rv">
+      <div class="art shot">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/duo-set.webp"
+          alt="2 packs of Sleep+Shred on top of 2 boxes of Max+"
+        >
+      </div>
+      <div class="in">
+        <div class="flagi">GET THIS ONE FIRST</div>
+        <h3>Full-Day Shred Duo</h3>
+        <p class="sub dark" style="font-size:15px;margin-top:12px">
+          2 boxes of Max+ and 2 packs of Sleep+Shred. One routine for your morning, one for your night.
+        </p>
+        <div class="dn">
+          <div>
+            <b>MORNING</b>
+            <h4>Max+ Tropical Burst</h4>
+            <p>4x More Potent. Boosts energy and controls cravings.</p>
+          </div>
+          <div>
+            <b>NIGHT</b>
+            <h4>Sleep+Shred</h4>
+            <p>30 minutes before bed. Curbs late-night cravings and improves sleep quality.</p>
+          </div>
+        </div>
+        <div class="pr">
+          <div class="now">$177.60</div>
+          <div class="was">Usually $222. 20% off at BFCM.</div>
+        </div>
+        <p class="gf">Plus a free Detox (worth $22) and $10 credit.</p>
+        <a
+          class="btn"
+          data-link="2-max-fat-burner-juice-2-night-fat-burner-juice"
+          data-var="49776508338416"
+          data-soon="See what's inside"
+          data-live="Add to cart"
+          href="#"
+          >See what's inside</a
+        >
+        <p class="upl">
+          <b>Add Night Hot Chocolate ($45) to reach 25% off.</b> Your $267 cart comes to $200.25, with a free Detox and
+          $15 credit.
+        </p>
+      </div>
+    </div>
+    <div class="grid4">
+      <div class="card rv">
+        <div class="art">
+          <div class="fl"></div>
+          <div class="ln"></div>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-acv.png"
+            alt=""
+            style="height:36%;left:3%"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-ll.png"
+            alt=""
+            style="height:36%;right:3%"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-berry.png"
+            alt=""
+            style="height:42%;left:20%;z-index:3"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/h-max.png"
+            alt=""
+            style="height:50%;left:43%;z-index:4"
+            loading="lazy"
+          >
+        </div>
+        <div class="in">
+          <h3>Max Stock Up</h3>
+          <p>2 Max+, 2 Max Berry Punch, Lychee Lemon and Apple Cider.</p>
+          <div class="now">$183.20</div>
+          <div class="was">Usually $229. 20% off.</div>
+          <div class="tg">+ Free Detox and $10 credit</div>
+          <a
+            class="btn line"
+            data-link="max-stock-up"
+            data-var="67662342619286"
+            data-soon="View bundle"
+            data-live="Add to cart"
+            href="#"
+            >View bundle</a
+          >
+        </div>
+      </div>
+      <div class="card rv">
+        <div class="art">
+          <div class="fl"></div>
+          <div class="ln"></div>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-pouch-front.png"
+            alt=""
+            style="height:62%;left:3%"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-nhc.png"
+            alt=""
+            style="height:34%;left:40%;z-index:4"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/detox.png"
+            alt=""
+            style="height:46%;right:3%;z-index:3"
+            loading="lazy"
+          >
+        </div>
+        <div class="in">
+          <h3>Night Routine</h3>
+          <p>2 Sleep+Shred, Night Hot Chocolate and Detox.</p>
+          <div class="now">$138.55</div>
+          <div class="was">Usually $163. 15% off.</div>
+          <div class="tg"></div>
+          <a
+            class="btn line"
+            data-link="night-routine"
+            data-var="50073920143600"
+            data-soon="View bundle"
+            data-live="Add to cart"
+            href="#"
+            >View bundle</a
+          >
+        </div>
+      </div>
+      <div class="card rv">
+        <div class="art">
+          <div class="fl"></div>
+          <div class="ln"></div>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-teh.png"
+            alt=""
+            style="height:42%;left:4%"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-acv.png"
+            alt=""
+            style="height:36%;right:4%"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/h-max.png"
+            alt=""
+            style="height:50%;left:19%;z-index:3"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-nhc.png"
+            alt=""
+            style="height:38%;left:52%;z-index:4"
+            loading="lazy"
+          >
+        </div>
+        <div class="in">
+          <h3>Day &amp; Night Starter</h3>
+          <p>Max+, Night Hot Chocolate, Teh Tarik and Apple Cider.</p>
+          <div class="now">$132.60</div>
+          <div class="was">Usually $156. 15% off.</div>
+          <div class="tg"></div>
+          <a
+            class="btn line"
+            data-link="shortcutx-day-night-starter"
+            data-var="48992929808624"
+            data-soon="View bundle"
+            data-live="Add to cart"
+            href="#"
+            >View bundle</a
+          >
+        </div>
+      </div>
+      <div class="card rv">
+        <div class="art">
+          <div class="fl"></div>
+          <div class="ln"></div>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/p-crm.png"
+            alt=""
+            style="height:42%;right:6%"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/h-max.png"
+            alt=""
+            style="height:50%;left:6%"
+            loading="lazy"
+
+          ><img
+            src="https://cdn.shopify.com/s/files/1/0653/9984/9200/files/h-max.png"
+            alt=""
+            style="height:50%;left:32%;z-index:3"
+            loading="lazy"
+          >
+        </div>
+        <div class="in">
+          <h3>MAX+ Double</h3>
+          <p>2 Max+ and Coffee Caramel Macchiato.</p>
+          <div class="now">$127.50</div>
+          <div class="was">Usually $150. 15% off.</div>
+          <div class="tg"></div>
+          <a
+            class="btn line"
+            data-link="max-double"
+            data-var="50073658949872"
+            data-soon="View bundle"
+            data-live="Add to cart"
+            href="#"
+            >View bundle</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Not applicable to subscription and 30 Days Box. © Shortcutx</div></footer>
+
+<div class="bar" id="bar" data-show="soon live">
+  <div class="in">
+    <div class="t"><span id="bl"></span> <b id="bc"></b></div>
+    <a class="btn" id="bb" href="#top"></a>
+  </div>
+</div>
+
+<script>
+  /* Klaviyo: paste the list ID for BFCM sign-ups. Sign-ups stay off until it is set. */
+  var KLAVIYO_COMPANY = 'Yw2TPM',
+    KLAVIYO_LIST = 'Rs98dX'; /* DD | Newsletter */
+  var START = new Date('2026-11-27T00:00:00+08:00'),
+    END = new Date('2026-11-30T23:59:59+08:00');
+  /* Preview other states with ?state=soon, ?state=live or ?state=ended */
+  var q = new URLSearchParams(location.search).get('state'),
+    now = new Date();
+  var STATE = q === 'soon' || q === 'live' || q === 'ended' ? q : now < START ? 'soon' : now <= END ? 'live' : 'ended';
+  document.querySelectorAll('[data-show]').forEach(function (e) {
+    if (e.getAttribute('data-show').split(' ').indexOf(STATE) > -1) {
+      e.style.display = e.tagName === 'A' ? 'inline-flex' : e.classList.contains('tag') ? 'inline-block' : 'block';
+    }
+  });
+  document.querySelectorAll('[data-link]').forEach(function (a) {
+    if (STATE === 'live') {
+      a.href = 'https://shortcutx.co/cart/' + a.dataset.var + ':1';
+      a.textContent = a.dataset.live;
+    } else {
+      a.href = 'https://shortcutx.co/products/' + a.dataset.link;
+      a.textContent = a.dataset.soon;
+    }
+  });
+  var target = STATE === 'soon' ? START : END;
+  var FROM = STATE === 'soon' ? new Date('2026-11-04T00:00:00+08:00') : START;
+  var DAY = +new URLSearchParams(location.search).get('day');
+  var dayIdx = DAY ? DAY - 1 : STATE === 'live' ? Math.min(3, Math.floor((new Date() - START) / 864e5)) : -1;
+  var lastDay = STATE === 'live' && dayIdx === 3;
+  document.getElementById('cdl').textContent =
+    STATE === 'soon' ? 'Promo starts in' : lastDay ? 'Last day. Ends in' : 'Ends in';
+  var cdEl = document.getElementById('days');
+  if (STATE !== 'soon') {
+    [].forEach.call(cdEl.children, function (e, i) {
+      if (STATE === 'ended' || i < dayIdx) e.classList.add('gone');
+      else if (i === dayIdx) {
+        e.classList.add('now');
+        if (i < 3) e.querySelector('em').textContent = 'Today';
+      }
+    });
+  }
+  var rt =
+    STATE === 'soon'
+      ? '4 DAYS ONLY  »  27 - 30 NOV  »  UP TO 25% OFF  »  SET YOUR REMINDER  »  '
+      : lastDay
+      ? 'LAST DAY  »  ENDS TONIGHT  »  UP TO 25% OFF  »  '
+      : 'ON NOW  »  ENDS 30 NOV  »  UP TO 25% OFF  »  ';
+  if (STATE === 'ended') rt = 'BFCM HAS ENDED  »  THANKS FOR SHOPPING WITH US  »  ';
+  document.getElementById('run').textContent = rt.repeat(10);
+  var bc = document.getElementById('bc'),
+    tb = document.getElementById('tb'),
+    bb = document.getElementById('bb');
+  document.getElementById('bl').textContent = STATE === 'soon' ? 'Promo starts in' : 'Ends in';
+  bb.textContent = STATE === 'soon' ? 'Remind me' : 'Shop now';
+  if (STATE === 'live') bb.href = '#bundles';
+  var d = document.getElementById('d'),
+    h = document.getElementById('h'),
+    m = document.getElementById('m'),
+    s = document.getElementById('s');
+  function p(n) {
+    return String(n).padStart(2, '0');
+  }
+  function tick() {
+    var t = Math.max(0, target - new Date());
+    d.textContent = p(Math.floor(t / 864e5));
+    h.textContent = p(Math.floor(t / 36e5) % 24);
+    m.textContent = p(Math.floor(t / 6e4) % 60);
+    s.textContent = p(Math.floor(t / 1e3) % 60);
+    s.classList.remove('tk');
+    void s.offsetWidth;
+    s.classList.add('tk');
+    bc.textContent =
+      Math.floor(t / 864e5) +
+      'D ' +
+      p(Math.floor(t / 36e5) % 24) +
+      'H ' +
+      p(Math.floor(t / 6e4) % 60) +
+      'M ' +
+      p(Math.floor(t / 1e3) % 60) +
+      'S';
+    tb.style.width = Math.max(0, Math.min(100, (t / (target - FROM)) * 100)) + '%';
+    if (t === 0 && !q && STATE !== 'ended') location.reload();
+  }
+  if (STATE !== 'ended') {
+    tick();
+    setInterval(tick, 1000);
+  }
+  var cart = document.getElementById('cart');
+  function money(n) {
+    return '$' + (Math.round(n * 100) / 100).toFixed(2).replace(/\.00$/, '');
+  }
+  function calc() {
+    var c = +cart.value,
+      a = c * 0.85,
+      r = a >= 220 ? 25 : a >= 150 ? 20 : 15;
+    document.getElementById('co').textContent = '$' + c;
+    document.getElementById('rt').textContent = r + '% off storewide';
+    document.getElementById('rp').textContent = money((c * (100 - r)) / 100);
+    document.getElementById('rg').textContent =
+      r === 25 ? 'Detox + $15 credit' : r === 20 ? 'Detox + $10 credit' : 'None yet';
+    var need = r === 25 ? 0 : Math.ceil((r === 20 ? 220 : 150) / 0.85 - c);
+    document.getElementById('rn').textContent =
+      r === 25
+        ? "You've unlocked the best deal."
+        : 'Add $' +
+          need +
+          ' more to unlock ' +
+          (r === 20 ? '25% off, a free Detox and $15 credit.' : '20% off, a free Detox and $10 credit.');
+  }
+  cart.addEventListener('input', calc);
+  calc();
+  var f = document.getElementById('f'),
+    fm = document.getElementById('fm');
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var em = document.getElementById('em').value.trim();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) {
+      fm.textContent = 'Please enter a valid email.';
+      return;
+    }
+    var framed = true;
+    try {
+      framed = window.self !== window.top;
+    } catch (x) {}
+    if (framed) {
+      fm.textContent = 'Preview only: sign-ups will save once this page is online.';
+      return;
+    }
+    fm.textContent = 'Saving...';
+    fetch('https://a.klaviyo.com/client/subscriptions/?company_id=' + KLAVIYO_COMPANY, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', revision: '2024-10-15' },
+      body: JSON.stringify({
+        data: {
+          type: 'subscription',
+          attributes: {
+            profile: { data: { type: 'profile', attributes: { email: em } } },
+            custom_source: 'BFCM 2026 landing page',
+          },
+          relationships: { list: { data: { type: 'list', id: KLAVIYO_LIST } } },
+        },
+      }),
+    })
+      .then(function (r) {
+        if (!r.ok) throw 0;
+        f.reset();
+        fm.textContent = "You're on the list. We'll email you before the promo starts.";
+      })
+      .catch(function () {
+        fm.textContent = 'Something went wrong. Please try again.';
+      });
+  });
+  var bar = document.getElementById('bar'),
+    heroEl = document.querySelector('.hero .wrap');
+  function barCheck() {
+    bar.classList.toggle('on', heroEl.getBoundingClientRect().bottom < 60);
+  }
+  if (STATE !== 'ended') {
+    addEventListener('scroll', barCheck, { passive: true });
+    addEventListener('resize', barCheck);
+    barCheck();
+  }
+  bb.addEventListener('click', function (e) {
+    if (STATE === 'soon') {
+      e.preventDefault();
+      window.scrollTo(0, 0);
+      document.getElementById('em').focus({ preventScroll: true });
+    }
+  });
+  var io =
+    'IntersectionObserver' in window
+      ? new IntersectionObserver(
+          function (es) {
+            es.forEach(function (x) {
+              if (x.isIntersecting) {
+                x.target.classList.add('on');
+                io.unobserve(x.target);
+              }
+            });
+          },
+          { threshold: 0.1 }
+        )
+      : null;
+  document.querySelectorAll('.rv').forEach(function (e) {
+    io ? io.observe(e) : e.classList.add('on');
+  });
+</script>
+
+{% schema %}
+{
+  "name": "BFCM landing",
+  "settings": []
+}
+{% endschema %}
