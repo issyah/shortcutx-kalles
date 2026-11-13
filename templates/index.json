@@ -93,6 +93,7 @@
       "blocks": {
         "image_parent_WUaPx9": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1800_by_600_0e6aa206-c47f-4418-a88a-fdd36b5179ff.jpg",
             "image_mb": "shopify://shop_images/1100_by_750.jpg",
