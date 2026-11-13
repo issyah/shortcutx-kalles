@@ -91,16 +91,16 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "image_parent_WUaPx9": {
+        "image_parent_PjTGkK": {
           "type": "image_parent",
-          "disabled": true,
+          "name": "Nov Promotion",
           "settings": {
-            "image": "shopify://shop_images/1800_by_600_0e6aa206-c47f-4418-a88a-fdd36b5179ff.jpg",
-            "image_mb": "shopify://shop_images/1100_by_750.jpg",
+            "image": "shopify://shop_images/Banner_2_1.jpg",
+            "image_mb": "shopify://shop_images/Banner_4_1.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "",
-            "open_link": "_blank",
+            "link_img1": "shopify://collections/all",
+            "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
             "text_align_mb": "center",
@@ -132,16 +132,15 @@
             "animation_delay": 40
           }
         },
-        "image_parent_PjTGkK": {
+        "image_parent_WUaPx9": {
           "type": "image_parent",
-          "name": "Nov Promotion",
           "settings": {
-            "image": "shopify://shop_images/Banner_2_1.jpg",
-            "image_mb": "shopify://shop_images/Banner_4_1.jpg",
+            "image": "shopify://shop_images/1800_by_600_0e6aa206-c47f-4418-a88a-fdd36b5179ff.jpg",
+            "image_mb": "shopify://shop_images/1100_by_750.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/all",
-            "open_link": "_self",
+            "link_img1": "shopify://products/30-day-weight-loss-pack",
+            "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "center",
             "text_align_mb": "center",
@@ -924,8 +923,8 @@
         }
       },
       "block_order": [
-        "image_parent_WUaPx9",
         "image_parent_PjTGkK",
+        "image_parent_WUaPx9",
         "image_parent_epPRbC",
         "164602873867eb3815-0",
         "image_parent_FwteQB",
