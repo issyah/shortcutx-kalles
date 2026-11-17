@@ -179,6 +179,26 @@
             "background_color": "",
             "is_full_width": false
           }
+        },
+        "livemeup_live_shopping_pmu_HPcxAG": {
+          "type": "shopify://apps/livemeup-live-shopping/blocks/pmu/82ccf4ed-67f8-4725-9167-e54475d4748e",
+          "settings": {
+            "block_position": "justify-content: flex-start;",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "use_replay_title": true,
+            "custom_title": "Seen live!",
+            "font_size": 12,
+            "text_color": "",
+            "image_style": "bubble",
+            "size": 80,
+            "mobile_size": 80,
+            "rounded_borders": true,
+            "border_color": "",
+            "border_thickness": 1,
+            "show_play_button": true,
+            "preview_video": true
+          }
         }
       },
       "block_order": [
@@ -195,7 +215,8 @@
         "e89eb9e0-f1c0-4701-8827-3f5fdc7ec646",
         "tab_html_zyNhWc",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "mega_block_spacer_spacer_Qj8RUd"
+        "mega_block_spacer_spacer_Qj8RUd",
+        "livemeup_live_shopping_pmu_HPcxAG"
       ],
       "custom_css": [],
       "settings": {
