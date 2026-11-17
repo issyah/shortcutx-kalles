@@ -2762,6 +2762,23 @@
           "review_schema": true,
           "review_app": "native"
         }
+      },
+      "15516442047899035060": {
+        "type": "shopify://apps/livemeup-live-shopping/blocks/live-widget/82ccf4ed-67f8-4725-9167-e54475d4748e",
+        "disabled": false,
+        "settings": {
+          "horizontal_position": "left",
+          "horizontal_distance": 10,
+          "vertical_distance": 10,
+          "show_desktop": true,
+          "show_mobile": true,
+          "continue_watching_text": "Join us on live!",
+          "thumbnail_desktop_width": 200,
+          "thumbnail_mobile_width": 150,
+          "thumbnail_corner_radius": 10,
+          "border_color": "",
+          "border_thickness": 1
+        }
       }
     }
   },
