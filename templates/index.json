@@ -527,7 +527,6 @@
         "image_parent_EGhDxN": {
           "type": "image_parent",
           "name": "Black friday",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Wide_-_Black_Friday.jpg",
             "image_mb": "shopify://shop_images/Square_-_Black_Friday.jpg",
@@ -651,6 +650,7 @@
         "image_parent_cTC4eN": {
           "type": "image_parent",
           "name": "11.11",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Wide_-_11.11_BIG_SALE.jpg",
             "image_mb": "shopify://shop_images/Square_-_11.11_BIG_SALE.jpg",
