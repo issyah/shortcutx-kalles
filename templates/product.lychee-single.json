@@ -97,6 +97,7 @@
         },
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
           "type": "store_pickup",
+          "disabled": true,
           "settings": {}
         },
         "form": {
